@@ -262,7 +262,7 @@
 
   /* ── CARD FOOTER ──────────────────────────────────────── */
   .card-footer { display: flex; flex-direction: column; gap: 10px; }
-  .definition, .reading-box {
+  .definition, .reading-box, .news-box {
     background: var(--surface-2);
     border-left: 3px solid var(--border-2);
     border-radius: 0 6px 6px 0;
@@ -271,6 +271,13 @@
     line-height: 1.55;
   }
   .reading-box { border-left-color: var(--accent); }
+  .news-box { border-left-color: var(--yellow); }
+  .news-box ul { list-style: none; margin: 4px 0 0 0; padding: 0; }
+  .news-box li { color: var(--text-muted); margin-bottom: 6px; }
+  .news-box li:last-child { margin-bottom: 0; }
+  .news-box li strong { color: var(--text); font-weight: 600; }
+  .news-box a { color: var(--accent); text-decoration: none; }
+  .news-box a:hover { text-decoration: underline; }
   .def-tag, .reading-tag {
     font-size: 9px;
     text-transform: uppercase;
@@ -375,7 +382,7 @@
       <p>15 key macro indicators · Data through April 2026 · Sources: FRED, BLS, BEA, Federal Reserve, ISM, Census Bureau</p>
     </div>
     <div class="header-meta">
-      <span class="meta-pill"><span class="live-dot"></span>Updated Apr 23, 2026</span>
+      <span class="meta-pill"><span class="live-dot"></span>Updated Apr 27, 2026</span>
       <span class="meta-pill">All data hardcoded — no live API calls</span>
     </div>
   </div>
@@ -411,8 +418,8 @@
     </a>
     <a class="snap-item" href="#card-10y">
       <span class="snap-label">10-Yr Treasury</span>
-      <span class="snap-value">4.30%</span>
-      <span class="snap-change up">Apr 23 · Iran risk premium</span>
+      <span class="snap-value">4.31%</span>
+      <span class="snap-change up">Apr 24 · Iran risk premium</span>
     </a>
     <a class="snap-item" href="#card-nfp">
       <span class="snap-label">Nonfarm Payrolls</span>
@@ -426,8 +433,8 @@
     </a>
     <a class="snap-item" href="#card-sent">
       <span class="snap-label">UMich Sentiment</span>
-      <span class="snap-value">47.6</span>
-      <span class="snap-change up">Apr 2026 · Record low</span>
+      <span class="snap-value">49.8</span>
+      <span class="snap-change up">Apr 2026 final · Record low</span>
     </a>
   </div>
 </nav>
@@ -484,6 +491,14 @@
           <span class="reading-tag">Latest Reading</span>
           <p><strong>Q4 2025: +0.5% annualized</strong> — A sharp deceleration from Q3's robust 4.4%, driven by a decline in government spending and exports. The advance estimate for Q1 2026 is due April 30, 2026. (BEA Third Estimate, Apr 9 2026)</p>
         </div>
+        <div class="news-box">
+          <span class="def-tag">Recent News</span>
+          <ul>
+            <li><strong>Q1 2026 advance estimate due April 30 (BEA, Apr 27 2026):</strong> The BEA will release its first read on Q1 GDP this Wednesday, with nowcasts ranging widely. <a href="https://www.bea.gov/news/schedule" target="_blank" rel="noopener">link</a></li>
+            <li><strong>Atlanta Fed GDPNow cut to 1.2% (Atlanta Fed, Apr 21 2026):</strong> The model was lowered after softer retail-sales-control and inventories data, hinting at a weak start to 2026. <a href="https://www.atlantafed.org/research-and-data/data/gdpnow" target="_blank" rel="noopener">link</a></li>
+            <li><strong>NY Fed nowcast holds at 2.4%, Philly SPF at 2.6% (FRBNY / Philly Fed, Apr 24 2026):</strong> Competing nowcasts point to wider-than-usual uncertainty heading into the official print. <a href="https://www.philadelphiafed.org/surveys-and-data/real-time-data-research/spf-q1-2026" target="_blank" rel="noopener">link</a></li>
+          </ul>
+        </div>
       </div>
     </div>
 
@@ -518,6 +533,14 @@
         <div class="reading-box">
           <span class="reading-tag">Latest Reading</span>
           <p><strong>March 2026: 4.3%</strong> — Unchanged from February. The rate was held down partly by a decline in the labor force participation rate to 61.9%, its lowest since November 2021, rather than broad job gains. (BLS, Apr 3 2026)</p>
+        </div>
+        <div class="news-box">
+          <span class="def-tag">Recent News</span>
+          <ul>
+            <li><strong>Initial jobless claims rose to 214K, week ended Apr 18 (DOL, Apr 24 2026):</strong> Claims increased 6,000 from the prior week and topped the 210K consensus, with the 4-week average ticking up to 210,750. <a href="https://www.dol.gov/ui/data.pdf" target="_blank" rel="noopener">link</a></li>
+            <li><strong>Labor market stuck in "low-hire, low-fire" mode (Reuters, Apr 24 2026):</strong> Layoffs remain low but employers show little appetite for expansion as Iran-war-driven cost pressures build. <a href="https://www.usnews.com/news/business/articles/2026-04-23/us-jobless-claim-filings-rise-modestly-to-214-000-last-week-remain-at-historically-healthy-levels" target="_blank" rel="noopener">link</a></li>
+            <li><strong>April Employment Situation due May 8 (BLS, Apr 27 2026):</strong> The next release will be a key test of whether March's +178K rebound was a one-off after February's revised -133K. <a href="https://www.bls.gov/schedule/news_release/empsit.htm" target="_blank" rel="noopener">link</a></li>
+          </ul>
         </div>
       </div>
     </div>
@@ -559,6 +582,14 @@
           <span class="reading-tag">Latest Reading</span>
           <p><strong>March 2026: 3.3% YoY</strong> — A significant re-acceleration from February's 2.4%, driven overwhelmingly by a 21.2% monthly surge in gasoline prices linked to escalating US–Iran tensions in the Strait of Hormuz. Core goods and services inflation remained relatively contained. (BLS, Apr 10 2026)</p>
         </div>
+        <div class="news-box">
+          <span class="def-tag">Recent News</span>
+          <ul>
+            <li><strong>Economists expect "uncomfortably strong" April CPI (TheStreet, Apr 22 2026):</strong> Goldman Sachs and others see headline running near 3% YoY in April with energy and a shutdown-related statistical quirk pushing it higher. <a href="https://www.thestreet.com/economy/goldman-just-released-its-inflation-playbook-for-the-rest-of-2026" target="_blank" rel="noopener">link</a></li>
+            <li><strong>Brent crude tops $105 on Strait of Hormuz tensions (CNBC, Apr 23 2026):</strong> Oil is up roughly 44% from pre-war levels, keeping the energy pass-through to headline CPI elevated. <a href="https://www.cnbc.com/2026/04/23/oil-price-iran-war-strait-hormuz.html" target="_blank" rel="noopener">link</a></li>
+            <li><strong>Iran-war inflation footprint widening beyond gasoline (Purdue / Dallas Fed, Apr 21 2026):</strong> Researchers warn second-round effects on transportation and industrial supply chains are still ahead. <a href="https://ag.purdue.edu/commercialag/home/paer-article/the-march-2026-cpi-report-what-it-tells-us-about-the-iran-conflicts-inflation-footprint-and-what-is-still-coming/" target="_blank" rel="noopener">link</a></li>
+          </ul>
+        </div>
       </div>
     </div>
 
@@ -593,6 +624,14 @@
         <div class="reading-box">
           <span class="reading-tag">Latest Reading</span>
           <p><strong>March 2026: 2.6% YoY</strong> — Continued gradual easing from the 2022 peak of 6.6%. Shelter costs moderated further to 3.0% YoY, tied for the lowest since August 2021, suggesting the disinflationary trend in core services remains intact despite the energy shock. (BLS, Apr 10 2026)</p>
+        </div>
+        <div class="news-box">
+          <span class="def-tag">Recent News</span>
+          <ul>
+            <li><strong>Goldman sees core gradually drifting lower into year-end (TheStreet, Apr 22 2026):</strong> The bank's playbook still views shelter disinflation as the dominant force on core, even with energy bleeding into transportation services. <a href="https://www.thestreet.com/economy/goldman-just-released-its-inflation-playbook-for-the-rest-of-2026" target="_blank" rel="noopener">link</a></li>
+            <li><strong>Cleveland Fed nowcast keeps core CPI subdued (Cleveland Fed, Apr 24 2026):</strong> The model's April nowcast points to another sub-3% core print, supporting the easing-trend narrative. <a href="https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting" target="_blank" rel="noopener">link</a></li>
+            <li><strong>Tariff and Iran-war pass-through to core goods still limited (Reuters, Apr 22 2026):</strong> March data showed core goods inflation contained even as headline surged, though analysts warn the lag could be 2–3 months. <a href="https://www.cbsnews.com/news/cpi-report-today-march-2026-inflation-iran-war-trump/" target="_blank" rel="noopener">link</a></li>
+          </ul>
         </div>
       </div>
     </div>
@@ -629,6 +668,14 @@
           <span class="reading-tag">Latest Reading</span>
           <p><strong>February 2026: 3.5% YoY</strong> — A notable jump from January's 2.7%, the largest 12-month increase in over a year, driven by a surge in energy prices. March PCE is due April 30, 2026. The Fed's 2% target remains meaningfully above current levels. (BEA, Mar 28 2026)</p>
         </div>
+        <div class="news-box">
+          <span class="def-tag">Recent News</span>
+          <ul>
+            <li><strong>March PCE due April 30 alongside Q1 GDP (BEA, Apr 27 2026):</strong> The Fed's preferred inflation gauge will land mid-FOMC meeting, making it a high-stakes print for rate expectations. <a href="https://www.bea.gov/news/schedule" target="_blank" rel="noopener">link</a></li>
+            <li><strong>Energy pass-through expected to keep headline PCE elevated (CNBC, Apr 24 2026):</strong> Analysts expect another above-3% YoY headline as Brent near $105 feeds through. <a href="https://www.cnbc.com/2026/04/24/oil-price-wti-brent-after-israel-lebanon-ceasefire-extension.html" target="_blank" rel="noopener">link</a></li>
+            <li><strong>Cleveland Fed nowcast still flags hot March PCE (Cleveland Fed, Apr 24 2026):</strong> The Inflation Nowcasting model points to a further pickup in headline PCE. <a href="https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting" target="_blank" rel="noopener">link</a></li>
+          </ul>
+        </div>
       </div>
     </div>
 
@@ -663,6 +710,14 @@
         <div class="reading-box">
           <span class="reading-tag">Latest Reading</span>
           <p><strong>February 2026: 3.0% YoY</strong> — Re-accelerated above the Fed's 2% target and meaningfully above January's 2.8%. Services inflation remains sticky at around 3.5%. This complicates the path for Fed rate cuts and likely reinforces a hold at the April 28–29 FOMC meeting. (BEA, Mar 28 2026)</p>
+        </div>
+        <div class="news-box">
+          <span class="def-tag">Recent News</span>
+          <ul>
+            <li><strong>March core PCE due April 30 ahead of FOMC decision (BEA, Apr 27 2026):</strong> The release will hit the morning of the second day of the FOMC meeting and shape Powell's press conference. <a href="https://www.bea.gov/news/schedule" target="_blank" rel="noopener">link</a></li>
+            <li><strong>Cleveland Fed nowcast points to sticky core PCE (Cleveland Fed, Apr 24 2026):</strong> Services components are nowcast to keep core PCE near 3% YoY. <a href="https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting" target="_blank" rel="noopener">link</a></li>
+            <li><strong>Goldman: core PCE to drift lower but stay above target (TheStreet, Apr 22 2026):</strong> The bank's 2026 playbook sees core PCE finishing the year in the high-2s, well above the Fed's 2% goal. <a href="https://www.thestreet.com/economy/goldman-just-released-its-inflation-playbook-for-the-rest-of-2026" target="_blank" rel="noopener">link</a></li>
+          </ul>
         </div>
       </div>
     </div>
@@ -704,6 +759,14 @@
           <span class="reading-tag">Latest Reading</span>
           <p><strong>April 2026: 3.50–3.75% (hold)</strong> — The Fed has paused its cutting cycle for the second consecutive meeting, citing renewed inflation risk from the Iran conflict's energy price shock. The March dot plot still signals one potential cut later in 2026, but markets are now pricing in fewer cuts. (FOMC, Mar 18 2026)</p>
         </div>
+        <div class="news-box">
+          <span class="def-tag">Recent News</span>
+          <ul>
+            <li><strong>FOMC meets April 28–29, hold widely expected (Kiplinger, Apr 25 2026):</strong> Markets price near-100% odds the Fed leaves rates unchanged given Iran-driven inflation risk; this is Powell's last meeting as chair. <a href="https://www.kiplinger.com/news/live/fed-meeting-updates-and-commentary-april-2026" target="_blank" rel="noopener">link</a></li>
+            <li><strong>DOJ drops probe of Powell, clearing path for Warsh (CNBC, Apr 24 2026):</strong> Sen. Tillis withdrew his hold, and the Senate Banking Committee is set to vote on Trump's Fed chair nominee Apr 30. <a href="https://www.cnbc.com/2026/04/24/fed-powell-doj-warsh-trump.html" target="_blank" rel="noopener">link</a></li>
+            <li><strong>Tillis backs Warsh after DOJ decision (Washington Post, Apr 26 2026):</strong> With Tillis on board, Warsh's confirmation is "all but assured" before Powell's term ends in mid-May. <a href="https://www.washingtonpost.com/business/2026/04/26/tillis-fed-kevin-warsh/" target="_blank" rel="noopener">link</a></li>
+          </ul>
+        </div>
       </div>
     </div>
 
@@ -716,8 +779,8 @@
             <h2 class="metric-name">10-Year Treasury Yield</h2>
           </div>
           <div class="latest-badge">
-            <span class="badge-value" style="color:var(--c-10y)">4.30%</span>
-            <span class="badge-change up">↑ Iran risk premium</span>
+            <span class="badge-value" style="color:var(--c-10y)">4.31%</span>
+            <span class="badge-change up">↑ from 4.30%</span>
           </div>
         </div>
         <p class="metric-subtitle">US 10-Year Constant Maturity · % yield · Monthly avg</p>
@@ -737,7 +800,15 @@
         </div>
         <div class="reading-box">
           <span class="reading-tag">Latest Reading</span>
-          <p><strong>April 23, 2026: ~4.30%</strong> — Yields ticked higher as US–Iran tensions in the Strait of Hormuz reignited inflation fears, adding a geopolitical risk premium. The 10-year has ranged between 4.26%–4.55% in 2026, reflecting ongoing uncertainty about the pace of Fed easing. (FRED / Treasury, Apr 23 2026)</p>
+          <p><strong>April 24, 2026: 4.31%</strong> — Yield closed at 4.31% on Friday, edging up slightly from 4.30% on Apr 23 as US–Iran Strait of Hormuz tensions and a "hot CPI/PCE" April set kept a geopolitical risk premium in place. The 10-year has ranged between 4.26%–4.55% in 2026. (Federal Reserve H.15 / FRED, Apr 24 2026)</p>
+        </div>
+        <div class="news-box">
+          <span class="def-tag">Recent News</span>
+          <ul>
+            <li><strong>Yields tick lower intraday after DOJ drops Powell probe (CNBC, Apr 24 2026):</strong> The 10-year briefly eased on optimism the Senate would clear Warsh, before settling little changed. <a href="https://www.cnbc.com/2026/04/24/treasury-yields-ceasefire-optimism-fades.html" target="_blank" rel="noopener">link</a></li>
+            <li><strong>Brent above $105 keeps inflation premium in yields (Al Jazeera, Apr 24 2026):</strong> Hormuz blockade fears pushed crude up ~16% on the week, anchoring real-rate expectations higher. <a href="https://www.aljazeera.com/economy/2026/4/24/oil-rises-above-106-per-barrel-as-us-iran-deadlocked-in-strait-of-hormuz" target="_blank" rel="noopener">link</a></li>
+            <li><strong>Markets brace for FOMC and a heavy data week (Reuters, Apr 26 2026):</strong> Q1 GDP, March PCE, and the Fed decision land within 48 hours, setting up potential 10-year volatility. <a href="https://www.cnbc.com/2026/04/26/oil-price-iran-war-strait-hormuz.html" target="_blank" rel="noopener">link</a></li>
+          </ul>
         </div>
       </div>
     </div>
@@ -779,6 +850,14 @@
           <span class="reading-tag">Latest Reading</span>
           <p><strong>March 2026: +178,000 jobs</strong> — A solid rebound from February's surprise decline of -133,000 (partly weather- and revision-related), well above the consensus estimate of +59,000. Health care (+76K) and construction led gains. The 3-month average stands at ~74K, reflecting a more moderate underlying pace. (BLS, Apr 3 2026)</p>
         </div>
+        <div class="news-box">
+          <span class="def-tag">Recent News</span>
+          <ul>
+            <li><strong>April Employment Situation due May 8 (BLS, Apr 27 2026):</strong> The next print will test whether March's rebound has staying power as Iran-war cost pressures filter through to hiring. <a href="https://www.bls.gov/schedule/news_release/empsit.htm" target="_blank" rel="noopener">link</a></li>
+            <li><strong>Initial claims at 214K, week ended Apr 18 (DOL, Apr 24 2026):</strong> A modest uptick keeps weekly claims well within the historically healthy range, offering a reassuring signal between the monthly jobs reports. <a href="https://www.dol.gov/ui/data.pdf" target="_blank" rel="noopener">link</a></li>
+            <li><strong>Revisions trim 69K from Dec/Jan payrolls (US News / BLS, Apr 23 2026):</strong> Updated benchmarks underline a softer underlying trend, even as headline March added a strong 178K. <a href="https://www.usnews.com/news/business/articles/2026-04-23/us-jobless-claim-filings-rise-modestly-to-214-000-last-week-remain-at-historically-healthy-levels" target="_blank" rel="noopener">link</a></li>
+          </ul>
+        </div>
       </div>
     </div>
 
@@ -813,6 +892,14 @@
         <div class="reading-box">
           <span class="reading-tag">Latest Reading</span>
           <p><strong>March 2026: +1.7% MoM</strong> — The headline beat was heavily distorted by a 15.5% spike at gasoline stations due to spiking fuel prices. Excluding autos and gas, the gain was more modest. The strong headline may overstate underlying consumer demand. (Census Bureau, Apr 16 2026)</p>
+        </div>
+        <div class="news-box">
+          <span class="def-tag">Recent News</span>
+          <ul>
+            <li><strong>Tax refunds and credit support spending (Marketplace, Apr 21 2026):</strong> Reporters say larger tax refunds and rising credit-card use are propping up retail even as confidence collapses. <a href="https://www.marketplace.org/story/2026/04/21/retail-spending-rose-in-march-what-is-keeping-the-us-consumer-going" target="_blank" rel="noopener">link</a></li>
+            <li><strong>Control-group sales rose just 0.8% in March (Advisor Perspectives, Apr 21 2026):</strong> The wide gap to the +1.7% headline highlights how much gas-station receipts inflated the topline. <a href="https://www.advisorperspectives.com/dshort/updates/2026/04/21/retail-sales-jump-1-7-in-march-higher-than-expected" target="_blank" rel="noopener">link</a></li>
+            <li><strong>Consumers brace for Iran-war price shock (Capital Economics, Apr 21 2026):</strong> Forecasters expect April retail sales to give back some of March's gas-driven gains as discretionary spending softens. <a href="https://www.capitaleconomics.com/publications/us-rapid-response/us-retail-sales-mar-2026" target="_blank" rel="noopener">link</a></li>
+          </ul>
         </div>
       </div>
     </div>
@@ -854,6 +941,14 @@
           <span class="reading-tag">Latest Reading</span>
           <p><strong>March 2026: 52.7</strong> — Third consecutive month of expansion and the fastest pace since August 2022. New Orders registered 53.5 (third month of expansion). However, the Prices Index surged to 78.3 — the highest since June 2022 — flagging significant input cost inflation, likely tariff- and energy-related. (ISM, Apr 1 2026)</p>
         </div>
+        <div class="news-box">
+          <span class="def-tag">Recent News</span>
+          <ul>
+            <li><strong>April Manufacturing PMI due May 1 (ISM, Apr 27 2026):</strong> Forecasters expect a deceleration as Iran-related input costs and tariff uncertainty weigh on factory orders. <a href="https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/" target="_blank" rel="noopener">link</a></li>
+            <li><strong>Iran war emerges as new headwind in panel comments (PNC / ISM, Apr 22 2026):</strong> About 40% of executive comments in the March report cited the Middle East conflict, alongside ~20% on tariffs. <a href="https://www.pnc.com/content/dam/pnc-com/pdf/aboutpnc/EconomicReports/EconomicUpdates/2026/PNC_Economics_Research_ISM_Manufacturing_1_April_2026.pdf" target="_blank" rel="noopener">link</a></li>
+            <li><strong>Prices index surge a key Fed-watcher (Trading Economics, Apr 21 2026):</strong> The 78.3 prices reading is being read as a leading indicator of further upside risk to goods inflation in coming CPI/PCE prints. <a href="https://tradingeconomics.com/united-states/business-confidence" target="_blank" rel="noopener">link</a></li>
+          </ul>
+        </div>
       </div>
     </div>
 
@@ -888,6 +983,14 @@
         <div class="reading-box">
           <span class="reading-tag">Latest Reading</span>
           <p><strong>March 2026: 54.0</strong> — The 21st consecutive month of services expansion, though slightly down from February's strong 56.1 reading. The services sector continues to underpin the broader economy even as manufacturing rebounds and consumer sentiment deteriorates. (ISM, Apr 3 2026)</p>
+        </div>
+        <div class="news-box">
+          <span class="def-tag">Recent News</span>
+          <ul>
+            <li><strong>April Services PMI due May 5 (ISM, Apr 27 2026):</strong> Markets are watching whether the 21-month expansion streak survives April's confidence shock. <a href="https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/" target="_blank" rel="noopener">link</a></li>
+            <li><strong>Services still anchoring the expansion despite sentiment slump (CBS News, Apr 22 2026):</strong> Analysts highlight the disconnect between strong services activity and a record-low UMich sentiment reading. <a href="https://www.cbsnews.com/news/iran-war-economic-impact-gas-prices-inflation-2026/" target="_blank" rel="noopener">link</a></li>
+            <li><strong>Services prices remain a sticky-inflation concern (Trading Economics, Apr 22 2026):</strong> The Services Prices subindex held above 60 in March, helping keep core services inflation near 3.5%. <a href="https://tradingeconomics.com/united-states/non-manufacturing-pmi" target="_blank" rel="noopener">link</a></li>
+          </ul>
         </div>
       </div>
     </div>
@@ -929,6 +1032,14 @@
           <span class="reading-tag">Latest Reading</span>
           <p><strong>January 2026: 1.487M SAAR (+7.2% MoM)</strong> — The third consecutive monthly increase and the highest level since February 2025, lifted by a 29.1% surge in multi-family starts. Feb/Mar 2026 data are delayed; the Census Bureau rescheduled the release to April 29, 2026. Elevated mortgage rates continue to weigh on single-family activity. (Census Bureau)</p>
         </div>
+        <div class="news-box">
+          <span class="def-tag">Recent News</span>
+          <ul>
+            <li><strong>Combined Feb/Mar housing starts due April 29 (Census, Apr 27 2026):</strong> The dual release will give the first full picture of construction activity since January after the data delay. <a href="https://www.census.gov/construction/nrc/current/index.html" target="_blank" rel="noopener">link</a></li>
+            <li><strong>Existing-home sales tumble 3.6% in March (Rate.com / NAR, Apr 22 2026):</strong> Sales fell to a 3.98M annualized rate — the slowest March since 2009 — as elevated mortgage costs sidelined buyers. <a href="https://www.rate.com/mortgage/resource/housing-report-04-13-2026" target="_blank" rel="noopener">link</a></li>
+            <li><strong>30-year mortgage rate at 6.23% (Freddie Mac, Apr 23 2026):</strong> Rates eased seven basis points week-over-week to a three-year spring low, but spring buying remains weak. <a href="https://www.freddiemac.com/pmms" target="_blank" rel="noopener">link</a></li>
+          </ul>
+        </div>
       </div>
     </div>
 
@@ -964,6 +1075,14 @@
           <span class="reading-tag">Latest Reading</span>
           <p><strong>February 2026: -$57.3 billion</strong> — The deficit narrowed from January's -$72.9B, as import growth slowed after December's massive pre-tariff stockpiling surge. The annual 2025 trade deficit totaled $901 billion — among the largest on record — with Mexico, Vietnam, and China the leading bilateral gaps. (BEA / Census, Apr 2 2026)</p>
         </div>
+        <div class="news-box">
+          <span class="def-tag">Recent News</span>
+          <ul>
+            <li><strong>March trade balance due May 6 (BEA / Census, Apr 27 2026):</strong> The next release will be the first to fully reflect the April 8 escalation of Iran-related secondary tariffs. <a href="https://www.bea.gov/data/intl-trade-investment/international-trade-goods-and-services" target="_blank" rel="noopener">link</a></li>
+            <li><strong>Trump threatens 50% tariff on countries supplying Iran with weapons (Al Jazeera, Apr 22 2026):</strong> The new threat layers on top of the January 25% secondary-sanctions tariff and is expected to ripple through US import flows. <a href="https://www.aljazeera.com/economy/2026/4/8/trump-threatens-50-tariffs-on-countries-that-supply-iran-with-weapons" target="_blank" rel="noopener">link</a></li>
+            <li><strong>Goods deficit narrowing as tariffs bite (Wolf Street, Apr 21 2026):</strong> Year-to-date, the goods/services deficit is down 54.8% versus the same period in 2025, with imports falling 9.2%. <a href="https://wolfstreet.com/2026/04/02/the-massive-unsustainable-trade-deficit-in-goods-has-improved-sharply-tariffs-are-doing-their-job/" target="_blank" rel="noopener">link</a></li>
+          </ul>
+        </div>
       </div>
     </div>
 
@@ -981,8 +1100,8 @@
             <h2 class="metric-name">University of Michigan Consumer Sentiment</h2>
           </div>
           <div class="latest-badge">
-            <span class="badge-value" style="color:var(--c-sent)">47.6</span>
-            <span class="badge-change up">↓ Record low</span>
+            <span class="badge-value" style="color:var(--c-sent)">49.8</span>
+            <span class="badge-change up">↑ Revised from 47.6</span>
           </div>
         </div>
         <p class="metric-subtitle">UMich Consumer Sentiment Index (1966=100) · Monthly</p>
@@ -1002,7 +1121,15 @@
         </div>
         <div class="reading-box">
           <span class="reading-tag">Latest Reading</span>
-          <p><strong>April 2026 (preliminary): 47.6 — All-time record low</strong> — Sentiment collapsed 11% in early April, far below the consensus estimate of 52.0 and the lowest reading in the survey's history dating back to 1966. Year-ahead inflation expectations surged to 4.8%, up a full percentage point from March. Consumers cited spiking energy prices from the Iran conflict and falling asset values. Conference Board confidence stood at 91.8 in March, also well below historical averages. (UMich, Apr 10 2026)</p>
+          <p><strong>April 2026 (final): 49.8</strong> — The final reading was revised up from the 47.6 preliminary print but still marks a 3.5-point drop from March and the weakest level on record. Current Conditions printed 52.5 (vs. 50.1 preliminary) and Expectations 48.1 (vs. 46.1). Year-ahead inflation expectations surged to 4.7% (from 3.8% in March), the largest one-month jump since April 2025; long-run inflation expectations climbed to 3.5%, the highest since October 2025. (UMich Surveys of Consumers, Apr 24 2026)</p>
+        </div>
+        <div class="news-box" style="grid-column:1/-1;">
+          <span class="def-tag">Recent News</span>
+          <ul>
+            <li><strong>UMich final April 49.8 vs. 48.0 expected (InvestingLive, Apr 24 2026):</strong> The upward revision still leaves sentiment at a record low, with the Iran war and inflation worries weighing heavily. <a href="https://investinglive.com/news/umich-april-final-consumer-sentiment-498-vs-480-expected-20260424/" target="_blank" rel="noopener">link</a></li>
+            <li><strong>Long-run inflation expectations at highest since October 2025 (UMich, Apr 24 2026):</strong> The 3.5% reading is a closely watched signal for the FOMC and could complicate the Fed's path to easing. <a href="https://www.sca.isr.umich.edu/" target="_blank" rel="noopener">link</a></li>
+            <li><strong>Sentiment now worst on record under any administration (Fortune, Apr 23 2026):</strong> Analysts attribute the slump to a combination of war anxiety, gas-price spikes, and falling asset values. <a href="https://fortune.com/2026/04/14/michigan-consumer-sentiment-record-low-trump-economy-unfavorable-iran-war/" target="_blank" rel="noopener">link</a></li>
+          </ul>
         </div>
       </div>
     </div>
@@ -1023,7 +1150,7 @@
     <a href="https://www.census.gov" target="_blank">US Census Bureau</a> ·
     <a href="https://www.sca.isr.umich.edu" target="_blank">University of Michigan</a>
   </p>
-  <p style="margin-top:8px;">US Economic Dashboard · Data through April 23, 2026 · Historical series from January 2015 · For informational purposes only</p>
+  <p style="margin-top:8px;">US Economic Dashboard · Data through April 27, 2026 · Historical series from January 2015 · For informational purposes only</p>
 </footer>
 
 <!-- ══════════════════════════════════════════════════
