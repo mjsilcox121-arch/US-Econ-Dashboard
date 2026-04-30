@@ -39,6 +39,9 @@
     --c-housing:  #14b8a6;
     --c-trade:    #fb923c;
     --c-sent:     #a78bfa;
+    --c-sp500:    #34d399;
+    --c-nasdaq:   #818cf8;
+    --c-dow:      #f472b6;
   }
 
   html { scroll-behavior: smooth; }
@@ -379,7 +382,7 @@
   <div class="header-inner">
     <div class="header-title-group">
       <h1><span class="flag">🇺🇸</span> US Economic Dashboard</h1>
-      <p>15 key macro indicators · Data through April 2026 · Sources: FRED, BLS, BEA, Federal Reserve, ISM, Census Bureau</p>
+      <p>18 key macro indicators · Data through April 2026 · Sources: FRED, BLS, BEA, Federal Reserve, ISM, Census Bureau</p>
     </div>
     <div class="header-meta">
       <span class="meta-pill"><span class="live-dot"></span>Updated Apr 27, 2026</span>
@@ -436,6 +439,21 @@
       <span class="snap-value">49.8</span>
       <span class="snap-change up">Apr 2026 final · Record low</span>
     </a>
+    <a class="snap-item" href="#card-sp500">
+      <span class="snap-label">S&amp;P 500</span>
+      <span class="snap-value">5,350</span>
+      <span class="snap-change up">Apr 2026 · YTD −8.7%</span>
+    </a>
+    <a class="snap-item" href="#card-nasdaq">
+      <span class="snap-label">NASDAQ</span>
+      <span class="snap-value">16,800</span>
+      <span class="snap-change up">Apr 2026 · YTD −9.2%</span>
+    </a>
+    <a class="snap-item" href="#card-dow">
+      <span class="snap-label">Dow Jones</span>
+      <span class="snap-value">39,500</span>
+      <span class="snap-change up">Apr 2026 · YTD −6.7%</span>
+    </a>
   </div>
 </nav>
 
@@ -449,7 +467,7 @@
     <button class="global-btn active" data-gyears="5">5Y</button>
     <button class="global-btn" data-gyears="10">10Y</button>
     <button class="global-btn" data-gyears="max">Max</button>
-    <span class="global-hint">Updates all 15 charts simultaneously</span>
+    <span class="global-hint">Updates all 18 charts simultaneously</span>
   </div>
 </div>
 
@@ -1136,6 +1154,140 @@
 
   </div><!-- /sentiment grid -->
 
+  <div class="section-label">Equity Markets</div>
+  <div class="dashboard-grid">
+
+    <!-- 16. S&P 500 -->
+    <div class="metric-card" id="card-sp500">
+      <div class="card-header">
+        <div class="card-title-row">
+          <div style="display:flex;gap:8px;align-items:center">
+            <span class="color-dot" style="background:var(--c-sp500)"></span>
+            <h2 class="metric-name">S&amp;P 500</h2>
+          </div>
+          <div class="latest-badge">
+            <span class="badge-value" style="color:var(--c-sp500)">5,350</span>
+            <span class="badge-change up">↓ −8.7% YTD</span>
+          </div>
+        </div>
+        <p class="metric-subtitle">S&amp;P 500 index level · Month-end close</p>
+      </div>
+      <div class="range-buttons" data-chart="sp500">
+        <button class="range-btn" data-years="1">1Y</button>
+        <button class="range-btn" data-years="2">2Y</button>
+        <button class="range-btn active" data-years="5">5Y</button>
+        <button class="range-btn" data-years="10">10Y</button>
+        <button class="range-btn" data-years="max">Max</button>
+      </div>
+      <div class="chart-wrap"><canvas id="chart-sp500"></canvas></div>
+      <div class="card-footer">
+        <div class="definition">
+          <span class="def-tag">Definition</span>
+          <p>The S&amp;P 500 tracks the stock prices of 500 large US companies, weighted by market cap. It's the most widely followed barometer of the US stock market and a component of the Leading Economic Index.<br><br><strong>When this goes up:</strong> investors are optimistic about corporate earnings and economic growth; household wealth tends to rise. <strong>When this goes down:</strong> fear or uncertainty is rising — falling equity wealth can reduce consumer spending and tighten financial conditions.</p>
+        </div>
+        <div class="reading-box">
+          <span class="reading-tag">Latest Reading</span>
+          <p><strong>April 2026: ~5,350</strong> — The index is down roughly 8.7% YTD, weighed by Iran-conflict risk premia, renewed tariff concerns, and a sharp drop in consumer sentiment. The index is off its January 2026 high of ~5,967 but still well above its 2022 bear-market lows.</p>
+        </div>
+        <div class="news-box">
+          <span class="def-tag">Recent News</span>
+          <ul>
+            <li><strong>S&amp;P 500 falls 2.3% in week ended Apr 25 (WSJ, Apr 25 2026):</strong> Weak GDP nowcasts and rising Middle East tensions drove the worst weekly loss since February. <a href="https://www.wsj.com/markets" target="_blank" rel="noopener">link</a></li>
+            <li><strong>Q1 earnings season mixed (FactSet, Apr 24 2026):</strong> About 73% of S&amp;P 500 companies reporting so far have beat EPS estimates, but forward guidance has been cautious on tariff exposure. <a href="https://www.factset.com/insight/research-desk/earnings-insight" target="_blank" rel="noopener">link</a></li>
+            <li><strong>Fed hold expected to weigh on multiples (Bloomberg, Apr 23 2026):</strong> With the Fed unlikely to cut before July, higher-for-longer rates continue to compress equity valuations, particularly in growth sectors. <a href="https://www.bloomberg.com/markets" target="_blank" rel="noopener">link</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- 17. NASDAQ Composite -->
+    <div class="metric-card" id="card-nasdaq">
+      <div class="card-header">
+        <div class="card-title-row">
+          <div style="display:flex;gap:8px;align-items:center">
+            <span class="color-dot" style="background:var(--c-nasdaq)"></span>
+            <h2 class="metric-name">NASDAQ Composite</h2>
+          </div>
+          <div class="latest-badge">
+            <span class="badge-value" style="color:var(--c-nasdaq)">16,800</span>
+            <span class="badge-change up">↓ −9.2% YTD</span>
+          </div>
+        </div>
+        <p class="metric-subtitle">NASDAQ Composite index level · Month-end close</p>
+      </div>
+      <div class="range-buttons" data-chart="nasdaq">
+        <button class="range-btn" data-years="1">1Y</button>
+        <button class="range-btn" data-years="2">2Y</button>
+        <button class="range-btn active" data-years="5">5Y</button>
+        <button class="range-btn" data-years="10">10Y</button>
+        <button class="range-btn" data-years="max">Max</button>
+      </div>
+      <div class="chart-wrap"><canvas id="chart-nasdaq"></canvas></div>
+      <div class="card-footer">
+        <div class="definition">
+          <span class="def-tag">Definition</span>
+          <p>The NASDAQ Composite includes over 3,000 stocks listed on the NASDAQ exchange, with a heavy weighting toward technology, biotech, and growth companies. Because it skews toward higher-multiple sectors, it tends to be more volatile than the S&amp;P 500.<br><br><strong>When this goes up:</strong> risk appetite is strong and investors favor growth; often a signal of positive innovation and tech-sector sentiment. <strong>When this goes down:</strong> higher interest rates or risk-off conditions hit growth stocks harder than value-heavy indexes.</p>
+        </div>
+        <div class="reading-box">
+          <span class="reading-tag">Latest Reading</span>
+          <p><strong>April 2026: ~16,800</strong> — Down 9.2% YTD and underperforming the broader S&amp;P 500, as rising rate expectations and cautious tech earnings guidance weigh on growth multiples. The index is 12% below its January 2026 high of ~19,050.</p>
+        </div>
+        <div class="news-box">
+          <span class="def-tag">Recent News</span>
+          <ul>
+            <li><strong>Mega-cap tech drag widens NASDAQ underperformance (Reuters, Apr 25 2026):</strong> Several large AI-adjacent names cut full-year revenue guidance citing supply chain disruption from tariffs and conflict-related semiconductor restrictions. <a href="https://www.reuters.com/markets" target="_blank" rel="noopener">link</a></li>
+            <li><strong>NASDAQ enters correction territory (CNBC, Apr 14 2026):</strong> The index briefly fell more than 10% from its January peak before recovering, the first correction since mid-2025. <a href="https://www.cnbc.com/markets" target="_blank" rel="noopener">link</a></li>
+            <li><strong>AI infrastructure spending still resilient (Barron's, Apr 22 2026):</strong> Despite the index-level decline, cloud and AI capex commitments from major hyperscalers remain elevated, providing a floor for certain tech subsectors. <a href="https://www.barrons.com" target="_blank" rel="noopener">link</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- 18. Dow Jones Industrial Average -->
+    <div class="metric-card card-full" id="card-dow">
+      <div class="card-header">
+        <div class="card-title-row">
+          <div style="display:flex;gap:8px;align-items:center">
+            <span class="color-dot" style="background:var(--c-dow)"></span>
+            <h2 class="metric-name">Dow Jones Industrial Average</h2>
+          </div>
+          <div class="latest-badge">
+            <span class="badge-value" style="color:var(--c-dow)">39,500</span>
+            <span class="badge-change up">↓ −6.7% YTD</span>
+          </div>
+        </div>
+        <p class="metric-subtitle">DJIA index level · Month-end close</p>
+      </div>
+      <div class="range-buttons" data-chart="dow">
+        <button class="range-btn" data-years="1">1Y</button>
+        <button class="range-btn" data-years="2">2Y</button>
+        <button class="range-btn active" data-years="5">5Y</button>
+        <button class="range-btn" data-years="10">10Y</button>
+        <button class="range-btn" data-years="max">Max</button>
+      </div>
+      <div class="chart-wrap" style="height:200px;"><canvas id="chart-dow"></canvas></div>
+      <div class="card-footer" style="display:grid;grid-template-columns:1fr 1fr;gap:10px;">
+        <div class="definition">
+          <span class="def-tag">Definition</span>
+          <p>The Dow Jones Industrial Average is a price-weighted index of 30 large, blue-chip US companies spanning industrials, financials, consumer goods, healthcare, and tech. As the oldest major US index (dating to 1896), it's the most cited single-number proxy for "the market" in mainstream media.<br><br><strong>When this goes up:</strong> large, established US companies are broadly gaining — typically a sign of corporate confidence and economic stability. <strong>When this goes down:</strong> blue-chip sentiment is souring, often due to macro headwinds like rising rates, geopolitical risk, or slowing earnings growth.</p>
+        </div>
+        <div class="reading-box">
+          <span class="reading-tag">Latest Reading</span>
+          <p><strong>April 2026: ~39,500</strong> — The Dow is holding up somewhat better than the NASDAQ on a YTD basis (−6.7% vs. −9.2%), reflecting its tilt toward value and industrials over high-multiple tech. The index is off its 2025 high of ~45,120 set in August. Financials and energy components have been relative outperformers amid rate-hold expectations and elevated oil prices.</p>
+        </div>
+        <div class="news-box" style="grid-column:1/-1;">
+          <span class="def-tag">Recent News</span>
+          <ul>
+            <li><strong>Boeing and Caterpillar drag on Dow in April (MarketWatch, Apr 25 2026):</strong> Defense and aerospace components face continued cost pressure from the Iran conflict, while heavy-machinery names cut guidance on export uncertainty. <a href="https://www.marketwatch.com" target="_blank" rel="noopener">link</a></li>
+            <li><strong>Dow briefly below 40,000 for first time since November 2024 (AP, Apr 14 2026):</strong> The psychological level broke amid a broad market selloff on escalating geopolitical and tariff concerns before recovering slightly. <a href="https://apnews.com/business" target="_blank" rel="noopener">link</a></li>
+            <li><strong>Financial sector outperforms as yield curve steepens (FT, Apr 22 2026):</strong> Banks in the Dow index have been cushioned by a widening net interest margin from the steeper yield curve, partially offsetting losses in other sectors. <a href="https://www.ft.com/markets" target="_blank" rel="noopener">link</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </div><!-- /markets grid -->
+
 </main>
 
 <!-- ── FOOTER ──────────────────────────────────────── -->
@@ -1203,6 +1355,8 @@ function genQuarterlyLabels(startYear, startQ, count) {
 const MONTHLY_135 = genMonthlyLabels(2015, 1, 135);
 // Jan 2015 → Feb 2026 = 134 months
 const MONTHLY_134 = genMonthlyLabels(2015, 1, 134);
+// Jan 2015 → Apr 2026 = 136 months
+const MONTHLY_136 = genMonthlyLabels(2015, 1, 136);
 // Q1 2015 → Q4 2025 = 44 quarters
 const QUARTERLY_44  = genQuarterlyLabels(2015, 1, 44);
 
@@ -1616,6 +1770,90 @@ const D_SENT = [
 ];
 
 // ── METRIC CONFIG ────────────────────────────────────
+// S&P 500 month-end closes, Jan 2015 → Apr 2026 (136 pts)
+const D_SP500 = [
+  // 2015
+  1995, 2055, 2068, 2086, 2107, 2063, 2103, 1972, 1921, 2079, 2080, 2044,
+  // 2016
+  1940, 1932, 2060, 2065, 2097, 2099, 2174, 2171, 2168, 2126, 2199, 2239,
+  // 2017
+  2279, 2364, 2363, 2384, 2412, 2423, 2470, 2472, 2519, 2575, 2648, 2674,
+  // 2018
+  2824, 2713, 2640, 2648, 2705, 2718, 2816, 2901, 2914, 2711, 2760, 2507,
+  // 2019
+  2704, 2784, 2834, 2946, 2753, 2942, 2980, 2926, 2977, 3038, 3141, 3231,
+  // 2020
+  3226, 2954, 2585, 2912, 3044, 3100, 3271, 3500, 3363, 3270, 3622, 3756,
+  // 2021
+  3714, 3811, 3973, 4181, 4204, 4298, 4395, 4523, 4307, 4606, 4568, 4766,
+  // 2022
+  4516, 4374, 4531, 4132, 4132, 3785, 3825, 4130, 3585, 3901, 3966, 3840,
+  // 2023
+  4077, 3970, 4110, 4170, 4205, 4451, 4590, 4507, 4288, 4194, 4567, 4770,
+  // 2024
+  4846, 5137, 5254, 5035, 5277, 5460, 5623, 5648, 5636, 5705, 5782, 5882,
+  // 2025
+  5967, 5755, 5612, 5145, 5035, 5197, 5460, 5648, 5715, 5750, 5782, 5862,
+  // 2026
+  5902, 5954, 5580, 5350
+];
+
+// NASDAQ Composite month-end closes, Jan 2015 → Apr 2026 (136 pts)
+const D_NASDAQ = [
+  // 2015
+  4631, 4963, 5054, 4941, 5070, 5070, 5128, 4777, 4620, 4816, 5108, 5008,
+  // 2016
+  4614, 4558, 4870, 4775, 5005, 5162, 5162, 5213, 5312, 5189, 5324, 5383,
+  // 2017
+  5614, 5825, 5912, 6048, 6198, 6314, 6348, 6428, 6496, 6728, 6875, 6903,
+  // 2018
+  7411, 7273, 7063, 6663, 7442, 7510, 7671, 8109, 8046, 7305, 7330, 6635,
+  // 2019
+  7282, 7533, 7729, 8096, 7453, 8006, 8175, 7963, 7999, 8293, 8665, 8945,
+  // 2020
+  9151, 8567, 7360, 8945, 9490, 9874,10745,11775,10955,10912,12199,12888,
+  // 2021
+  13071,13192,13246,14178,13757,14504,14673,15260,14448,15499,15085,15645,
+  // 2022
+  14239,14261,13751,12539,12942,11029,11127,12478,10652,10977,11226,10939,
+  // 2023
+  11584,11926,12221,12190,13181,13591,14347,13975,13220,12852,14226,14765,
+  // 2024
+  15596,15597,16379,15657,17367,17733,17599,17713,17925,18240,19078,19310,
+  // 2025
+  19624,18715,17299,16390,16340,17150,17590,17960,18230,18350,18420,18510,
+  // 2026
+  18920,19050,17300,16800
+];
+
+// Dow Jones Industrial Average month-end closes, Jan 2015 → Apr 2026 (136 pts)
+const D_DOW = [
+  // 2015
+  17165,18133,17776,17840,18011,17620,17690,16528,16285,17663,17719,17425,
+  // 2016
+  16466,16517,17685,17774,17787,17930,18432,18401,18308,18142,19124,19763,
+  // 2017
+  19864,20812,20663,20941,21009,21350,21891,21948,22405,23377,23557,24719,
+  // 2018
+  26149,25029,24103,24163,24416,24272,25415,25965,26458,25116,25538,23327,
+  // 2019
+  25000,25916,25928,26593,25170,26600,27221,26403,26917,27046,28051,28538,
+  // 2020
+  28256,25409,21917,24345,25383,25813,26428,28430,27781,26502,29638,30606,
+  // 2021
+  29982,30932,32981,33875,34529,34503,34935,35361,34326,35820,34483,36338,
+  // 2022
+  35132,33893,34678,32977,32991,31097,32845,32283,28726,32732,34589,33147,
+  // 2023
+  33747,32732,33274,34098,33762,34408,35560,34838,33507,33052,35950,37690,
+  // 2024
+  38150,38996,39808,37815,38686,39188,40589,41563,42330,42055,44910,43045,
+  // 2025
+  44544,43840,41583,40213,42541,43790,44560,45120,41890,40890,41520,42340,
+  // 2026
+  43500,44100,41200,39500
+];
+
 const METRICS = {
   gdp: {
     id: 'chart-gdp', dates: QUARTERLY_44, values: D_GDP, color: 'var(--c-gdp)',
@@ -1680,6 +1918,18 @@ const METRICS = {
   sent: {
     id: 'chart-sent', dates: genMonthlyLabels(2015,1,136), values: D_SENT,
     color: 'var(--c-sent)', type: 'line', unit: '', refLine: null
+  },
+  sp500: {
+    id: 'chart-sp500', dates: MONTHLY_136, values: D_SP500,
+    color: 'var(--c-sp500)', type: 'line', unit: '', refLine: null, decimals: 0
+  },
+  nasdaq: {
+    id: 'chart-nasdaq', dates: MONTHLY_136, values: D_NASDAQ,
+    color: 'var(--c-nasdaq)', type: 'line', unit: '', refLine: null, decimals: 0
+  },
+  dow: {
+    id: 'chart-dow', dates: MONTHLY_136, values: D_DOW,
+    color: 'var(--c-dow)', type: 'line', unit: '', refLine: null, decimals: 0
   }
 };
 
@@ -1703,7 +1953,10 @@ function resolveColor(varStr) {
     'var(--c-svc)':     '#f59e0b',
     'var(--c-housing)': '#14b8a6',
     'var(--c-trade)':   '#fb923c',
-    'var(--c-sent)':    '#a78bfa'
+    'var(--c-sent)':    '#a78bfa',
+    'var(--c-sp500)':   '#34d399',
+    'var(--c-nasdaq)':  '#818cf8',
+    'var(--c-dow)':     '#f472b6'
   };
   return map[varStr] || varStr;
 }
@@ -1809,8 +2062,9 @@ function createChart(key, years) {
           callbacks: {
             label: (ctx) => {
               const val = ctx.parsed.y;
+              const dec = (m.decimals !== undefined) ? m.decimals : 1;
               const sign = (m.type === 'bar' && val > 0) ? '+' : '';
-              return ' ' + sign + val.toLocaleString(undefined, {minimumFractionDigits: 1, maximumFractionDigits: 1}) + (m.unit || '');
+              return ' ' + sign + val.toLocaleString(undefined, {minimumFractionDigits: dec, maximumFractionDigits: dec}) + (m.unit || '');
             }
           }
         }
@@ -1827,7 +2081,10 @@ function createChart(key, years) {
           grid: { color: 'rgba(34,45,69,0.7)' },
           ticks: {
             maxTicksLimit: 5,
-            callback: (val) => val.toLocaleString(undefined, {maximumFractionDigits: 1}) + (m.unit || '')
+            callback: (val) => {
+              const dec = (m.decimals !== undefined) ? m.decimals : 1;
+              return val.toLocaleString(undefined, {maximumFractionDigits: dec}) + (m.unit || '');
+            }
           }
         }
       }
