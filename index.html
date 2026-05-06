@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>US Economic Dashboard · May 2026</title>
+<title>US Economic Dashboard</title>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <style>
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -363,6 +363,16 @@
     margin-left: auto;
   }
 
+
+  /* ── CARD TIMESTAMP ──────────────────────────────── */
+  .card-ts {
+    font-size: 10px;
+    color: var(--text-faint);
+    font-weight: 400;
+  }
+  .card-ts.ok  { color: var(--green); opacity: 0.65; }
+  .card-ts.err { color: var(--text-faint); }
+
   /* ── RESPONSIVE ───────────────────────────────────────── */
   @media (max-width: 900px) {
     .site-header { padding: 20px 20px 16px; }
@@ -382,11 +392,10 @@
   <div class="header-inner">
     <div class="header-title-group">
       <h1><span class="flag">🇺🇸</span> US Economic Dashboard</h1>
-      <p>18 key macro indicators · Data through May 4, 2026 · Sources: FRED, BLS, BEA, Federal Reserve, ISM, Census Bureau</p>
+      <p id="header-sub">18 key macro indicators · <span id="header-freshness" style="color:var(--text-faint)">connecting to FRED…</span></p>
     </div>
     <div class="header-meta">
-      <span class="meta-pill"><span class="live-dot"></span>Updated May 4, 2026</span>
-      <span class="meta-pill">All data hardcoded — no live API calls</span>
+      <span class="meta-pill" id="live-pill"><span class="live-dot" id="live-dot"></span><span id="live-text">Loading…</span></span>
     </div>
   </div>
 </header>
@@ -396,62 +405,62 @@
   <div class="snapshot-inner">
     <a class="snap-item" href="#card-gdp">
       <span class="snap-label">Real GDP (QoQ ann.)</span>
-      <span class="snap-value">+2.0%</span>
+      <span class="snap-value" id="snap-gdp">+2.0%</span>
       <span class="snap-change down">Q1 2026 ↑ from 0.5%</span>
     </a>
     <a class="snap-item" href="#card-unemp">
       <span class="snap-label">Unemployment</span>
-      <span class="snap-value">4.3%</span>
+      <span class="snap-value" id="snap-unemp">4.3%</span>
       <span class="snap-change neutral">Mar 2026 · Steady</span>
     </a>
     <a class="snap-item" href="#card-cpi">
       <span class="snap-label">CPI YoY</span>
-      <span class="snap-value">3.3%</span>
+      <span class="snap-value" id="snap-cpi">3.3%</span>
       <span class="snap-change up">Mar 2026 ↑ from 2.4%</span>
     </a>
     <a class="snap-item" href="#card-corecpi">
       <span class="snap-label">Core CPI YoY</span>
-      <span class="snap-value">2.6%</span>
+      <span class="snap-value" id="snap-corecpi">2.6%</span>
       <span class="snap-change neutral">Mar 2026 · Easing</span>
     </a>
     <a class="snap-item" href="#card-ffr">
       <span class="snap-label">Fed Funds Rate</span>
-      <span class="snap-value">3.63%</span>
+      <span class="snap-value" id="snap-ffr">3.63%</span>
       <span class="snap-change neutral">Hold · 3.5–3.75% target</span>
     </a>
     <a class="snap-item" href="#card-10y">
       <span class="snap-label">10-Yr Treasury</span>
-      <span class="snap-value">4.37%</span>
+      <span class="snap-value" id="snap-ten">4.37%</span>
       <span class="snap-change up">May 1 · Post-FOMC hold</span>
     </a>
     <a class="snap-item" href="#card-nfp">
       <span class="snap-label">Nonfarm Payrolls</span>
-      <span class="snap-value">+178K</span>
+      <span class="snap-value" id="snap-nfp">+178K</span>
       <span class="snap-change down">Mar 2026 · Beat est. 59K</span>
     </a>
     <a class="snap-item" href="#card-mfg">
       <span class="snap-label">ISM Mfg PMI</span>
-      <span class="snap-value">52.7</span>
+      <span class="snap-value" id="snap-mfg">52.7</span>
       <span class="snap-change down">Apr 2026 · 4th month ↑</span>
     </a>
     <a class="snap-item" href="#card-sent">
       <span class="snap-label">UMich Sentiment</span>
-      <span class="snap-value">49.8</span>
+      <span class="snap-value" id="snap-sent">49.8</span>
       <span class="snap-change up">Apr 2026 final · Record low</span>
     </a>
     <a class="snap-item" href="#card-sp500">
       <span class="snap-label">S&amp;P 500</span>
-      <span class="snap-value">5,350</span>
+      <span class="snap-value" id="snap-sp500">5,350</span>
       <span class="snap-change up">Apr 2026 · YTD −8.7%</span>
     </a>
     <a class="snap-item" href="#card-nasdaq">
       <span class="snap-label">NASDAQ</span>
-      <span class="snap-value">16,800</span>
+      <span class="snap-value" id="snap-nasdaq">16,800</span>
       <span class="snap-change up">Apr 2026 · YTD −9.2%</span>
     </a>
     <a class="snap-item" href="#card-dow">
       <span class="snap-label">Dow Jones</span>
-      <span class="snap-value">39,500</span>
+      <span class="snap-value" id="snap-dow">39,500</span>
       <span class="snap-change up">Apr 2026 · YTD −6.7%</span>
     </a>
   </div>
@@ -486,11 +495,11 @@
             <h2 class="metric-name">Real GDP Growth</h2>
           </div>
           <div class="latest-badge">
-            <span class="badge-value" style="color:var(--c-gdp)">+2.0%</span>
+            <span class="badge-value" style="color:var(--c-gdp)" id="badge-gdp">+2.0%</span>
             <span class="badge-change down">↑ from 0.5%</span>
           </div>
         </div>
-        <p class="metric-subtitle">Annualized quarter-over-quarter % change · Quarterly</p>
+        <p class="metric-subtitle">Annualized quarter-over-quarter % change · Quarterly <span class="card-ts" id="ts-gdp"></span></p>
       </div>
       <div class="range-buttons" data-chart="gdp">
         <button class="range-btn" data-years="1">1Y</button>
@@ -529,11 +538,11 @@
             <h2 class="metric-name">Unemployment Rate</h2>
           </div>
           <div class="latest-badge">
-            <span class="badge-value" style="color:var(--c-unemp)">4.3%</span>
+            <span class="badge-value" style="color:var(--c-unemp)" id="badge-unemp">4.3%</span>
             <span class="badge-change neutral">→ Steady</span>
           </div>
         </div>
-        <p class="metric-subtitle">U-3 unemployment rate · Monthly, seasonally adjusted</p>
+        <p class="metric-subtitle">U-3 unemployment rate · Monthly, seasonally adjusted <span class="card-ts" id="ts-unemp"></span></p>
       </div>
       <div class="range-buttons" data-chart="unemp">
         <button class="range-btn" data-years="1">1Y</button>
@@ -577,11 +586,11 @@
             <h2 class="metric-name">Consumer Price Index</h2>
           </div>
           <div class="latest-badge">
-            <span class="badge-value" style="color:var(--c-cpi)">3.3%</span>
+            <span class="badge-value" style="color:var(--c-cpi)" id="badge-cpi">3.3%</span>
             <span class="badge-change up">↑ from 2.4%</span>
           </div>
         </div>
-        <p class="metric-subtitle">Headline CPI, all items · Year-over-year % change · Monthly</p>
+        <p class="metric-subtitle">Headline CPI, all items · Year-over-year % change · Monthly <span class="card-ts" id="ts-cpi"></span></p>
       </div>
       <div class="range-buttons" data-chart="cpi">
         <button class="range-btn" data-years="1">1Y</button>
@@ -620,11 +629,11 @@
             <h2 class="metric-name">Core CPI</h2>
           </div>
           <div class="latest-badge">
-            <span class="badge-value" style="color:var(--c-corecpi)">2.6%</span>
+            <span class="badge-value" style="color:var(--c-corecpi)" id="badge-corecpi">2.6%</span>
             <span class="badge-change down">↓ Easing trend</span>
           </div>
         </div>
-        <p class="metric-subtitle">CPI ex. food &amp; energy · Year-over-year % change · Monthly</p>
+        <p class="metric-subtitle">CPI ex. food &amp; energy · Year-over-year % change · Monthly <span class="card-ts" id="ts-corecpi"></span></p>
       </div>
       <div class="range-buttons" data-chart="corecpi">
         <button class="range-btn" data-years="1">1Y</button>
@@ -663,11 +672,11 @@
             <h2 class="metric-name">PCE Price Index</h2>
           </div>
           <div class="latest-badge">
-            <span class="badge-value" style="color:var(--c-pce)">3.5%</span>
+            <span class="badge-value" style="color:var(--c-pce)" id="badge-pce">3.5%</span>
             <span class="badge-change neutral">→ Steady 3.5%</span>
           </div>
         </div>
-        <p class="metric-subtitle">Personal Consumption Expenditures · YoY % change · Monthly (through Mar 2026)</p>
+        <p class="metric-subtitle">Personal Consumption Expenditures · YoY % change · Monthly <span class="card-ts" id="ts-pce"></span></p>
       </div>
       <div class="range-buttons" data-chart="pce">
         <button class="range-btn" data-years="1">1Y</button>
@@ -706,11 +715,11 @@
             <h2 class="metric-name">Core PCE Price Index</h2>
           </div>
           <div class="latest-badge">
-            <span class="badge-value" style="color:var(--c-corepce)">3.2%</span>
+            <span class="badge-value" style="color:var(--c-corepce)" id="badge-corepce">3.2%</span>
             <span class="badge-change up">↑ from 3.0%</span>
           </div>
         </div>
-        <p class="metric-subtitle">PCE ex. food &amp; energy · YoY % change · Monthly (through Mar 2026)</p>
+        <p class="metric-subtitle">PCE ex. food &amp; energy · YoY % change · Monthly <span class="card-ts" id="ts-corepce"></span></p>
       </div>
       <div class="range-buttons" data-chart="corepce">
         <button class="range-btn" data-years="1">1Y</button>
@@ -754,11 +763,11 @@
             <h2 class="metric-name">Federal Funds Rate</h2>
           </div>
           <div class="latest-badge">
-            <span class="badge-value" style="color:var(--c-ffr)">3.63%</span>
+            <span class="badge-value" style="color:var(--c-ffr)" id="badge-ffr">3.63%</span>
             <span class="badge-change neutral">→ On hold</span>
           </div>
         </div>
-        <p class="metric-subtitle">Target rate midpoint (3.50–3.75% range) · Monthly</p>
+        <p class="metric-subtitle">Federal Funds Rate target midpoint · Daily <span class="card-ts" id="ts-ffr"></span></p>
       </div>
       <div class="range-buttons" data-chart="ffr">
         <button class="range-btn" data-years="1">1Y</button>
@@ -797,11 +806,11 @@
             <h2 class="metric-name">10-Year Treasury Yield</h2>
           </div>
           <div class="latest-badge">
-            <span class="badge-value" style="color:var(--c-10y)">4.37%</span>
+            <span class="badge-value" style="color:var(--c-10y)" id="badge-ten">4.37%</span>
             <span class="badge-change up">↑ from 4.31%</span>
           </div>
         </div>
-        <p class="metric-subtitle">US 10-Year Constant Maturity · % yield · Monthly avg</p>
+        <p class="metric-subtitle">US 10-Year Constant Maturity · % yield · Daily <span class="card-ts" id="ts-ten"></span></p>
       </div>
       <div class="range-buttons" data-chart="ten">
         <button class="range-btn" data-years="1">1Y</button>
@@ -845,11 +854,11 @@
             <h2 class="metric-name">Nonfarm Payrolls</h2>
           </div>
           <div class="latest-badge">
-            <span class="badge-value" style="color:var(--c-nfp)">+178K</span>
+            <span class="badge-value" style="color:var(--c-nfp)" id="badge-nfp">+178K</span>
             <span class="badge-change down">↑ Beat 59K est.</span>
           </div>
         </div>
-        <p class="metric-subtitle">Monthly change in total nonfarm employment · Thousands · SA</p>
+        <p class="metric-subtitle">Monthly change in total nonfarm employment · Thousands · SA <span class="card-ts" id="ts-nfp"></span></p>
       </div>
       <div class="range-buttons" data-chart="nfp">
         <button class="range-btn" data-years="1">1Y</button>
@@ -888,11 +897,11 @@
             <h2 class="metric-name">Retail Sales</h2>
           </div>
           <div class="latest-badge">
-            <span class="badge-value" style="color:var(--c-retail)">+1.7%</span>
+            <span class="badge-value" style="color:var(--c-retail)" id="badge-retail">+1.7%</span>
             <span class="badge-change down">↑ MoM · Mar 2026</span>
           </div>
         </div>
-        <p class="metric-subtitle">Advance retail &amp; food services sales · Month-over-month % change</p>
+        <p class="metric-subtitle">Advance retail &amp; food services sales · Month-over-month % change <span class="card-ts" id="ts-retail"></span></p>
       </div>
       <div class="range-buttons" data-chart="retail">
         <button class="range-btn" data-years="1">1Y</button>
@@ -936,11 +945,11 @@
             <h2 class="metric-name">ISM Manufacturing PMI</h2>
           </div>
           <div class="latest-badge">
-            <span class="badge-value" style="color:var(--c-mfg)">52.7</span>
+            <span class="badge-value" style="color:var(--c-mfg)" id="badge-mfg">52.7</span>
             <span class="badge-change down">Apr 2026 · 4th month ↑</span>
           </div>
         </div>
-        <p class="metric-subtitle">Purchasing Managers' Index · 50 = expansion threshold · Monthly</p>
+        <p class="metric-subtitle">Purchasing Managers' Index · 50 = expansion threshold · Monthly <span class="card-ts" id="ts-mfg"></span></p>
       </div>
       <div class="range-buttons" data-chart="mfg">
         <button class="range-btn" data-years="1">1Y</button>
@@ -979,11 +988,11 @@
             <h2 class="metric-name">ISM Services PMI</h2>
           </div>
           <div class="latest-badge">
-            <span class="badge-value" style="color:var(--c-svc)">54.0</span>
+            <span class="badge-value" style="color:var(--c-svc)" id="badge-svc">54.0</span>
             <span class="badge-change down">21st month ↑</span>
           </div>
         </div>
-        <p class="metric-subtitle">Non-Manufacturing PMI · 50 = expansion threshold · Monthly</p>
+        <p class="metric-subtitle">Non-Manufacturing PMI · 50 = expansion threshold · Monthly <span class="card-ts" id="ts-svc"></span></p>
       </div>
       <div class="range-buttons" data-chart="svc">
         <button class="range-btn" data-years="1">1Y</button>
@@ -1027,11 +1036,11 @@
             <h2 class="metric-name">Housing Starts</h2>
           </div>
           <div class="latest-badge">
-            <span class="badge-value" style="color:var(--c-housing)">1.502M</span>
+            <span class="badge-value" style="color:var(--c-housing)" id="badge-housing">1.502M</span>
             <span class="badge-change down">↑ +10.8% MoM</span>
           </div>
         </div>
-        <p class="metric-subtitle">New residential construction starts · SAAR millions · Monthly (through Mar 2026)</p>
+        <p class="metric-subtitle">New residential construction starts · SAAR millions · Monthly <span class="card-ts" id="ts-housing"></span></p>
       </div>
       <div class="range-buttons" data-chart="housing">
         <button class="range-btn" data-years="1">1Y</button>
@@ -1070,11 +1079,11 @@
             <h2 class="metric-name">Trade Balance</h2>
           </div>
           <div class="latest-badge">
-            <span class="badge-value" style="color:var(--c-trade)">-$57B</span>
+            <span class="badge-value" style="color:var(--c-trade)" id="badge-trade">-$57B</span>
             <span class="badge-change down">↑ Narrowed Feb</span>
           </div>
         </div>
-        <p class="metric-subtitle">Goods &amp; services trade balance · $ billions · Monthly (through Feb 2026)</p>
+        <p class="metric-subtitle">Goods &amp; services trade balance · $ billions · Monthly <span class="card-ts" id="ts-trade"></span></p>
       </div>
       <div class="range-buttons" data-chart="trade">
         <button class="range-btn" data-years="1">1Y</button>
@@ -1118,11 +1127,11 @@
             <h2 class="metric-name">University of Michigan Consumer Sentiment</h2>
           </div>
           <div class="latest-badge">
-            <span class="badge-value" style="color:var(--c-sent)">49.8</span>
+            <span class="badge-value" style="color:var(--c-sent)" id="badge-sent">49.8</span>
             <span class="badge-change up">↑ Revised from 47.6</span>
           </div>
         </div>
-        <p class="metric-subtitle">UMich Consumer Sentiment Index (1966=100) · Monthly</p>
+        <p class="metric-subtitle">UMich Consumer Sentiment Index (1966=100) · Monthly <span class="card-ts" id="ts-sent"></span></p>
       </div>
       <div class="range-buttons" data-chart="sent">
         <button class="range-btn" data-years="1">1Y</button>
@@ -1166,11 +1175,11 @@
             <h2 class="metric-name">S&amp;P 500</h2>
           </div>
           <div class="latest-badge">
-            <span class="badge-value" style="color:var(--c-sp500)">5,350</span>
+            <span class="badge-value" style="color:var(--c-sp500)" id="badge-sp500">5,350</span>
             <span class="badge-change up">↓ −8.7% YTD</span>
           </div>
         </div>
-        <p class="metric-subtitle">S&amp;P 500 index level · Month-end close</p>
+        <p class="metric-subtitle">S&amp;P 500 index level · Daily <span class="card-ts" id="ts-sp500"></span></p>
       </div>
       <div class="range-buttons" data-chart="sp500">
         <button class="range-btn" data-years="1">1Y</button>
@@ -1209,11 +1218,11 @@
             <h2 class="metric-name">NASDAQ Composite</h2>
           </div>
           <div class="latest-badge">
-            <span class="badge-value" style="color:var(--c-nasdaq)">16,800</span>
+            <span class="badge-value" style="color:var(--c-nasdaq)" id="badge-nasdaq">16,800</span>
             <span class="badge-change up">↓ −9.2% YTD</span>
           </div>
         </div>
-        <p class="metric-subtitle">NASDAQ Composite index level · Month-end close</p>
+        <p class="metric-subtitle">NASDAQ Composite index level · Daily <span class="card-ts" id="ts-nasdaq"></span></p>
       </div>
       <div class="range-buttons" data-chart="nasdaq">
         <button class="range-btn" data-years="1">1Y</button>
@@ -1252,11 +1261,11 @@
             <h2 class="metric-name">Dow Jones Industrial Average</h2>
           </div>
           <div class="latest-badge">
-            <span class="badge-value" style="color:var(--c-dow)">39,500</span>
+            <span class="badge-value" style="color:var(--c-dow)" id="badge-dow">39,500</span>
             <span class="badge-change up">↓ −6.7% YTD</span>
           </div>
         </div>
-        <p class="metric-subtitle">DJIA index level · Month-end close</p>
+        <p class="metric-subtitle">DJIA index level · Daily <span class="card-ts" id="ts-dow"></span></p>
       </div>
       <div class="range-buttons" data-chart="dow">
         <button class="range-btn" data-years="1">1Y</button>
@@ -1302,7 +1311,7 @@
     <a href="https://www.census.gov" target="_blank">US Census Bureau</a> ·
     <a href="https://www.sca.isr.umich.edu" target="_blank">University of Michigan</a>
   </p>
-  <p style="margin-top:8px;">US Economic Dashboard · Data through April 27, 2026 · Historical series from January 2015 · For informational purposes only</p>
+  <p style="margin-top:8px;">US Economic Dashboard · Historical series from January 2015 · Live data via <a href="https://fred.stlouisfed.org" target="_blank">FRED API</a> · For informational purposes only</p>
 </footer>
 
 <!-- ══════════════════════════════════════════════════
@@ -2180,12 +2189,113 @@ document.querySelectorAll('.global-btn').forEach(btn => {
   });
 });
 
-// ── INIT ALL CHARTS ──────────────────────────────────
+// ══════════════════════════════════════════════════
+// LIVE DATA — FRED API
+// Get a free key at: https://fred.stlouisfed.org/docs/api/api_key.html
+// ══════════════════════════════════════════════════
+
+const FRED_KEY = '9872f28643b310f8622720d19a6dc605';
+
+// FRED series IDs and formatters for each metric
+// units: 'pc1' = percent change from year ago, 'pch' = MoM %, 'chg' = level change
+const LIVE = {
+  gdp:     { id: 'A191RL1Q225SBEA',              fmt: v => (v>=0?'+':'')+v.toFixed(1)+'%' },
+  unemp:   { id: 'UNRATE',                        fmt: v => v.toFixed(1)+'%' },
+  cpi:     { id: 'CPIAUCSL',     units: 'pc1',   fmt: v => v.toFixed(1)+'%' },
+  corecpi: { id: 'CPILFESL',     units: 'pc1',   fmt: v => v.toFixed(1)+'%' },
+  pce:     { id: 'PCEPI',        units: 'pc1',   fmt: v => v.toFixed(1)+'%' },
+  corepce: { id: 'PCEPILFE',     units: 'pc1',   fmt: v => v.toFixed(1)+'%' },
+  ffr:     { id: 'DFF',                           fmt: v => v.toFixed(2)+'%' },
+  ten:     { id: 'DGS10',                         fmt: v => v.toFixed(2)+'%' },
+  nfp:     { id: 'PAYEMS',       units: 'chg',   fmt: v => (v>=0?'+':'')+Math.round(v).toLocaleString()+'K' },
+  retail:  { id: 'RSAFS',        units: 'pch',   fmt: v => (v>=0?'+':'')+v.toFixed(1)+'%' },
+  mfg:     { id: 'NAPM',                          fmt: v => v.toFixed(1) },
+  svc:     { id: 'NMFCI',                         fmt: v => v.toFixed(1) },
+  housing: { id: 'HOUST',                         fmt: v => (v/1000).toFixed(3)+'M' },
+  trade:   { id: 'BOPGSTB',                       fmt: v => (v>=0?'+$':'-$')+Math.abs(Math.round(v))+'B' },
+  sent:    { id: 'UMCSENT',                        fmt: v => v.toFixed(1) },
+  sp500:   { id: 'SP500',                          fmt: v => Math.round(v).toLocaleString() },
+  nasdaq:  { id: 'NASDAQCOM',                      fmt: v => Math.round(v).toLocaleString() },
+  dow:     { id: 'DJIA',                           fmt: v => Math.round(v).toLocaleString() }
+};
+
+const MON = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+
+function fredLabel(dateStr) {
+  const [y, m] = dateStr.split('-');
+  return MON[+m - 1] + ' ' + y;
+}
+
+function setEl(id, text) {
+  const el = document.getElementById(id);
+  if (el) el.textContent = text;
+}
+
+async function fetchLatest(key, cfg) {
+  let url = `https://api.stlouisfed.org/fred/series/observations`
+    + `?series_id=${cfg.id}&api_key=${FRED_KEY}&file_type=json&limit=6&sort_order=desc`;
+  if (cfg.units) url += `&units=${cfg.units}`;
+  const resp = await fetch(url);
+  if (!resp.ok) throw new Error('HTTP ' + resp.status);
+  const json = await resp.json();
+  const obs = (json.observations || []).find(o => o.value !== '.' && o.value !== '' && !isNaN(+o.value));
+  if (!obs) throw new Error('no valid obs');
+  return { val: +obs.value, date: obs.date };
+}
+
+async function loadLiveData() {
+  const noKey = !FRED_KEY || FRED_KEY === 'YOUR_FRED_KEY_HERE';
+  if (noKey) {
+    setEl('live-text', 'Add FRED key for live data');
+    setEl('header-freshness', 'Hardcoded · May 2026');
+    document.querySelectorAll('.card-ts').forEach(el => {
+      el.textContent = '· cached';
+      el.className = 'card-ts err';
+    });
+    return;
+  }
+
+  let ok = 0, latestDate = '';
+
+  await Promise.allSettled(Object.entries(LIVE).map(async ([key, cfg]) => {
+    try {
+      const { val, date } = await fetchLatest(key, cfg);
+      const display = cfg.fmt(val);
+
+      setEl('badge-' + key, display);
+      setEl('snap-' + key, display);
+
+      const ts = document.getElementById('ts-' + key);
+      if (ts) { ts.textContent = '· ' + fredLabel(date); ts.className = 'card-ts ok'; }
+
+      if (date > latestDate) latestDate = date;
+      ok++;
+    } catch (e) {
+      console.warn('[FRED]', key, e.message);
+      const ts = document.getElementById('ts-' + key);
+      if (ts) { ts.textContent = '· cached'; ts.className = 'card-ts err'; }
+    }
+  }));
+
+  const dot = document.getElementById('live-dot');
+  if (ok > 0) {
+    setEl('live-text', 'Live · FRED API');
+    const freshness = ok + '/18 metrics live · latest ' + fredLabel(latestDate);
+    const el = document.getElementById('header-freshness');
+    if (el) { el.textContent = freshness; el.style.color = 'var(--green)'; el.style.opacity = '0.85'; }
+    if (dot) dot.style.background = 'var(--green)';
+  } else {
+    setEl('live-text', 'API unavailable');
+    const el = document.getElementById('header-freshness');
+    if (el) { el.textContent = 'Showing cached data'; el.style.color = 'var(--text-faint)'; }
+    if (dot) dot.style.background = 'var(--red)';
+  }
+}
+
+// ── INIT ALL CHARTS + LIVE DATA ───────────────────────
 window.addEventListener('DOMContentLoaded', () => {
-  Object.keys(METRICS).forEach(key => {
-    createChart(key, 5); // default: 5Y view
-  });
+  Object.keys(METRICS).forEach(key => createChart(key, 5));
+  loadLiveData();
 });
 </script>
-</body>
-</html>
+</
