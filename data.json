@@ -1,0 +1,25 @@
+{
+  "updated": "2026-05-06T00:00:00Z",
+  "note": "Seeded from hardcoded values — will be replaced on first GitHub Actions run",
+  "metrics": {
+    "gdp":     { "value": 2.0,    "date": "2026-01-01", "label": "Q1 2026",  "display": "+2.0%"    },
+    "unemp":   { "value": 4.3,    "date": "2026-03-01", "label": "Mar 2026", "display": "4.3%"     },
+    "cpi":     { "value": 3.3,    "date": "2026-03-01", "label": "Mar 2026", "display": "3.3%"     },
+    "corecpi": { "value": 2.6,    "date": "2026-03-01", "label": "Mar 2026", "display": "2.6%"     },
+    "pce":     { "value": 3.5,    "date": "2026-02-01", "label": "Feb 2026", "display": "3.5%"     },
+    "corepce": { "value": 3.2,    "date": "2026-02-01", "label": "Feb 2026", "display": "3.2%"     },
+    "ffr":     { "value": 3.63,   "date": "2026-03-01", "label": "Mar 2026", "display": "3.63%"    },
+    "ten":     { "value": 4.37,   "date": "2026-05-01", "label": "May 2026", "display": "4.37%"    },
+    "nfp":     { "value": 178,    "date": "2026-03-01", "label": "Mar 2026", "display": "+178K"    },
+    "retail":  { "value": 1.7,    "date": "2026-03-01", "label": "Mar 2026", "display": "+1.7%"    },
+    "mfg":     { "value": 52.7,   "date": "2026-04-01", "label": "Apr 2026", "display": "52.7"     },
+    "svc":     { "value": 54.0,   "date": "2026-04-01", "label": "Apr 2026", "display": "54.0"     },
+    "housing": { "value": 1.502,  "date": "2026-03-01", "label": "Mar 2026", "display": "1.502M"   },
+    "trade":   { "value": -57.3,  "date": "2026-02-01", "label": "Feb 2026", "display": "-$57B"    },
+    "sent":    { "value": 49.8,   "date": "2026-04-01", "label": "Apr 2026", "display": "49.8"     },
+    "sp500":   { "value": 5350,   "date": "2026-04-30", "label": "Apr 2026", "display": "5,350"    },
+    "nasdaq":  { "value": 16800,  "date": "2026-04-30", "label": "Apr 2026", "display": "16,800"   },
+    "dow":     { "value": 39500,  "date": "2026-04-30", "label": "Apr 2026", "display": "39,500"   }
+  },
+  "errors": []
+}
