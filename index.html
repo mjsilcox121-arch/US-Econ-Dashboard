@@ -2235,11 +2235,20 @@ async function fetchLatest(key, cfg) {
   let url = `https://api.stlouisfed.org/fred/series/observations`
     + `?series_id=${cfg.id}&api_key=${FRED_KEY}&file_type=json&limit=6&sort_order=desc`;
   if (cfg.units) url += `&units=${cfg.units}`;
-  const resp = await fetch(url);
-  if (!resp.ok) throw new Error('HTTP ' + resp.status);
+  let resp;
+  try {
+    resp = await fetch(url, { mode: 'cors' });
+  } catch (netErr) {
+    throw new Error('CORS/network: ' + netErr.message);
+  }
+  if (!resp.ok) {
+    let detail = 'HTTP ' + resp.status;
+    try { const t = await resp.text(); if (t) detail += ' — ' + t.slice(0, 120); } catch(_) {}
+    throw new Error(detail);
+  }
   const json = await resp.json();
   const obs = (json.observations || []).find(o => o.value !== '.' && o.value !== '' && !isNaN(+o.value));
-  if (!obs) throw new Error('no valid obs');
+  if (!obs) throw new Error('no valid obs for ' + cfg.id);
   return { val: +obs.value, date: obs.date };
 }
 
@@ -2271,9 +2280,14 @@ async function loadLiveData() {
       if (date > latestDate) latestDate = date;
       ok++;
     } catch (e) {
-      console.warn('[FRED]', key, e.message);
+      console.error('[FRED]', key, cfg.id, '→', e.message);
       const ts = document.getElementById('ts-' + key);
-      if (ts) { ts.textContent = '· cached'; ts.className = 'card-ts err'; }
+      if (ts) {
+        const short = e.message.length > 30 ? e.message.slice(0,30)+'…' : e.message;
+        ts.textContent = '· ' + short;
+        ts.className = 'card-ts err';
+        ts.title = e.message; // full error on hover
+      }
     }
   }));
 
@@ -2285,9 +2299,9 @@ async function loadLiveData() {
     if (el) { el.textContent = freshness; el.style.color = 'var(--green)'; el.style.opacity = '0.85'; }
     if (dot) dot.style.background = 'var(--green)';
   } else {
-    setEl('live-text', 'API unavailable');
+    setEl('live-text', 'API error');
     const el = document.getElementById('header-freshness');
-    if (el) { el.textContent = 'Showing cached data'; el.style.color = 'var(--text-faint)'; }
+    if (el) { el.textContent = 'Live fetch failed — check console (F12) for [FRED] errors'; el.style.color = 'var(--red)'; el.style.opacity = '0.8'; }
     if (dot) dot.style.background = 'var(--red)';
   }
 }
@@ -2298,4 +2312,5 @@ window.addEventListener('DOMContentLoaded', () => {
   loadLiveData();
 });
 </script>
-</
+</body>
+</html>
