@@ -2355,12 +2355,14 @@ function setEl(id, text) {
 }
 
 async function fetchLatest(key, cfg) {
-  let url = `https://api.stlouisfed.org/fred/series/observations`
-    + `?series_id=${cfg.id}&api_key=${FRED_KEY}&file_type=json&limit=6&sort_order=desc`;
-  if (cfg.units) url += `&units=${cfg.units}`;
+  const fredUrl = `https://api.stlouisfed.org/fred/series/observations`
+    + `?series_id=${cfg.id}&api_key=${FRED_KEY}&file_type=json&limit=6&sort_order=desc`
+    + (cfg.units ? `&units=${cfg.units}` : '');
+  // FRED doesn't send CORS headers for browser requests — route through a proxy
+  const url = 'https://corsproxy.io/?url=' + encodeURIComponent(fredUrl);
   let resp;
   try {
-    resp = await fetch(url, { mode: 'cors' });
+    resp = await fetch(url);
   } catch (netErr) {
     throw new Error('CORS/network: ' + netErr.message);
   }
