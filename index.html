@@ -2317,31 +2317,6 @@ document.querySelectorAll('.global-btn').forEach(btn => {
 // Get a free key at: https://fred.stlouisfed.org/docs/api/api_key.html
 // ══════════════════════════════════════════════════
 
-const FRED_KEY = '9872f28643b310f8622720d19a6dc605';
-
-// FRED series IDs and formatters for each metric
-// units: 'pc1' = percent change from year ago, 'pch' = MoM %, 'chg' = level change
-const LIVE = {
-  gdp:     { id: 'A191RL1Q225SBEA',              fmt: v => (v>=0?'+':'')+v.toFixed(1)+'%' },
-  unemp:   { id: 'UNRATE',                        fmt: v => v.toFixed(1)+'%' },
-  cpi:     { id: 'CPIAUCSL',     units: 'pc1',   fmt: v => v.toFixed(1)+'%' },
-  corecpi: { id: 'CPILFESL',     units: 'pc1',   fmt: v => v.toFixed(1)+'%' },
-  pce:     { id: 'PCEPI',        units: 'pc1',   fmt: v => v.toFixed(1)+'%' },
-  corepce: { id: 'PCEPILFE',     units: 'pc1',   fmt: v => v.toFixed(1)+'%' },
-  ffr:     { id: 'DFF',                           fmt: v => v.toFixed(2)+'%' },
-  ten:     { id: 'DGS10',                         fmt: v => v.toFixed(2)+'%' },
-  nfp:     { id: 'PAYEMS',       units: 'chg',   fmt: v => (v>=0?'+':'')+Math.round(v).toLocaleString()+'K' },
-  retail:  { id: 'RSAFS',        units: 'pch',   fmt: v => (v>=0?'+':'')+v.toFixed(1)+'%' },
-  mfg:     { id: 'NAPM',                          fmt: v => v.toFixed(1) },
-  svc:     { id: 'NMFCI',                         fmt: v => v.toFixed(1) },
-  housing: { id: 'HOUST',                         fmt: v => (v/1000).toFixed(3)+'M' },
-  trade:   { id: 'BOPGSTB',                       fmt: v => (v>=0?'+$':'-$')+Math.abs(Math.round(v))+'B' },
-  sent:    { id: 'UMCSENT',                        fmt: v => v.toFixed(1) },
-  sp500:   { id: 'SP500',                          fmt: v => Math.round(v).toLocaleString() },
-  nasdaq:  { id: 'NASDAQCOM',                      fmt: v => Math.round(v).toLocaleString() },
-  dow:     { id: 'DJIA',                           fmt: v => Math.round(v).toLocaleString() }
-};
-
 const MON = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
 
 function fredLabel(dateStr) {
@@ -2354,83 +2329,42 @@ function setEl(id, text) {
   if (el) el.textContent = text;
 }
 
-async function fetchLatest(key, cfg) {
-  const fredUrl = `https://api.stlouisfed.org/fred/series/observations`
-    + `?series_id=${cfg.id}&api_key=${FRED_KEY}&file_type=json&limit=6&sort_order=desc`
-    + (cfg.units ? `&units=${cfg.units}` : '');
-  // FRED doesn't send CORS headers for browser requests — route through a proxy
-  const url = 'https://corsproxy.io/?url=' + encodeURIComponent(fredUrl);
-  let resp;
-  try {
-    resp = await fetch(url);
-  } catch (netErr) {
-    throw new Error('CORS/network: ' + netErr.message);
-  }
-  if (!resp.ok) {
-    let detail = 'HTTP ' + resp.status;
-    try { const t = await resp.text(); if (t) detail += ' — ' + t.slice(0, 120); } catch(_) {}
-    throw new Error(detail);
-  }
-  const json = await resp.json();
-  const obs = (json.observations || []).find(o => o.value !== '.' && o.value !== '' && !isNaN(+o.value));
-  if (!obs) throw new Error('no valid obs for ' + cfg.id);
-  return { val: +obs.value, date: obs.date };
-}
-
+// Loads latest metric values from data.json (committed weekly by GitHub Actions).
+// Same-origin fetch — no CORS, no third-party proxy.
 async function loadLiveData() {
-  const noKey = !FRED_KEY || FRED_KEY === 'YOUR_FRED_KEY_HERE';
-  if (noKey) {
-    setEl('live-text', 'Add FRED key for live data');
-    setEl('header-freshness', 'Hardcoded · May 2026');
-    document.querySelectorAll('.card-ts').forEach(el => {
-      el.textContent = '· cached';
-      el.className = 'card-ts err';
-    });
-    return;
-  }
-
-  let ok = 0, latestDate = '';
-
-  await Promise.allSettled(Object.entries(LIVE).map(async ([key, cfg]) => {
-    try {
-      const { val, date } = await fetchLatest(key, cfg);
-      const display = cfg.fmt(val);
-
-      setEl('badge-' + key, display);
-      setEl('snap-' + key, display);
-
-      const ts = document.getElementById('ts-' + key);
-      if (ts) { ts.textContent = '· ' + fredLabel(date); ts.className = 'card-ts ok'; }
-
-      if (date > latestDate) latestDate = date;
-      ok++;
-    } catch (e) {
-      console.error('[FRED]', key, cfg.id, '→', e.message);
-      const ts = document.getElementById('ts-' + key);
-      if (ts) {
-        const short = e.message.length > 30 ? e.message.slice(0,30)+'…' : e.message;
-        ts.textContent = '· ' + short;
-        ts.className = 'card-ts err';
-        ts.title = e.message; // full error on hover
-      }
-    }
-  }));
-
   const dot = document.getElementById('live-dot');
-  if (ok > 0) {
-    setEl('live-text', 'Live · FRED API');
-    const freshness = ok + '/18 metrics live · latest ' + fredLabel(latestDate);
+  try {
+    const resp = await fetch('./data.json');
+    if (!resp.ok) throw new Error('HTTP ' + resp.status);
+    const json = await resp.json();
+    const metrics = json.metrics || {};
+
+    let ok = 0, latestDate = '';
+    for (const [key, data] of Object.entries(metrics)) {
+      setEl('badge-' + key, data.display);
+      setEl('snap-'  + key, data.display);
+      const ts = document.getElementById('ts-' + key);
+      if (ts) { ts.textContent = '· ' + fredLabel(data.date); ts.className = 'card-ts ok'; }
+      if (data.date > latestDate) latestDate = data.date;
+      ok++;
+    }
+
+    if (ok > 0) {
+      setEl('live-text', 'Live · weekly refresh');
+      const updated = json.fetched_at ? json.fetched_at.slice(0, 10) : 'recently';
+      const el = document.getElementById('header-freshness');
+      if (el) { el.textContent = ok + '/18 metrics · updated ' + updated; el.style.color = 'var(--green)'; el.style.opacity = '0.85'; }
+      if (dot) dot.style.background = 'var(--green)';
+    }
+  } catch (e) {
+    console.error('data.json load failed:', e);
+    setEl('live-text', 'Data unavailable');
     const el = document.getElementById('header-freshness');
-    if (el) { el.textContent = freshness; el.style.color = 'var(--green)'; el.style.opacity = '0.85'; }
-    if (dot) dot.style.background = 'var(--green)';
-  } else {
-    setEl('live-text', 'API error');
-    const el = document.getElementById('header-freshness');
-    if (el) { el.textContent = 'Live fetch failed — check console (F12) for [FRED] errors'; el.style.color = 'var(--red)'; el.style.opacity = '0.8'; }
+    if (el) { el.textContent = 'Could not load data — ' + e.message; el.style.color = 'var(--red)'; el.style.opacity = '0.8'; }
     if (dot) dot.style.background = 'var(--red)';
+    document.querySelectorAll('.card-ts').forEach(el => { el.textContent = '· cached'; el.className = 'card-ts err'; });
   }
 }
-
 // ══════════════════════════════════════════════════
 // CHART COMPARISON FEATURE
 // ══════════════════════════════════════════════════
