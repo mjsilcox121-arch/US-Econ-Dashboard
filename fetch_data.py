@@ -28,10 +28,13 @@ jobs:
           AV_API_KEY:   ${{ secrets.AV_API_KEY }}
         run: python3 fetch_data.py
 
-      - name: Commit and push data.json
+     - name: Commit and push data.json
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git
           git add data.json
           git diff --staged --quiet && echo "No changes" || \
             (git commit -m "Data update $(date -u +%Y-%m-%d)" && git push)
