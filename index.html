@@ -373,6 +373,93 @@
   .card-ts.ok  { color: var(--green); opacity: 0.65; }
   .card-ts.err { color: var(--text-faint); }
 
+  /* ── COMPARE FEATURE ─────────────────────────────────── */
+  .compare-btn {
+    background: transparent;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    color: var(--text-faint);
+    cursor: pointer;
+    font-size: 10px;
+    font-weight: 500;
+    padding: 3px 8px;
+    transition: all 0.15s;
+    white-space: nowrap;
+    flex-shrink: 0;
+    margin-left: auto;
+  }
+  .compare-btn:hover { border-color: var(--accent); color: var(--accent); }
+  .compare-btn.selected {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: #fff;
+  }
+  .metric-card.compare-selected { border-color: var(--accent); box-shadow: 0 0 0 1px var(--accent); }
+
+  .compare-bar {
+    background: var(--surface-2);
+    border-bottom: 1px solid var(--border);
+    padding: 10px 32px;
+    display: none;
+    align-items: center;
+  }
+  .compare-bar.visible { display: flex; }
+  .compare-bar-inner {
+    max-width: 1440px; margin: 0 auto; width: 100%;
+    display: flex; align-items: center; gap: 12px; flex-wrap: wrap;
+  }
+  .compare-bar-label { font-size: 12px; color: var(--text-muted); flex: 1; }
+  .compare-bar-label strong { color: var(--text); }
+  .compare-bar-go {
+    background: var(--accent); border: none; border-radius: 6px; color: #fff;
+    cursor: pointer; font-size: 12px; font-weight: 600; padding: 6px 16px;
+    transition: opacity 0.15s; display: none;
+  }
+  .compare-bar-go:hover { opacity: 0.85; }
+  .compare-bar-go.visible { display: inline-block; }
+  .compare-bar-clear {
+    background: transparent; border: 1px solid var(--border); border-radius: 6px;
+    color: var(--text-muted); cursor: pointer; font-size: 12px; padding: 5px 12px; transition: all 0.15s;
+  }
+  .compare-bar-clear:hover { border-color: var(--red); color: var(--red); }
+
+  /* ── COMPARISON MODAL ─────────────────────────────────── */
+  .compare-modal {
+    display: none; position: fixed; inset: 0;
+    background: rgba(7,11,20,0.92); z-index: 500;
+    align-items: center; justify-content: center; padding: 24px;
+  }
+  .compare-modal.open { display: flex; }
+  .compare-modal-inner {
+    background: var(--surface); border: 1px solid var(--border-2); border-radius: 16px;
+    max-width: 920px; width: 100%; max-height: 90vh; overflow-y: auto;
+    padding: 28px; display: flex; flex-direction: column; gap: 18px;
+  }
+  .compare-modal-header { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; }
+  .compare-modal-title { font-size: 17px; font-weight: 700; color: var(--text); }
+  .compare-modal-subtitle { font-size: 12px; color: var(--text-muted); margin-top: 4px; }
+  .compare-modal-close {
+    background: transparent; border: 1px solid var(--border); border-radius: 6px;
+    color: var(--text-muted); cursor: pointer; font-size: 16px; line-height: 1;
+    padding: 6px 10px; flex-shrink: 0; transition: all 0.15s;
+  }
+  .compare-modal-close:hover { border-color: var(--text-muted); color: var(--text); }
+  .overlay-chart-wrap { position: relative; height: 300px; }
+  .overlay-legend { display: flex; gap: 20px; flex-wrap: wrap; }
+  .overlay-legend-item { display: flex; align-items: center; gap: 7px; font-size: 12px; color: var(--text-muted); }
+  .overlay-legend-dot { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
+  .overlay-relationship {
+    background: var(--surface-2); border-left: 3px solid var(--accent);
+    border-radius: 0 8px 8px 0; padding: 14px 16px;
+  }
+  .overlay-rel-tag {
+    font-size: 9px; text-transform: uppercase; letter-spacing: 0.8px;
+    color: var(--accent); font-weight: 600; margin-bottom: 6px; display: block;
+  }
+  .overlay-rel-text { font-size: 12.5px; color: var(--text-muted); line-height: 1.65; }
+  .overlay-range-row { display: flex; gap: 6px; align-items: center; flex-wrap: wrap; }
+  .overlay-range-label { font-size: 11px; color: var(--text-faint); margin-right: 4px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; }
+
   /* ── RESPONSIVE ───────────────────────────────────────── */
   @media (max-width: 900px) {
     .site-header { padding: 20px 20px 16px; }
@@ -477,6 +564,42 @@
     <button class="global-btn" data-gyears="10">10Y</button>
     <button class="global-btn" data-gyears="max">Max</button>
     <span class="global-hint">Updates all 18 charts simultaneously</span>
+  </div>
+</div>
+
+<!-- ── COMPARE BAR ──────────────────────────────── -->
+<div class="compare-bar" id="compare-bar">
+  <div class="compare-bar-inner">
+    <span class="compare-bar-label" id="compare-bar-label">Select a second chart to compare</span>
+    <button class="compare-bar-go" id="compare-bar-go" onclick="openComparison()">View Overlay →</button>
+    <button class="compare-bar-clear" onclick="clearCompareSelection()">✕ Clear</button>
+  </div>
+</div>
+
+<!-- ── COMPARISON MODAL ──────────────────────────── -->
+<div class="compare-modal" id="compare-modal">
+  <div class="compare-modal-inner">
+    <div class="compare-modal-header">
+      <div>
+        <div class="compare-modal-title" id="overlay-title">Comparison</div>
+        <div class="compare-modal-subtitle" id="overlay-subtitle">Dual-axis overlay · both metrics on their own scale</div>
+      </div>
+      <button class="compare-modal-close" onclick="closeComparison()">✕</button>
+    </div>
+    <div class="overlay-range-row">
+      <span class="overlay-range-label">Range</span>
+      <button class="range-btn" data-oyears="1" onclick="setOverlayRange(1)">1Y</button>
+      <button class="range-btn" data-oyears="2" onclick="setOverlayRange(2)">2Y</button>
+      <button class="range-btn active" data-oyears="5" onclick="setOverlayRange(5)">5Y</button>
+      <button class="range-btn" data-oyears="10" onclick="setOverlayRange(10)">10Y</button>
+      <button class="range-btn" data-oyears="max" onclick="setOverlayRange('max')">Max</button>
+    </div>
+    <div class="overlay-legend" id="overlay-legend"></div>
+    <div class="overlay-chart-wrap"><canvas id="overlay-chart"></canvas></div>
+    <div class="overlay-relationship">
+      <span class="overlay-rel-tag">How These Metrics Relate</span>
+      <div class="overlay-rel-text" id="overlay-rel-text"></div>
+    </div>
   </div>
 </div>
 
@@ -2190,69 +2313,372 @@ document.querySelectorAll('.global-btn').forEach(btn => {
 });
 
 // ══════════════════════════════════════════════════
-// LIVE DATA — reads data.json (updated weekly by GitHub Actions)
+// LIVE DATA — FRED API
+// Get a free key at: https://fred.stlouisfed.org/docs/api/api_key.html
 // ══════════════════════════════════════════════════
 
-async function loadFromJson() {
+const FRED_KEY = '9872f28643b310f8622720d19a6dc605';
+
+// FRED series IDs and formatters for each metric
+// units: 'pc1' = percent change from year ago, 'pch' = MoM %, 'chg' = level change
+const LIVE = {
+  gdp:     { id: 'A191RL1Q225SBEA',              fmt: v => (v>=0?'+':'')+v.toFixed(1)+'%' },
+  unemp:   { id: 'UNRATE',                        fmt: v => v.toFixed(1)+'%' },
+  cpi:     { id: 'CPIAUCSL',     units: 'pc1',   fmt: v => v.toFixed(1)+'%' },
+  corecpi: { id: 'CPILFESL',     units: 'pc1',   fmt: v => v.toFixed(1)+'%' },
+  pce:     { id: 'PCEPI',        units: 'pc1',   fmt: v => v.toFixed(1)+'%' },
+  corepce: { id: 'PCEPILFE',     units: 'pc1',   fmt: v => v.toFixed(1)+'%' },
+  ffr:     { id: 'DFF',                           fmt: v => v.toFixed(2)+'%' },
+  ten:     { id: 'DGS10',                         fmt: v => v.toFixed(2)+'%' },
+  nfp:     { id: 'PAYEMS',       units: 'chg',   fmt: v => (v>=0?'+':'')+Math.round(v).toLocaleString()+'K' },
+  retail:  { id: 'RSAFS',        units: 'pch',   fmt: v => (v>=0?'+':'')+v.toFixed(1)+'%' },
+  mfg:     { id: 'NAPM',                          fmt: v => v.toFixed(1) },
+  svc:     { id: 'NMFCI',                         fmt: v => v.toFixed(1) },
+  housing: { id: 'HOUST',                         fmt: v => (v/1000).toFixed(3)+'M' },
+  trade:   { id: 'BOPGSTB',                       fmt: v => (v>=0?'+$':'-$')+Math.abs(Math.round(v))+'B' },
+  sent:    { id: 'UMCSENT',                        fmt: v => v.toFixed(1) },
+  sp500:   { id: 'SP500',                          fmt: v => Math.round(v).toLocaleString() },
+  nasdaq:  { id: 'NASDAQCOM',                      fmt: v => Math.round(v).toLocaleString() },
+  dow:     { id: 'DJIA',                           fmt: v => Math.round(v).toLocaleString() }
+};
+
+const MON = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+
+function fredLabel(dateStr) {
+  const [y, m] = dateStr.split('-');
+  return MON[+m - 1] + ' ' + y;
+}
+
+function setEl(id, text) {
+  const el = document.getElementById(id);
+  if (el) el.textContent = text;
+}
+
+async function fetchLatest(key, cfg) {
+  let url = `https://api.stlouisfed.org/fred/series/observations`
+    + `?series_id=${cfg.id}&api_key=${FRED_KEY}&file_type=json&limit=6&sort_order=desc`;
+  if (cfg.units) url += `&units=${cfg.units}`;
+  let resp;
   try {
-    const resp = await fetch('./data.json?t=' + Date.now());
-    if (!resp.ok) throw new Error('HTTP ' + resp.status);
-    const data = await resp.json();
-    const metrics = data.metrics || {};
+    resp = await fetch(url, { mode: 'cors' });
+  } catch (netErr) {
+    throw new Error('CORS/network: ' + netErr.message);
+  }
+  if (!resp.ok) {
+    let detail = 'HTTP ' + resp.status;
+    try { const t = await resp.text(); if (t) detail += ' — ' + t.slice(0, 120); } catch(_) {}
+    throw new Error(detail);
+  }
+  const json = await resp.json();
+  const obs = (json.observations || []).find(o => o.value !== '.' && o.value !== '' && !isNaN(+o.value));
+  if (!obs) throw new Error('no valid obs for ' + cfg.id);
+  return { val: +obs.value, date: obs.date };
+}
 
-    let latestDate = '';
-    let ok = 0;
+async function loadLiveData() {
+  const noKey = !FRED_KEY || FRED_KEY === 'YOUR_FRED_KEY_HERE';
+  if (noKey) {
+    setEl('live-text', 'Add FRED key for live data');
+    setEl('header-freshness', 'Hardcoded · May 2026');
+    document.querySelectorAll('.card-ts').forEach(el => {
+      el.textContent = '· cached';
+      el.className = 'card-ts err';
+    });
+    return;
+  }
 
-    for (const [key, m] of Object.entries(metrics)) {
-      if (!m || !m.display) continue;
+  let ok = 0, latestDate = '';
 
-      // Badge and snap bar
-      const badge = document.getElementById('badge-' + key);
-      const snap  = document.getElementById('snap-'  + key);
-      if (badge) badge.textContent = m.display;
-      if (snap)  snap.textContent  = m.display;
+  await Promise.allSettled(Object.entries(LIVE).map(async ([key, cfg]) => {
+    try {
+      const { val, date } = await fetchLatest(key, cfg);
+      const display = cfg.fmt(val);
 
-      // Per-card timestamp
+      setEl('badge-' + key, display);
+      setEl('snap-' + key, display);
+
+      const ts = document.getElementById('ts-' + key);
+      if (ts) { ts.textContent = '· ' + fredLabel(date); ts.className = 'card-ts ok'; }
+
+      if (date > latestDate) latestDate = date;
+      ok++;
+    } catch (e) {
+      console.error('[FRED]', key, cfg.id, '→', e.message);
       const ts = document.getElementById('ts-' + key);
       if (ts) {
-        ts.textContent  = '· ' + m.label;
-        ts.className    = 'card-ts ok';
+        const short = e.message.length > 30 ? e.message.slice(0,30)+'…' : e.message;
+        ts.textContent = '· ' + short;
+        ts.className = 'card-ts err';
+        ts.title = e.message; // full error on hover
       }
-
-      if (m.date > latestDate) latestDate = m.date;
-      ok++;
     }
+  }));
 
-    // Header status
-    const updated = data.updated ? data.updated.slice(0, 10) : '—';
+  const dot = document.getElementById('live-dot');
+  if (ok > 0) {
+    setEl('live-text', 'Live · FRED API');
+    const freshness = ok + '/18 metrics live · latest ' + fredLabel(latestDate);
     const el = document.getElementById('header-freshness');
-    if (el) {
-      el.textContent   = ok + ' metrics · refreshed ' + updated;
-      el.style.color   = 'var(--green)';
-      el.style.opacity = '0.85';
-    }
-    const dot = document.getElementById('live-dot');
+    if (el) { el.textContent = freshness; el.style.color = 'var(--green)'; el.style.opacity = '0.85'; }
     if (dot) dot.style.background = 'var(--green)';
-    const lt = document.getElementById('live-text');
-    if (lt) lt.textContent = 'Weekly · FRED';
-
-    if (data.errors && data.errors.length) {
-      console.warn('[data.json] series not fetched:', data.errors.join(', '));
-    }
-  } catch (e) {
-    console.error('[data.json] load failed:', e.message);
+  } else {
+    setEl('live-text', 'API error');
     const el = document.getElementById('header-freshness');
-    if (el) { el.textContent = 'Showing cached data'; el.style.color = 'var(--text-faint)'; }
-    document.querySelectorAll('.card-ts').forEach(ts => {
-      ts.textContent = '· cached'; ts.className = 'card-ts err';
-    });
+    if (el) { el.textContent = 'Live fetch failed — check console (F12) for [FRED] errors'; el.style.color = 'var(--red)'; el.style.opacity = '0.8'; }
+    if (dot) dot.style.background = 'var(--red)';
   }
 }
 
-// ── INIT ALL CHARTS + LIVE DATA ───────────────────────
+// ══════════════════════════════════════════════════
+// CHART COMPARISON FEATURE
+// ══════════════════════════════════════════════════
+
+const METRIC_NAMES = {
+  gdp:'Real GDP Growth', unemp:'Unemployment Rate', cpi:'CPI (Headline)',
+  corecpi:'Core CPI', pce:'PCE Inflation', corepce:'Core PCE',
+  ffr:'Fed Funds Rate', ten:'10-Yr Treasury', nfp:'Nonfarm Payrolls',
+  retail:'Retail Sales MoM', mfg:'ISM Mfg PMI', svc:'ISM Svc PMI',
+  housing:'Housing Starts', trade:'Trade Balance', sent:'Consumer Sentiment',
+  sp500:'S&P 500', nasdaq:'NASDAQ', dow:'Dow Jones'
+};
+
+const RELATIONSHIPS = {
+  'cpi+ffr': `<strong>The Fed’s Core Feedback Loop.</strong> The Federal Reserve directly controls the Fed Funds Rate and uses it as its primary weapon against inflation. When CPI rises above the ~2% target, the Fed raises rates to make borrowing more expensive — slowing spending, investment, and ultimately price growth. Conversely, when inflation cools, rate cuts become possible. The chart typically shows the FFR <em>chasing</em> CPI higher during inflationary episodes, with a lag of several months as the FOMC deliberates and then acts.`,
+  'corecpi+ffr': `<strong>The Fed’s Most Watched Pair.</strong> Core CPI (stripping out volatile food and energy) reflects the "stickier" underlying inflation trend the FOMC cares most about. When Core CPI is elevated and persistent, the Fed tends to hold or raise rates. The Fed generally won’t cut until Core CPI shows a convincing, sustained move back toward 2%. Watch this chart to judge whether current rate policy looks too tight or too loose relative to underlying price pressures.`,
+  'corepce+ffr': `<strong>The Fed’s Preferred Gauge vs Its Main Tool.</strong> Core PCE is the Federal Reserve’s <em>single most important</em> inflation benchmark — the FOMC’s 2% target is expressed in Core PCE terms. When this chart shows rates up and inflation down, that’s the textbook "tightening working" picture. The Fed has historically aimed to keep the FFR above Core PCE to maintain a positive real rate that genuinely restrains inflation.`,
+  'cpi+unemp': `<strong>The Phillips Curve.</strong> One of the most famous relationships in macroeconomics: the idea that there is a trade-off between inflation and unemployment. When unemployment is very low, workers have bargaining power, wages rise, businesses pass those costs on, and inflation tends to pick up. When unemployment rises, wage pressure eases and inflation cools. The relationship has been unstable at times — particularly during stagflation — but it remains a core analytical framework for the Fed.`,
+  'ffr+unemp': `<strong>Monetary Policy &amp; the Labor Market.</strong> The Fed has a "dual mandate" — stable prices <em>and</em> maximum employment. Rate hikes slow economic activity and hiring, pushing unemployment up; cuts stimulate job growth. This overlay shows the tension at the heart of Fed policy: raising rates to fight inflation risks causing job losses, while cutting rates to help workers risks reigniting prices. Watch for the 12–18 month lag between rate changes and their full impact on the labor market.`,
+  'gdp+unemp': `<strong>Okun’s Law.</strong> Named after economist Arthur Okun, this relationship holds that a 1-percentage-point rise in unemployment is associated with roughly a 2% drop in GDP relative to potential. When the economy grows fast, businesses hire more and unemployment falls; when growth slows or turns negative, layoffs follow. This chart gives an intuitive picture of how overall economic health and the labor market move in tandem over the business cycle.`,
+  'cpi+ten': `<strong>Inflation &amp; Long-Term Borrowing Costs.</strong> The 10-Year Treasury yield embeds investors’ expectations for future inflation — holding a fixed-rate bond only makes sense if that rate exceeds expected inflation. When CPI accelerates, bond investors demand higher yields, pushing the 10Y up. When inflation cools, yields tend to follow. This pair also reveals "real yield" dynamics: high CPI with a low 10Y means bond holders are effectively losing purchasing power in real terms.`,
+  'ffr+ten': `<strong>The Yield Curve.</strong> The spread between the 10-Year Treasury yield and the Fed Funds Rate is the most widely watched indicator of economic expectations. When the 10Y is above the FFR (normal upward-sloping curve), markets expect growth. When the FFR rises above the 10Y (yield curve inversion), it historically precedes recessions — the bond market is signaling the Fed has tightened too much and growth will slow. This is one of the most historically reliable recession-warning signals.`,
+  'ffr+sp500': `<strong>Rate Policy &amp; Equity Markets.</strong> Stock prices are ultimately the discounted present value of future earnings. When rates rise, that discount rate goes up — making future earnings worth less today, pressuring valuations. When rates fall, equities tend to rally as cheaper capital encourages investment and price-to-earnings multiples expand. Look for this classic inverse relationship in the chart, though it breaks down when the <em>reason</em> for rate moves dominates the mechanical rate effect.`,
+  'cpi+sp500': `<strong>Inflation &amp; Equity Valuations.</strong> Moderate inflation (~2%) is healthy for stocks — it signals a growing economy. But high inflation creates headwinds: the Fed raises rates (hurting valuations), input costs rise (squeezing margins), and consumers pull back on discretionary spending. This overlay often shows stocks struggling during high-inflation periods and recovering as prices cool. The "real return" on equities — stock gains minus inflation — is what matters for long-run wealth preservation.`,
+  'sent+sp500': `<strong>Consumer Psychology &amp; Market Performance.</strong> Consumer sentiment and stock prices have a mutual feedback loop. Rising markets boost household wealth and optimism; falling markets erode confidence and spending. Conversely, when consumers feel confident, they spend more — boosting corporate revenues and ultimately share prices. Watch for divergences: sentiment often leads the market at turning points, as consumers and investors independently pick up on the same macro signals.`,
+  'nfp+unemp': `<strong>Two Views of the Labor Market.</strong> Nonfarm Payrolls counts how many jobs were <em>added</em> each month, while the unemployment rate measures the <em>share</em> of people without work. Normally these move in sync — strong hiring reduces unemployment. But divergences are revealing: unemployment can fall even with modest payroll growth if people leave the labor force, and payrolls can surge while unemployment stays flat if the labor force is growing rapidly. Together they give the full picture of labor market momentum.`,
+  'gdp+nfp': `<strong>Economic Output &amp; Hiring.</strong> Job growth and GDP tend to move together — businesses hire when demand is strong and output is expanding, and shed workers when GDP contracts. During recoveries, payrolls typically lag GDP as businesses first run existing employees harder before adding new ones. In downturns, payrolls also lag as companies cut hours and freeze hiring before formal layoffs. This overlay illustrates the real-economy connection between production and employment.`,
+  'mfg+gdp': `<strong>Factory Activity as a Leading GDP Indicator.</strong> The ISM Manufacturing PMI tends to turn before GDP does. When manufacturers report expanding orders (PMI above 50), it signals goods output is picking up, feeding directly into GDP. A PMI below 50 often foreshadows GDP weakness. Manufacturing represents only ~11% of US GDP, but its forward-looking nature — order books, inventories, hiring intentions — makes the PMI one of the most watched early-warning signals for the broader economy.`,
+  'ffr+housing': `<strong>Mortgage Rates &amp; Housing Activity.</strong> Housing is one of the most interest-rate-sensitive sectors of the economy. When the Fed raises rates, mortgage rates follow, making homes less affordable and cooling new construction. When the Fed cuts, mortgage rates fall, stimulating buying and building. This chart shows a key monetary policy transmission mechanism: FFR changes filter through to housing starts relatively quickly, making housing one of the first sectors to respond to tighter or looser policy.`,
+  'retail+sent': `<strong>Consumer Confidence &amp; Spending.</strong> Consumer sentiment measures how people <em>feel</em> about the economy; retail sales measures what they actually <em>do</em>. Historically the two track closely — confident consumers spend more. But divergences are common: sometimes households feel pessimistic but continue spending because balance sheets are strong; other times confidence is high but actual spending is held back by rising prices or tighter credit. The gap between sentiment and spending often signals which way consumer behavior is about to turn.`,
+  'gdp+trade': `<strong>Net Exports &amp; Economic Growth.</strong> The trade balance is a direct component of GDP (exports minus imports). When the US runs a larger deficit, it subtracts from headline GDP; when exports rise relative to imports, trade contributes positively. A widening deficit often reflects strong domestic demand — Americans buying foreign goods — which can signal economic vitality even as it drags the GDP headline. Export growth signals overseas demand for US goods and a competitive economy.`
+};
+
+let selectedForCompare = [];
+let overlayChartInstance = null;
+let overlayRange = 5;
+
+function getRelationshipKey(a, b) { return [a, b].sort().join('+'); }
+
+function getRelationshipBlurb(a, b) {
+  const key = getRelationshipKey(a, b);
+  return RELATIONSHIPS[key] ||
+    `<strong>${METRIC_NAMES[a]} &amp; ${METRIC_NAMES[b]}.</strong> These two indicators offer complementary views of the US economy. Comparing them directly reveals how shifts in one metric relate to — and may drive or lag — movements in the other. Look for periods of convergence (both moving in the same direction) and divergence (moving in opposite directions) to understand the current macroeconomic regime and what it might signal about the path ahead.`;
+}
+
+function injectCompareButtons() {
+  document.querySelectorAll('.metric-card').forEach(card => {
+    const key = card.id.replace('card-', '');
+    if (!METRICS[key]) return;
+    const titleRow = card.querySelector('.card-title-row');
+    if (!titleRow) return;
+    const btn = document.createElement('button');
+    btn.className = 'compare-btn';
+    btn.textContent = '⊕ Compare';
+    btn.dataset.key = key;
+    btn.title = 'Select to overlay with another chart';
+    btn.addEventListener('click', () => handleCompareSelect(key, btn, card));
+    titleRow.appendChild(btn);
+  });
+}
+
+function handleCompareSelect(key, btn, card) {
+  const idx = selectedForCompare.indexOf(key);
+  if (idx !== -1) {
+    selectedForCompare.splice(idx, 1);
+    btn.classList.remove('selected');
+    card.classList.remove('compare-selected');
+  } else {
+    if (selectedForCompare.length >= 2) {
+      const oldKey = selectedForCompare.shift();
+      const oldBtn = document.querySelector(`.compare-btn[data-key="${oldKey}"]`);
+      const oldCard = document.getElementById('card-' + oldKey);
+      if (oldBtn) oldBtn.classList.remove('selected');
+      if (oldCard) oldCard.classList.remove('compare-selected');
+    }
+    selectedForCompare.push(key);
+    btn.classList.add('selected');
+    card.classList.add('compare-selected');
+  }
+  updateCompareBar();
+}
+
+function updateCompareBar() {
+  const bar = document.getElementById('compare-bar');
+  const label = document.getElementById('compare-bar-label');
+  const goBtn = document.getElementById('compare-bar-go');
+  if (selectedForCompare.length === 0) {
+    bar.classList.remove('visible');
+  } else if (selectedForCompare.length === 1) {
+    bar.classList.add('visible');
+    label.innerHTML = `<strong>${METRIC_NAMES[selectedForCompare[0]]}</strong> selected — pick a second chart to compare`;
+    goBtn.classList.remove('visible');
+  } else {
+    bar.classList.add('visible');
+    label.innerHTML = `Comparing <strong>${METRIC_NAMES[selectedForCompare[0]]}</strong> vs <strong>${METRIC_NAMES[selectedForCompare[1]]}</strong>`;
+    goBtn.classList.add('visible');
+  }
+}
+
+function clearCompareSelection() {
+  selectedForCompare.forEach(key => {
+    const btn = document.querySelector(`.compare-btn[data-key="${key}"]`);
+    const card = document.getElementById('card-' + key);
+    if (btn) btn.classList.remove('selected');
+    if (card) card.classList.remove('compare-selected');
+  });
+  selectedForCompare = [];
+  updateCompareBar();
+}
+
+function setOverlayRange(years) {
+  overlayRange = years;
+  document.querySelectorAll('[data-oyears]').forEach(btn => {
+    const v = btn.dataset.oyears === 'max' ? 'max' : parseInt(btn.dataset.oyears);
+    btn.classList.toggle('active', v === years);
+  });
+  if (selectedForCompare.length === 2) buildOverlayChart(selectedForCompare[0], selectedForCompare[1]);
+}
+
+function openComparison() {
+  if (selectedForCompare.length !== 2) return;
+  const [keyA, keyB] = selectedForCompare;
+  document.getElementById('overlay-title').textContent = `${METRIC_NAMES[keyA]} vs ${METRIC_NAMES[keyB]}`;
+  document.getElementById('overlay-rel-text').innerHTML = getRelationshipBlurb(keyA, keyB);
+  overlayRange = 5;
+  document.querySelectorAll('[data-oyears]').forEach(btn => {
+    const v = btn.dataset.oyears === 'max' ? 'max' : parseInt(btn.dataset.oyears);
+    btn.classList.toggle('active', v === 5);
+  });
+  buildOverlayChart(keyA, keyB);
+  document.getElementById('compare-modal').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeComparison() {
+  document.getElementById('compare-modal').classList.remove('open');
+  document.body.style.overflow = '';
+  if (overlayChartInstance) { overlayChartInstance.destroy(); overlayChartInstance = null; }
+}
+
+function buildOverlayChart(keyA, keyB) {
+  const mA = METRICS[keyA], mB = METRICS[keyB];
+  const colorA = resolveColor(mA.color), colorB = resolveColor(mB.color);
+
+  function slice(m, years) {
+    if (m.isQuarterly) {
+      const qY = (years === 'max') ? 'max' : Math.min(years, 11);
+      return getSliceQ(m.values, m.dates, qY);
+    }
+    return getSlice(m.values, m.dates, years);
+  }
+
+  const sliceA = slice(mA, overlayRange), sliceB = slice(mB, overlayRange);
+  let labels, dataA, dataB;
+  if (sliceA.d.length >= sliceB.d.length) {
+    labels = sliceA.d; dataA = sliceA.v;
+    const diff = sliceA.d.length - sliceB.d.length;
+    dataB = [...new Array(diff).fill(null), ...sliceB.v];
+  } else {
+    labels = sliceB.d; dataB = sliceB.v;
+    const diff = sliceB.d.length - sliceA.d.length;
+    dataA = [...new Array(diff).fill(null), ...sliceA.v];
+  }
+
+  document.getElementById('overlay-legend').innerHTML = `
+    <div class="overlay-legend-item">
+      <div class="overlay-legend-dot" style="background:${colorA}"></div>
+      <span>${METRIC_NAMES[keyA]} (left axis)</span>
+    </div>
+    <div class="overlay-legend-item">
+      <div class="overlay-legend-dot" style="background:${colorB}"></div>
+      <span>${METRIC_NAMES[keyB]} (right axis)</span>
+    </div>`;
+
+  if (overlayChartInstance) { overlayChartInstance.destroy(); overlayChartInstance = null; }
+
+  const ctx = document.getElementById('overlay-chart').getContext('2d');
+  const decA = (mA.decimals !== undefined) ? mA.decimals : 1;
+  const decB = (mB.decimals !== undefined) ? mB.decimals : 1;
+  const unitA = mA.unit || '', unitB = mB.unit || '';
+
+  overlayChartInstance = new Chart(ctx, {
+    type: 'line',
+    data: {
+      labels,
+      datasets: [
+        {
+          label: METRIC_NAMES[keyA], data: dataA,
+          borderColor: colorA, borderWidth: 2,
+          backgroundColor: 'transparent', fill: false,
+          pointRadius: 0, pointHoverRadius: 5,
+          tension: mA.stepped ? 0 : 0.3,
+          stepped: mA.stepped ? 'after' : false,
+          yAxisID: 'yA', spanGaps: true
+        },
+        {
+          label: METRIC_NAMES[keyB], data: dataB,
+          borderColor: colorB, borderWidth: 2,
+          backgroundColor: 'transparent', fill: false,
+          pointRadius: 0, pointHoverRadius: 5,
+          tension: mB.stepped ? 0 : 0.3,
+          stepped: mB.stepped ? 'after' : false,
+          yAxisID: 'yB', spanGaps: true
+        }
+      ]
+    },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      animation: { duration: 400 },
+      interaction: { intersect: false, mode: 'index' },
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          callbacks: {
+            label: (item) => {
+              const v = item.parsed.y;
+              if (v === null || v === undefined) return null;
+              const isA = item.datasetIndex === 0;
+              const dec = isA ? decA : decB;
+              const unit = isA ? unitA : unitB;
+              const sign = ((isA ? mA : mB).type === 'bar' && v > 0) ? '+' : '';
+              return ` ${item.dataset.label}: ${sign}${v.toLocaleString(undefined,{minimumFractionDigits:dec,maximumFractionDigits:dec})}${unit}`;
+            }
+          }
+        }
+      },
+      scales: {
+        x: { grid: { display: false }, ticks: { maxTicksLimit: 8, maxRotation: 0 } },
+        yA: {
+          type: 'linear', position: 'left',
+          grid: { color: 'rgba(34,45,69,0.7)' },
+          ticks: { maxTicksLimit: 5, color: colorA,
+            callback: v => v.toLocaleString(undefined,{maximumFractionDigits:decA}) + unitA }
+        },
+        yB: {
+          type: 'linear', position: 'right',
+          grid: { display: false },
+          ticks: { maxTicksLimit: 5, color: colorB,
+            callback: v => v.toLocaleString(undefined,{maximumFractionDigits:decB}) + unitB }
+        }
+      }
+    }
+  });
+}
+
+// ── INIT ALL CHARTS + LIVE DATA ─────────────────────
 window.addEventListener('DOMContentLoaded', () => {
   Object.keys(METRICS).forEach(key => createChart(key, 5));
-  loadFromJson();
+  injectCompareButtons();
+  loadLiveData();
 });
 </script>
 </body>
