@@ -2583,14 +2583,28 @@ function buildOverlayChart(keyA, keyB) {
 
   const sliceA = slice(mA, overlayRange), sliceB = slice(mB, overlayRange);
   let labels, dataA, dataB;
-  if (sliceA.d.length >= sliceB.d.length) {
-    labels = sliceA.d; dataA = sliceA.v;
-    const diff = sliceA.d.length - sliceB.d.length;
-    dataB = [...new Array(diff).fill(null), ...sliceB.v];
+
+  if (mA.isQuarterly !== mB.isQuarterly) {
+    // Mixed quarterly + monthly: expand quarterly onto the monthly x-axis.
+    // Each quarter maps to its last month: Q1→Mar, Q2→Jun, Q3→Sep, Q4→Dec.
+    const qSlice = mA.isQuarterly ? sliceA : sliceB;
+    const mSlice = mA.isQuarterly ? sliceB : sliceA;
+    const qToMonth = { 1:'Mar', 2:'Jun', 3:'Sep', 4:'Dec' };
+    const qMap = {};
+    qSlice.d.forEach((lbl, i) => {
+      const m = lbl.match(/Q(\d) (\d{4})/);
+      if (m) qMap[qToMonth[+m[1]] + " '" + m[2].slice(2)] = qSlice.v[i];
+    });
+    labels = mSlice.d;
+    const expanded = mSlice.d.map(l => (qMap[l] !== undefined ? qMap[l] : null));
+    dataA = mA.isQuarterly ? expanded : mSlice.v;
+    dataB = mB.isQuarterly ? expanded : mSlice.v;
   } else {
-    labels = sliceB.d; dataB = sliceB.v;
-    const diff = sliceB.d.length - sliceA.d.length;
-    dataA = [...new Array(diff).fill(null), ...sliceA.v];
+    // Same granularity — align from the most-recent end, trim to min length.
+    const len = Math.min(sliceA.d.length, sliceB.d.length);
+    labels = sliceA.d.slice(-len);
+    dataA  = sliceA.v.slice(-len);
+    dataB  = sliceB.v.slice(-len);
   }
 
   document.getElementById('overlay-legend').innerHTML = `
