@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-07T12:25:45Z",
+  "updated": "2026-05-08T00:08:46Z",
   "metrics": {
     "gdp": {
       "value": 2.0,
@@ -13,53 +13,11 @@
       "label": "Mar 2026",
       "display": "4.3%"
     },
-    "cpi": {
-      "value": 3.286,
-      "date": "2026-03-01",
-      "label": "Mar 2026",
-      "display": "+3.3%"
-    },
-    "corecpi": {
-      "value": 2.6022,
-      "date": "2026-03-01",
-      "label": "Mar 2026",
-      "display": "+2.6%"
-    },
-    "pce": {
-      "value": 3.4961,
-      "date": "2026-03-01",
-      "label": "Mar 2026",
-      "display": "+3.5%"
-    },
-    "corepce": {
-      "value": 3.2028,
-      "date": "2026-03-01",
-      "label": "Mar 2026",
-      "display": "+3.2%"
-    },
-    "ffr": {
-      "value": 3.64,
-      "date": "2026-05-05",
-      "label": "May 2026",
-      "display": "3.64%"
-    },
     "ten": {
-      "value": 4.43,
-      "date": "2026-05-05",
+      "value": 4.36,
+      "date": "2026-05-06",
       "label": "May 2026",
-      "display": "4.43%"
-    },
-    "nfp": {
-      "value": 178.0,
-      "date": "2026-03-01",
-      "label": "Mar 2026",
-      "display": "+178K"
-    },
-    "retail": {
-      "value": 1.6615,
-      "date": "2026-03-01",
-      "label": "Mar 2026",
-      "display": "+1.7%"
+      "display": "4.36%"
     },
     "housing": {
       "value": 1.502,
@@ -80,26 +38,28 @@
       "display": "53.3"
     },
     "sp500": {
-      "value": 7365.12,
-      "date": "2026-05-06",
+      "value": 7337.11,
+      "date": "2026-05-07",
       "label": "May 2026",
-      "display": "7,365"
-    },
-    "nasdaq": {
-      "value": 25838.94,
-      "date": "2026-05-06",
-      "label": "May 2026",
-      "display": "25,839"
+      "display": "7,337"
     },
     "dow": {
-      "value": 49910.59,
-      "date": "2026-05-06",
+      "value": 49596.97,
+      "date": "2026-05-07",
       "label": "May 2026",
-      "display": "49,911"
+      "display": "49,597"
     }
   },
   "errors": [
+    "cpi",
+    "corecpi",
+    "pce",
+    "corepce",
+    "ffr",
+    "nfp",
+    "retail",
     "mfg",
-    "svc"
+    "svc",
+    "nasdaq"
   ]
 }
