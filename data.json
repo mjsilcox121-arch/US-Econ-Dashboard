@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-14T07:35:52Z",
+  "updated": "2026-05-15T00:13:13Z",
   "metrics": {
     "gdp": {
       "value": 2.0,
@@ -39,13 +39,13 @@
     },
     "ffr": {
       "value": 3.63,
-      "date": "2026-05-12",
+      "date": "2026-05-13",
       "label": "May 2026",
       "display": "3.63%"
     },
     "ten": {
       "value": 4.46,
-      "date": "2026-05-12",
+      "date": "2026-05-13",
       "label": "May 2026",
       "display": "4.46%"
     },
@@ -56,10 +56,10 @@
       "display": "+115K"
     },
     "retail": {
-      "value": 1.6615,
-      "date": "2026-03-01",
-      "label": "Mar 2026",
-      "display": "+1.7%"
+      "value": 0.4931,
+      "date": "2026-04-01",
+      "label": "Apr 2026",
+      "display": "+0.5%"
     },
     "housing": {
       "value": 1.502,
