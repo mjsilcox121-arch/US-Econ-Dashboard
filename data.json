@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-20T22:24:53Z",
+  "updated": "2026-05-21T22:21:41Z",
   "metrics": {
     "gdp": {
       "value": 2.0,
@@ -39,15 +39,15 @@
     },
     "ffr": {
       "value": 3.62,
-      "date": "2026-05-19",
+      "date": "2026-05-20",
       "label": "May 2026",
       "display": "3.62%"
     },
     "ten": {
-      "value": 4.67,
-      "date": "2026-05-19",
+      "value": 4.57,
+      "date": "2026-05-20",
       "label": "May 2026",
-      "display": "4.67%"
+      "display": "4.57%"
     },
     "nfp": {
       "value": 115.0,
@@ -62,10 +62,10 @@
       "display": "+0.5%"
     },
     "housing": {
-      "value": 1.502,
-      "date": "2026-03-01",
-      "label": "Mar 2026",
-      "display": "1.502M"
+      "value": 1.465,
+      "date": "2026-04-01",
+      "label": "Apr 2026",
+      "display": "1.465M"
     },
     "trade": {
       "value": -60307.0,
@@ -80,22 +80,22 @@
       "display": "53.3"
     },
     "sp500": {
-      "value": 7353.61,
-      "date": "2026-05-19",
+      "value": 7432.97,
+      "date": "2026-05-20",
       "label": "May 2026",
-      "display": "7,354"
+      "display": "7,433"
     },
     "nasdaq": {
-      "value": 25870.71,
-      "date": "2026-05-19",
+      "value": 26270.36,
+      "date": "2026-05-20",
       "label": "May 2026",
-      "display": "25,871"
+      "display": "26,270"
     },
     "dow": {
-      "value": 49363.88,
-      "date": "2026-05-19",
+      "value": 50009.35,
+      "date": "2026-05-20",
       "label": "May 2026",
-      "display": "49,364"
+      "display": "50,009"
     }
   },
   "errors": [
