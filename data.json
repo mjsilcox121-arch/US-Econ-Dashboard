@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-22T22:11:14Z",
+  "updated": "2026-05-25T22:10:44Z",
   "metrics": {
     "gdp": {
       "value": 2.0,
@@ -80,22 +80,22 @@
       "display": "49.8"
     },
     "sp500": {
-      "value": 7445.72,
-      "date": "2026-05-21",
+      "value": 7473.47,
+      "date": "2026-05-22",
       "label": "May 2026",
-      "display": "7,446"
+      "display": "7,473"
     },
     "nasdaq": {
-      "value": 26293.1,
-      "date": "2026-05-21",
+      "value": 26343.97,
+      "date": "2026-05-22",
       "label": "May 2026",
-      "display": "26,293"
+      "display": "26,344"
     },
     "dow": {
-      "value": 50285.66,
-      "date": "2026-05-21",
+      "value": 50579.7,
+      "date": "2026-05-22",
       "label": "May 2026",
-      "display": "50,286"
+      "display": "50,580"
     }
   },
   "errors": [
