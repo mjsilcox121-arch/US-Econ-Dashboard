@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-25T22:10:44Z",
+  "updated": "2026-05-26T22:22:12Z",
   "metrics": {
     "gdp": {
       "value": 2.0,
@@ -39,15 +39,15 @@
     },
     "ffr": {
       "value": 3.62,
-      "date": "2026-05-21",
+      "date": "2026-05-25",
       "label": "May 2026",
       "display": "3.62%"
     },
     "ten": {
-      "value": 4.57,
-      "date": "2026-05-21",
+      "value": 4.56,
+      "date": "2026-05-22",
       "label": "May 2026",
-      "display": "4.57%"
+      "display": "4.56%"
     },
     "nfp": {
       "value": 115.0,
