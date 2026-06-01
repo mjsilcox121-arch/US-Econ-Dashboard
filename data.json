@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-29T22:38:35Z",
+  "updated": "2026-06-01T23:03:07Z",
   "metrics": {
     "gdp": {
       "value": 1.6,
@@ -13,24 +13,6 @@
       "label": "Apr 2026",
       "display": "4.3%"
     },
-    "cpi": {
-      "value": 3.7793,
-      "date": "2026-04-01",
-      "label": "Apr 2026",
-      "display": "+3.8%"
-    },
-    "corecpi": {
-      "value": 2.7433,
-      "date": "2026-04-01",
-      "label": "Apr 2026",
-      "display": "+2.7%"
-    },
-    "pce": {
-      "value": 3.7669,
-      "date": "2026-04-01",
-      "label": "Apr 2026",
-      "display": "+3.8%"
-    },
     "corepce": {
       "value": 3.2892,
       "date": "2026-04-01",
@@ -39,33 +21,15 @@
     },
     "ffr": {
       "value": 3.62,
-      "date": "2026-05-28",
+      "date": "2026-05-29",
       "label": "May 2026",
       "display": "3.62%"
-    },
-    "ten": {
-      "value": 4.45,
-      "date": "2026-05-28",
-      "label": "May 2026",
-      "display": "4.45%"
-    },
-    "nfp": {
-      "value": 115.0,
-      "date": "2026-04-01",
-      "label": "Apr 2026",
-      "display": "+115K"
     },
     "retail": {
       "value": 0.4931,
       "date": "2026-04-01",
       "label": "Apr 2026",
       "display": "+0.5%"
-    },
-    "housing": {
-      "value": 1.465,
-      "date": "2026-04-01",
-      "label": "Apr 2026",
-      "display": "1.465M"
     },
     "trade": {
       "value": -60307.0,
@@ -79,27 +43,28 @@
       "label": "Apr 2026",
       "display": "49.8"
     },
-    "sp500": {
-      "value": 7563.63,
-      "date": "2026-05-28",
-      "label": "May 2026",
-      "display": "7,564"
-    },
     "nasdaq": {
-      "value": 26917.47,
-      "date": "2026-05-28",
+      "value": 26972.62,
+      "date": "2026-05-29",
       "label": "May 2026",
-      "display": "26,917"
+      "display": "26,973"
     },
     "dow": {
-      "value": 50668.97,
-      "date": "2026-05-28",
+      "value": 51032.46,
+      "date": "2026-05-29",
       "label": "May 2026",
-      "display": "50,669"
+      "display": "51,032"
     }
   },
   "errors": [
+    "cpi",
+    "corecpi",
+    "pce",
+    "ten",
+    "nfp",
     "mfg",
-    "svc"
+    "svc",
+    "housing",
+    "sp500"
   ]
 }
