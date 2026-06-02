@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-01T23:03:07Z",
+  "updated": "2026-06-02T23:03:58Z",
   "metrics": {
     "gdp": {
       "value": 1.6,
@@ -13,17 +13,23 @@
       "label": "Apr 2026",
       "display": "4.3%"
     },
+    "pce": {
+      "value": 3.7669,
+      "date": "2026-04-01",
+      "label": "Apr 2026",
+      "display": "+3.8%"
+    },
     "corepce": {
       "value": 3.2892,
       "date": "2026-04-01",
       "label": "Apr 2026",
       "display": "+3.3%"
     },
-    "ffr": {
-      "value": 3.62,
-      "date": "2026-05-29",
-      "label": "May 2026",
-      "display": "3.62%"
+    "nfp": {
+      "value": 115.0,
+      "date": "2026-04-01",
+      "label": "Apr 2026",
+      "display": "+115K"
     },
     "retail": {
       "value": 0.4931,
@@ -31,40 +37,39 @@
       "label": "Apr 2026",
       "display": "+0.5%"
     },
+    "housing": {
+      "value": 1.465,
+      "date": "2026-04-01",
+      "label": "Apr 2026",
+      "display": "1.465M"
+    },
     "trade": {
       "value": -60307.0,
       "date": "2026-03-01",
       "label": "Mar 2026",
       "display": "-$60307B"
     },
-    "sent": {
-      "value": 49.8,
-      "date": "2026-04-01",
-      "label": "Apr 2026",
-      "display": "49.8"
-    },
     "nasdaq": {
-      "value": 26972.62,
-      "date": "2026-05-29",
-      "label": "May 2026",
-      "display": "26,973"
+      "value": 27086.81,
+      "date": "2026-06-01",
+      "label": "Jun 2026",
+      "display": "27,087"
     },
     "dow": {
-      "value": 51032.46,
-      "date": "2026-05-29",
-      "label": "May 2026",
-      "display": "51,032"
+      "value": 51307.79,
+      "date": "2026-06-02",
+      "label": "Jun 2026",
+      "display": "51,308"
     }
   },
   "errors": [
     "cpi",
     "corecpi",
-    "pce",
+    "ffr",
     "ten",
-    "nfp",
     "mfg",
     "svc",
-    "housing",
+    "sent",
     "sp500"
   ]
 }
