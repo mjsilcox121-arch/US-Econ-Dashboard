@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-02T23:03:58Z",
+  "updated": "2026-06-03T23:06:42Z",
   "metrics": {
     "gdp": {
       "value": 1.6,
@@ -13,6 +13,18 @@
       "label": "Apr 2026",
       "display": "4.3%"
     },
+    "cpi": {
+      "value": 3.7793,
+      "date": "2026-04-01",
+      "label": "Apr 2026",
+      "display": "+3.8%"
+    },
+    "corecpi": {
+      "value": 2.7433,
+      "date": "2026-04-01",
+      "label": "Apr 2026",
+      "display": "+2.7%"
+    },
     "pce": {
       "value": 3.7669,
       "date": "2026-04-01",
@@ -24,6 +36,18 @@
       "date": "2026-04-01",
       "label": "Apr 2026",
       "display": "+3.3%"
+    },
+    "ffr": {
+      "value": 3.62,
+      "date": "2026-06-02",
+      "label": "Jun 2026",
+      "display": "3.62%"
+    },
+    "ten": {
+      "value": 4.46,
+      "date": "2026-06-02",
+      "label": "Jun 2026",
+      "display": "4.46%"
     },
     "nfp": {
       "value": 115.0,
@@ -49,27 +73,33 @@
       "label": "Mar 2026",
       "display": "-$60307B"
     },
-    "nasdaq": {
-      "value": 27086.81,
-      "date": "2026-06-01",
-      "label": "Jun 2026",
-      "display": "27,087"
+    "sent": {
+      "value": 49.8,
+      "date": "2026-04-01",
+      "label": "Apr 2026",
+      "display": "49.8"
     },
-    "dow": {
-      "value": 51307.79,
+    "sp500": {
+      "value": 7609.78,
       "date": "2026-06-02",
       "label": "Jun 2026",
-      "display": "51,308"
+      "display": "7,610"
+    },
+    "nasdaq": {
+      "value": 27093.9,
+      "date": "2026-06-02",
+      "label": "Jun 2026",
+      "display": "27,094"
+    },
+    "dow": {
+      "value": 50687.07,
+      "date": "2026-06-03",
+      "label": "Jun 2026",
+      "display": "50,687"
     }
   },
   "errors": [
-    "cpi",
-    "corecpi",
-    "ffr",
-    "ten",
     "mfg",
-    "svc",
-    "sent",
-    "sp500"
+    "svc"
   ]
 }
