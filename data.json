@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-11T22:50:33Z",
+  "updated": "2026-06-12T22:26:27Z",
   "metrics": {
     "gdp": {
       "value": 1.6,
@@ -39,15 +39,15 @@
     },
     "ffr": {
       "value": 3.62,
-      "date": "2026-06-10",
+      "date": "2026-06-11",
       "label": "Jun 2026",
       "display": "3.62%"
     },
     "ten": {
-      "value": 4.55,
-      "date": "2026-06-10",
+      "value": 4.45,
+      "date": "2026-06-11",
       "label": "Jun 2026",
-      "display": "4.55%"
+      "display": "4.45%"
     },
     "nfp": {
       "value": 172.0,
@@ -80,22 +80,22 @@
       "display": "49.8"
     },
     "sp500": {
-      "value": 7266.99,
-      "date": "2026-06-10",
+      "value": 7394.3,
+      "date": "2026-06-11",
       "label": "Jun 2026",
-      "display": "7,267"
+      "display": "7,394"
     },
     "nasdaq": {
-      "value": 25169.5,
-      "date": "2026-06-10",
+      "value": 25809.66,
+      "date": "2026-06-11",
       "label": "Jun 2026",
-      "display": "25,170"
+      "display": "25,810"
     },
     "dow": {
-      "value": 50936.0,
-      "date": "2026-06-11",
-      "label": "Today",
-      "display": "50,936"
+      "value": 51202.26,
+      "date": "2026-06-12",
+      "label": "Jun 2026",
+      "display": "51,202"
     }
   },
   "errors": [
