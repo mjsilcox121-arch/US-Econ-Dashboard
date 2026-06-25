@@ -1,11 +1,11 @@
 {
-  "updated": "2026-06-24T22:19:57Z",
+  "updated": "2026-06-25T22:22:21Z",
   "metrics": {
     "gdp": {
-      "value": 1.6,
+      "value": 2.1,
       "date": "2026-01-01",
       "label": "Jan 2026",
-      "display": "+1.6%"
+      "display": "+2.1%"
     },
     "unemp": {
       "value": 4.3,
@@ -26,28 +26,28 @@
       "display": "+2.8%"
     },
     "pce": {
-      "value": 3.7669,
-      "date": "2026-04-01",
-      "label": "Apr 2026",
-      "display": "+3.8%"
+      "value": 4.0726,
+      "date": "2026-05-01",
+      "label": "May 2026",
+      "display": "+4.1%"
     },
     "corepce": {
-      "value": 3.2892,
-      "date": "2026-04-01",
-      "label": "Apr 2026",
-      "display": "+3.3%"
+      "value": 3.412,
+      "date": "2026-05-01",
+      "label": "May 2026",
+      "display": "+3.4%"
     },
     "ffr": {
       "value": 3.63,
-      "date": "2026-06-23",
+      "date": "2026-06-24",
       "label": "Jun 2026",
       "display": "3.63%"
     },
     "ten": {
-      "value": 4.5,
-      "date": "2026-06-23",
+      "value": 4.41,
+      "date": "2026-06-24",
       "label": "Jun 2026",
-      "display": "4.50%"
+      "display": "4.41%"
     },
     "nfp": {
       "value": 172.0,
@@ -86,16 +86,16 @@
       "display": "7,365"
     },
     "nasdaq": {
-      "value": 25587.04,
-      "date": "2026-06-23",
-      "label": "Jun 2026",
-      "display": "25,587"
-    },
-    "dow": {
-      "value": 51848.9,
+      "value": 25476.64,
       "date": "2026-06-24",
       "label": "Jun 2026",
-      "display": "51,849"
+      "display": "25,477"
+    },
+    "dow": {
+      "value": 51920.62,
+      "date": "2026-06-25",
+      "label": "Jun 2026",
+      "display": "51,921"
     }
   },
   "errors": [
