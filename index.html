@@ -2377,6 +2377,10 @@ async function loadLiveData() {
       setEl('snap-'  + key, data.display);
       const ts = document.getElementById('ts-' + key);
       if (ts) { ts.textContent = '· ' + tsLabel(key, data.date); ts.className = 'card-ts ok'; }
+      if (data.reading) {
+        const rp = document.querySelector('#card-' + key + ' .reading-box p');
+        if (rp) rp.textContent = data.reading;
+      }
       if (data.date > latestDate) latestDate = data.date;
       ok++;
     }

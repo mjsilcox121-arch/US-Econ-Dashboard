@@ -53,6 +53,33 @@ def label_for(key, date_str):
     return quarter_label(date_str) if key == 'gdp' else month_label(date_str)
 
 
+def build_reading(key, dates, vals, label, display, freq):
+    """A factual 'Latest Reading' line derived purely from the data.
+
+    No editorializing beyond arithmetic on the FRED/AV series: current value,
+    direction vs the prior period, and trailing high/low context.
+    """
+    period = 'quarter' if freq == 'quarterly' else 'month'
+    if len(vals) < 2:
+        return f'{label}: {display}.'
+    cur, prev = vals[-1], vals[-2]
+    prev_disp  = fmt(key, prev)
+    prev_label = label_for(key, dates[-2])
+    eps = 1e-9
+    if abs(cur - prev) < eps:
+        change = f'unchanged from {prev_disp} in {prev_label}'
+    else:
+        change = f'{"up" if cur > prev else "down"} from {prev_disp} in {prev_label}'
+    win = vals[-12:] if period == 'month' else vals[-4:]
+    ctx = ''
+    if len(win) >= 3:
+        if cur >= max(win) - eps:
+            ctx = f' — its highest reading in {len(win)} {period}s'
+        elif cur <= min(win) + eps:
+            ctx = f' — its lowest reading in {len(win)} {period}s'
+    return f'{label}: {display}, {change}{ctx}.'
+
+
 def fmt(key, val):
     if key in ('gdp','cpi','corecpi','pce','corepce','retail'):
         return ('+' if val >= 0 else '') + f'{val:.1f}%'
@@ -157,95 +184,107 @@ def av_fetch(key, primary, fallback, scale):
     raise ValueError(f'AV fetch failed for {key}')
 
 
-results = {}
-series  = {}
-errors  = []
+def main():
+    results = {}
+    series  = {}
+    errors  = []
 
-# ── Macro series from FRED (full history + latest) ──────────────────────────
-for key, fred_id, units in FRED_SERIES:
-    try:
-        obs = fred_series(fred_id, units)
-        dates = [d for d, _ in obs]
-        vals  = [v for _, v in obs]
-        if key == 'housing':
-            vals = [v / 1000 for v in vals]
-        last_date, last_val = dates[-1], vals[-1]
+    # ── Macro series from FRED (full history + latest) ──────────────────────
+    for key, fred_id, units in FRED_SERIES:
+        try:
+            obs = fred_series(fred_id, units)
+            dates = [d for d, _ in obs]
+            vals  = [v for _, v in obs]
+            if key == 'housing':
+                vals = [v / 1000 for v in vals]
+            last_date, last_val = dates[-1], vals[-1]
+            freq = 'quarterly' if key == 'gdp' else 'monthly'
+            label   = label_for(key, last_date)
+            display = fmt(key, last_val)
+            results[key] = {
+                'value':   round(last_val, 4),
+                'date':    last_date,
+                'label':   label,
+                'display': display,
+                'reading': build_reading(key, dates, vals, label, display, freq),
+            }
+            series[key] = {
+                'dates':  dates,
+                'values': [round(v, 4) for v in vals],
+                'freq':   freq,
+            }
+            print(f'  ok  {key:10s} {results[key]["display"]:>12s}  '
+                  f'({results[key]["label"]}, {len(vals)} pts)')
+        except Exception as e:
+            errors.append(key)
+            print(f'  ERR {key:10s} {e}')
+
+    # ── Equities: FRED daily->monthly for the chart, AV quote for the badge ─
+    for key, primary, fallback, scale in AV_EQUITY:
+        fred_id = FRED_EQUITY_FALLBACK.get(key)
+
+        dates, vals = [], []
+        if fred_id and FRED_KEY:
+            try:
+                dates, vals = fred_monthly_from_daily(fred_id)
+            except Exception as e:
+                print(f'  WARN {key} FRED history failed: {e}')
+
+        # Latest badge value: prefer a live Alpha Vantage quote for freshness.
+        latest_val, latest_date = None, None
+        if AV_KEY:
+            try:
+                latest_val, latest_date = av_fetch(key, primary, fallback, scale)
+            except Exception as e:
+                print(f'  AV failed {key}: {e} — using FRED latest')
+        if latest_val is None and vals:
+            latest_val, latest_date = vals[-1], dates[-1]
+
+        if latest_val is None:
+            errors.append(key)
+            print(f'  ERR {key:10s} no equity data')
+            continue
+
+        # Keep chart end == badge: overwrite (or append) the final monthly point.
+        if dates:
+            if latest_date[:7] == dates[-1][:7]:
+                dates[-1], vals[-1] = latest_date, latest_val
+            else:
+                dates.append(latest_date)
+                vals.append(latest_val)
+        else:
+            dates, vals = [latest_date], [latest_val]
+
+        label   = month_label(latest_date)
+        display = fmt(key, latest_val)
         results[key] = {
-            'value':   round(last_val, 4),
-            'date':    last_date,
-            'label':   label_for(key, last_date),
-            'display': fmt(key, last_val),
+            'value':   round(latest_val, 2),
+            'date':    latest_date,
+            'label':   label,
+            'display': display,
+            'reading': build_reading(key, dates, vals, label, display, 'monthly'),
         }
         series[key] = {
             'dates':  dates,
-            'values': [round(v, 4) for v in vals],
-            'freq':   'quarterly' if key == 'gdp' else 'monthly',
+            'values': [round(v, 2) for v in vals],
+            'freq':   'monthly',
         }
         print(f'  ok  {key:10s} {results[key]["display"]:>12s}  '
               f'({results[key]["label"]}, {len(vals)} pts)')
-    except Exception as e:
-        errors.append(key)
-        print(f'  ERR {key:10s} {e}')
 
-# ── Equities: FRED daily->monthly for the chart, AV quote for the badge ─────
-for key, primary, fallback, scale in AV_EQUITY:
-    fred_id = FRED_EQUITY_FALLBACK.get(key)
-
-    dates, vals = [], []
-    if fred_id and FRED_KEY:
-        try:
-            dates, vals = fred_monthly_from_daily(fred_id)
-        except Exception as e:
-            print(f'  WARN {key} FRED history failed: {e}')
-
-    # Latest badge value: prefer a live Alpha Vantage quote for freshness.
-    latest_val, latest_date = None, None
-    if AV_KEY:
-        try:
-            latest_val, latest_date = av_fetch(key, primary, fallback, scale)
-        except Exception as e:
-            print(f'  AV failed {key}: {e} — using FRED latest')
-    if latest_val is None and vals:
-        latest_val, latest_date = vals[-1], dates[-1]
-
-    if latest_val is None:
-        errors.append(key)
-        print(f'  ERR {key:10s} no equity data')
-        continue
-
-    # Keep the chart end == badge: overwrite (or append) the final monthly point.
-    if dates:
-        if latest_date[:7] == dates[-1][:7]:
-            dates[-1], vals[-1] = latest_date, latest_val
-        else:
-            dates.append(latest_date)
-            vals.append(latest_val)
-    else:
-        dates, vals = [latest_date], [latest_val]
-
-    results[key] = {
-        'value':   round(latest_val, 2),
-        'date':    latest_date,
-        'label':   month_label(latest_date),
-        'display': fmt(key, latest_val),
+    output = {
+        'updated': datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ'),
+        'metrics': results,
+        'series':  series,
+        'errors':  errors,
     }
-    series[key] = {
-        'dates':  dates,
-        'values': [round(v, 2) for v in vals],
-        'freq':   'monthly',
-    }
-    print(f'  ok  {key:10s} {results[key]["display"]:>12s}  '
-          f'({results[key]["label"]}, {len(vals)} pts)')
 
-output = {
-    'updated': datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ'),
-    'metrics': results,
-    'series':  series,
-    'errors':  errors,
-}
+    with open('data.json', 'w') as f:
+        json.dump(output, f, indent=2)
 
-with open('data.json', 'w') as f:
-    json.dump(output, f, indent=2)
+    print(f'\nWrote data.json — {len(results)}/18 metrics ok, '
+          f'{len(series)} series, errors: {errors or "none"}')
 
-print(f'\nWrote data.json — {len(results)}/18 metrics ok, '
-      f'{len(series)} series, errors: {errors or "none"}')
+
+if __name__ == '__main__':
+    main()
