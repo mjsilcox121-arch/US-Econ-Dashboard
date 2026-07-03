@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-03T12:15:31Z",
+  "updated": "2026-07-03T22:06:57Z",
   "metrics": {
     "gdp": {
       "value": 2.1,
@@ -8,6 +8,12 @@
       "display": "+2.1%",
       "reading": "Q1 2026: +2.1%, up from +0.5% in Q4 2025.",
       "news": [
+        {
+          "title": "Trump Wants the US Economy Growing at Over 12% and Says the Fed Keeps Trying To 'Kill It' With Higher Rat",
+          "url": "https://www.benzinga.com/markets/macro-economic-events/26/07/60264413/trump-wants-the-us-economy-growing-at-over-12-and-says-the-fed-keeps-trying-to-kill-it-with-higher-rates",
+          "source": "Benzinga",
+          "date": "2026-07-03"
+        },
         {
           "title": "75% Of US GDP Growth In The First Quarter Was Due To AI",
           "url": "https://www.zerohedge.com/markets/75-us-gdp-growth-first-quarter-was-due-ai",
@@ -36,9 +42,9 @@
           "date": "2026-07-02"
         },
         {
-          "title": "US job growth likely cooled in June after recent string of big gains",
-          "url": "https://www.reuters.com/business/us-job-growth-likely-cooled-june-after-recent-string-big-gains-2026-07-02/",
-          "source": "Reuters",
+          "title": "June Jobs Report Shows US Labor Market Making Slower but Steady Gains",
+          "url": "https://www.nytimes.com/2026/07/02/business/economy/jobs-report-employment.html",
+          "source": "The New York Times",
           "date": "2026-07-02"
         }
       ]
@@ -193,18 +199,6 @@
           "url": "https://www.reuters.com/business/us-consumer-sentiment-improves-june-concerns-high-cost-living-remain-2026-06-26/",
           "source": "Reuters",
           "date": "2026-06-26"
-        },
-        {
-          "title": "US consumer sentiment pushes off record lows as gasoline prices ease",
-          "url": "https://www.reuters.com/business/us-consumer-sentiment-improves-june-2026-06-12/",
-          "source": "Reuters",
-          "date": "2026-06-12"
-        },
-        {
-          "title": "Crude Oil Down Over 3%; US Consumer Sentiment Rises In June",
-          "url": "https://www.benzinga.com/markets/market-summary/26/06/53172228/crude-oil-down-over-3-us-consumer-sentiment-rises-in-june",
-          "source": "Benzinga",
-          "date": "2026-06-12"
         }
       ]
     },
@@ -250,22 +244,22 @@
       "reading": "Jul 2026: 52,900, up from 52,319 in Jun 2026 \u2014 its highest reading in 12 months.",
       "news": [
         {
-          "title": "The Dow hits a record as most of Wall Street rises, but slumping AI stocks keep indexes mixed",
-          "url": "https://apnews.com/article/stock-markets-iran-war-ai-21763c547c9aaaf13483625f90a751cd",
+          "title": "Asian shares rally after Dow hits a record",
+          "url": "https://apnews.com/article/stocks-markets-rates-ai-oil-trump-de7c9db96ce4d502079892d3ecef88cf",
           "source": "The Associated Press",
-          "date": "2026-07-02"
+          "date": "2026-07-03"
         },
         {
-          "title": "The Dow hits a record as most of Wall Street rises, but slumping AI stocks keep indexes mixed",
-          "url": "https://www.latimes.com/business/story/2026-07-02/dow-hits-record-as-most-of-wall-street-rises-but-slumping-ai-stocks-keep-indexes-mixed",
-          "source": "Los Angeles Times",
-          "date": "2026-07-02"
+          "title": "World shares rally after Dow hits a record, as some AI shares bounce back",
+          "url": "https://wtop.com/asia/2026/07/asian-shares-rally-after-dow-hits-a-record-as-some-ai-shares-bounce-back/",
+          "source": "WTOP",
+          "date": "2026-07-03"
         },
         {
-          "title": "Stock Indexes Settle Mixed as Chipmakers Retreat",
-          "url": "https://www.barchart.com/story/news/3106428/stock-indexes-settle-mixed-as-chipmakers-retreat",
+          "title": "World shares rally after Dow hits a record, as some AI shares bounce back",
+          "url": "https://www.barchart.com/story/news/3110289/world-shares-rally-after-dow-hits-a-record-as-some-ai-shares-bounce-back",
           "source": "Barchart",
-          "date": "2026-07-02"
+          "date": "2026-07-03"
         }
       ]
     }
