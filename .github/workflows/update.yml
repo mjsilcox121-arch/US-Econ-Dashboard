@@ -20,10 +20,11 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Fetch FRED + Alpha Vantage data
+      - name: Fetch FRED + Alpha Vantage + GNews data
         env:
-          FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
-          AV_API_KEY:   ${{ secrets.AV_API_KEY }}
+          FRED_API_KEY:  ${{ secrets.FRED_API_KEY }}
+          AV_API_KEY:    ${{ secrets.AV_API_KEY }}
+          GNEWS_API_KEY: ${{ secrets.GNEWS_API_KEY }}
         run: python3 fetch_data.py
 
       - uses: stefanzweifel/git-auto-commit-action@v5

@@ -20,15 +20,17 @@ Sources:
 Run daily Mon-Fri on GitHub Actions.
 """
 
-import json, os, urllib.request, urllib.parse
+import json, os, time, urllib.request, urllib.parse
 from collections import OrderedDict
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 
-FRED_KEY = os.environ.get('FRED_API_KEY', '')
-AV_KEY   = os.environ.get('AV_API_KEY', '')
+FRED_KEY   = os.environ.get('FRED_API_KEY', '')
+AV_KEY     = os.environ.get('AV_API_KEY', '')
+GNEWS_KEY  = os.environ.get('GNEWS_API_KEY', '')
 
-FRED_BASE = 'https://api.stlouisfed.org/fred/series/observations'
-AV_BASE   = 'https://www.alphavantage.co/query'
+FRED_BASE  = 'https://api.stlouisfed.org/fred/series/observations'
+AV_BASE    = 'https://www.alphavantage.co/query'
+GNEWS_BASE = 'https://gnews.io/api/v4/search'
 
 # History window for the charts. FRED daily equity series only serve ~10y,
 # so those charts may start a little later than this.
@@ -184,6 +186,96 @@ def av_fetch(key, primary, fallback, scale):
     raise ValueError(f'AV fetch failed for {key}')
 
 
+# One search query per card. Kept specific enough to stay on-topic.
+NEWS_QUERIES = {
+    'gdp':     'US GDP growth',
+    'unemp':   'US unemployment rate',
+    'cpi':     'US inflation CPI',
+    'corecpi': 'US core inflation',
+    'pce':     'US PCE inflation',
+    'corepce': 'US core PCE inflation Fed',
+    'ffr':     'Federal Reserve interest rate decision',
+    'ten':     '10-year Treasury yield',
+    'nfp':     'US nonfarm payrolls jobs report',
+    'retail':  'US retail sales',
+    'mfg':     'ISM manufacturing PMI',
+    'svc':     'ISM services PMI',
+    'housing': 'US housing starts',
+    'trade':   'US trade balance deficit',
+    'sent':    'US consumer sentiment',
+    'sp500':   'S&P 500 index',
+    'nasdaq':  'Nasdaq composite index',
+    'dow':     'Dow Jones industrial average',
+}
+
+# Prefer well-known outlets; a story from any of these ranks first.
+NEWS_PREFERRED = (
+    'reuters', 'bloomberg', 'wsj', 'cnbc', 'ap', 'associated press',
+    'financial times', 'marketwatch', 'yahoo', 'barron', 'forbes',
+    'the new york times', 'washington post', 'business insider',
+)
+
+
+def gnews_fetch(query, max_items=3, days=21):
+    """Return up to `max_items` recent, reputable headlines for a query.
+
+    Server-side only (runs in CI). Fetches a batch, drops anything older than
+    `days`, ranks preferred outlets first, and truncates. Never fabricates —
+    on any failure it returns [] and the card keeps its existing text.
+    """
+    params = {'q': query, 'lang': 'en', 'country': 'us',
+              'max': '10', 'sortby': 'publishedAt', 'apikey': GNEWS_KEY}
+    url = GNEWS_BASE + '?' + urllib.parse.urlencode(params)
+    with urllib.request.urlopen(url, timeout=20) as r:
+        data = json.load(r)
+    cutoff = datetime.now(timezone.utc) - timedelta(days=days)
+    items = []
+    for a in data.get('articles', []):
+        title = (a.get('title') or '').strip()
+        link  = (a.get('url') or '').strip()
+        if not title or not link:
+            continue
+        pub = a.get('publishedAt', '')
+        try:
+            pubdt = datetime.fromisoformat(pub.replace('Z', '+00:00'))
+        except ValueError:
+            continue
+        if pubdt < cutoff:
+            continue
+        src = (a.get('source') or {}).get('name', '')
+        items.append({
+            'title':  title,
+            'url':    link,
+            'source': src,
+            'date':   pub[:10],
+            '_pref':  any(p in src.lower() for p in NEWS_PREFERRED),
+        })
+    # Preferred outlets first, otherwise keep publish order (already newest-first).
+    items.sort(key=lambda x: not x['_pref'])
+    for it in items:
+        del it['_pref']
+    return items[:max_items]
+
+
+def attach_news(results):
+    if not GNEWS_KEY:
+        print('  (no GNEWS_API_KEY — skipping news, keeping existing text)')
+        return
+    for key, query in NEWS_QUERIES.items():
+        if key not in results:
+            continue
+        try:
+            items = gnews_fetch(query)
+            if items:
+                results[key]['news'] = items
+                print(f'  news {key:10s} {len(items)} items')
+            else:
+                print(f'  news {key:10s} none recent')
+        except Exception as e:
+            print(f'  news ERR {key:10s} {e}')
+        time.sleep(1)  # stay well under the free-tier rate limit
+
+
 def main():
     results = {}
     series  = {}
@@ -271,6 +363,9 @@ def main():
         }
         print(f'  ok  {key:10s} {results[key]["display"]:>12s}  '
               f'({results[key]["label"]}, {len(vals)} pts)')
+
+    # ── Recent news per metric (GNews; no-op without a key) ─────────────────
+    attach_news(results)
 
     output = {
         'updated': datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ'),

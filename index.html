@@ -2361,6 +2361,33 @@ function setEl(id, text) {
   if (el) el.textContent = text;
 }
 
+// Replace a card's Recent News list with live headlines.
+// Built with textContent/DOM APIs — external titles are never treated as HTML.
+function renderNews(key, items) {
+  const ul = document.querySelector('#card-' + key + ' .news-box ul');
+  if (!ul) return;
+  ul.innerHTML = '';
+  items.forEach(n => {
+    if (!n || !n.title) return;
+    const li = document.createElement('li');
+    const strong = document.createElement('strong');
+    let head = n.title;
+    if (n.source) head += ' (' + n.source + (n.date ? ', ' + n.date : '') + ')';
+    strong.textContent = head + ':';
+    li.appendChild(strong);
+    if (n.url) {
+      li.appendChild(document.createTextNode(' '));
+      const a = document.createElement('a');
+      a.href = n.url;
+      a.target = '_blank';
+      a.rel = 'noopener';
+      a.textContent = 'link';
+      li.appendChild(a);
+    }
+    ul.appendChild(li);
+  });
+}
+
 // Loads latest metric values from data.json (committed weekly by GitHub Actions).
 // Same-origin fetch — no CORS, no third-party proxy.
 async function loadLiveData() {
@@ -2380,6 +2407,9 @@ async function loadLiveData() {
       if (data.reading) {
         const rp = document.querySelector('#card-' + key + ' .reading-box p');
         if (rp) rp.textContent = data.reading;
+      }
+      if (Array.isArray(data.news) && data.news.length) {
+        renderNews(key, data.news);
       }
       if (data.date > latestDate) latestDate = data.date;
       ok++;
