@@ -2331,9 +2331,61 @@ function fredLabel(dateStr) {
   return MON[+m - 1] + ' ' + y;
 }
 
+function quarterLabel(dateStr) {
+  const [y, m] = dateStr.split('-');
+  return 'Q' + (Math.floor((+m - 1) / 3) + 1) + ' ' + y;
+}
+
+// Card-timestamp label (matches the metric-subtitle style: "Jun 2026" / "Q1 2026").
+function tsLabel(key, dateStr) {
+  return key === 'gdp' ? quarterLabel(dateStr) : fredLabel(dateStr);
+}
+
+// Chart x-axis label — must match the embedded genMonthly/genQuarterly format
+// ("Jun '26" / "Q2 2021") so live and fallback series line up on the axis.
+function seriesLabel(key, dateStr) {
+  if (key === 'gdp') return quarterLabel(dateStr);
+  const [y, m] = dateStr.split('-');
+  return MON[+m - 1] + " '" + y.slice(2);
+}
+
+// Active range (years) currently selected for a given chart card.
+function activeYearsFor(key) {
+  const grp = document.querySelector('.range-buttons[data-chart="' + key + '"]');
+  const btn = grp && grp.querySelector('.range-btn.active');
+  return btn ? parseYears(btn.dataset.years) : globalRange;
+}
+
 function setEl(id, text) {
   const el = document.getElementById(id);
   if (el) el.textContent = text;
+}
+
+// Replace a card's Recent News list with live headlines.
+// Built with textContent/DOM APIs — external titles are never treated as HTML.
+function renderNews(key, items) {
+  const ul = document.querySelector('#card-' + key + ' .news-box ul');
+  if (!ul) return;
+  ul.innerHTML = '';
+  items.forEach(n => {
+    if (!n || !n.title) return;
+    const li = document.createElement('li');
+    const strong = document.createElement('strong');
+    let head = n.title;
+    if (n.source) head += ' (' + n.source + (n.date ? ', ' + n.date : '') + ')';
+    strong.textContent = head + ':';
+    li.appendChild(strong);
+    if (n.url) {
+      li.appendChild(document.createTextNode(' '));
+      const a = document.createElement('a');
+      a.href = n.url;
+      a.target = '_blank';
+      a.rel = 'noopener';
+      a.textContent = 'link';
+      li.appendChild(a);
+    }
+    ul.appendChild(li);
+  });
 }
 
 // Loads latest metric values from data.json (committed weekly by GitHub Actions).
@@ -2351,14 +2403,33 @@ async function loadLiveData() {
       setEl('badge-' + key, data.display);
       setEl('snap-'  + key, data.display);
       const ts = document.getElementById('ts-' + key);
-      if (ts) { ts.textContent = '· ' + fredLabel(data.date); ts.className = 'card-ts ok'; }
+      if (ts) { ts.textContent = '· ' + tsLabel(key, data.date); ts.className = 'card-ts ok'; }
+      if (data.reading) {
+        const rp = document.querySelector('#card-' + key + ' .reading-box p');
+        if (rp) rp.textContent = data.reading;
+      }
+      if (Array.isArray(data.news) && data.news.length) {
+        renderNews(key, data.news);
+      }
       if (data.date > latestDate) latestDate = data.date;
       ok++;
     }
 
+    // Drive the charts from live history so they never fall behind the badges.
+    // Metrics with no live series (e.g. mfg/svc, discontinued on FRED) keep
+    // their embedded fallback arrays.
+    const seriesData = json.series || {};
+    for (const [key, s] of Object.entries(seriesData)) {
+      if (!METRICS[key] || !s || !Array.isArray(s.values) || !s.values.length) continue;
+      if (!Array.isArray(s.dates) || s.dates.length !== s.values.length) continue;
+      METRICS[key].values = s.values;
+      METRICS[key].dates  = s.dates.map(d => seriesLabel(key, d));
+      createChart(key, activeYearsFor(key));
+    }
+
     if (ok > 0) {
       setEl('live-text', 'Live · weekly refresh');
-      const updated = json.fetched_at ? json.fetched_at.slice(0, 10) : 'recently';
+      const updated = json.updated ? json.updated.slice(0, 10) : 'recently';
       const el = document.getElementById('header-freshness');
       if (el) { el.textContent = ok + '/18 metrics · updated ' + updated; el.style.color = 'var(--green)'; el.style.opacity = '0.85'; }
       if (dot) dot.style.background = 'var(--green)';
