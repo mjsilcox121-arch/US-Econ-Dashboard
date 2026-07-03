@@ -13,6 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      pull-requests: write
     steps:
       - uses: actions/checkout@v4
 
@@ -27,7 +28,31 @@ jobs:
           GNEWS_API_KEY: ${{ secrets.GNEWS_API_KEY }}
         run: python3 fetch_data.py
 
-      - uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "Data update ${{ github.run_id }}"
-          file_pattern: data.json
+      # main is a protected branch (PR required), so land data.json through a
+      # PR that we immediately squash-merge. Requires 0 approvals / no checks.
+      - name: Commit data.json via auto-merged PR
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if git diff --quiet -- data.json; then
+            echo "No data changes — nothing to commit."
+            exit 0
+          fi
+          BRANCH="auto/data-${GITHUB_RUN_ID}"
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git switch -c "$BRANCH"
+          git add data.json
+          git commit -m "Data update ${GITHUB_RUN_ID}"
+          git push origin "$BRANCH"
+          gh pr create --base main --head "$BRANCH" \
+            --title "Data update ${GITHUB_RUN_ID}" \
+            --body "Automated data refresh (charts, readings, news)."
+          # Retry briefly while GitHub computes mergeability.
+          for i in 1 2 3 4 5; do
+            if gh pr merge "$BRANCH" --squash --delete-branch; then
+              echo "Merged."; exit 0
+            fi
+            echo "Merge not ready (attempt $i) — retrying..."; sleep 5
+          done
+          echo "::error::Could not auto-merge data PR $BRANCH"; exit 1
