@@ -152,6 +152,10 @@
   .up { color: var(--red); }
   .down { color: var(--green); }
   .neutral { color: var(--text-muted); }
+  /* Live change-indicator colours (set by JS from data.change.sign). */
+  .chg-pos  { color: var(--green); }
+  .chg-neg  { color: var(--red); }
+  .chg-flat { color: var(--text-muted); }
 
   /* ── MAIN LAYOUT ─────────────────────────────────────── */
   .main-content {
@@ -2361,6 +2365,25 @@ function setEl(id, text) {
   if (el) el.textContent = text;
 }
 
+// Update a metric's change indicator (card badge + snapshot bar) from live data.
+// ch = { text, sign } where sign is pos|neg|flat -> green|red|grey.
+function renderChange(key, ch, label) {
+  if (!ch || !ch.text) return;
+  const cls = ch.sign === 'pos' ? 'chg-pos' : ch.sign === 'neg' ? 'chg-neg' : 'chg-flat';
+  const badge = document.getElementById('badge-' + key);
+  const badgeChange = badge && badge.parentElement.querySelector('.badge-change');
+  if (badgeChange) {
+    badgeChange.textContent = ch.text;
+    badgeChange.className = 'badge-change ' + cls;
+  }
+  const snap = document.getElementById('snap-' + key);
+  const snapChange = snap && snap.parentElement.querySelector('.snap-change');
+  if (snapChange) {
+    snapChange.textContent = label ? label + ' · ' + ch.text : ch.text;
+    snapChange.className = 'snap-change ' + cls;
+  }
+}
+
 // Replace a card's Recent News list with live headlines.
 // Built with textContent/DOM APIs — external titles are never treated as HTML.
 function renderNews(key, items) {
@@ -2407,6 +2430,9 @@ async function loadLiveData() {
       if (data.reading) {
         const rp = document.querySelector('#card-' + key + ' .reading-box p');
         if (rp) rp.textContent = data.reading;
+      }
+      if (data.change) {
+        renderChange(key, data.change, data.label);
       }
       if (Array.isArray(data.news) && data.news.length) {
         renderNews(key, data.news);
