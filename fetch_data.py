@@ -55,6 +55,47 @@ def label_for(key, date_str):
     return quarter_label(date_str) if key == 'gdp' else month_label(date_str)
 
 
+# Colour polarity for the header change indicator: for these, a rise is the
+# "good" (green) direction. For BAD_WHEN_UP a rise is red. Rates (ffr/ten) are
+# treated as neutral — direction shown, but no good/bad colour.
+GOOD_WHEN_UP = {'gdp', 'nfp', 'retail', 'housing', 'sent',
+                'sp500', 'nasdaq', 'dow', 'trade'}
+BAD_WHEN_UP  = {'unemp', 'cpi', 'corecpi', 'pce', 'corepce'}
+
+
+def build_change(key, dates, vals):
+    """Small header indicator: {text, sign}.
+
+    Equities show YTD % (vs prior year-end); everything else shows direction
+    vs the prior period. `sign` is the colour intent: pos=green, neg=red,
+    flat=grey. Purely computed — replaces the old hardcoded, stale badges.
+    """
+    if len(vals) < 2:
+        return None
+    cur = vals[-1]
+    if key in ('sp500', 'nasdaq', 'dow'):
+        year = dates[-1][:4]
+        prior_year = [v for d, v in zip(dates, vals) if d[:4] < year]
+        base = prior_year[-1] if prior_year else vals[0]
+        pct = (cur - base) / base * 100 if base else 0.0
+        arrow = '↑' if pct > 0 else ('↓' if pct < 0 else '→')
+        return {'text': f'{arrow} {abs(pct):.1f}% YTD',
+                'sign': 'pos' if pct > 0 else ('neg' if pct < 0 else 'flat')}
+    prev = vals[-2]
+    diff = cur - prev
+    if abs(diff) < 1e-9:
+        return {'text': '→ Steady', 'sign': 'flat'}
+    up = diff > 0
+    text = f'{"↑" if up else "↓"} from {fmt(key, prev)}'
+    if key in GOOD_WHEN_UP:
+        sign = 'pos' if up else 'neg'
+    elif key in BAD_WHEN_UP:
+        sign = 'neg' if up else 'pos'
+    else:
+        sign = 'flat'
+    return {'text': text, 'sign': sign}
+
+
 def build_reading(key, dates, vals, label, display, freq):
     """A factual 'Latest Reading' line derived purely from the data.
 
@@ -186,26 +227,27 @@ def av_fetch(key, primary, fallback, scale):
     raise ValueError(f'AV fetch failed for {key}')
 
 
-# One search query per card. Kept specific enough to stay on-topic.
+# One search query per card. Quoted phrases keep results on-topic; the extra
+# context term biases toward finance coverage over generic mentions.
 NEWS_QUERIES = {
-    'gdp':     'US GDP growth',
-    'unemp':   'US unemployment rate',
-    'cpi':     'US inflation CPI',
-    'corecpi': 'US core inflation',
-    'pce':     'US PCE inflation',
-    'corepce': 'US core PCE inflation Fed',
-    'ffr':     'Federal Reserve interest rate decision',
-    'ten':     '10-year Treasury yield',
-    'nfp':     'US nonfarm payrolls jobs report',
-    'retail':  'US retail sales',
-    'mfg':     'ISM manufacturing PMI',
-    'svc':     'ISM services PMI',
-    'housing': 'US housing starts',
-    'trade':   'US trade balance deficit',
-    'sent':    'US consumer sentiment',
-    'sp500':   'S&P 500 index',
-    'nasdaq':  'Nasdaq composite index',
-    'dow':     'Dow Jones industrial average',
+    'gdp':     '"GDP" US economy growth',
+    'unemp':   '"unemployment rate" US jobs',
+    'cpi':     '"consumer price index" inflation',
+    'corecpi': '"core inflation" US CPI',
+    'pce':     '"PCE" inflation Federal Reserve',
+    'corepce': '"core PCE" inflation Fed',
+    'ffr':     '"Federal Reserve" interest rate',
+    'ten':     '"Treasury yield" 10-year bond',
+    'nfp':     '"nonfarm payrolls" jobs report',
+    'retail':  '"retail sales" US consumer',
+    'mfg':     '"ISM Manufacturing" PMI',
+    'svc':     '"ISM Services" PMI',
+    'housing': '"housing starts" homebuilding',
+    'trade':   'US "trade deficit" imports exports',
+    'sent':    '"consumer sentiment" University Michigan',
+    'sp500':   '"S&P 500" stocks',
+    'nasdaq':  '"Nasdaq" stocks tech',
+    'dow':     '"Dow Jones" stocks',
 }
 
 # Prefer well-known outlets; a story from any of these ranks first.
@@ -226,8 +268,18 @@ def gnews_fetch(query, max_items=3, days=21):
     params = {'q': query, 'lang': 'en', 'country': 'us',
               'max': '10', 'sortby': 'publishedAt', 'apikey': GNEWS_KEY}
     url = GNEWS_BASE + '?' + urllib.parse.urlencode(params)
-    with urllib.request.urlopen(url, timeout=20) as r:
-        data = json.load(r)
+    # One retry — GNews occasionally 400s/times out on an otherwise fine query.
+    data = None
+    for attempt in range(2):
+        try:
+            with urllib.request.urlopen(url, timeout=20) as r:
+                data = json.load(r)
+            break
+        except Exception:
+            if attempt == 0:
+                time.sleep(2)
+                continue
+            raise
     cutoff = datetime.now(timezone.utc) - timedelta(days=days)
     items = []
     for a in data.get('articles', []):
@@ -299,6 +351,7 @@ def main():
                 'label':   label,
                 'display': display,
                 'reading': build_reading(key, dates, vals, label, display, freq),
+                'change':  build_change(key, dates, vals),
             }
             series[key] = {
                 'dates':  dates,
@@ -355,6 +408,7 @@ def main():
             'label':   label,
             'display': display,
             'reading': build_reading(key, dates, vals, label, display, 'monthly'),
+            'change':  build_change(key, dates, vals),
         }
         series[key] = {
             'dates':  dates,
