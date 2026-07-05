@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-03T22:06:57Z",
+  "updated": "2026-07-05T23:54:23Z",
   "metrics": {
     "gdp": {
       "value": 2.1,
@@ -7,18 +7,16 @@
       "label": "Q1 2026",
       "display": "+2.1%",
       "reading": "Q1 2026: +2.1%, up from +0.5% in Q4 2025.",
+      "change": {
+        "text": "\u2191 from +0.5%",
+        "sign": "pos"
+      },
       "news": [
         {
           "title": "Trump Wants the US Economy Growing at Over 12% and Says the Fed Keeps Trying To 'Kill It' With Higher Rat",
           "url": "https://www.benzinga.com/markets/macro-economic-events/26/07/60264413/trump-wants-the-us-economy-growing-at-over-12-and-says-the-fed-keeps-trying-to-kill-it-with-higher-rates",
           "source": "Benzinga",
           "date": "2026-07-03"
-        },
-        {
-          "title": "75% Of US GDP Growth In The First Quarter Was Due To AI",
-          "url": "https://www.zerohedge.com/markets/75-us-gdp-growth-first-quarter-was-due-ai",
-          "source": "ZeroHedge",
-          "date": "2026-06-25"
         }
       ]
     },
@@ -28,6 +26,10 @@
       "label": "Jun 2026",
       "display": "4.2%",
       "reading": "Jun 2026: 4.2%, down from 4.3% in May 2026.",
+      "change": {
+        "text": "\u2193 from 4.3%",
+        "sign": "pos"
+      },
       "news": [
         {
           "title": "US employers still reluctant to add many jobs as hiring slows in June",
@@ -36,15 +38,15 @@
           "date": "2026-07-02"
         },
         {
-          "title": "US job growth misses expectations in June; unemployment rate falls to 4.2%",
-          "url": "https://www.reuters.com/world/us/us-job-growth-misses-expectations-june-unemployment-rate-falls-42-2026-07-02/",
-          "source": "Reuters",
-          "date": "2026-07-02"
-        },
-        {
           "title": "June Jobs Report Shows US Labor Market Making Slower but Steady Gains",
           "url": "https://www.nytimes.com/2026/07/02/business/economy/jobs-report-employment.html",
           "source": "The New York Times",
+          "date": "2026-07-02"
+        },
+        {
+          "title": "US economy adds jobs at slower pace with 57,000 jobs added in June, unemployment rate dips",
+          "url": "https://www.fox9.com/news/us-economy-hiring-slows-june-57000-jobs-added-unemployment-rate-dips",
+          "source": "FOX 9",
           "date": "2026-07-02"
         }
       ]
@@ -54,14 +56,36 @@
       "date": "2026-05-01",
       "label": "May 2026",
       "display": "+4.2%",
-      "reading": "May 2026: +4.2%, up from +3.8% in Apr 2026 \u2014 its highest reading in 12 months."
+      "reading": "May 2026: +4.2%, up from +3.8% in Apr 2026 \u2014 its highest reading in 12 months.",
+      "change": {
+        "text": "\u2191 from +3.8%",
+        "sign": "neg"
+      },
+      "news": [
+        {
+          "title": "Green Bay-area consumers will be surveyed for Consumer Price Index",
+          "url": "https://www.greenbaypressgazette.com/story/money/2026/06/17/green-bay-5-metro-areas-added-to-consumer-price-index-data-collection/90587280007/",
+          "source": "Green Bay Press-Gazette",
+          "date": "2026-06-17"
+        },
+        {
+          "title": "University of Nebraska to rely on inflation for funding asks",
+          "url": "https://journalstar.com/news/state-regional/education/article_b648dddc-eef5-4374-bd96-428069a17515.html",
+          "source": "Lincoln Journal Star",
+          "date": "2026-06-16"
+        }
+      ]
     },
     "corecpi": {
       "value": 2.8229,
       "date": "2026-05-01",
       "label": "May 2026",
       "display": "+2.8%",
-      "reading": "May 2026: +2.8%, up from +2.7% in Apr 2026."
+      "reading": "May 2026: +2.8%, up from +2.7% in Apr 2026.",
+      "change": {
+        "text": "\u2191 from +2.7%",
+        "sign": "neg"
+      }
     },
     "pce": {
       "value": 4.0726,
@@ -69,12 +93,22 @@
       "label": "May 2026",
       "display": "+4.1%",
       "reading": "May 2026: +4.1%, up from +3.8% in Apr 2026 \u2014 its highest reading in 12 months.",
+      "change": {
+        "text": "\u2191 from +3.8%",
+        "sign": "neg"
+      },
       "news": [
         {
           "title": "US May PCE inflation rises 4.1%, keeping Fed hike in play",
           "url": "https://www.reuters.com/markets/us/us-pce-inflation-measure-tops-40-may-consumer-spending-strong-2026-06-25/",
           "source": "Reuters",
           "date": "2026-06-25"
+        },
+        {
+          "title": "Core PCE Inflation At 3.4% In May, Highest Level Since 2023",
+          "url": "https://seekingalpha.com/article/4917889-core-pce-inflation-at-3-4-percent-in-may-highest-level-since-2023",
+          "source": "Seeking Alpha",
+          "date": "2026-06-26"
         }
       ]
     },
@@ -83,7 +117,19 @@
       "date": "2026-05-01",
       "label": "May 2026",
       "display": "+3.4%",
-      "reading": "May 2026: +3.4%, up from +3.3% in Apr 2026 \u2014 its highest reading in 12 months."
+      "reading": "May 2026: +3.4%, up from +3.3% in Apr 2026 \u2014 its highest reading in 12 months.",
+      "change": {
+        "text": "\u2191 from +3.3%",
+        "sign": "neg"
+      },
+      "news": [
+        {
+          "title": "Gold Gains Over 1%; Fed's Preferred Inflation Gauge Surges To 3-Year High",
+          "url": "https://www.benzinga.com/markets/market-summary/26/06/60106274/gold-gains-over-1-feds-preferred-inflation-gauge-surges-to-3-year-high",
+          "source": "Benzinga",
+          "date": "2026-06-25"
+        }
+      ]
     },
     "ffr": {
       "value": 3.63,
@@ -91,24 +137,28 @@
       "label": "Jul 2026",
       "display": "3.63%",
       "reading": "Jul 2026: 3.63%, unchanged from 3.63% in Jun 2026 \u2014 its highest reading in 12 months.",
+      "change": {
+        "text": "\u2192 Steady",
+        "sign": "flat"
+      },
       "news": [
         {
-          "title": "Warsh Just Passed His First Independence Test at the Fed",
-          "url": "https://www.bloomberg.com/opinion/articles/2026-06-18/warsh-just-passed-his-first-independence-test-at-the-fed",
-          "source": "Bloomberg",
-          "date": "2026-06-18"
-        },
-        {
-          "title": "Warsh Fed holds rates steady. Trump says 'It's all right. Whatever.'",
-          "url": "https://www.reuters.com/world/us/warsh-fed-holds-rates-steady-trump-says-its-all-right-whatever-2026-06-17/",
+          "title": "Fed seen less likely to raise rates as job growth slows",
+          "url": "https://www.reuters.com/business/fed-seen-less-likely-raise-rates-job-growth-slows-2026-07-02/",
           "source": "Reuters",
-          "date": "2026-06-17"
+          "date": "2026-07-02"
         },
         {
-          "title": "Fed holds rates steady",
-          "url": "https://www.cnbc.com/2026/06/17/fed-interest-rate-decision-june-2026.html",
-          "source": "CNBC",
-          "date": "2026-06-17"
+          "title": "US job growth slows sharply in June; labor force participation rate at more than 5-year low",
+          "url": "https://www.reuters.com/world/us/us-job-growth-misses-expectations-june-unemployment-rate-falls-42-2026-07-02/",
+          "source": "Reuters",
+          "date": "2026-07-02"
+        },
+        {
+          "title": "Fed's Warsh vows to 'disappoint' anyone who thinks he will tolerate inflation above 2%",
+          "url": "https://www.reuters.com/world/europe/warsh-hits-international-stage-with-peers-sharing-an-inflation-problem-2026-07-01/",
+          "source": "Reuters",
+          "date": "2026-07-01"
         }
       ]
     },
@@ -117,14 +167,42 @@
       "date": "2026-07-01",
       "label": "Jul 2026",
       "display": "4.48%",
-      "reading": "Jul 2026: 4.48%, up from 4.44% in Jun 2026."
+      "reading": "Jul 2026: 4.48%, up from 4.44% in Jun 2026.",
+      "change": {
+        "text": "\u2191 from 4.44%",
+        "sign": "flat"
+      }
     },
     "nfp": {
       "value": 57.0,
       "date": "2026-06-01",
       "label": "Jun 2026",
       "display": "+57K",
-      "reading": "Jun 2026: +57K, down from +129K in May 2026."
+      "reading": "Jun 2026: +57K, down from +129K in May 2026.",
+      "change": {
+        "text": "\u2193 from +129K",
+        "sign": "neg"
+      },
+      "news": [
+        {
+          "title": "World Cup could boost the June jobs report by 40,000, Goldman estimates",
+          "url": "https://www.cnbc.com/2026/07/01/world-cup-could-boost-the-june-jobs-report-by-40000-goldman-estimates.html",
+          "source": "CNBC",
+          "date": "2026-07-01"
+        },
+        {
+          "title": "June Jobs Growth Comes in Well Below Expectations",
+          "url": "https://www.barchart.com/story/news/3098743/june-jobs-growth-comes-in-well-below-expectations",
+          "source": "Barchart",
+          "date": "2026-07-02"
+        },
+        {
+          "title": "June Jobs Growth Comes in Well Below Expectations",
+          "url": "https://www.barchart.com/story/news/3098744/june-jobs-growth-comes-in-well-below-expectations",
+          "source": "Barchart",
+          "date": "2026-07-02"
+        }
+      ]
     },
     "retail": {
       "value": 0.8809,
@@ -132,23 +210,27 @@
       "label": "May 2026",
       "display": "+0.9%",
       "reading": "May 2026: +0.9%, up from +0.4% in Apr 2026.",
+      "change": {
+        "text": "\u2191 from +0.4%",
+        "sign": "pos"
+      },
       "news": [
         {
-          "title": "US retail sales beat expectations in May",
-          "url": "https://www.reuters.com/business/retail-consumer/us-retail-sales-beat-expectations-may-2026-06-17/",
-          "source": "Reuters",
+          "title": "Retail sales up a strong 0.9% in May, underscoring the resilience of the US consumer",
+          "url": "https://wtop.com/consumer-news/2026/06/retail-sales-up-0-9-in-may-from-april-as-warm-weather-and-cooling-gas-prices-enticed-spending/",
+          "source": "WTOP",
           "date": "2026-06-17"
         },
         {
-          "title": "Dollar Jumps on Hawkish Fed",
-          "url": "https://www.barchart.com/story/news/2522457/dollar-jumps-on-hawkish-fed",
+          "title": "Retail sales up a strong 0.9% in May, underscoring the resilience of the US consumer",
+          "url": "https://www.barchart.com/story/news/2514430/retail-sales-up-a-strong-0-9-in-may-underscoring-the-resilience-of-the-us-consumer",
           "source": "Barchart",
           "date": "2026-06-17"
         },
         {
           "title": "Retail sales up a strong 0.9% in May, underscoring the resilience of the US consumer",
-          "url": "https://wtop.com/consumer-news/2026/06/retail-sales-up-0-9-in-may-from-april-as-warm-weather-and-cooling-gas-prices-enticed-spending/",
-          "source": "WTOP",
+          "url": "https://cdapress.com/news/2026/jun/17/retail-sales-up-a-strong-09-in-may-underscoring-the-resilience-of-the-us-consumer/",
+          "source": "Coeur d'Alene Press",
           "date": "2026-06-17"
         }
       ]
@@ -159,23 +241,15 @@
       "label": "May 2026",
       "display": "1.177M",
       "reading": "May 2026: 1.177M, down from 1.392M in Apr 2026 \u2014 its lowest reading in 12 months.",
+      "change": {
+        "text": "\u2193 from 1.392M",
+        "sign": "neg"
+      },
       "news": [
         {
           "title": "US single-family housing starts slide to eight-month low; imported inflation increases sharply",
           "url": "https://www.reuters.com/business/us-single-family-housing-starts-drop-eight-month-low-may-2026-06-16/",
           "source": "Reuters",
-          "date": "2026-06-16"
-        },
-        {
-          "title": "US Housing Starts Fall To Lowest Level Since 2020 As Residential Construction Activity 'Rapidly Slows,' S",
-          "url": "https://www.benzinga.com/real-estate/26/06/53268893/us-housing-starts-fall-to-lowest-level-since-2020-as-residential-construction-activity-rapidly-slows-says-kobeissi-letter",
-          "source": "Benzinga",
-          "date": "2026-06-18"
-        },
-        {
-          "title": "Dollar Slips on Weak US Housing News and Lower Crude Prices",
-          "url": "https://www.barchart.com/story/news/2501237/dollar-slips-on-weak-us-housing-news-and-lower-crude-prices",
-          "source": "Barchart",
           "date": "2026-06-16"
         }
       ]
@@ -185,7 +259,11 @@
       "date": "2026-04-01",
       "label": "Apr 2026",
       "display": "-$55881B",
-      "reading": "Apr 2026: -$55881B, up from -$56585B in Mar 2026."
+      "reading": "Apr 2026: -$55881B, up from -$56585B in Mar 2026.",
+      "change": {
+        "text": "\u2191 from -$56585B",
+        "sign": "pos"
+      }
     },
     "sent": {
       "value": 44.8,
@@ -193,11 +271,21 @@
       "label": "May 2026",
       "display": "44.8",
       "reading": "May 2026: 44.8, down from 49.8 in Apr 2026 \u2014 its lowest reading in 12 months.",
+      "change": {
+        "text": "\u2193 from 49.8",
+        "sign": "neg"
+      },
       "news": [
         {
-          "title": "US consumer sentiment improves in June, concerns of high cost of living remain",
-          "url": "https://www.reuters.com/business/us-consumer-sentiment-improves-june-concerns-high-cost-living-remain-2026-06-26/",
-          "source": "Reuters",
+          "title": "Easing gas prices give 'fairly sour' consumer sentiment a lift from all-time low",
+          "url": "https://wjla.com/news/nation-world/easing-gas-prices-give-fairly-sour-consumer-sentiment-a-lift-from-all-time-low-university-of-michigan-consumer-sentiment-index-june-2026-economy-personal-finances",
+          "source": "WJLA",
+          "date": "2026-06-26"
+        },
+        {
+          "title": "Easing gas prices give 'fairly sour' consumer sentiment a lift from all-time low",
+          "url": "https://foxbaltimore.com/news/nation-world/easing-gas-prices-give-fairly-sour-consumer-sentiment-a-lift-from-all-time-low-university-of-michigan-consumer-sentiment-index-june-2026-economy-personal-finances",
+          "source": "Baltimore News",
           "date": "2026-06-26"
         }
       ]
@@ -207,7 +295,31 @@
       "date": "2026-07-02",
       "label": "Jul 2026",
       "display": "7,483",
-      "reading": "Jul 2026: 7,483, down from 7,499 in Jun 2026."
+      "reading": "Jul 2026: 7,483, down from 7,499 in Jun 2026.",
+      "change": {
+        "text": "\u2191 9.3% YTD",
+        "sign": "pos"
+      },
+      "news": [
+        {
+          "title": "S&P 500 Earnings Outlook Hinges On Tech, Energy, And The Fed",
+          "url": "https://www.forbes.com/sites/bill_stone/2026/07/05/sp-500-earnings-outlook-hinges-on-tech-energy-and-the-fed/",
+          "source": "Forbes",
+          "date": "2026-07-05"
+        },
+        {
+          "title": "Why Goldman Has Backed Away From Its Lost Decade Forecast for Stocks",
+          "url": "https://www.businessinsider.com/stock-market-lost-decade-sp500-forecast-valuations-goldman-sachs-2026-7",
+          "source": "Business Insider",
+          "date": "2026-07-04"
+        },
+        {
+          "title": "MARK-TO-MARKET: Despite challenges, US stocks surge in first half of 2026",
+          "url": "https://qctimes.com/news/local/business/article_bfae575a-c4d3-43a7-8e3c-df37701b0c3b.html",
+          "source": "Davenport Quad-City Times",
+          "date": "2026-07-05"
+        }
+      ]
     },
     "nasdaq": {
       "value": 25832.67,
@@ -215,24 +327,28 @@
       "label": "Jul 2026",
       "display": "25,833",
       "reading": "Jul 2026: 25,833, down from 26,214 in Jun 2026.",
+      "change": {
+        "text": "\u2191 11.1% YTD",
+        "sign": "pos"
+      },
       "news": [
         {
-          "title": "More drops for chip stocks and other AI winners overshadow gains for most of Wall Street",
-          "url": "https://www.ajc.com/news/2026/07/drops-for-ai-stocks-pull-wall-street-lower-even-as-the-majority-of-the-us-market-rises/",
-          "source": "The Atlanta Journal-Constitution",
-          "date": "2026-07-02"
+          "title": "Trading Day: Stocks cap weak month, stellar quarter",
+          "url": "https://www.reuters.com/commentary/reuters-open-interest/global-markets-trading-day-graphic-2026-06-30/",
+          "source": "Reuters",
+          "date": "2026-06-30"
         },
         {
-          "title": "World shares are mixed, with South Korea's Kospi down nearly 8% on a sell-off of chip shares",
-          "url": "https://www.ajc.com/news/2026/07/asian-stocks-mostly-decline-on-a-sell-off-of-chip-shares-with-kospi-down-nearly-8/",
-          "source": "The Atlanta Journal-Constitution",
-          "date": "2026-07-02"
+          "title": "Volatility in Tech Stocks Just Hit a 23-Year Extreme. Why That May Mean the Bull Market Clock Is Ticking.",
+          "url": "https://www.barchart.com/story/news/3127873/volatility-in-tech-stocks-just-hit-a-23-year-extreme-why-that-may-mean-the-bull-market-clock-is-ticking",
+          "source": "Barchart",
+          "date": "2026-07-04"
         },
         {
-          "title": "Asian stocks mostly decline on a sell-off of chip shares",
-          "url": "https://www.ajc.com/news/2026/07/asian-stocks-mostly-decline-on-a-sell-off-of-chip-shares/",
-          "source": "The Atlanta Journal-Constitution",
-          "date": "2026-07-02"
+          "title": "Notable tech headlines for the week: Meta, Micron, Palantir in focus",
+          "url": "https://seekingalpha.com/news/4609900-notable-tech-headlines-for-the-week-meta-micron-palantir-in-focus",
+          "source": "Seeking Alpha",
+          "date": "2026-07-04"
         }
       ]
     },
@@ -242,15 +358,19 @@
       "label": "Jul 2026",
       "display": "52,900",
       "reading": "Jul 2026: 52,900, up from 52,319 in Jun 2026 \u2014 its highest reading in 12 months.",
+      "change": {
+        "text": "\u2191 10.1% YTD",
+        "sign": "pos"
+      },
       "news": [
         {
-          "title": "Asian shares rally after Dow hits a record",
-          "url": "https://apnews.com/article/stocks-markets-rates-ai-oil-trump-de7c9db96ce4d502079892d3ecef88cf",
-          "source": "The Associated Press",
+          "title": "World shares are mixed after Dow hits a new record, as some AI shares bounce back",
+          "url": "https://www.ajc.com/news/2026/07/world-shares-rally-after-dow-hits-a-record-as-some-ai-shares-bounce-back/",
+          "source": "The Atlanta Journal-Constitution",
           "date": "2026-07-03"
         },
         {
-          "title": "World shares rally after Dow hits a record, as some AI shares bounce back",
+          "title": "World shares are mixed after Dow hits a new record, as some AI shares bounce back",
           "url": "https://wtop.com/asia/2026/07/asian-shares-rally-after-dow-hits-a-record-as-some-ai-shares-bounce-back/",
           "source": "WTOP",
           "date": "2026-07-03"
