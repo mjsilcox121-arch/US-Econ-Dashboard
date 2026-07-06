@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-05T23:54:23Z",
+  "updated": "2026-07-06T22:16:19Z",
   "metrics": {
     "gdp": {
       "value": 2.1,
@@ -133,43 +133,43 @@
     },
     "ffr": {
       "value": 3.63,
-      "date": "2026-07-01",
+      "date": "2026-07-03",
       "label": "Jul 2026",
       "display": "3.63%",
-      "reading": "Jul 2026: 3.63%, unchanged from 3.63% in Jun 2026 \u2014 its highest reading in 12 months.",
+      "reading": "Jul 2026: 3.63%, unchanged from 3.63% in Jul 2026 \u2014 its highest reading in 12 months.",
       "change": {
         "text": "\u2192 Steady",
         "sign": "flat"
       },
       "news": [
         {
+          "title": "Gold holds near two-week high on easing Fed rate-hike bets",
+          "url": "https://www.cnbc.com/2026/07/06/gold-holds-near-two-week-high-on-easing-fed-rate-hike-bets.html",
+          "source": "CNBC",
+          "date": "2026-07-06"
+        },
+        {
+          "title": "Gold trades near two-week high on cooling US rate-hike bets",
+          "url": "https://www.reuters.com/world/india/gold-trades-near-two-week-high-cooling-us-rate-hike-bets-2026-07-06/",
+          "source": "Reuters",
+          "date": "2026-07-06"
+        },
+        {
           "title": "Fed seen less likely to raise rates as job growth slows",
           "url": "https://www.reuters.com/business/fed-seen-less-likely-raise-rates-job-growth-slows-2026-07-02/",
           "source": "Reuters",
           "date": "2026-07-02"
-        },
-        {
-          "title": "US job growth slows sharply in June; labor force participation rate at more than 5-year low",
-          "url": "https://www.reuters.com/world/us/us-job-growth-misses-expectations-june-unemployment-rate-falls-42-2026-07-02/",
-          "source": "Reuters",
-          "date": "2026-07-02"
-        },
-        {
-          "title": "Fed's Warsh vows to 'disappoint' anyone who thinks he will tolerate inflation above 2%",
-          "url": "https://www.reuters.com/world/europe/warsh-hits-international-stage-with-peers-sharing-an-inflation-problem-2026-07-01/",
-          "source": "Reuters",
-          "date": "2026-07-01"
         }
       ]
     },
     "ten": {
-      "value": 4.48,
-      "date": "2026-07-01",
+      "value": 4.49,
+      "date": "2026-07-02",
       "label": "Jul 2026",
-      "display": "4.48%",
-      "reading": "Jul 2026: 4.48%, up from 4.44% in Jun 2026.",
+      "display": "4.49%",
+      "reading": "Jul 2026: 4.49%, up from 4.48% in Jul 2026.",
       "change": {
-        "text": "\u2191 from 4.44%",
+        "text": "\u2191 from 4.48%",
         "sign": "flat"
       }
     },
@@ -314,10 +314,10 @@
           "date": "2026-07-04"
         },
         {
-          "title": "MARK-TO-MARKET: Despite challenges, US stocks surge in first half of 2026",
-          "url": "https://qctimes.com/news/local/business/article_bfae575a-c4d3-43a7-8e3c-df37701b0c3b.html",
-          "source": "Davenport Quad-City Times",
-          "date": "2026-07-05"
+          "title": "US Stocks Higher; Nasdaq Gains Over 150 Points",
+          "url": "https://www.benzinga.com/markets/market-summary/26/07/60279063/us-stocks-higher-nasdaq-gains-over-150-points",
+          "source": "Benzinga",
+          "date": "2026-07-06"
         }
       ]
     },
@@ -339,27 +339,27 @@
           "date": "2026-06-30"
         },
         {
+          "title": "US Stocks Higher; Nasdaq Gains Over 150 Points",
+          "url": "https://www.benzinga.com/markets/market-summary/26/07/60279063/us-stocks-higher-nasdaq-gains-over-150-points",
+          "source": "Benzinga",
+          "date": "2026-07-06"
+        },
+        {
           "title": "Volatility in Tech Stocks Just Hit a 23-Year Extreme. Why That May Mean the Bull Market Clock Is Ticking.",
           "url": "https://www.barchart.com/story/news/3127873/volatility-in-tech-stocks-just-hit-a-23-year-extreme-why-that-may-mean-the-bull-market-clock-is-ticking",
           "source": "Barchart",
-          "date": "2026-07-04"
-        },
-        {
-          "title": "Notable tech headlines for the week: Meta, Micron, Palantir in focus",
-          "url": "https://seekingalpha.com/news/4609900-notable-tech-headlines-for-the-week-meta-micron-palantir-in-focus",
-          "source": "Seeking Alpha",
           "date": "2026-07-04"
         }
       ]
     },
     "dow": {
-      "value": 52900.07,
-      "date": "2026-07-02",
+      "value": 53055.91,
+      "date": "2026-07-06",
       "label": "Jul 2026",
-      "display": "52,900",
-      "reading": "Jul 2026: 52,900, up from 52,319 in Jun 2026 \u2014 its highest reading in 12 months.",
+      "display": "53,056",
+      "reading": "Jul 2026: 53,056, up from 52,319 in Jun 2026 \u2014 its highest reading in 12 months.",
       "change": {
-        "text": "\u2191 10.1% YTD",
+        "text": "\u2191 10.4% YTD",
         "sign": "pos"
       },
       "news": [
@@ -6084,7 +6084,9 @@
         "2026-06-28",
         "2026-06-29",
         "2026-06-30",
-        "2026-07-01"
+        "2026-07-01",
+        "2026-07-02",
+        "2026-07-03"
       ],
       "values": [
         0.06,
@@ -10286,6 +10288,8 @@
         3.63,
         3.63,
         3.63,
+        3.63,
+        3.63,
         3.63
       ],
       "freq": "monthly"
@@ -13166,7 +13170,8 @@
         "2026-06-26",
         "2026-06-29",
         "2026-06-30",
-        "2026-07-01"
+        "2026-07-01",
+        "2026-07-02"
       ],
       "values": [
         2.12,
@@ -16043,7 +16048,8 @@
         4.38,
         4.38,
         4.44,
-        4.48
+        4.48,
+        4.49
       ],
       "freq": "monthly"
     },
@@ -18108,7 +18114,7 @@
         "2026-04-30",
         "2026-05-29",
         "2026-06-30",
-        "2026-07-02"
+        "2026-07-06"
       ],
       "values": [
         18432.24,
@@ -18231,7 +18237,7 @@
         49652.14,
         51032.46,
         52319.2,
-        52900.07
+        53055.91
       ],
       "freq": "monthly"
     }
