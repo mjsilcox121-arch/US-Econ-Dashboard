@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-07T22:12:22Z",
+  "updated": "2026-07-08T22:09:46Z",
   "metrics": {
     "gdp": {
       "value": 2.1,
@@ -60,15 +60,7 @@
       "change": {
         "text": "\u2191 from +3.8%",
         "sign": "neg"
-      },
-      "news": [
-        {
-          "title": "Green Bay-area consumers will be surveyed for Consumer Price Index",
-          "url": "https://www.greenbaypressgazette.com/story/money/2026/06/17/green-bay-5-metro-areas-added-to-consumer-price-index-data-collection/90587280007/",
-          "source": "Green Bay Press-Gazette",
-          "date": "2026-06-17"
-        }
-      ]
+      }
     },
     "corecpi": {
       "value": 2.8229,
@@ -127,7 +119,7 @@
     },
     "ffr": {
       "value": 3.63,
-      "date": "2026-07-06",
+      "date": "2026-07-07",
       "label": "Jul 2026",
       "display": "3.63%",
       "reading": "Jul 2026: 3.63%, unchanged from 3.63% in Jul 2026 \u2014 its highest reading in 12 months.",
@@ -157,13 +149,13 @@
       ]
     },
     "ten": {
-      "value": 4.48,
-      "date": "2026-07-06",
+      "value": 4.55,
+      "date": "2026-07-07",
       "label": "Jul 2026",
-      "display": "4.48%",
-      "reading": "Jul 2026: 4.48%, down from 4.49% in Jul 2026.",
+      "display": "4.55%",
+      "reading": "Jul 2026: 4.55%, up from 4.48% in Jul 2026 \u2014 its highest reading in 12 months.",
       "change": {
-        "text": "\u2193 from 4.49%",
+        "text": "\u2191 from 4.48%",
         "sign": "flat"
       }
     },
@@ -207,27 +199,7 @@
       "change": {
         "text": "\u2191 from +0.4%",
         "sign": "pos"
-      },
-      "news": [
-        {
-          "title": "Retail sales up a strong 0.9% in May, underscoring the resilience of the US consumer",
-          "url": "https://wtop.com/consumer-news/2026/06/retail-sales-up-0-9-in-may-from-april-as-warm-weather-and-cooling-gas-prices-enticed-spending/",
-          "source": "WTOP",
-          "date": "2026-06-17"
-        },
-        {
-          "title": "Retail sales up a strong 0.9% in May, underscoring the resilience of the US consumer",
-          "url": "https://www.barchart.com/story/news/2514430/retail-sales-up-a-strong-0-9-in-may-underscoring-the-resilience-of-the-us-consumer",
-          "source": "Barchart",
-          "date": "2026-06-17"
-        },
-        {
-          "title": "Retail sales up a strong 0.9% in May, underscoring the resilience of the US consumer",
-          "url": "https://cdapress.com/news/2026/jun/17/retail-sales-up-a-strong-09-in-may-underscoring-the-resilience-of-the-us-consumer/",
-          "source": "Coeur d'Alene Press",
-          "date": "2026-06-17"
-        }
-      ]
+      }
     },
     "housing": {
       "value": 1.177,
@@ -277,95 +249,95 @@
       ]
     },
     "sp500": {
-      "value": 7537.43,
-      "date": "2026-07-06",
+      "value": 7503.85,
+      "date": "2026-07-07",
       "label": "Jul 2026",
-      "display": "7,537",
-      "reading": "Jul 2026: 7,537, up from 7,499 in Jun 2026.",
+      "display": "7,504",
+      "reading": "Jul 2026: 7,504, up from 7,499 in Jun 2026.",
       "change": {
-        "text": "\u2191 10.1% YTD",
+        "text": "\u2191 9.6% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "World markets are mixed while Korean shares slump despite an AI-led rebound on Wall St",
-          "url": "https://www.ajc.com/news/2026/07/asian-markets-retreat-with-korean-shares-slumping-despite-an-ai-led-rebound-on-wall-st/",
+          "title": "Here are Wall Street analysts' top S&P 500 stocks for the second half of 2026",
+          "url": "https://www.cnbc.com/2026/07/07/here-are-wall-street-analysts-top-sp-500-stocks-for-the-second-half-of-2026.html",
+          "source": "CNBC",
+          "date": "2026-07-07"
+        },
+        {
+          "title": "Oil prices jump more than 2% after US strikes on Iran, while world shares retreat",
+          "url": "https://www.ajc.com/news/2026/07/oil-prices-jump-more-than-3-after-us-strikes-on-iran-while-shares-in-asia-are-mixed/",
           "source": "The Atlanta Journal-Constitution",
-          "date": "2026-07-07"
+          "date": "2026-07-08"
         },
         {
-          "title": "Asian markets retreat after rebounding AI stocks send the S&P 500 to brink of a new record",
-          "url": "https://www.barchart.com/story/news/3153642/asian-markets-retreat-after-rebounding-ai-stocks-send-the-sp-500-to-brink-of-a-new-record",
-          "source": "Barchart",
-          "date": "2026-07-07"
-        },
-        {
-          "title": "Asian markets retreat after rebounding AI stocks send the S&P 500 to brink of a new record",
-          "url": "https://www.clickondetroit.com/business/2026/07/07/asian-markets-retreat-after-rebounding-ai-stocks-send-the-sp-500-to-brink-of-a-new-record/",
-          "source": "WDIV ClickOnDetroit",
-          "date": "2026-07-07"
+          "title": "Oil prices jump after US strikes on Iran, while shares in Asia are mixed",
+          "url": "https://www.ajc.com/news/2026/07/oil-prices-jump-after-us-strikes-on-iran-while-shares-in-asia-are-mixed/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-07-08"
         }
       ]
     },
     "nasdaq": {
-      "value": 26121.16,
-      "date": "2026-07-06",
+      "value": 25818.69,
+      "date": "2026-07-07",
       "label": "Jul 2026",
-      "display": "26,121",
-      "reading": "Jul 2026: 26,121, down from 26,214 in Jun 2026.",
+      "display": "25,819",
+      "reading": "Jul 2026: 25,819, down from 26,214 in Jun 2026.",
       "change": {
-        "text": "\u2191 12.4% YTD",
+        "text": "\u2191 11.1% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "Nasdaq futures fall after Samsung's record profit fails to allay chip jitters",
-          "url": "https://www.reuters.com/business/nasdaq-futures-fall-after-samsungs-record-profit-fails-allay-chip-jitters-2026-07-07/",
-          "source": "Reuters",
-          "date": "2026-07-07"
+          "title": "Oil prices jump more than 2% after US strikes on Iran, while world shares retreat",
+          "url": "https://www.ajc.com/news/2026/07/oil-prices-jump-more-than-3-after-us-strikes-on-iran-while-shares-in-asia-are-mixed/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-07-08"
         },
         {
-          "title": "Dow Settles Above 53,000: Investor Sentiment Improves, Fear & Greed Index Moves To \u2018Neutral\u2019 Zone",
-          "url": "https://www.benzinga.com/markets/market-summary/26/07/60296784/dow-settles-above-53000-investor-sentiment-improves-fear-greed-index-moves-to-neutral-zone",
+          "title": "Oil prices jump after US strikes on Iran, while shares in Asia are mixed",
+          "url": "https://www.ajc.com/news/2026/07/oil-prices-jump-after-us-strikes-on-iran-while-shares-in-asia-are-mixed/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-07-08"
+        },
+        {
+          "title": "Crude Oil Moves Higher; Rivian Automotive Shares Plunge",
+          "url": "https://www.benzinga.com/markets/market-summary/26/07/60314535/crude-oil-moves-higher-rivian-automotive-shares-plunge",
           "source": "Benzinga",
           "date": "2026-07-07"
-        },
-        {
-          "title": "Stock Indexes Settle Higher as Big Tech and Chip Stocks Rally",
-          "url": "https://www.barchart.com/story/news/3149449/stock-indexes-settle-higher-as-big-tech-and-chip-stocks-rally",
-          "source": "Barchart",
-          "date": "2026-07-06"
         }
       ]
     },
     "dow": {
-      "value": 52925.15,
-      "date": "2026-07-07",
+      "value": 52348.39,
+      "date": "2026-07-08",
       "label": "Jul 2026",
-      "display": "52,925",
-      "reading": "Jul 2026: 52,925, up from 52,319 in Jun 2026 \u2014 its highest reading in 12 months.",
+      "display": "52,348",
+      "reading": "Jul 2026: 52,348, up from 52,319 in Jun 2026 \u2014 its highest reading in 12 months.",
       "change": {
-        "text": "\u2191 10.1% YTD",
+        "text": "\u2191 8.9% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "World markets are mixed while Korean shares slump despite an AI-led rebound on Wall St",
-          "url": "https://www.ajc.com/news/2026/07/asian-markets-retreat-with-korean-shares-slumping-despite-an-ai-led-rebound-on-wall-st/",
+          "title": "Oil prices jump more than 2% after US strikes on Iran, while world shares retreat",
+          "url": "https://www.ajc.com/news/2026/07/oil-prices-jump-more-than-3-after-us-strikes-on-iran-while-shares-in-asia-are-mixed/",
           "source": "The Atlanta Journal-Constitution",
-          "date": "2026-07-07"
+          "date": "2026-07-08"
         },
         {
-          "title": "MU, AMD, SNDK, IREN, RIVN: 5 Trending Stocks Today",
-          "url": "https://www.benzinga.com/markets/equities/26/07/60295694/micron-amd-sandisk-iren-and-rivian-why-these-5-stocks-are-trending-today",
-          "source": "Benzinga",
-          "date": "2026-07-06"
+          "title": "Oil prices jump after US strikes on Iran, while shares in Asia are mixed",
+          "url": "https://www.ajc.com/news/2026/07/oil-prices-jump-after-us-strikes-on-iran-while-shares-in-asia-are-mixed/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-07-08"
         },
         {
-          "title": "Stock Indexes Settle Higher as Big Tech and Chip Stocks Rally",
-          "url": "https://www.barchart.com/story/news/3149449/stock-indexes-settle-higher-as-big-tech-and-chip-stocks-rally",
+          "title": "Stock Indexes Fall as Chip Stocks Sink and Crude Soars",
+          "url": "https://www.barchart.com/story/news/3171599/stock-indexes-fall-as-chip-stocks-sink-and-crude-soars",
           "source": "Barchart",
-          "date": "2026-07-06"
+          "date": "2026-07-07"
         }
       ]
     }
@@ -6075,7 +6047,8 @@
         "2026-07-03",
         "2026-07-04",
         "2026-07-05",
-        "2026-07-06"
+        "2026-07-06",
+        "2026-07-07"
       ],
       "values": [
         0.06,
@@ -10282,6 +10255,7 @@
         3.63,
         3.63,
         3.63,
+        3.63,
         3.63
       ],
       "freq": "monthly"
@@ -13164,7 +13138,8 @@
         "2026-06-30",
         "2026-07-01",
         "2026-07-02",
-        "2026-07-06"
+        "2026-07-06",
+        "2026-07-07"
       ],
       "values": [
         2.12,
@@ -16043,7 +16018,8 @@
         4.44,
         4.48,
         4.49,
-        4.48
+        4.48,
+        4.55
       ],
       "freq": "monthly"
     },
@@ -17576,7 +17552,7 @@
         "2026-04-30",
         "2026-05-29",
         "2026-06-30",
-        "2026-07-06"
+        "2026-07-07"
       ],
       "values": [
         2173.6,
@@ -17699,7 +17675,7 @@
         7209.01,
         7580.06,
         7499.36,
-        7537.43
+        7503.85
       ],
       "freq": "monthly"
     },
@@ -17843,7 +17819,7 @@
         "2026-04-30",
         "2026-05-29",
         "2026-06-30",
-        "2026-07-06"
+        "2026-07-07"
       ],
       "values": [
         4635.24,
@@ -17984,7 +17960,7 @@
         24892.31,
         26972.62,
         26213.72,
-        26121.16
+        25818.69
       ],
       "freq": "monthly"
     },
@@ -18110,7 +18086,7 @@
         "2026-04-30",
         "2026-05-29",
         "2026-06-30",
-        "2026-07-07"
+        "2026-07-08"
       ],
       "values": [
         18432.24,
@@ -18233,7 +18209,7 @@
         49652.14,
         51032.46,
         52319.2,
-        52925.15
+        52348.39
       ],
       "freq": "monthly"
     }
