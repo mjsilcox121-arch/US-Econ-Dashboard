@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-08T22:09:46Z",
+  "updated": "2026-07-09T22:24:55Z",
   "metrics": {
     "gdp": {
       "value": 2.1,
@@ -118,13 +118,13 @@
       ]
     },
     "ffr": {
-      "value": 3.63,
-      "date": "2026-07-07",
+      "value": 3.62,
+      "date": "2026-07-08",
       "label": "Jul 2026",
-      "display": "3.63%",
-      "reading": "Jul 2026: 3.63%, unchanged from 3.63% in Jul 2026 \u2014 its highest reading in 12 months.",
+      "display": "3.62%",
+      "reading": "Jul 2026: 3.62%, down from 3.63% in Jul 2026 \u2014 its lowest reading in 12 months.",
       "change": {
-        "text": "\u2192 Steady",
+        "text": "\u2193 from 3.63%",
         "sign": "flat"
       },
       "news": [
@@ -149,13 +149,13 @@
       ]
     },
     "ten": {
-      "value": 4.55,
-      "date": "2026-07-07",
+      "value": 4.56,
+      "date": "2026-07-08",
       "label": "Jul 2026",
-      "display": "4.55%",
-      "reading": "Jul 2026: 4.55%, up from 4.48% in Jul 2026 \u2014 its highest reading in 12 months.",
+      "display": "4.56%",
+      "reading": "Jul 2026: 4.56%, up from 4.55% in Jul 2026 \u2014 its highest reading in 12 months.",
       "change": {
-        "text": "\u2191 from 4.48%",
+        "text": "\u2191 from 4.55%",
         "sign": "flat"
       }
     },
@@ -221,7 +221,15 @@
       "change": {
         "text": "\u2193 from -$54570B",
         "sign": "neg"
-      }
+      },
+      "news": [
+        {
+          "title": "US Trade Deficit Grew Wider in May : Supply Lines",
+          "url": "https://news.bloombergtax.com/daily-tax-report/us-trade-deficit-grew-wider-in-may-supply-lines",
+          "source": "Bloomberg Tax News",
+          "date": "2026-07-08"
+        }
+      ]
     },
     "sent": {
       "value": 44.8,
@@ -249,95 +257,95 @@
       ]
     },
     "sp500": {
-      "value": 7503.85,
-      "date": "2026-07-07",
+      "value": 7482.71,
+      "date": "2026-07-08",
       "label": "Jul 2026",
-      "display": "7,504",
-      "reading": "Jul 2026: 7,504, up from 7,499 in Jun 2026.",
+      "display": "7,483",
+      "reading": "Jul 2026: 7,483, down from 7,499 in Jun 2026.",
       "change": {
-        "text": "\u2191 9.6% YTD",
+        "text": "\u2191 9.3% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "Here are Wall Street analysts' top S&P 500 stocks for the second half of 2026",
-          "url": "https://www.cnbc.com/2026/07/07/here-are-wall-street-analysts-top-sp-500-stocks-for-the-second-half-of-2026.html",
-          "source": "CNBC",
-          "date": "2026-07-07"
-        },
-        {
-          "title": "Oil prices jump more than 2% after US strikes on Iran, while world shares retreat",
-          "url": "https://www.ajc.com/news/2026/07/oil-prices-jump-more-than-3-after-us-strikes-on-iran-while-shares-in-asia-are-mixed/",
-          "source": "The Atlanta Journal-Constitution",
+          "title": "TRADING DAY War on, risk-off: Stocks drop, crude jumps as Trump calls Iran peace deal 'over'",
+          "url": "https://www.reuters.com/commentary/reuters-open-interest/global-markets-trading-day-graphic-2026-07-08/",
+          "source": "Reuters",
           "date": "2026-07-08"
         },
         {
-          "title": "Oil prices jump after US strikes on Iran, while shares in Asia are mixed",
-          "url": "https://www.ajc.com/news/2026/07/oil-prices-jump-after-us-strikes-on-iran-while-shares-in-asia-are-mixed/",
-          "source": "The Atlanta Journal-Constitution",
+          "title": "6 High-Yield International Dividend Stocks Analysts Love",
+          "url": "https://www.forbes.com/sites/catherinebrock/2026/07/08/6-high-yield-international-dividend-stocks-analysts-love/",
+          "source": "Forbes",
           "date": "2026-07-08"
+        },
+        {
+          "title": "Tech Stock Volatility Hits 23-Year High as Nasdaq Swings Outpace S&P 500",
+          "url": "https://www.benzinga.com/markets/tech/26/07/60350353/tech-stock-volatility-hits-23-year-high-as-nasdaq-swings-outpace-sp-500",
+          "source": "Benzinga",
+          "date": "2026-07-09"
         }
       ]
     },
     "nasdaq": {
-      "value": 25818.69,
-      "date": "2026-07-07",
+      "value": 25870.65,
+      "date": "2026-07-08",
       "label": "Jul 2026",
-      "display": "25,819",
-      "reading": "Jul 2026: 25,819, down from 26,214 in Jun 2026.",
+      "display": "25,871",
+      "reading": "Jul 2026: 25,871, down from 26,214 in Jun 2026.",
       "change": {
-        "text": "\u2191 11.1% YTD",
+        "text": "\u2191 11.3% YTD",
         "sign": "pos"
       },
       "news": [
+        {
+          "title": "Tech Stock Volatility Hits 23-Year High as Nasdaq Swings Outpace S&P 500",
+          "url": "https://www.benzinga.com/markets/tech/26/07/60350353/tech-stock-volatility-hits-23-year-high-as-nasdaq-swings-outpace-sp-500",
+          "source": "Benzinga",
+          "date": "2026-07-09"
+        },
+        {
+          "title": "Asian stocks slip and oil prices jump as Iran and US launch fresh attacks",
+          "url": "https://www.ajc.com/news/2026/07/asian-stocks-slip-and-oil-prices-jump-as-iran-and-us-launch-fresh-attacks/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-07-09"
+        },
         {
           "title": "Oil prices jump more than 2% after US strikes on Iran, while world shares retreat",
           "url": "https://www.ajc.com/news/2026/07/oil-prices-jump-more-than-3-after-us-strikes-on-iran-while-shares-in-asia-are-mixed/",
           "source": "The Atlanta Journal-Constitution",
           "date": "2026-07-08"
-        },
-        {
-          "title": "Oil prices jump after US strikes on Iran, while shares in Asia are mixed",
-          "url": "https://www.ajc.com/news/2026/07/oil-prices-jump-after-us-strikes-on-iran-while-shares-in-asia-are-mixed/",
-          "source": "The Atlanta Journal-Constitution",
-          "date": "2026-07-08"
-        },
-        {
-          "title": "Crude Oil Moves Higher; Rivian Automotive Shares Plunge",
-          "url": "https://www.benzinga.com/markets/market-summary/26/07/60314535/crude-oil-moves-higher-rivian-automotive-shares-plunge",
-          "source": "Benzinga",
-          "date": "2026-07-07"
         }
       ]
     },
     "dow": {
-      "value": 52348.39,
-      "date": "2026-07-08",
+      "value": 52487.41,
+      "date": "2026-07-09",
       "label": "Jul 2026",
-      "display": "52,348",
-      "reading": "Jul 2026: 52,348, up from 52,319 in Jun 2026 \u2014 its highest reading in 12 months.",
+      "display": "52,487",
+      "reading": "Jul 2026: 52,487, up from 52,319 in Jun 2026 \u2014 its highest reading in 12 months.",
       "change": {
-        "text": "\u2191 8.9% YTD",
+        "text": "\u2191 9.2% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "Oil prices jump more than 2% after US strikes on Iran, while world shares retreat",
-          "url": "https://www.ajc.com/news/2026/07/oil-prices-jump-more-than-3-after-us-strikes-on-iran-while-shares-in-asia-are-mixed/",
+          "title": "Asian stocks slip and oil prices jump as Iran and US launch fresh attacks",
+          "url": "https://www.ajc.com/news/2026/07/asian-stocks-slip-and-oil-prices-jump-as-iran-and-us-launch-fresh-attacks/",
           "source": "The Atlanta Journal-Constitution",
-          "date": "2026-07-08"
+          "date": "2026-07-09"
         },
         {
-          "title": "Oil prices jump after US strikes on Iran, while shares in Asia are mixed",
-          "url": "https://www.ajc.com/news/2026/07/oil-prices-jump-after-us-strikes-on-iran-while-shares-in-asia-are-mixed/",
-          "source": "The Atlanta Journal-Constitution",
-          "date": "2026-07-08"
-        },
-        {
-          "title": "Stock Indexes Fall as Chip Stocks Sink and Crude Soars",
-          "url": "https://www.barchart.com/story/news/3171599/stock-indexes-fall-as-chip-stocks-sink-and-crude-soars",
+          "title": "Stocks Weighed Down by Geopolitical Risks",
+          "url": "https://www.barchart.com/story/news/3192557/stocks-weighed-down-by-geopolitical-risks",
           "source": "Barchart",
-          "date": "2026-07-07"
+          "date": "2026-07-08"
+        },
+        {
+          "title": "Oil prices rise, and stocks drop worldwide after Trump says ceasefire with Iran is 'over'",
+          "url": "https://www.ajc.com/news/2026/07/oil-prices-rise-and-stocks-drop-worldwide-after-trump-says-ceasefire-with-iran-is-over/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-07-08"
         }
       ]
     }
@@ -6048,7 +6056,8 @@
         "2026-07-04",
         "2026-07-05",
         "2026-07-06",
-        "2026-07-07"
+        "2026-07-07",
+        "2026-07-08"
       ],
       "values": [
         0.06,
@@ -10256,7 +10265,8 @@
         3.63,
         3.63,
         3.63,
-        3.63
+        3.63,
+        3.62
       ],
       "freq": "monthly"
     },
@@ -13139,7 +13149,8 @@
         "2026-07-01",
         "2026-07-02",
         "2026-07-06",
-        "2026-07-07"
+        "2026-07-07",
+        "2026-07-08"
       ],
       "values": [
         2.12,
@@ -16019,7 +16030,8 @@
         4.48,
         4.49,
         4.48,
-        4.55
+        4.55,
+        4.56
       ],
       "freq": "monthly"
     },
@@ -17552,7 +17564,7 @@
         "2026-04-30",
         "2026-05-29",
         "2026-06-30",
-        "2026-07-07"
+        "2026-07-08"
       ],
       "values": [
         2173.6,
@@ -17675,7 +17687,7 @@
         7209.01,
         7580.06,
         7499.36,
-        7503.85
+        7482.71
       ],
       "freq": "monthly"
     },
@@ -17819,7 +17831,7 @@
         "2026-04-30",
         "2026-05-29",
         "2026-06-30",
-        "2026-07-07"
+        "2026-07-08"
       ],
       "values": [
         4635.24,
@@ -17960,7 +17972,7 @@
         24892.31,
         26972.62,
         26213.72,
-        25818.69
+        25870.65
       ],
       "freq": "monthly"
     },
@@ -18086,7 +18098,7 @@
         "2026-04-30",
         "2026-05-29",
         "2026-06-30",
-        "2026-07-08"
+        "2026-07-09"
       ],
       "values": [
         18432.24,
@@ -18209,7 +18221,7 @@
         49652.14,
         51032.46,
         52319.2,
-        52348.39
+        52487.41
       ],
       "freq": "monthly"
     }
