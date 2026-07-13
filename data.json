@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-10T22:06:56Z",
+  "updated": "2026-07-13T21:59:29Z",
   "metrics": {
     "gdp": {
       "value": 2.1,
@@ -38,15 +38,15 @@
           "date": "2026-07-02"
         },
         {
-          "title": "June Jobs Report Shows US Labor Market Making Slower but Steady Gains",
-          "url": "https://www.nytimes.com/2026/07/02/business/economy/jobs-report-employment.html",
-          "source": "The New York Times",
+          "title": "US economy adds jobs at slower pace with 57,000 jobs added in June, unemployment rate dips",
+          "url": "https://www.fox9.com/news/us-economy-hiring-slows-june-57000-jobs-added-unemployment-rate-dips",
+          "source": "FOX 9",
           "date": "2026-07-02"
         },
         {
           "title": "US economy adds jobs at slower pace with 57,000 jobs added in June, unemployment rate dips",
-          "url": "https://www.fox9.com/news/us-economy-hiring-slows-june-57000-jobs-added-unemployment-rate-dips",
-          "source": "FOX 9",
+          "url": "https://www.fox4news.com/news/us-economy-hiring-slows-june-57000-jobs-added-unemployment-rate-dips",
+          "source": "FOX 4 News",
           "date": "2026-07-02"
         }
       ]
@@ -60,7 +60,21 @@
       "change": {
         "text": "\u2191 from +3.8%",
         "sign": "neg"
-      }
+      },
+      "news": [
+        {
+          "title": "Arkansas connections made Hayek\u2019s work widely accessible",
+          "url": "https://www.arkansasonline.com/news/2026/jul/13/arkansas-connections-made-hayeks-work-widely/",
+          "source": "Arkansas Online",
+          "date": "2026-07-13"
+        },
+        {
+          "title": "What to Expect in Markets this Week: Inflation Data, Warsh Testimony in Congress, Bank Earnings",
+          "url": "https://www.investopedia.com/what-to-expect-in-markets-this-week-june-inflation-data-warsh-testimony-in-congress-bank-earnings-reports-12015328",
+          "source": "Investopedia",
+          "date": "2026-07-12"
+        }
+      ]
     },
     "corecpi": {
       "value": 2.8229,
@@ -119,7 +133,7 @@
     },
     "ffr": {
       "value": 3.62,
-      "date": "2026-07-09",
+      "date": "2026-07-10",
       "label": "Jul 2026",
       "display": "3.62%",
       "reading": "Jul 2026: 3.62%, unchanged from 3.62% in Jul 2026 \u2014 its lowest reading in 12 months.",
@@ -149,13 +163,13 @@
       ]
     },
     "ten": {
-      "value": 4.54,
-      "date": "2026-07-09",
+      "value": 4.56,
+      "date": "2026-07-10",
       "label": "Jul 2026",
-      "display": "4.54%",
-      "reading": "Jul 2026: 4.54%, down from 4.56% in Jul 2026.",
+      "display": "4.56%",
+      "reading": "Jul 2026: 4.56%, up from 4.54% in Jul 2026 \u2014 its highest reading in 12 months.",
       "change": {
-        "text": "\u2193 from 4.56%",
+        "text": "\u2191 from 4.54%",
         "sign": "flat"
       }
     },
@@ -257,63 +271,63 @@
       ]
     },
     "sp500": {
-      "value": 7543.64,
-      "date": "2026-07-09",
+      "value": 7575.39,
+      "date": "2026-07-10",
       "label": "Jul 2026",
-      "display": "7,544",
-      "reading": "Jul 2026: 7,544, up from 7,499 in Jun 2026.",
+      "display": "7,575",
+      "reading": "Jul 2026: 7,575, up from 7,499 in Jun 2026.",
       "change": {
-        "text": "\u2191 10.2% YTD",
+        "text": "\u2191 10.7% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "Stock Market Outlook: 3 Things Could Derail S&P 500 Rally, Morgan Stanley Says",
-          "url": "https://www.businessinsider.com/stock-market-outlook-sp500-rally-risks-interest-rates-morgan-stanley-2026-7",
-          "source": "Business Insider",
-          "date": "2026-07-10"
-        },
-        {
-          "title": "World shares mostly climb and oil prices slip as traders monitor Iran war developments",
-          "url": "https://www.ajc.com/news/2026/07/world-shares-mostly-climb-and-oil-prices-slip-as-traders-monitor-iran-war-developments/",
+          "title": "Oil prices jump and Asian shares slip as US and Iran carry out airstrikes",
+          "url": "https://www.ajc.com/news/2026/07/oil-prices-jump-and-asian-shares-slip-as-us-and-iran-carry-out-airstrikes/",
           "source": "The Atlanta Journal-Constitution",
-          "date": "2026-07-10"
+          "date": "2026-07-13"
         },
         {
-          "title": "Dow Futures Hold Firm Near Record Highs as Tech Rotation Meets Renewed Middle East Risk",
-          "url": "https://www.barchart.com/story/news/3220020/dow-futures-hold-firm-near-record-highs-as-tech-rotation-meets-renewed-middle-east-risk",
+          "title": "Top S&P 500 Stocks to Watch This Week: Goldman Sachs, Netflix, GE Aerospace",
+          "url": "https://www.benzinga.com/markets/market-summary/26/07/60405615/top-sp-500-stocks-to-watch-this-week-goldman-sachs-netflix-ge-aerospace",
+          "source": "Benzinga",
+          "date": "2026-07-12"
+        },
+        {
+          "title": "70% of S&P 500 Tech Stocks Are Down 20% or More from Their All-Time Highs",
+          "url": "https://www.barchart.com/story/news/3238440/70-of-s-p-500-tech-stocks-are-down-20-or-more-from-their-all-time-highs",
           "source": "Barchart",
-          "date": "2026-07-10"
+          "date": "2026-07-11"
         }
       ]
     },
     "nasdaq": {
-      "value": 26206.89,
-      "date": "2026-07-09",
+      "value": 26281.61,
+      "date": "2026-07-10",
       "label": "Jul 2026",
-      "display": "26,207",
-      "reading": "Jul 2026: 26,207, down from 26,214 in Jun 2026.",
+      "display": "26,282",
+      "reading": "Jul 2026: 26,282, up from 26,214 in Jun 2026.",
       "change": {
-        "text": "\u2191 12.8% YTD",
+        "text": "\u2191 13.1% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "World shares mostly climb and oil prices slip as traders monitor Iran war developments",
-          "url": "https://www.ajc.com/news/2026/07/world-shares-mostly-climb-and-oil-prices-slip-as-traders-monitor-iran-war-developments/",
+          "title": "Oil prices jump and Asian shares slip as US and Iran carry out airstrikes",
+          "url": "https://www.ajc.com/news/2026/07/oil-prices-jump-and-asian-shares-slip-as-us-and-iran-carry-out-airstrikes/",
           "source": "The Atlanta Journal-Constitution",
+          "date": "2026-07-13"
+        },
+        {
+          "title": "South Korean chipmaker SK Hynix debuts on Nasdaq at $170 a share",
+          "url": "https://nypost.com/2026/07/10/business/south-korean-chipmaker-sk-hynix-debuts-on-nasdaq-at-170-a-share/",
+          "source": "New York Post",
           "date": "2026-07-10"
         },
         {
-          "title": "Dow Futures Hold Firm Near Record Highs as Tech Rotation Meets Renewed Middle East Risk",
-          "url": "https://www.barchart.com/story/news/3220020/dow-futures-hold-firm-near-record-highs-as-tech-rotation-meets-renewed-middle-east-risk",
-          "source": "Barchart",
-          "date": "2026-07-10"
-        },
-        {
-          "title": "Dow Futures Hold Firm Near Record Highs as Tech Rotation Meets Renewed Middle East Risk",
-          "url": "https://www.barchart.com/story/news/3220019/dow-futures-hold-firm-near-record-highs-as-tech-rotation-meets-renewed-middle-east-risk",
-          "source": "Barchart",
+          "title": "US stocks rise as Wall Street shows it's still hungry for AI winners",
+          "url": "https://www.ajc.com/news/2026/07/us-stocks-rise-as-wall-street-shows-its-still-hungry-for-ai-winners/",
+          "source": "The Atlanta Journal-Constitution",
           "date": "2026-07-10"
         }
       ]
@@ -330,22 +344,22 @@
       },
       "news": [
         {
-          "title": "World shares mostly climb and oil prices slip as traders monitor Iran war developments",
-          "url": "https://www.ajc.com/news/2026/07/world-shares-mostly-climb-and-oil-prices-slip-as-traders-monitor-iran-war-developments/",
+          "title": "Oil prices jump and Asian shares slip as US and Iran carry out airstrikes",
+          "url": "https://www.ajc.com/news/2026/07/oil-prices-jump-and-asian-shares-slip-as-us-and-iran-carry-out-airstrikes/",
           "source": "The Atlanta Journal-Constitution",
-          "date": "2026-07-10"
+          "date": "2026-07-13"
         },
         {
-          "title": "Asian stocks climb and oil prices slip as traders monitor Iran war developments",
-          "url": "https://www.ajc.com/news/2026/07/asian-stocks-climb-and-oil-prices-slip-as-traders-monitor-iran-war-developments/",
-          "source": "The Atlanta Journal-Constitution",
-          "date": "2026-07-10"
+          "title": "The Week That Was, The Week Ahead: Macro and Markets, July 12",
+          "url": "https://markets.businessinsider.com/news/stocks/the-week-that-was-the-week-ahead-macro-and-markets-july-12-1036316649",
+          "source": "Markets Insider",
+          "date": "2026-07-12"
         },
         {
-          "title": "Stocks Settle Higher as Chipmakers Rally and Crude Prices Fall",
-          "url": "https://www.barchart.com/story/news/3213146/stocks-settle-higher-as-chipmakers-rally-and-crude-prices-fall",
-          "source": "Barchart",
-          "date": "2026-07-09"
+          "title": "US stocks rise as Wall Street shows it's still hungry for AI winners",
+          "url": "https://www.ajc.com/news/2026/07/us-stocks-rise-as-wall-street-shows-its-still-hungry-for-ai-winners/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-07-10"
         }
       ]
     }
@@ -6058,7 +6072,8 @@
         "2026-07-06",
         "2026-07-07",
         "2026-07-08",
-        "2026-07-09"
+        "2026-07-09",
+        "2026-07-10"
       ],
       "values": [
         0.06,
@@ -10268,6 +10283,7 @@
         3.63,
         3.63,
         3.62,
+        3.62,
         3.62
       ],
       "freq": "monthly"
@@ -13153,7 +13169,8 @@
         "2026-07-06",
         "2026-07-07",
         "2026-07-08",
-        "2026-07-09"
+        "2026-07-09",
+        "2026-07-10"
       ],
       "values": [
         2.12,
@@ -16035,7 +16052,8 @@
         4.48,
         4.55,
         4.56,
-        4.54
+        4.54,
+        4.56
       ],
       "freq": "monthly"
     },
@@ -17568,7 +17586,7 @@
         "2026-04-30",
         "2026-05-29",
         "2026-06-30",
-        "2026-07-09"
+        "2026-07-10"
       ],
       "values": [
         2173.6,
@@ -17691,7 +17709,7 @@
         7209.01,
         7580.06,
         7499.36,
-        7543.64
+        7575.39
       ],
       "freq": "monthly"
     },
@@ -17835,7 +17853,7 @@
         "2026-04-30",
         "2026-05-29",
         "2026-06-30",
-        "2026-07-09"
+        "2026-07-10"
       ],
       "values": [
         4635.24,
@@ -17976,7 +17994,7 @@
         24892.31,
         26972.62,
         26213.72,
-        26206.89
+        26281.61
       ],
       "freq": "monthly"
     },
