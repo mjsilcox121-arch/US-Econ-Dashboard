@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-13T21:59:29Z",
+  "updated": "2026-07-14T22:02:36Z",
   "metrics": {
     "gdp": {
       "value": 2.1,
@@ -52,18 +52,24 @@
       ]
     },
     "cpi": {
-      "value": 4.1666,
-      "date": "2026-05-01",
-      "label": "May 2026",
-      "display": "+4.2%",
-      "reading": "May 2026: +4.2%, up from +3.8% in Apr 2026 \u2014 its highest reading in 12 months.",
+      "value": 3.4635,
+      "date": "2026-06-01",
+      "label": "Jun 2026",
+      "display": "+3.5%",
+      "reading": "Jun 2026: +3.5%, down from +4.2% in May 2026.",
       "change": {
-        "text": "\u2191 from +3.8%",
-        "sign": "neg"
+        "text": "\u2193 from +4.2%",
+        "sign": "pos"
       },
       "news": [
         {
-          "title": "Arkansas connections made Hayek\u2019s work widely accessible",
+          "title": "Inflation Crushed: Consumer Prices Fall Sharply in June, Much Better Than Expected, Biggest Decline in 26 Years",
+          "url": "https://www.breitbart.com/economy/2026/07/14/consumer-prices-fall-sharply-in-june-much-better-than-expected/",
+          "source": "Breitbart News Network",
+          "date": "2026-07-14"
+        },
+        {
+          "title": "GREG KAZA: Arkansas connections made Hayek\u2019s work widely accessible",
           "url": "https://www.arkansasonline.com/news/2026/jul/13/arkansas-connections-made-hayeks-work-widely/",
           "source": "Arkansas Online",
           "date": "2026-07-13"
@@ -77,14 +83,14 @@
       ]
     },
     "corecpi": {
-      "value": 2.8229,
-      "date": "2026-05-01",
-      "label": "May 2026",
-      "display": "+2.8%",
-      "reading": "May 2026: +2.8%, up from +2.7% in Apr 2026.",
+      "value": 2.5658,
+      "date": "2026-06-01",
+      "label": "Jun 2026",
+      "display": "+2.6%",
+      "reading": "Jun 2026: +2.6%, down from +2.8% in May 2026.",
       "change": {
-        "text": "\u2191 from +2.7%",
-        "sign": "neg"
+        "text": "\u2193 from +2.8%",
+        "sign": "pos"
       }
     },
     "pce": {
@@ -133,7 +139,7 @@
     },
     "ffr": {
       "value": 3.62,
-      "date": "2026-07-10",
+      "date": "2026-07-13",
       "label": "Jul 2026",
       "display": "3.62%",
       "reading": "Jul 2026: 3.62%, unchanged from 3.62% in Jul 2026 \u2014 its lowest reading in 12 months.",
@@ -143,33 +149,33 @@
       },
       "news": [
         {
-          "title": "Fed officials fret over inflation risk, weigh rate hikes",
-          "url": "https://www.reuters.com/business/fed-officials-fret-over-inflation-risk-weigh-rate-hikes-2026-07-10/",
-          "source": "Reuters",
-          "date": "2026-07-10"
-        },
-        {
-          "title": "Gold holds near two-week high on easing Fed rate-hike bets",
-          "url": "https://www.cnbc.com/2026/07/06/gold-holds-near-two-week-high-on-easing-fed-rate-hike-bets.html",
+          "title": "Treasury yields rise as Fed rate hike expectations grow",
+          "url": "https://www.cnbc.com/2026/07/14/treasury-yields-rise-as-fed-rate-hike-expectations-grow.html",
           "source": "CNBC",
-          "date": "2026-07-06"
+          "date": "2026-07-14"
         },
         {
-          "title": "Gold trades near two-week high on cooling US rate-hike bets",
-          "url": "https://www.reuters.com/world/india/gold-trades-near-two-week-high-cooling-us-rate-hike-bets-2026-07-06/",
+          "title": "US consumer inflation likely increased at a slow pace in June as gasoline prices retreated",
+          "url": "https://www.reuters.com/business/us-consumer-inflation-likely-increased-slow-pace-june-gasoline-prices-retreated-2026-07-14/",
           "source": "Reuters",
-          "date": "2026-07-06"
+          "date": "2026-07-14"
+        },
+        {
+          "title": "Traders See 50% Chance That Warsh Fed Hikes Rates This Month",
+          "url": "https://news.bloombergtax.com/daily-tax-report/traders-see-50-chance-that-warsh-fed-hikes-rates-this-month",
+          "source": "Bloomberg Tax News",
+          "date": "2026-07-13"
         }
       ]
     },
     "ten": {
-      "value": 4.56,
-      "date": "2026-07-10",
+      "value": 4.62,
+      "date": "2026-07-13",
       "label": "Jul 2026",
-      "display": "4.56%",
-      "reading": "Jul 2026: 4.56%, up from 4.54% in Jul 2026 \u2014 its highest reading in 12 months.",
+      "display": "4.62%",
+      "reading": "Jul 2026: 4.62%, up from 4.56% in Jul 2026 \u2014 its highest reading in 12 months.",
       "change": {
-        "text": "\u2191 from 4.54%",
+        "text": "\u2191 from 4.56%",
         "sign": "flat"
       }
     },
@@ -271,95 +277,95 @@
       ]
     },
     "sp500": {
-      "value": 7575.39,
-      "date": "2026-07-10",
+      "value": 7515.34,
+      "date": "2026-07-13",
       "label": "Jul 2026",
-      "display": "7,575",
-      "reading": "Jul 2026: 7,575, up from 7,499 in Jun 2026.",
+      "display": "7,515",
+      "reading": "Jul 2026: 7,515, up from 7,499 in Jun 2026.",
       "change": {
-        "text": "\u2191 10.7% YTD",
+        "text": "\u2191 9.8% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "Oil prices jump and Asian shares slip as US and Iran carry out airstrikes",
-          "url": "https://www.ajc.com/news/2026/07/oil-prices-jump-and-asian-shares-slip-as-us-and-iran-carry-out-airstrikes/",
-          "source": "The Atlanta Journal-Constitution",
+          "title": "These two stocks could soon be added to the S&P 500, says KBW",
+          "url": "https://www.cnbc.com/2026/07/13/these-two-stocks-could-soon-be-added-to-the-sp-500-says-kbw.html",
+          "source": "CNBC",
           "date": "2026-07-13"
         },
         {
-          "title": "Top S&P 500 Stocks to Watch This Week: Goldman Sachs, Netflix, GE Aerospace",
-          "url": "https://www.benzinga.com/markets/market-summary/26/07/60405615/top-sp-500-stocks-to-watch-this-week-goldman-sachs-netflix-ge-aerospace",
-          "source": "Benzinga",
-          "date": "2026-07-12"
+          "title": "S&P 500 Could Struggle for Months Before Rally Resumes, Research Firm Says",
+          "url": "https://www.businessinsider.com/stock-market-outlook-sp500-technical-analysis-bull-market-signals-2026-7",
+          "source": "Business Insider",
+          "date": "2026-07-13"
         },
         {
-          "title": "70% of S&P 500 Tech Stocks Are Down 20% or More from Their All-Time Highs",
-          "url": "https://www.barchart.com/story/news/3238440/70-of-s-p-500-tech-stocks-are-down-20-or-more-from-their-all-time-highs",
-          "source": "Barchart",
-          "date": "2026-07-11"
+          "title": "Stocks could get hit by a seasonal correction, Oppenheimer warns",
+          "url": "https://www.cnbc.com/2026/07/13/stocks-could-get-hit-by-a-seasonal-correction-oppenheimer-warns.html",
+          "source": "CNBC",
+          "date": "2026-07-13"
         }
       ]
     },
     "nasdaq": {
-      "value": 26281.61,
-      "date": "2026-07-10",
+      "value": 25873.18,
+      "date": "2026-07-13",
       "label": "Jul 2026",
-      "display": "26,282",
-      "reading": "Jul 2026: 26,282, up from 26,214 in Jun 2026.",
+      "display": "25,873",
+      "reading": "Jul 2026: 25,873, down from 26,214 in Jun 2026.",
       "change": {
-        "text": "\u2191 13.1% YTD",
+        "text": "\u2191 11.3% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "Oil prices jump and Asian shares slip as US and Iran carry out airstrikes",
-          "url": "https://www.ajc.com/news/2026/07/oil-prices-jump-and-asian-shares-slip-as-us-and-iran-carry-out-airstrikes/",
+          "title": "Oil prices jump as fighting flares in the Middle East, while Asian shares are mixed",
+          "url": "https://www.ajc.com/news/2026/07/oil-prices-jump-as-fighting-flares-in-the-middle-east-while-asian-shares-are-mixed/",
           "source": "The Atlanta Journal-Constitution",
-          "date": "2026-07-13"
+          "date": "2026-07-14"
         },
         {
-          "title": "South Korean chipmaker SK Hynix debuts on Nasdaq at $170 a share",
-          "url": "https://nypost.com/2026/07/10/business/south-korean-chipmaker-sk-hynix-debuts-on-nasdaq-at-170-a-share/",
-          "source": "New York Post",
-          "date": "2026-07-10"
+          "title": "Oil prices jump as fighting flares in the Middle East, while Asian shares are mixed",
+          "url": "https://www.ajc.com/news/2026/07/oil-prices-jump-as-fighting-flares-in-the-middle-east-while-ai-led-retreat-pulls-asian-stocks-lower/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-07-14"
         },
         {
-          "title": "US stocks rise as Wall Street shows it's still hungry for AI winners",
-          "url": "https://www.ajc.com/news/2026/07/us-stocks-rise-as-wall-street-shows-its-still-hungry-for-ai-winners/",
-          "source": "The Atlanta Journal-Constitution",
-          "date": "2026-07-10"
+          "title": "Nasdaq Dips Over 400 Points Amid Renewed US-Iran Tensions: Greed Index Remains In \u2018Fear' Zone",
+          "url": "https://www.benzinga.com/markets/market-summary/26/07/60433144/nasdaq-dips-over-400-points-amid-renewed-us-iran-tensions-greed-index-remains-in-fear-zone",
+          "source": "Benzinga",
+          "date": "2026-07-14"
         }
       ]
     },
     "dow": {
-      "value": 52637.01,
-      "date": "2026-07-10",
+      "value": 52508.27,
+      "date": "2026-07-14",
       "label": "Jul 2026",
-      "display": "52,637",
-      "reading": "Jul 2026: 52,637, up from 52,319 in Jun 2026 \u2014 its highest reading in 12 months.",
+      "display": "52,508",
+      "reading": "Jul 2026: 52,508, up from 52,319 in Jun 2026 \u2014 its highest reading in 12 months.",
       "change": {
-        "text": "\u2191 9.5% YTD",
+        "text": "\u2191 9.2% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "Oil prices jump and Asian shares slip as US and Iran carry out airstrikes",
-          "url": "https://www.ajc.com/news/2026/07/oil-prices-jump-and-asian-shares-slip-as-us-and-iran-carry-out-airstrikes/",
-          "source": "The Atlanta Journal-Constitution",
+          "title": "Stocks Settle Lower as Chipmakers Routed and US-Iran Tensions Escalate",
+          "url": "https://www.barchart.com/story/news/3260729/stocks-settle-lower-as-chipmakers-routed-and-us-iran-tensions-escalate",
+          "source": "Barchart",
           "date": "2026-07-13"
         },
         {
-          "title": "The Week That Was, The Week Ahead: Macro and Markets, July 12",
-          "url": "https://markets.businessinsider.com/news/stocks/the-week-that-was-the-week-ahead-macro-and-markets-july-12-1036316649",
-          "source": "Markets Insider",
-          "date": "2026-07-12"
+          "title": "Stocks Retreat on Chipmaker Weakness and US-Iran Standoff",
+          "url": "https://www.barchart.com/story/news/3255719/stocks-retreat-on-chipmaker-weakness-and-us-iran-standoff",
+          "source": "Barchart",
+          "date": "2026-07-13"
         },
         {
-          "title": "US stocks rise as Wall Street shows it's still hungry for AI winners",
-          "url": "https://www.ajc.com/news/2026/07/us-stocks-rise-as-wall-street-shows-its-still-hungry-for-ai-winners/",
-          "source": "The Atlanta Journal-Constitution",
-          "date": "2026-07-10"
+          "title": "Stocks Fall on Weakness in Chipmakers and Renewed US-Iran Hostilities",
+          "url": "https://www.barchart.com/story/news/3254811/stocks-fall-on-weakness-in-chipmakers-and-renewed-us-iran-hostilities",
+          "source": "Barchart",
+          "date": "2026-07-13"
         }
       ]
     }
@@ -880,7 +886,8 @@
         "2026-02-01",
         "2026-03-01",
         "2026-04-01",
-        "2026-05-01"
+        "2026-05-01",
+        "2026-06-01"
       ],
       "values": [
         -0.2299,
@@ -1018,7 +1025,8 @@
         2.434,
         3.286,
         3.7793,
-        4.1666
+        4.1666,
+        3.4635
       ],
       "freq": "monthly"
     },
@@ -1159,7 +1167,8 @@
         "2026-02-01",
         "2026-03-01",
         "2026-04-01",
-        "2026-05-01"
+        "2026-05-01",
+        "2026-06-01"
       ],
       "values": [
         1.6316,
@@ -1297,7 +1306,8 @@
         2.4725,
         2.6022,
         2.7433,
-        2.8229
+        2.8229,
+        2.5658
       ],
       "freq": "monthly"
     },
@@ -6073,7 +6083,10 @@
         "2026-07-07",
         "2026-07-08",
         "2026-07-09",
-        "2026-07-10"
+        "2026-07-10",
+        "2026-07-11",
+        "2026-07-12",
+        "2026-07-13"
       ],
       "values": [
         0.06,
@@ -10284,6 +10297,9 @@
         3.63,
         3.62,
         3.62,
+        3.62,
+        3.62,
+        3.62,
         3.62
       ],
       "freq": "monthly"
@@ -13170,7 +13186,8 @@
         "2026-07-07",
         "2026-07-08",
         "2026-07-09",
-        "2026-07-10"
+        "2026-07-10",
+        "2026-07-13"
       ],
       "values": [
         2.12,
@@ -16053,7 +16070,8 @@
         4.55,
         4.56,
         4.54,
-        4.56
+        4.56,
+        4.62
       ],
       "freq": "monthly"
     },
@@ -17586,7 +17604,7 @@
         "2026-04-30",
         "2026-05-29",
         "2026-06-30",
-        "2026-07-10"
+        "2026-07-13"
       ],
       "values": [
         2173.6,
@@ -17709,7 +17727,7 @@
         7209.01,
         7580.06,
         7499.36,
-        7575.39
+        7515.34
       ],
       "freq": "monthly"
     },
@@ -17853,7 +17871,7 @@
         "2026-04-30",
         "2026-05-29",
         "2026-06-30",
-        "2026-07-10"
+        "2026-07-13"
       ],
       "values": [
         4635.24,
@@ -17994,7 +18012,7 @@
         24892.31,
         26972.62,
         26213.72,
-        26281.61
+        25873.18
       ],
       "freq": "monthly"
     },
@@ -18120,7 +18138,7 @@
         "2026-04-30",
         "2026-05-29",
         "2026-06-30",
-        "2026-07-10"
+        "2026-07-14"
       ],
       "values": [
         18432.24,
@@ -18243,7 +18261,7 @@
         49652.14,
         51032.46,
         52319.2,
-        52637.01
+        52508.27
       ],
       "freq": "monthly"
     }
