@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-16T22:05:16Z",
+  "updated": "2026-07-17T21:56:05Z",
   "metrics": {
     "gdp": {
       "value": 2.1,
@@ -109,12 +109,6 @@
           "url": "https://www.reuters.com/markets/us/revamp-core-pce-measure-could-help-fed-estimate-underlying-inflation-research-2026-07-15/",
           "source": "Reuters",
           "date": "2026-07-15"
-        },
-        {
-          "title": "Core PCE Inflation At 3.4% In May, Highest Level Since 2023",
-          "url": "https://seekingalpha.com/article/4917889-core-pce-inflation-at-3-4-percent-in-may-highest-level-since-2023",
-          "source": "Seeking Alpha",
-          "date": "2026-06-26"
         }
       ]
     },
@@ -139,7 +133,7 @@
     },
     "ffr": {
       "value": 3.63,
-      "date": "2026-07-15",
+      "date": "2026-07-16",
       "label": "Jul 2026",
       "display": "3.63%",
       "reading": "Jul 2026: 3.63%, unchanged from 3.63% in Jul 2026 \u2014 its highest reading in 12 months.",
@@ -169,13 +163,13 @@
       ]
     },
     "ten": {
-      "value": 4.55,
-      "date": "2026-07-15",
+      "value": 4.57,
+      "date": "2026-07-16",
       "label": "Jul 2026",
-      "display": "4.55%",
-      "reading": "Jul 2026: 4.55%, down from 4.58% in Jul 2026.",
+      "display": "4.57%",
+      "reading": "Jul 2026: 4.57%, up from 4.55% in Jul 2026.",
       "change": {
-        "text": "\u2193 from 4.58%",
+        "text": "\u2191 from 4.55%",
         "sign": "flat"
       }
     },
@@ -219,17 +213,25 @@
       "change": {
         "text": "\u2193 from +1.0%",
         "sign": "neg"
-      }
+      },
+      "news": [
+        {
+          "title": "Lower gasoline prices hold back US retail sales, underlying momentum remains",
+          "url": "https://www.reuters.com/business/us-retail-sales-rise-marginally-june-2026-07-16/",
+          "source": "Reuters",
+          "date": "2026-07-16"
+        }
+      ]
     },
     "housing": {
-      "value": 1.177,
-      "date": "2026-05-01",
-      "label": "May 2026",
-      "display": "1.177M",
-      "reading": "May 2026: 1.177M, down from 1.392M in Apr 2026 \u2014 its lowest reading in 12 months.",
+      "value": 1.427,
+      "date": "2026-06-01",
+      "label": "Jun 2026",
+      "display": "1.427M",
+      "reading": "Jun 2026: 1.427M, up from 1.199M in May 2026.",
       "change": {
-        "text": "\u2193 from 1.392M",
-        "sign": "neg"
+        "text": "\u2191 from 1.199M",
+        "sign": "pos"
       }
     },
     "trade": {
@@ -277,47 +279,53 @@
       ]
     },
     "sp500": {
-      "value": 7572.4,
-      "date": "2026-07-15",
+      "value": 7533.77,
+      "date": "2026-07-16",
       "label": "Jul 2026",
-      "display": "7,572",
-      "reading": "Jul 2026: 7,572, up from 7,499 in Jun 2026.",
+      "display": "7,534",
+      "reading": "Jul 2026: 7,534, up from 7,499 in Jun 2026.",
       "change": {
-        "text": "\u2191 10.6% YTD",
+        "text": "\u2191 10.1% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "US stocks rise within 0.5% of their record, even as oil prices keep climbing",
-          "url": "https://apnews.com/article/stock-markets-iran-inflation-oil-3544bd70e0f767404d2de91fd116d68e",
-          "source": "The Associated Press",
-          "date": "2026-07-15"
+          "title": "What\u2019s likely to move the market",
+          "url": "https://www.cnbc.com/2026/07/16/fridays-big-stock-stories-whats-likely-to-move-the-market.html",
+          "source": "CNBC",
+          "date": "2026-07-16"
         },
         {
-          "title": "Predicting S&P 500 At 6,300 - 6,500 By Year End",
-          "url": "https://seekingalpha.com/article/4922429-predicting-s-and-p-500-at-6300-6500-by-year-end",
-          "source": "Seeking Alpha",
-          "date": "2026-07-15"
+          "title": "Nearly 80 S&P 500 companies report earnings next week. These names tend to beat expectations",
+          "url": "https://www.cnbc.com/2026/07/16/nearly-80-sp-500-companies-report-earnings-next-week-these-names-tend-to-beat-expectations.html",
+          "source": "CNBC",
+          "date": "2026-07-16"
         },
         {
-          "title": "Crude Oil Moves Lower; US Producer Prices Fall 0.3% In June",
-          "url": "https://www.benzinga.com/markets/market-summary/26/07/60476239/crude-oil-moves-lower-us-producer-prices-fall-0-3-in-june",
-          "source": "Benzinga",
-          "date": "2026-07-15"
+          "title": "Asian shares sink, with Tokyo down nearly 5% as slumping AI stocks drag world markets lower",
+          "url": "https://www.ajc.com/news/2026/07/asian-shares-sink-with-tokyo-down-nearly-5-as-slumping-ai-stocks-drag-world-markets-lower/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-07-17"
         }
       ]
     },
     "nasdaq": {
-      "value": 26269.23,
-      "date": "2026-07-15",
+      "value": 25881.95,
+      "date": "2026-07-16",
       "label": "Jul 2026",
-      "display": "26,269",
-      "reading": "Jul 2026: 26,269, up from 26,214 in Jun 2026.",
+      "display": "25,882",
+      "reading": "Jul 2026: 25,882, down from 26,214 in Jun 2026.",
       "change": {
-        "text": "\u2191 13.0% YTD",
+        "text": "\u2191 11.4% YTD",
         "sign": "pos"
       },
       "news": [
+        {
+          "title": "Nasdaq Tumbles 1.5% Amid Selloff In Chip Stocks: Investor Sentiment Weakens, Greed Index Moves To \u2018Fear\u2019",
+          "url": "https://www.benzinga.com/markets/market-summary/26/07/60516921/nasdaq-tumbles-1-5-amid-selloff-in-chip-stocks-investor-sentiment-weakens-greed-index-moves-to-fear-zone",
+          "source": "Benzinga",
+          "date": "2026-07-17"
+        },
         {
           "title": "Oil prices jump as fighting flares in the Middle East, while Asian shares are mixed",
           "url": "https://www.ajc.com/news/2026/07/oil-prices-jump-as-fighting-flares-in-the-middle-east-while-asian-shares-are-mixed/",
@@ -328,12 +336,6 @@
           "title": "Oil prices jump as fighting flares in the Middle East, while Asian shares are mixed",
           "url": "https://www.ajc.com/news/2026/07/oil-prices-jump-as-fighting-flares-in-the-middle-east-while-ai-led-retreat-pulls-asian-stocks-lower/",
           "source": "The Atlanta Journal-Constitution",
-          "date": "2026-07-14"
-        },
-        {
-          "title": "Nasdaq Dips Over 400 Points Amid Renewed US-Iran Tensions: Greed Index Remains In \u2018Fear' Zone",
-          "url": "https://www.benzinga.com/markets/market-summary/26/07/60433144/nasdaq-dips-over-400-points-amid-renewed-us-iran-tensions-greed-index-remains-in-fear-zone",
-          "source": "Benzinga",
           "date": "2026-07-14"
         }
       ]
@@ -350,22 +352,22 @@
       },
       "news": [
         {
-          "title": "ASTS, PYPL, AAPL, MU, SNDK: 5 Trending Stocks Today",
-          "url": "https://www.benzinga.com/markets/equities/26/07/60487566/ast-spacemobile-paypal-holdings-apple-micron-technology-and-sandisk-why-these-5-stocks-are-on-investors-radars",
-          "source": "Benzinga",
+          "title": "Asian shares sink, with Tokyo down nearly 5% as slumping AI stocks drag world markets lower",
+          "url": "https://www.ajc.com/news/2026/07/asian-shares-sink-with-tokyo-down-nearly-5-as-slumping-ai-stocks-drag-world-markets-lower/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-07-17"
+        },
+        {
+          "title": "Stocks Settle Lower as Chipmakers and AI Stocks Slump",
+          "url": "https://www.barchart.com/story/news/3325828/stocks-settle-lower-as-chipmakers-and-ai-stocks-slump",
+          "source": "Barchart",
           "date": "2026-07-16"
         },
         {
-          "title": "Stocks drift higher on Wall Street as oil prices swing",
-          "url": "https://www.ajc.com/news/2026/07/technology-stocks-lead-markets-higher-while-oil-prices-keep-rising/",
+          "title": "Slumping AI stocks overshadow gains for the rest of Wall Street, while oil prices drift",
+          "url": "https://www.ajc.com/news/2026/07/slumping-ai-stocks-overshadow-gains-for-the-rest-of-wall-street-while-oil-prices-drift/",
           "source": "The Atlanta Journal-Constitution",
-          "date": "2026-07-15"
-        },
-        {
-          "title": "Stocks Mixed on Favorable Inflation News and Chipmaker Weakness",
-          "url": "https://www.barchart.com/story/news/3299081/stocks-mixed-on-favorable-inflation-news-and-chipmaker-weakness",
-          "source": "Barchart",
-          "date": "2026-07-15"
+          "date": "2026-07-16"
         }
       ]
     }
@@ -6088,7 +6090,8 @@
         "2026-07-12",
         "2026-07-13",
         "2026-07-14",
-        "2026-07-15"
+        "2026-07-15",
+        "2026-07-16"
       ],
       "values": [
         0.06,
@@ -10304,6 +10307,7 @@
         3.62,
         3.62,
         3.63,
+        3.63,
         3.63
       ],
       "freq": "monthly"
@@ -13193,7 +13197,8 @@
         "2026-07-10",
         "2026-07-13",
         "2026-07-14",
-        "2026-07-15"
+        "2026-07-15",
+        "2026-07-16"
       ],
       "values": [
         2.12,
@@ -16079,7 +16084,8 @@
         4.56,
         4.62,
         4.58,
-        4.55
+        4.55,
+        4.57
       ],
       "freq": "monthly"
     },
@@ -16787,7 +16793,8 @@
         "2026-02-01",
         "2026-03-01",
         "2026-04-01",
-        "2026-05-01"
+        "2026-05-01",
+        "2026-06-01"
       ],
       "values": [
         1.085,
@@ -16925,8 +16932,9 @@
         1.385,
         1.346,
         1.522,
-        1.392,
-        1.177
+        1.414,
+        1.199,
+        1.427
       ],
       "freq": "monthly"
     },
@@ -17614,7 +17622,7 @@
         "2026-04-30",
         "2026-05-29",
         "2026-06-30",
-        "2026-07-15"
+        "2026-07-16"
       ],
       "values": [
         2173.6,
@@ -17737,7 +17745,7 @@
         7209.01,
         7580.06,
         7499.36,
-        7572.4
+        7533.77
       ],
       "freq": "monthly"
     },
@@ -17881,7 +17889,7 @@
         "2026-04-30",
         "2026-05-29",
         "2026-06-30",
-        "2026-07-15"
+        "2026-07-16"
       ],
       "values": [
         4635.24,
@@ -18022,7 +18030,7 @@
         24892.31,
         26972.62,
         26213.72,
-        26269.23
+        25881.95
       ],
       "freq": "monthly"
     },
