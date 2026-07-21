@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-20T22:03:08Z",
+  "updated": "2026-07-21T22:05:33Z",
   "metrics": {
     "gdp": {
       "value": 2.1,
@@ -133,7 +133,7 @@
     },
     "ffr": {
       "value": 3.63,
-      "date": "2026-07-17",
+      "date": "2026-07-20",
       "label": "Jul 2026",
       "display": "3.63%",
       "reading": "Jul 2026: 3.63%, unchanged from 3.63% in Jul 2026 \u2014 its highest reading in 12 months.",
@@ -142,6 +142,12 @@
         "sign": "flat"
       },
       "news": [
+        {
+          "title": "Gold rises 1% as hopes for US-Iran diplomacy pause oil rally",
+          "url": "https://www.reuters.com/world/india/gold-rises-hopes-us-iran-diplomacy-pause-oil-rally-2026-07-21/",
+          "source": "Reuters",
+          "date": "2026-07-21"
+        },
         {
           "title": "Gold slips as oil prices advance, Fed rate-hike voices grow",
           "url": "https://www.reuters.com/world/india/gold-slips-oil-prices-advance-fed-rate-hike-voices-grow-2026-07-20/",
@@ -153,23 +159,17 @@
           "url": "https://www.reuters.com/world/africa/dollar-near-one-month-low-cooling-inflation-curbs-fed-hike-bets-2026-07-16/",
           "source": "Reuters",
           "date": "2026-07-16"
-        },
-        {
-          "title": "Traders expect Fed to skip July rate hike as inflation cools",
-          "url": "https://www.reuters.com/markets/us/traders-expect-fed-skip-july-rate-hike-inflation-cools-2026-07-14/",
-          "source": "Reuters",
-          "date": "2026-07-14"
         }
       ]
     },
     "ten": {
-      "value": 4.55,
-      "date": "2026-07-17",
+      "value": 4.6,
+      "date": "2026-07-20",
       "label": "Jul 2026",
-      "display": "4.55%",
-      "reading": "Jul 2026: 4.55%, down from 4.57% in Jul 2026.",
+      "display": "4.60%",
+      "reading": "Jul 2026: 4.60%, up from 4.55% in Jul 2026.",
       "change": {
-        "text": "\u2193 from 4.57%",
+        "text": "\u2191 from 4.55%",
         "sign": "flat"
       }
     },
@@ -281,44 +281,44 @@
       ]
     },
     "sp500": {
-      "value": 7457.69,
-      "date": "2026-07-17",
+      "value": 7443.28,
+      "date": "2026-07-20",
       "label": "Jul 2026",
-      "display": "7,458",
-      "reading": "Jul 2026: 7,458, down from 7,499 in Jun 2026.",
+      "display": "7,443",
+      "reading": "Jul 2026: 7,443, down from 7,499 in Jun 2026.",
       "change": {
-        "text": "\u2191 8.9% YTD",
+        "text": "\u2191 8.7% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "South Korea's Kospi drops nearly 5% as some AI stocks swoon, while oil keeps climbing",
-          "url": "https://www.ajc.com/news/2026/07/south-koreas-kospi-drops-nearly-5-as-some-ai-stocks-swoon-while-oil-keeps-climbing/",
+          "title": "Equities: Geopolitics weigh on stocks - Deutsche Bank",
+          "url": "https://www.europesays.com/3144424/",
+          "source": "EUROPE SAYS",
+          "date": "2026-07-21"
+        },
+        {
+          "title": "Stocks Pressured as Middle East Hostilities Boost Inflation Risks",
+          "url": "https://www.barchart.com/story/news/3371015/stocks-pressured-as-middle-east-hostilities-boost-inflation-risks",
+          "source": "Barchart",
+          "date": "2026-07-20"
+        },
+        {
+          "title": "Wall Street drifts as AI stocks hold steadier after last week\u2019s losses",
+          "url": "https://www.ajc.com/news/2026/07/wall-street-drifts-as-ai-stocks-hold-steadier-after-last-weeks-losses/",
           "source": "The Atlanta Journal-Constitution",
           "date": "2026-07-20"
-        },
-        {
-          "title": "S&P 500, Nasdaq edge higher as chips recover; megacap earnings in focus",
-          "url": "https://www.spokesman.com/stories/2026/jul/20/sp-500-nasdaq-edge-higher-as-chips-recover-megacap/",
-          "source": "Spokane Spokesman-Review",
-          "date": "2026-07-20"
-        },
-        {
-          "title": "Nvidia and Apple get a cut of every baby's $1,000 Trump Account",
-          "url": "https://fortune.com/2026/07/19/trump-accounts-sp500-nvidia-apple-investment/",
-          "source": "Fortune",
-          "date": "2026-07-19"
         }
       ]
     },
     "nasdaq": {
-      "value": 25520.24,
-      "date": "2026-07-17",
+      "value": 25508.07,
+      "date": "2026-07-20",
       "label": "Jul 2026",
-      "display": "25,520",
-      "reading": "Jul 2026: 25,520, down from 26,214 in Jun 2026.",
+      "display": "25,508",
+      "reading": "Jul 2026: 25,508, down from 26,214 in Jun 2026.",
       "change": {
-        "text": "\u2191 9.8% YTD",
+        "text": "\u2191 9.7% YTD",
         "sign": "pos"
       },
       "news": [
@@ -343,33 +343,33 @@
       ]
     },
     "dow": {
-      "value": 51839.26,
-      "date": "2026-07-20",
+      "value": 52224.64,
+      "date": "2026-07-21",
       "label": "Jul 2026",
-      "display": "51,839",
-      "reading": "Jul 2026: 51,839, down from 52,319 in Jun 2026.",
+      "display": "52,225",
+      "reading": "Jul 2026: 52,225, down from 52,319 in Jun 2026.",
       "change": {
-        "text": "\u2191 7.9% YTD",
+        "text": "\u2191 8.7% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "South Korea's Kospi drops nearly 5% as some AI stocks swoon, while oil keeps climbing",
-          "url": "https://www.ajc.com/news/2026/07/south-koreas-kospi-drops-nearly-5-as-some-ai-stocks-swoon-while-oil-keeps-climbing/",
-          "source": "The Atlanta Journal-Constitution",
+          "title": "AMC, IREN, ACHR, NBIS, BABA: 5 Trending Stocks Today",
+          "url": "https://www.benzinga.com/markets/equities/26/07/60568239/amc-iren-ltd-archer-aviation-nebius-group-and-alibaba-why-these-5-stocks-are-on-investors-radars-today",
+          "source": "Benzinga",
+          "date": "2026-07-21"
+        },
+        {
+          "title": "Stocks Pressured as Middle East Hostilities Boost Inflation Risks",
+          "url": "https://www.barchart.com/story/news/3371015/stocks-pressured-as-middle-east-hostilities-boost-inflation-risks",
+          "source": "Barchart",
           "date": "2026-07-20"
         },
         {
-          "title": "The sell-off for AI stars worsens, while oil prices keep jumping",
-          "url": "https://www.ajc.com/news/2026/07/the-sell-off-for-ai-stars-worsens-while-oil-prices-keep-jumping/",
+          "title": "Wall Street drifts as AI stocks hold steadier after last week\u2019s losses",
+          "url": "https://www.ajc.com/news/2026/07/wall-street-drifts-as-ai-stocks-hold-steadier-after-last-weeks-losses/",
           "source": "The Atlanta Journal-Constitution",
-          "date": "2026-07-17"
-        },
-        {
-          "title": "Stocks Finish Sharply Lower as Tech Stocks Slump",
-          "url": "https://www.barchart.com/story/news/3342047/stocks-finish-sharply-lower-as-tech-stocks-slump",
-          "source": "Barchart",
-          "date": "2026-07-17"
+          "date": "2026-07-20"
         }
       ]
     }
@@ -6094,7 +6094,10 @@
         "2026-07-14",
         "2026-07-15",
         "2026-07-16",
-        "2026-07-17"
+        "2026-07-17",
+        "2026-07-18",
+        "2026-07-19",
+        "2026-07-20"
       ],
       "values": [
         0.06,
@@ -10312,6 +10315,9 @@
         3.63,
         3.63,
         3.63,
+        3.63,
+        3.63,
+        3.63,
         3.63
       ],
       "freq": "monthly"
@@ -13203,7 +13209,8 @@
         "2026-07-14",
         "2026-07-15",
         "2026-07-16",
-        "2026-07-17"
+        "2026-07-17",
+        "2026-07-20"
       ],
       "values": [
         2.12,
@@ -16091,7 +16098,8 @@
         4.58,
         4.55,
         4.57,
-        4.55
+        4.55,
+        4.6
       ],
       "freq": "monthly"
     },
@@ -17628,7 +17636,7 @@
         "2026-04-30",
         "2026-05-29",
         "2026-06-30",
-        "2026-07-17"
+        "2026-07-20"
       ],
       "values": [
         2173.6,
@@ -17751,7 +17759,7 @@
         7209.01,
         7580.06,
         7499.36,
-        7457.69
+        7443.28
       ],
       "freq": "monthly"
     },
@@ -17895,7 +17903,7 @@
         "2026-04-30",
         "2026-05-29",
         "2026-06-30",
-        "2026-07-17"
+        "2026-07-20"
       ],
       "values": [
         4635.24,
@@ -18036,7 +18044,7 @@
         24892.31,
         26972.62,
         26213.72,
-        25520.24
+        25508.07
       ],
       "freq": "monthly"
     },
@@ -18162,7 +18170,7 @@
         "2026-04-30",
         "2026-05-29",
         "2026-06-30",
-        "2026-07-20"
+        "2026-07-21"
       ],
       "values": [
         18432.24,
@@ -18285,7 +18293,7 @@
         49652.14,
         51032.46,
         52319.2,
-        51839.26
+        52224.64
       ],
       "freq": "monthly"
     }
