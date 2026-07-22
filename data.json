@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-21T22:05:33Z",
+  "updated": "2026-07-22T22:05:59Z",
   "metrics": {
     "gdp": {
       "value": 2.1,
@@ -63,6 +63,12 @@
       },
       "news": [
         {
+          "title": "The Federal Reserve Needs to Raise Interest Rates",
+          "url": "https://www.bloomberg.com/opinion/articles/2026-07-20/the-federal-reserve-needs-to-raise-interest-rates",
+          "source": "Bloomberg",
+          "date": "2026-07-20"
+        },
+        {
           "title": "Here\u2019s the inflation breakdown for June 2026 - in one chart",
           "url": "https://www.cnbc.com/2026/07/14/inflation-cpi-june-2026-in-one-chart.html",
           "source": "CNBC",
@@ -72,12 +78,6 @@
           "title": "Consumer price index inflation report June 2026:",
           "url": "https://www.cnbc.com/2026/07/14/consumer-price-index-inflation-report-june-2026.html",
           "source": "CNBC",
-          "date": "2026-07-14"
-        },
-        {
-          "title": "Inflation Slowed During Pause in War With Iran",
-          "url": "https://www.nytimes.com/2026/07/14/business/economy/inflation-cpi.html",
-          "source": "The New York Times",
           "date": "2026-07-14"
         }
       ]
@@ -133,7 +133,7 @@
     },
     "ffr": {
       "value": 3.63,
-      "date": "2026-07-20",
+      "date": "2026-07-21",
       "label": "Jul 2026",
       "display": "3.63%",
       "reading": "Jul 2026: 3.63%, unchanged from 3.63% in Jul 2026 \u2014 its highest reading in 12 months.",
@@ -143,33 +143,33 @@
       },
       "news": [
         {
+          "title": "Kevin Warsh Has Breathing Space, For Now",
+          "url": "https://www.bloomberg.com/opinion/articles/2026-07-22/federal-reserve-kevin-warsh-has-breathing-space-use-it-wisely",
+          "source": "Bloomberg",
+          "date": "2026-07-22"
+        },
+        {
+          "title": "Gold nears two-week high as Fed outlook, Middle East conflict stay in focus",
+          "url": "https://www.reuters.com/world/india/gold-nears-two-week-high-fed-outlook-middle-east-conflict-stay-focus-2026-07-22/",
+          "source": "Reuters",
+          "date": "2026-07-22"
+        },
+        {
           "title": "Gold rises 1% as hopes for US-Iran diplomacy pause oil rally",
           "url": "https://www.reuters.com/world/india/gold-rises-hopes-us-iran-diplomacy-pause-oil-rally-2026-07-21/",
           "source": "Reuters",
           "date": "2026-07-21"
-        },
-        {
-          "title": "Gold slips as oil prices advance, Fed rate-hike voices grow",
-          "url": "https://www.reuters.com/world/india/gold-slips-oil-prices-advance-fed-rate-hike-voices-grow-2026-07-20/",
-          "source": "Reuters",
-          "date": "2026-07-20"
-        },
-        {
-          "title": "Dollar near one-month low as cooling inflation curbs Fed hike bets",
-          "url": "https://www.reuters.com/world/africa/dollar-near-one-month-low-cooling-inflation-curbs-fed-hike-bets-2026-07-16/",
-          "source": "Reuters",
-          "date": "2026-07-16"
         }
       ]
     },
     "ten": {
-      "value": 4.6,
-      "date": "2026-07-20",
+      "value": 4.63,
+      "date": "2026-07-21",
       "label": "Jul 2026",
-      "display": "4.60%",
-      "reading": "Jul 2026: 4.60%, up from 4.55% in Jul 2026.",
+      "display": "4.63%",
+      "reading": "Jul 2026: 4.63%, up from 4.60% in Jul 2026 \u2014 its highest reading in 12 months.",
       "change": {
-        "text": "\u2191 from 4.55%",
+        "text": "\u2191 from 4.60%",
         "sign": "flat"
       }
     },
@@ -184,12 +184,6 @@
         "sign": "neg"
       },
       "news": [
-        {
-          "title": "World Cup could boost the June jobs report by 40,000, Goldman estimates",
-          "url": "https://www.cnbc.com/2026/07/01/world-cup-could-boost-the-june-jobs-report-by-40000-goldman-estimates.html",
-          "source": "CNBC",
-          "date": "2026-07-01"
-        },
         {
           "title": "June Jobs Growth Comes in Well Below Expectations",
           "url": "https://www.barchart.com/story/news/3098743/june-jobs-growth-comes-in-well-below-expectations",
@@ -281,47 +275,53 @@
       ]
     },
     "sp500": {
-      "value": 7443.28,
-      "date": "2026-07-20",
+      "value": 7509.2,
+      "date": "2026-07-21",
       "label": "Jul 2026",
-      "display": "7,443",
-      "reading": "Jul 2026: 7,443, down from 7,499 in Jun 2026.",
-      "change": {
-        "text": "\u2191 8.7% YTD",
-        "sign": "pos"
-      },
-      "news": [
-        {
-          "title": "Equities: Geopolitics weigh on stocks - Deutsche Bank",
-          "url": "https://www.europesays.com/3144424/",
-          "source": "EUROPE SAYS",
-          "date": "2026-07-21"
-        },
-        {
-          "title": "Stocks Pressured as Middle East Hostilities Boost Inflation Risks",
-          "url": "https://www.barchart.com/story/news/3371015/stocks-pressured-as-middle-east-hostilities-boost-inflation-risks",
-          "source": "Barchart",
-          "date": "2026-07-20"
-        },
-        {
-          "title": "Wall Street drifts as AI stocks hold steadier after last week\u2019s losses",
-          "url": "https://www.ajc.com/news/2026/07/wall-street-drifts-as-ai-stocks-hold-steadier-after-last-weeks-losses/",
-          "source": "The Atlanta Journal-Constitution",
-          "date": "2026-07-20"
-        }
-      ]
-    },
-    "nasdaq": {
-      "value": 25508.07,
-      "date": "2026-07-20",
-      "label": "Jul 2026",
-      "display": "25,508",
-      "reading": "Jul 2026: 25,508, down from 26,214 in Jun 2026.",
+      "display": "7,509",
+      "reading": "Jul 2026: 7,509, up from 7,499 in Jun 2026.",
       "change": {
         "text": "\u2191 9.7% YTD",
         "sign": "pos"
       },
       "news": [
+        {
+          "title": "What\u2019s likely to move the market",
+          "url": "https://www.cnbc.com/2026/07/21/wednesdays-big-stock-stories-whats-likely-to-move-the-market.html",
+          "source": "CNBC",
+          "date": "2026-07-21"
+        },
+        {
+          "title": "Stock Market Today: S&P 500, Nasdaq 100 Futures Fall As Chip Stocks Cool Down and Tesla, Alphabet Gear Up",
+          "url": "https://www.benzinga.com/markets/equities/26/07/60600025/stock-market-today-sp-500-nasdaq-100-futures-fall-as-chip-stocks-cool-down-and-tesla-alphabet-gear-up-for-earnings-super-micro-adtran-capital-one-in-focus",
+          "source": "Benzinga",
+          "date": "2026-07-22"
+        },
+        {
+          "title": "Asian shares edge higher after Wall Street climb, even as Brent oil keeps rising",
+          "url": "https://www.ajc.com/news/2026/07/asian-shares-edge-higher-after-wall-street-climb-even-as-brent-oil-keeps-rising/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-07-22"
+        }
+      ]
+    },
+    "nasdaq": {
+      "value": 25837.21,
+      "date": "2026-07-21",
+      "label": "Jul 2026",
+      "display": "25,837",
+      "reading": "Jul 2026: 25,837, down from 26,214 in Jun 2026.",
+      "change": {
+        "text": "\u2191 11.2% YTD",
+        "sign": "pos"
+      },
+      "news": [
+        {
+          "title": "Stock Market Today: Dow, S&P 500, Nasdaq 100 Futures Rise as Tech Stocks Lead the Rally-Nebius, Archer, I",
+          "url": "https://www.benzinga.com/markets/equities/26/07/60570908/stock-market-today-dow-jones-nasdaq-100-futures-rise-as-tech-stocks-lead-the-rally-nebius-archer-iren-in-focus",
+          "source": "Benzinga",
+          "date": "2026-07-21"
+        },
         {
           "title": "Stocks Finish Sharply Lower as Tech Stocks Slump",
           "url": "https://www.barchart.com/story/news/3342047/stocks-finish-sharply-lower-as-tech-stocks-slump",
@@ -333,43 +333,37 @@
           "url": "https://edition.cnn.com/2026/07/17/investing/us-stocks-asia",
           "source": "Cable News Network",
           "date": "2026-07-17"
-        },
-        {
-          "title": "Nasdaq Tumbles 1.5% Amid Selloff In Chip Stocks: Investor Sentiment Weakens, Greed Index Moves To \u2018Fear\u2019",
-          "url": "https://www.benzinga.com/markets/market-summary/26/07/60516921/nasdaq-tumbles-1-5-amid-selloff-in-chip-stocks-investor-sentiment-weakens-greed-index-moves-to-fear-zone",
-          "source": "Benzinga",
-          "date": "2026-07-17"
         }
       ]
     },
     "dow": {
-      "value": 52224.64,
-      "date": "2026-07-21",
+      "value": 52218.58,
+      "date": "2026-07-22",
       "label": "Jul 2026",
-      "display": "52,225",
-      "reading": "Jul 2026: 52,225, down from 52,319 in Jun 2026.",
+      "display": "52,219",
+      "reading": "Jul 2026: 52,219, down from 52,319 in Jun 2026.",
       "change": {
-        "text": "\u2191 8.7% YTD",
+        "text": "\u2191 8.6% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "AMC, IREN, ACHR, NBIS, BABA: 5 Trending Stocks Today",
-          "url": "https://www.benzinga.com/markets/equities/26/07/60568239/amc-iren-ltd-archer-aviation-nebius-group-and-alibaba-why-these-5-stocks-are-on-investors-radars-today",
+          "title": "Stock Market Today: S&P 500, Nasdaq 100 Futures Fall As Chip Stocks Cool Down and Tesla, Alphabet Gear Up",
+          "url": "https://www.benzinga.com/markets/equities/26/07/60600025/stock-market-today-sp-500-nasdaq-100-futures-fall-as-chip-stocks-cool-down-and-tesla-alphabet-gear-up-for-earnings-super-micro-adtran-capital-one-in-focus",
           "source": "Benzinga",
-          "date": "2026-07-21"
+          "date": "2026-07-22"
         },
         {
-          "title": "Stocks Pressured as Middle East Hostilities Boost Inflation Risks",
-          "url": "https://www.barchart.com/story/news/3371015/stocks-pressured-as-middle-east-hostilities-boost-inflation-risks",
-          "source": "Barchart",
-          "date": "2026-07-20"
-        },
-        {
-          "title": "Wall Street drifts as AI stocks hold steadier after last week\u2019s losses",
-          "url": "https://www.ajc.com/news/2026/07/wall-street-drifts-as-ai-stocks-hold-steadier-after-last-weeks-losses/",
+          "title": "Asian shares edge higher after Wall Street climb, even as Brent oil keeps rising",
+          "url": "https://www.ajc.com/news/2026/07/asian-shares-edge-higher-after-wall-street-climb-even-as-brent-oil-keeps-rising/",
           "source": "The Atlanta Journal-Constitution",
-          "date": "2026-07-20"
+          "date": "2026-07-22"
+        },
+        {
+          "title": "SMCI, RKLB, DELL, COF, OKLO: 5 Trending Stocks Today",
+          "url": "https://www.benzinga.com/markets/equities/26/07/60598063/super-micro-computer-rocket-lab-dell-capital-one-and-oklo-why-these-5-stocks-are-on-investors-radars-today",
+          "source": "Benzinga",
+          "date": "2026-07-22"
         }
       ]
     }
@@ -6097,7 +6091,8 @@
         "2026-07-17",
         "2026-07-18",
         "2026-07-19",
-        "2026-07-20"
+        "2026-07-20",
+        "2026-07-21"
       ],
       "values": [
         0.06,
@@ -10318,6 +10313,7 @@
         3.63,
         3.63,
         3.63,
+        3.63,
         3.63
       ],
       "freq": "monthly"
@@ -13210,7 +13206,8 @@
         "2026-07-15",
         "2026-07-16",
         "2026-07-17",
-        "2026-07-20"
+        "2026-07-20",
+        "2026-07-21"
       ],
       "values": [
         2.12,
@@ -16099,7 +16096,8 @@
         4.55,
         4.57,
         4.55,
-        4.6
+        4.6,
+        4.63
       ],
       "freq": "monthly"
     },
@@ -17636,7 +17634,7 @@
         "2026-04-30",
         "2026-05-29",
         "2026-06-30",
-        "2026-07-20"
+        "2026-07-21"
       ],
       "values": [
         2173.6,
@@ -17759,7 +17757,7 @@
         7209.01,
         7580.06,
         7499.36,
-        7443.28
+        7509.2
       ],
       "freq": "monthly"
     },
@@ -17903,7 +17901,7 @@
         "2026-04-30",
         "2026-05-29",
         "2026-06-30",
-        "2026-07-20"
+        "2026-07-21"
       ],
       "values": [
         4635.24,
@@ -18044,7 +18042,7 @@
         24892.31,
         26972.62,
         26213.72,
-        25508.07
+        25837.21
       ],
       "freq": "monthly"
     },
@@ -18170,7 +18168,7 @@
         "2026-04-30",
         "2026-05-29",
         "2026-06-30",
-        "2026-07-21"
+        "2026-07-22"
       ],
       "values": [
         18432.24,
@@ -18293,7 +18291,7 @@
         49652.14,
         51032.46,
         52319.2,
-        52224.64
+        52218.58
       ],
       "freq": "monthly"
     }
