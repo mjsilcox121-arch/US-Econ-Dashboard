@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-23T22:06:56Z",
+  "updated": "2026-07-24T22:07:13Z",
   "metrics": {
     "gdp": {
       "value": 2.1,
@@ -10,15 +10,7 @@
       "change": {
         "text": "\u2191 from +0.5%",
         "sign": "pos"
-      },
-      "news": [
-        {
-          "title": "Trump Wants the US Economy Growing at Over 12% and Says the Fed Keeps Trying To 'Kill It' With Higher Rat",
-          "url": "https://www.benzinga.com/markets/macro-economic-events/26/07/60264413/trump-wants-the-us-economy-growing-at-over-12-and-says-the-fed-keeps-trying-to-kill-it-with-higher-rates",
-          "source": "Benzinga",
-          "date": "2026-07-03"
-        }
-      ]
+      }
     },
     "unemp": {
       "value": 4.2,
@@ -113,7 +105,7 @@
     },
     "ffr": {
       "value": 3.63,
-      "date": "2026-07-22",
+      "date": "2026-07-23",
       "label": "Jul 2026",
       "display": "3.63%",
       "reading": "Jul 2026: 3.63%, unchanged from 3.63% in Jul 2026 \u2014 its highest reading in 12 months.",
@@ -122,6 +114,12 @@
         "sign": "flat"
       },
       "news": [
+        {
+          "title": "Gold softens on prospects of Fed rate hikes as Brent tops $100",
+          "url": "https://www.reuters.com/business/gold-softens-prospects-fed-rate-hikes-brent-tops-100-2026-07-24/",
+          "source": "Reuters",
+          "date": "2026-07-24"
+        },
         {
           "title": "Gold off two-week peak as oil advances, Fed meeting eyed",
           "url": "https://www.reuters.com/world/india/gold-off-two-week-peak-oil-advances-fed-meeting-eyed-2026-07-23/",
@@ -133,23 +131,17 @@
           "url": "https://www.bloomberg.com/opinion/articles/2026-07-22/federal-reserve-kevin-warsh-has-breathing-space-use-it-wisely",
           "source": "Bloomberg",
           "date": "2026-07-22"
-        },
-        {
-          "title": "Gold nears two-week high as Fed outlook, Middle East conflict stay in focus",
-          "url": "https://www.reuters.com/world/india/gold-nears-two-week-high-fed-outlook-middle-east-conflict-stay-focus-2026-07-22/",
-          "source": "Reuters",
-          "date": "2026-07-22"
         }
       ]
     },
     "ten": {
-      "value": 4.67,
-      "date": "2026-07-22",
+      "value": 4.71,
+      "date": "2026-07-23",
       "label": "Jul 2026",
-      "display": "4.67%",
-      "reading": "Jul 2026: 4.67%, up from 4.63% in Jul 2026 \u2014 its highest reading in 12 months.",
+      "display": "4.71%",
+      "reading": "Jul 2026: 4.71%, up from 4.67% in Jul 2026 \u2014 its highest reading in 12 months.",
       "change": {
-        "text": "\u2191 from 4.63%",
+        "text": "\u2191 from 4.67%",
         "sign": "flat"
       }
     },
@@ -241,44 +233,44 @@
       ]
     },
     "sp500": {
-      "value": 7498.96,
-      "date": "2026-07-22",
+      "value": 7408.3,
+      "date": "2026-07-23",
       "label": "Jul 2026",
-      "display": "7,499",
-      "reading": "Jul 2026: 7,499, down from 7,499 in Jun 2026.",
+      "display": "7,408",
+      "reading": "Jul 2026: 7,408, down from 7,499 in Jun 2026.",
       "change": {
-        "text": "\u2191 9.5% YTD",
+        "text": "\u2191 8.2% YTD",
         "sign": "pos"
       },
       "news": [
+        {
+          "title": "Major tech companies report earnings next week. These stocks usually beat expectations",
+          "url": "https://www.cnbc.com/2026/07/23/major-tech-companies-report-earnings-next-week-these-usually-beat-expectations.html",
+          "source": "CNBC",
+          "date": "2026-07-23"
+        },
+        {
+          "title": "Stocks aren't getting rewarded like they used to for beating earnings expectations",
+          "url": "https://www.cnbc.com/2026/07/23/stocks-arent-getting-rewarded-like-they-used-to-for-beating-earnings-expectations.html",
+          "source": "CNBC",
+          "date": "2026-07-23"
+        },
         {
           "title": "A Top Fund Manager Warns Mag 7 Stocks Will Drag Down the S&P 500",
           "url": "https://www.businessinsider.com/stock-market-outlook-sp500-mag-7-lost-decade-bill-smead-2026-7",
           "source": "Business Insider",
           "date": "2026-07-23"
-        },
-        {
-          "title": "What\u2019s likely to move the market",
-          "url": "https://www.cnbc.com/2026/07/21/wednesdays-big-stock-stories-whats-likely-to-move-the-market.html",
-          "source": "CNBC",
-          "date": "2026-07-21"
-        },
-        {
-          "title": "Why Growth And Income Is Beating The S&P 500",
-          "url": "https://seekingalpha.com/article/4924318-why-growth-and-income-is-beating-the-s-and-p-500",
-          "source": "Seeking Alpha",
-          "date": "2026-07-23"
         }
       ]
     },
     "nasdaq": {
-      "value": 25690.9,
-      "date": "2026-07-22",
+      "value": 25137.69,
+      "date": "2026-07-23",
       "label": "Jul 2026",
-      "display": "25,691",
-      "reading": "Jul 2026: 25,691, down from 26,214 in Jun 2026.",
+      "display": "25,138",
+      "reading": "Jul 2026: 25,138, down from 26,214 in Jun 2026.",
       "change": {
-        "text": "\u2191 10.5% YTD",
+        "text": "\u2191 8.2% YTD",
         "sign": "pos"
       },
       "news": [
@@ -303,33 +295,33 @@
       ]
     },
     "dow": {
-      "value": 51711.65,
-      "date": "2026-07-23",
+      "value": 51947.25,
+      "date": "2026-07-24",
       "label": "Jul 2026",
-      "display": "51,712",
-      "reading": "Jul 2026: 51,712, down from 52,319 in Jun 2026.",
+      "display": "51,947",
+      "reading": "Jul 2026: 51,947, down from 52,319 in Jun 2026.",
       "change": {
-        "text": "\u2191 7.6% YTD",
+        "text": "\u2191 8.1% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "Asian shares are mostly higher and Mideast tensions push Brent crude past $96",
-          "url": "https://www.ajc.com/news/2026/07/asian-shares-are-mostly-higher-and-mideast-tensions-push-brent-crude-past-96/",
+          "title": "Shares skid in Asia in sell-off of AI-related shares as Brent oil tops $100 per barrel",
+          "url": "https://www.ajc.com/news/2026/07/shares-skid-in-asia-in-sell-off-of-ai-related-shares-as-brent-oil-tops-100-per-barrel/",
           "source": "The Atlanta Journal-Constitution",
-          "date": "2026-07-23"
+          "date": "2026-07-24"
         },
         {
-          "title": "GOOG, TSLA, NOW, IBM, TXN: 5 Trending Stocks Today",
-          "url": "https://www.benzinga.com/markets/equities/26/07/60627967/google-parent-alphabet-tesla-servicenow-ibm-and-texas-instruments-why-these-5-stocks-are-on-investors-radars-today",
-          "source": "Benzinga",
-          "date": "2026-07-23"
-        },
-        {
-          "title": "Stocks Settle Lower as Crude Oil Prices Jump",
-          "url": "https://www.barchart.com/story/news/3412856/stocks-settle-lower-as-crude-oil-prices-jump",
+          "title": "Stocks Fall Sharply as Crude Oil Prices Soar and Alphabet Sparks AI Spending Concerns",
+          "url": "https://www.barchart.com/story/news/3436124/stocks-fall-sharply-as-crude-oil-prices-soar-and-alphabet-sparks-ai-spending-concerns",
           "source": "Barchart",
-          "date": "2026-07-22"
+          "date": "2026-07-23"
+        },
+        {
+          "title": "Stocks Fall Sharply as Crude Oil Prices Soar and Alphabet Sparks AI Spending Concerns",
+          "url": "https://www.barchart.com/story/news/3430216/stocks-fall-sharply-as-crude-oil-prices-soar-and-alphabet-sparks-ai-spending-concerns",
+          "source": "Barchart",
+          "date": "2026-07-23"
         }
       ]
     }
@@ -6059,7 +6051,8 @@
         "2026-07-19",
         "2026-07-20",
         "2026-07-21",
-        "2026-07-22"
+        "2026-07-22",
+        "2026-07-23"
       ],
       "values": [
         0.06,
@@ -10282,6 +10275,7 @@
         3.63,
         3.63,
         3.63,
+        3.63,
         3.63
       ],
       "freq": "monthly"
@@ -13176,7 +13170,8 @@
         "2026-07-17",
         "2026-07-20",
         "2026-07-21",
-        "2026-07-22"
+        "2026-07-22",
+        "2026-07-23"
       ],
       "values": [
         2.12,
@@ -16067,7 +16062,8 @@
         4.55,
         4.6,
         4.63,
-        4.67
+        4.67,
+        4.71
       ],
       "freq": "monthly"
     },
@@ -17604,7 +17600,7 @@
         "2026-04-30",
         "2026-05-29",
         "2026-06-30",
-        "2026-07-22"
+        "2026-07-23"
       ],
       "values": [
         2173.6,
@@ -17727,7 +17723,7 @@
         7209.01,
         7580.06,
         7499.36,
-        7498.96
+        7408.3
       ],
       "freq": "monthly"
     },
@@ -17871,7 +17867,7 @@
         "2026-04-30",
         "2026-05-29",
         "2026-06-30",
-        "2026-07-22"
+        "2026-07-23"
       ],
       "values": [
         4635.24,
@@ -18012,7 +18008,7 @@
         24892.31,
         26972.62,
         26213.72,
-        25690.9
+        25137.69
       ],
       "freq": "monthly"
     },
@@ -18138,7 +18134,7 @@
         "2026-04-30",
         "2026-05-29",
         "2026-06-30",
-        "2026-07-23"
+        "2026-07-24"
       ],
       "values": [
         18432.24,
@@ -18261,7 +18257,7 @@
         49652.14,
         51032.46,
         52319.2,
-        51711.65
+        51947.25
       ],
       "freq": "monthly"
     }
