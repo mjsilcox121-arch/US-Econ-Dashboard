@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-24T22:07:13Z",
+  "updated": "2026-07-27T22:10:28Z",
   "metrics": {
     "gdp": {
       "value": 2.1,
@@ -105,7 +105,7 @@
     },
     "ffr": {
       "value": 3.63,
-      "date": "2026-07-23",
+      "date": "2026-07-24",
       "label": "Jul 2026",
       "display": "3.63%",
       "reading": "Jul 2026: 3.63%, unchanged from 3.63% in Jul 2026 \u2014 its highest reading in 12 months.",
@@ -114,6 +114,12 @@
         "sign": "flat"
       },
       "news": [
+        {
+          "title": "The Fed\u2019s New Chairman Faces His Biggest Test Yet",
+          "url": "https://www.nytimes.com/2026/07/27/business/the-feds-new-chairman-faces-his-biggest-test-yet.html",
+          "source": "The New York Times",
+          "date": "2026-07-27"
+        },
         {
           "title": "Gold softens on prospects of Fed rate hikes as Brent tops $100",
           "url": "https://www.reuters.com/business/gold-softens-prospects-fed-rate-hikes-brent-tops-100-2026-07-24/",
@@ -125,23 +131,17 @@
           "url": "https://www.reuters.com/world/india/gold-off-two-week-peak-oil-advances-fed-meeting-eyed-2026-07-23/",
           "source": "Reuters",
           "date": "2026-07-23"
-        },
-        {
-          "title": "Kevin Warsh Has Breathing Space, For Now",
-          "url": "https://www.bloomberg.com/opinion/articles/2026-07-22/federal-reserve-kevin-warsh-has-breathing-space-use-it-wisely",
-          "source": "Bloomberg",
-          "date": "2026-07-22"
         }
       ]
     },
     "ten": {
-      "value": 4.71,
-      "date": "2026-07-23",
+      "value": 4.69,
+      "date": "2026-07-24",
       "label": "Jul 2026",
-      "display": "4.71%",
-      "reading": "Jul 2026: 4.71%, up from 4.67% in Jul 2026 \u2014 its highest reading in 12 months.",
+      "display": "4.69%",
+      "reading": "Jul 2026: 4.69%, down from 4.71% in Jul 2026.",
       "change": {
-        "text": "\u2191 from 4.67%",
+        "text": "\u2193 from 4.71%",
         "sign": "flat"
       }
     },
@@ -233,47 +233,53 @@
       ]
     },
     "sp500": {
-      "value": 7408.3,
-      "date": "2026-07-23",
+      "value": 7411.98,
+      "date": "2026-07-24",
       "label": "Jul 2026",
-      "display": "7,408",
-      "reading": "Jul 2026: 7,408, down from 7,499 in Jun 2026.",
+      "display": "7,412",
+      "reading": "Jul 2026: 7,412, down from 7,499 in Jun 2026.",
       "change": {
-        "text": "\u2191 8.2% YTD",
+        "text": "\u2191 8.3% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "Major tech companies report earnings next week. These stocks usually beat expectations",
-          "url": "https://www.cnbc.com/2026/07/23/major-tech-companies-report-earnings-next-week-these-usually-beat-expectations.html",
+          "title": "Inside S&P 500 AI boom, industrials are getting as rich as tech stocks",
+          "url": "https://www.cnbc.com/2026/07/26/best-ai-stocks-market-sp500.html",
           "source": "CNBC",
-          "date": "2026-07-23"
+          "date": "2026-07-26"
         },
         {
-          "title": "Stocks aren't getting rewarded like they used to for beating earnings expectations",
-          "url": "https://www.cnbc.com/2026/07/23/stocks-arent-getting-rewarded-like-they-used-to-for-beating-earnings-expectations.html",
-          "source": "CNBC",
-          "date": "2026-07-23"
+          "title": "Gen X Retirement Nears With S&P 500 Portfolios Riding a Boom: Advisor Says Real Danger Isn't a Crash, but",
+          "url": "https://www.benzinga.com/personal-finance/financial-advisors/26/07/60687336/gen-x-retirement-sp-500-sequence-of-returns-risk",
+          "source": "Benzinga",
+          "date": "2026-07-27"
         },
         {
-          "title": "A Top Fund Manager Warns Mag 7 Stocks Will Drag Down the S&P 500",
-          "url": "https://www.businessinsider.com/stock-market-outlook-sp500-mag-7-lost-decade-bill-smead-2026-7",
-          "source": "Business Insider",
-          "date": "2026-07-23"
+          "title": "America's Most Powerful Banker Just Confirmed It: I Want These 5 Stocks, Not The Market",
+          "url": "https://seekingalpha.com/article/4924923-americas-most-powerful-banker-just-confirmed-it-i-want-these-5-stocks-not-market",
+          "source": "Seeking Alpha",
+          "date": "2026-07-26"
         }
       ]
     },
     "nasdaq": {
-      "value": 25137.69,
-      "date": "2026-07-23",
+      "value": 24975.82,
+      "date": "2026-07-24",
       "label": "Jul 2026",
-      "display": "25,138",
-      "reading": "Jul 2026: 25,138, down from 26,214 in Jun 2026.",
+      "display": "24,976",
+      "reading": "Jul 2026: 24,976, down from 26,214 in Jun 2026.",
       "change": {
-        "text": "\u2191 8.2% YTD",
+        "text": "\u2191 7.5% YTD",
         "sign": "pos"
       },
       "news": [
+        {
+          "title": "Nasdaq lags on angst over AI spending ahead of earnings reports",
+          "url": "https://www.reuters.com/business/wall-st-futures-rise-after-tech-rout-mideast-tariffs-focus-2026-07-24/",
+          "source": "Reuters",
+          "date": "2026-07-24"
+        },
         {
           "title": "Nasdaq Down Over 100 Points; AT&T Shares Gain After Upbeat Earnings",
           "url": "https://www.benzinga.com/markets/market-summary/26/07/60607337/nasdaq-down-over-100-points-att-shares-gain-after-upbeat-earnings",
@@ -285,12 +291,6 @@
           "url": "https://www.benzinga.com/markets/equities/26/07/60570908/stock-market-today-dow-jones-nasdaq-100-futures-rise-as-tech-stocks-lead-the-rally-nebius-archer-iren-in-focus",
           "source": "Benzinga",
           "date": "2026-07-21"
-        },
-        {
-          "title": "Stocks Finish Sharply Lower as Tech Stocks Slump",
-          "url": "https://www.barchart.com/story/news/3342047/stocks-finish-sharply-lower-as-tech-stocks-slump",
-          "source": "Barchart",
-          "date": "2026-07-17"
         }
       ]
     },
@@ -306,22 +306,22 @@
       },
       "news": [
         {
-          "title": "Shares skid in Asia in sell-off of AI-related shares as Brent oil tops $100 per barrel",
-          "url": "https://www.ajc.com/news/2026/07/shares-skid-in-asia-in-sell-off-of-ai-related-shares-as-brent-oil-tops-100-per-barrel/",
+          "title": "The Week That Was, The Week Ahead: Macro and Markets, July 26",
+          "url": "https://markets.businessinsider.com/news/stocks/the-week-that-was-the-week-ahead-macro-and-markets-july-26-1036364699",
+          "source": "Markets Insider",
+          "date": "2026-07-26"
+        },
+        {
+          "title": "Stocks rise on Wall Street while crude oil prices fall for the first time in a week",
+          "url": "https://www.ajc.com/news/2026/07/stocks-rise-on-wall-street-while-crude-oil-prices-fall-for-the-first-time-in-a-week/",
           "source": "The Atlanta Journal-Constitution",
           "date": "2026-07-24"
         },
         {
-          "title": "Stocks Fall Sharply as Crude Oil Prices Soar and Alphabet Sparks AI Spending Concerns",
-          "url": "https://www.barchart.com/story/news/3436124/stocks-fall-sharply-as-crude-oil-prices-soar-and-alphabet-sparks-ai-spending-concerns",
+          "title": "Weak Chip Stocks Put Downward Pressure on Broader Market",
+          "url": "https://www.barchart.com/story/news/3450320/weak-chip-stocks-put-downward-pressure-on-broader-market",
           "source": "Barchart",
-          "date": "2026-07-23"
-        },
-        {
-          "title": "Stocks Fall Sharply as Crude Oil Prices Soar and Alphabet Sparks AI Spending Concerns",
-          "url": "https://www.barchart.com/story/news/3430216/stocks-fall-sharply-as-crude-oil-prices-soar-and-alphabet-sparks-ai-spending-concerns",
-          "source": "Barchart",
-          "date": "2026-07-23"
+          "date": "2026-07-24"
         }
       ]
     }
@@ -6052,7 +6052,8 @@
         "2026-07-20",
         "2026-07-21",
         "2026-07-22",
-        "2026-07-23"
+        "2026-07-23",
+        "2026-07-24"
       ],
       "values": [
         0.06,
@@ -10276,6 +10277,7 @@
         3.63,
         3.63,
         3.63,
+        3.63,
         3.63
       ],
       "freq": "monthly"
@@ -13171,7 +13173,8 @@
         "2026-07-20",
         "2026-07-21",
         "2026-07-22",
-        "2026-07-23"
+        "2026-07-23",
+        "2026-07-24"
       ],
       "values": [
         2.12,
@@ -16063,7 +16066,8 @@
         4.6,
         4.63,
         4.67,
-        4.71
+        4.71,
+        4.69
       ],
       "freq": "monthly"
     },
@@ -17600,7 +17604,7 @@
         "2026-04-30",
         "2026-05-29",
         "2026-06-30",
-        "2026-07-23"
+        "2026-07-24"
       ],
       "values": [
         2173.6,
@@ -17723,7 +17727,7 @@
         7209.01,
         7580.06,
         7499.36,
-        7408.3
+        7411.98
       ],
       "freq": "monthly"
     },
@@ -17867,7 +17871,7 @@
         "2026-04-30",
         "2026-05-29",
         "2026-06-30",
-        "2026-07-23"
+        "2026-07-24"
       ],
       "values": [
         4635.24,
@@ -18008,7 +18012,7 @@
         24892.31,
         26972.62,
         26213.72,
-        25137.69
+        24975.82
       ],
       "freq": "monthly"
     },
