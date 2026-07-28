@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-27T22:10:28Z",
+  "updated": "2026-07-28T22:06:20Z",
   "metrics": {
     "gdp": {
       "value": 2.1,
@@ -105,7 +105,7 @@
     },
     "ffr": {
       "value": 3.63,
-      "date": "2026-07-24",
+      "date": "2026-07-27",
       "label": "Jul 2026",
       "display": "3.63%",
       "reading": "Jul 2026: 3.63%, unchanged from 3.63% in Jul 2026 \u2014 its highest reading in 12 months.",
@@ -115,33 +115,33 @@
       },
       "news": [
         {
-          "title": "The Fed\u2019s New Chairman Faces His Biggest Test Yet",
-          "url": "https://www.nytimes.com/2026/07/27/business/the-feds-new-chairman-faces-his-biggest-test-yet.html",
-          "source": "The New York Times",
-          "date": "2026-07-27"
+          "title": "Bar to Fed rate hike this week remains high even as markets see a chance",
+          "url": "https://www.reuters.com/business/bar-fed-rate-hike-this-week-remains-high-even-markets-see-chance-2026-07-28/",
+          "source": "Reuters",
+          "date": "2026-07-28"
         },
         {
-          "title": "Gold softens on prospects of Fed rate hikes as Brent tops $100",
-          "url": "https://www.reuters.com/business/gold-softens-prospects-fed-rate-hikes-brent-tops-100-2026-07-24/",
-          "source": "Reuters",
-          "date": "2026-07-24"
+          "title": "Treasury yields edge lower ahead of Fed rates decision as oil prices tumble",
+          "url": "https://www.cnbc.com/2026/07/28/treasury-yields-edge-lower-ahead-of-fed-rates-decision-as-oil-prices-tumble.html",
+          "source": "CNBC",
+          "date": "2026-07-28"
         },
         {
-          "title": "Gold off two-week peak as oil advances, Fed meeting eyed",
-          "url": "https://www.reuters.com/world/india/gold-off-two-week-peak-oil-advances-fed-meeting-eyed-2026-07-23/",
+          "title": "Gold slips as firm dollar weighs; focus turns to Fed meeting",
+          "url": "https://www.reuters.com/world/india/gold-slips-firm-dollar-weighs-focus-turns-fed-meeting-2026-07-28/",
           "source": "Reuters",
-          "date": "2026-07-23"
+          "date": "2026-07-28"
         }
       ]
     },
     "ten": {
-      "value": 4.69,
-      "date": "2026-07-24",
+      "value": 4.65,
+      "date": "2026-07-27",
       "label": "Jul 2026",
-      "display": "4.69%",
-      "reading": "Jul 2026: 4.69%, down from 4.71% in Jul 2026.",
+      "display": "4.65%",
+      "reading": "Jul 2026: 4.65%, down from 4.69% in Jul 2026.",
       "change": {
-        "text": "\u2193 from 4.71%",
+        "text": "\u2193 from 4.69%",
         "sign": "flat"
       }
     },
@@ -233,44 +233,44 @@
       ]
     },
     "sp500": {
-      "value": 7411.98,
-      "date": "2026-07-24",
+      "value": 7413.18,
+      "date": "2026-07-27",
       "label": "Jul 2026",
-      "display": "7,412",
-      "reading": "Jul 2026: 7,412, down from 7,499 in Jun 2026.",
+      "display": "7,413",
+      "reading": "Jul 2026: 7,413, down from 7,499 in Jun 2026.",
       "change": {
         "text": "\u2191 8.3% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "Inside S&P 500 AI boom, industrials are getting as rich as tech stocks",
-          "url": "https://www.cnbc.com/2026/07/26/best-ai-stocks-market-sp500.html",
-          "source": "CNBC",
-          "date": "2026-07-26"
-        },
-        {
-          "title": "Gen X Retirement Nears With S&P 500 Portfolios Riding a Boom: Advisor Says Real Danger Isn't a Crash, but",
-          "url": "https://www.benzinga.com/personal-finance/financial-advisors/26/07/60687336/gen-x-retirement-sp-500-sequence-of-returns-risk",
-          "source": "Benzinga",
+          "title": "Stocks Settle Mixed as AI Angst Offsets Easing Geopolitical Tensions",
+          "url": "https://www.europesays.com/3157887/",
+          "source": "EUROPE SAYS",
           "date": "2026-07-27"
         },
         {
-          "title": "America's Most Powerful Banker Just Confirmed It: I Want These 5 Stocks, Not The Market",
-          "url": "https://seekingalpha.com/article/4924923-americas-most-powerful-banker-just-confirmed-it-i-want-these-5-stocks-not-market",
-          "source": "Seeking Alpha",
-          "date": "2026-07-26"
+          "title": "Stocks drift on Wall Street and crude oil prices drop as Mideast tensions cool",
+          "url": "https://www.inquirer.com/business/stocks-oil-rates-markets-cxmt-20260727.html",
+          "source": "The Philadelphia Inquirer",
+          "date": "2026-07-27"
+        },
+        {
+          "title": "Stocks Settle Mixed as AI Angst Offsets Easing Geopolitical Tensions",
+          "url": "https://www.barchart.com/story/news/3487110/stocks-settle-mixed-as-ai-angst-offsets-easing-geopolitical-tensions",
+          "source": "Barchart",
+          "date": "2026-07-27"
         }
       ]
     },
     "nasdaq": {
-      "value": 24975.82,
-      "date": "2026-07-24",
+      "value": 24932.08,
+      "date": "2026-07-27",
       "label": "Jul 2026",
-      "display": "24,976",
-      "reading": "Jul 2026: 24,976, down from 26,214 in Jun 2026.",
+      "display": "24,932",
+      "reading": "Jul 2026: 24,932, down from 26,214 in Jun 2026.",
       "change": {
-        "text": "\u2191 7.5% YTD",
+        "text": "\u2191 7.3% YTD",
         "sign": "pos"
       },
       "news": [
@@ -281,47 +281,47 @@
           "date": "2026-07-24"
         },
         {
-          "title": "Nasdaq Down Over 100 Points; AT&T Shares Gain After Upbeat Earnings",
-          "url": "https://www.benzinga.com/markets/market-summary/26/07/60607337/nasdaq-down-over-100-points-att-shares-gain-after-upbeat-earnings",
-          "source": "Benzinga",
-          "date": "2026-07-22"
+          "title": "US stocks finished mixed with most indices in the green after a pause of US/Iran strikes, although tech weakness dragged the Nasdaq lower - Newsquawk Daily Asia-Pac Market Open",
+          "url": "https://www.zerohedge.com/markets/us-stocks-finished-mixed-most-indices-green-after-pause-usiran-strikes-although-tech",
+          "source": "ZeroHedge",
+          "date": "2026-07-27"
         },
         {
-          "title": "Stock Market Today: Dow, S&P 500, Nasdaq 100 Futures Rise as Tech Stocks Lead the Rally-Nebius, Archer, I",
-          "url": "https://www.benzinga.com/markets/equities/26/07/60570908/stock-market-today-dow-jones-nasdaq-100-futures-rise-as-tech-stocks-lead-the-rally-nebius-archer-iren-in-focus",
+          "title": "Crude Oil Falls Sharply; US Durable Goods Orders Increase 0.3% In June",
+          "url": "https://www.benzinga.com/markets/market-summary/26/07/60702801/crude-oil-falls-sharply-us-durable-goods-orders-increase-0-3-in-june",
           "source": "Benzinga",
-          "date": "2026-07-21"
+          "date": "2026-07-27"
         }
       ]
     },
     "dow": {
-      "value": 51947.25,
-      "date": "2026-07-24",
+      "value": 52747.32,
+      "date": "2026-07-28",
       "label": "Jul 2026",
-      "display": "51,947",
-      "reading": "Jul 2026: 51,947, down from 52,319 in Jun 2026.",
+      "display": "52,747",
+      "reading": "Jul 2026: 52,747, up from 52,319 in Jun 2026 \u2014 its highest reading in 12 months.",
       "change": {
-        "text": "\u2191 8.1% YTD",
+        "text": "\u2191 9.7% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "The Week That Was, The Week Ahead: Macro and Markets, July 26",
-          "url": "https://markets.businessinsider.com/news/stocks/the-week-that-was-the-week-ahead-macro-and-markets-july-26-1036364699",
-          "source": "Markets Insider",
-          "date": "2026-07-26"
+          "title": "Stocks Settle Mixed as AI Angst Offsets Easing Geopolitical Tensions",
+          "url": "https://www.europesays.com/3157887/",
+          "source": "EUROPE SAYS",
+          "date": "2026-07-27"
         },
         {
-          "title": "Stocks rise on Wall Street while crude oil prices fall for the first time in a week",
-          "url": "https://www.ajc.com/news/2026/07/stocks-rise-on-wall-street-while-crude-oil-prices-fall-for-the-first-time-in-a-week/",
-          "source": "The Atlanta Journal-Constitution",
-          "date": "2026-07-24"
-        },
-        {
-          "title": "Weak Chip Stocks Put Downward Pressure on Broader Market",
-          "url": "https://www.barchart.com/story/news/3450320/weak-chip-stocks-put-downward-pressure-on-broader-market",
+          "title": "Stocks Settle Mixed as AI Angst Offsets Easing Geopolitical Tensions",
+          "url": "https://www.barchart.com/story/news/3487110/stocks-settle-mixed-as-ai-angst-offsets-easing-geopolitical-tensions",
           "source": "Barchart",
-          "date": "2026-07-24"
+          "date": "2026-07-27"
+        },
+        {
+          "title": "Stocks drift on Wall Street and crude oil prices drop as Mideast tensions cool",
+          "url": "https://www.ajc.com/news/2026/07/stocks-drift-on-wall-street-and-crude-oil-prices-drop-as-mideast-tensions-cool/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-07-27"
         }
       ]
     }
@@ -6053,7 +6053,10 @@
         "2026-07-21",
         "2026-07-22",
         "2026-07-23",
-        "2026-07-24"
+        "2026-07-24",
+        "2026-07-25",
+        "2026-07-26",
+        "2026-07-27"
       ],
       "values": [
         0.06,
@@ -10278,6 +10281,9 @@
         3.63,
         3.63,
         3.63,
+        3.63,
+        3.63,
+        3.63,
         3.63
       ],
       "freq": "monthly"
@@ -13174,7 +13180,8 @@
         "2026-07-21",
         "2026-07-22",
         "2026-07-23",
-        "2026-07-24"
+        "2026-07-24",
+        "2026-07-27"
       ],
       "values": [
         2.12,
@@ -16067,7 +16074,8 @@
         4.63,
         4.67,
         4.71,
-        4.69
+        4.69,
+        4.65
       ],
       "freq": "monthly"
     },
@@ -17604,7 +17612,7 @@
         "2026-04-30",
         "2026-05-29",
         "2026-06-30",
-        "2026-07-24"
+        "2026-07-27"
       ],
       "values": [
         2173.6,
@@ -17727,7 +17735,7 @@
         7209.01,
         7580.06,
         7499.36,
-        7411.98
+        7413.18
       ],
       "freq": "monthly"
     },
@@ -17871,7 +17879,7 @@
         "2026-04-30",
         "2026-05-29",
         "2026-06-30",
-        "2026-07-24"
+        "2026-07-27"
       ],
       "values": [
         4635.24,
@@ -18012,7 +18020,7 @@
         24892.31,
         26972.62,
         26213.72,
-        24975.82
+        24932.08
       ],
       "freq": "monthly"
     },
@@ -18138,7 +18146,7 @@
         "2026-04-30",
         "2026-05-29",
         "2026-06-30",
-        "2026-07-24"
+        "2026-07-28"
       ],
       "values": [
         18432.24,
@@ -18261,7 +18269,7 @@
         49652.14,
         51032.46,
         52319.2,
-        51947.25
+        52747.32
       ],
       "freq": "monthly"
     }
