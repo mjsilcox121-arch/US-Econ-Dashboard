@@ -1,15 +1,15 @@
 {
-  "updated": "2026-07-29T22:03:49Z",
+  "updated": "2026-07-30T22:08:20Z",
   "metrics": {
     "gdp": {
-      "value": 2.1,
-      "date": "2026-01-01",
-      "label": "Q1 2026",
-      "display": "+2.1%",
-      "reading": "Q1 2026: +2.1%, up from +0.5% in Q4 2025.",
+      "value": 1.5,
+      "date": "2026-04-01",
+      "label": "Q2 2026",
+      "display": "+1.5%",
+      "reading": "Q2 2026: +1.5%, down from +2.1% in Q1 2026.",
       "change": {
-        "text": "\u2191 from +0.5%",
-        "sign": "pos"
+        "text": "\u2193 from +2.1%",
+        "sign": "neg"
       }
     },
     "unemp": {
@@ -66,14 +66,14 @@
       }
     },
     "pce": {
-      "value": 4.0726,
-      "date": "2026-05-01",
-      "label": "May 2026",
-      "display": "+4.1%",
-      "reading": "May 2026: +4.1%, up from +3.8% in Apr 2026 \u2014 its highest reading in 12 months.",
+      "value": 3.6681,
+      "date": "2026-06-01",
+      "label": "Jun 2026",
+      "display": "+3.7%",
+      "reading": "Jun 2026: +3.7%, down from +4.1% in May 2026.",
       "change": {
-        "text": "\u2191 from +3.8%",
-        "sign": "neg"
+        "text": "\u2193 from +4.1%",
+        "sign": "pos"
       },
       "news": [
         {
@@ -85,14 +85,14 @@
       ]
     },
     "corepce": {
-      "value": 3.412,
-      "date": "2026-05-01",
-      "label": "May 2026",
-      "display": "+3.4%",
-      "reading": "May 2026: +3.4%, up from +3.3% in Apr 2026 \u2014 its highest reading in 12 months.",
+      "value": 3.2865,
+      "date": "2026-06-01",
+      "label": "Jun 2026",
+      "display": "+3.3%",
+      "reading": "Jun 2026: +3.3%, down from +3.4% in May 2026.",
       "change": {
-        "text": "\u2191 from +3.3%",
-        "sign": "neg"
+        "text": "\u2193 from +3.4%",
+        "sign": "pos"
       },
       "news": [
         {
@@ -105,7 +105,7 @@
     },
     "ffr": {
       "value": 3.63,
-      "date": "2026-07-28",
+      "date": "2026-07-29",
       "label": "Jul 2026",
       "display": "3.63%",
       "reading": "Jul 2026: 3.63%, unchanged from 3.63% in Jul 2026 \u2014 its highest reading in 12 months.",
@@ -115,33 +115,33 @@
       },
       "news": [
         {
-          "title": "Gold holds steady ahead of Fed's rate decision",
-          "url": "https://www.reuters.com/world/asia-pacific/gold-edges-lower-ahead-fed-decision-interest-rates-2026-07-29/",
+          "title": "Indian shares open flat on Fed rates uncertainty",
+          "url": "https://www.reuters.com/world/india/indian-shares-seen-muted-fed-rates-confusion-2026-07-30/",
           "source": "Reuters",
-          "date": "2026-07-29"
+          "date": "2026-07-30"
         },
         {
-          "title": "Dollar holds steady as Fed decision looms",
-          "url": "https://www.reuters.com/world/asia-pacific/dollar-holds-steady-fed-decision-looms-2026-07-29/",
+          "title": "Dollar steadies as Fed holds rates, US strikes Iran",
+          "url": "https://www.reuters.com/world/asia-pacific/dollar-steadies-fed-holds-rates-us-strikes-iran-2026-07-30/",
           "source": "Reuters",
-          "date": "2026-07-29"
+          "date": "2026-07-30"
         },
         {
-          "title": "Kevin Warsh faces key test as Fed set to vote on interest rates",
-          "url": "https://www.nbcnews.com/business/economy/fed-meeting-interest-rate-decision-kevin-warsh-rcna589536",
-          "source": "NBC News",
+          "title": "Fed leaves interest rate unchanged but with 3 dissents as Warsh praises \u2018good family fight\u2019",
+          "url": "https://www.shawlocal.com/news/2026/07/29/fed-leaves-interest-rate-unchanged-but-with-3-dissents-as-warsh-praises-good-family-fight/",
+          "source": "Shaw Local Enewspapers",
           "date": "2026-07-29"
         }
       ]
     },
     "ten": {
-      "value": 4.61,
-      "date": "2026-07-28",
+      "value": 4.67,
+      "date": "2026-07-29",
       "label": "Jul 2026",
-      "display": "4.61%",
-      "reading": "Jul 2026: 4.61%, down from 4.65% in Jul 2026.",
+      "display": "4.67%",
+      "reading": "Jul 2026: 4.67%, up from 4.61% in Jul 2026.",
       "change": {
-        "text": "\u2193 from 4.65%",
+        "text": "\u2191 from 4.61%",
         "sign": "flat"
       }
     },
@@ -233,47 +233,53 @@
       ]
     },
     "sp500": {
-      "value": 7428.78,
-      "date": "2026-07-28",
+      "value": 7316.15,
+      "date": "2026-07-29",
       "label": "Jul 2026",
-      "display": "7,429",
-      "reading": "Jul 2026: 7,429, down from 7,499 in Jun 2026.",
+      "display": "7,316",
+      "reading": "Jul 2026: 7,316, down from 7,499 in Jun 2026.",
       "change": {
-        "text": "\u2191 8.5% YTD",
+        "text": "\u2191 6.9% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "Volatility in single stocks is rising. It could soon threaten the S&P 500 too",
-          "url": "https://www.cnbc.com/2026/07/28/volatility-in-single-stocks-is-rising-it-could-soon-threaten-the-sp-500-too.html",
-          "source": "CNBC",
-          "date": "2026-07-28"
+          "title": "Live updates: Bitcoin holds near $64,000 as Microsoft's AI payoff lifts stocks",
+          "url": "https://www.coindesk.com/tech/2026/07/30/live-updates-bitcoin-holds-near-usd64-000-as-microsoft-s-ai-payoff-lifts-stocks",
+          "source": "CoinDesk",
+          "date": "2026-07-30"
         },
         {
-          "title": "Stocks Settle Mostly Higher on Positive Earnings Results",
-          "url": "https://www.barchart.com/story/news/3510239/stocks-settle-mostly-higher-on-positive-earnings-results",
-          "source": "Barchart",
-          "date": "2026-07-28"
+          "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
+          "url": "https://www.benzinga.com/markets/prediction-markets/26/07/60788305/sp500-july-30-open-up-or-down-polymarket-fed-bond-yields-big-tech-earnings-oil",
+          "source": "Benzinga",
+          "date": "2026-07-30"
         },
         {
-          "title": "Wall Street's flip from AI to less-loved stocks accelerates, while oil prices keep easing",
-          "url": "https://www.ajc.com/news/2026/07/wall-streets-flip-from-ai-stocks-to-elsewhere-accelerates-while-oil-prices-keep-easing/",
+          "title": "Oil prices slip and Asian shares are mostly lower as investors sell chipmaker stocks",
+          "url": "https://www.ajc.com/news/2026/07/oil-prices-slip-and-asian-shares-are-mostly-lower-as-investors-sell-chipmaker-stocks/",
           "source": "The Atlanta Journal-Constitution",
-          "date": "2026-07-28"
+          "date": "2026-07-30"
         }
       ]
     },
     "nasdaq": {
-      "value": 24876.91,
-      "date": "2026-07-28",
+      "value": 24442.94,
+      "date": "2026-07-29",
       "label": "Jul 2026",
-      "display": "24,877",
-      "reading": "Jul 2026: 24,877, down from 26,214 in Jun 2026.",
+      "display": "24,443",
+      "reading": "Jul 2026: 24,443, down from 26,214 in Jun 2026.",
       "change": {
-        "text": "\u2191 7.0% YTD",
+        "text": "\u2191 5.2% YTD",
         "sign": "pos"
       },
       "news": [
+        {
+          "title": "S&P 500, Nasdaq futures inch up before Fed decision; chip stocks wobble",
+          "url": "https://www.reuters.com/business/sp-500-nasdaq-futures-inch-up-before-fed-decision-chip-stocks-wobble-2026-07-29/",
+          "source": "Reuters",
+          "date": "2026-07-29"
+        },
         {
           "title": "Tech Stocks Tumble on Worries Over A.I. Spending and China\u2019s Chips",
           "url": "https://www.nytimes.com/2026/07/28/business/stocks-ai-chips.html",
@@ -285,43 +291,37 @@
           "url": "https://www.reuters.com/business/wall-st-futures-rise-after-tech-rout-mideast-tariffs-focus-2026-07-24/",
           "source": "Reuters",
           "date": "2026-07-24"
-        },
-        {
-          "title": "Fed meeting could matter more for the Nasdaq than bitcoin, analysts say",
-          "url": "https://www.coindesk.com/markets/2026/07/28/remotely-dovish-fed-could-be-good-for-bitcoin-says-analyst",
-          "source": "CoinDesk",
-          "date": "2026-07-28"
         }
       ]
     },
     "dow": {
-      "value": 51594.14,
-      "date": "2026-07-29",
+      "value": 52158.0,
+      "date": "2026-07-30",
       "label": "Jul 2026",
-      "display": "51,594",
-      "reading": "Jul 2026: 51,594, down from 52,319 in Jun 2026.",
+      "display": "52,158",
+      "reading": "Jul 2026: 52,158, down from 52,319 in Jun 2026.",
       "change": {
-        "text": "\u2191 7.3% YTD",
+        "text": "\u2191 8.5% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "Stocks Settle Mostly Higher on Positive Earnings Results",
-          "url": "https://www.barchart.com/story/news/3510239/stocks-settle-mostly-higher-on-positive-earnings-results",
-          "source": "Barchart",
-          "date": "2026-07-28"
-        },
-        {
-          "title": "Wall Street's flip from AI to less-loved stocks accelerates, while oil prices keep easing",
-          "url": "https://www.ajc.com/news/2026/07/wall-streets-flip-from-ai-stocks-to-elsewhere-accelerates-while-oil-prices-keep-easing/",
+          "title": "Oil prices slip and Asian shares are mostly lower as investors sell chipmaker stocks",
+          "url": "https://www.ajc.com/news/2026/07/oil-prices-slip-and-asian-shares-are-mostly-lower-as-investors-sell-chipmaker-stocks/",
           "source": "The Atlanta Journal-Constitution",
-          "date": "2026-07-28"
+          "date": "2026-07-30"
         },
         {
-          "title": "Stocks Mixed on Earnings Results and Weakness in Chipmakers",
-          "url": "https://www.barchart.com/story/news/3503849/stocks-mixed-on-earnings-results-and-weakness-in-chipmakers",
+          "title": "Stocks Plunge on a Rout in Chipmakers and a Hawkish Fed Hold",
+          "url": "https://www.barchart.com/story/news/3535091/stocks-plunge-on-a-rout-in-chipmakers-and-a-hawkish-fed-hold",
           "source": "Barchart",
-          "date": "2026-07-28"
+          "date": "2026-07-29"
+        },
+        {
+          "title": "Oil prices jump following fighting with Iran, while sinking AI stocks drag Wall Street lower",
+          "url": "https://www.ajc.com/news/2026/07/oil-prices-jump-while-us-stocks-trim-their-losses-after-the-fed-leaves-rates-alone/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-07-29"
         }
       ]
     }
@@ -373,7 +373,8 @@
         "2025-04-01",
         "2025-07-01",
         "2025-10-01",
-        "2026-01-01"
+        "2026-01-01",
+        "2026-04-01"
       ],
       "values": [
         3.6,
@@ -420,7 +421,8 @@
         3.8,
         4.4,
         0.5,
-        2.1
+        2.1,
+        1.5
       ],
       "freq": "quarterly"
     },
@@ -1405,7 +1407,8 @@
         "2026-02-01",
         "2026-03-01",
         "2026-04-01",
-        "2026-05-01"
+        "2026-05-01",
+        "2026-06-01"
       ],
       "values": [
         0.0414,
@@ -1543,8 +1546,9 @@
         2.8752,
         2.8732,
         3.5429,
-        3.7955,
-        4.0726
+        3.7907,
+        4.079,
+        3.6681
       ],
       "freq": "monthly"
     },
@@ -1686,7 +1690,8 @@
         "2026-02-01",
         "2026-03-01",
         "2026-04-01",
-        "2026-05-01"
+        "2026-05-01",
+        "2026-06-01"
       ],
       "values": [
         1.2097,
@@ -1824,8 +1829,9 @@
         3.1047,
         3.0493,
         3.2538,
-        3.3187,
-        3.412
+        3.3155,
+        3.4216,
+        3.2865
       ],
       "freq": "monthly"
     },
@@ -6057,7 +6063,8 @@
         "2026-07-25",
         "2026-07-26",
         "2026-07-27",
-        "2026-07-28"
+        "2026-07-28",
+        "2026-07-29"
       ],
       "values": [
         0.06,
@@ -10286,6 +10293,7 @@
         3.63,
         3.63,
         3.63,
+        3.63,
         3.63
       ],
       "freq": "monthly"
@@ -13184,7 +13192,8 @@
         "2026-07-23",
         "2026-07-24",
         "2026-07-27",
-        "2026-07-28"
+        "2026-07-28",
+        "2026-07-29"
       ],
       "values": [
         2.12,
@@ -16079,7 +16088,8 @@
         4.71,
         4.69,
         4.65,
-        4.61
+        4.61,
+        4.67
       ],
       "freq": "monthly"
     },
@@ -17496,7 +17506,6 @@
     },
     "sp500": {
       "dates": [
-        "2016-07-29",
         "2016-08-31",
         "2016-09-30",
         "2016-10-31",
@@ -17616,10 +17625,9 @@
         "2026-04-30",
         "2026-05-29",
         "2026-06-30",
-        "2026-07-28"
+        "2026-07-29"
       ],
       "values": [
-        2173.6,
         2170.95,
         2168.27,
         2126.15,
@@ -17739,7 +17747,7 @@
         7209.01,
         7580.06,
         7499.36,
-        7428.78
+        7316.15
       ],
       "freq": "monthly"
     },
@@ -17883,7 +17891,7 @@
         "2026-04-30",
         "2026-05-29",
         "2026-06-30",
-        "2026-07-28"
+        "2026-07-29"
       ],
       "values": [
         4635.24,
@@ -18024,7 +18032,7 @@
         24892.31,
         26972.62,
         26213.72,
-        24876.91
+        24442.94
       ],
       "freq": "monthly"
     },
@@ -18149,7 +18157,7 @@
         "2026-04-30",
         "2026-05-29",
         "2026-06-30",
-        "2026-07-29"
+        "2026-07-30"
       ],
       "values": [
         18400.88,
@@ -18271,7 +18279,7 @@
         49652.14,
         51032.46,
         52319.2,
-        51594.14
+        52158.0
       ],
       "freq": "monthly"
     }
