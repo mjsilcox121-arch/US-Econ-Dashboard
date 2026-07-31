@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-30T22:08:20Z",
+  "updated": "2026-07-31T22:08:06Z",
   "metrics": {
     "gdp": {
       "value": 1.5,
@@ -100,12 +100,18 @@
           "url": "https://www.reuters.com/markets/us/revamp-core-pce-measure-could-help-fed-estimate-underlying-inflation-research-2026-07-15/",
           "source": "Reuters",
           "date": "2026-07-15"
+        },
+        {
+          "title": "Stock Market Today: S&P 500, Nasdaq 100 Futures Gain as Fed's Preferred Gauge Core PCE Inflation Eases to",
+          "url": "https://www.benzinga.com/markets/equities/26/07/60788808/stock-market-today-sp-500-nasdaq-100-futures-gain-as-federal-reserve-holds-interest-rates-meta-microsoft-apple-in-focus",
+          "source": "Benzinga",
+          "date": "2026-07-30"
         }
       ]
     },
     "ffr": {
       "value": 3.63,
-      "date": "2026-07-29",
+      "date": "2026-07-30",
       "label": "Jul 2026",
       "display": "3.63%",
       "reading": "Jul 2026: 3.63%, unchanged from 3.63% in Jul 2026 \u2014 its highest reading in 12 months.",
@@ -114,6 +120,12 @@
         "sign": "flat"
       },
       "news": [
+        {
+          "title": "How AI Is Complicating Federal Reserve Interest-Rate Decisions",
+          "url": "https://www.forbes.com/sites/ronschmelzer/2026/07/30/the-ai-boom-is-making-interest-rate-decisions-harder/",
+          "source": "Forbes",
+          "date": "2026-07-30"
+        },
         {
           "title": "Indian shares open flat on Fed rates uncertainty",
           "url": "https://www.reuters.com/world/india/indian-shares-seen-muted-fed-rates-confusion-2026-07-30/",
@@ -125,23 +137,17 @@
           "url": "https://www.reuters.com/world/asia-pacific/dollar-steadies-fed-holds-rates-us-strikes-iran-2026-07-30/",
           "source": "Reuters",
           "date": "2026-07-30"
-        },
-        {
-          "title": "Fed leaves interest rate unchanged but with 3 dissents as Warsh praises \u2018good family fight\u2019",
-          "url": "https://www.shawlocal.com/news/2026/07/29/fed-leaves-interest-rate-unchanged-but-with-3-dissents-as-warsh-praises-good-family-fight/",
-          "source": "Shaw Local Enewspapers",
-          "date": "2026-07-29"
         }
       ]
     },
     "ten": {
-      "value": 4.67,
-      "date": "2026-07-29",
+      "value": 4.68,
+      "date": "2026-07-30",
       "label": "Jul 2026",
-      "display": "4.67%",
-      "reading": "Jul 2026: 4.67%, up from 4.61% in Jul 2026.",
+      "display": "4.68%",
+      "reading": "Jul 2026: 4.68%, up from 4.67% in Jul 2026.",
       "change": {
-        "text": "\u2191 from 4.61%",
+        "text": "\u2191 from 4.67%",
         "sign": "flat"
       }
     },
@@ -214,16 +220,22 @@
       ]
     },
     "sent": {
-      "value": 44.8,
-      "date": "2026-05-01",
-      "label": "May 2026",
-      "display": "44.8",
-      "reading": "May 2026: 44.8, down from 49.8 in Apr 2026 \u2014 its lowest reading in 12 months.",
+      "value": 49.5,
+      "date": "2026-06-01",
+      "label": "Jun 2026",
+      "display": "49.5",
+      "reading": "Jun 2026: 49.5, up from 44.8 in May 2026.",
       "change": {
-        "text": "\u2193 from 49.8",
-        "sign": "neg"
+        "text": "\u2191 from 44.8",
+        "sign": "pos"
       },
       "news": [
+        {
+          "title": "Consumer Sentiment Rises More Than Expected In July",
+          "url": "https://www.breitbart.com/economy/2026/07/31/consumer-sentiment-rises-more-than-expected-in-july/",
+          "source": "Breitbart News Network",
+          "date": "2026-07-31"
+        },
         {
           "title": "Consumer sentiment surges due to lower gas prices",
           "url": "https://abc17news.com/money/cnn-business-consumer/2026/07/17/consumer-sentiment-surges-due-to-lower-gas-prices/",
@@ -233,44 +245,44 @@
       ]
     },
     "sp500": {
-      "value": 7316.15,
-      "date": "2026-07-29",
+      "value": 7437.63,
+      "date": "2026-07-30",
       "label": "Jul 2026",
-      "display": "7,316",
-      "reading": "Jul 2026: 7,316, down from 7,499 in Jun 2026.",
+      "display": "7,438",
+      "reading": "Jul 2026: 7,438, down from 7,499 in Jun 2026.",
       "change": {
-        "text": "\u2191 6.9% YTD",
+        "text": "\u2191 8.6% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "Live updates: Bitcoin holds near $64,000 as Microsoft's AI payoff lifts stocks",
-          "url": "https://www.coindesk.com/tech/2026/07/30/live-updates-bitcoin-holds-near-usd64-000-as-microsoft-s-ai-payoff-lifts-stocks",
-          "source": "CoinDesk",
-          "date": "2026-07-30"
-        },
-        {
-          "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
-          "url": "https://www.benzinga.com/markets/prediction-markets/26/07/60788305/sp500-july-30-open-up-or-down-polymarket-fed-bond-yields-big-tech-earnings-oil",
-          "source": "Benzinga",
-          "date": "2026-07-30"
-        },
-        {
-          "title": "Oil prices slip and Asian shares are mostly lower as investors sell chipmaker stocks",
-          "url": "https://www.ajc.com/news/2026/07/oil-prices-slip-and-asian-shares-are-mostly-lower-as-investors-sell-chipmaker-stocks/",
+          "title": "South Korea\u2019s Kospi index jumps nearly 18% on a surge in chipmaking stocks",
+          "url": "https://www.ajc.com/news/2026/07/south-koreas-kospi-index-jumps-nearly-18-on-a-surge-in-chipmaking-stocks/",
           "source": "The Atlanta Journal-Constitution",
-          "date": "2026-07-30"
+          "date": "2026-07-31"
+        },
+        {
+          "title": "S&P 500 To 10,000 - Why, When, And How Stocks Get There",
+          "url": "https://seekingalpha.com/article/4928482-sp-500-to-10000-why-when-how-stocks-get-there",
+          "source": "Seeking Alpha",
+          "date": "2026-07-31"
+        },
+        {
+          "title": "South Korea\u2019s Kospi index jumps more than 16% on a surge of chipmaking stocks",
+          "url": "https://www.ajc.com/news/2026/07/south-koreas-kospi-index-jumps-more-than-16-on-a-surge-of-chipmaking-stocks/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-07-31"
         }
       ]
     },
     "nasdaq": {
-      "value": 24442.94,
-      "date": "2026-07-29",
+      "value": 25122.18,
+      "date": "2026-07-30",
       "label": "Jul 2026",
-      "display": "24,443",
-      "reading": "Jul 2026: 24,443, down from 26,214 in Jun 2026.",
+      "display": "25,122",
+      "reading": "Jul 2026: 25,122, down from 26,214 in Jun 2026.",
       "change": {
-        "text": "\u2191 5.2% YTD",
+        "text": "\u2191 8.1% YTD",
         "sign": "pos"
       },
       "news": [
@@ -287,41 +299,41 @@
           "date": "2026-07-28"
         },
         {
-          "title": "Nasdaq lags on angst over AI spending ahead of earnings reports",
-          "url": "https://www.reuters.com/business/wall-st-futures-rise-after-tech-rout-mideast-tariffs-focus-2026-07-24/",
-          "source": "Reuters",
-          "date": "2026-07-24"
+          "title": "Stocks Settle Sharply Higher as Microsoft Leads a Surge in Tech Stocks",
+          "url": "https://www.barchart.com/story/news/3561940/stocks-settle-sharply-higher-as-microsoft-leads-a-surge-in-tech-stocks",
+          "source": "Barchart",
+          "date": "2026-07-30"
         }
       ]
     },
     "dow": {
-      "value": 52158.0,
-      "date": "2026-07-30",
+      "value": 52485.03,
+      "date": "2026-07-31",
       "label": "Jul 2026",
-      "display": "52,158",
-      "reading": "Jul 2026: 52,158, down from 52,319 in Jun 2026.",
+      "display": "52,485",
+      "reading": "Jul 2026: 52,485, up from 52,319 in Jun 2026 \u2014 its highest reading in 12 months.",
       "change": {
-        "text": "\u2191 8.5% YTD",
+        "text": "\u2191 9.2% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "Oil prices slip and Asian shares are mostly lower as investors sell chipmaker stocks",
-          "url": "https://www.ajc.com/news/2026/07/oil-prices-slip-and-asian-shares-are-mostly-lower-as-investors-sell-chipmaker-stocks/",
+          "title": "South Korea\u2019s Kospi index jumps nearly 18% on a surge in chipmaking stocks",
+          "url": "https://www.ajc.com/news/2026/07/south-koreas-kospi-index-jumps-nearly-18-on-a-surge-in-chipmaking-stocks/",
           "source": "The Atlanta Journal-Constitution",
-          "date": "2026-07-30"
+          "date": "2026-07-31"
         },
         {
-          "title": "Stocks Plunge on a Rout in Chipmakers and a Hawkish Fed Hold",
-          "url": "https://www.barchart.com/story/news/3535091/stocks-plunge-on-a-rout-in-chipmakers-and-a-hawkish-fed-hold",
-          "source": "Barchart",
-          "date": "2026-07-29"
+          "title": "South Korea\u2019s Kospi index jumps more than 16% on a surge of chipmaking stocks",
+          "url": "https://www.ajc.com/news/2026/07/south-koreas-kospi-index-jumps-more-than-16-on-a-surge-of-chipmaking-stocks/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-07-31"
         },
         {
-          "title": "Oil prices jump following fighting with Iran, while sinking AI stocks drag Wall Street lower",
-          "url": "https://www.ajc.com/news/2026/07/oil-prices-jump-while-us-stocks-trim-their-losses-after-the-fed-leaves-rates-alone/",
-          "source": "The Atlanta Journal-Constitution",
-          "date": "2026-07-29"
+          "title": "AAPL, AMZN, RDDT, RIVN, CYCU: 5 Trending Stocks Today",
+          "url": "https://www.benzinga.com/markets/equities/26/07/60826895/apple-amazon-reddit-rivian-and-cycurion-why-these-5-stocks-are-on-investors-radars-today",
+          "source": "Benzinga",
+          "date": "2026-07-31"
         }
       ]
     }
@@ -6064,7 +6076,8 @@
         "2026-07-26",
         "2026-07-27",
         "2026-07-28",
-        "2026-07-29"
+        "2026-07-29",
+        "2026-07-30"
       ],
       "values": [
         0.06,
@@ -10294,6 +10307,7 @@
         3.63,
         3.63,
         3.63,
+        3.63,
         3.63
       ],
       "freq": "monthly"
@@ -13193,7 +13207,8 @@
         "2026-07-24",
         "2026-07-27",
         "2026-07-28",
-        "2026-07-29"
+        "2026-07-29",
+        "2026-07-30"
       ],
       "values": [
         2.12,
@@ -16089,7 +16104,8 @@
         4.69,
         4.65,
         4.61,
-        4.67
+        4.67,
+        4.68
       ],
       "freq": "monthly"
     },
@@ -17361,7 +17377,8 @@
         "2026-02-01",
         "2026-03-01",
         "2026-04-01",
-        "2026-05-01"
+        "2026-05-01",
+        "2026-06-01"
       ],
       "values": [
         98.1,
@@ -17500,7 +17517,8 @@
         56.6,
         53.3,
         49.8,
-        44.8
+        44.8,
+        49.5
       ],
       "freq": "monthly"
     },
@@ -17625,7 +17643,7 @@
         "2026-04-30",
         "2026-05-29",
         "2026-06-30",
-        "2026-07-29"
+        "2026-07-30"
       ],
       "values": [
         2170.95,
@@ -17747,7 +17765,7 @@
         7209.01,
         7580.06,
         7499.36,
-        7316.15
+        7437.63
       ],
       "freq": "monthly"
     },
@@ -17891,7 +17909,7 @@
         "2026-04-30",
         "2026-05-29",
         "2026-06-30",
-        "2026-07-29"
+        "2026-07-30"
       ],
       "values": [
         4635.24,
@@ -18032,7 +18050,7 @@
         24892.31,
         26972.62,
         26213.72,
-        24442.94
+        25122.18
       ],
       "freq": "monthly"
     },
@@ -18157,7 +18175,7 @@
         "2026-04-30",
         "2026-05-29",
         "2026-06-30",
-        "2026-07-30"
+        "2026-07-31"
       ],
       "values": [
         18400.88,
@@ -18279,7 +18297,7 @@
         49652.14,
         51032.46,
         52319.2,
-        52158.0
+        52485.03
       ],
       "freq": "monthly"
     }
