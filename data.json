@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-31T22:08:06Z",
+  "updated": "2026-08-03T22:10:58Z",
   "metrics": {
     "gdp": {
       "value": 1.5,
@@ -81,6 +81,12 @@
           "url": "https://www.reuters.com/markets/us/revamp-core-pce-measure-could-help-fed-estimate-underlying-inflation-research-2026-07-15/",
           "source": "Reuters",
           "date": "2026-07-15"
+        },
+        {
+          "title": "TradingKey Wall Street Weekly Report\uff1aCooling Pce Confirms Inflation Is Easing, With U.S. Growth Sectors Leading the Gains",
+          "url": "https://www.europesays.com/3170705/",
+          "source": "EUROPE SAYS",
+          "date": "2026-08-03"
         }
       ]
     },
@@ -111,7 +117,7 @@
     },
     "ffr": {
       "value": 3.63,
-      "date": "2026-07-30",
+      "date": "2026-07-31",
       "label": "Jul 2026",
       "display": "3.63%",
       "reading": "Jul 2026: 3.63%, unchanged from 3.63% in Jul 2026 \u2014 its highest reading in 12 months.",
@@ -121,33 +127,33 @@
       },
       "news": [
         {
-          "title": "How AI Is Complicating Federal Reserve Interest-Rate Decisions",
-          "url": "https://www.forbes.com/sites/ronschmelzer/2026/07/30/the-ai-boom-is-making-interest-rate-decisions-harder/",
-          "source": "Forbes",
-          "date": "2026-07-30"
+          "title": "Treasury selloff signals need to bolster Fed's inflation credibility, Musalem tells FT",
+          "url": "https://www.reuters.com/business/finance/treasury-selloff-signals-need-bolster-feds-inflation-credibility-musalem-tells-2026-08-01/",
+          "source": "Reuters",
+          "date": "2026-08-01"
         },
         {
-          "title": "Indian shares open flat on Fed rates uncertainty",
-          "url": "https://www.reuters.com/world/india/indian-shares-seen-muted-fed-rates-confusion-2026-07-30/",
-          "source": "Reuters",
-          "date": "2026-07-30"
+          "title": "Federal Reserve Holds Interest Rates Steady; Despite Persistent Inflation and Middle East Uncertainty",
+          "url": "https://www.europesays.com/3169230/",
+          "source": "EUROPE SAYS",
+          "date": "2026-08-02"
         },
         {
-          "title": "Dollar steadies as Fed holds rates, US strikes Iran",
-          "url": "https://www.reuters.com/world/asia-pacific/dollar-steadies-fed-holds-rates-us-strikes-iran-2026-07-30/",
-          "source": "Reuters",
-          "date": "2026-07-30"
+          "title": "Why the US Federal Reserve's Interest Rate Decision Matters to Australia",
+          "url": "https://www.europesays.com/3168256/",
+          "source": "EUROPE SAYS",
+          "date": "2026-08-01"
         }
       ]
     },
     "ten": {
-      "value": 4.68,
-      "date": "2026-07-30",
+      "value": 4.75,
+      "date": "2026-07-31",
       "label": "Jul 2026",
-      "display": "4.68%",
-      "reading": "Jul 2026: 4.68%, up from 4.67% in Jul 2026.",
+      "display": "4.75%",
+      "reading": "Jul 2026: 4.75%, up from 4.68% in Jul 2026 \u2014 its highest reading in 12 months.",
       "change": {
-        "text": "\u2191 from 4.67%",
+        "text": "\u2191 from 4.68%",
         "sign": "flat"
       }
     },
@@ -231,12 +237,6 @@
       },
       "news": [
         {
-          "title": "Consumer Sentiment Rises More Than Expected In July",
-          "url": "https://www.breitbart.com/economy/2026/07/31/consumer-sentiment-rises-more-than-expected-in-july/",
-          "source": "Breitbart News Network",
-          "date": "2026-07-31"
-        },
-        {
           "title": "Consumer sentiment surges due to lower gas prices",
           "url": "https://abc17news.com/money/cnn-business-consumer/2026/07/17/consumer-sentiment-surges-due-to-lower-gas-prices/",
           "source": "ABC17News.com",
@@ -245,44 +245,44 @@
       ]
     },
     "sp500": {
-      "value": 7437.63,
-      "date": "2026-07-30",
+      "value": 7489.72,
+      "date": "2026-07-31",
       "label": "Jul 2026",
-      "display": "7,438",
-      "reading": "Jul 2026: 7,438, down from 7,499 in Jun 2026.",
+      "display": "7,490",
+      "reading": "Jul 2026: 7,490, down from 7,499 in Jun 2026.",
       "change": {
-        "text": "\u2191 8.6% YTD",
+        "text": "\u2191 9.4% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "South Korea\u2019s Kospi index jumps nearly 18% on a surge in chipmaking stocks",
-          "url": "https://www.ajc.com/news/2026/07/south-koreas-kospi-index-jumps-nearly-18-on-a-surge-in-chipmaking-stocks/",
-          "source": "The Atlanta Journal-Constitution",
+          "title": "AMD, Sandisk are two of the big chip stocks with earnings momentum",
+          "url": "https://www.cnbc.com/2026/08/02/amd-sandisk-are-two-of-the-big-chip-stocks-with-earnings-momentum.html",
+          "source": "CNBC",
+          "date": "2026-08-02"
+        },
+        {
+          "title": "These are the cheapest S&P 500 stocks with most upside as August approaches",
+          "url": "https://www.cnbc.com/2026/07/31/these-are-the-cheapest-sp-500-stocks-with-most-upside-as-august-approaches.html",
+          "source": "CNBC",
           "date": "2026-07-31"
         },
         {
-          "title": "S&P 500 To 10,000 - Why, When, And How Stocks Get There",
-          "url": "https://seekingalpha.com/article/4928482-sp-500-to-10000-why-when-how-stocks-get-there",
-          "source": "Seeking Alpha",
-          "date": "2026-07-31"
-        },
-        {
-          "title": "South Korea\u2019s Kospi index jumps more than 16% on a surge of chipmaking stocks",
-          "url": "https://www.ajc.com/news/2026/07/south-koreas-kospi-index-jumps-more-than-16-on-a-surge-of-chipmaking-stocks/",
+          "title": "Asian stocks are mixed as yen jumps against the dollar, while oil prices slip",
+          "url": "https://www.ajc.com/news/2026/08/asian-stocks-are-mixed-as-yen-jumps-against-the-dollar-while-oil-prices-slip/",
           "source": "The Atlanta Journal-Constitution",
-          "date": "2026-07-31"
+          "date": "2026-08-03"
         }
       ]
     },
     "nasdaq": {
-      "value": 25122.18,
-      "date": "2026-07-30",
+      "value": 25373.85,
+      "date": "2026-07-31",
       "label": "Jul 2026",
-      "display": "25,122",
-      "reading": "Jul 2026: 25,122, down from 26,214 in Jun 2026.",
+      "display": "25,374",
+      "reading": "Jul 2026: 25,374, down from 26,214 in Jun 2026.",
       "change": {
-        "text": "\u2191 8.1% YTD",
+        "text": "\u2191 9.2% YTD",
         "sign": "pos"
       },
       "news": [
@@ -293,46 +293,46 @@
           "date": "2026-07-29"
         },
         {
-          "title": "Tech Stocks Tumble on Worries Over A.I. Spending and China\u2019s Chips",
-          "url": "https://www.nytimes.com/2026/07/28/business/stocks-ai-chips.html",
-          "source": "The New York Times",
-          "date": "2026-07-28"
+          "title": "US stocks swing as Wall Street's wild July keeps swerving and inflation worries keep squeezing",
+          "url": "https://www.ajc.com/news/2026/07/wall-street-rises-as-amazon-and-chip-stocks-jump-even-as-oil-prices-add-to-worries-about-inflation/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-07-31"
         },
         {
-          "title": "Stocks Settle Sharply Higher as Microsoft Leads a Surge in Tech Stocks",
-          "url": "https://www.barchart.com/story/news/3561940/stocks-settle-sharply-higher-as-microsoft-leads-a-surge-in-tech-stocks",
+          "title": "Nasdaq Futures Rally on Upbeat Amazon Earnings and Chip Stock Strength",
+          "url": "https://www.barchart.com/story/news/3572513/nasdaq-futures-rally-on-upbeat-amazon-earnings-and-chip-stock-strength",
           "source": "Barchart",
-          "date": "2026-07-30"
+          "date": "2026-07-31"
         }
       ]
     },
     "dow": {
-      "value": 52485.03,
-      "date": "2026-07-31",
-      "label": "Jul 2026",
-      "display": "52,485",
-      "reading": "Jul 2026: 52,485, up from 52,319 in Jun 2026 \u2014 its highest reading in 12 months.",
+      "value": 53178.41,
+      "date": "2026-08-03",
+      "label": "Aug 2026",
+      "display": "53,178",
+      "reading": "Aug 2026: 53,178, up from 52,485 in Jul 2026 \u2014 its highest reading in 12 months.",
       "change": {
-        "text": "\u2191 9.2% YTD",
+        "text": "\u2191 10.6% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "South Korea\u2019s Kospi index jumps nearly 18% on a surge in chipmaking stocks",
-          "url": "https://www.ajc.com/news/2026/07/south-koreas-kospi-index-jumps-nearly-18-on-a-surge-in-chipmaking-stocks/",
-          "source": "The Atlanta Journal-Constitution",
+          "title": "Stocks Finish Higher as Amazon Leads Megacaps Higher",
+          "url": "https://www.barchart.com/story/news/3584894/stocks-finish-higher-as-amazon-leads-megacaps-higher",
+          "source": "Barchart",
           "date": "2026-07-31"
         },
         {
-          "title": "South Korea\u2019s Kospi index jumps more than 16% on a surge of chipmaking stocks",
-          "url": "https://www.ajc.com/news/2026/07/south-koreas-kospi-index-jumps-more-than-16-on-a-surge-of-chipmaking-stocks/",
-          "source": "The Atlanta Journal-Constitution",
+          "title": "Stocks Turn Mixed as Bond Yields Jump",
+          "url": "https://www.barchart.com/story/news/3578998/stocks-turn-mixed-as-bond-yields-jump",
+          "source": "Barchart",
           "date": "2026-07-31"
         },
         {
-          "title": "AAPL, AMZN, RDDT, RIVN, CYCU: 5 Trending Stocks Today",
-          "url": "https://www.benzinga.com/markets/equities/26/07/60826895/apple-amazon-reddit-rivian-and-cycurion-why-these-5-stocks-are-on-investors-radars-today",
-          "source": "Benzinga",
+          "title": "Dow Jones, S&P 500 lead Wall Street into the red, Amazon surges on AI hopes",
+          "url": "https://www.europesays.com/3165537/",
+          "source": "EUROPE SAYS",
           "date": "2026-07-31"
         }
       ]
@@ -6077,7 +6077,8 @@
         "2026-07-27",
         "2026-07-28",
         "2026-07-29",
-        "2026-07-30"
+        "2026-07-30",
+        "2026-07-31"
       ],
       "values": [
         0.06,
@@ -10308,6 +10309,7 @@
         3.63,
         3.63,
         3.63,
+        3.63,
         3.63
       ],
       "freq": "monthly"
@@ -13208,7 +13210,8 @@
         "2026-07-27",
         "2026-07-28",
         "2026-07-29",
-        "2026-07-30"
+        "2026-07-30",
+        "2026-07-31"
       ],
       "values": [
         2.12,
@@ -16105,7 +16108,8 @@
         4.65,
         4.61,
         4.67,
-        4.68
+        4.68,
+        4.75
       ],
       "freq": "monthly"
     },
@@ -17643,7 +17647,7 @@
         "2026-04-30",
         "2026-05-29",
         "2026-06-30",
-        "2026-07-30"
+        "2026-07-31"
       ],
       "values": [
         2170.95,
@@ -17765,7 +17769,7 @@
         7209.01,
         7580.06,
         7499.36,
-        7437.63
+        7489.72
       ],
       "freq": "monthly"
     },
@@ -17909,7 +17913,7 @@
         "2026-04-30",
         "2026-05-29",
         "2026-06-30",
-        "2026-07-30"
+        "2026-07-31"
       ],
       "values": [
         4635.24,
@@ -18050,7 +18054,7 @@
         24892.31,
         26972.62,
         26213.72,
-        25122.18
+        25373.85
       ],
       "freq": "monthly"
     },
@@ -18175,7 +18179,8 @@
         "2026-04-30",
         "2026-05-29",
         "2026-06-30",
-        "2026-07-31"
+        "2026-07-31",
+        "2026-08-03"
       ],
       "values": [
         18400.88,
@@ -18297,7 +18302,8 @@
         49652.14,
         51032.46,
         52319.2,
-        52485.03
+        52485.03,
+        53178.41
       ],
       "freq": "monthly"
     }
