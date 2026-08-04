@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-03T22:10:58Z",
+  "updated": "2026-08-04T22:14:54Z",
   "metrics": {
     "gdp": {
       "value": 1.5,
@@ -41,16 +41,16 @@
           "date": "2026-07-20"
         },
         {
-          "title": "Here\u2019s the inflation breakdown for June 2026 - in one chart",
-          "url": "https://www.cnbc.com/2026/07/14/inflation-cpi-june-2026-in-one-chart.html",
-          "source": "CNBC",
-          "date": "2026-07-14"
+          "title": "The Fed confronts an unusually confusing economic moment",
+          "url": "https://abc17news.com/money/cnn-business-consumer/2026/07/27/the-fed-confronts-an-unusually-confusing-economic-moment/",
+          "source": "ABC17News.com",
+          "date": "2026-07-27"
         },
         {
-          "title": "Consumer price index inflation report June 2026:",
-          "url": "https://www.cnbc.com/2026/07/14/consumer-price-index-inflation-report-june-2026.html",
-          "source": "CNBC",
-          "date": "2026-07-14"
+          "title": "see stance holds \u2013 Societe Generale",
+          "url": "https://www.europesays.com/3146942/",
+          "source": "EUROPE SAYS",
+          "date": "2026-07-22"
         }
       ]
     },
@@ -117,10 +117,10 @@
     },
     "ffr": {
       "value": 3.63,
-      "date": "2026-07-31",
-      "label": "Jul 2026",
+      "date": "2026-08-03",
+      "label": "Aug 2026",
       "display": "3.63%",
-      "reading": "Jul 2026: 3.63%, unchanged from 3.63% in Jul 2026 \u2014 its highest reading in 12 months.",
+      "reading": "Aug 2026: 3.63%, unchanged from 3.63% in Aug 2026 \u2014 its highest reading in 12 months.",
       "change": {
         "text": "\u2192 Steady",
         "sign": "flat"
@@ -133,27 +133,27 @@
           "date": "2026-08-01"
         },
         {
+          "title": "Federal Reserve leaves interest rate unchanged in 9",
+          "url": "https://www.europesays.com/3173380/",
+          "source": "EUROPE SAYS",
+          "date": "2026-08-04"
+        },
+        {
           "title": "Federal Reserve Holds Interest Rates Steady; Despite Persistent Inflation and Middle East Uncertainty",
           "url": "https://www.europesays.com/3169230/",
           "source": "EUROPE SAYS",
           "date": "2026-08-02"
-        },
-        {
-          "title": "Why the US Federal Reserve's Interest Rate Decision Matters to Australia",
-          "url": "https://www.europesays.com/3168256/",
-          "source": "EUROPE SAYS",
-          "date": "2026-08-01"
         }
       ]
     },
     "ten": {
-      "value": 4.75,
-      "date": "2026-07-31",
-      "label": "Jul 2026",
-      "display": "4.75%",
-      "reading": "Jul 2026: 4.75%, up from 4.68% in Jul 2026 \u2014 its highest reading in 12 months.",
+      "value": 4.7,
+      "date": "2026-08-03",
+      "label": "Aug 2026",
+      "display": "4.70%",
+      "reading": "Aug 2026: 4.70%, down from 4.75% in Jul 2026.",
       "change": {
-        "text": "\u2191 from 4.68%",
+        "text": "\u2193 from 4.75%",
         "sign": "flat"
       }
     },
@@ -207,14 +207,14 @@
       ]
     },
     "trade": {
-      "value": -77585.0,
-      "date": "2026-05-01",
-      "label": "May 2026",
-      "display": "-$77585B",
-      "reading": "May 2026: -$77585B, down from -$54570B in Apr 2026 \u2014 its lowest reading in 12 months.",
+      "value": -73261.0,
+      "date": "2026-06-01",
+      "label": "Jun 2026",
+      "display": "-$73261B",
+      "reading": "Jun 2026: -$73261B, up from -$77647B in May 2026.",
       "change": {
-        "text": "\u2193 from -$54570B",
-        "sign": "neg"
+        "text": "\u2191 from -$77647B",
+        "sign": "pos"
       },
       "news": [
         {
@@ -245,44 +245,44 @@
       ]
     },
     "sp500": {
-      "value": 7489.72,
-      "date": "2026-07-31",
-      "label": "Jul 2026",
-      "display": "7,490",
-      "reading": "Jul 2026: 7,490, down from 7,499 in Jun 2026.",
+      "value": 7600.5,
+      "date": "2026-08-03",
+      "label": "Aug 2026",
+      "display": "7,600",
+      "reading": "Aug 2026: 7,600, up from 7,490 in Jul 2026 \u2014 its highest reading in 12 months.",
       "change": {
-        "text": "\u2191 9.4% YTD",
+        "text": "\u2191 11.0% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "AMD, Sandisk are two of the big chip stocks with earnings momentum",
-          "url": "https://www.cnbc.com/2026/08/02/amd-sandisk-are-two-of-the-big-chip-stocks-with-earnings-momentum.html",
-          "source": "CNBC",
-          "date": "2026-08-02"
+          "title": "Stocks jump to records after upbeat company forecasts; oil, yen weaken",
+          "url": "https://www.reuters.com/world/china/global-markets-wrapup-1-2026-08-04/",
+          "source": "Reuters",
+          "date": "2026-08-04"
         },
         {
-          "title": "These are the cheapest S&P 500 stocks with most upside as August approaches",
-          "url": "https://www.cnbc.com/2026/07/31/these-are-the-cheapest-sp-500-stocks-with-most-upside-as-august-approaches.html",
-          "source": "CNBC",
-          "date": "2026-07-31"
-        },
-        {
-          "title": "Asian stocks are mixed as yen jumps against the dollar, while oil prices slip",
-          "url": "https://www.ajc.com/news/2026/08/asian-stocks-are-mixed-as-yen-jumps-against-the-dollar-while-oil-prices-slip/",
+          "title": "Asian shares mostly dip after US stocks rally",
+          "url": "https://www.ajc.com/news/2026/08/asian-shares-mostly-dip-after-us-stocks-rally/",
           "source": "The Atlanta Journal-Constitution",
+          "date": "2026-08-04"
+        },
+        {
+          "title": "Stocks Settle Sharply Higher as Middle East Tensions Ease",
+          "url": "https://www.barchart.com/story/news/3620237/stocks-settle-sharply-higher-as-middle-east-tensions-ease",
+          "source": "Barchart",
           "date": "2026-08-03"
         }
       ]
     },
     "nasdaq": {
-      "value": 25373.85,
-      "date": "2026-07-31",
-      "label": "Jul 2026",
-      "display": "25,374",
-      "reading": "Jul 2026: 25,374, down from 26,214 in Jun 2026.",
+      "value": 25913.9,
+      "date": "2026-08-03",
+      "label": "Aug 2026",
+      "display": "25,914",
+      "reading": "Aug 2026: 25,914, up from 25,374 in Jul 2026.",
       "change": {
-        "text": "\u2191 9.2% YTD",
+        "text": "\u2191 11.5% YTD",
         "sign": "pos"
       },
       "news": [
@@ -293,47 +293,47 @@
           "date": "2026-07-29"
         },
         {
+          "title": "Meta Platforms Stock Is Gaining Monday: What's Going On?",
+          "url": "https://www.benzinga.com/trading-ideas/movers/26/08/60882892/meta-platforms-stock-is-gaining-monday-whats-going-on",
+          "source": "Benzinga",
+          "date": "2026-08-03"
+        },
+        {
           "title": "US stocks swing as Wall Street's wild July keeps swerving and inflation worries keep squeezing",
           "url": "https://www.ajc.com/news/2026/07/wall-street-rises-as-amazon-and-chip-stocks-jump-even-as-oil-prices-add-to-worries-about-inflation/",
           "source": "The Atlanta Journal-Constitution",
-          "date": "2026-07-31"
-        },
-        {
-          "title": "Nasdaq Futures Rally on Upbeat Amazon Earnings and Chip Stock Strength",
-          "url": "https://www.barchart.com/story/news/3572513/nasdaq-futures-rally-on-upbeat-amazon-earnings-and-chip-stock-strength",
-          "source": "Barchart",
           "date": "2026-07-31"
         }
       ]
     },
     "dow": {
-      "value": 53178.41,
-      "date": "2026-08-03",
+      "value": 54047.0,
+      "date": "2026-08-04",
       "label": "Aug 2026",
-      "display": "53,178",
-      "reading": "Aug 2026: 53,178, up from 52,485 in Jul 2026 \u2014 its highest reading in 12 months.",
+      "display": "54,047",
+      "reading": "Aug 2026: 54,047, up from 52,485 in Jul 2026 \u2014 its highest reading in 12 months.",
       "change": {
-        "text": "\u2191 10.6% YTD",
+        "text": "\u2191 12.4% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "Stocks Finish Higher as Amazon Leads Megacaps Higher",
-          "url": "https://www.barchart.com/story/news/3584894/stocks-finish-higher-as-amazon-leads-megacaps-higher",
-          "source": "Barchart",
-          "date": "2026-07-31"
+          "title": "Asian shares mostly dip after US stocks rally",
+          "url": "https://www.ajc.com/news/2026/08/asian-shares-mostly-dip-after-us-stocks-rally/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-08-04"
         },
         {
-          "title": "Stocks Turn Mixed as Bond Yields Jump",
-          "url": "https://www.barchart.com/story/news/3578998/stocks-turn-mixed-as-bond-yields-jump",
-          "source": "Barchart",
-          "date": "2026-07-31"
+          "title": "PLTR, SNAP, CRWV, ON, SOFI: 5 Trending Stocks Today",
+          "url": "https://www.benzinga.com/markets/equities/26/08/60894586/palantir-snap-coreweave-on-semiconductor-sofi-stocks-watch",
+          "source": "Benzinga",
+          "date": "2026-08-04"
         },
         {
-          "title": "Dow Jones, S&P 500 lead Wall Street into the red, Amazon surges on AI hopes",
-          "url": "https://www.europesays.com/3165537/",
-          "source": "EUROPE SAYS",
-          "date": "2026-07-31"
+          "title": "Dow hits record high as tech stocks post gains",
+          "url": "https://www.upi.com/Top_News/US/2026/08/03/dow-jones-record/4331785790693/",
+          "source": "UPI News",
+          "date": "2026-08-03"
         }
       ]
     }
@@ -6078,7 +6078,10 @@
         "2026-07-28",
         "2026-07-29",
         "2026-07-30",
-        "2026-07-31"
+        "2026-07-31",
+        "2026-08-01",
+        "2026-08-02",
+        "2026-08-03"
       ],
       "values": [
         0.06,
@@ -10310,6 +10313,9 @@
         3.63,
         3.63,
         3.63,
+        3.63,
+        3.63,
+        3.63,
         3.63
       ],
       "freq": "monthly"
@@ -13211,7 +13217,8 @@
         "2026-07-28",
         "2026-07-29",
         "2026-07-30",
-        "2026-07-31"
+        "2026-07-31",
+        "2026-08-03"
       ],
       "values": [
         2.12,
@@ -16109,7 +16116,8 @@
         4.61,
         4.67,
         4.68,
-        4.75
+        4.75,
+        4.7
       ],
       "freq": "monthly"
     },
@@ -17100,7 +17108,8 @@
         "2026-02-01",
         "2026-03-01",
         "2026-04-01",
-        "2026-05-01"
+        "2026-05-01",
+        "2026-06-01"
       ],
       "values": [
         -37225.0,
@@ -17239,7 +17248,8 @@
         -54980.0,
         -56585.0,
         -54570.0,
-        -77585.0
+        -77647.0,
+        -73261.0
       ],
       "freq": "monthly"
     },
@@ -17647,7 +17657,8 @@
         "2026-04-30",
         "2026-05-29",
         "2026-06-30",
-        "2026-07-31"
+        "2026-07-31",
+        "2026-08-03"
       ],
       "values": [
         2170.95,
@@ -17769,7 +17780,8 @@
         7209.01,
         7580.06,
         7499.36,
-        7489.72
+        7489.72,
+        7600.5
       ],
       "freq": "monthly"
     },
@@ -17913,7 +17925,8 @@
         "2026-04-30",
         "2026-05-29",
         "2026-06-30",
-        "2026-07-31"
+        "2026-07-31",
+        "2026-08-03"
       ],
       "values": [
         4635.24,
@@ -18054,7 +18067,8 @@
         24892.31,
         26972.62,
         26213.72,
-        25373.85
+        25373.85,
+        25913.9
       ],
       "freq": "monthly"
     },
@@ -18180,7 +18194,7 @@
         "2026-05-29",
         "2026-06-30",
         "2026-07-31",
-        "2026-08-03"
+        "2026-08-04"
       ],
       "values": [
         18400.88,
@@ -18303,7 +18317,7 @@
         51032.46,
         52319.2,
         52485.03,
-        53178.41
+        54047.0
       ],
       "freq": "monthly"
     }
