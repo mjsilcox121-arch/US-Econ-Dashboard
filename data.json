@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-04T22:14:54Z",
+  "updated": "2026-08-05T22:14:07Z",
   "metrics": {
     "gdp": {
       "value": 1.5,
@@ -77,12 +77,6 @@
       },
       "news": [
         {
-          "title": "Revamp of 'core' PCE measure could help Fed estimate underlying inflation, research says",
-          "url": "https://www.reuters.com/markets/us/revamp-core-pce-measure-could-help-fed-estimate-underlying-inflation-research-2026-07-15/",
-          "source": "Reuters",
-          "date": "2026-07-15"
-        },
-        {
           "title": "TradingKey Wall Street Weekly Report\uff1aCooling Pce Confirms Inflation Is Easing, With U.S. Growth Sectors Leading the Gains",
           "url": "https://www.europesays.com/3170705/",
           "source": "EUROPE SAYS",
@@ -102,12 +96,6 @@
       },
       "news": [
         {
-          "title": "Revamp of 'core' PCE measure could help Fed estimate underlying inflation, research says",
-          "url": "https://www.reuters.com/markets/us/revamp-core-pce-measure-could-help-fed-estimate-underlying-inflation-research-2026-07-15/",
-          "source": "Reuters",
-          "date": "2026-07-15"
-        },
-        {
           "title": "Stock Market Today: S&P 500, Nasdaq 100 Futures Gain as Fed's Preferred Gauge Core PCE Inflation Eases to",
           "url": "https://www.benzinga.com/markets/equities/26/07/60788808/stock-market-today-sp-500-nasdaq-100-futures-gain-as-federal-reserve-holds-interest-rates-meta-microsoft-apple-in-focus",
           "source": "Benzinga",
@@ -117,7 +105,7 @@
     },
     "ffr": {
       "value": 3.63,
-      "date": "2026-08-03",
+      "date": "2026-08-04",
       "label": "Aug 2026",
       "display": "3.63%",
       "reading": "Aug 2026: 3.63%, unchanged from 3.63% in Aug 2026 \u2014 its highest reading in 12 months.",
@@ -127,33 +115,33 @@
       },
       "news": [
         {
-          "title": "Treasury selloff signals need to bolster Fed's inflation credibility, Musalem tells FT",
-          "url": "https://www.reuters.com/business/finance/treasury-selloff-signals-need-bolster-feds-inflation-credibility-musalem-tells-2026-08-01/",
+          "title": "Gold rises on softer oil prices; US jobs data, Fed rate outlook on tap",
+          "url": "https://www.reuters.com/world/india/gold-steady-with-middle-east-turmoil-us-jobs-data-focus-2026-08-04/",
           "source": "Reuters",
-          "date": "2026-08-01"
+          "date": "2026-08-04"
+        },
+        {
+          "title": "Gold steady, awaiting clarity on Fed rates policy, Middle East conflict",
+          "url": "https://www.europesays.com/3173717/",
+          "source": "EUROPE SAYS",
+          "date": "2026-08-04"
         },
         {
           "title": "Federal Reserve leaves interest rate unchanged in 9",
           "url": "https://www.europesays.com/3173380/",
           "source": "EUROPE SAYS",
           "date": "2026-08-04"
-        },
-        {
-          "title": "Federal Reserve Holds Interest Rates Steady; Despite Persistent Inflation and Middle East Uncertainty",
-          "url": "https://www.europesays.com/3169230/",
-          "source": "EUROPE SAYS",
-          "date": "2026-08-02"
         }
       ]
     },
     "ten": {
-      "value": 4.7,
-      "date": "2026-08-03",
+      "value": 4.63,
+      "date": "2026-08-04",
       "label": "Aug 2026",
-      "display": "4.70%",
-      "reading": "Aug 2026: 4.70%, down from 4.75% in Jul 2026.",
+      "display": "4.63%",
+      "reading": "Aug 2026: 4.63%, down from 4.70% in Aug 2026.",
       "change": {
-        "text": "\u2193 from 4.75%",
+        "text": "\u2193 from 4.70%",
         "sign": "flat"
       }
     },
@@ -245,95 +233,95 @@
       ]
     },
     "sp500": {
-      "value": 7600.5,
-      "date": "2026-08-03",
+      "value": 7736.52,
+      "date": "2026-08-04",
       "label": "Aug 2026",
-      "display": "7,600",
-      "reading": "Aug 2026: 7,600, up from 7,490 in Jul 2026 \u2014 its highest reading in 12 months.",
+      "display": "7,737",
+      "reading": "Aug 2026: 7,737, up from 7,490 in Jul 2026 \u2014 its highest reading in 12 months.",
       "change": {
-        "text": "\u2191 11.0% YTD",
+        "text": "\u2191 13.0% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "Stocks jump to records after upbeat company forecasts; oil, yen weaken",
-          "url": "https://www.reuters.com/world/china/global-markets-wrapup-1-2026-08-04/",
-          "source": "Reuters",
+          "title": "Stocks Hit a Record as Worries About Middle East and A.I. Ease",
+          "url": "https://www.nytimes.com/2026/08/04/business/stock-market-record.html",
+          "source": "The New York Times",
           "date": "2026-08-04"
         },
         {
-          "title": "Asian shares mostly dip after US stocks rally",
-          "url": "https://www.ajc.com/news/2026/08/asian-shares-mostly-dip-after-us-stocks-rally/",
-          "source": "The Atlanta Journal-Constitution",
-          "date": "2026-08-04"
+          "title": "'The Big Short' Investor Michael Burry Holds His Ground on Nvidia, Tesla and Other Shorts- Warns Of 1987-",
+          "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/08/60939039/the-big-short-investor-michael-burry-holds-his-ground-on-nvidia-tesla-and-other-shorts-warns-of-1987-style-crash-it-is-possible-we-are-near",
+          "source": "Benzinga",
+          "date": "2026-08-05"
         },
         {
-          "title": "Stocks Settle Sharply Higher as Middle East Tensions Ease",
-          "url": "https://www.barchart.com/story/news/3620237/stocks-settle-sharply-higher-as-middle-east-tensions-ease",
-          "source": "Barchart",
-          "date": "2026-08-03"
+          "title": "This chart says bitcoin's biggest bragging right over S&P 500 and Nasdaq may be over",
+          "url": "https://www.coindesk.com/markets/2026/08/05/the-worst-chart-for-bitcoin-bulls-right-now",
+          "source": "CoinDesk",
+          "date": "2026-08-05"
         }
       ]
     },
     "nasdaq": {
-      "value": 25913.9,
-      "date": "2026-08-03",
+      "value": 26584.99,
+      "date": "2026-08-04",
       "label": "Aug 2026",
-      "display": "25,914",
-      "reading": "Aug 2026: 25,914, up from 25,374 in Jul 2026.",
+      "display": "26,585",
+      "reading": "Aug 2026: 26,585, up from 25,374 in Jul 2026.",
       "change": {
-        "text": "\u2191 11.5% YTD",
+        "text": "\u2191 14.4% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "S&P 500, Nasdaq futures inch up before Fed decision; chip stocks wobble",
-          "url": "https://www.reuters.com/business/sp-500-nasdaq-futures-inch-up-before-fed-decision-chip-stocks-wobble-2026-07-29/",
-          "source": "Reuters",
-          "date": "2026-07-29"
+          "title": "Crude Oil Down Over 5%; McDonald's Earnings Top Views",
+          "url": "https://www.benzinga.com/markets/market-summary/26/08/60919335/crude-oil-down-over-5-mcdonalds-earnings-top-views",
+          "source": "Benzinga",
+          "date": "2026-08-04"
+        },
+        {
+          "title": "Nasdaq Futures Climb as Tech Rally Continues on Palantir Boost, U.S. JOLTS Report and SpaceX Earnings on Tap",
+          "url": "https://www.barchart.com/story/news/3630962/nasdaq-futures-climb-as-tech-rally-continues-after-palantir-boost-u-s-jolts-report-and-spacex-earnings-on-tap",
+          "source": "Barchart",
+          "date": "2026-08-04"
         },
         {
           "title": "Meta Platforms Stock Is Gaining Monday: What's Going On?",
           "url": "https://www.benzinga.com/trading-ideas/movers/26/08/60882892/meta-platforms-stock-is-gaining-monday-whats-going-on",
           "source": "Benzinga",
           "date": "2026-08-03"
-        },
-        {
-          "title": "US stocks swing as Wall Street's wild July keeps swerving and inflation worries keep squeezing",
-          "url": "https://www.ajc.com/news/2026/07/wall-street-rises-as-amazon-and-chip-stocks-jump-even-as-oil-prices-add-to-worries-about-inflation/",
-          "source": "The Atlanta Journal-Constitution",
-          "date": "2026-07-31"
         }
       ]
     },
     "dow": {
-      "value": 54047.0,
-      "date": "2026-08-04",
+      "value": 54349.12,
+      "date": "2026-08-05",
       "label": "Aug 2026",
-      "display": "54,047",
-      "reading": "Aug 2026: 54,047, up from 52,485 in Jul 2026 \u2014 its highest reading in 12 months.",
+      "display": "54,349",
+      "reading": "Aug 2026: 54,349, up from 52,485 in Jul 2026 \u2014 its highest reading in 12 months.",
       "change": {
-        "text": "\u2191 12.4% YTD",
+        "text": "\u2191 13.1% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "Asian shares mostly dip after US stocks rally",
-          "url": "https://www.ajc.com/news/2026/08/asian-shares-mostly-dip-after-us-stocks-rally/",
+          "title": "SPCX, AMD, NVDA, ALAB, AMIX: 5 Trending Stocks Today",
+          "url": "https://www.benzinga.com/markets/equities/26/08/60936913/spacex-amd-nvidia-astera-labs-and-autonomix-medical-why-these-5-stocks-are-on-investors-radars-today",
+          "source": "Benzinga",
+          "date": "2026-08-05"
+        },
+        {
+          "title": "Stocks Finish Sharply Higher on Strong Earnings and Push to Reopen Hormuz",
+          "url": "https://www.barchart.com/story/news/3646617/stocks-finish-sharply-higher-on-strong-earnings-and-push-to-reopen-hormuz",
+          "source": "Barchart",
+          "date": "2026-08-04"
+        },
+        {
+          "title": "US stocks rush toward records, and Dow soars 1,000 as profits keep piling up and oil prices ease",
+          "url": "https://www.ajc.com/news/2026/08/sp-500-rises-2-dow-jumps-1000-points-as-profits-keep-piling-up-and-oil-prices-ease/",
           "source": "The Atlanta Journal-Constitution",
           "date": "2026-08-04"
-        },
-        {
-          "title": "PLTR, SNAP, CRWV, ON, SOFI: 5 Trending Stocks Today",
-          "url": "https://www.benzinga.com/markets/equities/26/08/60894586/palantir-snap-coreweave-on-semiconductor-sofi-stocks-watch",
-          "source": "Benzinga",
-          "date": "2026-08-04"
-        },
-        {
-          "title": "Dow hits record high as tech stocks post gains",
-          "url": "https://www.upi.com/Top_News/US/2026/08/03/dow-jones-record/4331785790693/",
-          "source": "UPI News",
-          "date": "2026-08-03"
         }
       ]
     }
@@ -6081,7 +6069,8 @@
         "2026-07-31",
         "2026-08-01",
         "2026-08-02",
-        "2026-08-03"
+        "2026-08-03",
+        "2026-08-04"
       ],
       "values": [
         0.06,
@@ -10316,6 +10305,7 @@
         3.63,
         3.63,
         3.63,
+        3.63,
         3.63
       ],
       "freq": "monthly"
@@ -13218,7 +13208,8 @@
         "2026-07-29",
         "2026-07-30",
         "2026-07-31",
-        "2026-08-03"
+        "2026-08-03",
+        "2026-08-04"
       ],
       "values": [
         2.12,
@@ -16117,7 +16108,8 @@
         4.67,
         4.68,
         4.75,
-        4.7
+        4.7,
+        4.63
       ],
       "freq": "monthly"
     },
@@ -17658,7 +17650,7 @@
         "2026-05-29",
         "2026-06-30",
         "2026-07-31",
-        "2026-08-03"
+        "2026-08-04"
       ],
       "values": [
         2170.95,
@@ -17781,7 +17773,7 @@
         7580.06,
         7499.36,
         7489.72,
-        7600.5
+        7736.52
       ],
       "freq": "monthly"
     },
@@ -17926,7 +17918,7 @@
         "2026-05-29",
         "2026-06-30",
         "2026-07-31",
-        "2026-08-03"
+        "2026-08-04"
       ],
       "values": [
         4635.24,
@@ -18068,7 +18060,7 @@
         26972.62,
         26213.72,
         25373.85,
-        25913.9
+        26584.99
       ],
       "freq": "monthly"
     },
@@ -18194,7 +18186,7 @@
         "2026-05-29",
         "2026-06-30",
         "2026-07-31",
-        "2026-08-04"
+        "2026-08-05"
       ],
       "values": [
         18400.88,
@@ -18317,7 +18309,7 @@
         51032.46,
         52319.2,
         52485.03,
-        54047.0
+        54349.12
       ],
       "freq": "monthly"
     }
