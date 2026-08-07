@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-05T22:14:07Z",
+  "updated": "2026-08-07T01:02:34Z",
   "metrics": {
     "gdp": {
       "value": 1.5,
@@ -21,7 +21,21 @@
       "change": {
         "text": "\u2193 from 4.3%",
         "sign": "pos"
-      }
+      },
+      "news": [
+        {
+          "title": "What the lull in teen hiring this summer tells us about the job market ahead of Friday\u2019s report",
+          "url": "https://abc17news.com/money/cnn-business-consumer/2026/08/06/what-the-lull-in-teen-hiring-this-summer-tells-us-about-the-job-market-ahead-of-fridays-report/",
+          "source": "ABC17News.com",
+          "date": "2026-08-06"
+        },
+        {
+          "title": "What the lull in teen hiring this summer tells us about the job market ahead of Friday\u2019s report",
+          "url": "https://edition.cnn.com/2026/08/06/economy/us-jobs-report-july-preview-teens",
+          "source": "Cable News Network",
+          "date": "2026-08-06"
+        }
+      ]
     },
     "cpi": {
       "value": 3.4635,
@@ -105,7 +119,7 @@
     },
     "ffr": {
       "value": 3.63,
-      "date": "2026-08-04",
+      "date": "2026-08-05",
       "label": "Aug 2026",
       "display": "3.63%",
       "reading": "Aug 2026: 3.63%, unchanged from 3.63% in Aug 2026 \u2014 its highest reading in 12 months.",
@@ -115,33 +129,33 @@
       },
       "news": [
         {
+          "title": "Fed\u2019s Cook to Support Rate Hike if Disinflation Stalls",
+          "url": "https://cointelegraph.com/markets/feds-cook-warns-persistent-inflation-could-prompt-rate-hike",
+          "source": "Cointelegraph",
+          "date": "2026-08-06"
+        },
+        {
+          "title": "Fed's Cook says ready to raise rates if inflation doesn't start easing",
+          "url": "https://www.reuters.com/business/feds-cook-says-ready-raise-rates-if-inflation-doesnt-start-easing-2026-08-05/",
+          "source": "Reuters",
+          "date": "2026-08-05"
+        },
+        {
           "title": "Gold rises on softer oil prices; US jobs data, Fed rate outlook on tap",
           "url": "https://www.reuters.com/world/india/gold-steady-with-middle-east-turmoil-us-jobs-data-focus-2026-08-04/",
           "source": "Reuters",
-          "date": "2026-08-04"
-        },
-        {
-          "title": "Gold steady, awaiting clarity on Fed rates policy, Middle East conflict",
-          "url": "https://www.europesays.com/3173717/",
-          "source": "EUROPE SAYS",
-          "date": "2026-08-04"
-        },
-        {
-          "title": "Federal Reserve leaves interest rate unchanged in 9",
-          "url": "https://www.europesays.com/3173380/",
-          "source": "EUROPE SAYS",
           "date": "2026-08-04"
         }
       ]
     },
     "ten": {
       "value": 4.63,
-      "date": "2026-08-04",
+      "date": "2026-08-05",
       "label": "Aug 2026",
       "display": "4.63%",
-      "reading": "Aug 2026: 4.63%, down from 4.70% in Aug 2026.",
+      "reading": "Aug 2026: 4.63%, unchanged from 4.63% in Aug 2026.",
       "change": {
-        "text": "\u2193 from 4.70%",
+        "text": "\u2192 Steady",
         "sign": "flat"
       }
     },
@@ -165,15 +179,7 @@
       "change": {
         "text": "\u2193 from +1.0%",
         "sign": "neg"
-      },
-      "news": [
-        {
-          "title": "Lower gasoline prices hold back US retail sales, underlying momentum remains",
-          "url": "https://www.reuters.com/business/us-retail-sales-rise-marginally-june-2026-07-16/",
-          "source": "Reuters",
-          "date": "2026-07-16"
-        }
-      ]
+      }
     },
     "housing": {
       "value": 1.427,
@@ -233,95 +239,64 @@
       ]
     },
     "sp500": {
-      "value": 7736.52,
-      "date": "2026-08-04",
+      "value": 7685.6,
+      "date": "2026-08-07",
       "label": "Aug 2026",
-      "display": "7,737",
-      "reading": "Aug 2026: 7,737, up from 7,490 in Jul 2026 \u2014 its highest reading in 12 months.",
+      "display": "7,686",
+      "reading": "Aug 2026: 7,686, up from 7,490 in Jul 2026 \u2014 its highest reading in 12 months.",
       "change": {
-        "text": "\u2191 13.0% YTD",
+        "text": "\u2191 12.3% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "Stocks Hit a Record as Worries About Middle East and A.I. Ease",
-          "url": "https://www.nytimes.com/2026/08/04/business/stock-market-record.html",
-          "source": "The New York Times",
-          "date": "2026-08-04"
+          "title": "Asian shares are mostly lower as Kospi falls 4% and tech giants decline on Wall Street",
+          "url": "https://www.ajc.com/news/2026/08/asian-shares-are-mostly-lower-as-kospi-falls-4-and-tech-giants-decline-on-wall-street/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-08-06"
         },
         {
-          "title": "'The Big Short' Investor Michael Burry Holds His Ground on Nvidia, Tesla and Other Shorts- Warns Of 1987-",
-          "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/08/60939039/the-big-short-investor-michael-burry-holds-his-ground-on-nvidia-tesla-and-other-shorts-warns-of-1987-style-crash-it-is-possible-we-are-near",
-          "source": "Benzinga",
+          "title": "Dow makes history again, as strong earnings could keep stocks climbing, analyst says",
+          "url": "https://wjla.com/news/nation-world/dow-makes-history-again-as-strong-earnings-could-keep-stocks-climbing-analyst-says",
+          "source": "WJLA",
           "date": "2026-08-05"
         },
         {
-          "title": "This chart says bitcoin's biggest bragging right over S&P 500 and Nasdaq may be over",
-          "url": "https://www.coindesk.com/markets/2026/08/05/the-worst-chart-for-bitcoin-bulls-right-now",
-          "source": "CoinDesk",
+          "title": "Dow makes history again, as strong earnings could keep stocks climbing, analyst says",
+          "url": "https://foxbaltimore.com/news/nation-world/dow-makes-history-again-as-strong-earnings-could-keep-stocks-climbing-analyst-says",
+          "source": "Baltimore News",
           "date": "2026-08-05"
-        }
-      ]
-    },
-    "nasdaq": {
-      "value": 26584.99,
-      "date": "2026-08-04",
-      "label": "Aug 2026",
-      "display": "26,585",
-      "reading": "Aug 2026: 26,585, up from 25,374 in Jul 2026.",
-      "change": {
-        "text": "\u2191 14.4% YTD",
-        "sign": "pos"
-      },
-      "news": [
-        {
-          "title": "Crude Oil Down Over 5%; McDonald's Earnings Top Views",
-          "url": "https://www.benzinga.com/markets/market-summary/26/08/60919335/crude-oil-down-over-5-mcdonalds-earnings-top-views",
-          "source": "Benzinga",
-          "date": "2026-08-04"
-        },
-        {
-          "title": "Nasdaq Futures Climb as Tech Rally Continues on Palantir Boost, U.S. JOLTS Report and SpaceX Earnings on Tap",
-          "url": "https://www.barchart.com/story/news/3630962/nasdaq-futures-climb-as-tech-rally-continues-after-palantir-boost-u-s-jolts-report-and-spacex-earnings-on-tap",
-          "source": "Barchart",
-          "date": "2026-08-04"
-        },
-        {
-          "title": "Meta Platforms Stock Is Gaining Monday: What's Going On?",
-          "url": "https://www.benzinga.com/trading-ideas/movers/26/08/60882892/meta-platforms-stock-is-gaining-monday-whats-going-on",
-          "source": "Benzinga",
-          "date": "2026-08-03"
         }
       ]
     },
     "dow": {
-      "value": 54349.12,
-      "date": "2026-08-05",
+      "value": 53819.0,
+      "date": "2026-08-07",
       "label": "Aug 2026",
-      "display": "54,349",
-      "reading": "Aug 2026: 54,349, up from 52,485 in Jul 2026 \u2014 its highest reading in 12 months.",
+      "display": "53,819",
+      "reading": "Aug 2026: 53,819, up from 52,485 in Jul 2026 \u2014 its highest reading in 12 months.",
       "change": {
-        "text": "\u2191 13.1% YTD",
+        "text": "\u2191 12.0% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "SPCX, AMD, NVDA, ALAB, AMIX: 5 Trending Stocks Today",
-          "url": "https://www.benzinga.com/markets/equities/26/08/60936913/spacex-amd-nvidia-astera-labs-and-autonomix-medical-why-these-5-stocks-are-on-investors-radars-today",
+          "title": "SNDK, WDC, APP, SOUN, FIG: 5 Trending Stocks Today",
+          "url": "https://www.benzinga.com/markets/equities/26/08/60980669/sandisk-western-digital-applovin-corp-soundhound-ai-and-figma-why-these-5-stocks-are-on-investors-radars-today",
           "source": "Benzinga",
+          "date": "2026-08-06"
+        },
+        {
+          "title": "US stocks hold near records on hopes of an agreement with Iran",
+          "url": "https://www.ajc.com/news/2026/08/stocks-hover-near-record-highs-and-oil-prices-stabilize-with-talk-of-a-deal-to-open-strait-of-hormuz/",
+          "source": "The Atlanta Journal-Constitution",
           "date": "2026-08-05"
         },
         {
-          "title": "Stocks Finish Sharply Higher on Strong Earnings and Push to Reopen Hormuz",
-          "url": "https://www.barchart.com/story/news/3646617/stocks-finish-sharply-higher-on-strong-earnings-and-push-to-reopen-hormuz",
-          "source": "Barchart",
-          "date": "2026-08-04"
-        },
-        {
-          "title": "US stocks rush toward records, and Dow soars 1,000 as profits keep piling up and oil prices ease",
-          "url": "https://www.ajc.com/news/2026/08/sp-500-rises-2-dow-jumps-1000-points-as-profits-keep-piling-up-and-oil-prices-ease/",
+          "title": "Stocks hover near record highs and oil prices stabilize with talk of a deal to open Strait of Hormuz",
+          "url": "https://www.ajc.com/news/2026/08/stocks-waver-on-wall-street-and-hover-around-records-as-oil-prices-hold-steady/",
           "source": "The Atlanta Journal-Constitution",
-          "date": "2026-08-04"
+          "date": "2026-08-05"
         }
       ]
     }
@@ -6070,7 +6045,8 @@
         "2026-08-01",
         "2026-08-02",
         "2026-08-03",
-        "2026-08-04"
+        "2026-08-04",
+        "2026-08-05"
       ],
       "values": [
         0.06,
@@ -10306,6 +10282,7 @@
         3.63,
         3.63,
         3.63,
+        3.63,
         3.63
       ],
       "freq": "monthly"
@@ -13209,7 +13186,8 @@
         "2026-07-30",
         "2026-07-31",
         "2026-08-03",
-        "2026-08-04"
+        "2026-08-04",
+        "2026-08-05"
       ],
       "values": [
         2.12,
@@ -16109,6 +16087,7 @@
         4.68,
         4.75,
         4.7,
+        4.63,
         4.63
       ],
       "freq": "monthly"
@@ -17650,7 +17629,7 @@
         "2026-05-29",
         "2026-06-30",
         "2026-07-31",
-        "2026-08-04"
+        "2026-08-07"
       ],
       "values": [
         2170.95,
@@ -17773,294 +17752,7 @@
         7580.06,
         7499.36,
         7489.72,
-        7736.52
-      ],
-      "freq": "monthly"
-    },
-    "nasdaq": {
-      "dates": [
-        "2015-01-30",
-        "2015-02-27",
-        "2015-03-31",
-        "2015-04-30",
-        "2015-05-29",
-        "2015-06-30",
-        "2015-07-31",
-        "2015-08-31",
-        "2015-09-30",
-        "2015-10-30",
-        "2015-11-30",
-        "2015-12-31",
-        "2016-01-29",
-        "2016-02-29",
-        "2016-03-31",
-        "2016-04-29",
-        "2016-05-31",
-        "2016-06-30",
-        "2016-07-29",
-        "2016-08-31",
-        "2016-09-30",
-        "2016-10-31",
-        "2016-11-30",
-        "2016-12-30",
-        "2017-01-31",
-        "2017-02-28",
-        "2017-03-31",
-        "2017-04-28",
-        "2017-05-31",
-        "2017-06-30",
-        "2017-07-31",
-        "2017-08-31",
-        "2017-09-29",
-        "2017-10-31",
-        "2017-11-30",
-        "2017-12-29",
-        "2018-01-31",
-        "2018-02-28",
-        "2018-03-29",
-        "2018-04-30",
-        "2018-05-31",
-        "2018-06-29",
-        "2018-07-31",
-        "2018-08-31",
-        "2018-09-28",
-        "2018-10-31",
-        "2018-11-30",
-        "2018-12-31",
-        "2019-01-31",
-        "2019-02-28",
-        "2019-03-29",
-        "2019-04-30",
-        "2019-05-31",
-        "2019-06-28",
-        "2019-07-31",
-        "2019-08-30",
-        "2019-09-30",
-        "2019-10-31",
-        "2019-11-29",
-        "2019-12-31",
-        "2020-01-31",
-        "2020-02-28",
-        "2020-03-31",
-        "2020-04-30",
-        "2020-05-29",
-        "2020-06-30",
-        "2020-07-31",
-        "2020-08-31",
-        "2020-09-30",
-        "2020-10-30",
-        "2020-11-30",
-        "2020-12-31",
-        "2021-01-29",
-        "2021-02-26",
-        "2021-03-31",
-        "2021-04-30",
-        "2021-05-28",
-        "2021-06-30",
-        "2021-07-30",
-        "2021-08-31",
-        "2021-09-30",
-        "2021-10-29",
-        "2021-11-30",
-        "2021-12-31",
-        "2022-01-31",
-        "2022-02-28",
-        "2022-03-31",
-        "2022-04-29",
-        "2022-05-31",
-        "2022-06-30",
-        "2022-07-29",
-        "2022-08-31",
-        "2022-09-30",
-        "2022-10-31",
-        "2022-11-30",
-        "2022-12-30",
-        "2023-01-31",
-        "2023-02-28",
-        "2023-03-31",
-        "2023-04-28",
-        "2023-05-31",
-        "2023-06-30",
-        "2023-07-31",
-        "2023-08-31",
-        "2023-09-29",
-        "2023-10-31",
-        "2023-11-30",
-        "2023-12-29",
-        "2024-01-31",
-        "2024-02-29",
-        "2024-03-28",
-        "2024-04-30",
-        "2024-05-31",
-        "2024-06-28",
-        "2024-07-31",
-        "2024-08-30",
-        "2024-09-30",
-        "2024-10-31",
-        "2024-11-29",
-        "2024-12-31",
-        "2025-01-31",
-        "2025-02-28",
-        "2025-03-31",
-        "2025-04-30",
-        "2025-05-30",
-        "2025-06-30",
-        "2025-07-31",
-        "2025-08-29",
-        "2025-09-30",
-        "2025-10-31",
-        "2025-11-28",
-        "2025-12-31",
-        "2026-01-30",
-        "2026-02-27",
-        "2026-03-31",
-        "2026-04-30",
-        "2026-05-29",
-        "2026-06-30",
-        "2026-07-31",
-        "2026-08-04"
-      ],
-      "values": [
-        4635.24,
-        4963.53,
-        4900.88,
-        4941.42,
-        5070.03,
-        4986.87,
-        5128.28,
-        4776.51,
-        4620.16,
-        5053.75,
-        5108.67,
-        5007.41,
-        4613.95,
-        4557.95,
-        4869.85,
-        4775.36,
-        4948.05,
-        4842.67,
-        5162.13,
-        5213.22,
-        5312.0,
-        5189.13,
-        5323.68,
-        5383.12,
-        5614.79,
-        5825.44,
-        5911.74,
-        6047.61,
-        6198.52,
-        6140.42,
-        6348.12,
-        6428.66,
-        6495.96,
-        6727.67,
-        6873.97,
-        6903.39,
-        7411.48,
-        7273.01,
-        7063.44,
-        7066.27,
-        7442.12,
-        7510.3,
-        7671.79,
-        8109.54,
-        8046.35,
-        7305.9,
-        7330.54,
-        6635.28,
-        7281.74,
-        7532.53,
-        7729.32,
-        8095.39,
-        7453.15,
-        8006.24,
-        8175.42,
-        7962.88,
-        7999.33,
-        8292.36,
-        8665.47,
-        8972.6,
-        9150.94,
-        8567.37,
-        7700.1,
-        8889.55,
-        9489.87,
-        10058.77,
-        10745.27,
-        11775.46,
-        11167.68,
-        10911.59,
-        12198.74,
-        12888.28,
-        13070.69,
-        13192.35,
-        13246.87,
-        13962.68,
-        13748.74,
-        14503.95,
-        14672.68,
-        15259.24,
-        14448.58,
-        15498.39,
-        15537.69,
-        15644.97,
-        14239.88,
-        13751.4,
-        14220.52,
-        12334.64,
-        12081.39,
-        11028.74,
-        12390.69,
-        11816.2,
-        10575.62,
-        10988.15,
-        11468.0,
-        10466.48,
-        11584.55,
-        11455.54,
-        12221.91,
-        12226.58,
-        12935.29,
-        13787.92,
-        14346.02,
-        14034.97,
-        13219.32,
-        12851.24,
-        14226.22,
-        15011.35,
-        15164.01,
-        16091.92,
-        16379.46,
-        15657.82,
-        16735.02,
-        17732.6,
-        17599.4,
-        17713.62,
-        18189.17,
-        18095.15,
-        19218.17,
-        19310.79,
-        19627.44,
-        18847.28,
-        17299.29,
-        17446.34,
-        19113.77,
-        20369.73,
-        21122.45,
-        21455.55,
-        22660.01,
-        23724.96,
-        23365.69,
-        23241.99,
-        23461.82,
-        22668.21,
-        21590.63,
-        24892.31,
-        26972.62,
-        26213.72,
-        25373.85,
-        26584.99
+        7685.6
       ],
       "freq": "monthly"
     },
@@ -18186,7 +17878,7 @@
         "2026-05-29",
         "2026-06-30",
         "2026-07-31",
-        "2026-08-05"
+        "2026-08-07"
       ],
       "values": [
         18400.88,
@@ -18309,13 +18001,14 @@
         51032.46,
         52319.2,
         52485.03,
-        54349.12
+        53819.0
       ],
       "freq": "monthly"
     }
   },
   "errors": [
     "mfg",
-    "svc"
+    "svc",
+    "nasdaq"
   ]
 }
