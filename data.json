@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-07T21:41:22Z",
+  "updated": "2026-08-10T21:43:52Z",
   "metrics": {
     "gdp": {
       "value": 1.5,
@@ -32,16 +32,22 @@
       },
       "news": [
         {
-          "title": "What the lull in teen hiring this summer tells us about the job market ahead of Friday\u2019s report",
-          "url": "https://abc17news.com/money/cnn-business-consumer/2026/08/06/what-the-lull-in-teen-hiring-this-summer-tells-us-about-the-job-market-ahead-of-fridays-report/",
-          "source": "ABC17News.com",
-          "date": "2026-08-06"
+          "title": "US employers unexpectedly cut 23,000 jobs amid strain from the Iran war, unemployment dips to 4.1%",
+          "url": "https://www.shawlocal.com/news/2026/08/07/us-employers-unexpectedly-cut-23000-jobs-amid-strain-from-the-iran-war-unemployment-dips-to-41/",
+          "source": "Shaw Local Enewspapers",
+          "date": "2026-08-07"
         },
         {
-          "title": "What the lull in teen hiring this summer tells us about the job market ahead of Friday\u2019s report",
-          "url": "https://edition.cnn.com/2026/08/06/economy/us-jobs-report-july-preview-teens",
-          "source": "Cable News Network",
-          "date": "2026-08-06"
+          "title": "US job market stalled in July as employers cut 23,000 jobs, delivering political setback to Trump",
+          "url": "https://www.ajc.com/news/2026/08/us-job-market-stalled-in-july-as-employers-cut-23000-jobs-delivering-political-setback-to-trump/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-08-07"
+        },
+        {
+          "title": "US job market loses 23,000 jobs in July, raising concerns before midterms",
+          "url": "https://www.pennlive.com/business/2026/08/us-job-market-loses-23000-jobs-in-july-raising-concerns-before-midterms.html",
+          "source": "Mechanicsburg Patriot News ",
+          "date": "2026-08-07"
         }
       ]
     },
@@ -57,10 +63,10 @@
       },
       "news": [
         {
-          "title": "The Federal Reserve Needs to Raise Interest Rates",
-          "url": "https://www.bloomberg.com/opinion/articles/2026-07-20/the-federal-reserve-needs-to-raise-interest-rates",
-          "source": "Bloomberg",
-          "date": "2026-07-20"
+          "title": "Wall Street week ahead: inflation, retail sales updates",
+          "url": "https://www.ajc.com/news/2026/08/wall-street-week-ahead-inflation-retail-sales-updates/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-08-08"
         },
         {
           "title": "The Fed confronts an unusually confusing economic moment",
@@ -127,7 +133,7 @@
     },
     "ffr": {
       "value": 3.63,
-      "date": "2026-08-06",
+      "date": "2026-08-07",
       "label": "Aug 2026",
       "display": "3.63%",
       "reading": "Aug 2026: 3.63%, unchanged from 3.63% in Aug 2026 \u2014 its highest reading in 12 months.",
@@ -137,33 +143,33 @@
       },
       "news": [
         {
-          "title": "Asian shares pause for US jobs, oil extends gains on Mideast risk",
-          "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-08-07/",
+          "title": "Gold drifts lower from seven-week peak, US inflation data looms",
+          "url": "https://www.reuters.com/world/india/gold-drifts-lower-seven-week-peak-us-inflation-data-looms-2026-08-10/",
           "source": "Reuters",
+          "date": "2026-08-10"
+        },
+        {
+          "title": "Weak Jobs Report Does Not Eliminate Prospects of Interest Rate Rise",
+          "url": "https://www.nytimes.com/2026/08/07/business/economy/jobs-report-interest-rates-fed.html",
+          "source": "The New York Times",
           "date": "2026-08-07"
         },
         {
-          "title": "Fed's Musalem says central bank should have hiked rates at last meeting",
-          "url": "https://www.reuters.com/world/feds-musalem-argues-against-easy-policy-just-bolster-productivity-2026-08-06/",
+          "title": "VIEW Soft July jobs report fuels skepticism over possible Fed rate hike",
+          "url": "https://www.reuters.com/business/view-soft-july-jobs-report-fuels-skepticism-over-possible-fed-rate-hike-2026-08-07/",
           "source": "Reuters",
-          "date": "2026-08-06"
-        },
-        {
-          "title": "Fed\u2019s Cook to Support Rate Hike if Disinflation Stalls",
-          "url": "https://cointelegraph.com/markets/feds-cook-warns-persistent-inflation-could-prompt-rate-hike",
-          "source": "Cointelegraph",
-          "date": "2026-08-06"
+          "date": "2026-08-07"
         }
       ]
     },
     "ten": {
-      "value": 4.69,
-      "date": "2026-08-06",
+      "value": 4.65,
+      "date": "2026-08-07",
       "label": "Aug 2026",
-      "display": "4.69%",
-      "reading": "Aug 2026: 4.69%, up from 4.63% in Aug 2026.",
+      "display": "4.65%",
+      "reading": "Aug 2026: 4.65%, down from 4.69% in Aug 2026.",
       "change": {
-        "text": "\u2191 from 4.63%",
+        "text": "\u2193 from 4.69%",
         "sign": "flat"
       }
     },
@@ -179,10 +185,22 @@
       },
       "news": [
         {
-          "title": "What Friday's jobs report could mean for investors",
-          "url": "https://www.cnbc.com/2026/08/06/what-fridays-jobs-report-could-mean-for-investors.html",
+          "title": "Here are three key takeaways from the disappointing July jobs report",
+          "url": "https://www.cnbc.com/2026/08/07/here-are-three-key-takeaways-from-the-disappointing-july-jobs-report.html",
           "source": "CNBC",
-          "date": "2026-08-06"
+          "date": "2026-08-07"
+        },
+        {
+          "title": "VIEW Soft July jobs report fuels skepticism over possible Fed rate hike",
+          "url": "https://www.reuters.com/business/view-soft-july-jobs-report-fuels-skepticism-over-possible-fed-rate-hike-2026-08-07/",
+          "source": "Reuters",
+          "date": "2026-08-07"
+        },
+        {
+          "title": "Jobs report July 2026:",
+          "url": "https://www.cnbc.com/2026/08/07/jobs-report-july-2026.html",
+          "source": "CNBC",
+          "date": "2026-08-07"
         }
       ]
     },
@@ -239,47 +257,53 @@
       }
     },
     "sp500": {
-      "value": 7709.96,
-      "date": "2026-08-06",
+      "value": 7757.64,
+      "date": "2026-08-07",
       "label": "Aug 2026",
-      "display": "7,710",
-      "reading": "Aug 2026: 7,710, up from 7,490 in Jul 2026 \u2014 its highest reading in 12 months.",
+      "display": "7,758",
+      "reading": "Aug 2026: 7,758, up from 7,490 in Jul 2026 \u2014 its highest reading in 12 months.",
       "change": {
-        "text": "\u2191 12.6% YTD",
+        "text": "\u2191 13.3% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "Tom Lee's bold August forecast: S&P 500 going to 8,000",
-          "url": "https://www.cnbc.com/2026/08/06/tom-lees-bold-august-forecast-sp-500-going-to-8000.html",
-          "source": "CNBC",
-          "date": "2026-08-06"
+          "title": "S&P 500 Earnings Beat Expectations As AI Leaders Remain In Focus",
+          "url": "https://www.forbes.com/sites/bill_stone/2026/08/09/sp-500-earnings-beat-expectations-as-ai-leaders-remain-in-focus/",
+          "source": "Forbes",
+          "date": "2026-08-09"
         },
         {
-          "title": "US stocks edge lower as oil prices rise and more earnings reports roll in",
-          "url": "https://apnews.com/article/stocks-markets-ai-spacex-hynix-bonds-2f4f2638cb8430bb7c8e5d59a7b50731",
-          "source": "The Associated Press",
-          "date": "2026-08-06"
+          "title": "Asian shares track Wall Street gains, while oil prices bounce higher",
+          "url": "https://www.ajc.com/news/2026/08/asian-shares-track-wall-street-gains-while-oil-prices-bounce-higher/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-08-10"
         },
         {
-          "title": "Stocks Settle Lower as Middle East Tensions Rise",
-          "url": "https://www.barchart.com/story/news/3703202/stocks-settle-lower-as-middle-east-tensions-rise",
-          "source": "Barchart",
-          "date": "2026-08-06"
+          "title": "Asian shares are mixed after gains on Wall Street, while oil prices climb",
+          "url": "https://www.ajc.com/news/2026/08/asian-shares-are-mixed-after-gains-on-wall-street-while-oil-prices-climb/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-08-10"
         }
       ]
     },
     "nasdaq": {
-      "value": 26348.35,
-      "date": "2026-08-06",
+      "value": 26690.62,
+      "date": "2026-08-07",
       "label": "Aug 2026",
-      "display": "26,348",
-      "reading": "Aug 2026: 26,348, up from 25,374 in Jul 2026.",
+      "display": "26,691",
+      "reading": "Aug 2026: 26,691, up from 25,374 in Jul 2026.",
       "change": {
-        "text": "\u2191 13.4% YTD",
+        "text": "\u2191 14.8% YTD",
         "sign": "pos"
       },
       "news": [
+        {
+          "title": "World shares are mixed after US stocks fall back, while oil edges lower",
+          "url": "https://www.ajc.com/news/2026/08/world-shares-are-mixed-after-us-stocks-fall-back-while-oil-rebounds/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-08-07"
+        },
         {
           "title": "Stocks Pressured by Weakness in Software and Tech Stocks",
           "url": "https://www.barchart.com/story/news/3694796/stocks-pressured-by-weakness-in-software-and-tech-stocks",
@@ -291,43 +315,37 @@
           "url": "https://www.benzinga.com/markets/market-summary/26/08/60996940/nasdaq-down-50-points-us-foods-posts-upbeat-earnings",
           "source": "Benzinga",
           "date": "2026-08-06"
-        },
-        {
-          "title": "Asian shares are mostly lower as Kospi falls 4% and tech giants decline on Wall Street",
-          "url": "https://www.ajc.com/news/2026/08/asian-shares-are-mostly-lower-as-kospi-falls-4-and-tech-giants-decline-on-wall-street/",
-          "source": "The Atlanta Journal-Constitution",
-          "date": "2026-08-06"
         }
       ]
     },
     "dow": {
-      "value": 53885.1,
-      "date": "2026-08-06",
+      "value": 54036.93,
+      "date": "2026-08-07",
       "label": "Aug 2026",
-      "display": "53,885",
-      "reading": "Aug 2026: 53,885, up from 52,485 in Jul 2026 \u2014 its highest reading in 12 months.",
+      "display": "54,037",
+      "reading": "Aug 2026: 54,037, up from 52,485 in Jul 2026 \u2014 its highest reading in 12 months.",
       "change": {
-        "text": "\u2191 12.1% YTD",
+        "text": "\u2191 12.4% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "Stocks Settle Lower as Middle East Tensions Rise",
-          "url": "https://www.barchart.com/story/news/3703202/stocks-settle-lower-as-middle-east-tensions-rise",
-          "source": "Barchart",
-          "date": "2026-08-06"
-        },
-        {
-          "title": "Dow Jones Futures: Cloudflare Leads 5 Software Earnings Winners Late; Jobs Report On Tap",
-          "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-jobs-report-cloudflare-sezzle-earnings-movers/",
-          "source": "Investor's Business Daily",
-          "date": "2026-08-06"
-        },
-        {
-          "title": "US stocks edge lower as oil prices rise, more earnings reports roll in",
-          "url": "https://www.ajc.com/news/2026/08/us-stocks-edge-lower-as-oil-prices-rise-more-earnings-reports-roll-in/",
+          "title": "Asian shares track Wall Street gains, while oil prices bounce higher",
+          "url": "https://www.ajc.com/news/2026/08/asian-shares-track-wall-street-gains-while-oil-prices-bounce-higher/",
           "source": "The Atlanta Journal-Constitution",
-          "date": "2026-08-06"
+          "date": "2026-08-10"
+        },
+        {
+          "title": "Asian shares are mixed after gains on Wall Street, while oil prices climb",
+          "url": "https://www.ajc.com/news/2026/08/asian-shares-are-mixed-after-gains-on-wall-street-while-oil-prices-climb/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-08-10"
+        },
+        {
+          "title": "Stocks Settle Higher as a Weak Jobs Report Allays Rate Hike Fears",
+          "url": "https://www.barchart.com/story/news/3726739/stocks-settle-higher-as-a-weak-jobs-report-allays-rate-hike-fears",
+          "source": "Barchart",
+          "date": "2026-08-07"
         }
       ]
     }
@@ -6080,7 +6098,8 @@
         "2026-08-03",
         "2026-08-04",
         "2026-08-05",
-        "2026-08-06"
+        "2026-08-06",
+        "2026-08-07"
       ],
       "values": [
         0.06,
@@ -10318,6 +10337,7 @@
         3.63,
         3.63,
         3.63,
+        3.63,
         3.63
       ],
       "freq": "monthly"
@@ -13223,7 +13243,8 @@
         "2026-08-03",
         "2026-08-04",
         "2026-08-05",
-        "2026-08-06"
+        "2026-08-06",
+        "2026-08-07"
       ],
       "values": [
         2.12,
@@ -16125,7 +16146,8 @@
         4.7,
         4.63,
         4.63,
-        4.69
+        4.69,
+        4.65
       ],
       "freq": "monthly"
     },
@@ -17668,7 +17690,7 @@
         "2026-05-29",
         "2026-06-30",
         "2026-07-31",
-        "2026-08-06"
+        "2026-08-07"
       ],
       "values": [
         2170.95,
@@ -17791,7 +17813,7 @@
         7580.06,
         7499.36,
         7489.72,
-        7709.96
+        7757.64
       ],
       "freq": "monthly"
     },
@@ -17936,7 +17958,7 @@
         "2026-05-29",
         "2026-06-30",
         "2026-07-31",
-        "2026-08-06"
+        "2026-08-07"
       ],
       "values": [
         4635.24,
@@ -18078,7 +18100,7 @@
         26972.62,
         26213.72,
         25373.85,
-        26348.35
+        26690.62
       ],
       "freq": "monthly"
     },
@@ -18204,7 +18226,7 @@
         "2026-05-29",
         "2026-06-30",
         "2026-07-31",
-        "2026-08-06"
+        "2026-08-07"
       ],
       "values": [
         18400.88,
@@ -18327,7 +18349,7 @@
         51032.46,
         52319.2,
         52485.03,
-        53885.1
+        54036.93
       ],
       "freq": "monthly"
     }
