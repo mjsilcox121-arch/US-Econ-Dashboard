@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-10T21:43:52Z",
+  "updated": "2026-08-11T21:51:29Z",
   "metrics": {
     "gdp": {
       "value": 1.5,
@@ -133,7 +133,7 @@
     },
     "ffr": {
       "value": 3.63,
-      "date": "2026-08-07",
+      "date": "2026-08-10",
       "label": "Aug 2026",
       "display": "3.63%",
       "reading": "Aug 2026: 3.63%, unchanged from 3.63% in Aug 2026 \u2014 its highest reading in 12 months.",
@@ -163,13 +163,13 @@
       ]
     },
     "ten": {
-      "value": 4.65,
-      "date": "2026-08-07",
+      "value": 4.72,
+      "date": "2026-08-10",
       "label": "Aug 2026",
-      "display": "4.65%",
-      "reading": "Aug 2026: 4.65%, down from 4.69% in Aug 2026.",
+      "display": "4.72%",
+      "reading": "Aug 2026: 4.72%, up from 4.65% in Aug 2026.",
       "change": {
-        "text": "\u2193 from 4.69%",
+        "text": "\u2191 from 4.65%",
         "sign": "flat"
       }
     },
@@ -257,11 +257,11 @@
       }
     },
     "sp500": {
-      "value": 7757.64,
-      "date": "2026-08-07",
+      "value": 7753.11,
+      "date": "2026-08-10",
       "label": "Aug 2026",
-      "display": "7,758",
-      "reading": "Aug 2026: 7,758, up from 7,490 in Jul 2026 \u2014 its highest reading in 12 months.",
+      "display": "7,753",
+      "reading": "Aug 2026: 7,753, up from 7,490 in Jul 2026 \u2014 its highest reading in 12 months.",
       "change": {
         "text": "\u2191 13.3% YTD",
         "sign": "pos"
@@ -274,30 +274,36 @@
           "date": "2026-08-09"
         },
         {
-          "title": "Asian shares track Wall Street gains, while oil prices bounce higher",
-          "url": "https://www.ajc.com/news/2026/08/asian-shares-track-wall-street-gains-while-oil-prices-bounce-higher/",
-          "source": "The Atlanta Journal-Constitution",
+          "title": "Stocks Finish Lower as Soaring Crude Prices Spur Inflation Fears",
+          "url": "https://www.barchart.com/story/news/3763562/stocks-finish-lower-as-soaring-crude-prices-spur-inflation-fears",
+          "source": "Barchart",
           "date": "2026-08-10"
         },
         {
-          "title": "Asian shares are mixed after gains on Wall Street, while oil prices climb",
-          "url": "https://www.ajc.com/news/2026/08/asian-shares-are-mixed-after-gains-on-wall-street-while-oil-prices-climb/",
+          "title": "US stocks edge down from their record after oil prices climb 5%",
+          "url": "https://www.ajc.com/news/2026/08/us-stocks-slip-below-their-records-as-oil-prices-rise-5/",
           "source": "The Atlanta Journal-Constitution",
           "date": "2026-08-10"
         }
       ]
     },
     "nasdaq": {
-      "value": 26690.62,
-      "date": "2026-08-07",
+      "value": 26605.36,
+      "date": "2026-08-10",
       "label": "Aug 2026",
-      "display": "26,691",
-      "reading": "Aug 2026: 26,691, up from 25,374 in Jul 2026.",
+      "display": "26,605",
+      "reading": "Aug 2026: 26,605, up from 25,374 in Jul 2026.",
       "change": {
-        "text": "\u2191 14.8% YTD",
+        "text": "\u2191 14.5% YTD",
         "sign": "pos"
       },
       "news": [
+        {
+          "title": "US stock market holds near its all-time high and crude oil prices rise",
+          "url": "https://www.ajc.com/news/2026/08/us-markets-point-to-a-mixed-open-and-oil-prices-tick-higher-over-hormuz-stalemate/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-08-10"
+        },
         {
           "title": "World shares are mixed after US stocks fall back, while oil edges lower",
           "url": "https://www.ajc.com/news/2026/08/world-shares-are-mixed-after-us-stocks-fall-back-while-oil-rebounds/",
@@ -309,43 +315,37 @@
           "url": "https://www.barchart.com/story/news/3694796/stocks-pressured-by-weakness-in-software-and-tech-stocks",
           "source": "Barchart",
           "date": "2026-08-06"
-        },
-        {
-          "title": "Nasdaq Down 50 Points; US Foods Posts Upbeat Earnings",
-          "url": "https://www.benzinga.com/markets/market-summary/26/08/60996940/nasdaq-down-50-points-us-foods-posts-upbeat-earnings",
-          "source": "Benzinga",
-          "date": "2026-08-06"
         }
       ]
     },
     "dow": {
-      "value": 54036.93,
-      "date": "2026-08-07",
+      "value": 53736.0,
+      "date": "2026-08-11",
       "label": "Aug 2026",
-      "display": "54,037",
-      "reading": "Aug 2026: 54,037, up from 52,485 in Jul 2026 \u2014 its highest reading in 12 months.",
+      "display": "53,736",
+      "reading": "Aug 2026: 53,736, up from 52,485 in Jul 2026 \u2014 its highest reading in 12 months.",
       "change": {
-        "text": "\u2191 12.4% YTD",
+        "text": "\u2191 11.8% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "Asian shares track Wall Street gains, while oil prices bounce higher",
-          "url": "https://www.ajc.com/news/2026/08/asian-shares-track-wall-street-gains-while-oil-prices-bounce-higher/",
-          "source": "The Atlanta Journal-Constitution",
-          "date": "2026-08-10"
-        },
-        {
-          "title": "Asian shares are mixed after gains on Wall Street, while oil prices climb",
-          "url": "https://www.ajc.com/news/2026/08/asian-shares-are-mixed-after-gains-on-wall-street-while-oil-prices-climb/",
-          "source": "The Atlanta Journal-Constitution",
-          "date": "2026-08-10"
-        },
-        {
-          "title": "Stocks Settle Higher as a Weak Jobs Report Allays Rate Hike Fears",
-          "url": "https://www.barchart.com/story/news/3726739/stocks-settle-higher-as-a-weak-jobs-report-allays-rate-hike-fears",
+          "title": "Stocks Finish Lower as Soaring Crude Prices Spur Inflation Fears",
+          "url": "https://www.barchart.com/story/news/3763562/stocks-finish-lower-as-soaring-crude-prices-spur-inflation-fears",
           "source": "Barchart",
-          "date": "2026-08-07"
+          "date": "2026-08-10"
+        },
+        {
+          "title": "US stocks edge down from their record after oil prices climb 5%",
+          "url": "https://www.ajc.com/news/2026/08/us-stocks-slip-below-their-records-as-oil-prices-rise-5/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-08-10"
+        },
+        {
+          "title": "Stocks Mixed as Higher Crude Prices Boost T-Note Yields",
+          "url": "https://www.barchart.com/story/news/3758025/stocks-mixed-as-higher-crude-prices-boost-t-note-yields",
+          "source": "Barchart",
+          "date": "2026-08-10"
         }
       ]
     }
@@ -6099,7 +6099,10 @@
         "2026-08-04",
         "2026-08-05",
         "2026-08-06",
-        "2026-08-07"
+        "2026-08-07",
+        "2026-08-08",
+        "2026-08-09",
+        "2026-08-10"
       ],
       "values": [
         0.06,
@@ -10338,6 +10341,9 @@
         3.63,
         3.63,
         3.63,
+        3.63,
+        3.63,
+        3.63,
         3.63
       ],
       "freq": "monthly"
@@ -13244,7 +13250,8 @@
         "2026-08-04",
         "2026-08-05",
         "2026-08-06",
-        "2026-08-07"
+        "2026-08-07",
+        "2026-08-10"
       ],
       "values": [
         2.12,
@@ -16147,7 +16154,8 @@
         4.63,
         4.63,
         4.69,
-        4.65
+        4.65,
+        4.72
       ],
       "freq": "monthly"
     },
@@ -17690,7 +17698,7 @@
         "2026-05-29",
         "2026-06-30",
         "2026-07-31",
-        "2026-08-07"
+        "2026-08-10"
       ],
       "values": [
         2170.95,
@@ -17813,7 +17821,7 @@
         7580.06,
         7499.36,
         7489.72,
-        7757.64
+        7753.11
       ],
       "freq": "monthly"
     },
@@ -17958,7 +17966,7 @@
         "2026-05-29",
         "2026-06-30",
         "2026-07-31",
-        "2026-08-07"
+        "2026-08-10"
       ],
       "values": [
         4635.24,
@@ -18100,7 +18108,7 @@
         26972.62,
         26213.72,
         25373.85,
-        26690.62
+        26605.36
       ],
       "freq": "monthly"
     },
@@ -18226,7 +18234,7 @@
         "2026-05-29",
         "2026-06-30",
         "2026-07-31",
-        "2026-08-07"
+        "2026-08-11"
       ],
       "values": [
         18400.88,
@@ -18349,7 +18357,7 @@
         51032.46,
         52319.2,
         52485.03,
-        54036.93
+        53736.0
       ],
       "freq": "monthly"
     }
