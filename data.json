@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-11T21:51:29Z",
+  "updated": "2026-08-12T21:49:36Z",
   "metrics": {
     "gdp": {
       "value": 1.5,
@@ -38,58 +38,58 @@
           "date": "2026-08-07"
         },
         {
+          "title": "US employers unexpectedly shed jobs; unemployment rate falls",
+          "url": "https://www.courant.com/2026/08/08/us-employers-unexpectedly-shed-jobs-unemployment-rate-falls-2/",
+          "source": "Hartford Courant",
+          "date": "2026-08-08"
+        },
+        {
           "title": "US job market stalled in July as employers cut 23,000 jobs, delivering political setback to Trump",
           "url": "https://www.ajc.com/news/2026/08/us-job-market-stalled-in-july-as-employers-cut-23000-jobs-delivering-political-setback-to-trump/",
           "source": "The Atlanta Journal-Constitution",
-          "date": "2026-08-07"
-        },
-        {
-          "title": "US job market loses 23,000 jobs in July, raising concerns before midterms",
-          "url": "https://www.pennlive.com/business/2026/08/us-job-market-loses-23000-jobs-in-july-raising-concerns-before-midterms.html",
-          "source": "Mechanicsburg Patriot News ",
           "date": "2026-08-07"
         }
       ]
     },
     "cpi": {
-      "value": 3.4635,
-      "date": "2026-06-01",
-      "label": "Jun 2026",
-      "display": "+3.5%",
-      "reading": "Jun 2026: +3.5%, down from +4.2% in May 2026.",
+      "value": 3.3039,
+      "date": "2026-07-01",
+      "label": "Jul 2026",
+      "display": "+3.3%",
+      "reading": "Jul 2026: +3.3%, down from +3.5% in Jun 2026.",
       "change": {
-        "text": "\u2193 from +4.2%",
+        "text": "\u2193 from +3.5%",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "Wall Street week ahead: inflation, retail sales updates",
-          "url": "https://www.ajc.com/news/2026/08/wall-street-week-ahead-inflation-retail-sales-updates/",
-          "source": "The Atlanta Journal-Constitution",
-          "date": "2026-08-08"
+          "title": "An inflation report Wednesday should be a big deal for the Fed. Here's what to expect",
+          "url": "https://www.cnbc.com/2026/08/11/an-inflation-report-wednesday-should-be-a-big-deal-for-the-fed-heres-what-to-expect.html",
+          "source": "CNBC",
+          "date": "2026-08-11"
         },
         {
-          "title": "The Fed confronts an unusually confusing economic moment",
-          "url": "https://abc17news.com/money/cnn-business-consumer/2026/07/27/the-fed-confronts-an-unusually-confusing-economic-moment/",
-          "source": "ABC17News.com",
-          "date": "2026-07-27"
+          "title": "Inflation expected to stay steady",
+          "url": "https://www.nbcnews.com/business/economy/cpi-inflation-july-2026-rcna591698",
+          "source": "NBC News",
+          "date": "2026-08-12"
         },
         {
-          "title": "see stance holds \u2013 Societe Generale",
-          "url": "https://www.europesays.com/3146942/",
-          "source": "EUROPE SAYS",
-          "date": "2026-07-22"
+          "title": "Inflation Fell Further In July as Gasoline and Grocery Prices Decline",
+          "url": "https://www.breitbart.com/economy/2026/08/12/cpi-july-2026/",
+          "source": "Breitbart News Network",
+          "date": "2026-08-12"
         }
       ]
     },
     "corecpi": {
-      "value": 2.5658,
-      "date": "2026-06-01",
-      "label": "Jun 2026",
-      "display": "+2.6%",
-      "reading": "Jun 2026: +2.6%, down from +2.8% in May 2026.",
+      "value": 2.4665,
+      "date": "2026-07-01",
+      "label": "Jul 2026",
+      "display": "+2.5%",
+      "reading": "Jul 2026: +2.5%, down from +2.6% in Jun 2026 \u2014 its lowest reading in 12 months.",
       "change": {
-        "text": "\u2193 from +2.8%",
+        "text": "\u2193 from +2.6%",
         "sign": "pos"
       }
     },
@@ -104,6 +104,12 @@
         "sign": "pos"
       },
       "news": [
+        {
+          "title": "Beth Hammack says multiple rate hikes needed to fight US inflation",
+          "url": "https://www.foxbusiness.com/economy/feds-hammack-says-multiple-rate-hikes-may-needed-tame-inflation",
+          "source": "Fox Business",
+          "date": "2026-08-11"
+        },
         {
           "title": "TradingKey Wall Street Weekly Report\uff1aCooling Pce Confirms Inflation Is Easing, With U.S. Growth Sectors Leading the Gains",
           "url": "https://www.europesays.com/3170705/",
@@ -133,7 +139,7 @@
     },
     "ffr": {
       "value": 3.63,
-      "date": "2026-08-10",
+      "date": "2026-08-11",
       "label": "Aug 2026",
       "display": "3.63%",
       "reading": "Aug 2026: 3.63%, unchanged from 3.63% in Aug 2026 \u2014 its highest reading in 12 months.",
@@ -163,13 +169,13 @@
       ]
     },
     "ten": {
-      "value": 4.72,
-      "date": "2026-08-10",
+      "value": 4.7,
+      "date": "2026-08-11",
       "label": "Aug 2026",
-      "display": "4.72%",
-      "reading": "Aug 2026: 4.72%, up from 4.65% in Aug 2026.",
+      "display": "4.70%",
+      "reading": "Aug 2026: 4.70%, down from 4.72% in Aug 2026.",
       "change": {
-        "text": "\u2191 from 4.65%",
+        "text": "\u2193 from 4.72%",
         "sign": "flat"
       }
     },
@@ -257,44 +263,44 @@
       }
     },
     "sp500": {
-      "value": 7753.11,
-      "date": "2026-08-10",
+      "value": 7728.2,
+      "date": "2026-08-11",
       "label": "Aug 2026",
-      "display": "7,753",
-      "reading": "Aug 2026: 7,753, up from 7,490 in Jul 2026 \u2014 its highest reading in 12 months.",
+      "display": "7,728",
+      "reading": "Aug 2026: 7,728, up from 7,490 in Jul 2026 \u2014 its highest reading in 12 months.",
       "change": {
-        "text": "\u2191 13.3% YTD",
+        "text": "\u2191 12.9% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "S&P 500 Earnings Beat Expectations As AI Leaders Remain In Focus",
-          "url": "https://www.forbes.com/sites/bill_stone/2026/08/09/sp-500-earnings-beat-expectations-as-ai-leaders-remain-in-focus/",
-          "source": "Forbes",
-          "date": "2026-08-09"
+          "title": "What\u2019s likely to move the market",
+          "url": "https://www.cnbc.com/2026/08/11/wednesdays-big-stock-stories-whats-likely-to-move-the-market.html",
+          "source": "CNBC",
+          "date": "2026-08-11"
         },
         {
-          "title": "Stocks Finish Lower as Soaring Crude Prices Spur Inflation Fears",
-          "url": "https://www.barchart.com/story/news/3763562/stocks-finish-lower-as-soaring-crude-prices-spur-inflation-fears",
+          "title": "Stocks Settle Lower Ahead of Wednesday\u2019s CPI Report",
+          "url": "https://www.barchart.com/story/news/3789005/stocks-settle-lower-ahead-of-wednesdays-cpi-report",
           "source": "Barchart",
-          "date": "2026-08-10"
+          "date": "2026-08-11"
         },
         {
-          "title": "US stocks edge down from their record after oil prices climb 5%",
-          "url": "https://www.ajc.com/news/2026/08/us-stocks-slip-below-their-records-as-oil-prices-rise-5/",
+          "title": "US stocks edge further from their records as oil prices keep swinging",
+          "url": "https://www.ajc.com/news/2026/08/us-stocks-edge-further-from-their-records-as-oil-prices-keep-swinging/",
           "source": "The Atlanta Journal-Constitution",
-          "date": "2026-08-10"
+          "date": "2026-08-11"
         }
       ]
     },
     "nasdaq": {
-      "value": 26605.36,
-      "date": "2026-08-10",
+      "value": 26445.45,
+      "date": "2026-08-11",
       "label": "Aug 2026",
-      "display": "26,605",
-      "reading": "Aug 2026: 26,605, up from 25,374 in Jul 2026.",
+      "display": "26,445",
+      "reading": "Aug 2026: 26,445, up from 25,374 in Jul 2026.",
       "change": {
-        "text": "\u2191 14.5% YTD",
+        "text": "\u2191 13.8% YTD",
         "sign": "pos"
       },
       "news": [
@@ -319,33 +325,33 @@
       ]
     },
     "dow": {
-      "value": 53736.0,
+      "value": 53791.85,
       "date": "2026-08-11",
       "label": "Aug 2026",
-      "display": "53,736",
-      "reading": "Aug 2026: 53,736, up from 52,485 in Jul 2026 \u2014 its highest reading in 12 months.",
+      "display": "53,792",
+      "reading": "Aug 2026: 53,792, up from 52,485 in Jul 2026 \u2014 its highest reading in 12 months.",
       "change": {
-        "text": "\u2191 11.8% YTD",
+        "text": "\u2191 11.9% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "Stocks Finish Lower as Soaring Crude Prices Spur Inflation Fears",
-          "url": "https://www.barchart.com/story/news/3763562/stocks-finish-lower-as-soaring-crude-prices-spur-inflation-fears",
-          "source": "Barchart",
-          "date": "2026-08-10"
+          "title": "Dow Jones Futures: Stocks Pause Before CPI Inflation; 3 Nvidia Partners Lead Earnings Movers Late",
+          "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-cpi-inflation-nvidia-partners-super-micro-earnings/",
+          "source": "Investor's Business Daily",
+          "date": "2026-08-11"
         },
         {
-          "title": "US stocks edge down from their record after oil prices climb 5%",
-          "url": "https://www.ajc.com/news/2026/08/us-stocks-slip-below-their-records-as-oil-prices-rise-5/",
+          "title": "Stocks Settle Lower Ahead of Wednesday\u2019s CPI Report",
+          "url": "https://www.barchart.com/story/news/3789005/stocks-settle-lower-ahead-of-wednesdays-cpi-report",
+          "source": "Barchart",
+          "date": "2026-08-11"
+        },
+        {
+          "title": "US stocks edge further from their records as oil prices keep swinging",
+          "url": "https://www.ajc.com/news/2026/08/us-stocks-edge-further-from-their-records-as-oil-prices-keep-swinging/",
           "source": "The Atlanta Journal-Constitution",
-          "date": "2026-08-10"
-        },
-        {
-          "title": "Stocks Mixed as Higher Crude Prices Boost T-Note Yields",
-          "url": "https://www.barchart.com/story/news/3758025/stocks-mixed-as-higher-crude-prices-boost-t-note-yields",
-          "source": "Barchart",
-          "date": "2026-08-10"
+          "date": "2026-08-11"
         }
       ]
     }
@@ -871,7 +877,8 @@
         "2026-03-01",
         "2026-04-01",
         "2026-05-01",
-        "2026-06-01"
+        "2026-06-01",
+        "2026-07-01"
       ],
       "values": [
         -0.2299,
@@ -1010,7 +1017,8 @@
         3.286,
         3.7793,
         4.1666,
-        3.4635
+        3.4635,
+        3.3039
       ],
       "freq": "monthly"
     },
@@ -1152,7 +1160,8 @@
         "2026-03-01",
         "2026-04-01",
         "2026-05-01",
-        "2026-06-01"
+        "2026-06-01",
+        "2026-07-01"
       ],
       "values": [
         1.6316,
@@ -1291,7 +1300,8 @@
         2.6022,
         2.7433,
         2.8229,
-        2.5658
+        2.5658,
+        2.4665
       ],
       "freq": "monthly"
     },
@@ -6102,7 +6112,8 @@
         "2026-08-07",
         "2026-08-08",
         "2026-08-09",
-        "2026-08-10"
+        "2026-08-10",
+        "2026-08-11"
       ],
       "values": [
         0.06,
@@ -10344,6 +10355,7 @@
         3.63,
         3.63,
         3.63,
+        3.63,
         3.63
       ],
       "freq": "monthly"
@@ -13251,7 +13263,8 @@
         "2026-08-05",
         "2026-08-06",
         "2026-08-07",
-        "2026-08-10"
+        "2026-08-10",
+        "2026-08-11"
       ],
       "values": [
         2.12,
@@ -16155,7 +16168,8 @@
         4.63,
         4.69,
         4.65,
-        4.72
+        4.72,
+        4.7
       ],
       "freq": "monthly"
     },
@@ -17698,7 +17712,7 @@
         "2026-05-29",
         "2026-06-30",
         "2026-07-31",
-        "2026-08-10"
+        "2026-08-11"
       ],
       "values": [
         2170.95,
@@ -17821,7 +17835,7 @@
         7580.06,
         7499.36,
         7489.72,
-        7753.11
+        7728.2
       ],
       "freq": "monthly"
     },
@@ -17966,7 +17980,7 @@
         "2026-05-29",
         "2026-06-30",
         "2026-07-31",
-        "2026-08-10"
+        "2026-08-11"
       ],
       "values": [
         4635.24,
@@ -18108,7 +18122,7 @@
         26972.62,
         26213.72,
         25373.85,
-        26605.36
+        26445.45
       ],
       "freq": "monthly"
     },
@@ -18357,7 +18371,7 @@
         51032.46,
         52319.2,
         52485.03,
-        53736.0
+        53791.85
       ],
       "freq": "monthly"
     }
