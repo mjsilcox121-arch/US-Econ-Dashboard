@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-17T21:28:07Z",
+  "updated": "2026-08-18T21:27:06Z",
   "metrics": {
     "gdp": {
       "value": 1.5,
@@ -145,7 +145,7 @@
     },
     "ffr": {
       "value": 3.63,
-      "date": "2026-08-14",
+      "date": "2026-08-17",
       "label": "Aug 2026",
       "display": "3.63%",
       "reading": "Aug 2026: 3.63%, unchanged from 3.63% in Aug 2026 \u2014 its highest reading in 12 months.",
@@ -175,13 +175,13 @@
       ]
     },
     "ten": {
-      "value": 4.68,
-      "date": "2026-08-14",
+      "value": 4.72,
+      "date": "2026-08-17",
       "label": "Aug 2026",
-      "display": "4.68%",
-      "reading": "Aug 2026: 4.68%, up from 4.63% in Aug 2026.",
+      "display": "4.72%",
+      "reading": "Aug 2026: 4.72%, up from 4.68% in Aug 2026.",
       "change": {
-        "text": "\u2191 from 4.63%",
+        "text": "\u2191 from 4.68%",
         "sign": "flat"
       }
     },
@@ -248,14 +248,14 @@
       ]
     },
     "housing": {
-      "value": 1.427,
-      "date": "2026-06-01",
-      "label": "Jun 2026",
-      "display": "1.427M",
-      "reading": "Jun 2026: 1.427M, up from 1.199M in May 2026.",
+      "value": 1.239,
+      "date": "2026-07-01",
+      "label": "Jul 2026",
+      "display": "1.239M",
+      "reading": "Jul 2026: 1.239M, down from 1.415M in Jun 2026.",
       "change": {
-        "text": "\u2191 from 1.199M",
-        "sign": "pos"
+        "text": "\u2193 from 1.415M",
+        "sign": "neg"
       }
     },
     "trade": {
@@ -267,15 +267,7 @@
       "change": {
         "text": "\u2191 from -$77647B",
         "sign": "pos"
-      },
-      "news": [
-        {
-          "title": "US Goods Trade Deficit Narrows on Drop in Imports",
-          "url": "https://news.bloombergtax.com/daily-tax-report/us-goods-trade-deficit-narrows-on-drop-in-imports",
-          "source": "Bloomberg Tax News",
-          "date": "2026-07-28"
-        }
-      ]
+      }
     },
     "sent": {
       "value": 49.5,
@@ -286,50 +278,64 @@
       "change": {
         "text": "\u2191 from 44.8",
         "sign": "pos"
-      }
+      },
+      "news": [
+        {
+          "title": "Consumer Sentiment Falls In August",
+          "url": "https://seekingalpha.com/article/4937507-consumer-sentiment-falls-in-august",
+          "source": "Seeking Alpha",
+          "date": "2026-08-18"
+        }
+      ]
     },
     "sp500": {
-      "value": 7785.76,
-      "date": "2026-08-14",
+      "value": 7745.06,
+      "date": "2026-08-17",
       "label": "Aug 2026",
-      "display": "7,786",
-      "reading": "Aug 2026: 7,786, up from 7,490 in Jul 2026 \u2014 its highest reading in 12 months.",
+      "display": "7,745",
+      "reading": "Aug 2026: 7,745, up from 7,490 in Jul 2026 \u2014 its highest reading in 12 months.",
       "change": {
-        "text": "\u2191 13.7% YTD",
+        "text": "\u2191 13.1% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "5 Dividend Stocks Wall Street Hates Paying Up To 12.9%",
-          "url": "https://www.forbes.com/sites/brettowens/2026/08/15/5-dividend-stocks-wall-street-hates-paying-up-to-129/",
-          "source": "Forbes",
-          "date": "2026-08-15"
-        },
-        {
-          "title": "Bitcoin Slips From Weekly Close Target In Drop To $62,500",
-          "url": "https://cointelegraph.com/markets/bitcoin-price-drops-trader-warns-weekly-close-may-spark-more-losses",
-          "source": "Cointelegraph",
-          "date": "2026-08-14"
-        },
-        {
-          "title": "World shares are mixed and Brent crude is higher after worries over stagflation pull US stocks lower",
-          "url": "https://www.ajc.com/news/2026/08/world-shares-are-mixed-and-oil-prices-slip-after-worries-over-stagflation-pull-us-stocks-lower/",
+          "title": "Asian shares slip as worries about rising oil prices offset boost from strong earnings",
+          "url": "https://www.ajc.com/news/2026/08/asia-shares-decline-as-worries-about-rising-oil-prices-outweigh-boost-from-strong-earnings/",
           "source": "The Atlanta Journal-Constitution",
+          "date": "2026-08-18"
+        },
+        {
+          "title": "Sinking AI stocks pull Wall Street further from its record",
+          "url": "https://www.mercurynews.com/2026/08/17/sinking-ai-stocks-pull-wall-street-further-from-its-record/",
+          "source": "The Mercury News",
+          "date": "2026-08-18"
+        },
+        {
+          "title": "Stocks Settle Lower on Rising Crude Prices and Higher Bond Yields",
+          "url": "https://www.barchart.com/story/news/3892903/stocks-settle-lower-on-rising-crude-prices-and-higher-bond-yields",
+          "source": "Barchart",
           "date": "2026-08-17"
         }
       ]
     },
     "nasdaq": {
-      "value": 26729.16,
-      "date": "2026-08-14",
+      "value": 26644.91,
+      "date": "2026-08-17",
       "label": "Aug 2026",
-      "display": "26,729",
-      "reading": "Aug 2026: 26,729, up from 25,374 in Jul 2026.",
+      "display": "26,645",
+      "reading": "Aug 2026: 26,645, up from 25,374 in Jul 2026.",
       "change": {
-        "text": "\u2191 15.0% YTD",
+        "text": "\u2191 14.6% YTD",
         "sign": "pos"
       },
       "news": [
+        {
+          "title": "Stocks Set to Open Higher on Tech Boost, Fed Minutes and Retail Earnings Awaited",
+          "url": "https://www.barchart.com/story/news/3882787/stocks-set-to-open-higher-on-tech-boost-fed-minutes-and-retail-earnings-awaited",
+          "source": "Barchart",
+          "date": "2026-08-17"
+        },
         {
           "title": "GPIQ: Collect High-Yield Income From Technology Stocks",
           "url": "https://seekingalpha.com/article/4936954-gpiq-collect-high-yield-income-from-technology-stocks",
@@ -341,43 +347,37 @@
           "url": "https://www.ajc.com/news/2026/08/us-markets-point-to-a-mixed-open-and-oil-prices-tick-higher-over-hormuz-stalemate/",
           "source": "The Atlanta Journal-Constitution",
           "date": "2026-08-10"
-        },
-        {
-          "title": "World shares are mixed after US stocks fall back, while oil edges lower",
-          "url": "https://www.ajc.com/news/2026/08/world-shares-are-mixed-after-us-stocks-fall-back-while-oil-rebounds/",
-          "source": "The Atlanta Journal-Constitution",
-          "date": "2026-08-07"
         }
       ]
     },
     "dow": {
-      "value": 53732.41,
-      "date": "2026-08-14",
+      "value": 53459.78,
+      "date": "2026-08-17",
       "label": "Aug 2026",
-      "display": "53,732",
-      "reading": "Aug 2026: 53,732, up from 52,485 in Jul 2026 \u2014 its highest reading in 12 months.",
+      "display": "53,460",
+      "reading": "Aug 2026: 53,460, up from 52,485 in Jul 2026 \u2014 its highest reading in 12 months.",
       "change": {
-        "text": "\u2191 11.8% YTD",
+        "text": "\u2191 11.2% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "World shares are mixed and Brent crude is higher after worries over stagflation pull US stocks lower",
-          "url": "https://www.ajc.com/news/2026/08/world-shares-are-mixed-and-oil-prices-slip-after-worries-over-stagflation-pull-us-stocks-lower/",
+          "title": "Asian shares slip as worries about rising oil prices offset boost from strong earnings",
+          "url": "https://www.ajc.com/news/2026/08/asia-shares-decline-as-worries-about-rising-oil-prices-outweigh-boost-from-strong-earnings/",
           "source": "The Atlanta Journal-Constitution",
+          "date": "2026-08-18"
+        },
+        {
+          "title": "Stocks Settle Lower on Rising Crude Prices and Higher Bond Yields",
+          "url": "https://www.barchart.com/story/news/3892903/stocks-settle-lower-on-rising-crude-prices-and-higher-bond-yields",
+          "source": "Barchart",
           "date": "2026-08-17"
         },
         {
-          "title": "Stocks Close Lower on Worries About US Economy",
-          "url": "https://www.barchart.com/story/news/3859003/stocks-close-lower-on-worries-about-us-economy",
-          "source": "Barchart",
-          "date": "2026-08-14"
-        },
-        {
-          "title": "Wall Street slips from its record following the latest weak update on the US economy",
-          "url": "https://www.ajc.com/news/2026/08/wall-street-slips-from-its-record-following-the-latest-weak-update-on-the-us-economy/",
+          "title": "US stocks edge further from their record after oil prices rise",
+          "url": "https://www.ajc.com/news/2026/08/us-stocks-edge-back-from-their-record-as-oil-prices-rise/",
           "source": "The Atlanta Journal-Constitution",
-          "date": "2026-08-14"
+          "date": "2026-08-17"
         }
       ]
     }
@@ -6142,7 +6142,10 @@
         "2026-08-11",
         "2026-08-12",
         "2026-08-13",
-        "2026-08-14"
+        "2026-08-14",
+        "2026-08-15",
+        "2026-08-16",
+        "2026-08-17"
       ],
       "values": [
         0.06,
@@ -10388,6 +10391,9 @@
         3.63,
         3.63,
         3.63,
+        3.63,
+        3.63,
+        3.63,
         3.63
       ],
       "freq": "monthly"
@@ -13299,7 +13305,8 @@
         "2026-08-11",
         "2026-08-12",
         "2026-08-13",
-        "2026-08-14"
+        "2026-08-14",
+        "2026-08-17"
       ],
       "values": [
         2.12,
@@ -16207,7 +16214,8 @@
         4.7,
         4.68,
         4.63,
-        4.68
+        4.68,
+        4.72
       ],
       "freq": "monthly"
     },
@@ -16920,7 +16928,8 @@
         "2026-03-01",
         "2026-04-01",
         "2026-05-01",
-        "2026-06-01"
+        "2026-06-01",
+        "2026-07-01"
       ],
       "values": [
         1.085,
@@ -17059,8 +17068,9 @@
         1.346,
         1.522,
         1.414,
-        1.199,
-        1.427
+        1.182,
+        1.415,
+        1.239
       ],
       "freq": "monthly"
     },
@@ -17752,7 +17762,7 @@
         "2026-05-29",
         "2026-06-30",
         "2026-07-31",
-        "2026-08-14"
+        "2026-08-17"
       ],
       "values": [
         2170.95,
@@ -17875,7 +17885,7 @@
         7580.06,
         7499.36,
         7489.72,
-        7785.76
+        7745.06
       ],
       "freq": "monthly"
     },
@@ -18020,7 +18030,7 @@
         "2026-05-29",
         "2026-06-30",
         "2026-07-31",
-        "2026-08-14"
+        "2026-08-17"
       ],
       "values": [
         4635.24,
@@ -18162,7 +18172,7 @@
         26972.62,
         26213.72,
         25373.85,
-        26729.16
+        26644.91
       ],
       "freq": "monthly"
     },
@@ -18288,7 +18298,7 @@
         "2026-05-29",
         "2026-06-30",
         "2026-07-31",
-        "2026-08-14"
+        "2026-08-17"
       ],
       "values": [
         18400.88,
@@ -18411,7 +18421,7 @@
         51032.46,
         52319.2,
         52485.03,
-        53732.41
+        53459.78
       ],
       "freq": "monthly"
     }
