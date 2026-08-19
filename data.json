@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-18T21:27:06Z",
+  "updated": "2026-08-19T21:27:33Z",
   "metrics": {
     "gdp": {
       "value": 1.5,
@@ -145,7 +145,7 @@
     },
     "ffr": {
       "value": 3.63,
-      "date": "2026-08-17",
+      "date": "2026-08-18",
       "label": "Aug 2026",
       "display": "3.63%",
       "reading": "Aug 2026: 3.63%, unchanged from 3.63% in Aug 2026 \u2014 its highest reading in 12 months.",
@@ -175,13 +175,13 @@
       ]
     },
     "ten": {
-      "value": 4.72,
-      "date": "2026-08-17",
+      "value": 4.71,
+      "date": "2026-08-18",
       "label": "Aug 2026",
-      "display": "4.72%",
-      "reading": "Aug 2026: 4.72%, up from 4.68% in Aug 2026.",
+      "display": "4.71%",
+      "reading": "Aug 2026: 4.71%, down from 4.72% in Aug 2026.",
       "change": {
-        "text": "\u2191 from 4.68%",
+        "text": "\u2193 from 4.72%",
         "sign": "flat"
       }
     },
@@ -289,95 +289,95 @@
       ]
     },
     "sp500": {
-      "value": 7745.06,
-      "date": "2026-08-17",
+      "value": 7691.76,
+      "date": "2026-08-18",
       "label": "Aug 2026",
-      "display": "7,745",
-      "reading": "Aug 2026: 7,745, up from 7,490 in Jul 2026 \u2014 its highest reading in 12 months.",
+      "display": "7,692",
+      "reading": "Aug 2026: 7,692, up from 7,490 in Jul 2026 \u2014 its highest reading in 12 months.",
+      "change": {
+        "text": "\u2191 12.4% YTD",
+        "sign": "pos"
+      },
+      "news": [
+        {
+          "title": "What\u2019s likely to move the market",
+          "url": "https://www.cnbc.com/2026/08/18/wednesdays-big-stock-stories-whats-likely-to-move-the-market.html",
+          "source": "CNBC",
+          "date": "2026-08-18"
+        },
+        {
+          "title": "The great bond tailwind for stocks is over",
+          "url": "https://www.reuters.com/commentary/breakingviews/great-bond-tailwind-stocks-is-over-2026-08-18/",
+          "source": "Reuters",
+          "date": "2026-08-18"
+        },
+        {
+          "title": "Shares fall in Asia, with Kospi down 5.7%, while oil prices jump",
+          "url": "https://www.ajc.com/news/2026/08/shares-fall-in-asia-with-kospi-down-52-while-oil-prices-jump/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-08-19"
+        }
+      ]
+    },
+    "nasdaq": {
+      "value": 26289.71,
+      "date": "2026-08-18",
+      "label": "Aug 2026",
+      "display": "26,290",
+      "reading": "Aug 2026: 26,290, up from 25,374 in Jul 2026.",
       "change": {
         "text": "\u2191 13.1% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "Asian shares slip as worries about rising oil prices offset boost from strong earnings",
-          "url": "https://www.ajc.com/news/2026/08/asia-shares-decline-as-worries-about-rising-oil-prices-outweigh-boost-from-strong-earnings/",
-          "source": "The Atlanta Journal-Constitution",
+          "title": "Stocks sold as tech weakness drags Nasdaq lower - Newsquawk US Market Wrap",
+          "url": "https://www.zerohedge.com/markets/stocks-sold-tech-weakness-drags-nasdaq-lower-newsquawk-us-market-wrap",
+          "source": "ZeroHedge",
           "date": "2026-08-18"
         },
         {
-          "title": "Sinking AI stocks pull Wall Street further from its record",
-          "url": "https://www.mercurynews.com/2026/08/17/sinking-ai-stocks-pull-wall-street-further-from-its-record/",
-          "source": "The Mercury News",
+          "title": "Nasdaq Sinks as Bond Yields Pressure Tech: Stock Market Today",
+          "url": "https://www.kiplinger.com/investing/stocks/nasdaq-sinks-as-bond-yields-pressure-tech-stocks-stock-market-today",
+          "source": "Kiplinger",
           "date": "2026-08-18"
         },
         {
-          "title": "Stocks Settle Lower on Rising Crude Prices and Higher Bond Yields",
-          "url": "https://www.barchart.com/story/news/3892903/stocks-settle-lower-on-rising-crude-prices-and-higher-bond-yields",
-          "source": "Barchart",
-          "date": "2026-08-17"
-        }
-      ]
-    },
-    "nasdaq": {
-      "value": 26644.91,
-      "date": "2026-08-17",
-      "label": "Aug 2026",
-      "display": "26,645",
-      "reading": "Aug 2026: 26,645, up from 25,374 in Jul 2026.",
-      "change": {
-        "text": "\u2191 14.6% YTD",
-        "sign": "pos"
-      },
-      "news": [
-        {
-          "title": "Stocks Set to Open Higher on Tech Boost, Fed Minutes and Retail Earnings Awaited",
-          "url": "https://www.barchart.com/story/news/3882787/stocks-set-to-open-higher-on-tech-boost-fed-minutes-and-retail-earnings-awaited",
-          "source": "Barchart",
-          "date": "2026-08-17"
-        },
-        {
-          "title": "GPIQ: Collect High-Yield Income From Technology Stocks",
-          "url": "https://seekingalpha.com/article/4936954-gpiq-collect-high-yield-income-from-technology-stocks",
-          "source": "Seeking Alpha",
-          "date": "2026-08-14"
-        },
-        {
-          "title": "US stock market holds near its all-time high and crude oil prices rise",
-          "url": "https://www.ajc.com/news/2026/08/us-markets-point-to-a-mixed-open-and-oil-prices-tick-higher-over-hormuz-stalemate/",
-          "source": "The Atlanta Journal-Constitution",
-          "date": "2026-08-10"
+          "title": "Stock market today: Dow, S&P 500, Nasdaq fall as chip stocks sell off, bond yields remain high",
+          "url": "https://www.europesays.com/3201459/",
+          "source": "EUROPE SAYS",
+          "date": "2026-08-18"
         }
       ]
     },
     "dow": {
-      "value": 53459.78,
-      "date": "2026-08-17",
+      "value": 53343.4,
+      "date": "2026-08-18",
       "label": "Aug 2026",
-      "display": "53,460",
-      "reading": "Aug 2026: 53,460, up from 52,485 in Jul 2026 \u2014 its highest reading in 12 months.",
+      "display": "53,343",
+      "reading": "Aug 2026: 53,343, up from 52,485 in Jul 2026 \u2014 its highest reading in 12 months.",
       "change": {
-        "text": "\u2191 11.2% YTD",
+        "text": "\u2191 11.0% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "Asian shares slip as worries about rising oil prices offset boost from strong earnings",
-          "url": "https://www.ajc.com/news/2026/08/asia-shares-decline-as-worries-about-rising-oil-prices-outweigh-boost-from-strong-earnings/",
+          "title": "Shares fall in Asia, with Kospi down 5.7%, while oil prices jump",
+          "url": "https://www.ajc.com/news/2026/08/shares-fall-in-asia-with-kospi-down-52-while-oil-prices-jump/",
           "source": "The Atlanta Journal-Constitution",
+          "date": "2026-08-19"
+        },
+        {
+          "title": "Dow Jones Futures: Sandisk, Micron, Credo Lead AI Rug Pull; Target Earnings Due",
+          "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-sandisk-micron-credo-ai-stocks-target-earnings/",
+          "source": "Investor's Business Daily",
           "date": "2026-08-18"
         },
         {
-          "title": "Stocks Settle Lower on Rising Crude Prices and Higher Bond Yields",
-          "url": "https://www.barchart.com/story/news/3892903/stocks-settle-lower-on-rising-crude-prices-and-higher-bond-yields",
+          "title": "Stocks Finish Lower as Chipmakers and AI Stocks Fall",
+          "url": "https://www.barchart.com/story/news/3915336/stocks-finish-lower-as-chipmakers-and-ai-stocks-fall",
           "source": "Barchart",
-          "date": "2026-08-17"
-        },
-        {
-          "title": "US stocks edge further from their record after oil prices rise",
-          "url": "https://www.ajc.com/news/2026/08/us-stocks-edge-back-from-their-record-as-oil-prices-rise/",
-          "source": "The Atlanta Journal-Constitution",
-          "date": "2026-08-17"
+          "date": "2026-08-18"
         }
       ]
     }
@@ -6145,7 +6145,8 @@
         "2026-08-14",
         "2026-08-15",
         "2026-08-16",
-        "2026-08-17"
+        "2026-08-17",
+        "2026-08-18"
       ],
       "values": [
         0.06,
@@ -10394,6 +10395,7 @@
         3.63,
         3.63,
         3.63,
+        3.63,
         3.63
       ],
       "freq": "monthly"
@@ -13306,7 +13308,8 @@
         "2026-08-12",
         "2026-08-13",
         "2026-08-14",
-        "2026-08-17"
+        "2026-08-17",
+        "2026-08-18"
       ],
       "values": [
         2.12,
@@ -16215,7 +16218,8 @@
         4.68,
         4.63,
         4.68,
-        4.72
+        4.72,
+        4.71
       ],
       "freq": "monthly"
     },
@@ -17762,7 +17766,7 @@
         "2026-05-29",
         "2026-06-30",
         "2026-07-31",
-        "2026-08-17"
+        "2026-08-18"
       ],
       "values": [
         2170.95,
@@ -17885,7 +17889,7 @@
         7580.06,
         7499.36,
         7489.72,
-        7745.06
+        7691.76
       ],
       "freq": "monthly"
     },
@@ -18030,7 +18034,7 @@
         "2026-05-29",
         "2026-06-30",
         "2026-07-31",
-        "2026-08-17"
+        "2026-08-18"
       ],
       "values": [
         4635.24,
@@ -18172,7 +18176,7 @@
         26972.62,
         26213.72,
         25373.85,
-        26644.91
+        26289.71
       ],
       "freq": "monthly"
     },
@@ -18298,7 +18302,7 @@
         "2026-05-29",
         "2026-06-30",
         "2026-07-31",
-        "2026-08-17"
+        "2026-08-18"
       ],
       "values": [
         18400.88,
@@ -18421,7 +18425,7 @@
         51032.46,
         52319.2,
         52485.03,
-        53459.78
+        53343.4
       ],
       "freq": "monthly"
     }
