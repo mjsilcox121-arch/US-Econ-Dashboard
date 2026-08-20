@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-19T21:27:33Z",
+  "updated": "2026-08-20T21:30:37Z",
   "metrics": {
     "gdp": {
       "value": 1.5,
@@ -133,19 +133,11 @@
       "change": {
         "text": "\u2193 from +3.4%",
         "sign": "pos"
-      },
-      "news": [
-        {
-          "title": "Stock Market Today: S&P 500, Nasdaq 100 Futures Gain as Fed's Preferred Gauge Core PCE Inflation Eases to",
-          "url": "https://www.benzinga.com/markets/equities/26/07/60788808/stock-market-today-sp-500-nasdaq-100-futures-gain-as-federal-reserve-holds-interest-rates-meta-microsoft-apple-in-focus",
-          "source": "Benzinga",
-          "date": "2026-07-30"
-        }
-      ]
+      }
     },
     "ffr": {
       "value": 3.63,
-      "date": "2026-08-18",
+      "date": "2026-08-19",
       "label": "Aug 2026",
       "display": "3.63%",
       "reading": "Aug 2026: 3.63%, unchanged from 3.63% in Aug 2026 \u2014 its highest reading in 12 months.",
@@ -155,33 +147,33 @@
       },
       "news": [
         {
-          "title": "Gold rises on weaker dollar as inflation data cements rate-hold bets",
-          "url": "https://www.reuters.com/world/india/gold-heads-weekly-loss-investors-unwind-inflation-fuelled-rally-2026-08-14/",
-          "source": "Reuters",
-          "date": "2026-08-14"
+          "title": "Latest Federal Reserve minutes show more support for rate hikes as inflation fears mount",
+          "url": "https://nypost.com/2026/08/19/business/latest-federal-reserve-minutes-show-more-support-for-rate-hikes-as-inflation-fears-mount/",
+          "source": "New York Post",
+          "date": "2026-08-19"
         },
         {
-          "title": "Look At These Three Rates Before Making Financial Decisions",
-          "url": "https://www.forbes.com/sites/chrisgunster/2026/08/13/which-rates-should-investors-assess-before-making-financial-decisions/",
-          "source": "Forbes",
-          "date": "2026-08-13"
+          "title": "\u2018Many\u2019 Fed officials think higher rates will be needed if inflation stays high",
+          "url": "https://wtop.com/business-finance/2026/08/many-fed-officials-think-higher-rates-will-be-needed-if-inflation-stays-high/",
+          "source": "WTOP",
+          "date": "2026-08-19"
         },
         {
-          "title": "Traders Pare Bets on Fed Rate Hikes on Inflation Outlook (1)",
-          "url": "https://news.bloombergtax.com/daily-tax-report/traders-pare-bets-on-fed-rate-hikes-on-inflation-outlook-1",
-          "source": "Bloomberg Tax News",
-          "date": "2026-08-13"
+          "title": "Many Fed officials think higher rates needed if inflation stays high",
+          "url": "https://www.readingeagle.com/2026/08/19/federal-reserve-minutes-inflation/",
+          "source": "Reading Eagle",
+          "date": "2026-08-19"
         }
       ]
     },
     "ten": {
-      "value": 4.71,
-      "date": "2026-08-18",
+      "value": 4.65,
+      "date": "2026-08-19",
       "label": "Aug 2026",
-      "display": "4.71%",
-      "reading": "Aug 2026: 4.71%, down from 4.72% in Aug 2026.",
+      "display": "4.65%",
+      "reading": "Aug 2026: 4.65%, down from 4.71% in Aug 2026.",
       "change": {
-        "text": "\u2193 from 4.72%",
+        "text": "\u2193 from 4.71%",
         "sign": "flat"
       }
     },
@@ -289,44 +281,44 @@
       ]
     },
     "sp500": {
-      "value": 7691.76,
-      "date": "2026-08-18",
+      "value": 7707.98,
+      "date": "2026-08-19",
       "label": "Aug 2026",
-      "display": "7,692",
-      "reading": "Aug 2026: 7,692, up from 7,490 in Jul 2026 \u2014 its highest reading in 12 months.",
+      "display": "7,708",
+      "reading": "Aug 2026: 7,708, up from 7,490 in Jul 2026 \u2014 its highest reading in 12 months.",
       "change": {
-        "text": "\u2191 12.4% YTD",
+        "text": "\u2191 12.6% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "What\u2019s likely to move the market",
-          "url": "https://www.cnbc.com/2026/08/18/wednesdays-big-stock-stories-whats-likely-to-move-the-market.html",
-          "source": "CNBC",
-          "date": "2026-08-18"
+          "title": "Morningstar Flags 3 Dividend ETFs to Buy That Can Protect From a Stock Market Decline",
+          "url": "https://www.businessinsider.com/dividend-etfs-to-buy-hedge-stock-market-drop-2026-8",
+          "source": "Business Insider",
+          "date": "2026-08-20"
         },
         {
-          "title": "The great bond tailwind for stocks is over",
-          "url": "https://www.reuters.com/commentary/breakingviews/great-bond-tailwind-stocks-is-over-2026-08-18/",
-          "source": "Reuters",
-          "date": "2026-08-18"
-        },
-        {
-          "title": "Shares fall in Asia, with Kospi down 5.7%, while oil prices jump",
-          "url": "https://www.ajc.com/news/2026/08/shares-fall-in-asia-with-kospi-down-52-while-oil-prices-jump/",
+          "title": "World shares are mixed after US Treasury expands debt buybacks, while Brent crude gains 2.2%",
+          "url": "https://www.ajc.com/news/2026/08/asian-shares-advance-led-by-a-nearly-6-gain-for-south-koreas-kospi/",
           "source": "The Atlanta Journal-Constitution",
-          "date": "2026-08-19"
+          "date": "2026-08-20"
+        },
+        {
+          "title": "Asian shares gain, with South Korea's Kospi up 6%, after the US Treasury expands its debt buybacks",
+          "url": "https://www.ajc.com/news/2026/08/asian-shares-gain-with-south-koreas-kospi-up-6-after-the-us-treasury-expands-its-debt-buybacks/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-08-20"
         }
       ]
     },
     "nasdaq": {
-      "value": 26289.71,
-      "date": "2026-08-18",
+      "value": 26331.09,
+      "date": "2026-08-19",
       "label": "Aug 2026",
-      "display": "26,290",
-      "reading": "Aug 2026: 26,290, up from 25,374 in Jul 2026.",
+      "display": "26,331",
+      "reading": "Aug 2026: 26,331, up from 25,374 in Jul 2026.",
       "change": {
-        "text": "\u2191 13.1% YTD",
+        "text": "\u2191 13.3% YTD",
         "sign": "pos"
       },
       "news": [
@@ -351,33 +343,33 @@
       ]
     },
     "dow": {
-      "value": 53343.4,
-      "date": "2026-08-18",
+      "value": 53463.05,
+      "date": "2026-08-19",
       "label": "Aug 2026",
-      "display": "53,343",
-      "reading": "Aug 2026: 53,343, up from 52,485 in Jul 2026 \u2014 its highest reading in 12 months.",
+      "display": "53,463",
+      "reading": "Aug 2026: 53,463, up from 52,485 in Jul 2026 \u2014 its highest reading in 12 months.",
       "change": {
-        "text": "\u2191 11.0% YTD",
+        "text": "\u2191 11.2% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "Shares fall in Asia, with Kospi down 5.7%, while oil prices jump",
-          "url": "https://www.ajc.com/news/2026/08/shares-fall-in-asia-with-kospi-down-52-while-oil-prices-jump/",
-          "source": "The Atlanta Journal-Constitution",
+          "title": "Stocks Finish Mixed as Bond Yields Fall and Chipmakers Slide",
+          "url": "https://www.barchart.com/story/news/3937543/stocks-finish-mixed-as-bond-yields-fall-and-chipmakers-slide",
+          "source": "Barchart",
           "date": "2026-08-19"
         },
         {
-          "title": "Dow Jones Futures: Sandisk, Micron, Credo Lead AI Rug Pull; Target Earnings Due",
-          "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-sandisk-micron-credo-ai-stocks-target-earnings/",
-          "source": "Investor's Business Daily",
-          "date": "2026-08-18"
+          "title": "Stocks Supported by Lower Bond Yields",
+          "url": "https://www.barchart.com/story/news/3931839/stocks-supported-by-lower-bond-yields",
+          "source": "Barchart",
+          "date": "2026-08-19"
         },
         {
-          "title": "Stocks Finish Lower as Chipmakers and AI Stocks Fall",
-          "url": "https://www.barchart.com/story/news/3915336/stocks-finish-lower-as-chipmakers-and-ai-stocks-fall",
-          "source": "Barchart",
-          "date": "2026-08-18"
+          "title": "US stocks look to halt their 3-day slide as pressure from the bond market eases",
+          "url": "https://www.ajc.com/news/2026/08/us-stocks-look-to-halt-their-3-day-slide-as-pressure-from-the-bond-market-eases/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-08-19"
         }
       ]
     }
@@ -6146,7 +6138,8 @@
         "2026-08-15",
         "2026-08-16",
         "2026-08-17",
-        "2026-08-18"
+        "2026-08-18",
+        "2026-08-19"
       ],
       "values": [
         0.06,
@@ -10396,6 +10389,7 @@
         3.63,
         3.63,
         3.63,
+        3.63,
         3.63
       ],
       "freq": "monthly"
@@ -13309,7 +13303,8 @@
         "2026-08-13",
         "2026-08-14",
         "2026-08-17",
-        "2026-08-18"
+        "2026-08-18",
+        "2026-08-19"
       ],
       "values": [
         2.12,
@@ -16219,7 +16214,8 @@
         4.63,
         4.68,
         4.72,
-        4.71
+        4.71,
+        4.65
       ],
       "freq": "monthly"
     },
@@ -17766,7 +17762,7 @@
         "2026-05-29",
         "2026-06-30",
         "2026-07-31",
-        "2026-08-18"
+        "2026-08-19"
       ],
       "values": [
         2170.95,
@@ -17889,7 +17885,7 @@
         7580.06,
         7499.36,
         7489.72,
-        7691.76
+        7707.98
       ],
       "freq": "monthly"
     },
@@ -18034,7 +18030,7 @@
         "2026-05-29",
         "2026-06-30",
         "2026-07-31",
-        "2026-08-18"
+        "2026-08-19"
       ],
       "values": [
         4635.24,
@@ -18176,7 +18172,7 @@
         26972.62,
         26213.72,
         25373.85,
-        26289.71
+        26331.09
       ],
       "freq": "monthly"
     },
@@ -18302,7 +18298,7 @@
         "2026-05-29",
         "2026-06-30",
         "2026-07-31",
-        "2026-08-18"
+        "2026-08-19"
       ],
       "values": [
         18400.88,
@@ -18425,7 +18421,7 @@
         51032.46,
         52319.2,
         52485.03,
-        53343.4
+        53463.05
       ],
       "freq": "monthly"
     }
