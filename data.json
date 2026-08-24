@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-21T21:27:00Z",
+  "updated": "2026-08-24T21:32:01Z",
   "metrics": {
     "gdp": {
       "value": 1.5,
@@ -81,10 +81,10 @@
           "date": "2026-08-12"
         },
         {
-          "title": "An inflation report Wednesday should be a big deal for the Fed. Here's what to expect",
-          "url": "https://www.cnbc.com/2026/08/11/an-inflation-report-wednesday-should-be-a-big-deal-for-the-fed-heres-what-to-expect.html",
-          "source": "CNBC",
-          "date": "2026-08-11"
+          "title": "Wall Street week ahead: Reports on consumer confidence and inflation on tap",
+          "url": "https://www.ajc.com/news/2026/08/wall-street-week-ahead-reports-on-consumer-confidence-and-inflation-on-tap/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-08-22"
         }
       ]
     },
@@ -111,16 +111,16 @@
       },
       "news": [
         {
+          "title": "Wall Street week ahead: Reports on consumer confidence and inflation on tap",
+          "url": "https://www.ajc.com/news/2026/08/wall-street-week-ahead-reports-on-consumer-confidence-and-inflation-on-tap/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-08-22"
+        },
+        {
           "title": "Beth Hammack says multiple rate hikes needed to fight US inflation",
           "url": "https://www.foxbusiness.com/economy/feds-hammack-says-multiple-rate-hikes-may-needed-tame-inflation",
           "source": "Fox Business",
           "date": "2026-08-11"
-        },
-        {
-          "title": "TradingKey Wall Street Weekly Report\uff1aCooling Pce Confirms Inflation Is Easing, With U.S. Growth Sectors Leading the Gains",
-          "url": "https://www.europesays.com/3170705/",
-          "source": "EUROPE SAYS",
-          "date": "2026-08-03"
         }
       ]
     },
@@ -137,7 +137,7 @@
     },
     "ffr": {
       "value": 3.63,
-      "date": "2026-08-20",
+      "date": "2026-08-21",
       "label": "Aug 2026",
       "display": "3.63%",
       "reading": "Aug 2026: 3.63%, unchanged from 3.63% in Aug 2026 \u2014 its highest reading in 12 months.",
@@ -147,33 +147,33 @@
       },
       "news": [
         {
+          "title": "America In Focus: Fed officials eye higher rates; unemployment claims fall",
+          "url": "https://apnews.com/article/inflation-economy-trump-iran-unemployment-76fdb13084501823927c98cb65bf56d6",
+          "source": "The Associated Press",
+          "date": "2026-08-22"
+        },
+        {
           "title": "Fed minutes show September rate hike still on the table",
           "url": "https://www.reuters.com/commentary/reuters-open-interest/fed-minutes-show-september-rate-hike-still-table-2026-08-20/",
           "source": "Reuters",
           "date": "2026-08-20"
         },
         {
-          "title": "Latest Federal Reserve minutes show more support for rate hikes as inflation fears mount",
-          "url": "https://nypost.com/2026/08/19/business/latest-federal-reserve-minutes-show-more-support-for-rate-hikes-as-inflation-fears-mount/",
-          "source": "New York Post",
-          "date": "2026-08-19"
-        },
-        {
-          "title": "\u2018Many\u2019 Fed officials think higher rates will be needed if inflation stays high",
-          "url": "https://wtop.com/business-finance/2026/08/many-fed-officials-think-higher-rates-will-be-needed-if-inflation-stays-high/",
-          "source": "WTOP",
-          "date": "2026-08-19"
+          "title": "'Many' Fed officials think higher rates will be needed if inflation stays high",
+          "url": "https://www.europesays.com/3211275/",
+          "source": "EUROPE SAYS",
+          "date": "2026-08-23"
         }
       ]
     },
     "ten": {
-      "value": 4.69,
-      "date": "2026-08-20",
+      "value": 4.74,
+      "date": "2026-08-21",
       "label": "Aug 2026",
-      "display": "4.69%",
-      "reading": "Aug 2026: 4.69%, up from 4.65% in Aug 2026.",
+      "display": "4.74%",
+      "reading": "Aug 2026: 4.74%, up from 4.69% in Aug 2026 \u2014 its highest reading in 12 months.",
       "change": {
-        "text": "\u2191 from 4.65%",
+        "text": "\u2191 from 4.69%",
         "sign": "flat"
       }
     },
@@ -220,22 +220,22 @@
       },
       "news": [
         {
+          "title": "US Consumer Warning Signs: Walmart Earnings, Retail Sales, Job Market",
+          "url": "https://www.businessinsider.com/us-consumer-warning-signs-walmart-retail-sales-jobs-economic-slowdown-2026-8",
+          "source": "Business Insider",
+          "date": "2026-08-21"
+        },
+        {
           "title": "US retail sales post first decline in nine months in July",
           "url": "https://www.reuters.com/business/us-retail-sales-unexpectedly-fall-july-2026-08-14/",
           "source": "Reuters",
           "date": "2026-08-14"
         },
         {
-          "title": "Dollar Falls on Weak US Retail Sales and Consumer Sentiment Reports",
-          "url": "https://www.barchart.com/story/news/3858551/dollar-falls-on-weak-us-retail-sales-and-consumer-sentiment-reports",
-          "source": "Barchart",
-          "date": "2026-08-14"
-        },
-        {
-          "title": "Retail sales unexpectedly drop for first time in 9 months",
-          "url": "https://nypost.com/2026/08/14/business/retail-sales-unexpectedly-drop-for-first-time-in-9-months/",
-          "source": "New York Post",
-          "date": "2026-08-14"
+          "title": "The US consumer is flashing red flags all over the place",
+          "url": "https://www.newsbreak.com/markets-insider-562170/4841431642995-the-us-consumer-is-flashing-red-flags-all-over-the-place",
+          "source": "NewsBreak",
+          "date": "2026-08-21"
         }
       ]
     },
@@ -281,44 +281,44 @@
       ]
     },
     "sp500": {
-      "value": 7641.16,
-      "date": "2026-08-20",
+      "value": 7674.37,
+      "date": "2026-08-21",
       "label": "Aug 2026",
-      "display": "7,641",
-      "reading": "Aug 2026: 7,641, up from 7,490 in Jul 2026 \u2014 its highest reading in 12 months.",
+      "display": "7,674",
+      "reading": "Aug 2026: 7,674, up from 7,490 in Jul 2026 \u2014 its highest reading in 12 months.",
       "change": {
-        "text": "\u2191 11.6% YTD",
+        "text": "\u2191 12.1% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "Morningstar Flags 3 Dividend ETFs to Buy That Can Protect From a Stock Market Decline",
-          "url": "https://www.businessinsider.com/dividend-etfs-to-buy-hedge-stock-market-drop-2026-8",
-          "source": "Business Insider",
-          "date": "2026-08-20"
+          "title": "U.S. stocks have done great for you. Don't be greedy in this market",
+          "url": "https://www.cnbc.com/2026/08/22/stocks-market-investments-diversification.html",
+          "source": "CNBC",
+          "date": "2026-08-22"
         },
         {
-          "title": "The bond market swings back to worries and knocks US stocks lower",
-          "url": "https://www.ajc.com/news/2026/08/the-bond-market-swings-back-to-worries-and-knocks-us-stocks-lower/",
+          "title": "These stocks are most overbought even as the S&P 500 posts a losing week",
+          "url": "https://www.cnbc.com/2026/08/22/these-stocks-are-most-overbought-even-as-the-sp-500-posts-a-losing-week.html",
+          "source": "CNBC",
+          "date": "2026-08-22"
+        },
+        {
+          "title": "Asian shares mostly decline as bond market pressure mounts",
+          "url": "https://www.ajc.com/news/2026/08/asian-shares-mostly-decline-as-bond-market-pressure-mounts/",
           "source": "The Atlanta Journal-Constitution",
-          "date": "2026-08-20"
-        },
-        {
-          "title": "Stocks Settle Lower as Rising Crude Prices Spur Inflation Fears",
-          "url": "https://www.barchart.com/story/news/3958173/stocks-settle-lower-as-rising-crude-prices-spur-inflation-fears",
-          "source": "Barchart",
-          "date": "2026-08-20"
+          "date": "2026-08-24"
         }
       ]
     },
     "nasdaq": {
-      "value": 26067.17,
-      "date": "2026-08-20",
+      "value": 26180.45,
+      "date": "2026-08-21",
       "label": "Aug 2026",
-      "display": "26,067",
-      "reading": "Aug 2026: 26,067, up from 25,374 in Jul 2026.",
+      "display": "26,180",
+      "reading": "Aug 2026: 26,180, up from 25,374 in Jul 2026.",
       "change": {
-        "text": "\u2191 12.2% YTD",
+        "text": "\u2191 12.6% YTD",
         "sign": "pos"
       },
       "news": [
@@ -343,33 +343,33 @@
       ]
     },
     "dow": {
-      "value": 52759.21,
-      "date": "2026-08-20",
+      "value": 53277.01,
+      "date": "2026-08-21",
       "label": "Aug 2026",
-      "display": "52,759",
-      "reading": "Aug 2026: 52,759, up from 52,485 in Jul 2026 \u2014 its highest reading in 12 months.",
+      "display": "53,277",
+      "reading": "Aug 2026: 53,277, up from 52,485 in Jul 2026 \u2014 its highest reading in 12 months.",
       "change": {
-        "text": "\u2191 9.8% YTD",
+        "text": "\u2191 10.8% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "The bond market swings back to worries and knocks US stocks lower",
-          "url": "https://www.ajc.com/news/2026/08/the-bond-market-swings-back-to-worries-and-knocks-us-stocks-lower/",
+          "title": "Asian shares mostly decline as bond market pressure mounts",
+          "url": "https://www.ajc.com/news/2026/08/asian-shares-mostly-decline-as-bond-market-pressure-mounts/",
           "source": "The Atlanta Journal-Constitution",
-          "date": "2026-08-20"
+          "date": "2026-08-24"
         },
         {
-          "title": "Stocks Settle Lower as Rising Crude Prices Spur Inflation Fears",
-          "url": "https://www.barchart.com/story/news/3958173/stocks-settle-lower-as-rising-crude-prices-spur-inflation-fears",
+          "title": "Stocks Settle Higher as Crude Oil Prices Stabilize",
+          "url": "https://www.barchart.com/story/news/3976828/stocks-settle-higher-as-crude-oil-prices-stabilize",
           "source": "Barchart",
-          "date": "2026-08-20"
+          "date": "2026-08-21"
         },
         {
-          "title": "The bond market swings back to worries and helps knock US stocks lower",
-          "url": "https://www.ajc.com/news/2026/08/higher-yields-in-the-bond-market-and-a-drop-for-walmart-drag-us-stocks-lower/",
+          "title": "US stocks rise as the bond market's big swings ease a bit",
+          "url": "https://www.ajc.com/news/2026/08/us-stocks-rise-as-the-bond-market-steadies-a-bit/",
           "source": "The Atlanta Journal-Constitution",
-          "date": "2026-08-20"
+          "date": "2026-08-21"
         }
       ]
     }
@@ -6140,7 +6140,8 @@
         "2026-08-17",
         "2026-08-18",
         "2026-08-19",
-        "2026-08-20"
+        "2026-08-20",
+        "2026-08-21"
       ],
       "values": [
         0.06,
@@ -10392,6 +10393,7 @@
         3.63,
         3.63,
         3.63,
+        3.63,
         3.63
       ],
       "freq": "monthly"
@@ -13307,7 +13309,8 @@
         "2026-08-17",
         "2026-08-18",
         "2026-08-19",
-        "2026-08-20"
+        "2026-08-20",
+        "2026-08-21"
       ],
       "values": [
         2.12,
@@ -16219,7 +16222,8 @@
         4.72,
         4.71,
         4.65,
-        4.69
+        4.69,
+        4.74
       ],
       "freq": "monthly"
     },
@@ -17766,7 +17770,7 @@
         "2026-05-29",
         "2026-06-30",
         "2026-07-31",
-        "2026-08-20"
+        "2026-08-21"
       ],
       "values": [
         2170.95,
@@ -17889,7 +17893,7 @@
         7580.06,
         7499.36,
         7489.72,
-        7641.16
+        7674.37
       ],
       "freq": "monthly"
     },
@@ -18034,7 +18038,7 @@
         "2026-05-29",
         "2026-06-30",
         "2026-07-31",
-        "2026-08-20"
+        "2026-08-21"
       ],
       "values": [
         4635.24,
@@ -18176,7 +18180,7 @@
         26972.62,
         26213.72,
         25373.85,
-        26067.17
+        26180.45
       ],
       "freq": "monthly"
     },
@@ -18302,7 +18306,7 @@
         "2026-05-29",
         "2026-06-30",
         "2026-07-31",
-        "2026-08-20"
+        "2026-08-21"
       ],
       "values": [
         18400.88,
@@ -18425,7 +18429,7 @@
         51032.46,
         52319.2,
         52485.03,
-        52759.21
+        53277.01
       ],
       "freq": "monthly"
     }
