@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-24T21:32:01Z",
+  "updated": "2026-08-25T21:31:12Z",
   "metrics": {
     "gdp": {
       "value": 1.5,
@@ -137,7 +137,7 @@
     },
     "ffr": {
       "value": 3.63,
-      "date": "2026-08-21",
+      "date": "2026-08-24",
       "label": "Aug 2026",
       "display": "3.63%",
       "reading": "Aug 2026: 3.63%, unchanged from 3.63% in Aug 2026 \u2014 its highest reading in 12 months.",
@@ -167,13 +167,13 @@
       ]
     },
     "ten": {
-      "value": 4.74,
-      "date": "2026-08-21",
+      "value": 4.7,
+      "date": "2026-08-24",
       "label": "Aug 2026",
-      "display": "4.74%",
-      "reading": "Aug 2026: 4.74%, up from 4.69% in Aug 2026 \u2014 its highest reading in 12 months.",
+      "display": "4.70%",
+      "reading": "Aug 2026: 4.70%, down from 4.74% in Aug 2026.",
       "change": {
-        "text": "\u2191 from 4.69%",
+        "text": "\u2193 from 4.74%",
         "sign": "flat"
       }
     },
@@ -281,47 +281,53 @@
       ]
     },
     "sp500": {
-      "value": 7674.37,
-      "date": "2026-08-21",
+      "value": 7652.86,
+      "date": "2026-08-24",
       "label": "Aug 2026",
-      "display": "7,674",
-      "reading": "Aug 2026: 7,674, up from 7,490 in Jul 2026 \u2014 its highest reading in 12 months.",
+      "display": "7,653",
+      "reading": "Aug 2026: 7,653, up from 7,490 in Jul 2026 \u2014 its highest reading in 12 months.",
       "change": {
-        "text": "\u2191 12.1% YTD",
+        "text": "\u2191 11.8% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "U.S. stocks have done great for you. Don't be greedy in this market",
-          "url": "https://www.cnbc.com/2026/08/22/stocks-market-investments-diversification.html",
+          "title": "What\u2019s likely to move the market",
+          "url": "https://www.cnbc.com/2026/08/24/tuesdays-big-stock-stories-whats-likely-to-move-the-market.html",
           "source": "CNBC",
-          "date": "2026-08-22"
-        },
-        {
-          "title": "These stocks are most overbought even as the S&P 500 posts a losing week",
-          "url": "https://www.cnbc.com/2026/08/22/these-stocks-are-most-overbought-even-as-the-sp-500-posts-a-losing-week.html",
-          "source": "CNBC",
-          "date": "2026-08-22"
-        },
-        {
-          "title": "Asian shares mostly decline as bond market pressure mounts",
-          "url": "https://www.ajc.com/news/2026/08/asian-shares-mostly-decline-as-bond-market-pressure-mounts/",
-          "source": "The Atlanta Journal-Constitution",
           "date": "2026-08-24"
+        },
+        {
+          "title": "World shares mostly gain and oil prices slip as the US raises pressure on Iran",
+          "url": "https://www.ajc.com/news/2026/08/asian-shares-mostly-gain-and-oil-prices-hold-steady-as-the-us-raises-pressure-on-iran/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-08-25"
+        },
+        {
+          "title": "Asian shares are mixed and oil prices hold steady as the US raises pressure on Iran",
+          "url": "https://www.ajc.com/news/2026/08/asian-shares-are-mixed-and-oil-prices-hold-steady-as-the-us-raises-pressure-on-iran/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-08-25"
         }
       ]
     },
     "nasdaq": {
-      "value": 26180.45,
-      "date": "2026-08-21",
+      "value": 25980.19,
+      "date": "2026-08-24",
       "label": "Aug 2026",
-      "display": "26,180",
-      "reading": "Aug 2026: 26,180, up from 25,374 in Jul 2026.",
+      "display": "25,980",
+      "reading": "Aug 2026: 25,980, up from 25,374 in Jul 2026.",
       "change": {
-        "text": "\u2191 12.6% YTD",
+        "text": "\u2191 11.8% YTD",
         "sign": "pos"
       },
       "news": [
+        {
+          "title": "Tech drags S&P 500, Nasdaq lower as Iran tensions, Nvidia earnings loom",
+          "url": "https://www.spokesman.com/stories/2026/aug/24/tech-drags-sp-500-nasdaq-lower-as-iran-tensions-nv/",
+          "source": "Spokane Spokesman-Review",
+          "date": "2026-08-24"
+        },
         {
           "title": "Stocks sold as tech weakness drags Nasdaq lower - Newsquawk US Market Wrap",
           "url": "https://www.zerohedge.com/markets/stocks-sold-tech-weakness-drags-nasdaq-lower-newsquawk-us-market-wrap",
@@ -333,26 +339,26 @@
           "url": "https://www.kiplinger.com/investing/stocks/nasdaq-sinks-as-bond-yields-pressure-tech-stocks-stock-market-today",
           "source": "Kiplinger",
           "date": "2026-08-18"
-        },
-        {
-          "title": "Stock market today: Dow, S&P 500, Nasdaq fall as chip stocks sell off, bond yields remain high",
-          "url": "https://www.europesays.com/3201459/",
-          "source": "EUROPE SAYS",
-          "date": "2026-08-18"
         }
       ]
     },
     "dow": {
-      "value": 53277.01,
-      "date": "2026-08-21",
+      "value": 53417.16,
+      "date": "2026-08-24",
       "label": "Aug 2026",
-      "display": "53,277",
-      "reading": "Aug 2026: 53,277, up from 52,485 in Jul 2026 \u2014 its highest reading in 12 months.",
+      "display": "53,417",
+      "reading": "Aug 2026: 53,417, up from 52,485 in Jul 2026 \u2014 its highest reading in 12 months.",
       "change": {
-        "text": "\u2191 10.8% YTD",
+        "text": "\u2191 11.1% YTD",
         "sign": "pos"
       },
       "news": [
+        {
+          "title": "Stocks Pressured by Weakness in Chipmakers and AI-Infrastructure Stocks",
+          "url": "https://www.barchart.com/story/news/4003161/stocks-pressured-by-weakness-in-chipmakers-and-ai-infrastructure-stocks",
+          "source": "Barchart",
+          "date": "2026-08-24"
+        },
         {
           "title": "Asian shares mostly decline as bond market pressure mounts",
           "url": "https://www.ajc.com/news/2026/08/asian-shares-mostly-decline-as-bond-market-pressure-mounts/",
@@ -363,12 +369,6 @@
           "title": "Stocks Settle Higher as Crude Oil Prices Stabilize",
           "url": "https://www.barchart.com/story/news/3976828/stocks-settle-higher-as-crude-oil-prices-stabilize",
           "source": "Barchart",
-          "date": "2026-08-21"
-        },
-        {
-          "title": "US stocks rise as the bond market's big swings ease a bit",
-          "url": "https://www.ajc.com/news/2026/08/us-stocks-rise-as-the-bond-market-steadies-a-bit/",
-          "source": "The Atlanta Journal-Constitution",
           "date": "2026-08-21"
         }
       ]
@@ -6141,7 +6141,10 @@
         "2026-08-18",
         "2026-08-19",
         "2026-08-20",
-        "2026-08-21"
+        "2026-08-21",
+        "2026-08-22",
+        "2026-08-23",
+        "2026-08-24"
       ],
       "values": [
         0.06,
@@ -10394,6 +10397,9 @@
         3.63,
         3.63,
         3.63,
+        3.63,
+        3.63,
+        3.63,
         3.63
       ],
       "freq": "monthly"
@@ -13310,7 +13316,8 @@
         "2026-08-18",
         "2026-08-19",
         "2026-08-20",
-        "2026-08-21"
+        "2026-08-21",
+        "2026-08-24"
       ],
       "values": [
         2.12,
@@ -16223,7 +16230,8 @@
         4.71,
         4.65,
         4.69,
-        4.74
+        4.74,
+        4.7
       ],
       "freq": "monthly"
     },
@@ -17770,7 +17778,7 @@
         "2026-05-29",
         "2026-06-30",
         "2026-07-31",
-        "2026-08-21"
+        "2026-08-24"
       ],
       "values": [
         2170.95,
@@ -17893,7 +17901,7 @@
         7580.06,
         7499.36,
         7489.72,
-        7674.37
+        7652.86
       ],
       "freq": "monthly"
     },
@@ -18038,7 +18046,7 @@
         "2026-05-29",
         "2026-06-30",
         "2026-07-31",
-        "2026-08-21"
+        "2026-08-24"
       ],
       "values": [
         4635.24,
@@ -18180,7 +18188,7 @@
         26972.62,
         26213.72,
         25373.85,
-        26180.45
+        25980.19
       ],
       "freq": "monthly"
     },
@@ -18306,7 +18314,7 @@
         "2026-05-29",
         "2026-06-30",
         "2026-07-31",
-        "2026-08-21"
+        "2026-08-24"
       ],
       "values": [
         18400.88,
@@ -18429,7 +18437,7 @@
         51032.46,
         52319.2,
         52485.03,
-        53277.01
+        53417.16
       ],
       "freq": "monthly"
     }
