@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-25T21:31:12Z",
+  "updated": "2026-08-27T00:32:50Z",
   "metrics": {
     "gdp": {
       "value": 1.5,
@@ -81,10 +81,10 @@
           "date": "2026-08-12"
         },
         {
-          "title": "Wall Street week ahead: Reports on consumer confidence and inflation on tap",
-          "url": "https://www.ajc.com/news/2026/08/wall-street-week-ahead-reports-on-consumer-confidence-and-inflation-on-tap/",
-          "source": "The Atlanta Journal-Constitution",
-          "date": "2026-08-22"
+          "title": "Australia's Core Inflation Tops Estimates, Bets on Another Rate Hike This Year Surge",
+          "url": "https://www.europesays.com/3215780/",
+          "source": "EUROPE SAYS",
+          "date": "2026-08-26"
         }
       ]
     },
@@ -100,16 +100,22 @@
       }
     },
     "pce": {
-      "value": 3.6681,
-      "date": "2026-06-01",
-      "label": "Jun 2026",
+      "value": 3.7012,
+      "date": "2026-07-01",
+      "label": "Jul 2026",
       "display": "+3.7%",
-      "reading": "Jun 2026: +3.7%, down from +4.1% in May 2026.",
+      "reading": "Jul 2026: +3.7%, down from +3.7% in Jun 2026.",
       "change": {
-        "text": "\u2193 from +4.1%",
+        "text": "\u2193 from +3.7%",
         "sign": "pos"
       },
       "news": [
+        {
+          "title": "S&P Futures Muted With Focus on U.S. PCE Inflation Data and Nvidia Earnings",
+          "url": "https://www.barchart.com/story/news/4087371/s-p-futures-muted-with-focus-on-u-s-pce-inflation-data-and-nvidia-earnings",
+          "source": "Barchart",
+          "date": "2026-08-26"
+        },
         {
           "title": "Wall Street week ahead: Reports on consumer confidence and inflation on tap",
           "url": "https://www.ajc.com/news/2026/08/wall-street-week-ahead-reports-on-consumer-confidence-and-inflation-on-tap/",
@@ -125,19 +131,19 @@
       ]
     },
     "corepce": {
-      "value": 3.2865,
-      "date": "2026-06-01",
-      "label": "Jun 2026",
+      "value": 3.3441,
+      "date": "2026-07-01",
+      "label": "Jul 2026",
       "display": "+3.3%",
-      "reading": "Jun 2026: +3.3%, down from +3.4% in May 2026.",
+      "reading": "Jul 2026: +3.3%, up from +3.3% in Jun 2026.",
       "change": {
-        "text": "\u2193 from +3.4%",
-        "sign": "pos"
+        "text": "\u2191 from +3.3%",
+        "sign": "neg"
       }
     },
     "ffr": {
       "value": 3.63,
-      "date": "2026-08-24",
+      "date": "2026-08-25",
       "label": "Aug 2026",
       "display": "3.63%",
       "reading": "Aug 2026: 3.63%, unchanged from 3.63% in Aug 2026 \u2014 its highest reading in 12 months.",
@@ -159,21 +165,21 @@
           "date": "2026-08-20"
         },
         {
-          "title": "'Many' Fed officials think higher rates will be needed if inflation stays high",
-          "url": "https://www.europesays.com/3211275/",
-          "source": "EUROPE SAYS",
-          "date": "2026-08-23"
+          "title": "Here\u2019s exactly how a Fed rate change hits your wallet",
+          "url": "https://abc17news.com/stacker-personal-finance-investing/2026/08/25/heres-exactly-how-a-fed-rate-change-hits-your-wallet/",
+          "source": "ABC17News.com",
+          "date": "2026-08-26"
         }
       ]
     },
     "ten": {
-      "value": 4.7,
-      "date": "2026-08-24",
+      "value": 4.64,
+      "date": "2026-08-25",
       "label": "Aug 2026",
-      "display": "4.70%",
-      "reading": "Aug 2026: 4.70%, down from 4.74% in Aug 2026.",
+      "display": "4.64%",
+      "reading": "Aug 2026: 4.64%, down from 4.70% in Aug 2026.",
       "change": {
-        "text": "\u2193 from 4.74%",
+        "text": "\u2193 from 4.70%",
         "sign": "flat"
       }
     },
@@ -281,13 +287,13 @@
       ]
     },
     "sp500": {
-      "value": 7652.86,
-      "date": "2026-08-24",
+      "value": 7675.7,
+      "date": "2026-08-26",
       "label": "Aug 2026",
-      "display": "7,653",
-      "reading": "Aug 2026: 7,653, up from 7,490 in Jul 2026 \u2014 its highest reading in 12 months.",
+      "display": "7,676",
+      "reading": "Aug 2026: 7,676, up from 7,490 in Jul 2026 \u2014 its highest reading in 12 months.",
       "change": {
-        "text": "\u2191 11.8% YTD",
+        "text": "\u2191 12.1% YTD",
         "sign": "pos"
       },
       "news": [
@@ -298,27 +304,27 @@
           "date": "2026-08-24"
         },
         {
-          "title": "World shares mostly gain and oil prices slip as the US raises pressure on Iran",
-          "url": "https://www.ajc.com/news/2026/08/asian-shares-mostly-gain-and-oil-prices-hold-steady-as-the-us-raises-pressure-on-iran/",
-          "source": "The Atlanta Journal-Constitution",
+          "title": "Stocks Settle Higher as Lower Crude Prices Ease Inflation Risks",
+          "url": "https://www.barchart.com/story/news/4031606/stocks-settle-higher-as-lower-crude-prices-ease-inflation-risks",
+          "source": "Barchart",
           "date": "2026-08-25"
         },
         {
-          "title": "Asian shares are mixed and oil prices hold steady as the US raises pressure on Iran",
-          "url": "https://www.ajc.com/news/2026/08/asian-shares-are-mixed-and-oil-prices-hold-steady-as-the-us-raises-pressure-on-iran/",
-          "source": "The Atlanta Journal-Constitution",
+          "title": "Stocks Supported by Slumping Crude Prices and Lower Bond Yields",
+          "url": "https://www.barchart.com/story/news/4025102/stocks-supported-by-slumping-crude-prices-and-lower-bond-yields",
+          "source": "Barchart",
           "date": "2026-08-25"
         }
       ]
     },
     "nasdaq": {
-      "value": 25980.19,
-      "date": "2026-08-24",
+      "value": 26151.3,
+      "date": "2026-08-25",
       "label": "Aug 2026",
-      "display": "25,980",
-      "reading": "Aug 2026: 25,980, up from 25,374 in Jul 2026.",
+      "display": "26,151",
+      "reading": "Aug 2026: 26,151, up from 25,374 in Jul 2026.",
       "change": {
-        "text": "\u2191 11.8% YTD",
+        "text": "\u2191 12.5% YTD",
         "sign": "pos"
       },
       "news": [
@@ -343,33 +349,33 @@
       ]
     },
     "dow": {
-      "value": 53417.16,
-      "date": "2026-08-24",
+      "value": 53463.88,
+      "date": "2026-08-26",
       "label": "Aug 2026",
-      "display": "53,417",
-      "reading": "Aug 2026: 53,417, up from 52,485 in Jul 2026 \u2014 its highest reading in 12 months.",
+      "display": "53,464",
+      "reading": "Aug 2026: 53,464, up from 52,485 in Jul 2026 \u2014 its highest reading in 12 months.",
       "change": {
-        "text": "\u2191 11.1% YTD",
+        "text": "\u2191 11.2% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "Stocks Pressured by Weakness in Chipmakers and AI-Infrastructure Stocks",
-          "url": "https://www.barchart.com/story/news/4003161/stocks-pressured-by-weakness-in-chipmakers-and-ai-infrastructure-stocks",
-          "source": "Barchart",
-          "date": "2026-08-24"
+          "title": "Dow Jones Futures: Stocks Rise Cautiously Into Fed Inflation Data, Nvidia Earnings; Robinhood In Buy Area",
+          "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-fed-inflation-data-nvidia-earning-srobinhood-oil-prices-yields/",
+          "source": "Investor's Business Daily",
+          "date": "2026-08-25"
         },
         {
-          "title": "Asian shares mostly decline as bond market pressure mounts",
-          "url": "https://www.ajc.com/news/2026/08/asian-shares-mostly-decline-as-bond-market-pressure-mounts/",
-          "source": "The Atlanta Journal-Constitution",
-          "date": "2026-08-24"
+          "title": "Stocks Settle Higher as Lower Crude Prices Ease Inflation Risks",
+          "url": "https://www.barchart.com/story/news/4031606/stocks-settle-higher-as-lower-crude-prices-ease-inflation-risks",
+          "source": "Barchart",
+          "date": "2026-08-25"
         },
         {
-          "title": "Stocks Settle Higher as Crude Oil Prices Stabilize",
-          "url": "https://www.barchart.com/story/news/3976828/stocks-settle-higher-as-crude-oil-prices-stabilize",
+          "title": "Stocks Supported by Slumping Crude Prices and Lower Bond Yields",
+          "url": "https://www.barchart.com/story/news/4025102/stocks-supported-by-slumping-crude-prices-and-lower-bond-yields",
           "source": "Barchart",
-          "date": "2026-08-21"
+          "date": "2026-08-25"
         }
       ]
     }
@@ -1462,7 +1468,8 @@
         "2026-03-01",
         "2026-04-01",
         "2026-05-01",
-        "2026-06-01"
+        "2026-06-01",
+        "2026-07-01"
       ],
       "values": [
         0.0414,
@@ -1600,9 +1607,10 @@
         2.8752,
         2.8732,
         3.5429,
-        3.7907,
-        4.079,
-        3.6681
+        3.8018,
+        4.1114,
+        3.717,
+        3.7012
       ],
       "freq": "monthly"
     },
@@ -1745,7 +1753,8 @@
         "2026-03-01",
         "2026-04-01",
         "2026-05-01",
-        "2026-06-01"
+        "2026-06-01",
+        "2026-07-01"
       ],
       "values": [
         1.2097,
@@ -1883,9 +1892,10 @@
         3.1047,
         3.0493,
         3.2538,
-        3.3155,
-        3.4216,
-        3.2865
+        3.3298,
+        3.4637,
+        3.3436,
+        3.3441
       ],
       "freq": "monthly"
     },
@@ -6144,7 +6154,8 @@
         "2026-08-21",
         "2026-08-22",
         "2026-08-23",
-        "2026-08-24"
+        "2026-08-24",
+        "2026-08-25"
       ],
       "values": [
         0.06,
@@ -10400,6 +10411,7 @@
         3.63,
         3.63,
         3.63,
+        3.63,
         3.63
       ],
       "freq": "monthly"
@@ -13317,7 +13329,8 @@
         "2026-08-19",
         "2026-08-20",
         "2026-08-21",
-        "2026-08-24"
+        "2026-08-24",
+        "2026-08-25"
       ],
       "values": [
         2.12,
@@ -16231,7 +16244,8 @@
         4.65,
         4.69,
         4.74,
-        4.7
+        4.7,
+        4.64
       ],
       "freq": "monthly"
     },
@@ -17778,7 +17792,7 @@
         "2026-05-29",
         "2026-06-30",
         "2026-07-31",
-        "2026-08-24"
+        "2026-08-26"
       ],
       "values": [
         2170.95,
@@ -17901,7 +17915,7 @@
         7580.06,
         7499.36,
         7489.72,
-        7652.86
+        7675.7
       ],
       "freq": "monthly"
     },
@@ -18046,7 +18060,7 @@
         "2026-05-29",
         "2026-06-30",
         "2026-07-31",
-        "2026-08-24"
+        "2026-08-25"
       ],
       "values": [
         4635.24,
@@ -18188,7 +18202,7 @@
         26972.62,
         26213.72,
         25373.85,
-        25980.19
+        26151.3
       ],
       "freq": "monthly"
     },
@@ -18314,7 +18328,7 @@
         "2026-05-29",
         "2026-06-30",
         "2026-07-31",
-        "2026-08-24"
+        "2026-08-26"
       ],
       "values": [
         18400.88,
@@ -18437,7 +18451,7 @@
         51032.46,
         52319.2,
         52485.03,
-        53417.16
+        53463.88
       ],
       "freq": "monthly"
     }
