@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-27T00:32:50Z",
+  "updated": "2026-08-28T05:09:14Z",
   "metrics": {
     "gdp": {
       "value": 1.5,
@@ -12,12 +12,6 @@
         "sign": "neg"
       },
       "news": [
-        {
-          "title": "US workers' share of GDP skids to fresh record low",
-          "url": "https://www.reuters.com/business/us-workers-share-gdp-skids-fresh-record-low-2026-08-06/",
-          "source": "Reuters",
-          "date": "2026-08-06"
-        },
         {
           "title": "Tariff refunds are juicing corporate profits and GDP, as tailwinds converge to propel growth to 4.3%",
           "url": "https://fortune.com/2026/08/15/tariff-refunds-corporate-profits-gdp-tailwinds-4-3-percent-q3/",
@@ -111,6 +105,12 @@
       },
       "news": [
         {
+          "title": "PCE Inflation Data Sets High Bar For Warsh Jackson Hole Speech (Live Coverage)",
+          "url": "https://www.investors.com/news/pce-inflation-july-federal-reserve-warsh-jackson-hole/",
+          "source": "Investor's Business Daily",
+          "date": "2026-08-26"
+        },
+        {
           "title": "S&P Futures Muted With Focus on U.S. PCE Inflation Data and Nvidia Earnings",
           "url": "https://www.barchart.com/story/news/4087371/s-p-futures-muted-with-focus-on-u-s-pce-inflation-data-and-nvidia-earnings",
           "source": "Barchart",
@@ -121,12 +121,6 @@
           "url": "https://www.ajc.com/news/2026/08/wall-street-week-ahead-reports-on-consumer-confidence-and-inflation-on-tap/",
           "source": "The Atlanta Journal-Constitution",
           "date": "2026-08-22"
-        },
-        {
-          "title": "Beth Hammack says multiple rate hikes needed to fight US inflation",
-          "url": "https://www.foxbusiness.com/economy/feds-hammack-says-multiple-rate-hikes-may-needed-tame-inflation",
-          "source": "Fox Business",
-          "date": "2026-08-11"
         }
       ]
     },
@@ -143,7 +137,7 @@
     },
     "ffr": {
       "value": 3.63,
-      "date": "2026-08-25",
+      "date": "2026-08-26",
       "label": "Aug 2026",
       "display": "3.63%",
       "reading": "Aug 2026: 3.63%, unchanged from 3.63% in Aug 2026 \u2014 its highest reading in 12 months.",
@@ -152,6 +146,12 @@
         "sign": "flat"
       },
       "news": [
+        {
+          "title": "Key Inflation Gauge Unchanged In July-Here\u2019s Why Interest Rate Hikes Are Likely",
+          "url": "https://www.forbes.com/sites/tylerroush/2026/08/26/feds-preferred-inflation-meter-unchanged-in-july-heres-why-interest-rates-hikes-are-now-more-likely/",
+          "source": "Forbes",
+          "date": "2026-08-26"
+        },
         {
           "title": "America In Focus: Fed officials eye higher rates; unemployment claims fall",
           "url": "https://apnews.com/article/inflation-economy-trump-iran-unemployment-76fdb13084501823927c98cb65bf56d6",
@@ -163,23 +163,17 @@
           "url": "https://www.reuters.com/commentary/reuters-open-interest/fed-minutes-show-september-rate-hike-still-table-2026-08-20/",
           "source": "Reuters",
           "date": "2026-08-20"
-        },
-        {
-          "title": "Here\u2019s exactly how a Fed rate change hits your wallet",
-          "url": "https://abc17news.com/stacker-personal-finance-investing/2026/08/25/heres-exactly-how-a-fed-rate-change-hits-your-wallet/",
-          "source": "ABC17News.com",
-          "date": "2026-08-26"
         }
       ]
     },
     "ten": {
-      "value": 4.64,
-      "date": "2026-08-25",
+      "value": 4.66,
+      "date": "2026-08-26",
       "label": "Aug 2026",
-      "display": "4.64%",
-      "reading": "Aug 2026: 4.64%, down from 4.70% in Aug 2026.",
+      "display": "4.66%",
+      "reading": "Aug 2026: 4.66%, up from 4.64% in Aug 2026.",
       "change": {
-        "text": "\u2193 from 4.70%",
+        "text": "\u2191 from 4.64%",
         "sign": "flat"
       }
     },
@@ -287,47 +281,53 @@
       ]
     },
     "sp500": {
-      "value": 7675.7,
-      "date": "2026-08-26",
+      "value": 7730.99,
+      "date": "2026-08-27",
       "label": "Aug 2026",
-      "display": "7,676",
-      "reading": "Aug 2026: 7,676, up from 7,490 in Jul 2026 \u2014 its highest reading in 12 months.",
+      "display": "7,731",
+      "reading": "Aug 2026: 7,731, up from 7,490 in Jul 2026 \u2014 its highest reading in 12 months.",
       "change": {
-        "text": "\u2191 12.1% YTD",
+        "text": "\u2191 12.9% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "What\u2019s likely to move the market",
-          "url": "https://www.cnbc.com/2026/08/24/tuesdays-big-stock-stories-whats-likely-to-move-the-market.html",
-          "source": "CNBC",
-          "date": "2026-08-24"
+          "title": "Stocks Supported by Strong Tech Earnings",
+          "url": "https://www.barchart.com/story/news/4219932/stocks-supported-by-strong-tech-earnings",
+          "source": "Barchart",
+          "date": "2026-08-27"
         },
         {
-          "title": "Stocks Settle Higher as Lower Crude Prices Ease Inflation Risks",
-          "url": "https://www.barchart.com/story/news/4031606/stocks-settle-higher-as-lower-crude-prices-ease-inflation-risks",
+          "title": "Stocks Rally as Nvidia Earnings Boost AI Optimism",
+          "url": "https://www.barchart.com/story/news/4213267/stocks-rally-as-nvidia-earnings-boost-ai-optimism",
           "source": "Barchart",
-          "date": "2026-08-25"
+          "date": "2026-08-27"
         },
         {
-          "title": "Stocks Supported by Slumping Crude Prices and Lower Bond Yields",
-          "url": "https://www.barchart.com/story/news/4025102/stocks-supported-by-slumping-crude-prices-and-lower-bond-yields",
+          "title": "Stocks Finish Little Changed Ahead of Nvidia Earnings",
+          "url": "https://www.barchart.com/story/news/4137828/stocks-finish-little-changed-ahead-of-nvidia-earnings",
           "source": "Barchart",
-          "date": "2026-08-25"
+          "date": "2026-08-26"
         }
       ]
     },
     "nasdaq": {
-      "value": 26151.3,
-      "date": "2026-08-25",
+      "value": 26541.35,
+      "date": "2026-08-27",
       "label": "Aug 2026",
-      "display": "26,151",
-      "reading": "Aug 2026: 26,151, up from 25,374 in Jul 2026.",
+      "display": "26,541",
+      "reading": "Aug 2026: 26,541, up from 25,374 in Jul 2026.",
       "change": {
-        "text": "\u2191 12.5% YTD",
+        "text": "\u2191 14.2% YTD",
         "sign": "pos"
       },
       "news": [
+        {
+          "title": "Stocks Supported by Strong Tech Earnings",
+          "url": "https://www.barchart.com/story/news/4219932/stocks-supported-by-strong-tech-earnings",
+          "source": "Barchart",
+          "date": "2026-08-27"
+        },
         {
           "title": "Tech drags S&P 500, Nasdaq lower as Iran tensions, Nvidia earnings loom",
           "url": "https://www.spokesman.com/stories/2026/aug/24/tech-drags-sp-500-nasdaq-lower-as-iran-tensions-nv/",
@@ -339,43 +339,37 @@
           "url": "https://www.zerohedge.com/markets/stocks-sold-tech-weakness-drags-nasdaq-lower-newsquawk-us-market-wrap",
           "source": "ZeroHedge",
           "date": "2026-08-18"
-        },
-        {
-          "title": "Nasdaq Sinks as Bond Yields Pressure Tech: Stock Market Today",
-          "url": "https://www.kiplinger.com/investing/stocks/nasdaq-sinks-as-bond-yields-pressure-tech-stocks-stock-market-today",
-          "source": "Kiplinger",
-          "date": "2026-08-18"
         }
       ]
     },
     "dow": {
-      "value": 53463.88,
-      "date": "2026-08-26",
+      "value": 53569.44,
+      "date": "2026-08-27",
       "label": "Aug 2026",
-      "display": "53,464",
-      "reading": "Aug 2026: 53,464, up from 52,485 in Jul 2026 \u2014 its highest reading in 12 months.",
+      "display": "53,569",
+      "reading": "Aug 2026: 53,569, up from 52,485 in Jul 2026 \u2014 its highest reading in 12 months.",
       "change": {
-        "text": "\u2191 11.2% YTD",
+        "text": "\u2191 11.5% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "Dow Jones Futures: Stocks Rise Cautiously Into Fed Inflation Data, Nvidia Earnings; Robinhood In Buy Area",
-          "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-fed-inflation-data-nvidia-earning-srobinhood-oil-prices-yields/",
-          "source": "Investor's Business Daily",
-          "date": "2026-08-25"
+          "title": "Stocks Supported by Strong Tech Earnings",
+          "url": "https://www.barchart.com/story/news/4219932/stocks-supported-by-strong-tech-earnings",
+          "source": "Barchart",
+          "date": "2026-08-27"
         },
         {
-          "title": "Stocks Settle Higher as Lower Crude Prices Ease Inflation Risks",
-          "url": "https://www.barchart.com/story/news/4031606/stocks-settle-higher-as-lower-crude-prices-ease-inflation-risks",
+          "title": "Stocks Rally as Nvidia Earnings Boost AI Optimism",
+          "url": "https://www.barchart.com/story/news/4213267/stocks-rally-as-nvidia-earnings-boost-ai-optimism",
           "source": "Barchart",
-          "date": "2026-08-25"
+          "date": "2026-08-27"
         },
         {
-          "title": "Stocks Supported by Slumping Crude Prices and Lower Bond Yields",
-          "url": "https://www.barchart.com/story/news/4025102/stocks-supported-by-slumping-crude-prices-and-lower-bond-yields",
+          "title": "Stocks Finish Little Changed Ahead of Nvidia Earnings",
+          "url": "https://www.barchart.com/story/news/4137828/stocks-finish-little-changed-ahead-of-nvidia-earnings",
           "source": "Barchart",
-          "date": "2026-08-25"
+          "date": "2026-08-26"
         }
       ]
     }
@@ -6155,7 +6149,8 @@
         "2026-08-22",
         "2026-08-23",
         "2026-08-24",
-        "2026-08-25"
+        "2026-08-25",
+        "2026-08-26"
       ],
       "values": [
         0.06,
@@ -10412,6 +10407,7 @@
         3.63,
         3.63,
         3.63,
+        3.63,
         3.63
       ],
       "freq": "monthly"
@@ -13330,7 +13326,8 @@
         "2026-08-20",
         "2026-08-21",
         "2026-08-24",
-        "2026-08-25"
+        "2026-08-25",
+        "2026-08-26"
       ],
       "values": [
         2.12,
@@ -16245,7 +16242,8 @@
         4.69,
         4.74,
         4.7,
-        4.64
+        4.64,
+        4.66
       ],
       "freq": "monthly"
     },
@@ -17792,7 +17790,7 @@
         "2026-05-29",
         "2026-06-30",
         "2026-07-31",
-        "2026-08-26"
+        "2026-08-27"
       ],
       "values": [
         2170.95,
@@ -17915,7 +17913,7 @@
         7580.06,
         7499.36,
         7489.72,
-        7675.7
+        7730.99
       ],
       "freq": "monthly"
     },
@@ -18060,7 +18058,7 @@
         "2026-05-29",
         "2026-06-30",
         "2026-07-31",
-        "2026-08-25"
+        "2026-08-27"
       ],
       "values": [
         4635.24,
@@ -18202,7 +18200,7 @@
         26972.62,
         26213.72,
         25373.85,
-        26151.3
+        26541.35
       ],
       "freq": "monthly"
     },
@@ -18328,7 +18326,7 @@
         "2026-05-29",
         "2026-06-30",
         "2026-07-31",
-        "2026-08-26"
+        "2026-08-27"
       ],
       "values": [
         18400.88,
@@ -18451,7 +18449,7 @@
         51032.46,
         52319.2,
         52485.03,
-        53463.88
+        53569.44
       ],
       "freq": "monthly"
     }
