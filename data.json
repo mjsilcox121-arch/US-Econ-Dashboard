@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-28T05:09:14Z",
+  "updated": "2026-08-29T03:06:22Z",
   "metrics": {
     "gdp": {
       "value": 1.5,
@@ -31,12 +31,6 @@
         "sign": "pos"
       },
       "news": [
-        {
-          "title": "US employers unexpectedly cut 23,000 jobs amid strain from the Iran war, unemployment dips to 4.1%",
-          "url": "https://www.shawlocal.com/news/2026/08/07/us-employers-unexpectedly-cut-23000-jobs-amid-strain-from-the-iran-war-unemployment-dips-to-41/",
-          "source": "Shaw Local Enewspapers",
-          "date": "2026-08-07"
-        },
         {
           "title": "US unemployment claims rise but remain at healthy level",
           "url": "https://www.ajc.com/news/2026/08/us-unemployment-claims-rise-but-remain-at-healthy-level/",
@@ -137,7 +131,7 @@
     },
     "ffr": {
       "value": 3.63,
-      "date": "2026-08-26",
+      "date": "2026-08-27",
       "label": "Aug 2026",
       "display": "3.63%",
       "reading": "Aug 2026: 3.63%, unchanged from 3.63% in Aug 2026 \u2014 its highest reading in 12 months.",
@@ -147,33 +141,33 @@
       },
       "news": [
         {
-          "title": "Key Inflation Gauge Unchanged In July-Here\u2019s Why Interest Rate Hikes Are Likely",
-          "url": "https://www.forbes.com/sites/tylerroush/2026/08/26/feds-preferred-inflation-meter-unchanged-in-july-heres-why-interest-rates-hikes-are-now-more-likely/",
-          "source": "Forbes",
-          "date": "2026-08-26"
+          "title": "Fed Chair Warsh signals rate hikes may be needed with inflation high",
+          "url": "https://www.bostonherald.com/2026/08/28/fed-chair-warsh-rate-hikes-inflation/",
+          "source": "The Boston Herald",
+          "date": "2026-08-28"
         },
         {
-          "title": "America In Focus: Fed officials eye higher rates; unemployment claims fall",
-          "url": "https://apnews.com/article/inflation-economy-trump-iran-unemployment-76fdb13084501823927c98cb65bf56d6",
-          "source": "The Associated Press",
-          "date": "2026-08-22"
+          "title": "Fed Chair Warsh signals rate hikes may be needed with inflation high",
+          "url": "https://www.pilotonline.com/2026/08/28/fed-chair-warsh-rate-hikes-inflation/",
+          "source": "Norfolk Virginian-Pilot",
+          "date": "2026-08-28"
         },
         {
-          "title": "Fed minutes show September rate hike still on the table",
-          "url": "https://www.reuters.com/commentary/reuters-open-interest/fed-minutes-show-september-rate-hike-still-table-2026-08-20/",
-          "source": "Reuters",
-          "date": "2026-08-20"
+          "title": "Fed Chair Warsh signals rate hikes may be needed with inflation high",
+          "url": "https://www.readingeagle.com/2026/08/28/fed-chair-warsh-rate-hikes-inflation/",
+          "source": "Reading Eagle",
+          "date": "2026-08-28"
         }
       ]
     },
     "ten": {
-      "value": 4.66,
-      "date": "2026-08-26",
+      "value": 4.67,
+      "date": "2026-08-27",
       "label": "Aug 2026",
-      "display": "4.66%",
-      "reading": "Aug 2026: 4.66%, up from 4.64% in Aug 2026.",
+      "display": "4.67%",
+      "reading": "Aug 2026: 4.67%, up from 4.66% in Aug 2026.",
       "change": {
-        "text": "\u2191 from 4.64%",
+        "text": "\u2191 from 4.66%",
         "sign": "flat"
       }
     },
@@ -186,27 +180,7 @@
       "change": {
         "text": "\u2193 from +20K",
         "sign": "neg"
-      },
-      "news": [
-        {
-          "title": "Here are three key takeaways from the disappointing July jobs report",
-          "url": "https://www.cnbc.com/2026/08/07/here-are-three-key-takeaways-from-the-disappointing-july-jobs-report.html",
-          "source": "CNBC",
-          "date": "2026-08-07"
-        },
-        {
-          "title": "VIEW Soft July jobs report fuels skepticism over possible Fed rate hike",
-          "url": "https://www.reuters.com/business/view-soft-july-jobs-report-fuels-skepticism-over-possible-fed-rate-hike-2026-08-07/",
-          "source": "Reuters",
-          "date": "2026-08-07"
-        },
-        {
-          "title": "Jobs report July 2026:",
-          "url": "https://www.cnbc.com/2026/08/07/jobs-report-july-2026.html",
-          "source": "CNBC",
-          "date": "2026-08-07"
-        }
-      ]
+      }
     },
     "retail": {
       "value": -0.582,
@@ -262,13 +236,13 @@
       }
     },
     "sent": {
-      "value": 49.5,
-      "date": "2026-06-01",
-      "label": "Jun 2026",
-      "display": "49.5",
-      "reading": "Jun 2026: 49.5, up from 44.8 in May 2026.",
+      "value": 55.2,
+      "date": "2026-07-01",
+      "label": "Jul 2026",
+      "display": "55.2",
+      "reading": "Jul 2026: 55.2, up from 49.5 in Jun 2026.",
       "change": {
-        "text": "\u2191 from 44.8",
+        "text": "\u2191 from 49.5",
         "sign": "pos"
       },
       "news": [
@@ -281,33 +255,33 @@
       ]
     },
     "sp500": {
-      "value": 7730.99,
-      "date": "2026-08-27",
+      "value": 7711.76,
+      "date": "2026-08-28",
       "label": "Aug 2026",
-      "display": "7,731",
-      "reading": "Aug 2026: 7,731, up from 7,490 in Jul 2026 \u2014 its highest reading in 12 months.",
+      "display": "7,712",
+      "reading": "Aug 2026: 7,712, up from 7,490 in Jul 2026 \u2014 its highest reading in 12 months.",
       "change": {
-        "text": "\u2191 12.9% YTD",
+        "text": "\u2191 12.7% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "Stocks Supported by Strong Tech Earnings",
-          "url": "https://www.barchart.com/story/news/4219932/stocks-supported-by-strong-tech-earnings",
-          "source": "Barchart",
-          "date": "2026-08-27"
+          "title": "Can foreign markets continue to beat S&P 500? A weak dollar will help",
+          "url": "https://www.cnbc.com/2026/08/28/markets-us-dollar-stocks.html",
+          "source": "CNBC",
+          "date": "2026-08-28"
         },
         {
-          "title": "Stocks Rally as Nvidia Earnings Boost AI Optimism",
-          "url": "https://www.barchart.com/story/news/4213267/stocks-rally-as-nvidia-earnings-boost-ai-optimism",
+          "title": "Stocks Mixed Ahead of Fed Chair Powell",
+          "url": "https://www.barchart.com/story/news/4319955/stocks-mixed-ahead-of-fed-chair-powell",
           "source": "Barchart",
-          "date": "2026-08-27"
+          "date": "2026-08-28"
         },
         {
-          "title": "Stocks Finish Little Changed Ahead of Nvidia Earnings",
-          "url": "https://www.barchart.com/story/news/4137828/stocks-finish-little-changed-ahead-of-nvidia-earnings",
-          "source": "Barchart",
-          "date": "2026-08-26"
+          "title": "Asian shares mostly gain after upbeat results for Nvidia and others lift US stocks",
+          "url": "https://www.ajc.com/news/2026/08/asian-shares-mostly-gain-after-upbeat-results-for-nvidia-and-others-lift-us-stocks/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-08-28"
         }
       ]
     },
@@ -343,33 +317,33 @@
       ]
     },
     "dow": {
-      "value": 53569.44,
-      "date": "2026-08-27",
+      "value": 53559.99,
+      "date": "2026-08-28",
       "label": "Aug 2026",
-      "display": "53,569",
-      "reading": "Aug 2026: 53,569, up from 52,485 in Jul 2026 \u2014 its highest reading in 12 months.",
+      "display": "53,560",
+      "reading": "Aug 2026: 53,560, up from 52,485 in Jul 2026 \u2014 its highest reading in 12 months.",
       "change": {
-        "text": "\u2191 11.5% YTD",
+        "text": "\u2191 11.4% YTD",
         "sign": "pos"
       },
       "news": [
+        {
+          "title": "Stocks Mixed Ahead of Fed Chair Powell",
+          "url": "https://www.barchart.com/story/news/4319955/stocks-mixed-ahead-of-fed-chair-powell",
+          "source": "Barchart",
+          "date": "2026-08-28"
+        },
+        {
+          "title": "Dow Jones Futures: Market Rallies Into Fed Chief Warsh; Nvidia Jumps, But Software Sector Is On Fire",
+          "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-fed-chief-warsh-speech-nvidia-jumps-software-sector-on-fire/",
+          "source": "Investor's Business Daily",
+          "date": "2026-08-27"
+        },
         {
           "title": "Stocks Supported by Strong Tech Earnings",
           "url": "https://www.barchart.com/story/news/4219932/stocks-supported-by-strong-tech-earnings",
           "source": "Barchart",
           "date": "2026-08-27"
-        },
-        {
-          "title": "Stocks Rally as Nvidia Earnings Boost AI Optimism",
-          "url": "https://www.barchart.com/story/news/4213267/stocks-rally-as-nvidia-earnings-boost-ai-optimism",
-          "source": "Barchart",
-          "date": "2026-08-27"
-        },
-        {
-          "title": "Stocks Finish Little Changed Ahead of Nvidia Earnings",
-          "url": "https://www.barchart.com/story/news/4137828/stocks-finish-little-changed-ahead-of-nvidia-earnings",
-          "source": "Barchart",
-          "date": "2026-08-26"
         }
       ]
     }
@@ -6150,7 +6124,8 @@
         "2026-08-23",
         "2026-08-24",
         "2026-08-25",
-        "2026-08-26"
+        "2026-08-26",
+        "2026-08-27"
       ],
       "values": [
         0.06,
@@ -10408,6 +10383,7 @@
         3.63,
         3.63,
         3.63,
+        3.63,
         3.63
       ],
       "freq": "monthly"
@@ -13327,7 +13303,8 @@
         "2026-08-21",
         "2026-08-24",
         "2026-08-25",
-        "2026-08-26"
+        "2026-08-26",
+        "2026-08-27"
       ],
       "values": [
         2.12,
@@ -16243,7 +16220,8 @@
         4.74,
         4.7,
         4.64,
-        4.66
+        4.66,
+        4.67
       ],
       "freq": "monthly"
     },
@@ -17524,7 +17502,8 @@
         "2026-03-01",
         "2026-04-01",
         "2026-05-01",
-        "2026-06-01"
+        "2026-06-01",
+        "2026-07-01"
       ],
       "values": [
         98.1,
@@ -17664,7 +17643,8 @@
         53.3,
         49.8,
         44.8,
-        49.5
+        49.5,
+        55.2
       ],
       "freq": "monthly"
     },
@@ -17790,7 +17770,7 @@
         "2026-05-29",
         "2026-06-30",
         "2026-07-31",
-        "2026-08-27"
+        "2026-08-28"
       ],
       "values": [
         2170.95,
@@ -17913,7 +17893,7 @@
         7580.06,
         7499.36,
         7489.72,
-        7730.99
+        7711.76
       ],
       "freq": "monthly"
     },
@@ -18326,7 +18306,7 @@
         "2026-05-29",
         "2026-06-30",
         "2026-07-31",
-        "2026-08-27"
+        "2026-08-28"
       ],
       "values": [
         18400.88,
@@ -18449,7 +18429,7 @@
         51032.46,
         52319.2,
         52485.03,
-        53569.44
+        53559.99
       ],
       "freq": "monthly"
     }
