@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-29T03:06:22Z",
+  "updated": "2026-09-01T00:26:46Z",
   "metrics": {
     "gdp": {
       "value": 1.5,
@@ -36,12 +36,6 @@
           "url": "https://www.ajc.com/news/2026/08/us-unemployment-claims-rise-but-remain-at-healthy-level/",
           "source": "The Atlanta Journal-Constitution",
           "date": "2026-08-13"
-        },
-        {
-          "title": "US employers unexpectedly shed jobs; unemployment rate falls",
-          "url": "https://www.courant.com/2026/08/08/us-employers-unexpectedly-shed-jobs-unemployment-rate-falls-2/",
-          "source": "Hartford Courant",
-          "date": "2026-08-08"
         }
       ]
     },
@@ -99,6 +93,12 @@
       },
       "news": [
         {
+          "title": "Kevin Warsh outlines hawkish PCE inflation stance at Jackson Hole",
+          "url": "https://www.foxbusiness.com/economy/what-warshs-jackson-hole-speech-signals-about-where-interest-rates-headed",
+          "source": "Fox Business",
+          "date": "2026-08-28"
+        },
+        {
           "title": "PCE Inflation Data Sets High Bar For Warsh Jackson Hole Speech (Live Coverage)",
           "url": "https://www.investors.com/news/pce-inflation-july-federal-reserve-warsh-jackson-hole/",
           "source": "Investor's Business Daily",
@@ -109,12 +109,6 @@
           "url": "https://www.barchart.com/story/news/4087371/s-p-futures-muted-with-focus-on-u-s-pce-inflation-data-and-nvidia-earnings",
           "source": "Barchart",
           "date": "2026-08-26"
-        },
-        {
-          "title": "Wall Street week ahead: Reports on consumer confidence and inflation on tap",
-          "url": "https://www.ajc.com/news/2026/08/wall-street-week-ahead-reports-on-consumer-confidence-and-inflation-on-tap/",
-          "source": "The Atlanta Journal-Constitution",
-          "date": "2026-08-22"
         }
       ]
     },
@@ -131,7 +125,7 @@
     },
     "ffr": {
       "value": 3.63,
-      "date": "2026-08-27",
+      "date": "2026-08-28",
       "label": "Aug 2026",
       "display": "3.63%",
       "reading": "Aug 2026: 3.63%, unchanged from 3.63% in Aug 2026 \u2014 its highest reading in 12 months.",
@@ -141,33 +135,33 @@
       },
       "news": [
         {
-          "title": "Fed Chair Warsh signals rate hikes may be needed with inflation high",
-          "url": "https://www.bostonherald.com/2026/08/28/fed-chair-warsh-rate-hikes-inflation/",
-          "source": "The Boston Herald",
+          "title": "The Week That Was, The Week Ahead: Macro and Markets, August 30",
+          "url": "https://markets.businessinsider.com/news/stocks/the-week-that-was-the-week-ahead-macro-and-markets-august-30-1036505004",
+          "source": "Markets Insider",
+          "date": "2026-08-30"
+        },
+        {
+          "title": "Fed Chair Warsh not ruling out interest rate hike amid inflation concerns",
+          "url": "https://www.pbs.org/newshour/show/fed-chair-warsh-not-ruling-out-interest-rate-hike-amid-inflation-concerns",
+          "source": "PBS News",
           "date": "2026-08-28"
         },
         {
-          "title": "Fed Chair Warsh signals rate hikes may be needed with inflation high",
-          "url": "https://www.pilotonline.com/2026/08/28/fed-chair-warsh-rate-hikes-inflation/",
-          "source": "Norfolk Virginian-Pilot",
-          "date": "2026-08-28"
-        },
-        {
-          "title": "Fed Chair Warsh signals rate hikes may be needed with inflation high",
-          "url": "https://www.readingeagle.com/2026/08/28/fed-chair-warsh-rate-hikes-inflation/",
-          "source": "Reading Eagle",
+          "title": "Bond market prepares for interest rate hike while stocks drift lower",
+          "url": "https://www.latimes.com/business/story/2026-08-28/bond-market-prepares-for-hike-in-interest-rates-while-stocks-drift-lower",
+          "source": "Los Angeles Times",
           "date": "2026-08-28"
         }
       ]
     },
     "ten": {
-      "value": 4.67,
-      "date": "2026-08-27",
+      "value": 4.73,
+      "date": "2026-08-28",
       "label": "Aug 2026",
-      "display": "4.67%",
-      "reading": "Aug 2026: 4.67%, up from 4.66% in Aug 2026.",
+      "display": "4.73%",
+      "reading": "Aug 2026: 4.73%, up from 4.67% in Aug 2026.",
       "change": {
-        "text": "\u2191 from 4.66%",
+        "text": "\u2191 from 4.67%",
         "sign": "flat"
       }
     },
@@ -248,6 +242,18 @@
       "news": [
         {
           "title": "Consumer Sentiment Falls In August",
+          "url": "https://seekingalpha.com/article/4941405-consumer-sentiment-falls-in-august",
+          "source": "Seeking Alpha",
+          "date": "2026-08-29"
+        },
+        {
+          "title": "Consumer Sentiment Drops Sharply In August. It's More Than 10 Points Lower Than 2025.",
+          "url": "https://www.ibtimes.com/consumer-sentiment-drops-sharply-august-its-more-10-points-lower-2025-3806911",
+          "source": "International Business Times",
+          "date": "2026-08-28"
+        },
+        {
+          "title": "Consumer Sentiment Falls In August",
           "url": "https://seekingalpha.com/article/4937507-consumer-sentiment-falls-in-august",
           "source": "Seeking Alpha",
           "date": "2026-08-18"
@@ -255,13 +261,13 @@
       ]
     },
     "sp500": {
-      "value": 7711.76,
-      "date": "2026-08-28",
+      "value": 7686.14,
+      "date": "2026-08-31",
       "label": "Aug 2026",
-      "display": "7,712",
-      "reading": "Aug 2026: 7,712, up from 7,490 in Jul 2026 \u2014 its highest reading in 12 months.",
+      "display": "7,686",
+      "reading": "Aug 2026: 7,686, up from 7,490 in Jul 2026 \u2014 its highest reading in 12 months.",
       "change": {
-        "text": "\u2191 12.7% YTD",
+        "text": "\u2191 12.3% YTD",
         "sign": "pos"
       },
       "news": [
@@ -272,27 +278,27 @@
           "date": "2026-08-28"
         },
         {
-          "title": "Stocks Mixed Ahead of Fed Chair Powell",
-          "url": "https://www.barchart.com/story/news/4319955/stocks-mixed-ahead-of-fed-chair-powell",
-          "source": "Barchart",
-          "date": "2026-08-28"
+          "title": "8 Stocks Turn $100,000 Into $12.7 Million In 8 Months",
+          "url": "https://www.investors.com/etfs-and-funds/sectors/sp500-stocks-turn-100000-into-12-7-million-in-8-months/",
+          "source": "Investor's Business Daily",
+          "date": "2026-08-31"
         },
         {
-          "title": "Asian shares mostly gain after upbeat results for Nvidia and others lift US stocks",
-          "url": "https://www.ajc.com/news/2026/08/asian-shares-mostly-gain-after-upbeat-results-for-nvidia-and-others-lift-us-stocks/",
-          "source": "The Atlanta Journal-Constitution",
-          "date": "2026-08-28"
+          "title": "Stocks Set to Open Lower as Oil Prices Climb on U.S.-Iran Escalation, Jobs Data Awaited",
+          "url": "https://www.barchart.com/story/news/4351233/stocks-set-to-open-lower-as-oil-prices-climb-on-u-s-iran-escalation-jobs-data-awaited",
+          "source": "Barchart",
+          "date": "2026-08-31"
         }
       ]
     },
     "nasdaq": {
-      "value": 26541.35,
-      "date": "2026-08-27",
+      "value": 26402.42,
+      "date": "2026-08-28",
       "label": "Aug 2026",
-      "display": "26,541",
-      "reading": "Aug 2026: 26,541, up from 25,374 in Jul 2026.",
+      "display": "26,402",
+      "reading": "Aug 2026: 26,402, up from 25,374 in Jul 2026.",
       "change": {
-        "text": "\u2191 14.2% YTD",
+        "text": "\u2191 13.6% YTD",
         "sign": "pos"
       },
       "news": [
@@ -317,33 +323,33 @@
       ]
     },
     "dow": {
-      "value": 53559.99,
-      "date": "2026-08-28",
+      "value": 53185.9,
+      "date": "2026-08-31",
       "label": "Aug 2026",
-      "display": "53,560",
-      "reading": "Aug 2026: 53,560, up from 52,485 in Jul 2026 \u2014 its highest reading in 12 months.",
+      "display": "53,186",
+      "reading": "Aug 2026: 53,186, up from 52,485 in Jul 2026 \u2014 its highest reading in 12 months.",
       "change": {
-        "text": "\u2191 11.4% YTD",
+        "text": "\u2191 10.7% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "Stocks Mixed Ahead of Fed Chair Powell",
-          "url": "https://www.barchart.com/story/news/4319955/stocks-mixed-ahead-of-fed-chair-powell",
+          "title": "Stocks Fall as Hawkish Warsh Boosts Fed Rate Hike Chances",
+          "url": "https://www.barchart.com/story/news/4327953/stocks-fall-as-hawkish-warsh-boosts-fed-rate-hike-chances",
           "source": "Barchart",
           "date": "2026-08-28"
         },
         {
-          "title": "Dow Jones Futures: Market Rallies Into Fed Chief Warsh; Nvidia Jumps, But Software Sector Is On Fire",
-          "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-fed-chief-warsh-speech-nvidia-jumps-software-sector-on-fire/",
-          "source": "Investor's Business Daily",
-          "date": "2026-08-27"
+          "title": "The bond market prepares for a hike to interest rates, while US stocks drift lower",
+          "url": "https://www.ajc.com/news/2026/08/the-bond-market-prepares-for-a-hike-to-interest-rates-while-us-stocks-drift-lower/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-08-28"
         },
         {
-          "title": "Stocks Supported by Strong Tech Earnings",
-          "url": "https://www.barchart.com/story/news/4219932/stocks-supported-by-strong-tech-earnings",
+          "title": "Stocks Rally as Fed Chair Warsh Vows to Tackle Inflation",
+          "url": "https://www.barchart.com/story/news/4322905/stocks-rally-as-fed-chair-warsh-vows-to-tackle-inflation",
           "source": "Barchart",
-          "date": "2026-08-27"
+          "date": "2026-08-28"
         }
       ]
     }
@@ -6125,7 +6131,8 @@
         "2026-08-24",
         "2026-08-25",
         "2026-08-26",
-        "2026-08-27"
+        "2026-08-27",
+        "2026-08-28"
       ],
       "values": [
         0.06,
@@ -10384,6 +10391,7 @@
         3.63,
         3.63,
         3.63,
+        3.63,
         3.63
       ],
       "freq": "monthly"
@@ -13304,7 +13312,8 @@
         "2026-08-24",
         "2026-08-25",
         "2026-08-26",
-        "2026-08-27"
+        "2026-08-27",
+        "2026-08-28"
       ],
       "values": [
         2.12,
@@ -16221,7 +16230,8 @@
         4.7,
         4.64,
         4.66,
-        4.67
+        4.67,
+        4.73
       ],
       "freq": "monthly"
     },
@@ -17650,7 +17660,6 @@
     },
     "sp500": {
       "dates": [
-        "2016-08-31",
         "2016-09-30",
         "2016-10-31",
         "2016-11-30",
@@ -17770,10 +17779,9 @@
         "2026-05-29",
         "2026-06-30",
         "2026-07-31",
-        "2026-08-28"
+        "2026-08-31"
       ],
       "values": [
-        2170.95,
         2168.27,
         2126.15,
         2198.81,
@@ -17893,7 +17901,7 @@
         7580.06,
         7499.36,
         7489.72,
-        7711.76
+        7686.14
       ],
       "freq": "monthly"
     },
@@ -18038,7 +18046,7 @@
         "2026-05-29",
         "2026-06-30",
         "2026-07-31",
-        "2026-08-27"
+        "2026-08-28"
       ],
       "values": [
         4635.24,
@@ -18180,13 +18188,12 @@
         26972.62,
         26213.72,
         25373.85,
-        26541.35
+        26402.42
       ],
       "freq": "monthly"
     },
     "dow": {
       "dates": [
-        "2016-08-31",
         "2016-09-30",
         "2016-10-31",
         "2016-11-30",
@@ -18306,10 +18313,9 @@
         "2026-05-29",
         "2026-06-30",
         "2026-07-31",
-        "2026-08-28"
+        "2026-08-31"
       ],
       "values": [
-        18400.88,
         18308.15,
         18142.42,
         19123.58,
@@ -18429,7 +18435,7 @@
         51032.46,
         52319.2,
         52485.03,
-        53559.99
+        53185.9
       ],
       "freq": "monthly"
     }
