@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-01T00:26:46Z",
+  "updated": "2026-09-01T23:07:43Z",
   "metrics": {
     "gdp": {
       "value": 1.5,
@@ -125,7 +125,7 @@
     },
     "ffr": {
       "value": 3.63,
-      "date": "2026-08-28",
+      "date": "2026-08-31",
       "label": "Aug 2026",
       "display": "3.63%",
       "reading": "Aug 2026: 3.63%, unchanged from 3.63% in Aug 2026 \u2014 its highest reading in 12 months.",
@@ -135,33 +135,33 @@
       },
       "news": [
         {
+          "title": "Stock Index Futures Slip as Bond Yields Surge, U.S. JOLTS Report in Focus",
+          "url": "https://www.barchart.com/story/news/4370831/stock-index-futures-slip-as-bond-yields-surge-u-s-jolts-report-in-focus",
+          "source": "Barchart",
+          "date": "2026-09-01"
+        },
+        {
+          "title": "WATCH: Trump says Fed Chair Warsh will 'do what he has to do' on possible rate hikes",
+          "url": "https://www.pbs.org/newshour/politics/watch-trump-says-fed-chair-warsh-will-do-what-he-has-to-do-on-possible-rate-hikes",
+          "source": "PBS News",
+          "date": "2026-08-31"
+        },
+        {
           "title": "The Week That Was, The Week Ahead: Macro and Markets, August 30",
           "url": "https://markets.businessinsider.com/news/stocks/the-week-that-was-the-week-ahead-macro-and-markets-august-30-1036505004",
           "source": "Markets Insider",
           "date": "2026-08-30"
-        },
-        {
-          "title": "Fed Chair Warsh not ruling out interest rate hike amid inflation concerns",
-          "url": "https://www.pbs.org/newshour/show/fed-chair-warsh-not-ruling-out-interest-rate-hike-amid-inflation-concerns",
-          "source": "PBS News",
-          "date": "2026-08-28"
-        },
-        {
-          "title": "Bond market prepares for interest rate hike while stocks drift lower",
-          "url": "https://www.latimes.com/business/story/2026-08-28/bond-market-prepares-for-hike-in-interest-rates-while-stocks-drift-lower",
-          "source": "Los Angeles Times",
-          "date": "2026-08-28"
         }
       ]
     },
     "ten": {
-      "value": 4.73,
-      "date": "2026-08-28",
+      "value": 4.75,
+      "date": "2026-08-31",
       "label": "Aug 2026",
-      "display": "4.73%",
-      "reading": "Aug 2026: 4.73%, up from 4.67% in Aug 2026.",
+      "display": "4.75%",
+      "reading": "Aug 2026: 4.75%, up from 4.73% in Aug 2026 \u2014 its highest reading in 12 months.",
       "change": {
-        "text": "\u2191 from 4.67%",
+        "text": "\u2191 from 4.73%",
         "sign": "flat"
       }
     },
@@ -272,33 +272,33 @@
       },
       "news": [
         {
-          "title": "Can foreign markets continue to beat S&P 500? A weak dollar will help",
-          "url": "https://www.cnbc.com/2026/08/28/markets-us-dollar-stocks.html",
-          "source": "CNBC",
-          "date": "2026-08-28"
-        },
-        {
-          "title": "8 Stocks Turn $100,000 Into $12.7 Million In 8 Months",
-          "url": "https://www.investors.com/etfs-and-funds/sectors/sp500-stocks-turn-100000-into-12-7-million-in-8-months/",
-          "source": "Investor's Business Daily",
+          "title": "Stocks Finish Mostly Lower as Rising Crude Boosts Bond Yields",
+          "url": "https://www.barchart.com/story/news/4361614/stocks-finish-mostly-lower-as-rising-crude-boosts-bond-yields",
+          "source": "Barchart",
           "date": "2026-08-31"
         },
         {
-          "title": "Stocks Set to Open Lower as Oil Prices Climb on U.S.-Iran Escalation, Jobs Data Awaited",
-          "url": "https://www.barchart.com/story/news/4351233/stocks-set-to-open-lower-as-oil-prices-climb-on-u-s-iran-escalation-jobs-data-awaited",
+          "title": "Stocks Fall as Rising Geopolitical Risks Boost Crude Oil and Bond Yields",
+          "url": "https://www.barchart.com/story/news/4356782/stocks-fall-as-rising-geopolitical-risks-boost-crude-oil-and-bond-yields",
           "source": "Barchart",
+          "date": "2026-08-31"
+        },
+        {
+          "title": "Oil prices rise and stocks fall after US hits Iranian sites in the Strait of Hormuz",
+          "url": "https://www.syracuse.com/business/2026/08/oil-prices-rise-and-stocks-fall-after-us-hits-iranian-sites-in-the-strait-of-hormuz.html",
+          "source": "syracuse.com",
           "date": "2026-08-31"
         }
       ]
     },
     "nasdaq": {
-      "value": 26402.42,
-      "date": "2026-08-28",
+      "value": 26370.89,
+      "date": "2026-08-31",
       "label": "Aug 2026",
-      "display": "26,402",
-      "reading": "Aug 2026: 26,402, up from 25,374 in Jul 2026.",
+      "display": "26,371",
+      "reading": "Aug 2026: 26,371, up from 25,374 in Jul 2026.",
       "change": {
-        "text": "\u2191 13.6% YTD",
+        "text": "\u2191 13.5% YTD",
         "sign": "pos"
       },
       "news": [
@@ -323,33 +323,33 @@
       ]
     },
     "dow": {
-      "value": 53185.9,
-      "date": "2026-08-31",
-      "label": "Aug 2026",
-      "display": "53,186",
-      "reading": "Aug 2026: 53,186, up from 52,485 in Jul 2026 \u2014 its highest reading in 12 months.",
+      "value": 52766.88,
+      "date": "2026-09-01",
+      "label": "Sep 2026",
+      "display": "52,767",
+      "reading": "Sep 2026: 52,767, down from 53,186 in Aug 2026.",
       "change": {
-        "text": "\u2191 10.7% YTD",
+        "text": "\u2191 9.8% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "Stocks Fall as Hawkish Warsh Boosts Fed Rate Hike Chances",
-          "url": "https://www.barchart.com/story/news/4327953/stocks-fall-as-hawkish-warsh-boosts-fed-rate-hike-chances",
+          "title": "Stocks Finish Mostly Lower as Rising Crude Boosts Bond Yields",
+          "url": "https://www.barchart.com/story/news/4361614/stocks-finish-mostly-lower-as-rising-crude-boosts-bond-yields",
           "source": "Barchart",
-          "date": "2026-08-28"
+          "date": "2026-08-31"
         },
         {
-          "title": "The bond market prepares for a hike to interest rates, while US stocks drift lower",
-          "url": "https://www.ajc.com/news/2026/08/the-bond-market-prepares-for-a-hike-to-interest-rates-while-us-stocks-drift-lower/",
-          "source": "The Atlanta Journal-Constitution",
-          "date": "2026-08-28"
+          "title": "Stocks Fall as Rising Geopolitical Risks Boost Crude Oil and Bond Yields",
+          "url": "https://www.barchart.com/story/news/4356782/stocks-fall-as-rising-geopolitical-risks-boost-crude-oil-and-bond-yields",
+          "source": "Barchart",
+          "date": "2026-08-31"
         },
         {
-          "title": "Stocks Rally as Fed Chair Warsh Vows to Tackle Inflation",
-          "url": "https://www.barchart.com/story/news/4322905/stocks-rally-as-fed-chair-warsh-vows-to-tackle-inflation",
+          "title": "Stocks Pressured as Soaring Crude Prices Boost Bond Yields",
+          "url": "https://www.barchart.com/story/news/4355521/stocks-pressured-as-soaring-crude-prices-boost-bond-yields",
           "source": "Barchart",
-          "date": "2026-08-28"
+          "date": "2026-08-31"
         }
       ]
     }
@@ -6132,7 +6132,10 @@
         "2026-08-25",
         "2026-08-26",
         "2026-08-27",
-        "2026-08-28"
+        "2026-08-28",
+        "2026-08-29",
+        "2026-08-30",
+        "2026-08-31"
       ],
       "values": [
         0.06,
@@ -10392,6 +10395,9 @@
         3.63,
         3.63,
         3.63,
+        3.63,
+        3.63,
+        3.63,
         3.63
       ],
       "freq": "monthly"
@@ -13313,7 +13319,8 @@
         "2026-08-25",
         "2026-08-26",
         "2026-08-27",
-        "2026-08-28"
+        "2026-08-28",
+        "2026-08-31"
       ],
       "values": [
         2.12,
@@ -16231,7 +16238,8 @@
         4.64,
         4.66,
         4.67,
-        4.73
+        4.73,
+        4.75
       ],
       "freq": "monthly"
     },
@@ -18046,7 +18054,7 @@
         "2026-05-29",
         "2026-06-30",
         "2026-07-31",
-        "2026-08-28"
+        "2026-08-31"
       ],
       "values": [
         4635.24,
@@ -18188,7 +18196,7 @@
         26972.62,
         26213.72,
         25373.85,
-        26402.42
+        26370.89
       ],
       "freq": "monthly"
     },
@@ -18313,7 +18321,8 @@
         "2026-05-29",
         "2026-06-30",
         "2026-07-31",
-        "2026-08-31"
+        "2026-08-31",
+        "2026-09-01"
       ],
       "values": [
         18308.15,
@@ -18435,7 +18444,8 @@
         51032.46,
         52319.2,
         52485.03,
-        53185.9
+        53185.9,
+        52766.88
       ],
       "freq": "monthly"
     }
