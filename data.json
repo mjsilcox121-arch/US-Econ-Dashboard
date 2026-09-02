@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-01T23:07:43Z",
+  "updated": "2026-09-02T23:11:07Z",
   "metrics": {
     "gdp": {
       "value": 1.5,
@@ -51,22 +51,22 @@
       },
       "news": [
         {
-          "title": "CPI inflation report July 2026",
-          "url": "https://www.cnbc.com/2026/08/12/cpi-inflation-report-july-2026.html",
-          "source": "CNBC",
-          "date": "2026-08-12"
-        },
-        {
-          "title": "Benign Inflation Data Would Reduce Urgency Around September Rate Rise",
-          "url": "https://www.nytimes.com/2026/08/12/business/economy/inflation-federal-reserve-interest-rates.html",
-          "source": "The New York Times",
-          "date": "2026-08-12"
-        },
-        {
           "title": "Australia's Core Inflation Tops Estimates, Bets on Another Rate Hike This Year Surge",
           "url": "https://www.europesays.com/3215780/",
           "source": "EUROPE SAYS",
           "date": "2026-08-26"
+        },
+        {
+          "title": "Wall Street week ahead: Reports on consumer confidence and inflation on tap",
+          "url": "https://www.ajc.com/news/2026/08/wall-street-week-ahead-reports-on-consumer-confidence-and-inflation-on-tap/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-08-22"
+        },
+        {
+          "title": "Inflation Eased Again in July. But The Middle East Energy Shock Is Putting The Relief at Risk.",
+          "url": "https://www.ibtimes.com/inflation-eased-again-july-middle-east-energy-shock-putting-relief-risk-3806379",
+          "source": "International Business Times",
+          "date": "2026-08-14"
         }
       ]
     },
@@ -125,10 +125,10 @@
     },
     "ffr": {
       "value": 3.63,
-      "date": "2026-08-31",
-      "label": "Aug 2026",
+      "date": "2026-09-01",
+      "label": "Sep 2026",
       "display": "3.63%",
-      "reading": "Aug 2026: 3.63%, unchanged from 3.63% in Aug 2026 \u2014 its highest reading in 12 months.",
+      "reading": "Sep 2026: 3.63%, unchanged from 3.63% in Aug 2026 \u2014 its highest reading in 12 months.",
       "change": {
         "text": "\u2192 Steady",
         "sign": "flat"
@@ -155,13 +155,13 @@
       ]
     },
     "ten": {
-      "value": 4.75,
-      "date": "2026-08-31",
-      "label": "Aug 2026",
-      "display": "4.75%",
-      "reading": "Aug 2026: 4.75%, up from 4.73% in Aug 2026 \u2014 its highest reading in 12 months.",
+      "value": 4.79,
+      "date": "2026-09-01",
+      "label": "Sep 2026",
+      "display": "4.79%",
+      "reading": "Sep 2026: 4.79%, up from 4.75% in Aug 2026 \u2014 its highest reading in 12 months.",
       "change": {
-        "text": "\u2191 from 4.73%",
+        "text": "\u2191 from 4.75%",
         "sign": "flat"
       }
     },
@@ -261,47 +261,53 @@
       ]
     },
     "sp500": {
-      "value": 7686.14,
-      "date": "2026-08-31",
-      "label": "Aug 2026",
-      "display": "7,686",
-      "reading": "Aug 2026: 7,686, up from 7,490 in Jul 2026 \u2014 its highest reading in 12 months.",
+      "value": 7631.47,
+      "date": "2026-09-01",
+      "label": "Sep 2026",
+      "display": "7,631",
+      "reading": "Sep 2026: 7,631, down from 7,686 in Aug 2026.",
+      "change": {
+        "text": "\u2191 11.5% YTD",
+        "sign": "pos"
+      },
+      "news": [
+        {
+          "title": "Asian shares decline after stocks slip on Wall Street, while global bond sell-off intensifies",
+          "url": "https://www.ajc.com/news/2026/09/asian-shares-decline-after-stocks-slip-on-wall-street-while-global-bond-sell-off-intensifies/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-09-02"
+        },
+        {
+          "title": "Stocks Settle Lower as Bond Yields Surge",
+          "url": "https://www.barchart.com/story/news/4385347/stocks-settle-lower-as-bond-yields-surge",
+          "source": "Barchart",
+          "date": "2026-09-01"
+        },
+        {
+          "title": "RSP vs SPY: Why These S&P 500 ETFs Have Such Different 20-Year Returns",
+          "url": "https://www.kiplinger.com/investing/etfs/rsp-vs-spy-why-these-sp-500-etfs-have-such-different-20-year-returns",
+          "source": "Kiplinger",
+          "date": "2026-09-01"
+        }
+      ]
+    },
+    "nasdaq": {
+      "value": 26099.77,
+      "date": "2026-09-01",
+      "label": "Sep 2026",
+      "display": "26,100",
+      "reading": "Sep 2026: 26,100, down from 26,371 in Aug 2026.",
       "change": {
         "text": "\u2191 12.3% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "Stocks Finish Mostly Lower as Rising Crude Boosts Bond Yields",
-          "url": "https://www.barchart.com/story/news/4361614/stocks-finish-mostly-lower-as-rising-crude-boosts-bond-yields",
-          "source": "Barchart",
-          "date": "2026-08-31"
+          "title": "Asian shares decline after stocks slip on Wall Street, while global bond sell-off intensifies",
+          "url": "https://www.ajc.com/news/2026/09/asian-shares-decline-after-stocks-slip-on-wall-street-while-global-bond-sell-off-intensifies/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-09-02"
         },
-        {
-          "title": "Stocks Fall as Rising Geopolitical Risks Boost Crude Oil and Bond Yields",
-          "url": "https://www.barchart.com/story/news/4356782/stocks-fall-as-rising-geopolitical-risks-boost-crude-oil-and-bond-yields",
-          "source": "Barchart",
-          "date": "2026-08-31"
-        },
-        {
-          "title": "Oil prices rise and stocks fall after US hits Iranian sites in the Strait of Hormuz",
-          "url": "https://www.syracuse.com/business/2026/08/oil-prices-rise-and-stocks-fall-after-us-hits-iranian-sites-in-the-strait-of-hormuz.html",
-          "source": "syracuse.com",
-          "date": "2026-08-31"
-        }
-      ]
-    },
-    "nasdaq": {
-      "value": 26370.89,
-      "date": "2026-08-31",
-      "label": "Aug 2026",
-      "display": "26,371",
-      "reading": "Aug 2026: 26,371, up from 25,374 in Jul 2026.",
-      "change": {
-        "text": "\u2191 13.5% YTD",
-        "sign": "pos"
-      },
-      "news": [
         {
           "title": "Stocks Supported by Strong Tech Earnings",
           "url": "https://www.barchart.com/story/news/4219932/stocks-supported-by-strong-tech-earnings",
@@ -313,43 +319,37 @@
           "url": "https://www.spokesman.com/stories/2026/aug/24/tech-drags-sp-500-nasdaq-lower-as-iran-tensions-nv/",
           "source": "Spokane Spokesman-Review",
           "date": "2026-08-24"
-        },
-        {
-          "title": "Stocks sold as tech weakness drags Nasdaq lower - Newsquawk US Market Wrap",
-          "url": "https://www.zerohedge.com/markets/stocks-sold-tech-weakness-drags-nasdaq-lower-newsquawk-us-market-wrap",
-          "source": "ZeroHedge",
-          "date": "2026-08-18"
         }
       ]
     },
     "dow": {
-      "value": 52766.88,
-      "date": "2026-09-01",
+      "value": 53061.95,
+      "date": "2026-09-02",
       "label": "Sep 2026",
-      "display": "52,767",
-      "reading": "Sep 2026: 52,767, down from 53,186 in Aug 2026.",
+      "display": "53,062",
+      "reading": "Sep 2026: 53,062, down from 53,186 in Aug 2026.",
       "change": {
-        "text": "\u2191 9.8% YTD",
+        "text": "\u2191 10.4% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "Stocks Finish Mostly Lower as Rising Crude Boosts Bond Yields",
-          "url": "https://www.barchart.com/story/news/4361614/stocks-finish-mostly-lower-as-rising-crude-boosts-bond-yields",
-          "source": "Barchart",
-          "date": "2026-08-31"
+          "title": "Asian shares decline after stocks slip on Wall Street, while global bond sell-off intensifies",
+          "url": "https://www.ajc.com/news/2026/09/asian-shares-decline-after-stocks-slip-on-wall-street-while-global-bond-sell-off-intensifies/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-09-02"
         },
         {
-          "title": "Stocks Fall as Rising Geopolitical Risks Boost Crude Oil and Bond Yields",
-          "url": "https://www.barchart.com/story/news/4356782/stocks-fall-as-rising-geopolitical-risks-boost-crude-oil-and-bond-yields",
+          "title": "Stocks Settle Lower as Bond Yields Surge",
+          "url": "https://www.barchart.com/story/news/4385347/stocks-settle-lower-as-bond-yields-surge",
           "source": "Barchart",
-          "date": "2026-08-31"
+          "date": "2026-09-01"
         },
         {
-          "title": "Stocks Pressured as Soaring Crude Prices Boost Bond Yields",
-          "url": "https://www.barchart.com/story/news/4355521/stocks-pressured-as-soaring-crude-prices-boost-bond-yields",
-          "source": "Barchart",
-          "date": "2026-08-31"
+          "title": "Stocks slip on Wall Street under pressure from rising oil prices, bond sell-off",
+          "url": "https://www.ajc.com/news/2026/09/stocks-slip-on-wall-street-under-pressure-from-rising-oil-prices-bond-sell-off/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-09-01"
         }
       ]
     }
@@ -6135,7 +6135,8 @@
         "2026-08-28",
         "2026-08-29",
         "2026-08-30",
-        "2026-08-31"
+        "2026-08-31",
+        "2026-09-01"
       ],
       "values": [
         0.06,
@@ -10398,6 +10399,7 @@
         3.63,
         3.63,
         3.63,
+        3.63,
         3.63
       ],
       "freq": "monthly"
@@ -13320,7 +13322,8 @@
         "2026-08-26",
         "2026-08-27",
         "2026-08-28",
-        "2026-08-31"
+        "2026-08-31",
+        "2026-09-01"
       ],
       "values": [
         2.12,
@@ -16239,7 +16242,8 @@
         4.66,
         4.67,
         4.73,
-        4.75
+        4.75,
+        4.79
       ],
       "freq": "monthly"
     },
@@ -17787,7 +17791,8 @@
         "2026-05-29",
         "2026-06-30",
         "2026-07-31",
-        "2026-08-31"
+        "2026-08-31",
+        "2026-09-01"
       ],
       "values": [
         2168.27,
@@ -17909,7 +17914,8 @@
         7580.06,
         7499.36,
         7489.72,
-        7686.14
+        7686.14,
+        7631.47
       ],
       "freq": "monthly"
     },
@@ -18054,7 +18060,8 @@
         "2026-05-29",
         "2026-06-30",
         "2026-07-31",
-        "2026-08-31"
+        "2026-08-31",
+        "2026-09-01"
       ],
       "values": [
         4635.24,
@@ -18196,7 +18203,8 @@
         26972.62,
         26213.72,
         25373.85,
-        26370.89
+        26370.89,
+        26099.77
       ],
       "freq": "monthly"
     },
@@ -18322,7 +18330,7 @@
         "2026-06-30",
         "2026-07-31",
         "2026-08-31",
-        "2026-09-01"
+        "2026-09-02"
       ],
       "values": [
         18308.15,
@@ -18445,7 +18453,7 @@
         52319.2,
         52485.03,
         53185.9,
-        52766.88
+        53061.95
       ],
       "freq": "monthly"
     }
