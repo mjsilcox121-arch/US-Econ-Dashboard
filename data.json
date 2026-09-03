@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-02T23:11:07Z",
+  "updated": "2026-09-03T23:03:58Z",
   "metrics": {
     "gdp": {
       "value": 1.5,
@@ -29,15 +29,7 @@
       "change": {
         "text": "\u2193 from 4.2%",
         "sign": "pos"
-      },
-      "news": [
-        {
-          "title": "US unemployment claims rise but remain at healthy level",
-          "url": "https://www.ajc.com/news/2026/08/us-unemployment-claims-rise-but-remain-at-healthy-level/",
-          "source": "The Atlanta Journal-Constitution",
-          "date": "2026-08-13"
-        }
-      ]
+      }
     },
     "cpi": {
       "value": 3.3039,
@@ -125,15 +117,21 @@
     },
     "ffr": {
       "value": 3.63,
-      "date": "2026-09-01",
+      "date": "2026-09-02",
       "label": "Sep 2026",
       "display": "3.63%",
-      "reading": "Sep 2026: 3.63%, unchanged from 3.63% in Aug 2026 \u2014 its highest reading in 12 months.",
+      "reading": "Sep 2026: 3.63%, unchanged from 3.63% in Sep 2026 \u2014 its highest reading in 12 months.",
       "change": {
         "text": "\u2192 Steady",
         "sign": "flat"
       },
       "news": [
+        {
+          "title": "Fed's Waller says central bank's next rate move depends on upcoming inflation report",
+          "url": "https://www.breitbart.com/news/feds-waller-says-central-banks-next-rate-move-depends-on-upcoming-inflation-report/",
+          "source": "Breitbart News Network",
+          "date": "2026-09-03"
+        },
         {
           "title": "Stock Index Futures Slip as Bond Yields Surge, U.S. JOLTS Report in Focus",
           "url": "https://www.barchart.com/story/news/4370831/stock-index-futures-slip-as-bond-yields-surge-u-s-jolts-report-in-focus",
@@ -145,23 +143,17 @@
           "url": "https://www.pbs.org/newshour/politics/watch-trump-says-fed-chair-warsh-will-do-what-he-has-to-do-on-possible-rate-hikes",
           "source": "PBS News",
           "date": "2026-08-31"
-        },
-        {
-          "title": "The Week That Was, The Week Ahead: Macro and Markets, August 30",
-          "url": "https://markets.businessinsider.com/news/stocks/the-week-that-was-the-week-ahead-macro-and-markets-august-30-1036505004",
-          "source": "Markets Insider",
-          "date": "2026-08-30"
         }
       ]
     },
     "ten": {
       "value": 4.79,
-      "date": "2026-09-01",
+      "date": "2026-09-02",
       "label": "Sep 2026",
       "display": "4.79%",
-      "reading": "Sep 2026: 4.79%, up from 4.75% in Aug 2026 \u2014 its highest reading in 12 months.",
+      "reading": "Sep 2026: 4.79%, unchanged from 4.79% in Sep 2026 \u2014 its highest reading in 12 months.",
       "change": {
-        "text": "\u2191 from 4.75%",
+        "text": "\u2192 Steady",
         "sign": "flat"
       }
     },
@@ -219,14 +211,14 @@
       }
     },
     "trade": {
-      "value": -73261.0,
-      "date": "2026-06-01",
-      "label": "Jun 2026",
-      "display": "-$73261B",
-      "reading": "Jun 2026: -$73261B, up from -$77647B in May 2026.",
+      "value": -88576.0,
+      "date": "2026-07-01",
+      "label": "Jul 2026",
+      "display": "-$88576B",
+      "reading": "Jul 2026: -$88576B, down from -$71182B in Jun 2026 \u2014 its lowest reading in 12 months.",
       "change": {
-        "text": "\u2191 from -$77647B",
-        "sign": "pos"
+        "text": "\u2193 from -$71182B",
+        "sign": "neg"
       }
     },
     "sent": {
@@ -261,47 +253,53 @@
       ]
     },
     "sp500": {
-      "value": 7631.47,
-      "date": "2026-09-01",
+      "value": 7666.6,
+      "date": "2026-09-02",
       "label": "Sep 2026",
-      "display": "7,631",
-      "reading": "Sep 2026: 7,631, down from 7,686 in Aug 2026.",
+      "display": "7,667",
+      "reading": "Sep 2026: 7,667, down from 7,686 in Aug 2026.",
       "change": {
-        "text": "\u2191 11.5% YTD",
+        "text": "\u2191 12.0% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "Asian shares decline after stocks slip on Wall Street, while global bond sell-off intensifies",
-          "url": "https://www.ajc.com/news/2026/09/asian-shares-decline-after-stocks-slip-on-wall-street-while-global-bond-sell-off-intensifies/",
-          "source": "The Atlanta Journal-Constitution",
+          "title": "Stocks stumbled out of the gate in September. Use these hedges, Evercore ISI says",
+          "url": "https://www.cnbc.com/2026/09/02/stocks-stumble-out-of-the-gate-in-september-use-these-hedges-evercore-isi-says.html",
+          "source": "CNBC",
           "date": "2026-09-02"
         },
         {
-          "title": "Stocks Settle Lower as Bond Yields Surge",
-          "url": "https://www.barchart.com/story/news/4385347/stocks-settle-lower-as-bond-yields-surge",
-          "source": "Barchart",
-          "date": "2026-09-01"
+          "title": "US stocks snap a 3-day losing streak as the S&P 500 rises 0.5%",
+          "url": "https://apnews.com/article/stocks-markets-iran-oil-bonds-27b78c349725ac744c96a6b8b8167bae",
+          "source": "The Associated Press",
+          "date": "2026-09-02"
         },
         {
-          "title": "RSP vs SPY: Why These S&P 500 ETFs Have Such Different 20-Year Returns",
-          "url": "https://www.kiplinger.com/investing/etfs/rsp-vs-spy-why-these-sp-500-etfs-have-such-different-20-year-returns",
-          "source": "Kiplinger",
-          "date": "2026-09-01"
+          "title": "Stocks Settle Higher as Bond Yields Stabilize",
+          "url": "https://www.barchart.com/story/news/4409423/stocks-settle-higher-as-bond-yields-stabilize",
+          "source": "Barchart",
+          "date": "2026-09-02"
         }
       ]
     },
     "nasdaq": {
-      "value": 26099.77,
-      "date": "2026-09-01",
+      "value": 26217.83,
+      "date": "2026-09-02",
       "label": "Sep 2026",
-      "display": "26,100",
-      "reading": "Sep 2026: 26,100, down from 26,371 in Aug 2026.",
+      "display": "26,218",
+      "reading": "Sep 2026: 26,218, down from 26,371 in Aug 2026.",
       "change": {
-        "text": "\u2191 12.3% YTD",
+        "text": "\u2191 12.8% YTD",
         "sign": "pos"
       },
       "news": [
+        {
+          "title": "Wall Street rises as tech stocks climb and oil prices, bond yields hold relatively steady",
+          "url": "https://www.ajc.com/news/2026/09/wall-street-rises-as-tech-stocks-climb-and-oil-prices-bond-yields-hold-relatively-steady/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-09-02"
+        },
         {
           "title": "Asian shares decline after stocks slip on Wall Street, while global bond sell-off intensifies",
           "url": "https://www.ajc.com/news/2026/09/asian-shares-decline-after-stocks-slip-on-wall-street-while-global-bond-sell-off-intensifies/",
@@ -313,43 +311,37 @@
           "url": "https://www.barchart.com/story/news/4219932/stocks-supported-by-strong-tech-earnings",
           "source": "Barchart",
           "date": "2026-08-27"
-        },
-        {
-          "title": "Tech drags S&P 500, Nasdaq lower as Iran tensions, Nvidia earnings loom",
-          "url": "https://www.spokesman.com/stories/2026/aug/24/tech-drags-sp-500-nasdaq-lower-as-iran-tensions-nv/",
-          "source": "Spokane Spokesman-Review",
-          "date": "2026-08-24"
         }
       ]
     },
     "dow": {
-      "value": 53061.95,
-      "date": "2026-09-02",
+      "value": 53686.11,
+      "date": "2026-09-03",
       "label": "Sep 2026",
-      "display": "53,062",
-      "reading": "Sep 2026: 53,062, down from 53,186 in Aug 2026.",
+      "display": "53,686",
+      "reading": "Sep 2026: 53,686, up from 53,186 in Aug 2026 \u2014 its highest reading in 12 months.",
       "change": {
-        "text": "\u2191 10.4% YTD",
+        "text": "\u2191 11.7% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "Asian shares decline after stocks slip on Wall Street, while global bond sell-off intensifies",
-          "url": "https://www.ajc.com/news/2026/09/asian-shares-decline-after-stocks-slip-on-wall-street-while-global-bond-sell-off-intensifies/",
+          "title": "Stocks Settle Higher as Bond Yields Stabilize",
+          "url": "https://www.barchart.com/story/news/4409423/stocks-settle-higher-as-bond-yields-stabilize",
+          "source": "Barchart",
+          "date": "2026-09-02"
+        },
+        {
+          "title": "Wall Street rises as tech stocks climb and oil prices, bond yields hold relatively steady",
+          "url": "https://www.ajc.com/news/2026/09/wall-street-rises-as-tech-stocks-climb-and-oil-prices-bond-yields-hold-relatively-steady/",
           "source": "The Atlanta Journal-Constitution",
           "date": "2026-09-02"
         },
         {
-          "title": "Stocks Settle Lower as Bond Yields Surge",
-          "url": "https://www.barchart.com/story/news/4385347/stocks-settle-lower-as-bond-yields-surge",
-          "source": "Barchart",
-          "date": "2026-09-01"
-        },
-        {
-          "title": "Stocks slip on Wall Street under pressure from rising oil prices, bond sell-off",
-          "url": "https://www.ajc.com/news/2026/09/stocks-slip-on-wall-street-under-pressure-from-rising-oil-prices-bond-sell-off/",
+          "title": "Stocks rise on Wall Street as oil prices, bond yields hold relatively steady",
+          "url": "https://www.ajc.com/news/2026/09/stocks-rise-on-wall-street-as-oil-prices-bond-yields-hold-relatively-steady/",
           "source": "The Atlanta Journal-Constitution",
-          "date": "2026-09-01"
+          "date": "2026-09-02"
         }
       ]
     }
@@ -6136,7 +6128,8 @@
         "2026-08-29",
         "2026-08-30",
         "2026-08-31",
-        "2026-09-01"
+        "2026-09-01",
+        "2026-09-02"
       ],
       "values": [
         0.06,
@@ -10400,6 +10393,7 @@
         3.63,
         3.63,
         3.63,
+        3.63,
         3.63
       ],
       "freq": "monthly"
@@ -13323,7 +13317,8 @@
         "2026-08-27",
         "2026-08-28",
         "2026-08-31",
-        "2026-09-01"
+        "2026-09-01",
+        "2026-09-02"
       ],
       "values": [
         2.12,
@@ -16243,6 +16238,7 @@
         4.67,
         4.73,
         4.75,
+        4.79,
         4.79
       ],
       "freq": "monthly"
@@ -17241,7 +17237,8 @@
         "2026-03-01",
         "2026-04-01",
         "2026-05-01",
-        "2026-06-01"
+        "2026-06-01",
+        "2026-07-01"
       ],
       "values": [
         -37225.0,
@@ -17376,12 +17373,13 @@
         -37376.0,
         -63868.0,
         -76078.0,
-        -54185.0,
-        -54980.0,
-        -56585.0,
-        -54570.0,
-        -77647.0,
-        -73261.0
+        -52670.0,
+        -52500.0,
+        -53657.0,
+        -52883.0,
+        -75752.0,
+        -71182.0,
+        -88576.0
       ],
       "freq": "monthly"
     },
@@ -17792,7 +17790,7 @@
         "2026-06-30",
         "2026-07-31",
         "2026-08-31",
-        "2026-09-01"
+        "2026-09-02"
       ],
       "values": [
         2168.27,
@@ -17915,7 +17913,7 @@
         7499.36,
         7489.72,
         7686.14,
-        7631.47
+        7666.6
       ],
       "freq": "monthly"
     },
@@ -18061,7 +18059,7 @@
         "2026-06-30",
         "2026-07-31",
         "2026-08-31",
-        "2026-09-01"
+        "2026-09-02"
       ],
       "values": [
         4635.24,
@@ -18204,7 +18202,7 @@
         26213.72,
         25373.85,
         26370.89,
-        26099.77
+        26217.83
       ],
       "freq": "monthly"
     },
@@ -18330,7 +18328,7 @@
         "2026-06-30",
         "2026-07-31",
         "2026-08-31",
-        "2026-09-02"
+        "2026-09-03"
       ],
       "values": [
         18308.15,
@@ -18453,7 +18451,7 @@
         52319.2,
         52485.03,
         53185.9,
-        53061.95
+        53686.11
       ],
       "freq": "monthly"
     }
