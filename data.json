@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-03T23:03:58Z",
+  "updated": "2026-09-04T22:52:00Z",
   "metrics": {
     "gdp": {
       "value": 1.5,
@@ -22,14 +22,28 @@
     },
     "unemp": {
       "value": 4.1,
-      "date": "2026-07-01",
-      "label": "Jul 2026",
+      "date": "2026-08-01",
+      "label": "Aug 2026",
       "display": "4.1%",
-      "reading": "Jul 2026: 4.1%, down from 4.2% in Jun 2026 \u2014 its lowest reading in 12 months.",
+      "reading": "Aug 2026: 4.1%, unchanged from 4.1% in Jul 2026 \u2014 its lowest reading in 12 months.",
       "change": {
-        "text": "\u2193 from 4.2%",
-        "sign": "pos"
-      }
+        "text": "\u2192 Steady",
+        "sign": "flat"
+      },
+      "news": [
+        {
+          "title": "What to expect from the jobs report today",
+          "url": "https://abc17news.com/money/cnn-business-consumer/2026/09/04/what-to-expect-from-the-jobs-report-today-2/",
+          "source": "ABC17News.com",
+          "date": "2026-09-04"
+        },
+        {
+          "title": "What to expect from Friday\u2019s jobs report - and AI in the future",
+          "url": "https://abc17news.com/money/cnn-business-consumer/2026/09/03/what-to-expect-from-fridays-jobs-report-and-ai-in-the-future/",
+          "source": "ABC17News.com",
+          "date": "2026-09-03"
+        }
+      ]
     },
     "cpi": {
       "value": 3.3039,
@@ -53,12 +67,6 @@
           "url": "https://www.ajc.com/news/2026/08/wall-street-week-ahead-reports-on-consumer-confidence-and-inflation-on-tap/",
           "source": "The Atlanta Journal-Constitution",
           "date": "2026-08-22"
-        },
-        {
-          "title": "Inflation Eased Again in July. But The Middle East Energy Shock Is Putting The Relief at Risk.",
-          "url": "https://www.ibtimes.com/inflation-eased-again-july-middle-east-energy-shock-putting-relief-risk-3806379",
-          "source": "International Business Times",
-          "date": "2026-08-14"
         }
       ]
     },
@@ -117,7 +125,7 @@
     },
     "ffr": {
       "value": 3.63,
-      "date": "2026-09-02",
+      "date": "2026-09-03",
       "label": "Sep 2026",
       "display": "3.63%",
       "reading": "Sep 2026: 3.63%, unchanged from 3.63% in Sep 2026 \u2014 its highest reading in 12 months.",
@@ -127,46 +135,60 @@
       },
       "news": [
         {
-          "title": "Fed's Waller says central bank's next rate move depends on upcoming inflation report",
-          "url": "https://www.breitbart.com/news/feds-waller-says-central-banks-next-rate-move-depends-on-upcoming-inflation-report/",
-          "source": "Breitbart News Network",
-          "date": "2026-09-03"
+          "title": "Wall St Week Ahead Investors to pore over inflation data for signals on rate trajectory",
+          "url": "https://www.reuters.com/business/wall-st-week-ahead-investors-pore-over-inflation-data-signals-rate-trajectory-2026-09-04/",
+          "source": "Reuters",
+          "date": "2026-09-04"
         },
         {
-          "title": "Stock Index Futures Slip as Bond Yields Surge, U.S. JOLTS Report in Focus",
-          "url": "https://www.barchart.com/story/news/4370831/stock-index-futures-slip-as-bond-yields-surge-u-s-jolts-report-in-focus",
-          "source": "Barchart",
-          "date": "2026-09-01"
+          "title": "Gold holds ground with US payrolls data on radar",
+          "url": "https://www.reuters.com/world/india/gold-holds-ground-with-us-payrolls-data-radar-2026-09-04/",
+          "source": "Reuters",
+          "date": "2026-09-04"
         },
         {
-          "title": "WATCH: Trump says Fed Chair Warsh will 'do what he has to do' on possible rate hikes",
-          "url": "https://www.pbs.org/newshour/politics/watch-trump-says-fed-chair-warsh-will-do-what-he-has-to-do-on-possible-rate-hikes",
+          "title": "Fed governor Waller muddies outlook on possible rate hike later this month",
+          "url": "https://www.pbs.org/newshour/economy/fed-governor-waller-muddies-outlook-on-possible-rate-hike-later-this-month",
           "source": "PBS News",
-          "date": "2026-08-31"
+          "date": "2026-09-03"
         }
       ]
     },
     "ten": {
-      "value": 4.79,
-      "date": "2026-09-02",
+      "value": 4.77,
+      "date": "2026-09-03",
       "label": "Sep 2026",
-      "display": "4.79%",
-      "reading": "Sep 2026: 4.79%, unchanged from 4.79% in Sep 2026 \u2014 its highest reading in 12 months.",
+      "display": "4.77%",
+      "reading": "Sep 2026: 4.77%, down from 4.79% in Sep 2026.",
       "change": {
-        "text": "\u2192 Steady",
+        "text": "\u2193 from 4.79%",
         "sign": "flat"
       }
     },
     "nfp": {
-      "value": -23.0,
-      "date": "2026-07-01",
-      "label": "Jul 2026",
-      "display": "-23K",
-      "reading": "Jul 2026: -23K, down from +20K in Jun 2026.",
+      "value": 162.0,
+      "date": "2026-08-01",
+      "label": "Aug 2026",
+      "display": "+162K",
+      "reading": "Aug 2026: +162K, up from +21K in Jul 2026.",
       "change": {
-        "text": "\u2193 from +20K",
-        "sign": "neg"
-      }
+        "text": "\u2191 from +21K",
+        "sign": "pos"
+      },
+      "news": [
+        {
+          "title": "Stock Futures Rise Ahead of August Jobs Report",
+          "url": "https://markets.businessinsider.com/news/stocks/stock-futures-rise-ahead-of-august-jobs-report-1036522657",
+          "source": "Markets Insider",
+          "date": "2026-09-04"
+        },
+        {
+          "title": "U.S. Stock Futures Flat Ahead of August Jobs Report",
+          "url": "https://markets.businessinsider.com/news/stocks/u-s-stock-futures-flat-ahead-of-august-jobs-report-1036521706",
+          "source": "Markets Insider",
+          "date": "2026-09-03"
+        }
+      ]
     },
     "retail": {
       "value": -0.582,
@@ -184,12 +206,6 @@
           "url": "https://www.businessinsider.com/us-consumer-warning-signs-walmart-retail-sales-jobs-economic-slowdown-2026-8",
           "source": "Business Insider",
           "date": "2026-08-21"
-        },
-        {
-          "title": "US retail sales post first decline in nine months in July",
-          "url": "https://www.reuters.com/business/us-retail-sales-unexpectedly-fall-july-2026-08-14/",
-          "source": "Reuters",
-          "date": "2026-08-14"
         },
         {
           "title": "The US consumer is flashing red flags all over the place",
@@ -253,13 +269,13 @@
       ]
     },
     "sp500": {
-      "value": 7666.6,
-      "date": "2026-09-02",
+      "value": 7747.71,
+      "date": "2026-09-03",
       "label": "Sep 2026",
-      "display": "7,667",
-      "reading": "Sep 2026: 7,667, down from 7,686 in Aug 2026.",
+      "display": "7,748",
+      "reading": "Sep 2026: 7,748, up from 7,686 in Aug 2026 \u2014 its highest reading in 12 months.",
       "change": {
-        "text": "\u2191 12.0% YTD",
+        "text": "\u2191 13.2% YTD",
         "sign": "pos"
       },
       "news": [
@@ -270,27 +286,27 @@
           "date": "2026-09-02"
         },
         {
-          "title": "US stocks snap a 3-day losing streak as the S&P 500 rises 0.5%",
-          "url": "https://apnews.com/article/stocks-markets-iran-oil-bonds-27b78c349725ac744c96a6b8b8167bae",
-          "source": "The Associated Press",
-          "date": "2026-09-02"
+          "title": "Shipping Stocks Have Surged More Than Two Thirds % in 2026. Now Investors Must Decide If the Rally Can Last.",
+          "url": "https://www.ibtimes.com/shipping-stocks-have-surged-more-two-thirds-2026-now-investors-must-decide-if-rally-can-last-3807114",
+          "source": "International Business Times",
+          "date": "2026-09-04"
         },
         {
-          "title": "Stocks Settle Higher as Bond Yields Stabilize",
-          "url": "https://www.barchart.com/story/news/4409423/stocks-settle-higher-as-bond-yields-stabilize",
-          "source": "Barchart",
-          "date": "2026-09-02"
+          "title": "Stocks rise on Wall Street as bond yields ease some more, even while oil prices continue to climb",
+          "url": "https://www.ajc.com/news/2026/09/us-stocks-open-higher-while-oil-prices-continue-to-climb/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-09-03"
         }
       ]
     },
     "nasdaq": {
-      "value": 26217.83,
-      "date": "2026-09-02",
+      "value": 26584.06,
+      "date": "2026-09-03",
       "label": "Sep 2026",
-      "display": "26,218",
-      "reading": "Sep 2026: 26,218, down from 26,371 in Aug 2026.",
+      "display": "26,584",
+      "reading": "Sep 2026: 26,584, up from 26,371 in Aug 2026.",
       "change": {
-        "text": "\u2191 12.8% YTD",
+        "text": "\u2191 14.4% YTD",
         "sign": "pos"
       },
       "news": [
@@ -315,32 +331,32 @@
       ]
     },
     "dow": {
-      "value": 53686.11,
-      "date": "2026-09-03",
+      "value": 53414.25,
+      "date": "2026-09-04",
       "label": "Sep 2026",
-      "display": "53,686",
-      "reading": "Sep 2026: 53,686, up from 53,186 in Aug 2026 \u2014 its highest reading in 12 months.",
+      "display": "53,414",
+      "reading": "Sep 2026: 53,414, up from 53,186 in Aug 2026 \u2014 its highest reading in 12 months.",
       "change": {
-        "text": "\u2191 11.7% YTD",
+        "text": "\u2191 11.1% YTD",
         "sign": "pos"
       },
       "news": [
         {
+          "title": "Dow Jones Futures: Stocks Jump On Fed's Waller; Tesla Cybercab, Jobs Report In Focus",
+          "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-fed-waller-tesla-cybercab-jobs-report/",
+          "source": "Investor's Business Daily",
+          "date": "2026-09-03"
+        },
+        {
+          "title": "US stocks open higher while oil prices continue to climb",
+          "url": "https://www.ajc.com/news/2026/09/us-futures-mostly-lower-and-oil-prices-climb-due-to-ongoing-clashes-around-iran/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-09-03"
+        },
+        {
           "title": "Stocks Settle Higher as Bond Yields Stabilize",
           "url": "https://www.barchart.com/story/news/4409423/stocks-settle-higher-as-bond-yields-stabilize",
           "source": "Barchart",
-          "date": "2026-09-02"
-        },
-        {
-          "title": "Wall Street rises as tech stocks climb and oil prices, bond yields hold relatively steady",
-          "url": "https://www.ajc.com/news/2026/09/wall-street-rises-as-tech-stocks-climb-and-oil-prices-bond-yields-hold-relatively-steady/",
-          "source": "The Atlanta Journal-Constitution",
-          "date": "2026-09-02"
-        },
-        {
-          "title": "Stocks rise on Wall Street as oil prices, bond yields hold relatively steady",
-          "url": "https://www.ajc.com/news/2026/09/stocks-rise-on-wall-street-as-oil-prices-bond-yields-hold-relatively-steady/",
-          "source": "The Atlanta Journal-Constitution",
           "date": "2026-09-02"
         }
       ]
@@ -585,7 +601,8 @@
         "2026-04-01",
         "2026-05-01",
         "2026-06-01",
-        "2026-07-01"
+        "2026-07-01",
+        "2026-08-01"
       ],
       "values": [
         5.7,
@@ -725,6 +742,7 @@
         4.3,
         4.3,
         4.2,
+        4.1,
         4.1
       ],
       "freq": "monthly"
@@ -6129,7 +6147,8 @@
         "2026-08-30",
         "2026-08-31",
         "2026-09-01",
-        "2026-09-02"
+        "2026-09-02",
+        "2026-09-03"
       ],
       "values": [
         0.06,
@@ -10394,6 +10413,7 @@
         3.63,
         3.63,
         3.63,
+        3.63,
         3.63
       ],
       "freq": "monthly"
@@ -13318,7 +13338,8 @@
         "2026-08-28",
         "2026-08-31",
         "2026-09-01",
-        "2026-09-02"
+        "2026-09-02",
+        "2026-09-03"
       ],
       "values": [
         2.12,
@@ -16239,7 +16260,8 @@
         4.73,
         4.75,
         4.79,
-        4.79
+        4.79,
+        4.77
       ],
       "freq": "monthly"
     },
@@ -16383,7 +16405,8 @@
         "2026-04-01",
         "2026-05-01",
         "2026-06-01",
-        "2026-07-01"
+        "2026-07-01",
+        "2026-08-01"
       ],
       "values": [
         204.0,
@@ -16523,8 +16546,9 @@
         214.0,
         148.0,
         63.0,
-        20.0,
-        -23.0
+        31.0,
+        21.0,
+        162.0
       ],
       "freq": "monthly"
     },
@@ -17790,7 +17814,7 @@
         "2026-06-30",
         "2026-07-31",
         "2026-08-31",
-        "2026-09-02"
+        "2026-09-03"
       ],
       "values": [
         2168.27,
@@ -17913,7 +17937,7 @@
         7499.36,
         7489.72,
         7686.14,
-        7666.6
+        7747.71
       ],
       "freq": "monthly"
     },
@@ -18059,7 +18083,7 @@
         "2026-06-30",
         "2026-07-31",
         "2026-08-31",
-        "2026-09-02"
+        "2026-09-03"
       ],
       "values": [
         4635.24,
@@ -18202,7 +18226,7 @@
         26213.72,
         25373.85,
         26370.89,
-        26217.83
+        26584.06
       ],
       "freq": "monthly"
     },
@@ -18328,7 +18352,7 @@
         "2026-06-30",
         "2026-07-31",
         "2026-08-31",
-        "2026-09-03"
+        "2026-09-04"
       ],
       "values": [
         18308.15,
@@ -18451,7 +18475,7 @@
         52319.2,
         52485.03,
         53185.9,
-        53686.11
+        53414.25
       ],
       "freq": "monthly"
     }
