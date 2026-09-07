@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-04T22:52:00Z",
+  "updated": "2026-09-07T23:20:48Z",
   "metrics": {
     "gdp": {
       "value": 1.5,
@@ -13,10 +13,10 @@
       },
       "news": [
         {
-          "title": "Tariff refunds are juicing corporate profits and GDP, as tailwinds converge to propel growth to 4.3%",
-          "url": "https://fortune.com/2026/08/15/tariff-refunds-corporate-profits-gdp-tailwinds-4-3-percent-q3/",
-          "source": "Fortune",
-          "date": "2026-08-15"
+          "title": "Everyman Economics: Why Growth Requires Measuring More than GDP",
+          "url": "https://time.com/article/2026/09/05/economics-capitalism-growth-inequality-gdp/",
+          "source": "TIME",
+          "date": "2026-09-05"
         }
       ]
     },
@@ -32,16 +32,22 @@
       },
       "news": [
         {
-          "title": "What to expect from the jobs report today",
-          "url": "https://abc17news.com/money/cnn-business-consumer/2026/09/04/what-to-expect-from-the-jobs-report-today-2/",
-          "source": "ABC17News.com",
+          "title": "America In Focus: US hiring bounces back in August; mortgage rates climb",
+          "url": "https://apnews.com/article/economy-inflation-iran-trump-unemployment-mortgage-97f1222d0d4207d4d2cb9fbbc62bccb4",
+          "source": "The Associated Press",
+          "date": "2026-09-05"
+        },
+        {
+          "title": "US job market rebounds as employers add 162,000 jobs; the unemployment rate stayed at 4.1%",
+          "url": "https://www.ajc.com/news/2026/09/us-job-market-rebounds-as-employers-add-162000-jobs-the-unemployment-rate-stayed-at-41/",
+          "source": "The Atlanta Journal-Constitution",
           "date": "2026-09-04"
         },
         {
-          "title": "What to expect from Friday\u2019s jobs report - and AI in the future",
-          "url": "https://abc17news.com/money/cnn-business-consumer/2026/09/03/what-to-expect-from-fridays-jobs-report-and-ai-in-the-future/",
-          "source": "ABC17News.com",
-          "date": "2026-09-03"
+          "title": "US job market rebounded in August as employers added 162,000 jobs",
+          "url": "https://www.bostonglobe.com/2026/09/04/business/job-market-rebound-employers-unemployment/",
+          "source": "The Boston Globe",
+          "date": "2026-09-04"
         }
       ]
     },
@@ -57,16 +63,22 @@
       },
       "news": [
         {
-          "title": "Australia's Core Inflation Tops Estimates, Bets on Another Rate Hike This Year Surge",
-          "url": "https://www.europesays.com/3215780/",
-          "source": "EUROPE SAYS",
-          "date": "2026-08-26"
+          "title": "Upcoming inflation data could determine if the Federal Reserve hikes interest rates soon",
+          "url": "https://fortune.com/2026/09/06/fed-rate-hikes-inflation-data-ppi-cpi-august-tariffs-oil-prices/",
+          "source": "Fortune",
+          "date": "2026-09-06"
         },
         {
-          "title": "Wall Street week ahead: Reports on consumer confidence and inflation on tap",
-          "url": "https://www.ajc.com/news/2026/08/wall-street-week-ahead-reports-on-consumer-confidence-and-inflation-on-tap/",
+          "title": "Investors Await Inflation Data, ECB Cues And Oracle Numbers. Rate Trajectory in Focus.",
+          "url": "https://www.ibtimes.com/jittery-wall-street-awaits-inflation-data-uncertainty-looms-over-rate-trajectory-3807183",
+          "source": "International Business Times",
+          "date": "2026-09-05"
+        },
+        {
+          "title": "Wall Street week ahead: The market focuses on key inflation updates",
+          "url": "https://www.ajc.com/news/2026/09/wall-street-week-ahead-the-market-focuses-on-key-inflation-updates/",
           "source": "The Atlanta Journal-Constitution",
-          "date": "2026-08-22"
+          "date": "2026-09-05"
         }
       ]
     },
@@ -135,22 +147,22 @@
       },
       "news": [
         {
-          "title": "Wall St Week Ahead Investors to pore over inflation data for signals on rate trajectory",
-          "url": "https://www.reuters.com/business/wall-st-week-ahead-investors-pore-over-inflation-data-signals-rate-trajectory-2026-09-04/",
+          "title": "UBS forecasts two US Fed rate hikes in 2026 after strong jobs report",
+          "url": "https://www.reuters.com/business/ubs-forecasts-two-us-fed-rate-hikes-2026-after-strong-jobs-report-2026-09-07/",
           "source": "Reuters",
-          "date": "2026-09-04"
+          "date": "2026-09-07"
         },
         {
-          "title": "Gold holds ground with US payrolls data on radar",
-          "url": "https://www.reuters.com/world/india/gold-holds-ground-with-us-payrolls-data-radar-2026-09-04/",
+          "title": "Gold eases as robust US payrolls boost rate-hike bets; inflation data in focus",
+          "url": "https://www.reuters.com/world/india/gold-eases-robust-us-payrolls-boost-rate-hike-bets-inflation-data-focus-2026-09-07/",
           "source": "Reuters",
-          "date": "2026-09-04"
+          "date": "2026-09-07"
         },
         {
-          "title": "Fed governor Waller muddies outlook on possible rate hike later this month",
-          "url": "https://www.pbs.org/newshour/economy/fed-governor-waller-muddies-outlook-on-possible-rate-hike-later-this-month",
-          "source": "PBS News",
-          "date": "2026-09-03"
+          "title": "Citigroup delays Fed rate-cut forecast to 2027 after strong U.S. jobs report",
+          "url": "https://www.reuters.com/business/citigroup-delays-fed-rate-cut-forecast-2027-after-strong-us-jobs-report-2026-09-04/",
+          "source": "Reuters",
+          "date": "2026-09-04"
         }
       ]
     },
@@ -176,6 +188,12 @@
         "sign": "pos"
       },
       "news": [
+        {
+          "title": "Jobs report August 2026:",
+          "url": "https://www.cnbc.com/2026/09/04/jobs-report-august-2026.html",
+          "source": "CNBC",
+          "date": "2026-09-04"
+        },
         {
           "title": "Stock Futures Rise Ahead of August Jobs Report",
           "url": "https://markets.businessinsider.com/news/stocks/stock-futures-rise-ahead-of-august-jobs-report-1036522657",
@@ -269,13 +287,13 @@
       ]
     },
     "sp500": {
-      "value": 7747.71,
-      "date": "2026-09-03",
+      "value": 7718.6,
+      "date": "2026-09-04",
       "label": "Sep 2026",
-      "display": "7,748",
-      "reading": "Sep 2026: 7,748, up from 7,686 in Aug 2026 \u2014 its highest reading in 12 months.",
+      "display": "7,719",
+      "reading": "Sep 2026: 7,719, up from 7,686 in Aug 2026 \u2014 its highest reading in 12 months.",
       "change": {
-        "text": "\u2191 13.2% YTD",
+        "text": "\u2191 12.8% YTD",
         "sign": "pos"
       },
       "news": [
@@ -286,27 +304,27 @@
           "date": "2026-09-02"
         },
         {
-          "title": "Shipping Stocks Have Surged More Than Two Thirds % in 2026. Now Investors Must Decide If the Rally Can Last.",
-          "url": "https://www.ibtimes.com/shipping-stocks-have-surged-more-two-thirds-2026-now-investors-must-decide-if-rally-can-last-3807114",
-          "source": "International Business Times",
+          "title": "Bloom Energy, Illumina, Everpure Rise On S&P 500 Index Inclusion",
+          "url": "https://www.investors.com/news/bloom-energy-illumina-everpure-rise-sp-500-index-inclusion/",
+          "source": "Investor's Business Daily",
           "date": "2026-09-04"
         },
         {
-          "title": "Stocks rise on Wall Street as bond yields ease some more, even while oil prices continue to climb",
-          "url": "https://www.ajc.com/news/2026/09/us-stocks-open-higher-while-oil-prices-continue-to-climb/",
+          "title": "Stocks fall after a surprisingly strong jobs report raises prospects of an interest rate hike",
+          "url": "https://www.ajc.com/news/2026/09/stocks-fall-after-a-surprisingly-strong-jobs-report-raises-prospects-of-an-interest-rate-hike/",
           "source": "The Atlanta Journal-Constitution",
-          "date": "2026-09-03"
+          "date": "2026-09-04"
         }
       ]
     },
     "nasdaq": {
-      "value": 26584.06,
-      "date": "2026-09-03",
+      "value": 26506.99,
+      "date": "2026-09-04",
       "label": "Sep 2026",
-      "display": "26,584",
-      "reading": "Sep 2026: 26,584, up from 26,371 in Aug 2026.",
+      "display": "26,507",
+      "reading": "Sep 2026: 26,507, up from 26,371 in Aug 2026.",
       "change": {
-        "text": "\u2191 14.4% YTD",
+        "text": "\u2191 14.0% YTD",
         "sign": "pos"
       },
       "news": [
@@ -342,22 +360,22 @@
       },
       "news": [
         {
+          "title": "Stocks fall after a surprisingly strong jobs report raises prospects of an interest rate hike",
+          "url": "https://www.ajc.com/news/2026/09/stocks-fall-after-a-surprisingly-strong-jobs-report-raises-prospects-of-an-interest-rate-hike/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-09-04"
+        },
+        {
+          "title": "Stocks fall after a surprisingly strong jobs report raises prospects of an interest rate hike",
+          "url": "https://www.ajc.com/news/2026/09/stocks-wobble-after-a-surprisingly-strong-jobs-report-raises-prospects-of-an-interest-rate-hike/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-09-04"
+        },
+        {
           "title": "Dow Jones Futures: Stocks Jump On Fed's Waller; Tesla Cybercab, Jobs Report In Focus",
           "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-fed-waller-tesla-cybercab-jobs-report/",
           "source": "Investor's Business Daily",
           "date": "2026-09-03"
-        },
-        {
-          "title": "US stocks open higher while oil prices continue to climb",
-          "url": "https://www.ajc.com/news/2026/09/us-futures-mostly-lower-and-oil-prices-climb-due-to-ongoing-clashes-around-iran/",
-          "source": "The Atlanta Journal-Constitution",
-          "date": "2026-09-03"
-        },
-        {
-          "title": "Stocks Settle Higher as Bond Yields Stabilize",
-          "url": "https://www.barchart.com/story/news/4409423/stocks-settle-higher-as-bond-yields-stabilize",
-          "source": "Barchart",
-          "date": "2026-09-02"
         }
       ]
     }
@@ -17814,7 +17832,7 @@
         "2026-06-30",
         "2026-07-31",
         "2026-08-31",
-        "2026-09-03"
+        "2026-09-04"
       ],
       "values": [
         2168.27,
@@ -17937,7 +17955,7 @@
         7499.36,
         7489.72,
         7686.14,
-        7747.71
+        7718.6
       ],
       "freq": "monthly"
     },
@@ -18083,7 +18101,7 @@
         "2026-06-30",
         "2026-07-31",
         "2026-08-31",
-        "2026-09-03"
+        "2026-09-04"
       ],
       "values": [
         4635.24,
@@ -18226,7 +18244,7 @@
         26213.72,
         25373.85,
         26370.89,
-        26584.06
+        26506.99
       ],
       "freq": "monthly"
     },
