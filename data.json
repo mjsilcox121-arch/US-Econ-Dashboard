@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-07T23:20:48Z",
+  "updated": "2026-09-08T23:14:56Z",
   "metrics": {
     "gdp": {
       "value": 1.5,
@@ -137,7 +137,7 @@
     },
     "ffr": {
       "value": 3.63,
-      "date": "2026-09-03",
+      "date": "2026-09-07",
       "label": "Sep 2026",
       "display": "3.63%",
       "reading": "Sep 2026: 3.63%, unchanged from 3.63% in Sep 2026 \u2014 its highest reading in 12 months.",
@@ -146,6 +146,12 @@
         "sign": "flat"
       },
       "news": [
+        {
+          "title": "Trump's baffling Fed threat could be gift to Warsh",
+          "url": "https://www.reuters.com/commentary/reuters-open-interest/trumps-baffling-fed-threat-could-be-gift-to-warsh-mike-dolan-2026-09-08/",
+          "source": "Reuters",
+          "date": "2026-09-08"
+        },
         {
           "title": "UBS forecasts two US Fed rate hikes in 2026 after strong jobs report",
           "url": "https://www.reuters.com/business/ubs-forecasts-two-us-fed-rate-hikes-2026-after-strong-jobs-report-2026-09-07/",
@@ -157,23 +163,17 @@
           "url": "https://www.reuters.com/world/india/gold-eases-robust-us-payrolls-boost-rate-hike-bets-inflation-data-focus-2026-09-07/",
           "source": "Reuters",
           "date": "2026-09-07"
-        },
-        {
-          "title": "Citigroup delays Fed rate-cut forecast to 2027 after strong U.S. jobs report",
-          "url": "https://www.reuters.com/business/citigroup-delays-fed-rate-cut-forecast-2027-after-strong-us-jobs-report-2026-09-04/",
-          "source": "Reuters",
-          "date": "2026-09-04"
         }
       ]
     },
     "ten": {
-      "value": 4.77,
-      "date": "2026-09-03",
+      "value": 4.78,
+      "date": "2026-09-04",
       "label": "Sep 2026",
-      "display": "4.77%",
-      "reading": "Sep 2026: 4.77%, down from 4.79% in Sep 2026.",
+      "display": "4.78%",
+      "reading": "Sep 2026: 4.78%, up from 4.77% in Sep 2026.",
       "change": {
-        "text": "\u2193 from 4.79%",
+        "text": "\u2191 from 4.77%",
         "sign": "flat"
       }
     },
@@ -277,12 +277,6 @@
           "url": "https://www.ibtimes.com/consumer-sentiment-drops-sharply-august-its-more-10-points-lower-2025-3806911",
           "source": "International Business Times",
           "date": "2026-08-28"
-        },
-        {
-          "title": "Consumer Sentiment Falls In August",
-          "url": "https://seekingalpha.com/article/4937507-consumer-sentiment-falls-in-august",
-          "source": "Seeking Alpha",
-          "date": "2026-08-18"
         }
       ]
     },
@@ -298,21 +292,21 @@
       },
       "news": [
         {
-          "title": "Stocks stumbled out of the gate in September. Use these hedges, Evercore ISI says",
-          "url": "https://www.cnbc.com/2026/09/02/stocks-stumble-out-of-the-gate-in-september-use-these-hedges-evercore-isi-says.html",
-          "source": "CNBC",
-          "date": "2026-09-02"
+          "title": "Prepare for These Three Stocks to Join the S&P 500 on September 21",
+          "url": "https://markets.businessinsider.com/news/stocks/prepare-for-these-three-stocks-to-join-the-s-p-500-on-september-21-1036526851",
+          "source": "Markets Insider",
+          "date": "2026-09-07"
+        },
+        {
+          "title": "The Coming 10 Year Decline In Stocks",
+          "url": "https://seekingalpha.com/article/4943542-the-coming-10-year-decline-in-stocks",
+          "source": "Seeking Alpha",
+          "date": "2026-09-07"
         },
         {
           "title": "Bloom Energy, Illumina, Everpure Rise On S&P 500 Index Inclusion",
           "url": "https://www.investors.com/news/bloom-energy-illumina-everpure-rise-sp-500-index-inclusion/",
           "source": "Investor's Business Daily",
-          "date": "2026-09-04"
-        },
-        {
-          "title": "Stocks fall after a surprisingly strong jobs report raises prospects of an interest rate hike",
-          "url": "https://www.ajc.com/news/2026/09/stocks-fall-after-a-surprisingly-strong-jobs-report-raises-prospects-of-an-interest-rate-hike/",
-          "source": "The Atlanta Journal-Constitution",
           "date": "2026-09-04"
         }
       ]
@@ -349,13 +343,13 @@
       ]
     },
     "dow": {
-      "value": 53414.25,
-      "date": "2026-09-04",
+      "value": 52786.07,
+      "date": "2026-09-08",
       "label": "Sep 2026",
-      "display": "53,414",
-      "reading": "Sep 2026: 53,414, up from 53,186 in Aug 2026 \u2014 its highest reading in 12 months.",
+      "display": "52,786",
+      "reading": "Sep 2026: 52,786, down from 53,186 in Aug 2026.",
       "change": {
-        "text": "\u2191 11.1% YTD",
+        "text": "\u2191 9.8% YTD",
         "sign": "pos"
       },
       "news": [
@@ -6166,7 +6160,11 @@
         "2026-08-31",
         "2026-09-01",
         "2026-09-02",
-        "2026-09-03"
+        "2026-09-03",
+        "2026-09-04",
+        "2026-09-05",
+        "2026-09-06",
+        "2026-09-07"
       ],
       "values": [
         0.06,
@@ -10432,6 +10430,10 @@
         3.63,
         3.63,
         3.63,
+        3.63,
+        3.63,
+        3.63,
+        3.63,
         3.63
       ],
       "freq": "monthly"
@@ -13357,7 +13359,8 @@
         "2026-08-31",
         "2026-09-01",
         "2026-09-02",
-        "2026-09-03"
+        "2026-09-03",
+        "2026-09-04"
       ],
       "values": [
         2.12,
@@ -16279,7 +16282,8 @@
         4.75,
         4.79,
         4.79,
-        4.77
+        4.77,
+        4.78
       ],
       "freq": "monthly"
     },
@@ -18370,7 +18374,7 @@
         "2026-06-30",
         "2026-07-31",
         "2026-08-31",
-        "2026-09-04"
+        "2026-09-08"
       ],
       "values": [
         18308.15,
@@ -18493,7 +18497,7 @@
         52319.2,
         52485.03,
         53185.9,
-        53414.25
+        52786.07
       ],
       "freq": "monthly"
     }
