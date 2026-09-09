@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-08T23:14:56Z",
+  "updated": "2026-09-09T23:04:03Z",
   "metrics": {
     "gdp": {
       "value": 1.5,
@@ -137,7 +137,7 @@
     },
     "ffr": {
       "value": 3.63,
-      "date": "2026-09-07",
+      "date": "2026-09-08",
       "label": "Sep 2026",
       "display": "3.63%",
       "reading": "Sep 2026: 3.63%, unchanged from 3.63% in Sep 2026 \u2014 its highest reading in 12 months.",
@@ -167,13 +167,13 @@
       ]
     },
     "ten": {
-      "value": 4.78,
-      "date": "2026-09-04",
+      "value": 4.8,
+      "date": "2026-09-08",
       "label": "Sep 2026",
-      "display": "4.78%",
-      "reading": "Sep 2026: 4.78%, up from 4.77% in Sep 2026.",
+      "display": "4.80%",
+      "reading": "Sep 2026: 4.80%, up from 4.78% in Sep 2026 \u2014 its highest reading in 12 months.",
       "change": {
-        "text": "\u2191 from 4.77%",
+        "text": "\u2191 from 4.78%",
         "sign": "flat"
       }
     },
@@ -281,44 +281,44 @@
       ]
     },
     "sp500": {
-      "value": 7718.6,
-      "date": "2026-09-04",
+      "value": 7673.52,
+      "date": "2026-09-08",
       "label": "Sep 2026",
-      "display": "7,719",
-      "reading": "Sep 2026: 7,719, up from 7,686 in Aug 2026 \u2014 its highest reading in 12 months.",
+      "display": "7,674",
+      "reading": "Sep 2026: 7,674, down from 7,686 in Aug 2026.",
       "change": {
-        "text": "\u2191 12.8% YTD",
+        "text": "\u2191 12.1% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "Prepare for These Three Stocks to Join the S&P 500 on September 21",
-          "url": "https://markets.businessinsider.com/news/stocks/prepare-for-these-three-stocks-to-join-the-s-p-500-on-september-21-1036526851",
-          "source": "Markets Insider",
-          "date": "2026-09-07"
+          "title": "S&P 500 Rebalance: How AI Is Replacing Beer, Fries, and Housing Stocks",
+          "url": "https://www.businessinsider.com/sp500-rebalance-shows-ai-infrastructure-replacing-beer-fries-housing-stocks-2026-9",
+          "source": "Business Insider",
+          "date": "2026-09-09"
         },
         {
-          "title": "The Coming 10 Year Decline In Stocks",
-          "url": "https://seekingalpha.com/article/4943542-the-coming-10-year-decline-in-stocks",
-          "source": "Seeking Alpha",
-          "date": "2026-09-07"
+          "title": "Bloom Energy is trading more options than SpaceX",
+          "url": "https://www.cnbc.com/2026/09/08/bloom-energy-is-trading-more-options-than-spacex.html",
+          "source": "CNBC",
+          "date": "2026-09-08"
         },
         {
-          "title": "Bloom Energy, Illumina, Everpure Rise On S&P 500 Index Inclusion",
-          "url": "https://www.investors.com/news/bloom-energy-illumina-everpure-rise-sp-500-index-inclusion/",
-          "source": "Investor's Business Daily",
-          "date": "2026-09-04"
+          "title": "Jay Woods says two semi stocks may signal market's path forward",
+          "url": "https://www.cnbc.com/2026/09/08/jay-woods-says-two-semi-stocks-may-signal-markets-path-forward.html",
+          "source": "CNBC",
+          "date": "2026-09-08"
         }
       ]
     },
     "nasdaq": {
-      "value": 26506.99,
-      "date": "2026-09-04",
+      "value": 26421.41,
+      "date": "2026-09-08",
       "label": "Sep 2026",
-      "display": "26,507",
-      "reading": "Sep 2026: 26,507, up from 26,371 in Aug 2026.",
+      "display": "26,421",
+      "reading": "Sep 2026: 26,421, up from 26,371 in Aug 2026.",
       "change": {
-        "text": "\u2191 14.0% YTD",
+        "text": "\u2191 13.7% YTD",
         "sign": "pos"
       },
       "news": [
@@ -343,33 +343,33 @@
       ]
     },
     "dow": {
-      "value": 52786.07,
-      "date": "2026-09-08",
+      "value": 52380.66,
+      "date": "2026-09-09",
       "label": "Sep 2026",
-      "display": "52,786",
-      "reading": "Sep 2026: 52,786, down from 53,186 in Aug 2026.",
+      "display": "52,381",
+      "reading": "Sep 2026: 52,381, down from 53,186 in Aug 2026.",
       "change": {
-        "text": "\u2191 9.8% YTD",
+        "text": "\u2191 9.0% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "Stocks fall after a surprisingly strong jobs report raises prospects of an interest rate hike",
-          "url": "https://www.ajc.com/news/2026/09/stocks-fall-after-a-surprisingly-strong-jobs-report-raises-prospects-of-an-interest-rate-hike/",
+          "title": "Asian shares are mixed as Brent crude approaches $100 a barrel",
+          "url": "https://www.ajc.com/news/2026/09/asian-shares-are-mixed-as-brent-crude-approaches-100-a-barrel/",
           "source": "The Atlanta Journal-Constitution",
-          "date": "2026-09-04"
+          "date": "2026-09-09"
         },
         {
-          "title": "Stocks fall after a surprisingly strong jobs report raises prospects of an interest rate hike",
-          "url": "https://www.ajc.com/news/2026/09/stocks-wobble-after-a-surprisingly-strong-jobs-report-raises-prospects-of-an-interest-rate-hike/",
+          "title": "Oil prices keep rising and weigh on Wall Street",
+          "url": "https://www.ajc.com/news/2026/09/oil-prices-keep-rising-and-weigh-on-wall-street-4/",
           "source": "The Atlanta Journal-Constitution",
-          "date": "2026-09-04"
+          "date": "2026-09-08"
         },
         {
-          "title": "Dow Jones Futures: Stocks Jump On Fed's Waller; Tesla Cybercab, Jobs Report In Focus",
-          "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-fed-waller-tesla-cybercab-jobs-report/",
+          "title": "Dow Jones Futures: Dow Breaks Support But AMD, HPE Are New Buys; Apple iPhone Event Due",
+          "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-oil-prices-amd-hpe-new-buys-apple-iphone-event/",
           "source": "Investor's Business Daily",
-          "date": "2026-09-03"
+          "date": "2026-09-08"
         }
       ]
     }
@@ -6164,7 +6164,8 @@
         "2026-09-04",
         "2026-09-05",
         "2026-09-06",
-        "2026-09-07"
+        "2026-09-07",
+        "2026-09-08"
       ],
       "values": [
         0.06,
@@ -10434,6 +10435,7 @@
         3.63,
         3.63,
         3.63,
+        3.63,
         3.63
       ],
       "freq": "monthly"
@@ -13360,7 +13362,8 @@
         "2026-09-01",
         "2026-09-02",
         "2026-09-03",
-        "2026-09-04"
+        "2026-09-04",
+        "2026-09-08"
       ],
       "values": [
         2.12,
@@ -16283,7 +16286,8 @@
         4.79,
         4.79,
         4.77,
-        4.78
+        4.78,
+        4.8
       ],
       "freq": "monthly"
     },
@@ -17836,7 +17840,7 @@
         "2026-06-30",
         "2026-07-31",
         "2026-08-31",
-        "2026-09-04"
+        "2026-09-08"
       ],
       "values": [
         2168.27,
@@ -17959,7 +17963,7 @@
         7499.36,
         7489.72,
         7686.14,
-        7718.6
+        7673.52
       ],
       "freq": "monthly"
     },
@@ -18105,7 +18109,7 @@
         "2026-06-30",
         "2026-07-31",
         "2026-08-31",
-        "2026-09-04"
+        "2026-09-08"
       ],
       "values": [
         4635.24,
@@ -18248,7 +18252,7 @@
         26213.72,
         25373.85,
         26370.89,
-        26506.99
+        26421.41
       ],
       "freq": "monthly"
     },
@@ -18374,7 +18378,7 @@
         "2026-06-30",
         "2026-07-31",
         "2026-08-31",
-        "2026-09-08"
+        "2026-09-09"
       ],
       "values": [
         18308.15,
@@ -18497,7 +18501,7 @@
         52319.2,
         52485.03,
         53185.9,
-        52786.07
+        52380.66
       ],
       "freq": "monthly"
     }
