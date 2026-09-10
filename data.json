@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-09T23:04:03Z",
+  "updated": "2026-09-10T22:59:31Z",
   "metrics": {
     "gdp": {
       "value": 1.5,
@@ -91,7 +91,15 @@
       "change": {
         "text": "\u2193 from +2.6%",
         "sign": "pos"
-      }
+      },
+      "news": [
+        {
+          "title": "Taiwan Dollar: Range trade expected after CPI surprise against US Dollar - Commerzbank",
+          "url": "https://www.europesays.com/3242371/",
+          "source": "EUROPE SAYS",
+          "date": "2026-09-09"
+        }
+      ]
     },
     "pce": {
       "value": 3.7012,
@@ -137,7 +145,7 @@
     },
     "ffr": {
       "value": 3.63,
-      "date": "2026-09-08",
+      "date": "2026-09-09",
       "label": "Sep 2026",
       "display": "3.63%",
       "reading": "Sep 2026: 3.63%, unchanged from 3.63% in Sep 2026 \u2014 its highest reading in 12 months.",
@@ -167,13 +175,13 @@
       ]
     },
     "ten": {
-      "value": 4.8,
-      "date": "2026-09-08",
+      "value": 4.83,
+      "date": "2026-09-09",
       "label": "Sep 2026",
-      "display": "4.80%",
-      "reading": "Sep 2026: 4.80%, up from 4.78% in Sep 2026 \u2014 its highest reading in 12 months.",
+      "display": "4.83%",
+      "reading": "Sep 2026: 4.83%, up from 4.80% in Sep 2026 \u2014 its highest reading in 12 months.",
       "change": {
-        "text": "\u2191 from 4.78%",
+        "text": "\u2191 from 4.80%",
         "sign": "flat"
       }
     },
@@ -281,13 +289,13 @@
       ]
     },
     "sp500": {
-      "value": 7673.52,
-      "date": "2026-09-08",
+      "value": 7636.36,
+      "date": "2026-09-09",
       "label": "Sep 2026",
-      "display": "7,674",
-      "reading": "Sep 2026: 7,674, down from 7,686 in Aug 2026.",
+      "display": "7,636",
+      "reading": "Sep 2026: 7,636, down from 7,686 in Aug 2026.",
       "change": {
-        "text": "\u2191 12.1% YTD",
+        "text": "\u2191 11.6% YTD",
         "sign": "pos"
       },
       "news": [
@@ -298,27 +306,27 @@
           "date": "2026-09-09"
         },
         {
-          "title": "Bloom Energy is trading more options than SpaceX",
-          "url": "https://www.cnbc.com/2026/09/08/bloom-energy-is-trading-more-options-than-spacex.html",
-          "source": "CNBC",
-          "date": "2026-09-08"
+          "title": "How major US stock indexes fared Wednesday 9",
+          "url": "https://wtop.com/national/2026/09/how-major-us-stock-indexes-fared-wednesday-9-9-2026/",
+          "source": "WTOP",
+          "date": "2026-09-09"
         },
         {
-          "title": "Jay Woods says two semi stocks may signal market's path forward",
-          "url": "https://www.cnbc.com/2026/09/08/jay-woods-says-two-semi-stocks-may-signal-markets-path-forward.html",
-          "source": "CNBC",
-          "date": "2026-09-08"
+          "title": "Stocks fall on Wall Street as oil prices jump back above $100 a barrel after Iran war escalates",
+          "url": "https://www.ajc.com/news/2026/09/stocks-fall-on-wall-street-as-oil-prices-jump-back-above-100-a-barrel-after-iran-war-escalates/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-09-09"
         }
       ]
     },
     "nasdaq": {
-      "value": 26421.41,
-      "date": "2026-09-08",
+      "value": 26253.34,
+      "date": "2026-09-09",
       "label": "Sep 2026",
-      "display": "26,421",
-      "reading": "Sep 2026: 26,421, up from 26,371 in Aug 2026.",
+      "display": "26,253",
+      "reading": "Sep 2026: 26,253, down from 26,371 in Aug 2026.",
       "change": {
-        "text": "\u2191 13.7% YTD",
+        "text": "\u2191 13.0% YTD",
         "sign": "pos"
       },
       "news": [
@@ -343,33 +351,33 @@
       ]
     },
     "dow": {
-      "value": 52380.66,
-      "date": "2026-09-09",
+      "value": 52064.1,
+      "date": "2026-09-10",
       "label": "Sep 2026",
-      "display": "52,381",
-      "reading": "Sep 2026: 52,381, down from 53,186 in Aug 2026.",
+      "display": "52,064",
+      "reading": "Sep 2026: 52,064, down from 53,186 in Aug 2026.",
       "change": {
-        "text": "\u2191 9.0% YTD",
+        "text": "\u2191 8.3% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "Asian shares are mixed as Brent crude approaches $100 a barrel",
-          "url": "https://www.ajc.com/news/2026/09/asian-shares-are-mixed-as-brent-crude-approaches-100-a-barrel/",
-          "source": "The Atlanta Journal-Constitution",
+          "title": "How major US stock indexes fared Wednesday 9",
+          "url": "https://wtop.com/national/2026/09/how-major-us-stock-indexes-fared-wednesday-9-9-2026/",
+          "source": "WTOP",
           "date": "2026-09-09"
         },
         {
-          "title": "Oil prices keep rising and weigh on Wall Street",
-          "url": "https://www.ajc.com/news/2026/09/oil-prices-keep-rising-and-weigh-on-wall-street-4/",
-          "source": "The Atlanta Journal-Constitution",
-          "date": "2026-09-08"
+          "title": "Dow Jones Futures: Oil Prices, Yields Hit Stocks, With Meta, SpaceX Key Movers. Apple Unfolds iPhone, Inflation Data Due",
+          "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-oil-prices-yields-meta-spacex-apple-iphone-inflation-data/",
+          "source": "Investor's Business Daily",
+          "date": "2026-09-09"
         },
         {
-          "title": "Dow Jones Futures: Dow Breaks Support But AMD, HPE Are New Buys; Apple iPhone Event Due",
-          "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-oil-prices-amd-hpe-new-buys-apple-iphone-event/",
-          "source": "Investor's Business Daily",
-          "date": "2026-09-08"
+          "title": "Stocks fall on Wall Street as oil prices jump back above $100 a barrel after Iran war escalates",
+          "url": "https://www.ajc.com/news/2026/09/stocks-fall-on-wall-street-as-oil-prices-jump-back-above-100-a-barrel-after-iran-war-escalates/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-09-09"
         }
       ]
     }
@@ -6165,7 +6173,8 @@
         "2026-09-05",
         "2026-09-06",
         "2026-09-07",
-        "2026-09-08"
+        "2026-09-08",
+        "2026-09-09"
       ],
       "values": [
         0.06,
@@ -10436,6 +10445,7 @@
         3.63,
         3.63,
         3.63,
+        3.63,
         3.63
       ],
       "freq": "monthly"
@@ -13363,7 +13373,8 @@
         "2026-09-02",
         "2026-09-03",
         "2026-09-04",
-        "2026-09-08"
+        "2026-09-08",
+        "2026-09-09"
       ],
       "values": [
         2.12,
@@ -16287,7 +16298,8 @@
         4.79,
         4.77,
         4.78,
-        4.8
+        4.8,
+        4.83
       ],
       "freq": "monthly"
     },
@@ -17840,7 +17852,7 @@
         "2026-06-30",
         "2026-07-31",
         "2026-08-31",
-        "2026-09-08"
+        "2026-09-09"
       ],
       "values": [
         2168.27,
@@ -17963,7 +17975,7 @@
         7499.36,
         7489.72,
         7686.14,
-        7673.52
+        7636.36
       ],
       "freq": "monthly"
     },
@@ -18109,7 +18121,7 @@
         "2026-06-30",
         "2026-07-31",
         "2026-08-31",
-        "2026-09-08"
+        "2026-09-09"
       ],
       "values": [
         4635.24,
@@ -18252,7 +18264,7 @@
         26213.72,
         25373.85,
         26370.89,
-        26421.41
+        26253.34
       ],
       "freq": "monthly"
     },
@@ -18378,7 +18390,7 @@
         "2026-06-30",
         "2026-07-31",
         "2026-08-31",
-        "2026-09-09"
+        "2026-09-10"
       ],
       "values": [
         18308.15,
@@ -18501,7 +18513,7 @@
         52319.2,
         52485.03,
         53185.9,
-        52380.66
+        52064.1
       ],
       "freq": "monthly"
     }
