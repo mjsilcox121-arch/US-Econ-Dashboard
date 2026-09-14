@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-11T23:03:54Z",
+  "updated": "2026-09-14T23:43:40Z",
   "metrics": {
     "gdp": {
       "value": 1.5,
@@ -63,22 +63,22 @@
       },
       "news": [
         {
-          "title": "\u2060Gold on track for third weekly loss as US inflation data looms\u200b\u200c",
-          "url": "https://www.reuters.com/world/india/gold-track-third-weekly-loss-us-inflation-data-looms-2026-09-11/",
-          "source": "Reuters",
+          "title": "US inflation picked up as gas prices marched higher due to conflict in the Middle East",
+          "url": "https://www.shawlocal.com/news/2026/09/11/us-inflation-picked-up-as-gas-prices-marched-higher-due-to-conflict-in-the-middle-east/",
+          "source": "Shaw Local Enewspapers",
           "date": "2026-09-11"
         },
         {
-          "title": "Friday's CPI inflation report is even more important than usual. Here's what to expect",
-          "url": "https://www.cnbc.com/2026/09/10/fridays-cpi-inflation-report-is-even-more-important-than-usual-heres-what-to-expect.html",
+          "title": "CPI inflation report August 2026:",
+          "url": "https://www.cnbc.com/2026/09/11/cpi-inflation-report-august-2026.html",
           "source": "CNBC",
-          "date": "2026-09-10"
+          "date": "2026-09-11"
         },
         {
-          "title": "US CPI, where the significant and the silly collide",
-          "url": "https://www.reuters.com/commentary/reuters-open-interest/us-cpi-where-significant-meets-silly-2026-09-10/",
-          "source": "Reuters",
-          "date": "2026-09-10"
+          "title": "Fed Chairman Warsh faces pressure to \u2018put up or shut up\u2019 after hot CPI report",
+          "url": "https://www.courant.com/2026/09/12/fed-chairman-warsh-faces-pressure-to-put-up-or-shut-up-after-hot-cpi-report-3/",
+          "source": "Hartford Courant",
+          "date": "2026-09-12"
         }
       ]
     },
@@ -145,7 +145,7 @@
     },
     "ffr": {
       "value": 3.63,
-      "date": "2026-09-10",
+      "date": "2026-09-11",
       "label": "Sep 2026",
       "display": "3.63%",
       "reading": "Sep 2026: 3.63%, unchanged from 3.63% in Sep 2026 \u2014 its highest reading in 12 months.",
@@ -155,33 +155,33 @@
       },
       "news": [
         {
-          "title": "Wall St Week Ahead Investors brace for possible rate hike at uncertain Fed meeting",
-          "url": "https://www.reuters.com/business/wall-st-week-ahead-investors-brace-possible-rate-hike-uncertain-fed-meeting-2026-09-11/",
+          "title": "Ahead of Fed meeting, Trump says US should have world's lowest interest rate",
+          "url": "https://www.reuters.com/business/ahead-fed-meeting-trump-says-us-should-have-worlds-lowest-interest-rate-2026-09-13/",
+          "source": "Reuters",
+          "date": "2026-09-13"
+        },
+        {
+          "title": "US consumer prices accelerate in August, push Fed closer to rate hike",
+          "url": "https://www.reuters.com/world/us/us-consumer-inflation-picks-up-august-2026-09-11/",
           "source": "Reuters",
           "date": "2026-09-11"
         },
         {
-          "title": "Take Five: Rates, risks and rivalries",
-          "url": "https://www.reuters.com/business/take-five/global-markets-themes-graphic-2026-09-11/",
-          "source": "Reuters",
-          "date": "2026-09-11"
-        },
-        {
-          "title": "US producer prices increase as expected in August; but key details firmer",
-          "url": "https://www.reuters.com/business/us-producer-prices-increase-expected-august-2026-09-10/",
-          "source": "Reuters",
-          "date": "2026-09-10"
+          "title": "The Fed is preparing to raise rates. What if it doesn\u2019t work?",
+          "url": "https://edition.cnn.com/2026/09/14/economy/federal-reserve-ai-inflation-rate-hike",
+          "source": "Cable News Network",
+          "date": "2026-09-14"
         }
       ]
     },
     "ten": {
-      "value": 4.95,
-      "date": "2026-09-10",
+      "value": 4.96,
+      "date": "2026-09-11",
       "label": "Sep 2026",
-      "display": "4.95%",
-      "reading": "Sep 2026: 4.95%, up from 4.83% in Sep 2026 \u2014 its highest reading in 12 months.",
+      "display": "4.96%",
+      "reading": "Sep 2026: 4.96%, up from 4.95% in Sep 2026 \u2014 its highest reading in 12 months.",
       "change": {
-        "text": "\u2191 from 4.83%",
+        "text": "\u2191 from 4.95%",
         "sign": "flat"
       }
     },
@@ -275,44 +275,44 @@
       ]
     },
     "sp500": {
-      "value": 7591.7,
-      "date": "2026-09-10",
+      "value": 7656.98,
+      "date": "2026-09-11",
       "label": "Sep 2026",
-      "display": "7,592",
-      "reading": "Sep 2026: 7,592, down from 7,686 in Aug 2026.",
+      "display": "7,657",
+      "reading": "Sep 2026: 7,657, down from 7,686 in Aug 2026.",
       "change": {
-        "text": "\u2191 10.9% YTD",
+        "text": "\u2191 11.9% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "S&P 500 Rebalance: How AI Is Replacing Beer, Fries, and Housing Stocks",
-          "url": "https://www.businessinsider.com/sp500-rebalance-shows-ai-infrastructure-replacing-beer-fries-housing-stocks-2026-9",
-          "source": "Business Insider",
-          "date": "2026-09-09"
+          "title": "From Fashion to Concrete: J.P. Morgan Says Buy These 2 Stocks",
+          "url": "https://markets.businessinsider.com/news/stocks/from-fashion-to-concrete-j-p-morgan-says-buy-these-2-stocks-1036541394",
+          "source": "Markets Insider",
+          "date": "2026-09-13"
         },
         {
-          "title": "How major US stock indexes fared Thursday 9",
-          "url": "https://wtop.com/national/2026/09/how-major-us-stock-indexes-fared-thursday-9-10-2026/",
-          "source": "WTOP",
-          "date": "2026-09-10"
-        },
-        {
-          "title": "Oil prices leap to their highest since May and drag Wall Street lower",
-          "url": "https://www.ajc.com/news/2026/09/oil-prices-leap-to-their-highest-since-may-and-drag-wall-street-lower/",
+          "title": "US stocks jump after oil prices ease and inflation update comes in near expectations",
+          "url": "https://www.ajc.com/news/2026/09/us-stocks-jump-after-oil-prices-ease-and-inflation-update-comes-in-near-expectations/",
           "source": "The Atlanta Journal-Constitution",
-          "date": "2026-09-10"
+          "date": "2026-09-11"
+        },
+        {
+          "title": "Wall Street heads for gains after oil prices ease and inflation update comes in near expectations",
+          "url": "https://www.ajc.com/news/2026/09/us-futures-up-oil-prices-down-ahead-of-one-of-the-more-crucial-reads-on-inflation-in-years/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-09-11"
         }
       ]
     },
     "nasdaq": {
-      "value": 26081.72,
-      "date": "2026-09-10",
+      "value": 26333.04,
+      "date": "2026-09-11",
       "label": "Sep 2026",
-      "display": "26,082",
-      "reading": "Sep 2026: 26,082, down from 26,371 in Aug 2026.",
+      "display": "26,333",
+      "reading": "Sep 2026: 26,333, down from 26,371 in Aug 2026.",
       "change": {
-        "text": "\u2191 12.2% YTD",
+        "text": "\u2191 13.3% YTD",
         "sign": "pos"
       },
       "news": [
@@ -337,33 +337,33 @@
       ]
     },
     "dow": {
-      "value": 52573.29,
-      "date": "2026-09-11",
+      "value": 52449.0,
+      "date": "2026-09-14",
       "label": "Sep 2026",
-      "display": "52,573",
-      "reading": "Sep 2026: 52,573, down from 53,186 in Aug 2026.",
+      "display": "52,449",
+      "reading": "Sep 2026: 52,449, down from 53,186 in Aug 2026.",
       "change": {
-        "text": "\u2191 9.4% YTD",
+        "text": "\u2191 9.1% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "Stock Market Trips As Nasdaq Makes Key Test Before CPI Data; Apple Shines",
-          "url": "https://www.investors.com/market-trend/the-big-picture/stock-market-extends-losses-nasdaq-cpi-report-apple-stock/",
+          "title": "Dow Jones Futures: Fed Rate Hike Seen As Oil, Yields Pressure Stocks; Apple, Moderna Are New Buys",
+          "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-100-oil-surging-yields-pressure-stocks-with-fed-rate-hike-seen-apple-leads-new-buys/",
           "source": "Investor's Business Daily",
-          "date": "2026-09-10"
+          "date": "2026-09-11"
         },
         {
-          "title": "How major US stock indexes fared Thursday 9",
-          "url": "https://wtop.com/national/2026/09/how-major-us-stock-indexes-fared-thursday-9-10-2026/",
-          "source": "WTOP",
-          "date": "2026-09-10"
-        },
-        {
-          "title": "Oil prices leap to their highest since May and drag Wall Street lower",
-          "url": "https://www.ajc.com/news/2026/09/oil-prices-leap-to-their-highest-since-may-and-drag-wall-street-lower/",
+          "title": "US stocks jump after oil prices ease and inflation update comes in near expectations",
+          "url": "https://www.ajc.com/news/2026/09/us-stocks-jump-after-oil-prices-ease-and-inflation-update-comes-in-near-expectations/",
           "source": "The Atlanta Journal-Constitution",
-          "date": "2026-09-10"
+          "date": "2026-09-11"
+        },
+        {
+          "title": "Wall Street heads for gains after oil prices ease and inflation update comes in near expectations",
+          "url": "https://www.ajc.com/news/2026/09/us-futures-up-oil-prices-down-ahead-of-one-of-the-more-crucial-reads-on-inflation-in-years/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-09-11"
         }
       ]
     }
@@ -6165,7 +6165,8 @@
         "2026-09-07",
         "2026-09-08",
         "2026-09-09",
-        "2026-09-10"
+        "2026-09-10",
+        "2026-09-11"
       ],
       "values": [
         0.06,
@@ -10438,6 +10439,7 @@
         3.63,
         3.63,
         3.63,
+        3.63,
         3.63
       ],
       "freq": "monthly"
@@ -13367,7 +13369,8 @@
         "2026-09-04",
         "2026-09-08",
         "2026-09-09",
-        "2026-09-10"
+        "2026-09-10",
+        "2026-09-11"
       ],
       "values": [
         2.12,
@@ -16293,7 +16296,8 @@
         4.78,
         4.8,
         4.83,
-        4.95
+        4.95,
+        4.96
       ],
       "freq": "monthly"
     },
@@ -17846,7 +17850,7 @@
         "2026-06-30",
         "2026-07-31",
         "2026-08-31",
-        "2026-09-10"
+        "2026-09-11"
       ],
       "values": [
         2168.27,
@@ -17969,7 +17973,7 @@
         7499.36,
         7489.72,
         7686.14,
-        7591.7
+        7656.98
       ],
       "freq": "monthly"
     },
@@ -18115,7 +18119,7 @@
         "2026-06-30",
         "2026-07-31",
         "2026-08-31",
-        "2026-09-10"
+        "2026-09-11"
       ],
       "values": [
         4635.24,
@@ -18258,7 +18262,7 @@
         26213.72,
         25373.85,
         26370.89,
-        26081.72
+        26333.04
       ],
       "freq": "monthly"
     },
@@ -18384,7 +18388,7 @@
         "2026-06-30",
         "2026-07-31",
         "2026-08-31",
-        "2026-09-11"
+        "2026-09-14"
       ],
       "values": [
         18308.15,
@@ -18507,7 +18511,7 @@
         52319.2,
         52485.03,
         53185.9,
-        52573.29
+        52449.0
       ],
       "freq": "monthly"
     }
