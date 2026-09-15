@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-14T23:43:40Z",
+  "updated": "2026-09-15T23:27:27Z",
   "metrics": {
     "gdp": {
       "value": 1.5,
@@ -145,7 +145,7 @@
     },
     "ffr": {
       "value": 3.63,
-      "date": "2026-09-11",
+      "date": "2026-09-14",
       "label": "Sep 2026",
       "display": "3.63%",
       "reading": "Sep 2026: 3.63%, unchanged from 3.63% in Sep 2026 \u2014 its highest reading in 12 months.",
@@ -155,33 +155,33 @@
       },
       "news": [
         {
-          "title": "Ahead of Fed meeting, Trump says US should have world's lowest interest rate",
-          "url": "https://www.reuters.com/business/ahead-fed-meeting-trump-says-us-should-have-worlds-lowest-interest-rate-2026-09-13/",
-          "source": "Reuters",
-          "date": "2026-09-13"
-        },
-        {
-          "title": "US consumer prices accelerate in August, push Fed closer to rate hike",
-          "url": "https://www.reuters.com/world/us/us-consumer-inflation-picks-up-august-2026-09-11/",
-          "source": "Reuters",
-          "date": "2026-09-11"
-        },
-        {
-          "title": "The Fed is preparing to raise rates. What if it doesn\u2019t work?",
-          "url": "https://edition.cnn.com/2026/09/14/economy/federal-reserve-ai-inflation-rate-hike",
-          "source": "Cable News Network",
+          "title": "What it means for your money",
+          "url": "https://www.cnbc.com/2026/09/14/fed-rate-hike-anticipated-what-it-means-for-your-money.html",
+          "source": "CNBC",
           "date": "2026-09-14"
+        },
+        {
+          "title": "Federal Reserve is expected to raise its benchmark rate, defying Trump's demands",
+          "url": "https://www.ajc.com/news/2026/09/federal-reserve-is-expected-to-raise-its-benchmark-rate-defying-trumps-demands/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-09-15"
+        },
+        {
+          "title": "Federal Reserve is expected to raise its benchmark rate, defying Trump's demands",
+          "url": "https://www.dallasnews.com/news/politics/article/federal-reserve-is-expected-to-raise-its-22432294.php",
+          "source": "The Dallas Morning News",
+          "date": "2026-09-15"
         }
       ]
     },
     "ten": {
-      "value": 4.96,
-      "date": "2026-09-11",
+      "value": 4.97,
+      "date": "2026-09-14",
       "label": "Sep 2026",
-      "display": "4.96%",
-      "reading": "Sep 2026: 4.96%, up from 4.95% in Sep 2026 \u2014 its highest reading in 12 months.",
+      "display": "4.97%",
+      "reading": "Sep 2026: 4.97%, up from 4.96% in Sep 2026 \u2014 its highest reading in 12 months.",
       "change": {
-        "text": "\u2191 from 4.95%",
+        "text": "\u2191 from 4.96%",
         "sign": "flat"
       }
     },
@@ -275,95 +275,95 @@
       ]
     },
     "sp500": {
-      "value": 7656.98,
-      "date": "2026-09-11",
+      "value": 7619.98,
+      "date": "2026-09-14",
       "label": "Sep 2026",
-      "display": "7,657",
-      "reading": "Sep 2026: 7,657, down from 7,686 in Aug 2026.",
+      "display": "7,620",
+      "reading": "Sep 2026: 7,620, down from 7,686 in Aug 2026.",
       "change": {
-        "text": "\u2191 11.9% YTD",
+        "text": "\u2191 11.3% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "From Fashion to Concrete: J.P. Morgan Says Buy These 2 Stocks",
-          "url": "https://markets.businessinsider.com/news/stocks/from-fashion-to-concrete-j-p-morgan-says-buy-these-2-stocks-1036541394",
-          "source": "Markets Insider",
-          "date": "2026-09-13"
+          "title": "Asian shares trade mixed as markets continue to watch AI stocks and oil prices",
+          "url": "https://www.ajc.com/news/2026/09/asian-shares-trade-mixed-as-markets-continue-to-watch-ai-stocks-and-oil-prices/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-09-15"
         },
         {
-          "title": "US stocks jump after oil prices ease and inflation update comes in near expectations",
-          "url": "https://www.ajc.com/news/2026/09/us-stocks-jump-after-oil-prices-ease-and-inflation-update-comes-in-near-expectations/",
+          "title": "AI stocks drop, but the rest of Wall Street holds steadier after oil prices give back an early jump",
+          "url": "https://www.ajc.com/news/2026/09/ai-stocks-drop-but-the-rest-of-wall-street-holds-steadier-after-oil-prices-give-back-an-early-jump/",
           "source": "The Atlanta Journal-Constitution",
-          "date": "2026-09-11"
+          "date": "2026-09-14"
         },
         {
-          "title": "Wall Street heads for gains after oil prices ease and inflation update comes in near expectations",
-          "url": "https://www.ajc.com/news/2026/09/us-futures-up-oil-prices-down-ahead-of-one-of-the-more-crucial-reads-on-inflation-in-years/",
+          "title": "AI stocks drop on calls for a slowdown as rising oil prices push the 10-year yield to 5%",
+          "url": "https://www.ajc.com/news/2026/09/ai-stocks-drop-on-calls-for-a-slowdown-as-rising-oil-prices-push-the-10-year-yield-to-5/",
           "source": "The Atlanta Journal-Constitution",
-          "date": "2026-09-11"
+          "date": "2026-09-14"
         }
       ]
     },
     "nasdaq": {
-      "value": 26333.04,
-      "date": "2026-09-11",
+      "value": 26186.41,
+      "date": "2026-09-14",
       "label": "Sep 2026",
-      "display": "26,333",
-      "reading": "Sep 2026: 26,333, down from 26,371 in Aug 2026.",
+      "display": "26,186",
+      "reading": "Sep 2026: 26,186, down from 26,371 in Aug 2026.",
       "change": {
-        "text": "\u2191 13.3% YTD",
+        "text": "\u2191 12.7% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "Wall Street rises as tech stocks climb and oil prices, bond yields hold relatively steady",
-          "url": "https://www.ajc.com/news/2026/09/wall-street-rises-as-tech-stocks-climb-and-oil-prices-bond-yields-hold-relatively-steady/",
+          "title": "AI stocks drop on calls for a slowdown as rising oil prices push the 10-year yield to 5%",
+          "url": "https://www.ajc.com/news/2026/09/ai-stocks-drop-on-calls-for-a-global-slowdown-as-jumping-oil-prices-send-the-10-year-yield-to-5/",
           "source": "The Atlanta Journal-Constitution",
-          "date": "2026-09-02"
+          "date": "2026-09-14"
         },
         {
-          "title": "Asian shares decline after stocks slip on Wall Street, while global bond sell-off intensifies",
-          "url": "https://www.ajc.com/news/2026/09/asian-shares-decline-after-stocks-slip-on-wall-street-while-global-bond-sell-off-intensifies/",
-          "source": "The Atlanta Journal-Constitution",
-          "date": "2026-09-02"
+          "title": "Tech stocks slump after AI execs call for industry slowdown",
+          "url": "https://www.cbsnews.com/news/tech-stock-selloff-ai-warning/",
+          "source": "CBS News",
+          "date": "2026-09-14"
         },
         {
-          "title": "Stocks Supported by Strong Tech Earnings",
-          "url": "https://www.barchart.com/story/news/4219932/stocks-supported-by-strong-tech-earnings",
-          "source": "Barchart",
-          "date": "2026-08-27"
+          "title": "Tech stocks slump after AI execs call for industry slowdown",
+          "url": "https://www.cbsnews.com/sacramento/news/tech-stock-selloff-ai-warning/",
+          "source": "CBS News",
+          "date": "2026-09-14"
         }
       ]
     },
     "dow": {
-      "value": 52449.0,
-      "date": "2026-09-14",
+      "value": 52093.11,
+      "date": "2026-09-15",
       "label": "Sep 2026",
-      "display": "52,449",
-      "reading": "Sep 2026: 52,449, down from 53,186 in Aug 2026.",
+      "display": "52,093",
+      "reading": "Sep 2026: 52,093, down from 53,186 in Aug 2026.",
       "change": {
-        "text": "\u2191 9.1% YTD",
+        "text": "\u2191 8.4% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "Dow Jones Futures: Fed Rate Hike Seen As Oil, Yields Pressure Stocks; Apple, Moderna Are New Buys",
-          "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-100-oil-surging-yields-pressure-stocks-with-fed-rate-hike-seen-apple-leads-new-buys/",
-          "source": "Investor's Business Daily",
-          "date": "2026-09-11"
+          "title": "Asian shares trade mixed as markets continue to watch AI stocks and oil prices",
+          "url": "https://www.ajc.com/news/2026/09/asian-shares-trade-mixed-as-markets-continue-to-watch-ai-stocks-and-oil-prices/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-09-15"
         },
         {
-          "title": "US stocks jump after oil prices ease and inflation update comes in near expectations",
-          "url": "https://www.ajc.com/news/2026/09/us-stocks-jump-after-oil-prices-ease-and-inflation-update-comes-in-near-expectations/",
+          "title": "AI stocks drop, but the rest of Wall Street holds steadier after oil prices give back an early jump",
+          "url": "https://www.ajc.com/news/2026/09/ai-stocks-drop-but-the-rest-of-wall-street-holds-steadier-after-oil-prices-give-back-an-early-jump/",
           "source": "The Atlanta Journal-Constitution",
-          "date": "2026-09-11"
+          "date": "2026-09-14"
         },
         {
-          "title": "Wall Street heads for gains after oil prices ease and inflation update comes in near expectations",
-          "url": "https://www.ajc.com/news/2026/09/us-futures-up-oil-prices-down-ahead-of-one-of-the-more-crucial-reads-on-inflation-in-years/",
+          "title": "AI stocks drop on calls for a slowdown as rising oil prices push the 10-year yield to 5%",
+          "url": "https://www.ajc.com/news/2026/09/ai-stocks-drop-on-calls-for-a-slowdown-as-rising-oil-prices-push-the-10-year-yield-to-5/",
           "source": "The Atlanta Journal-Constitution",
-          "date": "2026-09-11"
+          "date": "2026-09-14"
         }
       ]
     }
@@ -6166,7 +6166,10 @@
         "2026-09-08",
         "2026-09-09",
         "2026-09-10",
-        "2026-09-11"
+        "2026-09-11",
+        "2026-09-12",
+        "2026-09-13",
+        "2026-09-14"
       ],
       "values": [
         0.06,
@@ -10440,6 +10443,9 @@
         3.63,
         3.63,
         3.63,
+        3.63,
+        3.63,
+        3.63,
         3.63
       ],
       "freq": "monthly"
@@ -13370,7 +13376,8 @@
         "2026-09-08",
         "2026-09-09",
         "2026-09-10",
-        "2026-09-11"
+        "2026-09-11",
+        "2026-09-14"
       ],
       "values": [
         2.12,
@@ -16297,7 +16304,8 @@
         4.8,
         4.83,
         4.95,
-        4.96
+        4.96,
+        4.97
       ],
       "freq": "monthly"
     },
@@ -17850,7 +17858,7 @@
         "2026-06-30",
         "2026-07-31",
         "2026-08-31",
-        "2026-09-11"
+        "2026-09-14"
       ],
       "values": [
         2168.27,
@@ -17973,7 +17981,7 @@
         7499.36,
         7489.72,
         7686.14,
-        7656.98
+        7619.98
       ],
       "freq": "monthly"
     },
@@ -18119,7 +18127,7 @@
         "2026-06-30",
         "2026-07-31",
         "2026-08-31",
-        "2026-09-11"
+        "2026-09-14"
       ],
       "values": [
         4635.24,
@@ -18262,7 +18270,7 @@
         26213.72,
         25373.85,
         26370.89,
-        26333.04
+        26186.41
       ],
       "freq": "monthly"
     },
@@ -18388,7 +18396,7 @@
         "2026-06-30",
         "2026-07-31",
         "2026-08-31",
-        "2026-09-14"
+        "2026-09-15"
       ],
       "values": [
         18308.15,
@@ -18511,7 +18519,7 @@
         52319.2,
         52485.03,
         53185.9,
-        52449.0
+        52093.11
       ],
       "freq": "monthly"
     }
