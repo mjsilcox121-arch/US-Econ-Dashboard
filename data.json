@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-15T23:27:27Z",
+  "updated": "2026-09-16T23:35:39Z",
   "metrics": {
     "gdp": {
       "value": 1.5,
@@ -75,10 +75,10 @@
           "date": "2026-09-11"
         },
         {
-          "title": "Fed Chairman Warsh faces pressure to \u2018put up or shut up\u2019 after hot CPI report",
-          "url": "https://www.courant.com/2026/09/12/fed-chairman-warsh-faces-pressure-to-put-up-or-shut-up-after-hot-cpi-report-3/",
-          "source": "Hartford Courant",
-          "date": "2026-09-12"
+          "title": "Elevated Inflation Keeps Pressure on Fed to Raise Rates",
+          "url": "https://www.nytimes.com/2026/09/11/business/economy/inflation-cpi-august.html",
+          "source": "The New York Times",
+          "date": "2026-09-11"
         }
       ]
     },
@@ -117,18 +117,6 @@
           "url": "https://www.foxbusiness.com/economy/what-warshs-jackson-hole-speech-signals-about-where-interest-rates-headed",
           "source": "Fox Business",
           "date": "2026-08-28"
-        },
-        {
-          "title": "PCE Inflation Data Sets High Bar For Warsh Jackson Hole Speech (Live Coverage)",
-          "url": "https://www.investors.com/news/pce-inflation-july-federal-reserve-warsh-jackson-hole/",
-          "source": "Investor's Business Daily",
-          "date": "2026-08-26"
-        },
-        {
-          "title": "S&P Futures Muted With Focus on U.S. PCE Inflation Data and Nvidia Earnings",
-          "url": "https://www.barchart.com/story/news/4087371/s-p-futures-muted-with-focus-on-u-s-pce-inflation-data-and-nvidia-earnings",
-          "source": "Barchart",
-          "date": "2026-08-26"
         }
       ]
     },
@@ -145,7 +133,7 @@
     },
     "ffr": {
       "value": 3.63,
-      "date": "2026-09-14",
+      "date": "2026-09-15",
       "label": "Sep 2026",
       "display": "3.63%",
       "reading": "Sep 2026: 3.63%, unchanged from 3.63% in Sep 2026 \u2014 its highest reading in 12 months.",
@@ -155,33 +143,33 @@
       },
       "news": [
         {
-          "title": "What it means for your money",
-          "url": "https://www.cnbc.com/2026/09/14/fed-rate-hike-anticipated-what-it-means-for-your-money.html",
-          "source": "CNBC",
-          "date": "2026-09-14"
+          "title": "Stocks edge higher ahead of US Fed rate call",
+          "url": "https://www.breitbart.com/news/stocks-edge-higher-ahead-of-us-fed-rate-call/",
+          "source": "Breitbart News Network",
+          "date": "2026-09-16"
         },
         {
-          "title": "Federal Reserve is expected to raise its benchmark rate, defying Trump's demands",
-          "url": "https://www.ajc.com/news/2026/09/federal-reserve-is-expected-to-raise-its-benchmark-rate-defying-trumps-demands/",
-          "source": "The Atlanta Journal-Constitution",
-          "date": "2026-09-15"
+          "title": "Analysts expecting Fed to up interest",
+          "url": "https://www.arkansasonline.com/news/2026/sep/16/analysts-expecting-fed-to-up-interest/",
+          "source": "Arkansas Online",
+          "date": "2026-09-16"
         },
         {
-          "title": "Federal Reserve is expected to raise its benchmark rate, defying Trump's demands",
-          "url": "https://www.dallasnews.com/news/politics/article/federal-reserve-is-expected-to-raise-its-22432294.php",
-          "source": "The Dallas Morning News",
-          "date": "2026-09-15"
+          "title": "Federal Reserve to announce interest rate decision; hike expected",
+          "url": "https://www.breitbart.com/news/federal-reserve-to-announce-interest-rate-decision-hike-expected/",
+          "source": "Breitbart News Network",
+          "date": "2026-09-16"
         }
       ]
     },
     "ten": {
-      "value": 4.97,
-      "date": "2026-09-14",
+      "value": 5.0,
+      "date": "2026-09-15",
       "label": "Sep 2026",
-      "display": "4.97%",
-      "reading": "Sep 2026: 4.97%, up from 4.96% in Sep 2026 \u2014 its highest reading in 12 months.",
+      "display": "5.00%",
+      "reading": "Sep 2026: 5.00%, up from 4.97% in Sep 2026 \u2014 its highest reading in 12 months.",
       "change": {
-        "text": "\u2191 from 4.96%",
+        "text": "\u2191 from 4.97%",
         "sign": "flat"
       }
     },
@@ -217,14 +205,14 @@
       ]
     },
     "retail": {
-      "value": -0.582,
-      "date": "2026-07-01",
-      "label": "Jul 2026",
-      "display": "-0.6%",
-      "reading": "Jul 2026: -0.6%, down from +0.2% in Jun 2026 \u2014 its lowest reading in 12 months.",
+      "value": 1.2407,
+      "date": "2026-08-01",
+      "label": "Aug 2026",
+      "display": "+1.2%",
+      "reading": "Aug 2026: +1.2%, up from -0.5% in Jul 2026.",
       "change": {
-        "text": "\u2193 from +0.2%",
-        "sign": "neg"
+        "text": "\u2191 from -0.5%",
+        "sign": "pos"
       }
     },
     "housing": {
@@ -275,44 +263,44 @@
       ]
     },
     "sp500": {
-      "value": 7619.98,
-      "date": "2026-09-14",
+      "value": 7585.73,
+      "date": "2026-09-15",
       "label": "Sep 2026",
-      "display": "7,620",
-      "reading": "Sep 2026: 7,620, down from 7,686 in Aug 2026.",
+      "display": "7,586",
+      "reading": "Sep 2026: 7,586, down from 7,686 in Aug 2026.",
       "change": {
-        "text": "\u2191 11.3% YTD",
+        "text": "\u2191 10.8% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "Asian shares trade mixed as markets continue to watch AI stocks and oil prices",
-          "url": "https://www.ajc.com/news/2026/09/asian-shares-trade-mixed-as-markets-continue-to-watch-ai-stocks-and-oil-prices/",
+          "title": "Asian stocks mostly higher ahead of Fed's interest rate decision",
+          "url": "https://www.ajc.com/news/2026/09/asian-stocks-mostly-higher-ahead-of-feds-interest-rate-decision/",
           "source": "The Atlanta Journal-Constitution",
+          "date": "2026-09-16"
+        },
+        {
+          "title": "The Subtle Message Behind The Request From AI CEOs",
+          "url": "https://seekingalpha.com/article/4946684-subtle-message-behind-request-from-ai-ceos",
+          "source": "Seeking Alpha",
           "date": "2026-09-15"
         },
         {
-          "title": "AI stocks drop, but the rest of Wall Street holds steadier after oil prices give back an early jump",
-          "url": "https://www.ajc.com/news/2026/09/ai-stocks-drop-but-the-rest-of-wall-street-holds-steadier-after-oil-prices-give-back-an-early-jump/",
-          "source": "The Atlanta Journal-Constitution",
-          "date": "2026-09-14"
-        },
-        {
-          "title": "AI stocks drop on calls for a slowdown as rising oil prices push the 10-year yield to 5%",
-          "url": "https://www.ajc.com/news/2026/09/ai-stocks-drop-on-calls-for-a-slowdown-as-rising-oil-prices-push-the-10-year-yield-to-5/",
-          "source": "The Atlanta Journal-Constitution",
-          "date": "2026-09-14"
+          "title": "More New Lows Than Highs Signal Market Correction",
+          "url": "https://seekingalpha.com/article/4946580-more-new-lows-than-highs-signal-market-correction",
+          "source": "Seeking Alpha",
+          "date": "2026-09-15"
         }
       ]
     },
     "nasdaq": {
-      "value": 26186.41,
-      "date": "2026-09-14",
+      "value": 25981.57,
+      "date": "2026-09-15",
       "label": "Sep 2026",
-      "display": "26,186",
-      "reading": "Sep 2026: 26,186, down from 26,371 in Aug 2026.",
+      "display": "25,982",
+      "reading": "Sep 2026: 25,982, down from 26,371 in Aug 2026.",
       "change": {
-        "text": "\u2191 12.7% YTD",
+        "text": "\u2191 11.8% YTD",
         "sign": "pos"
       },
       "news": [
@@ -337,33 +325,33 @@
       ]
     },
     "dow": {
-      "value": 52093.11,
-      "date": "2026-09-15",
+      "value": 51461.9,
+      "date": "2026-09-16",
       "label": "Sep 2026",
-      "display": "52,093",
-      "reading": "Sep 2026: 52,093, down from 53,186 in Aug 2026.",
+      "display": "51,462",
+      "reading": "Sep 2026: 51,462, down from 53,186 in Aug 2026.",
       "change": {
-        "text": "\u2191 8.4% YTD",
+        "text": "\u2191 7.1% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "Asian shares trade mixed as markets continue to watch AI stocks and oil prices",
-          "url": "https://www.ajc.com/news/2026/09/asian-shares-trade-mixed-as-markets-continue-to-watch-ai-stocks-and-oil-prices/",
+          "title": "Asian stocks mostly higher ahead of Fed's interest rate decision",
+          "url": "https://www.ajc.com/news/2026/09/asian-stocks-mostly-higher-ahead-of-feds-interest-rate-decision/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-09-16"
+        },
+        {
+          "title": "US stocks slip after oil prices and the bond market crank up the pressure",
+          "url": "https://www.ajc.com/news/2026/09/us-stocks-slip-after-oil-prices-and-the-bond-market-crank-up-the-pressure/",
           "source": "The Atlanta Journal-Constitution",
           "date": "2026-09-15"
         },
         {
-          "title": "AI stocks drop, but the rest of Wall Street holds steadier after oil prices give back an early jump",
-          "url": "https://www.ajc.com/news/2026/09/ai-stocks-drop-but-the-rest-of-wall-street-holds-steadier-after-oil-prices-give-back-an-early-jump/",
+          "title": "US stocks slip after oil prices and the bond market crank up the pressure",
+          "url": "https://www.ajc.com/news/2026/09/ai-stocks-hold-steadier-as-wall-street-drifts-lower-ahead-of-the-federal-reserves-meeting/",
           "source": "The Atlanta Journal-Constitution",
-          "date": "2026-09-14"
-        },
-        {
-          "title": "AI stocks drop on calls for a slowdown as rising oil prices push the 10-year yield to 5%",
-          "url": "https://www.ajc.com/news/2026/09/ai-stocks-drop-on-calls-for-a-slowdown-as-rising-oil-prices-push-the-10-year-yield-to-5/",
-          "source": "The Atlanta Journal-Constitution",
-          "date": "2026-09-14"
+          "date": "2026-09-15"
         }
       ]
     }
@@ -6169,7 +6157,8 @@
         "2026-09-11",
         "2026-09-12",
         "2026-09-13",
-        "2026-09-14"
+        "2026-09-14",
+        "2026-09-15"
       ],
       "values": [
         0.06,
@@ -10446,6 +10435,7 @@
         3.63,
         3.63,
         3.63,
+        3.63,
         3.63
       ],
       "freq": "monthly"
@@ -13377,7 +13367,8 @@
         "2026-09-09",
         "2026-09-10",
         "2026-09-11",
-        "2026-09-14"
+        "2026-09-14",
+        "2026-09-15"
       ],
       "values": [
         2.12,
@@ -16305,7 +16296,8 @@
         4.83,
         4.95,
         4.96,
-        4.97
+        4.97,
+        5.0
       ],
       "freq": "monthly"
     },
@@ -16736,7 +16728,8 @@
         "2026-04-01",
         "2026-05-01",
         "2026-06-01",
-        "2026-07-01"
+        "2026-07-01",
+        "2026-08-01"
       ],
       "values": [
         -0.4422,
@@ -16865,9 +16858,9 @@
         -0.124,
         -1.0975,
         0.6957,
-        1.0691,
-        0.6221,
-        0.0672,
+        1.161,
+        0.3023,
+        0.2952,
         -0.1558,
         0.5016,
         -0.0001,
@@ -16876,8 +16869,9 @@
         1.718,
         0.6743,
         0.9347,
-        0.2454,
-        -0.582
+        0.3126,
+        -0.5367,
+        1.2407
       ],
       "freq": "monthly"
     },
@@ -17858,7 +17852,7 @@
         "2026-06-30",
         "2026-07-31",
         "2026-08-31",
-        "2026-09-14"
+        "2026-09-15"
       ],
       "values": [
         2168.27,
@@ -17981,7 +17975,7 @@
         7499.36,
         7489.72,
         7686.14,
-        7619.98
+        7585.73
       ],
       "freq": "monthly"
     },
@@ -18127,7 +18121,7 @@
         "2026-06-30",
         "2026-07-31",
         "2026-08-31",
-        "2026-09-14"
+        "2026-09-15"
       ],
       "values": [
         4635.24,
@@ -18270,7 +18264,7 @@
         26213.72,
         25373.85,
         26370.89,
-        26186.41
+        25981.57
       ],
       "freq": "monthly"
     },
@@ -18396,7 +18390,7 @@
         "2026-06-30",
         "2026-07-31",
         "2026-08-31",
-        "2026-09-15"
+        "2026-09-16"
       ],
       "values": [
         18308.15,
@@ -18519,7 +18513,7 @@
         52319.2,
         52485.03,
         53185.9,
-        52093.11
+        51461.9
       ],
       "freq": "monthly"
     }
