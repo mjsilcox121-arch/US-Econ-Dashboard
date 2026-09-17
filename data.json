@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-16T23:35:39Z",
+  "updated": "2026-09-17T23:26:35Z",
   "metrics": {
     "gdp": {
       "value": 1.5,
@@ -133,7 +133,7 @@
     },
     "ffr": {
       "value": 3.63,
-      "date": "2026-09-15",
+      "date": "2026-09-16",
       "label": "Sep 2026",
       "display": "3.63%",
       "reading": "Sep 2026: 3.63%, unchanged from 3.63% in Sep 2026 \u2014 its highest reading in 12 months.",
@@ -143,33 +143,33 @@
       },
       "news": [
         {
-          "title": "Stocks edge higher ahead of US Fed rate call",
-          "url": "https://www.breitbart.com/news/stocks-edge-higher-ahead-of-us-fed-rate-call/",
-          "source": "Breitbart News Network",
-          "date": "2026-09-16"
+          "title": "Morning Bid: A timely hike",
+          "url": "https://www.reuters.com/commentary/reuters-open-interest/global-markets-view-usa-2026-09-17/",
+          "source": "Reuters",
+          "date": "2026-09-17"
         },
         {
-          "title": "Analysts expecting Fed to up interest",
-          "url": "https://www.arkansasonline.com/news/2026/sep/16/analysts-expecting-fed-to-up-interest/",
-          "source": "Arkansas Online",
-          "date": "2026-09-16"
+          "title": "Wall St rebounds after Fed's first rate hike in years as oil, Treasury yields dip",
+          "url": "https://www.reuters.com/business/wall-st-futures-rise-fed-rate-hike-lifts-long-standing-overhang-2026-09-17/",
+          "source": "Reuters",
+          "date": "2026-09-17"
         },
         {
-          "title": "Federal Reserve to announce interest rate decision; hike expected",
-          "url": "https://www.breitbart.com/news/federal-reserve-to-announce-interest-rate-decision-hike-expected/",
-          "source": "Breitbart News Network",
-          "date": "2026-09-16"
+          "title": "European stocks rise after Fed hike as oil slips, yields stabilise",
+          "url": "https://www.reuters.com/markets/europe/european-shares-rise-oil-slips-yields-stall-2026-09-17/",
+          "source": "Reuters",
+          "date": "2026-09-17"
         }
       ]
     },
     "ten": {
-      "value": 5.0,
-      "date": "2026-09-15",
+      "value": 5.01,
+      "date": "2026-09-16",
       "label": "Sep 2026",
-      "display": "5.00%",
-      "reading": "Sep 2026: 5.00%, up from 4.97% in Sep 2026 \u2014 its highest reading in 12 months.",
+      "display": "5.01%",
+      "reading": "Sep 2026: 5.01%, up from 5.00% in Sep 2026 \u2014 its highest reading in 12 months.",
       "change": {
-        "text": "\u2191 from 4.97%",
+        "text": "\u2191 from 5.00%",
         "sign": "flat"
       }
     },
@@ -216,13 +216,13 @@
       }
     },
     "housing": {
-      "value": 1.239,
-      "date": "2026-07-01",
-      "label": "Jul 2026",
-      "display": "1.239M",
-      "reading": "Jul 2026: 1.239M, down from 1.415M in Jun 2026.",
+      "value": 1.275,
+      "date": "2026-08-01",
+      "label": "Aug 2026",
+      "display": "1.275M",
+      "reading": "Aug 2026: 1.275M, down from 1.309M in Jul 2026.",
       "change": {
-        "text": "\u2193 from 1.415M",
+        "text": "\u2193 from 1.309M",
         "sign": "neg"
       }
     },
@@ -263,42 +263,42 @@
       ]
     },
     "sp500": {
-      "value": 7585.73,
-      "date": "2026-09-15",
+      "value": 7551.81,
+      "date": "2026-09-16",
       "label": "Sep 2026",
-      "display": "7,586",
-      "reading": "Sep 2026: 7,586, down from 7,686 in Aug 2026.",
+      "display": "7,552",
+      "reading": "Sep 2026: 7,552, down from 7,686 in Aug 2026.",
       "change": {
-        "text": "\u2191 10.8% YTD",
+        "text": "\u2191 10.3% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "Asian stocks mostly higher ahead of Fed's interest rate decision",
-          "url": "https://www.ajc.com/news/2026/09/asian-stocks-mostly-higher-ahead-of-feds-interest-rate-decision/",
+          "title": "Retail fail: The market\u2019s consumer worries are coming to a head",
+          "url": "https://www.businessinsider.com/consumer-discretionary-stock-outlook-higher-rate-reaction-after-fed-hike-2026-9",
+          "source": "Business Insider",
+          "date": "2026-09-17"
+        },
+        {
+          "title": "Retail fail: The market\u2019s consumer worries are coming to a head",
+          "url": "https://www.newsbreak.com/markets-insider-562170/4891352942892-retail-fail-the-market-s-consumer-worries-are-coming-to-a-head",
+          "source": "NewsBreak",
+          "date": "2026-09-17"
+        },
+        {
+          "title": "Asian stocks are mixed after Wall Street slips following Fed's rate hike decision",
+          "url": "https://www.ajc.com/news/2026/09/asian-stocks-are-mixed-after-wall-street-slips-following-feds-rate-hike-decision/",
           "source": "The Atlanta Journal-Constitution",
-          "date": "2026-09-16"
-        },
-        {
-          "title": "The Subtle Message Behind The Request From AI CEOs",
-          "url": "https://seekingalpha.com/article/4946684-subtle-message-behind-request-from-ai-ceos",
-          "source": "Seeking Alpha",
-          "date": "2026-09-15"
-        },
-        {
-          "title": "More New Lows Than Highs Signal Market Correction",
-          "url": "https://seekingalpha.com/article/4946580-more-new-lows-than-highs-signal-market-correction",
-          "source": "Seeking Alpha",
-          "date": "2026-09-15"
+          "date": "2026-09-17"
         }
       ]
     },
     "nasdaq": {
-      "value": 25981.57,
-      "date": "2026-09-15",
+      "value": 25978.42,
+      "date": "2026-09-16",
       "label": "Sep 2026",
-      "display": "25,982",
-      "reading": "Sep 2026: 25,982, down from 26,371 in Aug 2026.",
+      "display": "25,978",
+      "reading": "Sep 2026: 25,978, down from 26,371 in Aug 2026.",
       "change": {
         "text": "\u2191 11.8% YTD",
         "sign": "pos"
@@ -325,33 +325,33 @@
       ]
     },
     "dow": {
-      "value": 51461.9,
-      "date": "2026-09-16",
+      "value": 51778.04,
+      "date": "2026-09-17",
       "label": "Sep 2026",
-      "display": "51,462",
-      "reading": "Sep 2026: 51,462, down from 53,186 in Aug 2026.",
+      "display": "51,778",
+      "reading": "Sep 2026: 51,778, down from 53,186 in Aug 2026.",
       "change": {
-        "text": "\u2191 7.1% YTD",
+        "text": "\u2191 7.7% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "Asian stocks mostly higher ahead of Fed's interest rate decision",
-          "url": "https://www.ajc.com/news/2026/09/asian-stocks-mostly-higher-ahead-of-feds-interest-rate-decision/",
+          "title": "Asian stocks are mixed after Wall Street slips following Fed's rate hike decision",
+          "url": "https://www.ajc.com/news/2026/09/asian-stocks-are-mixed-after-wall-street-slips-following-feds-rate-hike-decision/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-09-17"
+        },
+        {
+          "title": "US stocks slip after the Fed hikes interest rates and hints more increases may be on the way",
+          "url": "https://www.ajc.com/news/2026/09/us-stocks-slip-after-the-fed-hikes-interest-rates-and-hints-more-increases-may-be-on-the-way/",
           "source": "The Atlanta Journal-Constitution",
           "date": "2026-09-16"
         },
         {
-          "title": "US stocks slip after oil prices and the bond market crank up the pressure",
-          "url": "https://www.ajc.com/news/2026/09/us-stocks-slip-after-oil-prices-and-the-bond-market-crank-up-the-pressure/",
-          "source": "The Atlanta Journal-Constitution",
-          "date": "2026-09-15"
-        },
-        {
-          "title": "US stocks slip after oil prices and the bond market crank up the pressure",
-          "url": "https://www.ajc.com/news/2026/09/ai-stocks-hold-steadier-as-wall-street-drifts-lower-ahead-of-the-federal-reserves-meeting/",
-          "source": "The Atlanta Journal-Constitution",
-          "date": "2026-09-15"
+          "title": "Dow Jones Futures: S&P 500 Falls After Fed Rate Hike, Hawkish Warsh; Trump Fumes As AMD, Bloom Energy Lead Stocks To Watch",
+          "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-sp-500-fed-rate-hike-warsh-amd-bloom-energy-stocks-to-watch/",
+          "source": "Investor's Business Daily",
+          "date": "2026-09-16"
         }
       ]
     }
@@ -6158,7 +6158,8 @@
         "2026-09-12",
         "2026-09-13",
         "2026-09-14",
-        "2026-09-15"
+        "2026-09-15",
+        "2026-09-16"
       ],
       "values": [
         0.06,
@@ -10436,6 +10437,7 @@
         3.63,
         3.63,
         3.63,
+        3.63,
         3.63
       ],
       "freq": "monthly"
@@ -13368,7 +13370,8 @@
         "2026-09-10",
         "2026-09-11",
         "2026-09-14",
-        "2026-09-15"
+        "2026-09-15",
+        "2026-09-16"
       ],
       "values": [
         2.12,
@@ -16297,7 +16300,8 @@
         4.95,
         4.96,
         4.97,
-        5.0
+        5.0,
+        5.01
       ],
       "freq": "monthly"
     },
@@ -17015,7 +17019,8 @@
         "2026-04-01",
         "2026-05-01",
         "2026-06-01",
-        "2026-07-01"
+        "2026-07-01",
+        "2026-08-01"
       ],
       "values": [
         1.085,
@@ -17155,8 +17160,9 @@
         1.522,
         1.414,
         1.182,
-        1.415,
-        1.239
+        1.439,
+        1.309,
+        1.275
       ],
       "freq": "monthly"
     },
@@ -17852,7 +17858,7 @@
         "2026-06-30",
         "2026-07-31",
         "2026-08-31",
-        "2026-09-15"
+        "2026-09-16"
       ],
       "values": [
         2168.27,
@@ -17975,7 +17981,7 @@
         7499.36,
         7489.72,
         7686.14,
-        7585.73
+        7551.81
       ],
       "freq": "monthly"
     },
@@ -18121,7 +18127,7 @@
         "2026-06-30",
         "2026-07-31",
         "2026-08-31",
-        "2026-09-15"
+        "2026-09-16"
       ],
       "values": [
         4635.24,
@@ -18264,7 +18270,7 @@
         26213.72,
         25373.85,
         26370.89,
-        25981.57
+        25978.42
       ],
       "freq": "monthly"
     },
@@ -18390,7 +18396,7 @@
         "2026-06-30",
         "2026-07-31",
         "2026-08-31",
-        "2026-09-16"
+        "2026-09-17"
       ],
       "values": [
         18308.15,
@@ -18513,7 +18519,7 @@
         52319.2,
         52485.03,
         53185.9,
-        51461.9
+        51778.04
       ],
       "freq": "monthly"
     }
