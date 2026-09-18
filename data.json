@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-17T23:26:35Z",
+  "updated": "2026-09-18T23:06:47Z",
   "metrics": {
     "gdp": {
       "value": 1.5,
@@ -110,15 +110,7 @@
       "change": {
         "text": "\u2193 from +3.7%",
         "sign": "pos"
-      },
-      "news": [
-        {
-          "title": "Kevin Warsh outlines hawkish PCE inflation stance at Jackson Hole",
-          "url": "https://www.foxbusiness.com/economy/what-warshs-jackson-hole-speech-signals-about-where-interest-rates-headed",
-          "source": "Fox Business",
-          "date": "2026-08-28"
-        }
-      ]
+      }
     },
     "corepce": {
       "value": 3.3441,
@@ -132,44 +124,44 @@
       }
     },
     "ffr": {
-      "value": 3.63,
-      "date": "2026-09-16",
+      "value": 3.88,
+      "date": "2026-09-17",
       "label": "Sep 2026",
-      "display": "3.63%",
-      "reading": "Sep 2026: 3.63%, unchanged from 3.63% in Sep 2026 \u2014 its highest reading in 12 months.",
+      "display": "3.88%",
+      "reading": "Sep 2026: 3.88%, up from 3.63% in Sep 2026 \u2014 its highest reading in 12 months.",
       "change": {
-        "text": "\u2192 Steady",
+        "text": "\u2191 from 3.63%",
         "sign": "flat"
       },
       "news": [
         {
-          "title": "Morning Bid: A timely hike",
-          "url": "https://www.reuters.com/commentary/reuters-open-interest/global-markets-view-usa-2026-09-17/",
+          "title": "Global equity fund outflows hit nine-month high on inflation fears",
+          "url": "https://www.reuters.com/world/china/global-markets-flows-graphic-pix-2026-09-18/",
+          "source": "Reuters",
+          "date": "2026-09-18"
+        },
+        {
+          "title": "Trading Day: Lower oil, yields boost stocks",
+          "url": "https://www.reuters.com/commentary/reuters-open-interest/global-markets-trading-day-graphic-2026-09-17/",
           "source": "Reuters",
           "date": "2026-09-17"
         },
         {
-          "title": "Wall St rebounds after Fed's first rate hike in years as oil, Treasury yields dip",
-          "url": "https://www.reuters.com/business/wall-st-futures-rise-fed-rate-hike-lifts-long-standing-overhang-2026-09-17/",
-          "source": "Reuters",
-          "date": "2026-09-17"
-        },
-        {
-          "title": "European stocks rise after Fed hike as oil slips, yields stabilise",
-          "url": "https://www.reuters.com/markets/europe/european-shares-rise-oil-slips-yields-stall-2026-09-17/",
+          "title": "How to play rising rates",
+          "url": "https://www.reuters.com/markets/on-the-money/what-higher-interest-rates-mean-your-money-2026-09-17/",
           "source": "Reuters",
           "date": "2026-09-17"
         }
       ]
     },
     "ten": {
-      "value": 5.01,
-      "date": "2026-09-16",
+      "value": 4.94,
+      "date": "2026-09-17",
       "label": "Sep 2026",
-      "display": "5.01%",
-      "reading": "Sep 2026: 5.01%, up from 5.00% in Sep 2026 \u2014 its highest reading in 12 months.",
+      "display": "4.94%",
+      "reading": "Sep 2026: 4.94%, down from 5.01% in Sep 2026.",
       "change": {
-        "text": "\u2191 from 5.00%",
+        "text": "\u2193 from 5.01%",
         "sign": "flat"
       }
     },
@@ -224,7 +216,15 @@
       "change": {
         "text": "\u2193 from 1.309M",
         "sign": "neg"
-      }
+      },
+      "news": [
+        {
+          "title": "US single-family housing starts rebound in August; building permits fall",
+          "url": "https://www.reuters.com/business/us-single-family-housing-starts-rebound-august-building-permits-fall-2026-09-17/",
+          "source": "Reuters",
+          "date": "2026-09-17"
+        }
+      ]
     },
     "trade": {
       "value": -88576.0,
@@ -253,26 +253,26 @@
           "url": "https://seekingalpha.com/article/4941405-consumer-sentiment-falls-in-august",
           "source": "Seeking Alpha",
           "date": "2026-08-29"
-        },
-        {
-          "title": "Consumer Sentiment Drops Sharply In August. It's More Than 10 Points Lower Than 2025.",
-          "url": "https://www.ibtimes.com/consumer-sentiment-drops-sharply-august-its-more-10-points-lower-2025-3806911",
-          "source": "International Business Times",
-          "date": "2026-08-28"
         }
       ]
     },
     "sp500": {
-      "value": 7551.81,
-      "date": "2026-09-16",
+      "value": 7637.76,
+      "date": "2026-09-17",
       "label": "Sep 2026",
-      "display": "7,552",
-      "reading": "Sep 2026: 7,552, down from 7,686 in Aug 2026.",
+      "display": "7,638",
+      "reading": "Sep 2026: 7,638, down from 7,686 in Aug 2026.",
       "change": {
-        "text": "\u2191 10.3% YTD",
+        "text": "\u2191 11.6% YTD",
         "sign": "pos"
       },
       "news": [
+        {
+          "title": "Stock Valuations Signal Negative Returns for the S&P 500 for a Decade: BofA",
+          "url": "https://www.businessinsider.com/stock-market-valuations-sp500-negative-returns-lost-decade-equal-weight-2026-9",
+          "source": "Business Insider",
+          "date": "2026-09-17"
+        },
         {
           "title": "Retail fail: The market\u2019s consumer worries are coming to a head",
           "url": "https://www.businessinsider.com/consumer-discretionary-stock-outlook-higher-rate-reaction-after-fed-hike-2026-9",
@@ -280,27 +280,21 @@
           "date": "2026-09-17"
         },
         {
-          "title": "Retail fail: The market\u2019s consumer worries are coming to a head",
-          "url": "https://www.newsbreak.com/markets-insider-562170/4891352942892-retail-fail-the-market-s-consumer-worries-are-coming-to-a-head",
-          "source": "NewsBreak",
-          "date": "2026-09-17"
-        },
-        {
-          "title": "Asian stocks are mixed after Wall Street slips following Fed's rate hike decision",
-          "url": "https://www.ajc.com/news/2026/09/asian-stocks-are-mixed-after-wall-street-slips-following-feds-rate-hike-decision/",
+          "title": "US stocks rise after oil prices fall and pressure from the bond market eases",
+          "url": "https://www.ajc.com/news/2026/09/us-stocks-rise-after-oil-prices-fall-and-pressure-from-the-bond-market-eases/",
           "source": "The Atlanta Journal-Constitution",
           "date": "2026-09-17"
         }
       ]
     },
     "nasdaq": {
-      "value": 25978.42,
-      "date": "2026-09-16",
+      "value": 26418.3,
+      "date": "2026-09-17",
       "label": "Sep 2026",
-      "display": "25,978",
-      "reading": "Sep 2026: 25,978, down from 26,371 in Aug 2026.",
+      "display": "26,418",
+      "reading": "Sep 2026: 26,418, up from 26,371 in Aug 2026.",
       "change": {
-        "text": "\u2191 11.8% YTD",
+        "text": "\u2191 13.7% YTD",
         "sign": "pos"
       },
       "news": [
@@ -325,16 +319,22 @@
       ]
     },
     "dow": {
-      "value": 51778.04,
-      "date": "2026-09-17",
+      "value": 51682.64,
+      "date": "2026-09-18",
       "label": "Sep 2026",
-      "display": "51,778",
-      "reading": "Sep 2026: 51,778, down from 53,186 in Aug 2026.",
+      "display": "51,683",
+      "reading": "Sep 2026: 51,683, down from 53,186 in Aug 2026.",
       "change": {
-        "text": "\u2191 7.7% YTD",
+        "text": "\u2191 7.5% YTD",
         "sign": "pos"
       },
       "news": [
+        {
+          "title": "US stocks rise after oil prices fall and pressure from the bond market eases",
+          "url": "https://www.ajc.com/news/2026/09/us-stocks-rise-after-oil-prices-fall-and-pressure-from-the-bond-market-eases/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-09-17"
+        },
         {
           "title": "Asian stocks are mixed after Wall Street slips following Fed's rate hike decision",
           "url": "https://www.ajc.com/news/2026/09/asian-stocks-are-mixed-after-wall-street-slips-following-feds-rate-hike-decision/",
@@ -345,12 +345,6 @@
           "title": "US stocks slip after the Fed hikes interest rates and hints more increases may be on the way",
           "url": "https://www.ajc.com/news/2026/09/us-stocks-slip-after-the-fed-hikes-interest-rates-and-hints-more-increases-may-be-on-the-way/",
           "source": "The Atlanta Journal-Constitution",
-          "date": "2026-09-16"
-        },
-        {
-          "title": "Dow Jones Futures: S&P 500 Falls After Fed Rate Hike, Hawkish Warsh; Trump Fumes As AMD, Bloom Energy Lead Stocks To Watch",
-          "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-sp-500-fed-rate-hike-warsh-amd-bloom-energy-stocks-to-watch/",
-          "source": "Investor's Business Daily",
           "date": "2026-09-16"
         }
       ]
@@ -6159,7 +6153,8 @@
         "2026-09-13",
         "2026-09-14",
         "2026-09-15",
-        "2026-09-16"
+        "2026-09-16",
+        "2026-09-17"
       ],
       "values": [
         0.06,
@@ -10438,7 +10433,8 @@
         3.63,
         3.63,
         3.63,
-        3.63
+        3.63,
+        3.88
       ],
       "freq": "monthly"
     },
@@ -13371,7 +13367,8 @@
         "2026-09-11",
         "2026-09-14",
         "2026-09-15",
-        "2026-09-16"
+        "2026-09-16",
+        "2026-09-17"
       ],
       "values": [
         2.12,
@@ -16301,7 +16298,8 @@
         4.96,
         4.97,
         5.0,
-        5.01
+        5.01,
+        4.94
       ],
       "freq": "monthly"
     },
@@ -17858,7 +17856,7 @@
         "2026-06-30",
         "2026-07-31",
         "2026-08-31",
-        "2026-09-16"
+        "2026-09-17"
       ],
       "values": [
         2168.27,
@@ -17981,7 +17979,7 @@
         7499.36,
         7489.72,
         7686.14,
-        7551.81
+        7637.76
       ],
       "freq": "monthly"
     },
@@ -18127,7 +18125,7 @@
         "2026-06-30",
         "2026-07-31",
         "2026-08-31",
-        "2026-09-16"
+        "2026-09-17"
       ],
       "values": [
         4635.24,
@@ -18270,7 +18268,7 @@
         26213.72,
         25373.85,
         26370.89,
-        25978.42
+        26418.3
       ],
       "freq": "monthly"
     },
@@ -18396,7 +18394,7 @@
         "2026-06-30",
         "2026-07-31",
         "2026-08-31",
-        "2026-09-17"
+        "2026-09-18"
       ],
       "values": [
         18308.15,
@@ -18519,7 +18517,7 @@
         52319.2,
         52485.03,
         53185.9,
-        51778.04
+        51682.64
       ],
       "freq": "monthly"
     }
