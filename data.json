@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-18T23:06:47Z",
+  "updated": "2026-09-21T23:55:04Z",
   "metrics": {
     "gdp": {
       "value": 1.5,
@@ -125,43 +125,43 @@
     },
     "ffr": {
       "value": 3.88,
-      "date": "2026-09-17",
+      "date": "2026-09-18",
       "label": "Sep 2026",
       "display": "3.88%",
-      "reading": "Sep 2026: 3.88%, up from 3.63% in Sep 2026 \u2014 its highest reading in 12 months.",
+      "reading": "Sep 2026: 3.88%, unchanged from 3.88% in Sep 2026 \u2014 its highest reading in 12 months.",
       "change": {
-        "text": "\u2191 from 3.63%",
+        "text": "\u2192 Steady",
         "sign": "flat"
       },
       "news": [
         {
-          "title": "Global equity fund outflows hit nine-month high on inflation fears",
-          "url": "https://www.reuters.com/world/china/global-markets-flows-graphic-pix-2026-09-18/",
-          "source": "Reuters",
-          "date": "2026-09-18"
+          "title": "Federal Reserve rate hike reflects new world of sticky inflation and faster growth",
+          "url": "https://www.europesays.com/3263583/",
+          "source": "EUROPE SAYS",
+          "date": "2026-09-21"
         },
         {
-          "title": "Trading Day: Lower oil, yields boost stocks",
-          "url": "https://www.reuters.com/commentary/reuters-open-interest/global-markets-trading-day-graphic-2026-09-17/",
-          "source": "Reuters",
-          "date": "2026-09-17"
+          "title": "Federal Reserve rate hike: sticky inflation, faster growth",
+          "url": "https://www.europesays.com/3263337/",
+          "source": "EUROPE SAYS",
+          "date": "2026-09-21"
         },
         {
-          "title": "How to play rising rates",
-          "url": "https://www.reuters.com/markets/on-the-money/what-higher-interest-rates-mean-your-money-2026-09-17/",
-          "source": "Reuters",
-          "date": "2026-09-17"
+          "title": "Federal Reserve rate hike reflects inflation and faster growth",
+          "url": "https://www.chicagotribune.com/2026/09/20/federal-reserve-rate-hike/",
+          "source": "Chicago Tribune",
+          "date": "2026-09-20"
         }
       ]
     },
     "ten": {
-      "value": 4.94,
-      "date": "2026-09-17",
+      "value": 5.01,
+      "date": "2026-09-18",
       "label": "Sep 2026",
-      "display": "4.94%",
-      "reading": "Sep 2026: 4.94%, down from 5.01% in Sep 2026.",
+      "display": "5.01%",
+      "reading": "Sep 2026: 5.01%, up from 4.94% in Sep 2026 \u2014 its highest reading in 12 months.",
       "change": {
-        "text": "\u2193 from 5.01%",
+        "text": "\u2191 from 4.94%",
         "sign": "flat"
       }
     },
@@ -246,55 +246,47 @@
       "change": {
         "text": "\u2191 from 49.5",
         "sign": "pos"
-      },
-      "news": [
-        {
-          "title": "Consumer Sentiment Falls In August",
-          "url": "https://seekingalpha.com/article/4941405-consumer-sentiment-falls-in-august",
-          "source": "Seeking Alpha",
-          "date": "2026-08-29"
-        }
-      ]
+      }
     },
     "sp500": {
-      "value": 7637.76,
-      "date": "2026-09-17",
+      "value": 7650.5,
+      "date": "2026-09-18",
       "label": "Sep 2026",
-      "display": "7,638",
-      "reading": "Sep 2026: 7,638, down from 7,686 in Aug 2026.",
+      "display": "7,650",
+      "reading": "Sep 2026: 7,650, down from 7,686 in Aug 2026.",
       "change": {
-        "text": "\u2191 11.6% YTD",
+        "text": "\u2191 11.8% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "Stock Valuations Signal Negative Returns for the S&P 500 for a Decade: BofA",
-          "url": "https://www.businessinsider.com/stock-market-valuations-sp500-negative-returns-lost-decade-equal-weight-2026-9",
-          "source": "Business Insider",
-          "date": "2026-09-17"
+          "title": "The S&P 500 just logged another losing week. These stocks could be due for a bounce",
+          "url": "https://www.cnbc.com/2026/09/19/the-sp-500-just-logged-another-losing-week-these-stocks-could-be-due-for-a-bounce.html",
+          "source": "CNBC",
+          "date": "2026-09-19"
         },
         {
-          "title": "Retail fail: The market\u2019s consumer worries are coming to a head",
-          "url": "https://www.businessinsider.com/consumer-discretionary-stock-outlook-higher-rate-reaction-after-fed-hike-2026-9",
-          "source": "Business Insider",
-          "date": "2026-09-17"
+          "title": "Outlook for Sept. 21-25, 2026",
+          "url": "https://www.cnbc.com/2026/09/18/stock-market-next-week-outlook-for-sept-21-25-2026.html",
+          "source": "CNBC",
+          "date": "2026-09-18"
         },
         {
-          "title": "US stocks rise after oil prices fall and pressure from the bond market eases",
-          "url": "https://www.ajc.com/news/2026/09/us-stocks-rise-after-oil-prices-fall-and-pressure-from-the-bond-market-eases/",
-          "source": "The Atlanta Journal-Constitution",
-          "date": "2026-09-17"
+          "title": "Stocks are headed for another losing week. One group is limiting the decline",
+          "url": "https://www.cnbc.com/2026/09/18/stocks-are-headed-for-another-losing-week-one-group-is-limiting-the-decline.html",
+          "source": "CNBC",
+          "date": "2026-09-18"
         }
       ]
     },
     "nasdaq": {
-      "value": 26418.3,
-      "date": "2026-09-17",
+      "value": 26522.55,
+      "date": "2026-09-18",
       "label": "Sep 2026",
-      "display": "26,418",
-      "reading": "Sep 2026: 26,418, up from 26,371 in Aug 2026.",
+      "display": "26,523",
+      "reading": "Sep 2026: 26,523, up from 26,371 in Aug 2026.",
       "change": {
-        "text": "\u2191 13.7% YTD",
+        "text": "\u2191 14.1% YTD",
         "sign": "pos"
       },
       "news": [
@@ -319,33 +311,33 @@
       ]
     },
     "dow": {
-      "value": 51682.64,
-      "date": "2026-09-18",
+      "value": 52048.83,
+      "date": "2026-09-21",
       "label": "Sep 2026",
-      "display": "51,683",
-      "reading": "Sep 2026: 51,683, down from 53,186 in Aug 2026.",
+      "display": "52,049",
+      "reading": "Sep 2026: 52,049, down from 53,186 in Aug 2026.",
       "change": {
-        "text": "\u2191 7.5% YTD",
+        "text": "\u2191 8.3% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "US stocks rise after oil prices fall and pressure from the bond market eases",
-          "url": "https://www.ajc.com/news/2026/09/us-stocks-rise-after-oil-prices-fall-and-pressure-from-the-bond-market-eases/",
+          "title": "Wall Street drifts lower as bond yields rise and oil prices swing",
+          "url": "https://www.ajc.com/news/2026/09/wall-street-drifts-lower-as-bond-yields-rise-and-oil-prices-swing/",
           "source": "The Atlanta Journal-Constitution",
-          "date": "2026-09-17"
+          "date": "2026-09-18"
         },
         {
-          "title": "Asian stocks are mixed after Wall Street slips following Fed's rate hike decision",
-          "url": "https://www.ajc.com/news/2026/09/asian-stocks-are-mixed-after-wall-street-slips-following-feds-rate-hike-decision/",
+          "title": "Wall Street drifts as bond yields rise and oil prices swing",
+          "url": "https://www.ajc.com/news/2026/09/wall-street-drifts-as-bond-yields-rise-and-oil-prices-swing/",
           "source": "The Atlanta Journal-Constitution",
-          "date": "2026-09-17"
+          "date": "2026-09-18"
         },
         {
-          "title": "US stocks slip after the Fed hikes interest rates and hints more increases may be on the way",
-          "url": "https://www.ajc.com/news/2026/09/us-stocks-slip-after-the-fed-hikes-interest-rates-and-hints-more-increases-may-be-on-the-way/",
+          "title": "US stocks drift toward the end of a bumpy week",
+          "url": "https://www.ajc.com/news/2026/09/us-stocks-drift-toward-the-end-of-a-bumpy-week/",
           "source": "The Atlanta Journal-Constitution",
-          "date": "2026-09-16"
+          "date": "2026-09-18"
         }
       ]
     }
@@ -6154,7 +6146,8 @@
         "2026-09-14",
         "2026-09-15",
         "2026-09-16",
-        "2026-09-17"
+        "2026-09-17",
+        "2026-09-18"
       ],
       "values": [
         0.06,
@@ -10434,6 +10427,7 @@
         3.63,
         3.63,
         3.63,
+        3.88,
         3.88
       ],
       "freq": "monthly"
@@ -13368,7 +13362,8 @@
         "2026-09-14",
         "2026-09-15",
         "2026-09-16",
-        "2026-09-17"
+        "2026-09-17",
+        "2026-09-18"
       ],
       "values": [
         2.12,
@@ -16299,7 +16294,8 @@
         4.97,
         5.0,
         5.01,
-        4.94
+        4.94,
+        5.01
       ],
       "freq": "monthly"
     },
@@ -17856,7 +17852,7 @@
         "2026-06-30",
         "2026-07-31",
         "2026-08-31",
-        "2026-09-17"
+        "2026-09-18"
       ],
       "values": [
         2168.27,
@@ -17979,7 +17975,7 @@
         7499.36,
         7489.72,
         7686.14,
-        7637.76
+        7650.5
       ],
       "freq": "monthly"
     },
@@ -18125,7 +18121,7 @@
         "2026-06-30",
         "2026-07-31",
         "2026-08-31",
-        "2026-09-17"
+        "2026-09-18"
       ],
       "values": [
         4635.24,
@@ -18268,7 +18264,7 @@
         26213.72,
         25373.85,
         26370.89,
-        26418.3
+        26522.55
       ],
       "freq": "monthly"
     },
@@ -18394,7 +18390,7 @@
         "2026-06-30",
         "2026-07-31",
         "2026-08-31",
-        "2026-09-18"
+        "2026-09-21"
       ],
       "values": [
         18308.15,
@@ -18517,7 +18513,7 @@
         52319.2,
         52485.03,
         53185.9,
-        51682.64
+        52048.83
       ],
       "freq": "monthly"
     }
