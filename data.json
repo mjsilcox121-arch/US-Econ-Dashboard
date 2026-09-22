@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-21T23:55:04Z",
+  "updated": "2026-09-22T23:32:08Z",
   "metrics": {
     "gdp": {
       "value": 1.5,
@@ -125,7 +125,7 @@
     },
     "ffr": {
       "value": 3.88,
-      "date": "2026-09-18",
+      "date": "2026-09-21",
       "label": "Sep 2026",
       "display": "3.88%",
       "reading": "Sep 2026: 3.88%, unchanged from 3.88% in Sep 2026 \u2014 its highest reading in 12 months.",
@@ -135,33 +135,33 @@
       },
       "news": [
         {
-          "title": "Federal Reserve rate hike reflects new world of sticky inflation and faster growth",
-          "url": "https://www.europesays.com/3263583/",
-          "source": "EUROPE SAYS",
-          "date": "2026-09-21"
+          "title": "Losing the plot? Warsh's Fed more 'touchy-feely' than data-driven",
+          "url": "https://www.reuters.com/commentary/reuters-open-interest/losing-plot-warshs-fed-more-touchy-feely-than-data-driven-2026-09-22/",
+          "source": "Reuters",
+          "date": "2026-09-22"
         },
         {
-          "title": "Federal Reserve rate hike: sticky inflation, faster growth",
-          "url": "https://www.europesays.com/3263337/",
-          "source": "EUROPE SAYS",
-          "date": "2026-09-21"
+          "title": "Gold muted as higher-for-longer rate outlook weighs",
+          "url": "https://www.reuters.com/world/india/gold-muted-higher-for-longer-rate-outlook-weighs-2026-09-22/",
+          "source": "Reuters",
+          "date": "2026-09-22"
         },
         {
-          "title": "Federal Reserve rate hike reflects inflation and faster growth",
-          "url": "https://www.chicagotribune.com/2026/09/20/federal-reserve-rate-hike/",
-          "source": "Chicago Tribune",
-          "date": "2026-09-20"
+          "title": "Fed's Musalem says more rate hikes likely needed to quell inflation",
+          "url": "https://www.reuters.com/business/feds-musalem-says-more-rate-hikes-likely-needed-quell-inflation-2026-09-21/",
+          "source": "Reuters",
+          "date": "2026-09-21"
         }
       ]
     },
     "ten": {
-      "value": 5.01,
-      "date": "2026-09-18",
+      "value": 4.96,
+      "date": "2026-09-21",
       "label": "Sep 2026",
-      "display": "5.01%",
-      "reading": "Sep 2026: 5.01%, up from 4.94% in Sep 2026 \u2014 its highest reading in 12 months.",
+      "display": "4.96%",
+      "reading": "Sep 2026: 4.96%, down from 5.01% in Sep 2026.",
       "change": {
-        "text": "\u2191 from 4.94%",
+        "text": "\u2193 from 5.01%",
         "sign": "flat"
       }
     },
@@ -249,13 +249,13 @@
       }
     },
     "sp500": {
-      "value": 7650.5,
-      "date": "2026-09-18",
+      "value": 7764.7,
+      "date": "2026-09-21",
       "label": "Sep 2026",
-      "display": "7,650",
-      "reading": "Sep 2026: 7,650, down from 7,686 in Aug 2026.",
+      "display": "7,765",
+      "reading": "Sep 2026: 7,765, up from 7,686 in Aug 2026 \u2014 its highest reading in 12 months.",
       "change": {
-        "text": "\u2191 11.8% YTD",
+        "text": "\u2191 13.4% YTD",
         "sign": "pos"
       },
       "news": [
@@ -272,72 +272,72 @@
           "date": "2026-09-18"
         },
         {
-          "title": "Stocks are headed for another losing week. One group is limiting the decline",
-          "url": "https://www.cnbc.com/2026/09/18/stocks-are-headed-for-another-losing-week-one-group-is-limiting-the-decline.html",
-          "source": "CNBC",
-          "date": "2026-09-18"
+          "title": "12 S&P 500 Stocks Hit Trillion-Dollar Club \u2014 What Could Go Wrong?",
+          "url": "https://www.investors.com/etfs-and-funds/sectors/sp-500-stocks-hit-trillion-dollar-club-what-could-go-wrong/",
+          "source": "Investor's Business Daily",
+          "date": "2026-09-22"
         }
       ]
     },
     "nasdaq": {
-      "value": 26522.55,
-      "date": "2026-09-18",
+      "value": 27122.09,
+      "date": "2026-09-21",
       "label": "Sep 2026",
-      "display": "26,523",
-      "reading": "Sep 2026: 26,523, up from 26,371 in Aug 2026.",
+      "display": "27,122",
+      "reading": "Sep 2026: 27,122, up from 26,371 in Aug 2026 \u2014 its highest reading in 12 months.",
       "change": {
-        "text": "\u2191 14.1% YTD",
+        "text": "\u2191 16.7% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "AI stocks drop on calls for a slowdown as rising oil prices push the 10-year yield to 5%",
-          "url": "https://www.ajc.com/news/2026/09/ai-stocks-drop-on-calls-for-a-global-slowdown-as-jumping-oil-prices-send-the-10-year-yield-to-5/",
-          "source": "The Atlanta Journal-Constitution",
-          "date": "2026-09-14"
+          "title": "Why Today's Nasdaq Doesn't Look Like 2000, Even With AI Fears Rising",
+          "url": "https://seekingalpha.com/article/4948544-why-todays-nasdaq-doesnt-look-like-2000-even-with-ai-fears-rising",
+          "source": "Seeking Alpha",
+          "date": "2026-09-22"
         },
         {
-          "title": "Tech stocks slump after AI execs call for industry slowdown",
-          "url": "https://www.cbsnews.com/news/tech-stock-selloff-ai-warning/",
-          "source": "CBS News",
-          "date": "2026-09-14"
+          "title": "Meta or CrowdStrike: Cathie Wood Buys $38M of One Stock and Sells the Other",
+          "url": "https://markets.businessinsider.com/news/stocks/meta-or-crowdstrike-cathie-wood-buys-38m-of-one-stock-and-sells-the-other-1036562802",
+          "source": "Markets Insider",
+          "date": "2026-09-22"
         },
         {
-          "title": "Tech stocks slump after AI execs call for industry slowdown",
-          "url": "https://www.cbsnews.com/sacramento/news/tech-stock-selloff-ai-warning/",
-          "source": "CBS News",
-          "date": "2026-09-14"
+          "title": "Closing Bell Movers: Vicor jumps 13% on Q3 pre-announcement",
+          "url": "https://markets.businessinsider.com/news/stocks/closing-bell-movers-vicor-jumps-13-on-q3-pre-announcement-1036562604",
+          "source": "Markets Insider",
+          "date": "2026-09-22"
         }
       ]
     },
     "dow": {
-      "value": 52048.83,
-      "date": "2026-09-21",
+      "value": 51863.69,
+      "date": "2026-09-22",
       "label": "Sep 2026",
-      "display": "52,049",
-      "reading": "Sep 2026: 52,049, down from 53,186 in Aug 2026.",
+      "display": "51,864",
+      "reading": "Sep 2026: 51,864, down from 53,186 in Aug 2026.",
       "change": {
-        "text": "\u2191 8.3% YTD",
+        "text": "\u2191 7.9% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "Wall Street drifts lower as bond yields rise and oil prices swing",
-          "url": "https://www.ajc.com/news/2026/09/wall-street-drifts-lower-as-bond-yields-rise-and-oil-prices-swing/",
+          "title": "Wall Street rallies within 0.4% of its record after oil prices and bond yields ease",
+          "url": "https://www.ajc.com/news/2026/09/wall-street-rallies-within-04-of-its-record-after-oil-prices-and-bond-yields-ease/",
           "source": "The Atlanta Journal-Constitution",
-          "date": "2026-09-18"
+          "date": "2026-09-21"
         },
         {
-          "title": "Wall Street drifts as bond yields rise and oil prices swing",
-          "url": "https://www.ajc.com/news/2026/09/wall-street-drifts-as-bond-yields-rise-and-oil-prices-swing/",
+          "title": "Wall Street rallies within 0.4% of its record after oil prices and bond yields ease",
+          "url": "https://www.ajc.com/news/2026/09/wall-street-pulls-within-1-of-its-record-after-oil-prices-and-bond-yields-ease/",
           "source": "The Atlanta Journal-Constitution",
-          "date": "2026-09-18"
+          "date": "2026-09-21"
         },
         {
-          "title": "US stocks drift toward the end of a bumpy week",
-          "url": "https://www.ajc.com/news/2026/09/us-stocks-drift-toward-the-end-of-a-bumpy-week/",
+          "title": "Stock markets climb worldwide after oil prices and bond yields give back some of last week's jumps",
+          "url": "https://www.ajc.com/news/2026/09/stock-markets-climb-worldwide-after-oil-prices-and-bond-yields-give-back-some-of-last-weeks-jumps/",
           "source": "The Atlanta Journal-Constitution",
-          "date": "2026-09-18"
+          "date": "2026-09-21"
         }
       ]
     }
@@ -6147,7 +6147,10 @@
         "2026-09-15",
         "2026-09-16",
         "2026-09-17",
-        "2026-09-18"
+        "2026-09-18",
+        "2026-09-19",
+        "2026-09-20",
+        "2026-09-21"
       ],
       "values": [
         0.06,
@@ -10428,6 +10431,9 @@
         3.63,
         3.63,
         3.88,
+        3.88,
+        3.88,
+        3.88,
         3.88
       ],
       "freq": "monthly"
@@ -13363,7 +13369,8 @@
         "2026-09-15",
         "2026-09-16",
         "2026-09-17",
-        "2026-09-18"
+        "2026-09-18",
+        "2026-09-21"
       ],
       "values": [
         2.12,
@@ -16295,7 +16302,8 @@
         5.0,
         5.01,
         4.94,
-        5.01
+        5.01,
+        4.96
       ],
       "freq": "monthly"
     },
@@ -17852,7 +17860,7 @@
         "2026-06-30",
         "2026-07-31",
         "2026-08-31",
-        "2026-09-18"
+        "2026-09-21"
       ],
       "values": [
         2168.27,
@@ -17975,7 +17983,7 @@
         7499.36,
         7489.72,
         7686.14,
-        7650.5
+        7764.7
       ],
       "freq": "monthly"
     },
@@ -18121,7 +18129,7 @@
         "2026-06-30",
         "2026-07-31",
         "2026-08-31",
-        "2026-09-18"
+        "2026-09-21"
       ],
       "values": [
         4635.24,
@@ -18264,7 +18272,7 @@
         26213.72,
         25373.85,
         26370.89,
-        26522.55
+        27122.09
       ],
       "freq": "monthly"
     },
@@ -18390,7 +18398,7 @@
         "2026-06-30",
         "2026-07-31",
         "2026-08-31",
-        "2026-09-21"
+        "2026-09-22"
       ],
       "values": [
         18308.15,
@@ -18513,7 +18521,7 @@
         52319.2,
         52485.03,
         53185.9,
-        52048.83
+        51863.69
       ],
       "freq": "monthly"
     }
