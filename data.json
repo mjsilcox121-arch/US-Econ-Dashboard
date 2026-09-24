@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-23T23:27:32Z",
+  "updated": "2026-09-24T23:47:46Z",
   "metrics": {
     "gdp": {
       "value": 1.5,
@@ -125,7 +125,7 @@
     },
     "ffr": {
       "value": 3.88,
-      "date": "2026-09-22",
+      "date": "2026-09-23",
       "label": "Sep 2026",
       "display": "3.88%",
       "reading": "Sep 2026: 3.88%, unchanged from 3.88% in Sep 2026 \u2014 its highest reading in 12 months.",
@@ -135,33 +135,33 @@
       },
       "news": [
         {
-          "title": "There's a reason Trump is the only one talking about 1% rates",
-          "url": "https://www.reuters.com/business/theres-reason-trump-is-only-one-talking-about-1-rates-2026-09-23/",
+          "title": "Fed rate hike cycles have a history of denting US stock prices",
+          "url": "https://www.reuters.com/business/fed-rate-hike-cycles-have-history-denting-us-stock-prices-2026-09-24/",
           "source": "Reuters",
+          "date": "2026-09-24"
+        },
+        {
+          "title": "What\u2019s likely to move the market",
+          "url": "https://www.cnbc.com/2026/09/23/thursdays-big-stock-stories-whats-likely-to-move-the-market.html",
+          "source": "CNBC",
           "date": "2026-09-23"
         },
         {
-          "title": "US fixed 30-year mortgage rate jumps to 7.12%, MBA says",
-          "url": "https://www.reuters.com/business/us-fixed-30-year-mortgage-rate-jumps-712-mba-says-2026-09-23/",
+          "title": "Fed's Barr says further rate hikes will likely be needed",
+          "url": "https://www.reuters.com/business/feds-barr-says-further-rate-hikes-will-likely-be-needed-2026-09-23/",
           "source": "Reuters",
           "date": "2026-09-23"
-        },
-        {
-          "title": "NY Fed's Perli says monetary policy toolkit working very well",
-          "url": "https://www.reuters.com/business/ny-feds-perli-says-monetary-policy-toolkit-working-very-well-2026-09-22/",
-          "source": "Reuters",
-          "date": "2026-09-22"
         }
       ]
     },
     "ten": {
-      "value": 4.96,
-      "date": "2026-09-22",
+      "value": 5.11,
+      "date": "2026-09-23",
       "label": "Sep 2026",
-      "display": "4.96%",
-      "reading": "Sep 2026: 4.96%, unchanged from 4.96% in Sep 2026.",
+      "display": "5.11%",
+      "reading": "Sep 2026: 5.11%, up from 4.96% in Sep 2026 \u2014 its highest reading in 12 months.",
       "change": {
-        "text": "\u2192 Steady",
+        "text": "\u2191 from 4.96%",
         "sign": "flat"
       }
     },
@@ -187,12 +187,6 @@
           "url": "https://markets.businessinsider.com/news/stocks/stock-futures-rise-ahead-of-august-jobs-report-1036522657",
           "source": "Markets Insider",
           "date": "2026-09-04"
-        },
-        {
-          "title": "U.S. Stock Futures Flat Ahead of August Jobs Report",
-          "url": "https://markets.businessinsider.com/news/stocks/u-s-stock-futures-flat-ahead-of-august-jobs-report-1036521706",
-          "source": "Markets Insider",
-          "date": "2026-09-03"
         }
       ]
     },
@@ -249,13 +243,13 @@
       }
     },
     "sp500": {
-      "value": 7764.64,
-      "date": "2026-09-22",
+      "value": 7706.03,
+      "date": "2026-09-23",
       "label": "Sep 2026",
-      "display": "7,765",
-      "reading": "Sep 2026: 7,765, up from 7,686 in Aug 2026 \u2014 its highest reading in 12 months.",
+      "display": "7,706",
+      "reading": "Sep 2026: 7,706, up from 7,686 in Aug 2026 \u2014 its highest reading in 12 months.",
       "change": {
-        "text": "\u2191 13.4% YTD",
+        "text": "\u2191 12.6% YTD",
         "sign": "pos"
       },
       "news": [
@@ -272,21 +266,21 @@
           "date": "2026-09-22"
         },
         {
-          "title": "Near New Highs, Short On Company",
-          "url": "https://seekingalpha.com/article/4948908-near-new-highs-short-on-company",
-          "source": "Seeking Alpha",
+          "title": "Dell Stock, Ciena Among 5 Earning The Biggest EPS Upgrades Right Now",
+          "url": "https://www.investors.com/news/dell-stock-cien-mpc-vlo-psx-biggest-eps-estimate-upgrades/",
+          "source": "Investor's Business Daily",
           "date": "2026-09-23"
         }
       ]
     },
     "nasdaq": {
-      "value": 27244.28,
-      "date": "2026-09-22",
+      "value": 26936.04,
+      "date": "2026-09-23",
       "label": "Sep 2026",
-      "display": "27,244",
-      "reading": "Sep 2026: 27,244, up from 26,371 in Aug 2026 \u2014 its highest reading in 12 months.",
+      "display": "26,936",
+      "reading": "Sep 2026: 26,936, up from 26,371 in Aug 2026.",
       "change": {
-        "text": "\u2191 17.2% YTD",
+        "text": "\u2191 15.9% YTD",
         "sign": "pos"
       },
       "news": [
@@ -311,16 +305,22 @@
       ]
     },
     "dow": {
-      "value": 51511.59,
-      "date": "2026-09-23",
+      "value": 51349.98,
+      "date": "2026-09-24",
       "label": "Sep 2026",
-      "display": "51,512",
-      "reading": "Sep 2026: 51,512, down from 53,186 in Aug 2026.",
+      "display": "51,350",
+      "reading": "Sep 2026: 51,350, down from 53,186 in Aug 2026.",
       "change": {
-        "text": "\u2191 7.2% YTD",
+        "text": "\u2191 6.8% YTD",
         "sign": "pos"
       },
       "news": [
+        {
+          "title": "Dow Jones Futures: Stocks Fall As Treasury Yields Soar; Palantir Flashes Buy Signal",
+          "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-treasury-yields-soar-palantir-palo-alto-buy-signal/",
+          "source": "Investor's Business Daily",
+          "date": "2026-09-23"
+        },
         {
           "title": "Wall Street holds near its record after Brent oil briefly falls below $98 per barrel",
           "url": "https://www.ajc.com/news/2026/09/wall-street-holds-near-its-record-after-brent-oil-briefly-falls-below-98-per-barrel/",
@@ -332,12 +332,6 @@
           "url": "https://www.ajc.com/news/2026/09/wall-street-holds-near-its-record-as-brent-oil-falls-below-100-per-barrel/",
           "source": "The Atlanta Journal-Constitution",
           "date": "2026-09-22"
-        },
-        {
-          "title": "Wall Street rallies within 0.4% of its record after oil prices and bond yields ease",
-          "url": "https://www.ajc.com/news/2026/09/wall-street-rallies-within-04-of-its-record-after-oil-prices-and-bond-yields-ease/",
-          "source": "The Atlanta Journal-Constitution",
-          "date": "2026-09-21"
         }
       ]
     }
@@ -6151,7 +6145,8 @@
         "2026-09-19",
         "2026-09-20",
         "2026-09-21",
-        "2026-09-22"
+        "2026-09-22",
+        "2026-09-23"
       ],
       "values": [
         0.06,
@@ -10436,6 +10431,7 @@
         3.88,
         3.88,
         3.88,
+        3.88,
         3.88
       ],
       "freq": "monthly"
@@ -13373,7 +13369,8 @@
         "2026-09-17",
         "2026-09-18",
         "2026-09-21",
-        "2026-09-22"
+        "2026-09-22",
+        "2026-09-23"
       ],
       "values": [
         2.12,
@@ -16307,7 +16304,8 @@
         4.94,
         5.01,
         4.96,
-        4.96
+        4.96,
+        5.11
       ],
       "freq": "monthly"
     },
@@ -17864,7 +17862,7 @@
         "2026-06-30",
         "2026-07-31",
         "2026-08-31",
-        "2026-09-22"
+        "2026-09-23"
       ],
       "values": [
         2168.27,
@@ -17987,7 +17985,7 @@
         7499.36,
         7489.72,
         7686.14,
-        7764.64
+        7706.03
       ],
       "freq": "monthly"
     },
@@ -18133,7 +18131,7 @@
         "2026-06-30",
         "2026-07-31",
         "2026-08-31",
-        "2026-09-22"
+        "2026-09-23"
       ],
       "values": [
         4635.24,
@@ -18276,7 +18274,7 @@
         26213.72,
         25373.85,
         26370.89,
-        27244.28
+        26936.04
       ],
       "freq": "monthly"
     },
@@ -18402,7 +18400,7 @@
         "2026-06-30",
         "2026-07-31",
         "2026-08-31",
-        "2026-09-23"
+        "2026-09-24"
       ],
       "values": [
         18308.15,
@@ -18525,7 +18523,7 @@
         52319.2,
         52485.03,
         53185.9,
-        51511.59
+        51349.98
       ],
       "freq": "monthly"
     }
