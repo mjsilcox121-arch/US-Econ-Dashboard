@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-24T23:47:46Z",
+  "updated": "2026-09-25T23:53:12Z",
   "metrics": {
     "gdp": {
       "value": 1.5,
@@ -36,18 +36,6 @@
           "url": "https://apnews.com/article/economy-inflation-iran-trump-unemployment-mortgage-97f1222d0d4207d4d2cb9fbbc62bccb4",
           "source": "The Associated Press",
           "date": "2026-09-05"
-        },
-        {
-          "title": "US job market rebounds as employers add 162,000 jobs; the unemployment rate stayed at 4.1%",
-          "url": "https://www.ajc.com/news/2026/09/us-job-market-rebounds-as-employers-add-162000-jobs-the-unemployment-rate-stayed-at-41/",
-          "source": "The Atlanta Journal-Constitution",
-          "date": "2026-09-04"
-        },
-        {
-          "title": "US job market rebounded in August as employers added 162,000 jobs",
-          "url": "https://www.bostonglobe.com/2026/09/04/business/job-market-rebound-employers-unemployment/",
-          "source": "The Boston Globe",
-          "date": "2026-09-04"
         }
       ]
     },
@@ -125,7 +113,7 @@
     },
     "ffr": {
       "value": 3.88,
-      "date": "2026-09-23",
+      "date": "2026-09-24",
       "label": "Sep 2026",
       "display": "3.88%",
       "reading": "Sep 2026: 3.88%, unchanged from 3.88% in Sep 2026 \u2014 its highest reading in 12 months.",
@@ -135,33 +123,33 @@
       },
       "news": [
         {
+          "title": "Gold heads for weekly loss as stronger dollar, Fed rate outlook weighs",
+          "url": "https://www.reuters.com/world/india/gold-heads-weekly-loss-stronger-dollar-fed-rate-outlook-weighs-2026-09-25/",
+          "source": "Reuters",
+          "date": "2026-09-25"
+        },
+        {
+          "title": "Car loan rates may rise as Treasury yields climb",
+          "url": "https://www.cnbc.com/2026/09/24/car-loan-rates-may-rise-as-treasury-yields-climb.html",
+          "source": "CNBC",
+          "date": "2026-09-24"
+        },
+        {
           "title": "Fed rate hike cycles have a history of denting US stock prices",
           "url": "https://www.reuters.com/business/fed-rate-hike-cycles-have-history-denting-us-stock-prices-2026-09-24/",
           "source": "Reuters",
           "date": "2026-09-24"
-        },
-        {
-          "title": "What\u2019s likely to move the market",
-          "url": "https://www.cnbc.com/2026/09/23/thursdays-big-stock-stories-whats-likely-to-move-the-market.html",
-          "source": "CNBC",
-          "date": "2026-09-23"
-        },
-        {
-          "title": "Fed's Barr says further rate hikes will likely be needed",
-          "url": "https://www.reuters.com/business/feds-barr-says-further-rate-hikes-will-likely-be-needed-2026-09-23/",
-          "source": "Reuters",
-          "date": "2026-09-23"
         }
       ]
     },
     "ten": {
-      "value": 5.11,
-      "date": "2026-09-23",
+      "value": 5.18,
+      "date": "2026-09-24",
       "label": "Sep 2026",
-      "display": "5.11%",
-      "reading": "Sep 2026: 5.11%, up from 4.96% in Sep 2026 \u2014 its highest reading in 12 months.",
+      "display": "5.18%",
+      "reading": "Sep 2026: 5.18%, up from 5.11% in Sep 2026 \u2014 its highest reading in 12 months.",
       "change": {
-        "text": "\u2191 from 4.96%",
+        "text": "\u2191 from 5.11%",
         "sign": "flat"
       }
     },
@@ -174,21 +162,7 @@
       "change": {
         "text": "\u2191 from +21K",
         "sign": "pos"
-      },
-      "news": [
-        {
-          "title": "Jobs report August 2026:",
-          "url": "https://www.cnbc.com/2026/09/04/jobs-report-august-2026.html",
-          "source": "CNBC",
-          "date": "2026-09-04"
-        },
-        {
-          "title": "Stock Futures Rise Ahead of August Jobs Report",
-          "url": "https://markets.businessinsider.com/news/stocks/stock-futures-rise-ahead-of-august-jobs-report-1036522657",
-          "source": "Markets Insider",
-          "date": "2026-09-04"
-        }
-      ]
+      }
     },
     "retail": {
       "value": 1.2407,
@@ -232,24 +206,24 @@
       }
     },
     "sent": {
-      "value": 55.2,
-      "date": "2026-07-01",
-      "label": "Jul 2026",
-      "display": "55.2",
-      "reading": "Jul 2026: 55.2, up from 49.5 in Jun 2026.",
+      "value": 51.7,
+      "date": "2026-08-01",
+      "label": "Aug 2026",
+      "display": "51.7",
+      "reading": "Aug 2026: 51.7, down from 55.2 in Jul 2026.",
       "change": {
-        "text": "\u2191 from 49.5",
-        "sign": "pos"
+        "text": "\u2193 from 55.2",
+        "sign": "neg"
       }
     },
     "sp500": {
-      "value": 7706.03,
-      "date": "2026-09-23",
+      "value": 7704.13,
+      "date": "2026-09-24",
       "label": "Sep 2026",
-      "display": "7,706",
-      "reading": "Sep 2026: 7,706, up from 7,686 in Aug 2026 \u2014 its highest reading in 12 months.",
+      "display": "7,704",
+      "reading": "Sep 2026: 7,704, up from 7,686 in Aug 2026 \u2014 its highest reading in 12 months.",
       "change": {
-        "text": "\u2191 12.6% YTD",
+        "text": "\u2191 12.5% YTD",
         "sign": "pos"
       },
       "news": [
@@ -260,25 +234,25 @@
           "date": "2026-09-22"
         },
         {
-          "title": "Nasdaq reaches record high close, AI stocks rally",
-          "url": "https://www.reuters.com/business/wall-st-futures-pause-after-ai-rally-focus-mideast-tensions-2026-09-22/",
-          "source": "Reuters",
-          "date": "2026-09-22"
+          "title": "Shaky day for oil prices and bond market leaves US stocks not far from where they started",
+          "url": "https://www.adn.com/business-economy/2026/09/24/us-stocks-slip-after-the-bond-market-keeps-up-the-pressure-and-oil-prices-rise/",
+          "source": "Anchorage Daily News",
+          "date": "2026-09-24"
         },
         {
-          "title": "Dell Stock, Ciena Among 5 Earning The Biggest EPS Upgrades Right Now",
-          "url": "https://www.investors.com/news/dell-stock-cien-mpc-vlo-psx-biggest-eps-estimate-upgrades/",
-          "source": "Investor's Business Daily",
-          "date": "2026-09-23"
+          "title": "How major US stock indexes fared Thursday 9",
+          "url": "https://wtop.com/national/2026/09/how-major-us-stock-indexes-fared-thursday-9-24-2026/",
+          "source": "WTOP",
+          "date": "2026-09-24"
         }
       ]
     },
     "nasdaq": {
-      "value": 26936.04,
-      "date": "2026-09-23",
+      "value": 26939.37,
+      "date": "2026-09-24",
       "label": "Sep 2026",
-      "display": "26,936",
-      "reading": "Sep 2026: 26,936, up from 26,371 in Aug 2026.",
+      "display": "26,939",
+      "reading": "Sep 2026: 26,939, up from 26,371 in Aug 2026.",
       "change": {
         "text": "\u2191 15.9% YTD",
         "sign": "pos"
@@ -305,33 +279,33 @@
       ]
     },
     "dow": {
-      "value": 51349.98,
-      "date": "2026-09-24",
+      "value": 51828.62,
+      "date": "2026-09-25",
       "label": "Sep 2026",
-      "display": "51,350",
-      "reading": "Sep 2026: 51,350, down from 53,186 in Aug 2026.",
+      "display": "51,829",
+      "reading": "Sep 2026: 51,829, down from 53,186 in Aug 2026.",
       "change": {
-        "text": "\u2191 6.8% YTD",
+        "text": "\u2191 7.8% YTD",
         "sign": "pos"
       },
       "news": [
+        {
+          "title": "US stocks end barely changed on a newly shaky Wall Street after a couple reversals",
+          "url": "https://www.ajc.com/news/2026/09/us-stocks-swing-with-bond-yields-and-oil-prices-before-recovering-much-of-their-losses/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-09-24"
+        },
+        {
+          "title": "These Dow Jones Stocks Buck Index's Dud Performance",
+          "url": "https://www.investors.com/news/dow-jones-industrial-average-msft-aapl-cvx-ko-stock/",
+          "source": "Investor's Business Daily",
+          "date": "2026-09-24"
+        },
         {
           "title": "Dow Jones Futures: Stocks Fall As Treasury Yields Soar; Palantir Flashes Buy Signal",
           "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-treasury-yields-soar-palantir-palo-alto-buy-signal/",
           "source": "Investor's Business Daily",
           "date": "2026-09-23"
-        },
-        {
-          "title": "Wall Street holds near its record after Brent oil briefly falls below $98 per barrel",
-          "url": "https://www.ajc.com/news/2026/09/wall-street-holds-near-its-record-after-brent-oil-briefly-falls-below-98-per-barrel/",
-          "source": "The Atlanta Journal-Constitution",
-          "date": "2026-09-22"
-        },
-        {
-          "title": "Wall Street holds near its record after Brent oil briefly falls below $98 per barrel",
-          "url": "https://www.ajc.com/news/2026/09/wall-street-holds-near-its-record-as-brent-oil-falls-below-100-per-barrel/",
-          "source": "The Atlanta Journal-Constitution",
-          "date": "2026-09-22"
         }
       ]
     }
@@ -6146,7 +6120,8 @@
         "2026-09-20",
         "2026-09-21",
         "2026-09-22",
-        "2026-09-23"
+        "2026-09-23",
+        "2026-09-24"
       ],
       "values": [
         0.06,
@@ -10432,6 +10407,7 @@
         3.88,
         3.88,
         3.88,
+        3.88,
         3.88
       ],
       "freq": "monthly"
@@ -13370,7 +13346,8 @@
         "2026-09-18",
         "2026-09-21",
         "2026-09-22",
-        "2026-09-23"
+        "2026-09-23",
+        "2026-09-24"
       ],
       "values": [
         2.12,
@@ -16305,7 +16282,8 @@
         5.01,
         4.96,
         4.96,
-        5.11
+        5.11,
+        5.18
       ],
       "freq": "monthly"
     },
@@ -17595,7 +17573,8 @@
         "2026-04-01",
         "2026-05-01",
         "2026-06-01",
-        "2026-07-01"
+        "2026-07-01",
+        "2026-08-01"
       ],
       "values": [
         98.1,
@@ -17736,7 +17715,8 @@
         49.8,
         44.8,
         49.5,
-        55.2
+        55.2,
+        51.7
       ],
       "freq": "monthly"
     },
@@ -17862,7 +17842,7 @@
         "2026-06-30",
         "2026-07-31",
         "2026-08-31",
-        "2026-09-23"
+        "2026-09-24"
       ],
       "values": [
         2168.27,
@@ -17985,7 +17965,7 @@
         7499.36,
         7489.72,
         7686.14,
-        7706.03
+        7704.13
       ],
       "freq": "monthly"
     },
@@ -18131,7 +18111,7 @@
         "2026-06-30",
         "2026-07-31",
         "2026-08-31",
-        "2026-09-23"
+        "2026-09-24"
       ],
       "values": [
         4635.24,
@@ -18274,7 +18254,7 @@
         26213.72,
         25373.85,
         26370.89,
-        26936.04
+        26939.37
       ],
       "freq": "monthly"
     },
@@ -18400,7 +18380,7 @@
         "2026-06-30",
         "2026-07-31",
         "2026-08-31",
-        "2026-09-24"
+        "2026-09-25"
       ],
       "values": [
         18308.15,
@@ -18523,7 +18503,7 @@
         52319.2,
         52485.03,
         53185.9,
-        51349.98
+        51828.62
       ],
       "freq": "monthly"
     }
