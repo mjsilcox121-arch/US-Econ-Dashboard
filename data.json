@@ -1,17 +1,23 @@
 {
-  "updated": "2026-09-30T00:08:14Z",
+  "updated": "2026-10-01T00:25:16Z",
   "metrics": {
     "gdp": {
-      "value": 1.5,
+      "value": 2.2,
       "date": "2026-04-01",
       "label": "Q2 2026",
-      "display": "+1.5%",
-      "reading": "Q2 2026: +1.5%, down from +2.1% in Q1 2026.",
+      "display": "+2.2%",
+      "reading": "Q2 2026: +2.2%, down from +2.5% in Q1 2026.",
       "change": {
-        "text": "\u2193 from +2.1%",
+        "text": "\u2193 from +2.5%",
         "sign": "neg"
       },
       "news": [
+        {
+          "title": "US economy grew a solid 2.2% in the second quarter, government says, upgrading previous estimate",
+          "url": "https://cdapress.com/news/2026/sep/30/us-economy-grew-a-solid-22-in-the-second-quarter-government-says-upgrading-previous-estimate/",
+          "source": "Coeur d'Alene Press",
+          "date": "2026-09-30"
+        },
         {
           "title": "The US economy is stuck on a hamster wheel as GDP must outrun borrowing costs-or risk a debt spiral",
           "url": "https://fortune.com/2026/09/27/us-economy-gdp-growth-bond-yields-borrowing-costs-debt-spiral/",
@@ -71,27 +77,25 @@
       "change": {
         "text": "\u2193 from +2.5%",
         "sign": "pos"
+      }
+    },
+    "pce": {
+      "value": 3.419,
+      "date": "2026-08-01",
+      "label": "Aug 2026",
+      "display": "+3.4%",
+      "reading": "Aug 2026: +3.4%, up from +3.4% in Jul 2026.",
+      "change": {
+        "text": "\u2191 from +3.4%",
+        "sign": "neg"
       },
       "news": [
         {
-          "title": "Taiwan Dollar: Range trade expected after CPI surprise against US Dollar - Commerzbank",
-          "url": "https://www.europesays.com/3242371/",
-          "source": "EUROPE SAYS",
-          "date": "2026-09-09"
-        }
-      ]
-    },
-    "pce": {
-      "value": 3.7012,
-      "date": "2026-07-01",
-      "label": "Jul 2026",
-      "display": "+3.7%",
-      "reading": "Jul 2026: +3.7%, down from +3.7% in Jun 2026.",
-      "change": {
-        "text": "\u2193 from +3.7%",
-        "sign": "pos"
-      },
-      "news": [
+          "title": "Why Fed Inflation Rate May Fall; ADP Jobs Report On Tap (Live Coverage)",
+          "url": "https://www.investors.com/news/federal-reserve-core-pce-inflation-rate-adp-jobs-report-sp-500/",
+          "source": "Investor's Business Daily",
+          "date": "2026-09-30"
+        },
         {
           "title": "Bitcoin slips to $83,000 as ZEC drops 12% and oil climbs again",
           "url": "https://www.coindesk.com/markets/2026/09/29/bitcoin-holds-usd83-000-as-zec-drops-12-and-oil-climbs-again",
@@ -101,19 +105,27 @@
       ]
     },
     "corepce": {
-      "value": 3.3441,
-      "date": "2026-07-01",
-      "label": "Jul 2026",
-      "display": "+3.3%",
-      "reading": "Jul 2026: +3.3%, up from +3.3% in Jun 2026.",
+      "value": 3.0076,
+      "date": "2026-08-01",
+      "label": "Aug 2026",
+      "display": "+3.0%",
+      "reading": "Aug 2026: +3.0%, up from +3.0% in Jul 2026.",
       "change": {
-        "text": "\u2191 from +3.3%",
+        "text": "\u2191 from +3.0%",
         "sign": "neg"
-      }
+      },
+      "news": [
+        {
+          "title": "Why Fed Inflation Rate May Fall; ADP Jobs Report On Tap (Live Coverage)",
+          "url": "https://www.investors.com/news/federal-reserve-core-pce-inflation-rate-adp-jobs-report-sp-500/",
+          "source": "Investor's Business Daily",
+          "date": "2026-09-30"
+        }
+      ]
     },
     "ffr": {
       "value": 3.88,
-      "date": "2026-09-28",
+      "date": "2026-09-29",
       "label": "Sep 2026",
       "display": "3.88%",
       "reading": "Sep 2026: 3.88%, unchanged from 3.88% in Sep 2026 \u2014 its highest reading in 12 months.",
@@ -123,33 +135,33 @@
       },
       "news": [
         {
+          "title": "Fed's Williams sees no urgency for next Fed rate hike",
+          "url": "https://www.reuters.com/business/feds-williams-sees-no-urgency-next-fed-rate-hike-2026-09-29/",
+          "source": "Reuters",
+          "date": "2026-09-29"
+        },
+        {
+          "title": "Dollar hits 16-month high on euro and Swiss franc as US yields top 5%",
+          "url": "https://www.reuters.com/world/africa/dollar-hold-near-two-month-peak-yields-rise-fed-data-looms-2026-09-29/",
+          "source": "Reuters",
+          "date": "2026-09-29"
+        },
+        {
           "title": "Gold drops more than 2% on US rate-hike bets",
           "url": "https://www.reuters.com/world/india/gold-drops-more-than-1-us-rate-hike-bets-2026-09-28/",
           "source": "Reuters",
           "date": "2026-09-28"
-        },
-        {
-          "title": "Battered bonds draw support from falling oil prices",
-          "url": "https://www.reuters.com/world/china/global-markets-warpup-1-pix-2026-09-25/",
-          "source": "Reuters",
-          "date": "2026-09-25"
-        },
-        {
-          "title": "Car loan rates may rise as Treasury yields climb",
-          "url": "https://www.cnbc.com/2026/09/24/car-loan-rates-may-rise-as-treasury-yields-climb.html",
-          "source": "CNBC",
-          "date": "2026-09-24"
         }
       ]
     },
     "ten": {
-      "value": 5.24,
-      "date": "2026-09-28",
+      "value": 5.26,
+      "date": "2026-09-29",
       "label": "Sep 2026",
-      "display": "5.24%",
-      "reading": "Sep 2026: 5.24%, up from 5.17% in Sep 2026 \u2014 its highest reading in 12 months.",
+      "display": "5.26%",
+      "reading": "Sep 2026: 5.26%, up from 5.24% in Sep 2026 \u2014 its highest reading in 12 months.",
       "change": {
-        "text": "\u2191 from 5.17%",
+        "text": "\u2191 from 5.24%",
         "sign": "flat"
       }
     },
@@ -237,13 +249,13 @@
       ]
     },
     "sp500": {
-      "value": 7670.84,
-      "date": "2026-09-29",
+      "value": 7651.54,
+      "date": "2026-09-30",
       "label": "Sep 2026",
-      "display": "7,671",
-      "reading": "Sep 2026: 7,671, down from 7,686 in Aug 2026.",
+      "display": "7,652",
+      "reading": "Sep 2026: 7,652, down from 7,686 in Aug 2026.",
       "change": {
-        "text": "\u2191 12.1% YTD",
+        "text": "\u2191 11.8% YTD",
         "sign": "pos"
       },
       "news": [
@@ -254,27 +266,27 @@
           "date": "2026-09-28"
         },
         {
-          "title": "Asian stocks mostly fall after Wall Street sinks and oil prices rise",
-          "url": "https://www.ajc.com/news/2026/09/asian-stocks-mostly-fall-after-wall-street-sinks-and-oil-prices-rise/",
-          "source": "The Atlanta Journal-Constitution",
-          "date": "2026-09-29"
+          "title": "9 Stocks Turn $100,000 to $18.8 Million In 9 Months",
+          "url": "https://www.investors.com/etfs-and-funds/sectors/sp500-stocks-turn-100000-to-million-in-9-months-2026/",
+          "source": "Investor's Business Daily",
+          "date": "2026-09-30"
         },
         {
-          "title": "Asian stocks mostly fall after Wall Street losses and oil prices rise",
-          "url": "https://www.ajc.com/news/2026/09/asian-stocks-mostly-fall-after-wall-street-losses-and-oil-prices-rise/",
+          "title": "Asian benchmarks mostly rise despite ongoing worries about the Iran war",
+          "url": "https://www.ajc.com/news/2026/09/asian-benchmarks-mostly-rise-despite-ongoing-worries-about-the-iran-war/",
           "source": "The Atlanta Journal-Constitution",
-          "date": "2026-09-29"
+          "date": "2026-09-30"
         }
       ]
     },
     "nasdaq": {
-      "value": 26820.38,
-      "date": "2026-09-28",
+      "value": 26797.54,
+      "date": "2026-09-29",
       "label": "Sep 2026",
-      "display": "26,820",
-      "reading": "Sep 2026: 26,820, up from 26,371 in Aug 2026.",
+      "display": "26,798",
+      "reading": "Sep 2026: 26,798, up from 26,371 in Aug 2026.",
       "change": {
-        "text": "\u2191 15.4% YTD",
+        "text": "\u2191 15.3% YTD",
         "sign": "pos"
       },
       "news": [
@@ -299,33 +311,33 @@
       ]
     },
     "dow": {
-      "value": 51349.92,
-      "date": "2026-09-29",
+      "value": 50906.05,
+      "date": "2026-09-30",
       "label": "Sep 2026",
-      "display": "51,350",
-      "reading": "Sep 2026: 51,350, down from 53,186 in Aug 2026.",
+      "display": "50,906",
+      "reading": "Sep 2026: 50,906, down from 53,186 in Aug 2026.",
       "change": {
-        "text": "\u2191 6.8% YTD",
+        "text": "\u2191 5.9% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "Asian stocks mostly fall after Wall Street sinks and oil prices rise",
-          "url": "https://www.ajc.com/news/2026/09/asian-stocks-mostly-fall-after-wall-street-sinks-and-oil-prices-rise/",
+          "title": "Asian benchmarks mostly rise despite ongoing worries about the Iran war",
+          "url": "https://www.ajc.com/news/2026/09/asian-benchmarks-mostly-rise-despite-ongoing-worries-about-the-iran-war/",
           "source": "The Atlanta Journal-Constitution",
+          "date": "2026-09-30"
+        },
+        {
+          "title": "Dow Jones Futures: Stocks Dip As Yields Rise But Bloom Energy Soars; Micron, Inflation Data Due",
+          "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-treasury-yields-rise-bloom-energy-soars-micron-inflation-data/",
+          "source": "Investor's Business Daily",
           "date": "2026-09-29"
         },
         {
-          "title": "Asian stocks mostly fall after Wall Street losses and oil prices rise",
-          "url": "https://www.ajc.com/news/2026/09/asian-stocks-mostly-fall-after-wall-street-losses-and-oil-prices-rise/",
-          "source": "The Atlanta Journal-Constitution",
+          "title": "How major US stock indexes fared Tuesday 9",
+          "url": "https://wtop.com/news/2026/09/how-major-us-stock-indexes-fared-tuesday-9-29-2026/",
+          "source": "WTOP",
           "date": "2026-09-29"
-        },
-        {
-          "title": "Bond yields crank higher and pull US stocks further from their record",
-          "url": "https://www.ajc.com/news/2026/09/bond-yields-crank-higher-and-pull-us-stocks-further-from-their-record/",
-          "source": "The Atlanta Journal-Constitution",
-          "date": "2026-09-28"
         }
       ]
     }
@@ -405,28 +417,28 @@
         -28.0,
         34.9,
         4.6,
-        5.7,
-        7.0,
-        3.3,
-        7.0,
+        6.2,
+        7.1,
+        3.2,
+        6.8,
         -1.0,
         0.6,
-        2.9,
-        2.8,
-        2.9,
-        2.5,
-        4.7,
+        2.7,
+        2.7,
         3.4,
-        0.8,
+        2.2,
+        4.5,
         3.6,
-        3.3,
-        1.9,
-        -0.6,
-        3.8,
-        4.4,
-        0.5,
-        2.1,
-        1.5
+        1.4,
+        3.6,
+        3.2,
+        2.4,
+        0.1,
+        4.0,
+        3.9,
+        0.2,
+        2.5,
+        2.2
       ],
       "freq": "quarterly"
     },
@@ -1425,7 +1437,8 @@
         "2026-04-01",
         "2026-05-01",
         "2026-06-01",
-        "2026-07-01"
+        "2026-07-01",
+        "2026-08-01"
       ],
       "values": [
         0.0414,
@@ -1500,73 +1513,74 @@
         1.1875,
         1.1863,
         1.3345,
-        1.5858,
-        1.8427,
-        2.669,
-        3.6403,
-        4.0725,
-        4.3061,
-        4.4732,
-        4.5809,
-        4.7374,
-        5.3361,
-        5.9302,
-        6.142,
-        6.2724,
-        6.5455,
-        6.9264,
-        6.6848,
-        6.7946,
-        7.2435,
-        6.7502,
-        6.6397,
-        6.6679,
-        6.4616,
-        6.0305,
-        5.5201,
-        5.5077,
-        5.1978,
-        4.4283,
-        4.476,
-        4.0035,
-        3.2845,
-        3.409,
-        3.4321,
-        3.4489,
-        3.0233,
-        2.7651,
-        2.7673,
-        2.6987,
-        2.7051,
-        2.9279,
-        2.8262,
-        2.6617,
-        2.5484,
-        2.5944,
-        2.413,
-        2.2608,
-        2.4777,
-        2.5878,
-        2.7281,
-        2.6074,
-        2.7105,
-        2.3594,
-        2.2774,
-        2.4581,
-        2.5935,
-        2.6056,
-        2.7476,
-        2.7874,
-        2.7126,
-        2.8202,
-        2.8781,
-        2.8752,
-        2.8732,
-        3.5429,
-        3.8018,
-        4.1114,
-        3.717,
-        3.7012
+        1.5073,
+        1.7863,
+        2.6354,
+        3.5777,
+        3.9705,
+        4.2179,
+        4.3833,
+        4.5094,
+        4.6556,
+        5.2772,
+        5.8684,
+        6.0445,
+        6.2349,
+        6.5097,
+        6.9203,
+        6.6339,
+        6.7846,
+        7.2183,
+        6.8595,
+        6.6835,
+        6.6932,
+        6.5059,
+        6.0896,
+        5.6063,
+        5.5556,
+        5.1998,
+        4.4912,
+        4.5323,
+        4.097,
+        3.3456,
+        3.3613,
+        3.4381,
+        3.4917,
+        3.1,
+        2.8887,
+        2.8622,
+        2.7477,
+        2.8072,
+        2.9516,
+        2.8385,
+        2.6971,
+        2.5696,
+        2.596,
+        2.4367,
+        2.2594,
+        2.4063,
+        2.491,
+        2.6478,
+        2.6324,
+        2.5748,
+        2.2552,
+        2.3311,
+        2.4633,
+        2.6121,
+        2.5909,
+        2.6943,
+        2.783,
+        2.6574,
+        2.7104,
+        2.7772,
+        2.7284,
+        2.8011,
+        3.3654,
+        3.5739,
+        3.8233,
+        3.453,
+        3.3615,
+        3.419
       ],
       "freq": "monthly"
     },
@@ -1710,7 +1724,8 @@
         "2026-04-01",
         "2026-05-01",
         "2026-06-01",
-        "2026-07-01"
+        "2026-07-01",
+        "2026-08-01"
       ],
       "values": [
         1.2097,
@@ -1785,73 +1800,74 @@
         1.4217,
         1.4535,
         1.5088,
-        1.6975,
-        1.7095,
-        2.1991,
-        3.1306,
-        3.5411,
-        3.8617,
-        3.9271,
-        3.9585,
-        4.0138,
-        4.4367,
-        4.8909,
-        5.2146,
-        5.3584,
-        5.6028,
-        5.5932,
-        5.345,
-        5.1841,
-        5.3157,
-        5.1074,
-        5.3624,
-        5.6065,
-        5.4598,
-        5.2081,
-        4.9669,
-        4.9377,
-        4.8556,
-        4.7833,
-        4.7896,
-        4.7316,
-        4.3838,
-        4.2991,
-        3.8282,
-        3.6878,
-        3.4741,
-        3.2907,
-        3.1124,
-        3.159,
-        3.0595,
-        3.1222,
-        3.0067,
-        2.7712,
-        2.7532,
-        2.8062,
-        2.8733,
-        2.8386,
-        2.9865,
-        2.9807,
-        2.9886,
-        2.7801,
-        2.9686,
-        2.6703,
-        2.6148,
-        2.7839,
-        2.8074,
-        2.863,
-        2.9124,
-        2.8251,
-        2.7545,
-        2.8291,
-        2.9711,
-        3.1047,
-        3.0493,
-        3.2538,
-        3.3298,
-        3.4637,
-        3.3436,
-        3.3441
+        1.5894,
+        1.6464,
+        2.1341,
+        3.0683,
+        3.4358,
+        3.7843,
+        3.8442,
+        3.8929,
+        3.9256,
+        4.3713,
+        4.7971,
+        5.0842,
+        5.3255,
+        5.5687,
+        5.5603,
+        5.2887,
+        5.169,
+        5.2994,
+        5.2188,
+        5.4033,
+        5.6405,
+        5.5095,
+        5.285,
+        5.071,
+        5.0017,
+        4.862,
+        4.865,
+        4.8534,
+        4.834,
+        4.4429,
+        4.2361,
+        3.83,
+        3.7381,
+        3.5589,
+        3.4372,
+        3.2252,
+        3.2245,
+        3.1784,
+        3.1455,
+        3.0176,
+        2.8095,
+        2.7792,
+        2.8089,
+        2.9023,
+        2.8396,
+        2.9047,
+        2.8741,
+        2.9032,
+        2.8119,
+        2.8231,
+        2.5636,
+        2.6764,
+        2.7875,
+        2.8255,
+        2.8412,
+        2.8513,
+        2.8171,
+        2.7048,
+        2.7212,
+        2.872,
+        2.938,
+        2.9592,
+        3.1052,
+        3.0839,
+        3.1617,
+        3.0412,
+        2.9835,
+        3.0076
       ],
       "freq": "monthly"
     },
@@ -6145,7 +6161,8 @@
         "2026-09-25",
         "2026-09-26",
         "2026-09-27",
-        "2026-09-28"
+        "2026-09-28",
+        "2026-09-29"
       ],
       "values": [
         0.06,
@@ -10436,6 +10453,7 @@
         3.88,
         3.88,
         3.88,
+        3.88,
         3.88
       ],
       "freq": "monthly"
@@ -13377,7 +13395,8 @@
         "2026-09-23",
         "2026-09-24",
         "2026-09-25",
-        "2026-09-28"
+        "2026-09-28",
+        "2026-09-29"
       ],
       "values": [
         2.12,
@@ -16315,7 +16334,8 @@
         5.11,
         5.18,
         5.17,
-        5.24
+        5.24,
+        5.26
       ],
       "freq": "monthly"
     },
@@ -17754,7 +17774,6 @@
     },
     "sp500": {
       "dates": [
-        "2016-09-30",
         "2016-10-31",
         "2016-11-30",
         "2016-12-30",
@@ -17874,10 +17893,9 @@
         "2026-06-30",
         "2026-07-31",
         "2026-08-31",
-        "2026-09-29"
+        "2026-09-30"
       ],
       "values": [
-        2168.27,
         2126.15,
         2198.81,
         2238.83,
@@ -17997,7 +18015,7 @@
         7499.36,
         7489.72,
         7686.14,
-        7670.84
+        7651.54
       ],
       "freq": "monthly"
     },
@@ -18143,7 +18161,7 @@
         "2026-06-30",
         "2026-07-31",
         "2026-08-31",
-        "2026-09-28"
+        "2026-09-29"
       ],
       "values": [
         4635.24,
@@ -18286,13 +18304,12 @@
         26213.72,
         25373.85,
         26370.89,
-        26820.38
+        26797.54
       ],
       "freq": "monthly"
     },
     "dow": {
       "dates": [
-        "2016-09-30",
         "2016-10-31",
         "2016-11-30",
         "2016-12-30",
@@ -18412,10 +18429,9 @@
         "2026-06-30",
         "2026-07-31",
         "2026-08-31",
-        "2026-09-29"
+        "2026-09-30"
       ],
       "values": [
-        18308.15,
         18142.42,
         19123.58,
         19762.6,
@@ -18535,7 +18551,7 @@
         52319.2,
         52485.03,
         53185.9,
-        51349.92
+        50906.05
       ],
       "freq": "monthly"
     }
