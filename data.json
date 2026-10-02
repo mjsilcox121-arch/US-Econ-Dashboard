@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-01T00:25:16Z",
+  "updated": "2026-10-02T00:35:44Z",
   "metrics": {
     "gdp": {
       "value": 2.2,
@@ -12,6 +12,12 @@
         "sign": "neg"
       },
       "news": [
+        {
+          "title": "US economy grew a solid 2.2% in the second quarter, government says, upgrading previous estimate",
+          "url": "https://www.shawlocal.com/news/2026/09/30/us-economy-grew-a-solid-22-in-the-second-quarter-government-says-upgrading-previous-estimate/",
+          "source": "Shaw Local Enewspapers",
+          "date": "2026-09-30"
+        },
         {
           "title": "US economy grew a solid 2.2% in the second quarter, government says, upgrading previous estimate",
           "url": "https://cdapress.com/news/2026/sep/30/us-economy-grew-a-solid-22-in-the-second-quarter-government-says-upgrading-previous-estimate/",
@@ -125,7 +131,7 @@
     },
     "ffr": {
       "value": 3.88,
-      "date": "2026-09-29",
+      "date": "2026-09-30",
       "label": "Sep 2026",
       "display": "3.88%",
       "reading": "Sep 2026: 3.88%, unchanged from 3.88% in Sep 2026 \u2014 its highest reading in 12 months.",
@@ -134,6 +140,12 @@
         "sign": "flat"
       },
       "news": [
+        {
+          "title": "US inflation rises less than expected in August; consumer spending surges",
+          "url": "https://www.reuters.com/markets/us/us-inflation-rises-less-than-expected-august-consumer-spending-surges-2026-09-30/",
+          "source": "Reuters",
+          "date": "2026-09-30"
+        },
         {
           "title": "Fed's Williams sees no urgency for next Fed rate hike",
           "url": "https://www.reuters.com/business/feds-williams-sees-no-urgency-next-fed-rate-hike-2026-09-29/",
@@ -145,23 +157,17 @@
           "url": "https://www.reuters.com/world/africa/dollar-hold-near-two-month-peak-yields-rise-fed-data-looms-2026-09-29/",
           "source": "Reuters",
           "date": "2026-09-29"
-        },
-        {
-          "title": "Gold drops more than 2% on US rate-hike bets",
-          "url": "https://www.reuters.com/world/india/gold-drops-more-than-1-us-rate-hike-bets-2026-09-28/",
-          "source": "Reuters",
-          "date": "2026-09-28"
         }
       ]
     },
     "ten": {
-      "value": 5.26,
-      "date": "2026-09-29",
+      "value": 5.29,
+      "date": "2026-09-30",
       "label": "Sep 2026",
-      "display": "5.26%",
-      "reading": "Sep 2026: 5.26%, up from 5.24% in Sep 2026 \u2014 its highest reading in 12 months.",
+      "display": "5.29%",
+      "reading": "Sep 2026: 5.29%, up from 5.26% in Sep 2026 \u2014 its highest reading in 12 months.",
       "change": {
-        "text": "\u2191 from 5.24%",
+        "text": "\u2191 from 5.26%",
         "sign": "flat"
       }
     },
@@ -249,44 +255,44 @@
       ]
     },
     "sp500": {
-      "value": 7651.54,
-      "date": "2026-09-30",
-      "label": "Sep 2026",
-      "display": "7,652",
-      "reading": "Sep 2026: 7,652, down from 7,686 in Aug 2026.",
+      "value": 7666.45,
+      "date": "2026-10-01",
+      "label": "Oct 2026",
+      "display": "7,666",
+      "reading": "Oct 2026: 7,666, up from 7,652 in Sep 2026.",
       "change": {
-        "text": "\u2191 11.8% YTD",
+        "text": "\u2191 12.0% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "Nearly half the S&P 500 are at cross purposes with the rest of the market",
-          "url": "https://www.cnbc.com/2026/09/28/nearly-half-of-the-stocks-in-the-sp-500-are-working-against-it.html",
-          "source": "CNBC",
-          "date": "2026-09-28"
+          "title": "S&P 500: Value Vs. Momentum - 27 Stocks Have Both",
+          "url": "https://www.investors.com/etfs-and-funds/etfs/sp500-dont-choose-between-value-and-momentum-stocks-are-both/",
+          "source": "Investor's Business Daily",
+          "date": "2026-10-01"
         },
         {
-          "title": "9 Stocks Turn $100,000 to $18.8 Million In 9 Months",
-          "url": "https://www.investors.com/etfs-and-funds/sectors/sp500-stocks-turn-100000-to-million-in-9-months-2026/",
-          "source": "Investor's Business Daily",
+          "title": "Most US stocks fall after the bond market cranks the pressure even higher",
+          "url": "https://www.ajc.com/news/2026/09/most-us-stocks-fall-on-wall-street-as-pressure-remains-from-high-bond-yields/",
+          "source": "The Atlanta Journal-Constitution",
           "date": "2026-09-30"
         },
         {
-          "title": "Asian benchmarks mostly rise despite ongoing worries about the Iran war",
-          "url": "https://www.ajc.com/news/2026/09/asian-benchmarks-mostly-rise-despite-ongoing-worries-about-the-iran-war/",
-          "source": "The Atlanta Journal-Constitution",
+          "title": "How major US stock indexes fared Wednesday 9",
+          "url": "https://wtop.com/news/2026/09/how-major-us-stock-indexes-fared-wednesday-9-30-2026/",
+          "source": "WTOP",
           "date": "2026-09-30"
         }
       ]
     },
     "nasdaq": {
-      "value": 26797.54,
-      "date": "2026-09-29",
+      "value": 26861.06,
+      "date": "2026-09-30",
       "label": "Sep 2026",
-      "display": "26,798",
-      "reading": "Sep 2026: 26,798, up from 26,371 in Aug 2026.",
+      "display": "26,861",
+      "reading": "Sep 2026: 26,861, up from 26,371 in Aug 2026.",
       "change": {
-        "text": "\u2191 15.3% YTD",
+        "text": "\u2191 15.6% YTD",
         "sign": "pos"
       },
       "news": [
@@ -311,33 +317,33 @@
       ]
     },
     "dow": {
-      "value": 50906.05,
-      "date": "2026-09-30",
-      "label": "Sep 2026",
-      "display": "50,906",
-      "reading": "Sep 2026: 50,906, down from 53,186 in Aug 2026.",
+      "value": 50926.56,
+      "date": "2026-10-01",
+      "label": "Oct 2026",
+      "display": "50,927",
+      "reading": "Oct 2026: 50,927, up from 50,906 in Sep 2026.",
       "change": {
-        "text": "\u2191 5.9% YTD",
+        "text": "\u2191 6.0% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "Asian benchmarks mostly rise despite ongoing worries about the Iran war",
-          "url": "https://www.ajc.com/news/2026/09/asian-benchmarks-mostly-rise-despite-ongoing-worries-about-the-iran-war/",
+          "title": "Dow Jones Futures: Micron Rises On Hot Earnings After Treasury Yields Pressure Stocks",
+          "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-micron-rises-earnings-treasury-yields/",
+          "source": "Investor's Business Daily",
+          "date": "2026-09-30"
+        },
+        {
+          "title": "Most US stocks fall after the bond market cranks the pressure even higher",
+          "url": "https://www.ajc.com/news/2026/09/most-us-stocks-fall-on-wall-street-as-pressure-remains-from-high-bond-yields/",
           "source": "The Atlanta Journal-Constitution",
           "date": "2026-09-30"
         },
         {
-          "title": "Dow Jones Futures: Stocks Dip As Yields Rise But Bloom Energy Soars; Micron, Inflation Data Due",
-          "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-treasury-yields-rise-bloom-energy-soars-micron-inflation-data/",
-          "source": "Investor's Business Daily",
-          "date": "2026-09-29"
-        },
-        {
-          "title": "How major US stock indexes fared Tuesday 9",
-          "url": "https://wtop.com/news/2026/09/how-major-us-stock-indexes-fared-tuesday-9-29-2026/",
-          "source": "WTOP",
-          "date": "2026-09-29"
+          "title": "Treasury yields ease and stocks rise after inflation report wasn't as bad as expected",
+          "url": "https://www.ajc.com/news/2026/09/us-futures-dragged-lower-as-oil-prices-and-treasury-yields-climb/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-09-30"
         }
       ]
     }
@@ -6162,7 +6168,8 @@
         "2026-09-26",
         "2026-09-27",
         "2026-09-28",
-        "2026-09-29"
+        "2026-09-29",
+        "2026-09-30"
       ],
       "values": [
         0.06,
@@ -10454,6 +10461,7 @@
         3.88,
         3.88,
         3.88,
+        3.88,
         3.88
       ],
       "freq": "monthly"
@@ -13396,7 +13404,8 @@
         "2026-09-24",
         "2026-09-25",
         "2026-09-28",
-        "2026-09-29"
+        "2026-09-29",
+        "2026-09-30"
       ],
       "values": [
         2.12,
@@ -16335,7 +16344,8 @@
         5.18,
         5.17,
         5.24,
-        5.26
+        5.26,
+        5.29
       ],
       "freq": "monthly"
     },
@@ -17893,7 +17903,8 @@
         "2026-06-30",
         "2026-07-31",
         "2026-08-31",
-        "2026-09-30"
+        "2026-09-30",
+        "2026-10-01"
       ],
       "values": [
         2126.15,
@@ -18015,7 +18026,8 @@
         7499.36,
         7489.72,
         7686.14,
-        7651.54
+        7651.54,
+        7666.45
       ],
       "freq": "monthly"
     },
@@ -18161,7 +18173,7 @@
         "2026-06-30",
         "2026-07-31",
         "2026-08-31",
-        "2026-09-29"
+        "2026-09-30"
       ],
       "values": [
         4635.24,
@@ -18304,7 +18316,7 @@
         26213.72,
         25373.85,
         26370.89,
-        26797.54
+        26861.06
       ],
       "freq": "monthly"
     },
@@ -18429,7 +18441,8 @@
         "2026-06-30",
         "2026-07-31",
         "2026-08-31",
-        "2026-09-30"
+        "2026-09-30",
+        "2026-10-01"
       ],
       "values": [
         18142.42,
@@ -18551,7 +18564,8 @@
         52319.2,
         52485.03,
         53185.9,
-        50906.05
+        50906.05,
+        50926.56
       ],
       "freq": "monthly"
     }
