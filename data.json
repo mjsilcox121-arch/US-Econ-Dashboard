@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-03T00:15:01Z",
+  "updated": "2026-10-06T01:41:33Z",
   "metrics": {
     "gdp": {
       "value": 2.2,
@@ -44,15 +44,21 @@
       },
       "news": [
         {
-          "title": "US posts weak job growth data in September",
-          "url": "https://www.breitbart.com/news/us-posts-weak-job-growth-data-in-september/",
-          "source": "Breitbart News Network",
+          "title": "US hiring slows and unemployment ticks higher with a month remaining before Americans head to polls",
+          "url": "https://www.ajc.com/news/2026/10/us-hiring-slows-and-unemployment-ticks-higher-with-a-month-remaining-before-americans-head-to-polls/",
+          "source": "The Atlanta Journal-Constitution",
           "date": "2026-10-02"
         },
         {
-          "title": "US hiring slows and unemployment ticks higher in September, a month before Americans head to polls",
-          "url": "https://wtop.com/national/2026/10/confidence-about-the-economy-is-in-short-supply-despite-a-relatively-solid-job-market/",
-          "source": "WTOP",
+          "title": "US hiring slows and unemployment ticks higher with a month remaining before Americans head to polls",
+          "url": "https://www.ajc.com/news/2026/10/us-hiring-slows-and-unemployment-ticks-higher-in-september-a-month-before-americans-head-to-polls/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-10-02"
+        },
+        {
+          "title": "US adds disappointing 29,000 jobs and unemployment ticks up to 4.2% in September",
+          "url": "https://www.ajc.com/news/2026/10/us-adds-disappointing-29000-jobs-and-unemployment-ticks-up-to-42-in-september/",
+          "source": "The Atlanta Journal-Constitution",
           "date": "2026-10-02"
         }
       ]
@@ -66,21 +72,7 @@
       "change": {
         "text": "\u2191 from +3.3%",
         "sign": "neg"
-      },
-      "news": [
-        {
-          "title": "Fed Chairman Warsh faces pressure to \u2018put up or shut up\u2019 after hot CPI report",
-          "url": "https://www.courant.com/2026/09/12/fed-chairman-warsh-faces-pressure-to-put-up-or-shut-up-after-hot-cpi-report-3/",
-          "source": "Hartford Courant",
-          "date": "2026-09-12"
-        },
-        {
-          "title": "Consumer Price Index: Inflation At 3.4% In August",
-          "url": "https://seekingalpha.com/article/4945709-consumer-price-index-inflation-at-3-4-percent-in-august",
-          "source": "Seeking Alpha",
-          "date": "2026-09-12"
-        }
-      ]
+      }
     },
     "corecpi": {
       "value": 2.4462,
@@ -139,10 +131,10 @@
     },
     "ffr": {
       "value": 3.88,
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "label": "Oct 2026",
       "display": "3.88%",
-      "reading": "Oct 2026: 3.88%, unchanged from 3.88% in Sep 2026 \u2014 its highest reading in 12 months.",
+      "reading": "Oct 2026: 3.88%, unchanged from 3.88% in Oct 2026 \u2014 its highest reading in 12 months.",
       "change": {
         "text": "\u2192 Steady",
         "sign": "flat"
@@ -155,27 +147,27 @@
           "date": "2026-09-30"
         },
         {
-          "title": "Fed's Williams sees no urgency for next Fed rate hike",
-          "url": "https://www.reuters.com/business/feds-williams-sees-no-urgency-next-fed-rate-hike-2026-09-29/",
-          "source": "Reuters",
-          "date": "2026-09-29"
+          "title": "Let exchange rate act as shock absorber: IMF on Fed hike impact on India",
+          "url": "https://www.europesays.com/3290416/",
+          "source": "EUROPE SAYS",
+          "date": "2026-10-04"
         },
         {
-          "title": "Dollar hits 16-month high on euro and Swiss franc as US yields top 5%",
-          "url": "https://www.reuters.com/world/africa/dollar-hold-near-two-month-peak-yields-rise-fed-data-looms-2026-09-29/",
-          "source": "Reuters",
-          "date": "2026-09-29"
+          "title": "Let exchange rate act as shock absorber: IMF on Fed hike impact on India",
+          "url": "https://www.europesays.com/3290172/",
+          "source": "EUROPE SAYS",
+          "date": "2026-10-04"
         }
       ]
     },
     "ten": {
-      "value": 5.24,
-      "date": "2026-10-01",
+      "value": 5.28,
+      "date": "2026-10-02",
       "label": "Oct 2026",
-      "display": "5.24%",
-      "reading": "Oct 2026: 5.24%, down from 5.29% in Sep 2026.",
+      "display": "5.28%",
+      "reading": "Oct 2026: 5.28%, up from 5.24% in Oct 2026.",
       "change": {
-        "text": "\u2193 from 5.29%",
+        "text": "\u2191 from 5.24%",
         "sign": "flat"
       }
     },
@@ -188,7 +180,15 @@
       "change": {
         "text": "\u2193 from +133K",
         "sign": "neg"
-      }
+      },
+      "news": [
+        {
+          "title": "Jobs report September 2026:",
+          "url": "https://www.cnbc.com/2026/10/02/jobs-report-september-2026.html",
+          "source": "CNBC",
+          "date": "2026-10-02"
+        }
+      ]
     },
     "retail": {
       "value": 1.1274,
@@ -263,44 +263,44 @@
       ]
     },
     "sp500": {
-      "value": 7722.72,
-      "date": "2026-10-02",
+      "value": 7773.95,
+      "date": "2026-10-05",
       "label": "Oct 2026",
-      "display": "7,723",
-      "reading": "Oct 2026: 7,723, up from 7,652 in Sep 2026 \u2014 its highest reading in 12 months.",
+      "display": "7,774",
+      "reading": "Oct 2026: 7,774, up from 7,652 in Sep 2026 \u2014 its highest reading in 12 months.",
       "change": {
-        "text": "\u2191 12.8% YTD",
+        "text": "\u2191 13.6% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "October could be a huge month for the stock market. Here's why.",
-          "url": "https://www.foxbusiness.com/markets/october-could-be-a-huge-month-for-the-stock-market-heres-why",
-          "source": "Fox Business",
-          "date": "2026-10-01"
+          "title": "The 1-Minute Market Report October 4, 2026",
+          "url": "https://seekingalpha.com/article/4951928-the-1-minute-market-report-october-4-2026",
+          "source": "Seeking Alpha",
+          "date": "2026-10-05"
         },
         {
-          "title": "S&P 500: Value Vs. Momentum - 27 Stocks Have Both",
-          "url": "https://www.investors.com/etfs-and-funds/etfs/sp500-dont-choose-between-value-and-momentum-stocks-are-both/",
-          "source": "Investor's Business Daily",
-          "date": "2026-10-01"
-        },
-        {
-          "title": "Most US stocks fall after the bond market cranks the pressure even higher",
-          "url": "https://www.ajc.com/news/2026/09/most-us-stocks-fall-on-wall-street-as-pressure-remains-from-high-bond-yields/",
+          "title": "Asian shares are higher as easing worries over inflation reduce odds for another Fed rate hike",
+          "url": "https://www.ajc.com/news/2026/10/asian-shares-are-higher-as-easing-worries-over-inflation-reduce-odds-for-another-fed-rate-hike/",
           "source": "The Atlanta Journal-Constitution",
-          "date": "2026-09-30"
+          "date": "2026-10-05"
+        },
+        {
+          "title": "How major US stock indexes fared Friday 10",
+          "url": "https://wtop.com/news/2026/10/how-major-us-stock-indexes-fared-friday-10-2-2026/",
+          "source": "WTOP",
+          "date": "2026-10-02"
         }
       ]
     },
     "nasdaq": {
-      "value": 26871.6,
-      "date": "2026-10-01",
+      "value": 27190.86,
+      "date": "2026-10-02",
       "label": "Oct 2026",
-      "display": "26,872",
-      "reading": "Oct 2026: 26,872, up from 26,861 in Sep 2026.",
+      "display": "27,191",
+      "reading": "Oct 2026: 27,191, up from 26,861 in Sep 2026 \u2014 its highest reading in 12 months.",
       "change": {
-        "text": "\u2191 15.6% YTD",
+        "text": "\u2191 17.0% YTD",
         "sign": "pos"
       },
       "news": [
@@ -325,33 +325,33 @@
       ]
     },
     "dow": {
-      "value": 51176.96,
-      "date": "2026-10-02",
+      "value": 51267.9,
+      "date": "2026-10-05",
       "label": "Oct 2026",
-      "display": "51,177",
-      "reading": "Oct 2026: 51,177, up from 50,906 in Sep 2026.",
+      "display": "51,268",
+      "reading": "Oct 2026: 51,268, up from 50,906 in Sep 2026.",
       "change": {
-        "text": "\u2191 6.5% YTD",
+        "text": "\u2191 6.7% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "Dow Jones Futures: Stocks Rise Off Support As Yields Tumble, Micron, Meta In Focus; Tesla, Jobs Report Due",
-          "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-treasury-yields-yields-tumble-micron-tesla-jobs-report-due/",
-          "source": "Investor's Business Daily",
-          "date": "2026-10-01"
-        },
-        {
-          "title": "Dow Jones Futures: Micron Rises On Hot Earnings After Treasury Yields Pressure Stocks",
-          "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-micron-rises-earnings-treasury-yields/",
-          "source": "Investor's Business Daily",
-          "date": "2026-09-30"
-        },
-        {
-          "title": "Most US stocks fall after the bond market cranks the pressure even higher",
-          "url": "https://www.ajc.com/news/2026/09/most-us-stocks-fall-on-wall-street-as-pressure-remains-from-high-bond-yields/",
+          "title": "Asian shares are higher as easing worries over inflation reduce odds for another Fed rate hike",
+          "url": "https://www.ajc.com/news/2026/10/asian-shares-are-higher-as-easing-worries-over-inflation-reduce-odds-for-another-fed-rate-hike/",
           "source": "The Atlanta Journal-Constitution",
-          "date": "2026-09-30"
+          "date": "2026-10-05"
+        },
+        {
+          "title": "The Week That Was, The Week Ahead: Macro and Markets, October 4",
+          "url": "https://markets.businessinsider.com/news/stocks/the-week-that-was-the-week-ahead-macro-and-markets-october-4-1036595570",
+          "source": "Markets Insider",
+          "date": "2026-10-04"
+        },
+        {
+          "title": "US stocks rise near their record after the latest jobs report eases worries about inflation",
+          "url": "https://www.ajc.com/news/2026/10/us-stocks-rise-near-their-record-after-the-latest-jobs-report-eases-worries-about-inflation/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-10-02"
         }
       ]
     }
@@ -6180,7 +6180,8 @@
         "2026-09-28",
         "2026-09-29",
         "2026-09-30",
-        "2026-10-01"
+        "2026-10-01",
+        "2026-10-02"
       ],
       "values": [
         0.06,
@@ -10474,6 +10475,7 @@
         3.88,
         3.88,
         3.88,
+        3.88,
         3.88
       ],
       "freq": "monthly"
@@ -13418,7 +13420,8 @@
         "2026-09-28",
         "2026-09-29",
         "2026-09-30",
-        "2026-10-01"
+        "2026-10-01",
+        "2026-10-02"
       ],
       "values": [
         2.12,
@@ -16359,7 +16362,8 @@
         5.24,
         5.26,
         5.29,
-        5.24
+        5.24,
+        5.28
       ],
       "freq": "monthly"
     },
@@ -17920,7 +17924,7 @@
         "2026-07-31",
         "2026-08-31",
         "2026-09-30",
-        "2026-10-02"
+        "2026-10-05"
       ],
       "values": [
         2126.15,
@@ -18043,7 +18047,7 @@
         7489.72,
         7686.14,
         7651.54,
-        7722.72
+        7773.95
       ],
       "freq": "monthly"
     },
@@ -18190,7 +18194,7 @@
         "2026-07-31",
         "2026-08-31",
         "2026-09-30",
-        "2026-10-01"
+        "2026-10-02"
       ],
       "values": [
         4635.24,
@@ -18334,7 +18338,7 @@
         25373.85,
         26370.89,
         26861.06,
-        26871.6
+        27190.86
       ],
       "freq": "monthly"
     },
@@ -18460,7 +18464,7 @@
         "2026-07-31",
         "2026-08-31",
         "2026-09-30",
-        "2026-10-02"
+        "2026-10-05"
       ],
       "values": [
         18142.42,
@@ -18583,7 +18587,7 @@
         52485.03,
         53185.9,
         50906.05,
-        51176.96
+        51267.9
       ],
       "freq": "monthly"
     }
