@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-06T01:41:33Z",
+  "updated": "2026-10-07T00:27:51Z",
   "metrics": {
     "gdp": {
       "value": 2.2,
@@ -131,7 +131,7 @@
     },
     "ffr": {
       "value": 3.88,
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "label": "Oct 2026",
       "display": "3.88%",
       "reading": "Oct 2026: 3.88%, unchanged from 3.88% in Oct 2026 \u2014 its highest reading in 12 months.",
@@ -161,13 +161,13 @@
       ]
     },
     "ten": {
-      "value": 5.28,
-      "date": "2026-10-02",
+      "value": 5.31,
+      "date": "2026-10-05",
       "label": "Oct 2026",
-      "display": "5.28%",
-      "reading": "Oct 2026: 5.28%, up from 5.24% in Oct 2026.",
+      "display": "5.31%",
+      "reading": "Oct 2026: 5.31%, up from 5.28% in Oct 2026 \u2014 its highest reading in 12 months.",
       "change": {
-        "text": "\u2191 from 5.24%",
+        "text": "\u2191 from 5.28%",
         "sign": "flat"
       }
     },
@@ -221,13 +221,13 @@
       ]
     },
     "trade": {
-      "value": -88576.0,
-      "date": "2026-07-01",
-      "label": "Jul 2026",
-      "display": "-$88576B",
-      "reading": "Jul 2026: -$88576B, down from -$71182B in Jun 2026 \u2014 its lowest reading in 12 months.",
+      "value": -105572.0,
+      "date": "2026-08-01",
+      "label": "Aug 2026",
+      "display": "-$105572B",
+      "reading": "Aug 2026: -$105572B, down from -$92826B in Jul 2026 \u2014 its lowest reading in 12 months.",
       "change": {
-        "text": "\u2193 from -$71182B",
+        "text": "\u2193 from -$92826B",
         "sign": "neg"
       }
     },
@@ -263,44 +263,44 @@
       ]
     },
     "sp500": {
-      "value": 7773.95,
-      "date": "2026-10-05",
+      "value": 7818.93,
+      "date": "2026-10-06",
       "label": "Oct 2026",
-      "display": "7,774",
-      "reading": "Oct 2026: 7,774, up from 7,652 in Sep 2026 \u2014 its highest reading in 12 months.",
+      "display": "7,819",
+      "reading": "Oct 2026: 7,819, up from 7,652 in Sep 2026 \u2014 its highest reading in 12 months.",
       "change": {
-        "text": "\u2191 13.6% YTD",
+        "text": "\u2191 14.2% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "The 1-Minute Market Report October 4, 2026",
-          "url": "https://seekingalpha.com/article/4951928-the-1-minute-market-report-october-4-2026",
-          "source": "Seeking Alpha",
+          "title": "How major US stock indexes fared Monday 10",
+          "url": "https://wtop.com/national/2026/10/how-major-us-stock-indexes-fared-monday-10-5-2026/",
+          "source": "WTOP",
           "date": "2026-10-05"
         },
         {
-          "title": "Asian shares are higher as easing worries over inflation reduce odds for another Fed rate hike",
-          "url": "https://www.ajc.com/news/2026/10/asian-shares-are-higher-as-easing-worries-over-inflation-reduce-odds-for-another-fed-rate-hike/",
+          "title": "US stocks rise to the edge of an all-time high",
+          "url": "https://www.ajc.com/news/2026/10/us-stocks-rise-to-the-edge-of-an-all-time-high/",
           "source": "The Atlanta Journal-Constitution",
           "date": "2026-10-05"
         },
         {
-          "title": "How major US stock indexes fared Friday 10",
-          "url": "https://wtop.com/news/2026/10/how-major-us-stock-indexes-fared-friday-10-2-2026/",
-          "source": "WTOP",
-          "date": "2026-10-02"
+          "title": "US stocks are rising near their records, with the Nasdaq composite on track for an all-time high",
+          "url": "https://www.ajc.com/news/2026/10/us-stocks-are-rising-near-their-records-with-the-nasdaq-composite-on-track-for-an-all-time-high/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-10-05"
         }
       ]
     },
     "nasdaq": {
-      "value": 27190.86,
-      "date": "2026-10-02",
+      "value": 27477.31,
+      "date": "2026-10-05",
       "label": "Oct 2026",
-      "display": "27,191",
-      "reading": "Oct 2026: 27,191, up from 26,861 in Sep 2026 \u2014 its highest reading in 12 months.",
+      "display": "27,477",
+      "reading": "Oct 2026: 27,477, up from 26,861 in Sep 2026 \u2014 its highest reading in 12 months.",
       "change": {
-        "text": "\u2191 17.0% YTD",
+        "text": "\u2191 18.2% YTD",
         "sign": "pos"
       },
       "news": [
@@ -325,33 +325,33 @@
       ]
     },
     "dow": {
-      "value": 51267.9,
-      "date": "2026-10-05",
+      "value": 51521.28,
+      "date": "2026-10-06",
       "label": "Oct 2026",
-      "display": "51,268",
-      "reading": "Oct 2026: 51,268, up from 50,906 in Sep 2026.",
+      "display": "51,521",
+      "reading": "Oct 2026: 51,521, up from 50,906 in Sep 2026.",
       "change": {
-        "text": "\u2191 6.7% YTD",
+        "text": "\u2191 7.2% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "Asian shares are higher as easing worries over inflation reduce odds for another Fed rate hike",
-          "url": "https://www.ajc.com/news/2026/10/asian-shares-are-higher-as-easing-worries-over-inflation-reduce-odds-for-another-fed-rate-hike/",
+          "title": "US stocks rise to the edge of an all-time high",
+          "url": "https://www.ajc.com/news/2026/10/us-stocks-rise-to-the-edge-of-an-all-time-high/",
           "source": "The Atlanta Journal-Constitution",
           "date": "2026-10-05"
         },
         {
-          "title": "The Week That Was, The Week Ahead: Macro and Markets, October 4",
-          "url": "https://markets.businessinsider.com/news/stocks/the-week-that-was-the-week-ahead-macro-and-markets-october-4-1036595570",
-          "source": "Markets Insider",
-          "date": "2026-10-04"
+          "title": "US stocks are rising near their records, with the Nasdaq composite on track for an all-time high",
+          "url": "https://www.ajc.com/news/2026/10/us-stocks-are-rising-near-their-records-with-the-nasdaq-composite-on-track-for-an-all-time-high/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-10-05"
         },
         {
-          "title": "US stocks rise near their record after the latest jobs report eases worries about inflation",
-          "url": "https://www.ajc.com/news/2026/10/us-stocks-rise-near-their-record-after-the-latest-jobs-report-eases-worries-about-inflation/",
+          "title": "US stocks edge toward their records after oil prices ease a bit",
+          "url": "https://www.ajc.com/news/2026/10/us-stocks-hold-near-their-records-after-oil-prices-swing-lower/",
           "source": "The Atlanta Journal-Constitution",
-          "date": "2026-10-02"
+          "date": "2026-10-05"
         }
       ]
     }
@@ -6181,7 +6181,10 @@
         "2026-09-29",
         "2026-09-30",
         "2026-10-01",
-        "2026-10-02"
+        "2026-10-02",
+        "2026-10-03",
+        "2026-10-04",
+        "2026-10-05"
       ],
       "values": [
         0.06,
@@ -10476,6 +10479,9 @@
         3.88,
         3.88,
         3.88,
+        3.88,
+        3.88,
+        3.88,
         3.88
       ],
       "freq": "monthly"
@@ -13421,7 +13427,8 @@
         "2026-09-29",
         "2026-09-30",
         "2026-10-01",
-        "2026-10-02"
+        "2026-10-02",
+        "2026-10-05"
       ],
       "values": [
         2.12,
@@ -16363,7 +16370,8 @@
         5.26,
         5.29,
         5.24,
-        5.28
+        5.28,
+        5.31
       ],
       "freq": "monthly"
     },
@@ -17370,7 +17378,8 @@
         "2026-04-01",
         "2026-05-01",
         "2026-06-01",
-        "2026-07-01"
+        "2026-07-01",
+        "2026-08-01"
       ],
       "values": [
         -37225.0,
@@ -17511,7 +17520,8 @@
         -52883.0,
         -75752.0,
         -71182.0,
-        -88576.0
+        -92826.0,
+        -105572.0
       ],
       "freq": "monthly"
     },
@@ -17924,7 +17934,7 @@
         "2026-07-31",
         "2026-08-31",
         "2026-09-30",
-        "2026-10-05"
+        "2026-10-06"
       ],
       "values": [
         2126.15,
@@ -18047,7 +18057,7 @@
         7489.72,
         7686.14,
         7651.54,
-        7773.95
+        7818.93
       ],
       "freq": "monthly"
     },
@@ -18194,7 +18204,7 @@
         "2026-07-31",
         "2026-08-31",
         "2026-09-30",
-        "2026-10-02"
+        "2026-10-05"
       ],
       "values": [
         4635.24,
@@ -18338,7 +18348,7 @@
         25373.85,
         26370.89,
         26861.06,
-        27190.86
+        27477.31
       ],
       "freq": "monthly"
     },
@@ -18464,7 +18474,7 @@
         "2026-07-31",
         "2026-08-31",
         "2026-09-30",
-        "2026-10-05"
+        "2026-10-06"
       ],
       "values": [
         18142.42,
@@ -18587,7 +18597,7 @@
         52485.03,
         53185.9,
         50906.05,
-        51267.9
+        51521.28
       ],
       "freq": "monthly"
     }
