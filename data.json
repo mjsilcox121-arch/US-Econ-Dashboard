@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-07T00:27:51Z",
+  "updated": "2026-10-08T00:48:09Z",
   "metrics": {
     "gdp": {
       "value": 2.2,
@@ -131,7 +131,7 @@
     },
     "ffr": {
       "value": 3.88,
-      "date": "2026-10-05",
+      "date": "2026-10-06",
       "label": "Oct 2026",
       "display": "3.88%",
       "reading": "Oct 2026: 3.88%, unchanged from 3.88% in Oct 2026 \u2014 its highest reading in 12 months.",
@@ -140,6 +140,12 @@
         "sign": "flat"
       },
       "news": [
+        {
+          "title": "Fed minutes could detail rate-hike decision, policy path",
+          "url": "https://www.reuters.com/business/fed-minutes-could-detail-rate-hike-decision-policy-path-2026-10-07/",
+          "source": "Reuters",
+          "date": "2026-10-07"
+        },
         {
           "title": "US inflation rises less than expected in August; consumer spending surges",
           "url": "https://www.reuters.com/markets/us/us-inflation-rises-less-than-expected-august-consumer-spending-surges-2026-09-30/",
@@ -151,23 +157,17 @@
           "url": "https://www.europesays.com/3290416/",
           "source": "EUROPE SAYS",
           "date": "2026-10-04"
-        },
-        {
-          "title": "Let exchange rate act as shock absorber: IMF on Fed hike impact on India",
-          "url": "https://www.europesays.com/3290172/",
-          "source": "EUROPE SAYS",
-          "date": "2026-10-04"
         }
       ]
     },
     "ten": {
-      "value": 5.31,
-      "date": "2026-10-05",
+      "value": 5.27,
+      "date": "2026-10-06",
       "label": "Oct 2026",
-      "display": "5.31%",
-      "reading": "Oct 2026: 5.31%, up from 5.28% in Oct 2026 \u2014 its highest reading in 12 months.",
+      "display": "5.27%",
+      "reading": "Oct 2026: 5.27%, down from 5.31% in Oct 2026.",
       "change": {
-        "text": "\u2191 from 5.28%",
+        "text": "\u2193 from 5.31%",
         "sign": "flat"
       }
     },
@@ -263,44 +263,44 @@
       ]
     },
     "sp500": {
-      "value": 7818.93,
-      "date": "2026-10-06",
+      "value": 7801.77,
+      "date": "2026-10-07",
       "label": "Oct 2026",
-      "display": "7,819",
-      "reading": "Oct 2026: 7,819, up from 7,652 in Sep 2026 \u2014 its highest reading in 12 months.",
+      "display": "7,802",
+      "reading": "Oct 2026: 7,802, up from 7,652 in Sep 2026 \u2014 its highest reading in 12 months.",
       "change": {
-        "text": "\u2191 14.2% YTD",
+        "text": "\u2191 14.0% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "How major US stock indexes fared Monday 10",
-          "url": "https://wtop.com/national/2026/10/how-major-us-stock-indexes-fared-monday-10-5-2026/",
-          "source": "WTOP",
-          "date": "2026-10-05"
+          "title": "CNBC Daily Open: AI rally defies bond market rout",
+          "url": "https://www.cnbc.com/2026/10/07/daily-open-ai-rally-bond-market-rout.html",
+          "source": "CNBC",
+          "date": "2026-10-07"
         },
         {
-          "title": "US stocks rise to the edge of an all-time high",
-          "url": "https://www.ajc.com/news/2026/10/us-stocks-rise-to-the-edge-of-an-all-time-high/",
-          "source": "The Atlanta Journal-Constitution",
-          "date": "2026-10-05"
+          "title": "What\u2019s likely to move the market",
+          "url": "https://www.cnbc.com/2026/10/06/wednesdays-big-stock-stories-whats-likely-to-move-the-market.html",
+          "source": "CNBC",
+          "date": "2026-10-06"
         },
         {
-          "title": "US stocks are rising near their records, with the Nasdaq composite on track for an all-time high",
-          "url": "https://www.ajc.com/news/2026/10/us-stocks-are-rising-near-their-records-with-the-nasdaq-composite-on-track-for-an-all-time-high/",
-          "source": "The Atlanta Journal-Constitution",
-          "date": "2026-10-05"
+          "title": "Chart: A look at the S&P 500's remarkable and defiant trip to a new record",
+          "url": "https://www.cnbc.com/2026/10/06/chart-a-look-at-the-sp-500s-remarkable-and-defiant-trip-a-new-record.html",
+          "source": "CNBC",
+          "date": "2026-10-06"
         }
       ]
     },
     "nasdaq": {
-      "value": 27477.31,
-      "date": "2026-10-05",
+      "value": 27599.89,
+      "date": "2026-10-06",
       "label": "Oct 2026",
-      "display": "27,477",
-      "reading": "Oct 2026: 27,477, up from 26,861 in Sep 2026 \u2014 its highest reading in 12 months.",
+      "display": "27,600",
+      "reading": "Oct 2026: 27,600, up from 26,861 in Sep 2026 \u2014 its highest reading in 12 months.",
       "change": {
-        "text": "\u2191 18.2% YTD",
+        "text": "\u2191 18.8% YTD",
         "sign": "pos"
       },
       "news": [
@@ -325,16 +325,22 @@
       ]
     },
     "dow": {
-      "value": 51521.28,
-      "date": "2026-10-06",
+      "value": 51179.87,
+      "date": "2026-10-07",
       "label": "Oct 2026",
-      "display": "51,521",
-      "reading": "Oct 2026: 51,521, up from 50,906 in Sep 2026.",
+      "display": "51,180",
+      "reading": "Oct 2026: 51,180, up from 50,906 in Sep 2026.",
       "change": {
-        "text": "\u2191 7.2% YTD",
+        "text": "\u2191 6.5% YTD",
         "sign": "pos"
       },
       "news": [
+        {
+          "title": "US stocks flirt with a record after oil prices ease",
+          "url": "https://www.ajc.com/news/2026/10/us-stocks-flirt-with-a-record-after-oil-prices-ease/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-10-06"
+        },
         {
           "title": "US stocks rise to the edge of an all-time high",
           "url": "https://www.ajc.com/news/2026/10/us-stocks-rise-to-the-edge-of-an-all-time-high/",
@@ -344,12 +350,6 @@
         {
           "title": "US stocks are rising near their records, with the Nasdaq composite on track for an all-time high",
           "url": "https://www.ajc.com/news/2026/10/us-stocks-are-rising-near-their-records-with-the-nasdaq-composite-on-track-for-an-all-time-high/",
-          "source": "The Atlanta Journal-Constitution",
-          "date": "2026-10-05"
-        },
-        {
-          "title": "US stocks edge toward their records after oil prices ease a bit",
-          "url": "https://www.ajc.com/news/2026/10/us-stocks-hold-near-their-records-after-oil-prices-swing-lower/",
           "source": "The Atlanta Journal-Constitution",
           "date": "2026-10-05"
         }
@@ -6184,7 +6184,8 @@
         "2026-10-02",
         "2026-10-03",
         "2026-10-04",
-        "2026-10-05"
+        "2026-10-05",
+        "2026-10-06"
       ],
       "values": [
         0.06,
@@ -10482,6 +10483,7 @@
         3.88,
         3.88,
         3.88,
+        3.88,
         3.88
       ],
       "freq": "monthly"
@@ -13428,7 +13430,8 @@
         "2026-09-30",
         "2026-10-01",
         "2026-10-02",
-        "2026-10-05"
+        "2026-10-05",
+        "2026-10-06"
       ],
       "values": [
         2.12,
@@ -16371,7 +16374,8 @@
         5.29,
         5.24,
         5.28,
-        5.31
+        5.31,
+        5.27
       ],
       "freq": "monthly"
     },
@@ -17934,7 +17938,7 @@
         "2026-07-31",
         "2026-08-31",
         "2026-09-30",
-        "2026-10-06"
+        "2026-10-07"
       ],
       "values": [
         2126.15,
@@ -18057,7 +18061,7 @@
         7489.72,
         7686.14,
         7651.54,
-        7818.93
+        7801.77
       ],
       "freq": "monthly"
     },
@@ -18204,7 +18208,7 @@
         "2026-07-31",
         "2026-08-31",
         "2026-09-30",
-        "2026-10-05"
+        "2026-10-06"
       ],
       "values": [
         4635.24,
@@ -18348,7 +18352,7 @@
         25373.85,
         26370.89,
         26861.06,
-        27477.31
+        27599.89
       ],
       "freq": "monthly"
     },
@@ -18474,7 +18478,7 @@
         "2026-07-31",
         "2026-08-31",
         "2026-09-30",
-        "2026-10-06"
+        "2026-10-07"
       ],
       "values": [
         18142.42,
@@ -18597,7 +18601,7 @@
         52485.03,
         53185.9,
         50906.05,
-        51521.28
+        51179.87
       ],
       "freq": "monthly"
     }
