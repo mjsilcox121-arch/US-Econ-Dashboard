@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-08T00:48:09Z",
+  "updated": "2026-10-09T01:02:17Z",
   "metrics": {
     "gdp": {
       "value": 2.2,
@@ -131,7 +131,7 @@
     },
     "ffr": {
       "value": 3.88,
-      "date": "2026-10-06",
+      "date": "2026-10-07",
       "label": "Oct 2026",
       "display": "3.88%",
       "reading": "Oct 2026: 3.88%, unchanged from 3.88% in Oct 2026 \u2014 its highest reading in 12 months.",
@@ -141,33 +141,33 @@
       },
       "news": [
         {
-          "title": "Fed minutes could detail rate-hike decision, policy path",
-          "url": "https://www.reuters.com/business/fed-minutes-could-detail-rate-hike-decision-policy-path-2026-10-07/",
+          "title": "Morning Bid: Wall Street winces at bond squeeze",
+          "url": "https://www.reuters.com/commentary/reuters-open-interest/global-markets-view-usa-2026-10-08/",
           "source": "Reuters",
+          "date": "2026-10-08"
+        },
+        {
+          "title": "Fed\u2019s Waller Says There Is Some Flexibility on Rate-Hike Timing",
+          "url": "https://news.bloombergtax.com/daily-tax-report/feds-waller-says-there-is-some-flexibility-on-rate-hike-timing",
+          "source": "Bloomberg Tax News",
+          "date": "2026-10-08"
+        },
+        {
+          "title": "Ticker: Fed minutes: Another rate hike likely",
+          "url": "https://www.bostonherald.com/2026/10/07/ticker-fed-minutes-another-rate-hike-likely/",
+          "source": "The Boston Herald",
           "date": "2026-10-07"
-        },
-        {
-          "title": "US inflation rises less than expected in August; consumer spending surges",
-          "url": "https://www.reuters.com/markets/us/us-inflation-rises-less-than-expected-august-consumer-spending-surges-2026-09-30/",
-          "source": "Reuters",
-          "date": "2026-09-30"
-        },
-        {
-          "title": "Let exchange rate act as shock absorber: IMF on Fed hike impact on India",
-          "url": "https://www.europesays.com/3290416/",
-          "source": "EUROPE SAYS",
-          "date": "2026-10-04"
         }
       ]
     },
     "ten": {
-      "value": 5.27,
-      "date": "2026-10-06",
+      "value": 5.28,
+      "date": "2026-10-07",
       "label": "Oct 2026",
-      "display": "5.27%",
-      "reading": "Oct 2026: 5.27%, down from 5.31% in Oct 2026.",
+      "display": "5.28%",
+      "reading": "Oct 2026: 5.28%, up from 5.27% in Oct 2026.",
       "change": {
-        "text": "\u2193 from 5.31%",
+        "text": "\u2191 from 5.27%",
         "sign": "flat"
       }
     },
@@ -210,15 +210,7 @@
       "change": {
         "text": "\u2193 from 1.309M",
         "sign": "neg"
-      },
-      "news": [
-        {
-          "title": "US single-family housing starts rebound in August; building permits fall",
-          "url": "https://www.reuters.com/business/us-single-family-housing-starts-rebound-august-building-permits-fall-2026-09-17/",
-          "source": "Reuters",
-          "date": "2026-09-17"
-        }
-      ]
+      }
     },
     "trade": {
       "value": -105572.0,
@@ -263,44 +255,44 @@
       ]
     },
     "sp500": {
-      "value": 7801.77,
-      "date": "2026-10-07",
+      "value": 7765.36,
+      "date": "2026-10-08",
       "label": "Oct 2026",
-      "display": "7,802",
-      "reading": "Oct 2026: 7,802, up from 7,652 in Sep 2026 \u2014 its highest reading in 12 months.",
+      "display": "7,765",
+      "reading": "Oct 2026: 7,765, up from 7,652 in Sep 2026 \u2014 its highest reading in 12 months.",
       "change": {
-        "text": "\u2191 14.0% YTD",
+        "text": "\u2191 13.4% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "CNBC Daily Open: AI rally defies bond market rout",
-          "url": "https://www.cnbc.com/2026/10/07/daily-open-ai-rally-bond-market-rout.html",
+          "title": "S&P 500, Nasdaq end lower as crude prices jump, chip stocks weigh",
+          "url": "https://www.reuters.com/business/wall-st-futures-slide-rising-oil-yields-dampen-mood-2026-10-08/",
+          "source": "Reuters",
+          "date": "2026-10-08"
+        },
+        {
+          "title": "What\u2019s likely to move the market",
+          "url": "https://www.cnbc.com/2026/10/07/thursdays-big-stock-stories-whats-likely-to-move-the-market.html",
           "source": "CNBC",
           "date": "2026-10-07"
         },
         {
-          "title": "What\u2019s likely to move the market",
-          "url": "https://www.cnbc.com/2026/10/06/wednesdays-big-stock-stories-whats-likely-to-move-the-market.html",
+          "title": "Stocks made a record high. Two big bearish trades point to skepticism",
+          "url": "https://www.cnbc.com/2026/10/07/stocks-made-a-record-high-two-big-bearish-trades-point-to-skepticism.html",
           "source": "CNBC",
-          "date": "2026-10-06"
-        },
-        {
-          "title": "Chart: A look at the S&P 500's remarkable and defiant trip to a new record",
-          "url": "https://www.cnbc.com/2026/10/06/chart-a-look-at-the-sp-500s-remarkable-and-defiant-trip-a-new-record.html",
-          "source": "CNBC",
-          "date": "2026-10-06"
+          "date": "2026-10-07"
         }
       ]
     },
     "nasdaq": {
-      "value": 27599.89,
-      "date": "2026-10-06",
+      "value": 27538.69,
+      "date": "2026-10-07",
       "label": "Oct 2026",
-      "display": "27,600",
-      "reading": "Oct 2026: 27,600, up from 26,861 in Sep 2026 \u2014 its highest reading in 12 months.",
+      "display": "27,539",
+      "reading": "Oct 2026: 27,539, up from 26,861 in Sep 2026 \u2014 its highest reading in 12 months.",
       "change": {
-        "text": "\u2191 18.8% YTD",
+        "text": "\u2191 18.5% YTD",
         "sign": "pos"
       },
       "news": [
@@ -311,47 +303,47 @@
           "date": "2026-09-22"
         },
         {
+          "title": "S&P 500 Hits Record High as Tech Gains Mask Broad Market Weakness",
+          "url": "https://www.naturalnews.com/2026-10-07-sp-500-hits-record-high-despite-weakness.html",
+          "source": "Natural News",
+          "date": "2026-10-07"
+        },
+        {
           "title": "Why Today's Nasdaq Doesn't Look Like 2000, Even With AI Fears Rising",
           "url": "https://seekingalpha.com/article/4948544-why-todays-nasdaq-doesnt-look-like-2000-even-with-ai-fears-rising",
           "source": "Seeking Alpha",
-          "date": "2026-09-22"
-        },
-        {
-          "title": "Meta or CrowdStrike: Cathie Wood Buys $38M of One Stock and Sells the Other",
-          "url": "https://markets.businessinsider.com/news/stocks/meta-or-crowdstrike-cathie-wood-buys-38m-of-one-stock-and-sells-the-other-1036562802",
-          "source": "Markets Insider",
           "date": "2026-09-22"
         }
       ]
     },
     "dow": {
-      "value": 51179.87,
-      "date": "2026-10-07",
+      "value": 51231.64,
+      "date": "2026-10-08",
       "label": "Oct 2026",
-      "display": "51,180",
-      "reading": "Oct 2026: 51,180, up from 50,906 in Sep 2026.",
+      "display": "51,232",
+      "reading": "Oct 2026: 51,232, up from 50,906 in Sep 2026.",
       "change": {
-        "text": "\u2191 6.5% YTD",
+        "text": "\u2191 6.6% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "US stocks flirt with a record after oil prices ease",
-          "url": "https://www.ajc.com/news/2026/10/us-stocks-flirt-with-a-record-after-oil-prices-ease/",
-          "source": "The Atlanta Journal-Constitution",
-          "date": "2026-10-06"
+          "title": "Dow Jones Futures: Stocks Pare Losses As Yields Back Off; Samsung, Micron, Taiwan Semi, Sandisk In Focus",
+          "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-yields-samsung-taiwan-semi-micron-sandisk/",
+          "source": "Investor's Business Daily",
+          "date": "2026-10-07"
         },
         {
-          "title": "US stocks rise to the edge of an all-time high",
-          "url": "https://www.ajc.com/news/2026/10/us-stocks-rise-to-the-edge-of-an-all-time-high/",
-          "source": "The Atlanta Journal-Constitution",
-          "date": "2026-10-05"
+          "title": "How major US stock indexes fared Wednesday 10",
+          "url": "https://wtop.com/national/2026/10/how-major-us-stock-indexes-fared-wednesday-10-7-2026/",
+          "source": "WTOP",
+          "date": "2026-10-07"
         },
         {
-          "title": "US stocks are rising near their records, with the Nasdaq composite on track for an all-time high",
-          "url": "https://www.ajc.com/news/2026/10/us-stocks-are-rising-near-their-records-with-the-nasdaq-composite-on-track-for-an-all-time-high/",
+          "title": "Wall Street retreats from its record as stocks fall worldwide",
+          "url": "https://www.ajc.com/news/2026/10/wall-street-retreats-from-its-record-as-stocks-fall-worldwide-3/",
           "source": "The Atlanta Journal-Constitution",
-          "date": "2026-10-05"
+          "date": "2026-10-07"
         }
       ]
     }
@@ -6185,7 +6177,8 @@
         "2026-10-03",
         "2026-10-04",
         "2026-10-05",
-        "2026-10-06"
+        "2026-10-06",
+        "2026-10-07"
       ],
       "values": [
         0.06,
@@ -10484,6 +10477,7 @@
         3.88,
         3.88,
         3.88,
+        3.88,
         3.88
       ],
       "freq": "monthly"
@@ -13431,7 +13425,8 @@
         "2026-10-01",
         "2026-10-02",
         "2026-10-05",
-        "2026-10-06"
+        "2026-10-06",
+        "2026-10-07"
       ],
       "values": [
         2.12,
@@ -16375,7 +16370,8 @@
         5.24,
         5.28,
         5.31,
-        5.27
+        5.27,
+        5.28
       ],
       "freq": "monthly"
     },
@@ -17938,7 +17934,7 @@
         "2026-07-31",
         "2026-08-31",
         "2026-09-30",
-        "2026-10-07"
+        "2026-10-08"
       ],
       "values": [
         2126.15,
@@ -18061,7 +18057,7 @@
         7489.72,
         7686.14,
         7651.54,
-        7801.77
+        7765.36
       ],
       "freq": "monthly"
     },
@@ -18208,7 +18204,7 @@
         "2026-07-31",
         "2026-08-31",
         "2026-09-30",
-        "2026-10-06"
+        "2026-10-07"
       ],
       "values": [
         4635.24,
@@ -18352,7 +18348,7 @@
         25373.85,
         26370.89,
         26861.06,
-        27599.89
+        27538.69
       ],
       "freq": "monthly"
     },
@@ -18478,7 +18474,7 @@
         "2026-07-31",
         "2026-08-31",
         "2026-09-30",
-        "2026-10-07"
+        "2026-10-08"
       ],
       "values": [
         18142.42,
@@ -18601,7 +18597,7 @@
         52485.03,
         53185.9,
         50906.05,
-        51179.87
+        51231.64
       ],
       "freq": "monthly"
     }
