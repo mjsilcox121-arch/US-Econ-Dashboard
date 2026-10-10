@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-09T01:02:17Z",
+  "updated": "2026-10-10T00:34:02Z",
   "metrics": {
     "gdp": {
       "value": 2.2,
@@ -131,7 +131,7 @@
     },
     "ffr": {
       "value": 3.88,
-      "date": "2026-10-07",
+      "date": "2026-10-08",
       "label": "Oct 2026",
       "display": "3.88%",
       "reading": "Oct 2026: 3.88%, unchanged from 3.88% in Oct 2026 \u2014 its highest reading in 12 months.",
@@ -153,21 +153,21 @@
           "date": "2026-10-08"
         },
         {
-          "title": "Ticker: Fed minutes: Another rate hike likely",
-          "url": "https://www.bostonherald.com/2026/10/07/ticker-fed-minutes-another-rate-hike-likely/",
-          "source": "The Boston Herald",
-          "date": "2026-10-07"
+          "title": "Gold ticks up as investors weigh Fed path, mounting debt concerns",
+          "url": "https://www.reuters.com/world/india/gold-edges-higher-after-hitting-two-month-low-2026-10-08/",
+          "source": "Reuters",
+          "date": "2026-10-08"
         }
       ]
     },
     "ten": {
-      "value": 5.28,
-      "date": "2026-10-07",
+      "value": 5.22,
+      "date": "2026-10-08",
       "label": "Oct 2026",
-      "display": "5.28%",
-      "reading": "Oct 2026: 5.28%, up from 5.27% in Oct 2026.",
+      "display": "5.22%",
+      "reading": "Oct 2026: 5.22%, down from 5.28% in Oct 2026.",
       "change": {
-        "text": "\u2191 from 5.27%",
+        "text": "\u2193 from 5.28%",
         "sign": "flat"
       }
     },
@@ -255,13 +255,13 @@
       ]
     },
     "sp500": {
-      "value": 7765.36,
-      "date": "2026-10-08",
+      "value": 7811.54,
+      "date": "2026-10-09",
       "label": "Oct 2026",
-      "display": "7,765",
-      "reading": "Oct 2026: 7,765, up from 7,652 in Sep 2026 \u2014 its highest reading in 12 months.",
+      "display": "7,812",
+      "reading": "Oct 2026: 7,812, up from 7,652 in Sep 2026 \u2014 its highest reading in 12 months.",
       "change": {
-        "text": "\u2191 13.4% YTD",
+        "text": "\u2191 14.1% YTD",
         "sign": "pos"
       },
       "news": [
@@ -278,21 +278,21 @@
           "date": "2026-10-07"
         },
         {
-          "title": "Stocks made a record high. Two big bearish trades point to skepticism",
-          "url": "https://www.cnbc.com/2026/10/07/stocks-made-a-record-high-two-big-bearish-trades-point-to-skepticism.html",
-          "source": "CNBC",
-          "date": "2026-10-07"
+          "title": "10 Financial Stocks' Earnings Are Ready To Soar 20% Or More Soon",
+          "url": "https://www.investors.com/etfs-and-funds/sectors/sp500-financial-stocks-earnings-are-ready-to-soar-20-or-more-soon/",
+          "source": "Investor's Business Daily",
+          "date": "2026-10-09"
         }
       ]
     },
     "nasdaq": {
-      "value": 27538.69,
-      "date": "2026-10-07",
+      "value": 27193.34,
+      "date": "2026-10-08",
       "label": "Oct 2026",
-      "display": "27,539",
-      "reading": "Oct 2026: 27,539, up from 26,861 in Sep 2026 \u2014 its highest reading in 12 months.",
+      "display": "27,193",
+      "reading": "Oct 2026: 27,193, up from 26,861 in Sep 2026 \u2014 its highest reading in 12 months.",
       "change": {
-        "text": "\u2191 18.5% YTD",
+        "text": "\u2191 17.0% YTD",
         "sign": "pos"
       },
       "news": [
@@ -303,46 +303,46 @@
           "date": "2026-09-22"
         },
         {
+          "title": "Closing Bell Movers: Telecom stocks fall on SpaceX spectrum license",
+          "url": "https://markets.businessinsider.com/news/stocks/closing-bell-movers-telecom-stocks-fall-on-spacex-spectrum-license-1036611310",
+          "source": "Markets Insider",
+          "date": "2026-10-09"
+        },
+        {
           "title": "S&P 500 Hits Record High as Tech Gains Mask Broad Market Weakness",
           "url": "https://www.naturalnews.com/2026-10-07-sp-500-hits-record-high-despite-weakness.html",
           "source": "Natural News",
           "date": "2026-10-07"
-        },
-        {
-          "title": "Why Today's Nasdaq Doesn't Look Like 2000, Even With AI Fears Rising",
-          "url": "https://seekingalpha.com/article/4948544-why-todays-nasdaq-doesnt-look-like-2000-even-with-ai-fears-rising",
-          "source": "Seeking Alpha",
-          "date": "2026-09-22"
         }
       ]
     },
     "dow": {
-      "value": 51231.64,
-      "date": "2026-10-08",
+      "value": 51654.95,
+      "date": "2026-10-09",
       "label": "Oct 2026",
-      "display": "51,232",
-      "reading": "Oct 2026: 51,232, up from 50,906 in Sep 2026.",
+      "display": "51,655",
+      "reading": "Oct 2026: 51,655, up from 50,906 in Sep 2026.",
       "change": {
-        "text": "\u2191 6.6% YTD",
+        "text": "\u2191 7.5% YTD",
         "sign": "pos"
       },
       "news": [
         {
+          "title": "Dow Jones Futures: AI Stocks Tumble On OpenAI News; SpaceX Move Slams Verizon, AT&T Late",
+          "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-ai-stocks-tumble-openai-news-spacex-verizon-att/",
+          "source": "Investor's Business Daily",
+          "date": "2026-10-08"
+        },
+        {
+          "title": "Rising oil prices, falling technology stocks, and reversing bond yields keep Wall Street unsettled",
+          "url": "https://www.inquirer.com/business/stocks-markets-bonds-oil-us-20261008.html",
+          "source": "The Philadelphia Inquirer",
+          "date": "2026-10-08"
+        },
+        {
           "title": "Dow Jones Futures: Stocks Pare Losses As Yields Back Off; Samsung, Micron, Taiwan Semi, Sandisk In Focus",
           "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-yields-samsung-taiwan-semi-micron-sandisk/",
           "source": "Investor's Business Daily",
-          "date": "2026-10-07"
-        },
-        {
-          "title": "How major US stock indexes fared Wednesday 10",
-          "url": "https://wtop.com/national/2026/10/how-major-us-stock-indexes-fared-wednesday-10-7-2026/",
-          "source": "WTOP",
-          "date": "2026-10-07"
-        },
-        {
-          "title": "Wall Street retreats from its record as stocks fall worldwide",
-          "url": "https://www.ajc.com/news/2026/10/wall-street-retreats-from-its-record-as-stocks-fall-worldwide-3/",
-          "source": "The Atlanta Journal-Constitution",
           "date": "2026-10-07"
         }
       ]
@@ -6178,7 +6178,8 @@
         "2026-10-04",
         "2026-10-05",
         "2026-10-06",
-        "2026-10-07"
+        "2026-10-07",
+        "2026-10-08"
       ],
       "values": [
         0.06,
@@ -10478,6 +10479,7 @@
         3.88,
         3.88,
         3.88,
+        3.88,
         3.88
       ],
       "freq": "monthly"
@@ -13426,7 +13428,8 @@
         "2026-10-02",
         "2026-10-05",
         "2026-10-06",
-        "2026-10-07"
+        "2026-10-07",
+        "2026-10-08"
       ],
       "values": [
         2.12,
@@ -16371,7 +16374,8 @@
         5.28,
         5.31,
         5.27,
-        5.28
+        5.28,
+        5.22
       ],
       "freq": "monthly"
     },
@@ -17934,7 +17938,7 @@
         "2026-07-31",
         "2026-08-31",
         "2026-09-30",
-        "2026-10-08"
+        "2026-10-09"
       ],
       "values": [
         2126.15,
@@ -18057,7 +18061,7 @@
         7489.72,
         7686.14,
         7651.54,
-        7765.36
+        7811.54
       ],
       "freq": "monthly"
     },
@@ -18204,7 +18208,7 @@
         "2026-07-31",
         "2026-08-31",
         "2026-09-30",
-        "2026-10-07"
+        "2026-10-08"
       ],
       "values": [
         4635.24,
@@ -18348,7 +18352,7 @@
         25373.85,
         26370.89,
         26861.06,
-        27538.69
+        27193.34
       ],
       "freq": "monthly"
     },
@@ -18474,7 +18478,7 @@
         "2026-07-31",
         "2026-08-31",
         "2026-09-30",
-        "2026-10-08"
+        "2026-10-09"
       ],
       "values": [
         18142.42,
@@ -18597,7 +18601,7 @@
         52485.03,
         53185.9,
         50906.05,
-        51231.64
+        51654.95
       ],
       "freq": "monthly"
     }
