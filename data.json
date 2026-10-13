@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-10T00:34:02Z",
+  "updated": "2026-10-13T02:28:31Z",
   "metrics": {
     "gdp": {
       "value": 2.2,
@@ -141,6 +141,12 @@
       },
       "news": [
         {
+          "title": "Rising Bond Yields Are No Excuse for Central Bank Inertia",
+          "url": "https://www.bloomberg.com/opinion/articles/2026-10-12/rising-bond-yields-are-no-substitute-for-tighter-monetary-policy",
+          "source": "Bloomberg",
+          "date": "2026-10-12"
+        },
+        {
           "title": "Morning Bid: Wall Street winces at bond squeeze",
           "url": "https://www.reuters.com/commentary/reuters-open-interest/global-markets-view-usa-2026-10-08/",
           "source": "Reuters",
@@ -150,12 +156,6 @@
           "title": "Fed\u2019s Waller Says There Is Some Flexibility on Rate-Hike Timing",
           "url": "https://news.bloombergtax.com/daily-tax-report/feds-waller-says-there-is-some-flexibility-on-rate-hike-timing",
           "source": "Bloomberg Tax News",
-          "date": "2026-10-08"
-        },
-        {
-          "title": "Gold ticks up as investors weigh Fed path, mounting debt concerns",
-          "url": "https://www.reuters.com/world/india/gold-edges-higher-after-hitting-two-month-low-2026-10-08/",
-          "source": "Reuters",
           "date": "2026-10-08"
         }
       ]
@@ -235,33 +235,33 @@
       },
       "news": [
         {
+          "title": "Consumer Sentiment Falls To 5-Month Low",
+          "url": "https://seekingalpha.com/article/4953187-consumer-sentiment-falls-to-5-month-low",
+          "source": "Seeking Alpha",
+          "date": "2026-10-10"
+        },
+        {
+          "title": "Americans\u2019 feelings about the economy continue to worsen",
+          "url": "https://abc17news.com/money/cnn-business-consumer/2026/10/09/americans-feelings-about-the-economy-continue-to-worsen/",
+          "source": "ABC17News.com",
+          "date": "2026-10-09"
+        },
+        {
           "title": "Consumer Sentiment Falls Again In September",
           "url": "https://seekingalpha.com/article/4949889-consumer-sentiment-falls-again-in-september",
           "source": "Seeking Alpha",
           "date": "2026-09-26"
-        },
-        {
-          "title": "Consumer Sentiment Keeps Dropping. It Reached a Four Month Low In Late September.",
-          "url": "https://www.ibtimes.com/consumer-sentiment-keeps-dropping-it-reached-four-month-low-late-september-3807905",
-          "source": "International Business Times",
-          "date": "2026-09-25"
-        },
-        {
-          "title": "Americans still feel worse about the economy than at almost any point in modern history",
-          "url": "https://abc17news.com/money/cnn-business-consumer/2026/09/25/americans-still-feel-worse-about-the-economy-than-at-almost-any-point-in-modern-history/",
-          "source": "ABC17News.com",
-          "date": "2026-09-25"
         }
       ]
     },
     "sp500": {
-      "value": 7811.54,
-      "date": "2026-10-09",
+      "value": 7807.24,
+      "date": "2026-10-12",
       "label": "Oct 2026",
-      "display": "7,812",
-      "reading": "Oct 2026: 7,812, up from 7,652 in Sep 2026 \u2014 its highest reading in 12 months.",
+      "display": "7,807",
+      "reading": "Oct 2026: 7,807, up from 7,652 in Sep 2026 \u2014 its highest reading in 12 months.",
       "change": {
-        "text": "\u2191 14.1% YTD",
+        "text": "\u2191 14.0% YTD",
         "sign": "pos"
       },
       "news": [
@@ -278,21 +278,21 @@
           "date": "2026-10-07"
         },
         {
-          "title": "10 Financial Stocks' Earnings Are Ready To Soar 20% Or More Soon",
-          "url": "https://www.investors.com/etfs-and-funds/sectors/sp500-financial-stocks-earnings-are-ready-to-soar-20-or-more-soon/",
-          "source": "Investor's Business Daily",
-          "date": "2026-10-09"
+          "title": "US stocks hover near their latest record in mixed trading on Wall Street",
+          "url": "https://www.ajc.com/news/2026/10/us-stocks-hover-near-their-latest-record-in-mixed-trading-on-wall-street/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-10-12"
         }
       ]
     },
     "nasdaq": {
-      "value": 27193.34,
-      "date": "2026-10-08",
+      "value": 27366.17,
+      "date": "2026-10-09",
       "label": "Oct 2026",
-      "display": "27,193",
-      "reading": "Oct 2026: 27,193, up from 26,861 in Sep 2026 \u2014 its highest reading in 12 months.",
+      "display": "27,366",
+      "reading": "Oct 2026: 27,366, up from 26,861 in Sep 2026 \u2014 its highest reading in 12 months.",
       "change": {
-        "text": "\u2191 17.0% YTD",
+        "text": "\u2191 17.7% YTD",
         "sign": "pos"
       },
       "news": [
@@ -317,33 +317,33 @@
       ]
     },
     "dow": {
-      "value": 51654.95,
-      "date": "2026-10-09",
+      "value": 51850.55,
+      "date": "2026-10-12",
       "label": "Oct 2026",
-      "display": "51,655",
-      "reading": "Oct 2026: 51,655, up from 50,906 in Sep 2026.",
+      "display": "51,851",
+      "reading": "Oct 2026: 51,851, up from 50,906 in Sep 2026.",
       "change": {
-        "text": "\u2191 7.5% YTD",
+        "text": "\u2191 7.9% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "Dow Jones Futures: AI Stocks Tumble On OpenAI News; SpaceX Move Slams Verizon, AT&T Late",
-          "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-ai-stocks-tumble-openai-news-spacex-verizon-att/",
-          "source": "Investor's Business Daily",
-          "date": "2026-10-08"
+          "title": "US stocks hover near their latest record in mixed trading on Wall Street",
+          "url": "https://www.ajc.com/news/2026/10/us-stocks-hover-near-their-latest-record-in-mixed-trading-on-wall-street/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-10-12"
         },
         {
-          "title": "Rising oil prices, falling technology stocks, and reversing bond yields keep Wall Street unsettled",
-          "url": "https://www.inquirer.com/business/stocks-markets-bonds-oil-us-20261008.html",
-          "source": "The Philadelphia Inquirer",
-          "date": "2026-10-08"
+          "title": "The Week That Was, The Week Ahead: Macro and Markets, October 11",
+          "url": "https://markets.businessinsider.com/news/stocks/the-week-that-was-the-week-ahead-macro-and-markets-october-11-1036614655",
+          "source": "Markets Insider",
+          "date": "2026-10-11"
         },
         {
-          "title": "Dow Jones Futures: Stocks Pare Losses As Yields Back Off; Samsung, Micron, Taiwan Semi, Sandisk In Focus",
-          "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-yields-samsung-taiwan-semi-micron-sandisk/",
+          "title": "Dow Jones Futures: S&P 500, Nasdaq Near Highs; ASML, Nvidia's Chipmaker Taiwan Semi To Kick Off AI Earnings",
+          "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-sp-500-nasdaq-asml-nvidia-chipmaker-taiwan-semi-earnings/",
           "source": "Investor's Business Daily",
-          "date": "2026-10-07"
+          "date": "2026-10-09"
         }
       ]
     }
@@ -17938,7 +17938,7 @@
         "2026-07-31",
         "2026-08-31",
         "2026-09-30",
-        "2026-10-09"
+        "2026-10-12"
       ],
       "values": [
         2126.15,
@@ -18061,7 +18061,7 @@
         7489.72,
         7686.14,
         7651.54,
-        7811.54
+        7807.24
       ],
       "freq": "monthly"
     },
@@ -18208,7 +18208,7 @@
         "2026-07-31",
         "2026-08-31",
         "2026-09-30",
-        "2026-10-08"
+        "2026-10-09"
       ],
       "values": [
         4635.24,
@@ -18352,7 +18352,7 @@
         25373.85,
         26370.89,
         26861.06,
-        27193.34
+        27366.17
       ],
       "freq": "monthly"
     },
@@ -18478,7 +18478,7 @@
         "2026-07-31",
         "2026-08-31",
         "2026-09-30",
-        "2026-10-09"
+        "2026-10-12"
       ],
       "values": [
         18142.42,
@@ -18601,7 +18601,7 @@
         52485.03,
         53185.9,
         50906.05,
-        51654.95
+        51850.55
       ],
       "freq": "monthly"
     }
