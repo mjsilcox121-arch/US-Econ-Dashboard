@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-13T02:28:31Z",
+  "updated": "2026-10-14T00:12:03Z",
   "metrics": {
     "gdp": {
       "value": 2.2,
@@ -131,7 +131,7 @@
     },
     "ffr": {
       "value": 3.88,
-      "date": "2026-10-08",
+      "date": "2026-10-12",
       "label": "Oct 2026",
       "display": "3.88%",
       "reading": "Oct 2026: 3.88%, unchanged from 3.88% in Oct 2026 \u2014 its highest reading in 12 months.",
@@ -161,13 +161,13 @@
       ]
     },
     "ten": {
-      "value": 5.22,
-      "date": "2026-10-08",
+      "value": 5.24,
+      "date": "2026-10-09",
       "label": "Oct 2026",
-      "display": "5.22%",
-      "reading": "Oct 2026: 5.22%, down from 5.28% in Oct 2026.",
+      "display": "5.24%",
+      "reading": "Oct 2026: 5.24%, up from 5.22% in Oct 2026.",
       "change": {
-        "text": "\u2193 from 5.28%",
+        "text": "\u2191 from 5.22%",
         "sign": "flat"
       }
     },
@@ -255,95 +255,95 @@
       ]
     },
     "sp500": {
-      "value": 7807.24,
-      "date": "2026-10-12",
+      "value": 7805.45,
+      "date": "2026-10-13",
       "label": "Oct 2026",
-      "display": "7,807",
-      "reading": "Oct 2026: 7,807, up from 7,652 in Sep 2026 \u2014 its highest reading in 12 months.",
+      "display": "7,805",
+      "reading": "Oct 2026: 7,805, up from 7,652 in Sep 2026 \u2014 its highest reading in 12 months.",
       "change": {
         "text": "\u2191 14.0% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "S&P 500, Nasdaq end lower as crude prices jump, chip stocks weigh",
-          "url": "https://www.reuters.com/business/wall-st-futures-slide-rising-oil-yields-dampen-mood-2026-10-08/",
-          "source": "Reuters",
-          "date": "2026-10-08"
-        },
-        {
-          "title": "What\u2019s likely to move the market",
-          "url": "https://www.cnbc.com/2026/10/07/thursdays-big-stock-stories-whats-likely-to-move-the-market.html",
-          "source": "CNBC",
-          "date": "2026-10-07"
-        },
-        {
-          "title": "US stocks hover near their latest record in mixed trading on Wall Street",
-          "url": "https://www.ajc.com/news/2026/10/us-stocks-hover-near-their-latest-record-in-mixed-trading-on-wall-street/",
-          "source": "The Atlanta Journal-Constitution",
+          "title": "The Tough Truth Under the Surface of the 4-Year-Old Bull Market in Stocks",
+          "url": "https://www.businessinsider.com/bull-market-anniversary-stock-market-breadth-tech-nvda-msft-aapl-2026-10",
+          "source": "Business Insider",
           "date": "2026-10-12"
+        },
+        {
+          "title": "Sharp drops for chip stocks weigh on markets",
+          "url": "https://www.ajc.com/news/2026/10/wall-street-mixed-in-early-trading-as-big-us-banks-report-earnings-chip-stocks-fall-again/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-10-13"
+        },
+        {
+          "title": "South Korea's Kospi index sinks more than 5% on semiconductor share sell-off over AI boom worries",
+          "url": "https://www.ajc.com/news/2026/10/south-koreas-kospi-index-sinks-more-than-7-on-semiconductor-share-sell-off-over-ai-boom-worries/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-10-13"
         }
       ]
     },
     "nasdaq": {
-      "value": 27366.17,
-      "date": "2026-10-09",
+      "value": 27245.9,
+      "date": "2026-10-12",
       "label": "Oct 2026",
-      "display": "27,366",
-      "reading": "Oct 2026: 27,366, up from 26,861 in Sep 2026 \u2014 its highest reading in 12 months.",
+      "display": "27,246",
+      "reading": "Oct 2026: 27,246, up from 26,861 in Sep 2026 \u2014 its highest reading in 12 months.",
       "change": {
-        "text": "\u2191 17.7% YTD",
+        "text": "\u2191 17.2% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "SNAPSHOT Nasdaq hits intraday record high as tech stocks regain footing",
-          "url": "https://www.reuters.com/business/snapshot-nasdaq-hits-intraday-record-high-tech-stocks-regain-footing-2026-09-22/",
-          "source": "Reuters",
-          "date": "2026-09-22"
+          "title": "Sharp drops for chip stocks weigh on markets",
+          "url": "https://www.ajc.com/news/2026/10/wall-street-mixed-in-early-trading-as-big-us-banks-report-earnings-chip-stocks-fall-again/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-10-13"
+        },
+        {
+          "title": "US stocks were mixed with underperformance in the Nasdaq as tech stocks were pressured by China competition concerns - Newsquawk Daily Asia-Pac Market Open",
+          "url": "https://www.zerohedge.com/markets/us-stocks-were-mixed-underperformance-nasdaq-tech-stocks-were-pressured-china-competition",
+          "source": "ZeroHedge",
+          "date": "2026-10-12"
         },
         {
           "title": "Closing Bell Movers: Telecom stocks fall on SpaceX spectrum license",
           "url": "https://markets.businessinsider.com/news/stocks/closing-bell-movers-telecom-stocks-fall-on-spacex-spectrum-license-1036611310",
           "source": "Markets Insider",
           "date": "2026-10-09"
-        },
-        {
-          "title": "S&P 500 Hits Record High as Tech Gains Mask Broad Market Weakness",
-          "url": "https://www.naturalnews.com/2026-10-07-sp-500-hits-record-high-despite-weakness.html",
-          "source": "Natural News",
-          "date": "2026-10-07"
         }
       ]
     },
     "dow": {
-      "value": 51850.55,
-      "date": "2026-10-12",
+      "value": 51670.1,
+      "date": "2026-10-13",
       "label": "Oct 2026",
-      "display": "51,851",
-      "reading": "Oct 2026: 51,851, up from 50,906 in Sep 2026.",
+      "display": "51,670",
+      "reading": "Oct 2026: 51,670, up from 50,906 in Sep 2026.",
       "change": {
-        "text": "\u2191 7.9% YTD",
+        "text": "\u2191 7.5% YTD",
         "sign": "pos"
       },
       "news": [
+        {
+          "title": "Sharp drops for chip stocks weigh on markets",
+          "url": "https://www.ajc.com/news/2026/10/wall-street-mixed-in-early-trading-as-big-us-banks-report-earnings-chip-stocks-fall-again/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-10-13"
+        },
+        {
+          "title": "South Korea's Kospi index sinks more than 5% on semiconductor share sell-off over AI boom worries",
+          "url": "https://www.ajc.com/news/2026/10/south-koreas-kospi-index-sinks-more-than-7-on-semiconductor-share-sell-off-over-ai-boom-worries/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-10-13"
+        },
         {
           "title": "US stocks hover near their latest record in mixed trading on Wall Street",
           "url": "https://www.ajc.com/news/2026/10/us-stocks-hover-near-their-latest-record-in-mixed-trading-on-wall-street/",
           "source": "The Atlanta Journal-Constitution",
           "date": "2026-10-12"
-        },
-        {
-          "title": "The Week That Was, The Week Ahead: Macro and Markets, October 11",
-          "url": "https://markets.businessinsider.com/news/stocks/the-week-that-was-the-week-ahead-macro-and-markets-october-11-1036614655",
-          "source": "Markets Insider",
-          "date": "2026-10-11"
-        },
-        {
-          "title": "Dow Jones Futures: S&P 500, Nasdaq Near Highs; ASML, Nvidia's Chipmaker Taiwan Semi To Kick Off AI Earnings",
-          "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-sp-500-nasdaq-asml-nvidia-chipmaker-taiwan-semi-earnings/",
-          "source": "Investor's Business Daily",
-          "date": "2026-10-09"
         }
       ]
     }
@@ -6179,7 +6179,11 @@
         "2026-10-05",
         "2026-10-06",
         "2026-10-07",
-        "2026-10-08"
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12"
       ],
       "values": [
         0.06,
@@ -10480,6 +10484,10 @@
         3.88,
         3.88,
         3.88,
+        3.88,
+        3.88,
+        3.88,
+        3.88,
         3.88
       ],
       "freq": "monthly"
@@ -13429,7 +13437,8 @@
         "2026-10-05",
         "2026-10-06",
         "2026-10-07",
-        "2026-10-08"
+        "2026-10-08",
+        "2026-10-09"
       ],
       "values": [
         2.12,
@@ -16375,7 +16384,8 @@
         5.31,
         5.27,
         5.28,
-        5.22
+        5.22,
+        5.24
       ],
       "freq": "monthly"
     },
@@ -17938,7 +17948,7 @@
         "2026-07-31",
         "2026-08-31",
         "2026-09-30",
-        "2026-10-12"
+        "2026-10-13"
       ],
       "values": [
         2126.15,
@@ -18061,7 +18071,7 @@
         7489.72,
         7686.14,
         7651.54,
-        7807.24
+        7805.45
       ],
       "freq": "monthly"
     },
@@ -18208,7 +18218,7 @@
         "2026-07-31",
         "2026-08-31",
         "2026-09-30",
-        "2026-10-09"
+        "2026-10-12"
       ],
       "values": [
         4635.24,
@@ -18352,7 +18362,7 @@
         25373.85,
         26370.89,
         26861.06,
-        27366.17
+        27245.9
       ],
       "freq": "monthly"
     },
@@ -18478,7 +18488,7 @@
         "2026-07-31",
         "2026-08-31",
         "2026-09-30",
-        "2026-10-12"
+        "2026-10-13"
       ],
       "values": [
         18142.42,
@@ -18601,7 +18611,7 @@
         52485.03,
         53185.9,
         50906.05,
-        51850.55
+        51670.1
       ],
       "freq": "monthly"
     }
