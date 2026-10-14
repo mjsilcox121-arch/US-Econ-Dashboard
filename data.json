@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-14T00:12:03Z",
+  "updated": "2026-10-14T23:45:24Z",
   "metrics": {
     "gdp": {
       "value": 2.2,
@@ -64,25 +64,39 @@
       ]
     },
     "cpi": {
-      "value": 3.353,
-      "date": "2026-08-01",
-      "label": "Aug 2026",
-      "display": "+3.4%",
-      "reading": "Aug 2026: +3.4%, up from +3.3% in Jul 2026.",
+      "value": 3.7172,
+      "date": "2026-09-01",
+      "label": "Sep 2026",
+      "display": "+3.7%",
+      "reading": "Sep 2026: +3.7%, up from +3.4% in Aug 2026.",
       "change": {
-        "text": "\u2191 from +3.3%",
+        "text": "\u2191 from +3.4%",
         "sign": "neg"
-      }
+      },
+      "news": [
+        {
+          "title": "Inflation worsened last month to 3.7% in sign that prices remain elevated as midterm elections near",
+          "url": "https://triblive.com/news/world/inflation-worsened-last-month-to-3-7-in-sign-that-prices-remain-elevated-as-midterm-elections-near/",
+          "source": "Pittsburgh Tribune-Review",
+          "date": "2026-10-14"
+        },
+        {
+          "title": "Inflation worsened last month to 3.7% in sign that prices remain elevated as midterm elections near",
+          "url": "https://www.ajc.com/news/2026/10/inflation-worsened-last-month-to-37-in-sign-that-prices-remain-elevated-as-midterm-elections-near/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-10-14"
+        }
+      ]
     },
     "corecpi": {
-      "value": 2.4462,
-      "date": "2026-08-01",
-      "label": "Aug 2026",
-      "display": "+2.4%",
-      "reading": "Aug 2026: +2.4%, down from +2.5% in Jul 2026 \u2014 its lowest reading in 12 months.",
+      "value": 2.5658,
+      "date": "2026-09-01",
+      "label": "Sep 2026",
+      "display": "+2.6%",
+      "reading": "Sep 2026: +2.6%, up from +2.4% in Aug 2026.",
       "change": {
-        "text": "\u2193 from +2.5%",
-        "sign": "pos"
+        "text": "\u2191 from +2.4%",
+        "sign": "neg"
       }
     },
     "pce": {
@@ -131,7 +145,7 @@
     },
     "ffr": {
       "value": 3.88,
-      "date": "2026-10-12",
+      "date": "2026-10-13",
       "label": "Oct 2026",
       "display": "3.88%",
       "reading": "Oct 2026: 3.88%, unchanged from 3.88% in Oct 2026 \u2014 its highest reading in 12 months.",
@@ -161,13 +175,13 @@
       ]
     },
     "ten": {
-      "value": 5.24,
-      "date": "2026-10-09",
+      "value": 5.21,
+      "date": "2026-10-13",
       "label": "Oct 2026",
-      "display": "5.24%",
-      "reading": "Oct 2026: 5.24%, up from 5.22% in Oct 2026.",
+      "display": "5.21%",
+      "reading": "Oct 2026: 5.21%, down from 5.24% in Oct 2026.",
       "change": {
-        "text": "\u2191 from 5.22%",
+        "text": "\u2193 from 5.24%",
         "sign": "flat"
       }
     },
@@ -272,27 +286,27 @@
           "date": "2026-10-12"
         },
         {
-          "title": "Sharp drops for chip stocks weigh on markets",
-          "url": "https://www.ajc.com/news/2026/10/wall-street-mixed-in-early-trading-as-big-us-banks-report-earnings-chip-stocks-fall-again/",
+          "title": "US stocks drop to their worst day since July as inflation worsens",
+          "url": "https://www.ajc.com/news/2026/10/us-stocks-drop-toward-their-worst-day-since-july-as-inflation-worsens/",
           "source": "The Atlanta Journal-Constitution",
-          "date": "2026-10-13"
+          "date": "2026-10-14"
         },
         {
-          "title": "South Korea's Kospi index sinks more than 5% on semiconductor share sell-off over AI boom worries",
-          "url": "https://www.ajc.com/news/2026/10/south-koreas-kospi-index-sinks-more-than-7-on-semiconductor-share-sell-off-over-ai-boom-worries/",
+          "title": "Sharp drops for chip stocks weigh on markets",
+          "url": "https://www.ajc.com/news/2026/10/wall-street-mixed-in-early-trading-as-big-us-banks-report-earnings-chip-stocks-fall-again/",
           "source": "The Atlanta Journal-Constitution",
           "date": "2026-10-13"
         }
       ]
     },
     "nasdaq": {
-      "value": 27245.9,
-      "date": "2026-10-12",
+      "value": 27204.38,
+      "date": "2026-10-13",
       "label": "Oct 2026",
-      "display": "27,246",
-      "reading": "Oct 2026: 27,246, up from 26,861 in Sep 2026 \u2014 its highest reading in 12 months.",
+      "display": "27,204",
+      "reading": "Oct 2026: 27,204, up from 26,861 in Sep 2026 \u2014 its highest reading in 12 months.",
       "change": {
-        "text": "\u2191 17.2% YTD",
+        "text": "\u2191 17.0% YTD",
         "sign": "pos"
       },
       "news": [
@@ -317,16 +331,22 @@
       ]
     },
     "dow": {
-      "value": 51670.1,
-      "date": "2026-10-13",
+      "value": 51621.48,
+      "date": "2026-10-14",
       "label": "Oct 2026",
-      "display": "51,670",
-      "reading": "Oct 2026: 51,670, up from 50,906 in Sep 2026.",
+      "display": "51,621",
+      "reading": "Oct 2026: 51,621, up from 50,906 in Sep 2026.",
       "change": {
-        "text": "\u2191 7.5% YTD",
+        "text": "\u2191 7.4% YTD",
         "sign": "pos"
       },
       "news": [
+        {
+          "title": "US stocks drop to their worst day since July as inflation worsens",
+          "url": "https://www.ajc.com/news/2026/10/us-stocks-drop-toward-their-worst-day-since-july-as-inflation-worsens/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-10-14"
+        },
         {
           "title": "Sharp drops for chip stocks weigh on markets",
           "url": "https://www.ajc.com/news/2026/10/wall-street-mixed-in-early-trading-as-big-us-banks-report-earnings-chip-stocks-fall-again/",
@@ -338,12 +358,6 @@
           "url": "https://www.ajc.com/news/2026/10/south-koreas-kospi-index-sinks-more-than-7-on-semiconductor-share-sell-off-over-ai-boom-worries/",
           "source": "The Atlanta Journal-Constitution",
           "date": "2026-10-13"
-        },
-        {
-          "title": "US stocks hover near their latest record in mixed trading on Wall Street",
-          "url": "https://www.ajc.com/news/2026/10/us-stocks-hover-near-their-latest-record-in-mixed-trading-on-wall-street/",
-          "source": "The Atlanta Journal-Constitution",
-          "date": "2026-10-12"
         }
       ]
     }
@@ -875,7 +889,8 @@
         "2026-05-01",
         "2026-06-01",
         "2026-07-01",
-        "2026-08-01"
+        "2026-08-01",
+        "2026-09-01"
       ],
       "values": [
         -0.2299,
@@ -1016,7 +1031,8 @@
         4.1666,
         3.4635,
         3.3039,
-        3.353
+        3.353,
+        3.7172
       ],
       "freq": "monthly"
     },
@@ -1160,7 +1176,8 @@
         "2026-05-01",
         "2026-06-01",
         "2026-07-01",
-        "2026-08-01"
+        "2026-08-01",
+        "2026-09-01"
       ],
       "values": [
         1.6316,
@@ -1301,7 +1318,8 @@
         2.8229,
         2.5658,
         2.4665,
-        2.4462
+        2.4462,
+        2.5658
       ],
       "freq": "monthly"
     },
@@ -6183,7 +6201,8 @@
         "2026-10-09",
         "2026-10-10",
         "2026-10-11",
-        "2026-10-12"
+        "2026-10-12",
+        "2026-10-13"
       ],
       "values": [
         0.06,
@@ -10488,6 +10507,7 @@
         3.88,
         3.88,
         3.88,
+        3.88,
         3.88
       ],
       "freq": "monthly"
@@ -13438,7 +13458,8 @@
         "2026-10-06",
         "2026-10-07",
         "2026-10-08",
-        "2026-10-09"
+        "2026-10-09",
+        "2026-10-13"
       ],
       "values": [
         2.12,
@@ -16385,7 +16406,8 @@
         5.27,
         5.28,
         5.22,
-        5.24
+        5.24,
+        5.21
       ],
       "freq": "monthly"
     },
@@ -18218,7 +18240,7 @@
         "2026-07-31",
         "2026-08-31",
         "2026-09-30",
-        "2026-10-12"
+        "2026-10-13"
       ],
       "values": [
         4635.24,
@@ -18362,7 +18384,7 @@
         25373.85,
         26370.89,
         26861.06,
-        27245.9
+        27204.38
       ],
       "freq": "monthly"
     },
@@ -18488,7 +18510,7 @@
         "2026-07-31",
         "2026-08-31",
         "2026-09-30",
-        "2026-10-13"
+        "2026-10-14"
       ],
       "values": [
         18142.42,
@@ -18611,7 +18633,7 @@
         52485.03,
         53185.9,
         50906.05,
-        51670.1
+        51621.48
       ],
       "freq": "monthly"
     }
