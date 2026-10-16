@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-15T23:34:25Z",
+  "updated": "2026-10-16T23:19:05Z",
   "metrics": {
     "gdp": {
       "value": 2.2,
@@ -151,7 +151,7 @@
     },
     "ffr": {
       "value": 3.88,
-      "date": "2026-10-14",
+      "date": "2026-10-15",
       "label": "Oct 2026",
       "display": "3.88%",
       "reading": "Oct 2026: 3.88%, unchanged from 3.88% in Oct 2026 \u2014 its highest reading in 12 months.",
@@ -167,27 +167,27 @@
           "date": "2026-10-12"
         },
         {
+          "title": "Fed chair Warsh says price stability is key but shies away from signals about rates",
+          "url": "https://www.ajc.com/news/2026/10/fed-chair-warsh-says-price-stability-is-key-but-shies-away-from-signals-about-rates/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-10-16"
+        },
+        {
           "title": "Inflation anxiety drags on AI stocks for a second day as markets point to a mixed open",
           "url": "https://www.ajc.com/news/2026/10/inflation-anxiety-drags-on-ai-stocks-for-a-second-day-as-markets-point-to-a-mixed-open/",
           "source": "The Atlanta Journal-Constitution",
           "date": "2026-10-15"
-        },
-        {
-          "title": "Steve Moore warns stubborn inflation could complicate Fed rate decision",
-          "url": "https://foxbaltimore.com/news/nation-world/steve-moore-warns-stubborn-inflation-could-complicate-fed-rate-decision-white-house-economic-adviser-steve-moore-midterms-trump-administration-groceries-federal-tax-code-oil-prices-middle-east",
-          "source": "Baltimore News",
-          "date": "2026-10-14"
         }
       ]
     },
     "ten": {
-      "value": 5.19,
-      "date": "2026-10-14",
+      "value": 5.1,
+      "date": "2026-10-15",
       "label": "Oct 2026",
-      "display": "5.19%",
-      "reading": "Oct 2026: 5.19%, down from 5.21% in Oct 2026 \u2014 its lowest reading in 12 months.",
+      "display": "5.10%",
+      "reading": "Oct 2026: 5.10%, down from 5.19% in Oct 2026 \u2014 its lowest reading in 12 months.",
       "change": {
-        "text": "\u2193 from 5.21%",
+        "text": "\u2193 from 5.19%",
         "sign": "flat"
       }
     },
@@ -275,16 +275,22 @@
       ]
     },
     "sp500": {
-      "value": 7718.94,
-      "date": "2026-10-14",
+      "value": 7744.06,
+      "date": "2026-10-15",
       "label": "Oct 2026",
-      "display": "7,719",
-      "reading": "Oct 2026: 7,719, up from 7,652 in Sep 2026 \u2014 its highest reading in 12 months.",
+      "display": "7,744",
+      "reading": "Oct 2026: 7,744, up from 7,652 in Sep 2026 \u2014 its highest reading in 12 months.",
       "change": {
-        "text": "\u2191 12.8% YTD",
+        "text": "\u2191 13.1% YTD",
         "sign": "pos"
       },
       "news": [
+        {
+          "title": "A lot changed in stocks in matter of months. The biggest risk didn't",
+          "url": "https://www.cnbc.com/2026/10/15/spx-sp500-tech-stocks-invest.html",
+          "source": "CNBC",
+          "date": "2026-10-15"
+        },
         {
           "title": "What\u2019s likely to move the market",
           "url": "https://www.cnbc.com/2026/10/14/thursdays-big-stock-stories-whats-likely-to-move-the-market.html",
@@ -292,27 +298,21 @@
           "date": "2026-10-14"
         },
         {
-          "title": "A deepened tech sell-off drags Asian stocks lower as markets in South Korea and Japan sink",
-          "url": "https://www.ajc.com/news/2026/10/a-deepened-tech-sell-off-drags-asian-stocks-lower-as-markets-in-south-korea-and-japan-sink/",
-          "source": "The Atlanta Journal-Constitution",
-          "date": "2026-10-15"
-        },
-        {
-          "title": "Inflation anxiety drags on AI stocks for a second day as markets point to a mixed open",
-          "url": "https://www.ajc.com/news/2026/10/inflation-anxiety-drags-on-ai-stocks-for-a-second-day-as-markets-point-to-a-mixed-open/",
-          "source": "The Atlanta Journal-Constitution",
+          "title": "Dow Jones Futures: Stocks Bounce, AI Off Lows With Disney, Salesforce, eBay New Buys. But Watch Out For This.",
+          "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-stocks-ai-off-lows-disney-salesforce-ebay-buys/",
+          "source": "Investor's Business Daily",
           "date": "2026-10-15"
         }
       ]
     },
     "nasdaq": {
-      "value": 26692.87,
-      "date": "2026-10-14",
+      "value": 26713.03,
+      "date": "2026-10-15",
       "label": "Oct 2026",
-      "display": "26,693",
-      "reading": "Oct 2026: 26,693, down from 26,861 in Sep 2026.",
+      "display": "26,713",
+      "reading": "Oct 2026: 26,713, down from 26,861 in Sep 2026.",
       "change": {
-        "text": "\u2191 14.8% YTD",
+        "text": "\u2191 14.9% YTD",
         "sign": "pos"
       },
       "news": [
@@ -337,16 +337,22 @@
       ]
     },
     "dow": {
-      "value": 52177.69,
-      "date": "2026-10-15",
+      "value": 52002.41,
+      "date": "2026-10-16",
       "label": "Oct 2026",
-      "display": "52,178",
-      "reading": "Oct 2026: 52,178, up from 50,906 in Sep 2026.",
+      "display": "52,002",
+      "reading": "Oct 2026: 52,002, up from 50,906 in Sep 2026.",
       "change": {
-        "text": "\u2191 8.6% YTD",
+        "text": "\u2191 8.2% YTD",
         "sign": "pos"
       },
       "news": [
+        {
+          "title": "Dow Jones Futures: Stocks Bounce, AI Off Lows With Disney, Salesforce, eBay New Buys. But Watch Out For This.",
+          "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-stocks-ai-off-lows-disney-salesforce-ebay-buys/",
+          "source": "Investor's Business Daily",
+          "date": "2026-10-15"
+        },
         {
           "title": "A deepened tech sell-off drags Asian stocks lower as markets in South Korea and Japan sink",
           "url": "https://www.ajc.com/news/2026/10/a-deepened-tech-sell-off-drags-asian-stocks-lower-as-markets-in-south-korea-and-japan-sink/",
@@ -356,12 +362,6 @@
         {
           "title": "Inflation anxiety drags on AI stocks for a second day as markets point to a mixed open",
           "url": "https://www.ajc.com/news/2026/10/inflation-anxiety-drags-on-ai-stocks-for-a-second-day-as-markets-point-to-a-mixed-open/",
-          "source": "The Atlanta Journal-Constitution",
-          "date": "2026-10-15"
-        },
-        {
-          "title": "A tech sell-off drags Asian stocks lower as markets in South Korea and Japan sink",
-          "url": "https://www.ajc.com/news/2026/10/a-tech-sell-off-drags-asian-stocks-lower-as-markets-in-south-korea-and-japan-sink/",
           "source": "The Atlanta Journal-Constitution",
           "date": "2026-10-15"
         }
@@ -6209,7 +6209,8 @@
         "2026-10-11",
         "2026-10-12",
         "2026-10-13",
-        "2026-10-14"
+        "2026-10-14",
+        "2026-10-15"
       ],
       "values": [
         0.06,
@@ -10516,6 +10517,7 @@
         3.88,
         3.88,
         3.88,
+        3.88,
         3.88
       ],
       "freq": "monthly"
@@ -13468,7 +13470,8 @@
         "2026-10-08",
         "2026-10-09",
         "2026-10-13",
-        "2026-10-14"
+        "2026-10-14",
+        "2026-10-15"
       ],
       "values": [
         2.12,
@@ -16417,7 +16420,8 @@
         5.22,
         5.24,
         5.21,
-        5.19
+        5.19,
+        5.1
       ],
       "freq": "monthly"
     },
@@ -17982,7 +17986,7 @@
         "2026-07-31",
         "2026-08-31",
         "2026-09-30",
-        "2026-10-14"
+        "2026-10-15"
       ],
       "values": [
         2126.15,
@@ -18105,7 +18109,7 @@
         7489.72,
         7686.14,
         7651.54,
-        7718.94
+        7744.06
       ],
       "freq": "monthly"
     },
@@ -18252,7 +18256,7 @@
         "2026-07-31",
         "2026-08-31",
         "2026-09-30",
-        "2026-10-14"
+        "2026-10-15"
       ],
       "values": [
         4635.24,
@@ -18396,7 +18400,7 @@
         25373.85,
         26370.89,
         26861.06,
-        26692.87
+        26713.03
       ],
       "freq": "monthly"
     },
@@ -18522,7 +18526,7 @@
         "2026-07-31",
         "2026-08-31",
         "2026-09-30",
-        "2026-10-15"
+        "2026-10-16"
       ],
       "values": [
         18142.42,
@@ -18645,7 +18649,7 @@
         52485.03,
         53185.9,
         50906.05,
-        52177.69
+        52002.41
       ],
       "freq": "monthly"
     }
