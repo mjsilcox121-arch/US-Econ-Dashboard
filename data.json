@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-16T23:19:05Z",
+  "updated": "2026-10-20T00:08:48Z",
   "metrics": {
     "gdp": {
       "value": 2.2,
@@ -23,12 +23,6 @@
           "url": "https://cdapress.com/news/2026/sep/30/us-economy-grew-a-solid-22-in-the-second-quarter-government-says-upgrading-previous-estimate/",
           "source": "Coeur d'Alene Press",
           "date": "2026-09-30"
-        },
-        {
-          "title": "The US economy is stuck on a hamster wheel as GDP must outrun borrowing costs-or risk a debt spiral",
-          "url": "https://fortune.com/2026/09/27/us-economy-gdp-growth-bond-yields-borrowing-costs-debt-spiral/",
-          "source": "Fortune",
-          "date": "2026-09-27"
         }
       ]
     },
@@ -81,14 +75,14 @@
           "date": "2026-10-14"
         },
         {
-          "title": "A deepened tech sell-off drags Asian stocks lower as markets in South Korea and Japan sink",
-          "url": "https://www.ajc.com/news/2026/10/a-deepened-tech-sell-off-drags-asian-stocks-lower-as-markets-in-south-korea-and-japan-sink/",
-          "source": "The Atlanta Journal-Constitution",
-          "date": "2026-10-15"
+          "title": "Inflation Scorches Americans Before Midterms, Driven by High Fuel Costs",
+          "url": "https://www.naturalnews.com/2026-10-16-inflation-scorches-americans-driven-by-high-fuel-costs.html",
+          "source": "Natural News",
+          "date": "2026-10-16"
         },
         {
-          "title": "South Korea\u2019s benchmark Kospi index sinks more than 7% as tech sell-off deepens",
-          "url": "https://www.ajc.com/news/2026/10/south-koreas-benchmark-kospi-index-sinks-more-than-7-as-tech-sell-off-deepens/",
+          "title": "A deepened tech sell-off drags Asian stocks lower as markets in South Korea and Japan sink",
+          "url": "https://www.ajc.com/news/2026/10/a-deepened-tech-sell-off-drags-asian-stocks-lower-as-markets-in-south-korea-and-japan-sink/",
           "source": "The Atlanta Journal-Constitution",
           "date": "2026-10-15"
         }
@@ -151,7 +145,7 @@
     },
     "ffr": {
       "value": 3.88,
-      "date": "2026-10-15",
+      "date": "2026-10-16",
       "label": "Oct 2026",
       "display": "3.88%",
       "reading": "Oct 2026: 3.88%, unchanged from 3.88% in Oct 2026 \u2014 its highest reading in 12 months.",
@@ -161,33 +155,33 @@
       },
       "news": [
         {
+          "title": "Bitcoin Holds Above $80K as Markets Scale Back Fed Rate Hike Bets",
+          "url": "https://cointelegraph.com/markets/bitcoin-price-steadies-82k-fed-warsh-avoids-rate-hike-hints",
+          "source": "Cointelegraph",
+          "date": "2026-10-16"
+        },
+        {
+          "title": "S&P 500 Holds Steady as Fed Rate Hold Expectations Rise After Warsh Remarks",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-16/s-p-500-steady-as-warsh-boosts-expectations-of-rate-hold",
+          "source": "Bloomberg",
+          "date": "2026-10-16"
+        },
+        {
           "title": "Rising Bond Yields Are No Excuse for Central Bank Inertia",
           "url": "https://www.bloomberg.com/opinion/articles/2026-10-12/rising-bond-yields-are-no-substitute-for-tighter-monetary-policy",
           "source": "Bloomberg",
           "date": "2026-10-12"
-        },
-        {
-          "title": "Fed chair Warsh says price stability is key but shies away from signals about rates",
-          "url": "https://www.ajc.com/news/2026/10/fed-chair-warsh-says-price-stability-is-key-but-shies-away-from-signals-about-rates/",
-          "source": "The Atlanta Journal-Constitution",
-          "date": "2026-10-16"
-        },
-        {
-          "title": "Inflation anxiety drags on AI stocks for a second day as markets point to a mixed open",
-          "url": "https://www.ajc.com/news/2026/10/inflation-anxiety-drags-on-ai-stocks-for-a-second-day-as-markets-point-to-a-mixed-open/",
-          "source": "The Atlanta Journal-Constitution",
-          "date": "2026-10-15"
         }
       ]
     },
     "ten": {
-      "value": 5.1,
-      "date": "2026-10-15",
+      "value": 5.09,
+      "date": "2026-10-16",
       "label": "Oct 2026",
-      "display": "5.10%",
-      "reading": "Oct 2026: 5.10%, down from 5.19% in Oct 2026 \u2014 its lowest reading in 12 months.",
+      "display": "5.09%",
+      "reading": "Oct 2026: 5.09%, down from 5.10% in Oct 2026 \u2014 its lowest reading in 12 months.",
       "change": {
-        "text": "\u2193 from 5.19%",
+        "text": "\u2193 from 5.10%",
         "sign": "flat"
       }
     },
@@ -265,43 +259,37 @@
           "url": "https://abc17news.com/money/cnn-business-consumer/2026/10/09/americans-feelings-about-the-economy-continue-to-worsen/",
           "source": "ABC17News.com",
           "date": "2026-10-09"
-        },
-        {
-          "title": "Consumer Sentiment Falls Again In September",
-          "url": "https://seekingalpha.com/article/4949889-consumer-sentiment-falls-again-in-september",
-          "source": "Seeking Alpha",
-          "date": "2026-09-26"
         }
       ]
     },
     "sp500": {
-      "value": 7744.06,
-      "date": "2026-10-15",
+      "value": 7690.73,
+      "date": "2026-10-19",
       "label": "Oct 2026",
-      "display": "7,744",
-      "reading": "Oct 2026: 7,744, up from 7,652 in Sep 2026 \u2014 its highest reading in 12 months.",
+      "display": "7,691",
+      "reading": "Oct 2026: 7,691, up from 7,652 in Sep 2026 \u2014 its highest reading in 12 months.",
       "change": {
-        "text": "\u2191 13.1% YTD",
+        "text": "\u2191 12.3% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "A lot changed in stocks in matter of months. The biggest risk didn't",
-          "url": "https://www.cnbc.com/2026/10/15/spx-sp500-tech-stocks-invest.html",
+          "title": "Anything not tied to artificial intelligence took off this week",
+          "url": "https://www.cnbc.com/2026/10/16/anything-not-tied-to-artificial-intelligence-took-off-this-week.html",
           "source": "CNBC",
-          "date": "2026-10-15"
+          "date": "2026-10-16"
         },
         {
-          "title": "What\u2019s likely to move the market",
-          "url": "https://www.cnbc.com/2026/10/14/thursdays-big-stock-stories-whats-likely-to-move-the-market.html",
-          "source": "CNBC",
-          "date": "2026-10-14"
+          "title": "Asian shares are mixed with tech stocks volatile, and oil falls on Trump's Russian sanctions waiver",
+          "url": "https://www.ajc.com/news/2026/10/asian-shares-are-mixed-with-tech-stocks-volatile-and-oil-falls-on-trumps-russian-sanctions-waiver/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-10-19"
         },
         {
-          "title": "Dow Jones Futures: Stocks Bounce, AI Off Lows With Disney, Salesforce, eBay New Buys. But Watch Out For This.",
-          "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-stocks-ai-off-lows-disney-salesforce-ebay-buys/",
-          "source": "Investor's Business Daily",
-          "date": "2026-10-15"
+          "title": "AI stocks lead a rebound on Wall Street as European markets drop following protests",
+          "url": "https://www.ajc.com/news/2026/10/ai-stocks-lead-a-rebound-on-wall-street-as-european-markets-drop-following-protests/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-10-19"
         }
       ]
     },
@@ -317,53 +305,53 @@
       },
       "news": [
         {
-          "title": "Global tech selloff deepens as enthusiasm for AI stocks wobbles",
-          "url": "https://abc17news.com/money/cnn-business-consumer/2026/10/15/global-tech-selloff-deepens-as-enthusiasm-for-ai-stocks-wobbles/",
-          "source": "ABC17News.com",
-          "date": "2026-10-15"
+          "title": "Asian shares are mixed with tech stocks volatile, and oil falls on Trump's Russian sanctions waiver",
+          "url": "https://www.ajc.com/news/2026/10/asian-shares-are-mixed-with-tech-stocks-volatile-and-oil-falls-on-trumps-russian-sanctions-waiver/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-10-19"
         },
         {
-          "title": "A deepened tech sell-off drags Asian stocks lower as markets in South Korea and Japan sink",
-          "url": "https://www.ajc.com/news/2026/10/a-deepened-tech-sell-off-drags-asian-stocks-lower-as-markets-in-south-korea-and-japan-sink/",
-          "source": "The Atlanta Journal-Constitution",
-          "date": "2026-10-15"
+          "title": "Stocks Are Tumbling, but Citi Says These 2 Names Are Worth Buying",
+          "url": "https://markets.businessinsider.com/news/stocks/stocks-are-tumbling-but-citi-says-these-2-names-are-worth-buying-1036636882",
+          "source": "Markets Insider",
+          "date": "2026-10-18"
         },
         {
-          "title": "Inflation anxiety drags on AI stocks for a second day as markets point to a mixed open",
-          "url": "https://www.ajc.com/news/2026/10/inflation-anxiety-drags-on-ai-stocks-for-a-second-day-as-markets-point-to-a-mixed-open/",
-          "source": "The Atlanta Journal-Constitution",
-          "date": "2026-10-15"
+          "title": "Micron or CoreWeave: One Stock Is a Strong Buy After Today\u2019s Drop, but the Other Has More Upside, According to Wall Street",
+          "url": "https://markets.businessinsider.com/news/stocks/micron-or-coreweave-one-stock-is-a-strong-buy-after-today-s-drop-but-the-other-has-more-upside-according-to-wall-street-1036636185",
+          "source": "Markets Insider",
+          "date": "2026-10-16"
         }
       ]
     },
     "dow": {
-      "value": 52002.41,
-      "date": "2026-10-16",
+      "value": 51966.03,
+      "date": "2026-10-19",
       "label": "Oct 2026",
-      "display": "52,002",
-      "reading": "Oct 2026: 52,002, up from 50,906 in Sep 2026.",
+      "display": "51,966",
+      "reading": "Oct 2026: 51,966, up from 50,906 in Sep 2026.",
       "change": {
-        "text": "\u2191 8.2% YTD",
+        "text": "\u2191 8.1% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "Dow Jones Futures: Stocks Bounce, AI Off Lows With Disney, Salesforce, eBay New Buys. But Watch Out For This.",
-          "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-stocks-ai-off-lows-disney-salesforce-ebay-buys/",
+          "title": "Asian shares are mixed with tech stocks volatile, and oil falls on Trump's Russian sanctions waiver",
+          "url": "https://www.ajc.com/news/2026/10/asian-shares-are-mixed-with-tech-stocks-volatile-and-oil-falls-on-trumps-russian-sanctions-waiver/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-10-19"
+        },
+        {
+          "title": "AI stocks lead a rebound on Wall Street as European markets drop following protests",
+          "url": "https://www.ajc.com/news/2026/10/ai-stocks-lead-a-rebound-on-wall-street-as-european-markets-drop-following-protests/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-10-19"
+        },
+        {
+          "title": "Dow Jones Futures: What To Do After S&P 500, Nasdaq Break Support; Will Meta, SpaceX Earnings Save AI?",
+          "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-sp-500-nasdaq-break-coreweave-dell-tesla-spacex-meta/",
           "source": "Investor's Business Daily",
-          "date": "2026-10-15"
-        },
-        {
-          "title": "A deepened tech sell-off drags Asian stocks lower as markets in South Korea and Japan sink",
-          "url": "https://www.ajc.com/news/2026/10/a-deepened-tech-sell-off-drags-asian-stocks-lower-as-markets-in-south-korea-and-japan-sink/",
-          "source": "The Atlanta Journal-Constitution",
-          "date": "2026-10-15"
-        },
-        {
-          "title": "Inflation anxiety drags on AI stocks for a second day as markets point to a mixed open",
-          "url": "https://www.ajc.com/news/2026/10/inflation-anxiety-drags-on-ai-stocks-for-a-second-day-as-markets-point-to-a-mixed-open/",
-          "source": "The Atlanta Journal-Constitution",
-          "date": "2026-10-15"
+          "date": "2026-10-16"
         }
       ]
     }
@@ -6210,7 +6198,8 @@
         "2026-10-12",
         "2026-10-13",
         "2026-10-14",
-        "2026-10-15"
+        "2026-10-15",
+        "2026-10-16"
       ],
       "values": [
         0.06,
@@ -10518,6 +10507,7 @@
         3.88,
         3.88,
         3.88,
+        3.88,
         3.88
       ],
       "freq": "monthly"
@@ -13471,7 +13461,8 @@
         "2026-10-09",
         "2026-10-13",
         "2026-10-14",
-        "2026-10-15"
+        "2026-10-15",
+        "2026-10-16"
       ],
       "values": [
         2.12,
@@ -16421,7 +16412,8 @@
         5.24,
         5.21,
         5.19,
-        5.1
+        5.1,
+        5.09
       ],
       "freq": "monthly"
     },
@@ -17986,7 +17978,7 @@
         "2026-07-31",
         "2026-08-31",
         "2026-09-30",
-        "2026-10-15"
+        "2026-10-19"
       ],
       "values": [
         2126.15,
@@ -18109,7 +18101,7 @@
         7489.72,
         7686.14,
         7651.54,
-        7744.06
+        7690.73
       ],
       "freq": "monthly"
     },
@@ -18526,7 +18518,7 @@
         "2026-07-31",
         "2026-08-31",
         "2026-09-30",
-        "2026-10-16"
+        "2026-10-19"
       ],
       "values": [
         18142.42,
@@ -18649,7 +18641,7 @@
         52485.03,
         53185.9,
         50906.05,
-        52002.41
+        51966.03
       ],
       "freq": "monthly"
     }
