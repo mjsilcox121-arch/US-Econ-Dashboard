@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-20T00:08:48Z",
+  "updated": "2026-10-20T23:40:34Z",
   "metrics": {
     "gdp": {
       "value": 2.2,
@@ -75,16 +75,16 @@
           "date": "2026-10-14"
         },
         {
+          "title": "United States: October inflation seen cooling - TD Securities",
+          "url": "https://www.europesays.com/3319821/",
+          "source": "EUROPE SAYS",
+          "date": "2026-10-19"
+        },
+        {
           "title": "Inflation Scorches Americans Before Midterms, Driven by High Fuel Costs",
           "url": "https://www.naturalnews.com/2026-10-16-inflation-scorches-americans-driven-by-high-fuel-costs.html",
           "source": "Natural News",
           "date": "2026-10-16"
-        },
-        {
-          "title": "A deepened tech sell-off drags Asian stocks lower as markets in South Korea and Japan sink",
-          "url": "https://www.ajc.com/news/2026/10/a-deepened-tech-sell-off-drags-asian-stocks-lower-as-markets-in-south-korea-and-japan-sink/",
-          "source": "The Atlanta Journal-Constitution",
-          "date": "2026-10-15"
         }
       ]
     },
@@ -115,12 +115,6 @@
           "url": "https://www.investors.com/news/federal-reserve-core-pce-inflation-rate-adp-jobs-report-sp-500/",
           "source": "Investor's Business Daily",
           "date": "2026-09-30"
-        },
-        {
-          "title": "Bitcoin slips to $83,000 as ZEC drops 12% and oil climbs again",
-          "url": "https://www.coindesk.com/markets/2026/09/29/bitcoin-holds-usd83-000-as-zec-drops-12-and-oil-climbs-again",
-          "source": "CoinDesk",
-          "date": "2026-09-29"
         }
       ]
     },
@@ -145,7 +139,7 @@
     },
     "ffr": {
       "value": 3.88,
-      "date": "2026-10-16",
+      "date": "2026-10-19",
       "label": "Oct 2026",
       "display": "3.88%",
       "reading": "Oct 2026: 3.88%, unchanged from 3.88% in Oct 2026 \u2014 its highest reading in 12 months.",
@@ -175,13 +169,13 @@
       ]
     },
     "ten": {
-      "value": 5.09,
-      "date": "2026-10-16",
+      "value": 5.15,
+      "date": "2026-10-19",
       "label": "Oct 2026",
-      "display": "5.09%",
-      "reading": "Oct 2026: 5.09%, down from 5.10% in Oct 2026 \u2014 its lowest reading in 12 months.",
+      "display": "5.15%",
+      "reading": "Oct 2026: 5.15%, up from 5.09% in Oct 2026.",
       "change": {
-        "text": "\u2193 from 5.10%",
+        "text": "\u2191 from 5.09%",
         "sign": "flat"
       }
     },
@@ -216,13 +210,13 @@
       }
     },
     "housing": {
-      "value": 1.275,
-      "date": "2026-08-01",
-      "label": "Aug 2026",
-      "display": "1.275M",
-      "reading": "Aug 2026: 1.275M, down from 1.309M in Jul 2026.",
+      "value": 1.221,
+      "date": "2026-09-01",
+      "label": "Sep 2026",
+      "display": "1.221M",
+      "reading": "Sep 2026: 1.221M, down from 1.288M in Aug 2026.",
       "change": {
-        "text": "\u2193 from 1.309M",
+        "text": "\u2193 from 1.288M",
         "sign": "neg"
       }
     },
@@ -274,84 +268,84 @@
       },
       "news": [
         {
-          "title": "Anything not tied to artificial intelligence took off this week",
-          "url": "https://www.cnbc.com/2026/10/16/anything-not-tied-to-artificial-intelligence-took-off-this-week.html",
-          "source": "CNBC",
-          "date": "2026-10-16"
+          "title": "The S&P 500 Is Up More Than 10% This Year: But Nearly 40% of S&P 500 Stocks Are Down 20% From Their Highs.",
+          "url": "https://www.ibtimes.com/sp-500-more-10-this-year-nearly-40-sp-500-stocks-are-down-20-their-highs-3808683",
+          "source": "International Business Times",
+          "date": "2026-10-20"
         },
         {
-          "title": "Asian shares are mixed with tech stocks volatile, and oil falls on Trump's Russian sanctions waiver",
-          "url": "https://www.ajc.com/news/2026/10/asian-shares-are-mixed-with-tech-stocks-volatile-and-oil-falls-on-trumps-russian-sanctions-waiver/",
+          "title": "Most of Wall Street rises as AI stocks keep swinging",
+          "url": "https://www.ajc.com/news/2026/10/wall-street-is-mixed-as-more-drops-for-ai-stocks-offset-some-strong-profit-reports/",
           "source": "The Atlanta Journal-Constitution",
-          "date": "2026-10-19"
+          "date": "2026-10-20"
         },
         {
-          "title": "AI stocks lead a rebound on Wall Street as European markets drop following protests",
-          "url": "https://www.ajc.com/news/2026/10/ai-stocks-lead-a-rebound-on-wall-street-as-european-markets-drop-following-protests/",
+          "title": "Asian shares mostly decline after AI stocks lead a rebound on Wall Street",
+          "url": "https://www.ajc.com/news/2026/10/asian-shares-mostly-decline-after-ai-stocks-lead-a-rebound-on-wall-street/",
           "source": "The Atlanta Journal-Constitution",
-          "date": "2026-10-19"
+          "date": "2026-10-20"
         }
       ]
     },
     "nasdaq": {
-      "value": 26713.03,
-      "date": "2026-10-15",
+      "value": 26430.89,
+      "date": "2026-10-19",
       "label": "Oct 2026",
-      "display": "26,713",
-      "reading": "Oct 2026: 26,713, down from 26,861 in Sep 2026.",
+      "display": "26,431",
+      "reading": "Oct 2026: 26,431, down from 26,861 in Sep 2026.",
       "change": {
-        "text": "\u2191 14.9% YTD",
+        "text": "\u2191 13.7% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "Asian shares are mixed with tech stocks volatile, and oil falls on Trump's Russian sanctions waiver",
-          "url": "https://www.ajc.com/news/2026/10/asian-shares-are-mixed-with-tech-stocks-volatile-and-oil-falls-on-trumps-russian-sanctions-waiver/",
+          "title": "Asian shares mostly decline after AI stocks lead a rebound on Wall Street",
+          "url": "https://www.ajc.com/news/2026/10/asian-shares-mostly-decline-after-ai-stocks-lead-a-rebound-on-wall-street/",
           "source": "The Atlanta Journal-Constitution",
+          "date": "2026-10-20"
+        },
+        {
+          "title": "US futures dip as AI sell-off returns and oil prices rise sharply",
+          "url": "https://www.ajc.com/news/2026/10/global-shares-mostly-decline-after-ai-stocks-lead-a-rebound-on-wall-street/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-10-20"
+        },
+        {
+          "title": "Investors Bought the Dip After AI-Fueled Losses. Stocks Climbed.",
+          "url": "https://www.ibtimes.com/investors-bought-dip-after-ai-fueled-losses-stocks-climbed-3808749",
+          "source": "International Business Times",
           "date": "2026-10-19"
-        },
-        {
-          "title": "Stocks Are Tumbling, but Citi Says These 2 Names Are Worth Buying",
-          "url": "https://markets.businessinsider.com/news/stocks/stocks-are-tumbling-but-citi-says-these-2-names-are-worth-buying-1036636882",
-          "source": "Markets Insider",
-          "date": "2026-10-18"
-        },
-        {
-          "title": "Micron or CoreWeave: One Stock Is a Strong Buy After Today\u2019s Drop, but the Other Has More Upside, According to Wall Street",
-          "url": "https://markets.businessinsider.com/news/stocks/micron-or-coreweave-one-stock-is-a-strong-buy-after-today-s-drop-but-the-other-has-more-upside-according-to-wall-street-1036636185",
-          "source": "Markets Insider",
-          "date": "2026-10-16"
         }
       ]
     },
     "dow": {
-      "value": 51966.03,
-      "date": "2026-10-19",
+      "value": 52436.0,
+      "date": "2026-10-20",
       "label": "Oct 2026",
-      "display": "51,966",
-      "reading": "Oct 2026: 51,966, up from 50,906 in Sep 2026.",
+      "display": "52,436",
+      "reading": "Oct 2026: 52,436, up from 50,906 in Sep 2026.",
       "change": {
-        "text": "\u2191 8.1% YTD",
+        "text": "\u2191 9.1% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "Asian shares are mixed with tech stocks volatile, and oil falls on Trump's Russian sanctions waiver",
-          "url": "https://www.ajc.com/news/2026/10/asian-shares-are-mixed-with-tech-stocks-volatile-and-oil-falls-on-trumps-russian-sanctions-waiver/",
+          "title": "Most of Wall Street rises as AI stocks keep swinging",
+          "url": "https://www.ajc.com/news/2026/10/wall-street-is-mixed-as-more-drops-for-ai-stocks-offset-some-strong-profit-reports/",
           "source": "The Atlanta Journal-Constitution",
-          "date": "2026-10-19"
+          "date": "2026-10-20"
         },
         {
-          "title": "AI stocks lead a rebound on Wall Street as European markets drop following protests",
-          "url": "https://www.ajc.com/news/2026/10/ai-stocks-lead-a-rebound-on-wall-street-as-european-markets-drop-following-protests/",
+          "title": "Asian shares mostly decline after AI stocks lead a rebound on Wall Street",
+          "url": "https://www.ajc.com/news/2026/10/asian-shares-mostly-decline-after-ai-stocks-lead-a-rebound-on-wall-street/",
           "source": "The Atlanta Journal-Constitution",
-          "date": "2026-10-19"
+          "date": "2026-10-20"
         },
         {
-          "title": "Dow Jones Futures: What To Do After S&P 500, Nasdaq Break Support; Will Meta, SpaceX Earnings Save AI?",
-          "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-sp-500-nasdaq-break-coreweave-dell-tesla-spacex-meta/",
-          "source": "Investor's Business Daily",
-          "date": "2026-10-16"
+          "title": "US stocks hold relatively steady even as several AI companies swing lower",
+          "url": "https://www.ajc.com/news/2026/10/us-futures-dip-as-ai-sell-off-returns-and-oil-prices-rise-sharply/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-10-20"
         }
       ]
     }
@@ -6199,7 +6193,10 @@
         "2026-10-13",
         "2026-10-14",
         "2026-10-15",
-        "2026-10-16"
+        "2026-10-16",
+        "2026-10-17",
+        "2026-10-18",
+        "2026-10-19"
       ],
       "values": [
         0.06,
@@ -10508,6 +10505,9 @@
         3.88,
         3.88,
         3.88,
+        3.88,
+        3.88,
+        3.88,
         3.88
       ],
       "freq": "monthly"
@@ -13462,7 +13462,8 @@
         "2026-10-13",
         "2026-10-14",
         "2026-10-15",
-        "2026-10-16"
+        "2026-10-16",
+        "2026-10-19"
       ],
       "values": [
         2.12,
@@ -16413,7 +16414,8 @@
         5.21,
         5.19,
         5.1,
-        5.09
+        5.09,
+        5.15
       ],
       "freq": "monthly"
     },
@@ -17136,7 +17138,8 @@
         "2026-05-01",
         "2026-06-01",
         "2026-07-01",
-        "2026-08-01"
+        "2026-08-01",
+        "2026-09-01"
       ],
       "values": [
         1.085,
@@ -17277,8 +17280,9 @@
         1.414,
         1.182,
         1.439,
-        1.309,
-        1.275
+        1.369,
+        1.288,
+        1.221
       ],
       "freq": "monthly"
     },
@@ -18248,7 +18252,7 @@
         "2026-07-31",
         "2026-08-31",
         "2026-09-30",
-        "2026-10-15"
+        "2026-10-19"
       ],
       "values": [
         4635.24,
@@ -18392,7 +18396,7 @@
         25373.85,
         26370.89,
         26861.06,
-        26713.03
+        26430.89
       ],
       "freq": "monthly"
     },
@@ -18518,7 +18522,7 @@
         "2026-07-31",
         "2026-08-31",
         "2026-09-30",
-        "2026-10-19"
+        "2026-10-20"
       ],
       "values": [
         18142.42,
@@ -18641,7 +18645,7 @@
         52485.03,
         53185.9,
         50906.05,
-        51966.03
+        52436.0
       ],
       "freq": "monthly"
     }
