@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-22T23:54:47Z",
+  "updated": "2026-10-23T23:46:48Z",
   "metrics": {
     "gdp": {
       "value": 2.2,
@@ -21,27 +21,7 @@
       "change": {
         "text": "\u2191 from 4.1%",
         "sign": "neg"
-      },
-      "news": [
-        {
-          "title": "US hiring slows and unemployment ticks higher with a month remaining before Americans head to polls",
-          "url": "https://www.ajc.com/news/2026/10/us-hiring-slows-and-unemployment-ticks-higher-with-a-month-remaining-before-americans-head-to-polls/",
-          "source": "The Atlanta Journal-Constitution",
-          "date": "2026-10-02"
-        },
-        {
-          "title": "US hiring slows and unemployment ticks higher with a month remaining before Americans head to polls",
-          "url": "https://www.ajc.com/news/2026/10/us-hiring-slows-and-unemployment-ticks-higher-in-september-a-month-before-americans-head-to-polls/",
-          "source": "The Atlanta Journal-Constitution",
-          "date": "2026-10-02"
-        },
-        {
-          "title": "US adds disappointing 29,000 jobs and unemployment ticks up to 4.2% in September",
-          "url": "https://www.ajc.com/news/2026/10/us-adds-disappointing-29000-jobs-and-unemployment-ticks-up-to-42-in-september/",
-          "source": "The Atlanta Journal-Constitution",
-          "date": "2026-10-02"
-        }
-      ]
+      }
     },
     "cpi": {
       "value": 3.7172,
@@ -109,7 +89,7 @@
     },
     "ffr": {
       "value": 3.88,
-      "date": "2026-10-21",
+      "date": "2026-10-22",
       "label": "Oct 2026",
       "display": "3.88%",
       "reading": "Oct 2026: 3.88%, unchanged from 3.88% in Oct 2026 \u2014 its highest reading in 12 months.",
@@ -139,13 +119,13 @@
       ]
     },
     "ten": {
-      "value": 5.13,
-      "date": "2026-10-21",
+      "value": 4.96,
+      "date": "2026-10-22",
       "label": "Oct 2026",
-      "display": "5.13%",
-      "reading": "Oct 2026: 5.13%, up from 5.12% in Oct 2026.",
+      "display": "4.96%",
+      "reading": "Oct 2026: 4.96%, down from 5.13% in Oct 2026 \u2014 its lowest reading in 12 months.",
       "change": {
-        "text": "\u2191 from 5.12%",
+        "text": "\u2193 from 5.13%",
         "sign": "flat"
       }
     },
@@ -158,15 +138,7 @@
       "change": {
         "text": "\u2193 from +133K",
         "sign": "neg"
-      },
-      "news": [
-        {
-          "title": "Jobs report September 2026:",
-          "url": "https://www.cnbc.com/2026/10/02/jobs-report-september-2026.html",
-          "source": "CNBC",
-          "date": "2026-10-02"
-        }
-      ]
+      }
     },
     "retail": {
       "value": 0.7708,
@@ -210,13 +182,13 @@
       }
     },
     "sent": {
-      "value": 51.7,
-      "date": "2026-08-01",
-      "label": "Aug 2026",
-      "display": "51.7",
-      "reading": "Aug 2026: 51.7, down from 55.2 in Jul 2026.",
+      "value": 48.1,
+      "date": "2026-09-01",
+      "label": "Sep 2026",
+      "display": "48.1",
+      "reading": "Sep 2026: 48.1, down from 51.7 in Aug 2026.",
       "change": {
-        "text": "\u2193 from 55.2",
+        "text": "\u2193 from 51.7",
         "sign": "neg"
       },
       "news": [
@@ -246,33 +218,33 @@
       },
       "news": [
         {
-          "title": "Asian shares retreat after strong profits lead a rally on Wall Street",
-          "url": "https://www.ajc.com/news/2026/10/asian-shares-retreat-after-strong-profits-lead-a-rally-on-wall-street/",
-          "source": "The Atlanta Journal-Constitution",
-          "date": "2026-10-22"
+          "title": "10% Of S&P 500 Stocks Sink Into 'Lost Decade' \u2014 Do You Own Them?",
+          "url": "https://www.investors.com/etfs-and-funds/sectors/sp-500-stocks-sink-into-lost-decade-do-you-own-them/",
+          "source": "Investor's Business Daily",
+          "date": "2026-10-23"
         },
         {
-          "title": "AI stocks undercut markets worldwide as oil climbs to its highest price since May",
-          "url": "https://www.ajc.com/news/2026/10/ai-stocks-drag-markets-down-worldwide-as-oil-prices-climb-to-their-highest-since-may/",
+          "title": "More swings for Big Tech pull Wall Street lower in early trading",
+          "url": "https://www.ajc.com/news/2026/10/more-swings-for-big-tech-pull-wall-street-lower-in-early-trading/",
           "source": "The Atlanta Journal-Constitution",
-          "date": "2026-10-22"
+          "date": "2026-10-23"
         },
         {
-          "title": "World shares retreat as report of damage to oil tankers pushes oil prices higher",
-          "url": "https://www.ajc.com/news/2026/10/world-shares-retreat-as-report-of-damage-to-oil-takers-pushes-oil-prices-higher/",
+          "title": "Asian shares slip as sharp drops for AI stocks overwhelm markets worldwide and oil prices jump",
+          "url": "https://www.ajc.com/news/2026/10/asian-shares-slip-as-sharp-drops-for-ai-stocks-overwhelm-markets-worldwide-and-oil-prices-jump/",
           "source": "The Atlanta Journal-Constitution",
-          "date": "2026-10-22"
+          "date": "2026-10-23"
         }
       ]
     },
     "nasdaq": {
-      "value": 26702.86,
-      "date": "2026-10-21",
+      "value": 26008.86,
+      "date": "2026-10-22",
       "label": "Oct 2026",
-      "display": "26,703",
-      "reading": "Oct 2026: 26,703, down from 26,861 in Sep 2026.",
+      "display": "26,009",
+      "reading": "Oct 2026: 26,009, down from 26,861 in Sep 2026.",
       "change": {
-        "text": "\u2191 14.9% YTD",
+        "text": "\u2191 11.9% YTD",
         "sign": "pos"
       },
       "news": [
@@ -283,47 +255,47 @@
           "date": "2026-10-21"
         },
         {
-          "title": "AI stocks undercut markets worldwide as oil climbs to its highest price since May",
-          "url": "https://www.ajc.com/news/2026/10/ai-stocks-drag-markets-down-worldwide-as-oil-prices-climb-to-their-highest-since-may/",
+          "title": "More swings for Big Tech pull Wall Street lower in early trading",
+          "url": "https://www.ajc.com/news/2026/10/more-swings-for-big-tech-pull-wall-street-lower-in-early-trading/",
           "source": "The Atlanta Journal-Constitution",
-          "date": "2026-10-22"
+          "date": "2026-10-23"
         },
         {
-          "title": "Sinking AI stocks undercut markets worldwide as oil climbs to its highest price since May",
-          "url": "https://www.ajc.com/news/2026/10/sinking-ai-stocks-undercut-markets-worldwide-as-oil-climbs-to-its-highest-price-since-may/",
+          "title": "Asian shares slip as sharp drops for AI stocks overwhelm markets worldwide and oil prices jump",
+          "url": "https://www.ajc.com/news/2026/10/asian-shares-slip-as-sharp-drops-for-ai-stocks-overwhelm-markets-worldwide-and-oil-prices-jump/",
           "source": "The Atlanta Journal-Constitution",
-          "date": "2026-10-22"
+          "date": "2026-10-23"
         }
       ]
     },
     "dow": {
-      "value": 52867.98,
-      "date": "2026-10-22",
+      "value": 52215.16,
+      "date": "2026-10-23",
       "label": "Oct 2026",
-      "display": "52,868",
-      "reading": "Oct 2026: 52,868, up from 50,906 in Sep 2026.",
+      "display": "52,215",
+      "reading": "Oct 2026: 52,215, up from 50,906 in Sep 2026.",
       "change": {
-        "text": "\u2191 10.0% YTD",
+        "text": "\u2191 8.6% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "Asian shares retreat after strong profits lead a rally on Wall Street",
-          "url": "https://www.ajc.com/news/2026/10/asian-shares-retreat-after-strong-profits-lead-a-rally-on-wall-street/",
+          "title": "More swings for Big Tech pull Wall Street lower in early trading",
+          "url": "https://www.ajc.com/news/2026/10/more-swings-for-big-tech-pull-wall-street-lower-in-early-trading/",
           "source": "The Atlanta Journal-Constitution",
-          "date": "2026-10-22"
+          "date": "2026-10-23"
         },
         {
-          "title": "AI stocks undercut markets worldwide as oil climbs to its highest price since May",
-          "url": "https://www.ajc.com/news/2026/10/ai-stocks-drag-markets-down-worldwide-as-oil-prices-climb-to-their-highest-since-may/",
+          "title": "Asian shares slip as sharp drops for AI stocks overwhelm markets worldwide and oil prices jump",
+          "url": "https://www.ajc.com/news/2026/10/asian-shares-slip-as-sharp-drops-for-ai-stocks-overwhelm-markets-worldwide-and-oil-prices-jump/",
           "source": "The Atlanta Journal-Constitution",
-          "date": "2026-10-22"
+          "date": "2026-10-23"
         },
         {
-          "title": "World shares retreat as report of damage to oil tankers pushes oil prices higher",
-          "url": "https://www.ajc.com/news/2026/10/world-shares-retreat-as-report-of-damage-to-oil-takers-pushes-oil-prices-higher/",
+          "title": "Wall Street mostly loses ground under pressure from rising oil prices",
+          "url": "https://www.ajc.com/news/2026/10/wall-street-mostly-loses-ground-under-pressure-from-rising-oil-prices/",
           "source": "The Atlanta Journal-Constitution",
-          "date": "2026-10-22"
+          "date": "2026-10-23"
         }
       ]
     }
@@ -6176,7 +6148,8 @@
         "2026-10-18",
         "2026-10-19",
         "2026-10-20",
-        "2026-10-21"
+        "2026-10-21",
+        "2026-10-22"
       ],
       "values": [
         0.06,
@@ -10490,6 +10463,7 @@
         3.88,
         3.88,
         3.88,
+        3.88,
         3.88
       ],
       "freq": "monthly"
@@ -13447,7 +13421,8 @@
         "2026-10-16",
         "2026-10-19",
         "2026-10-20",
-        "2026-10-21"
+        "2026-10-21",
+        "2026-10-22"
       ],
       "values": [
         2.12,
@@ -16401,7 +16376,8 @@
         5.09,
         5.15,
         5.12,
-        5.13
+        5.13,
+        4.96
       ],
       "freq": "monthly"
     },
@@ -17700,7 +17676,8 @@
         "2026-05-01",
         "2026-06-01",
         "2026-07-01",
-        "2026-08-01"
+        "2026-08-01",
+        "2026-09-01"
       ],
       "values": [
         98.1,
@@ -17842,7 +17819,8 @@
         44.8,
         49.5,
         55.2,
-        51.7
+        51.7,
+        48.1
       ],
       "freq": "monthly"
     },
@@ -18238,7 +18216,7 @@
         "2026-07-31",
         "2026-08-31",
         "2026-09-30",
-        "2026-10-21"
+        "2026-10-22"
       ],
       "values": [
         4635.24,
@@ -18382,7 +18360,7 @@
         25373.85,
         26370.89,
         26861.06,
-        26702.86
+        26008.86
       ],
       "freq": "monthly"
     },
@@ -18508,7 +18486,7 @@
         "2026-07-31",
         "2026-08-31",
         "2026-09-30",
-        "2026-10-22"
+        "2026-10-23"
       ],
       "values": [
         18142.42,
@@ -18631,7 +18609,7 @@
         52485.03,
         53185.9,
         50906.05,
-        52867.98
+        52215.16
       ],
       "freq": "monthly"
     }
