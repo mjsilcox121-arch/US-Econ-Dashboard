@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-27T00:16:21Z",
+  "updated": "2026-10-28T00:18:30Z",
   "metrics": {
     "gdp": {
       "value": 2.2,
@@ -89,7 +89,7 @@
     },
     "ffr": {
       "value": 3.88,
-      "date": "2026-10-23",
+      "date": "2026-10-26",
       "label": "Oct 2026",
       "display": "3.88%",
       "reading": "Oct 2026: 3.88%, unchanged from 3.88% in Oct 2026 \u2014 its highest reading in 12 months.",
@@ -99,33 +99,33 @@
       },
       "news": [
         {
+          "title": "Federal Reserve's monetary policy meeting begins",
+          "url": "https://www.cnbc.com/2026/10/27/treasury-yields-federal-reserve-monetary-policy-meeting.html",
+          "source": "CNBC",
+          "date": "2026-10-27"
+        },
+        {
           "title": "Warsh Tells Traders to Watch the Data. They Still Follow the Fed",
           "url": "https://news.bloombergtax.com/daily-tax-report/warsh-tells-traders-to-watch-the-data-they-still-follow-the-fed",
           "source": "Bloomberg Tax News",
           "date": "2026-10-25"
         },
         {
-          "title": "Gold drops over 1% as oil rally reinforces higher-for-longer rate outlook",
-          "url": "https://www.reuters.com/world/india/gold-drops-over-1-oil-rally-reinforces-higher-for-longer-rate-outlook-2026-10-22/",
-          "source": "Reuters",
-          "date": "2026-10-22"
-        },
-        {
-          "title": "Bitcoin Holds Above $80K as Markets Scale Back Fed Rate Hike Bets",
-          "url": "https://cointelegraph.com/markets/bitcoin-price-steadies-82k-fed-warsh-avoids-rate-hike-hints",
-          "source": "Cointelegraph",
-          "date": "2026-10-16"
+          "title": "Asian stocks advance following a rally on Wall Street and oil prices fall",
+          "url": "https://www.ajc.com/news/2026/10/asian-stocks-advance-following-a-rally-on-wall-street-and-oil-prices-fall/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-10-27"
         }
       ]
     },
     "ten": {
       "value": 5.0,
-      "date": "2026-10-23",
+      "date": "2026-10-26",
       "label": "Oct 2026",
       "display": "5.00%",
-      "reading": "Oct 2026: 5.00%, up from 4.96% in Oct 2026.",
+      "reading": "Oct 2026: 5.00%, unchanged from 5.00% in Oct 2026.",
       "change": {
-        "text": "\u2191 from 4.96%",
+        "text": "\u2192 Steady",
         "sign": "flat"
       }
     },
@@ -213,44 +213,44 @@
       ]
     },
     "sp500": {
-      "value": 7623.68,
-      "date": "2026-10-23",
+      "value": 7722.6,
+      "date": "2026-10-27",
       "label": "Oct 2026",
-      "display": "7,624",
-      "reading": "Oct 2026: 7,624, down from 7,652 in Sep 2026.",
+      "display": "7,723",
+      "reading": "Oct 2026: 7,723, up from 7,652 in Sep 2026 \u2014 its highest reading in 12 months.",
       "change": {
-        "text": "\u2191 11.4% YTD",
+        "text": "\u2191 12.8% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "Soaring Oil Prices Could Benefit These 2 \u2018Strong Buy\u2019 Energy Stocks",
-          "url": "https://markets.businessinsider.com/news/stocks/soaring-oil-prices-could-benefit-these-2-strong-buy-energy-stocks-1036662608",
-          "source": "Markets Insider",
-          "date": "2026-10-25"
+          "title": "S&P 500 ex-AI index catches up after tech selloff",
+          "url": "https://www.cnbc.com/2026/10/26/sp-500-ex-ai-index-tech-selloff.html",
+          "source": "CNBC",
+          "date": "2026-10-26"
         },
         {
-          "title": "Dow Jones Futures: Microsoft, Google, Amazon Lead Earnings In Doom-And-Bloom Market",
-          "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-microsoft-google-amazon-earnings-what-to-do/",
+          "title": "Inflation Beaters: 10 S&P 500 Stocks Charge A Premium",
+          "url": "https://www.investors.com/etfs-and-funds/sectors/inflation-beaters-sp-500-stocks-charge-a-premium/",
           "source": "Investor's Business Daily",
-          "date": "2026-10-23"
+          "date": "2026-10-27"
         },
         {
-          "title": "How major US stock indexes fared Friday 10",
-          "url": "https://wtop.com/national/2026/10/how-major-us-stock-indexes-fared-friday-10-23-2026/",
-          "source": "WTOP",
-          "date": "2026-10-23"
+          "title": "Asian stocks advance following a rally on Wall Street and oil prices fall",
+          "url": "https://www.ajc.com/news/2026/10/asian-stocks-advance-following-a-rally-on-wall-street-and-oil-prices-fall/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-10-27"
         }
       ]
     },
     "nasdaq": {
-      "value": 25955.34,
-      "date": "2026-10-23",
+      "value": 26169.38,
+      "date": "2026-10-26",
       "label": "Oct 2026",
-      "display": "25,955",
-      "reading": "Oct 2026: 25,955, down from 26,861 in Sep 2026.",
+      "display": "26,169",
+      "reading": "Oct 2026: 26,169, down from 26,861 in Sep 2026.",
       "change": {
-        "text": "\u2191 11.7% YTD",
+        "text": "\u2191 12.6% YTD",
         "sign": "pos"
       },
       "news": [
@@ -275,33 +275,33 @@
       ]
     },
     "dow": {
-      "value": 52361.58,
-      "date": "2026-10-26",
+      "value": 52377.57,
+      "date": "2026-10-27",
       "label": "Oct 2026",
-      "display": "52,362",
-      "reading": "Oct 2026: 52,362, up from 50,906 in Sep 2026.",
+      "display": "52,378",
+      "reading": "Oct 2026: 52,378, up from 50,906 in Sep 2026.",
       "change": {
-        "text": "\u2191 8.9% YTD",
+        "text": "\u2191 9.0% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "The Week That Was, The Week Ahead: Macro and Markets, October 25",
-          "url": "https://markets.businessinsider.com/news/stocks/the-week-that-was-the-week-ahead-macro-and-markets-october-25-1036662599",
+          "title": "Asian stocks advance following a rally on Wall Street and oil prices fall",
+          "url": "https://www.ajc.com/news/2026/10/asian-stocks-advance-following-a-rally-on-wall-street-and-oil-prices-fall/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-10-27"
+        },
+        {
+          "title": "US futures and Asian stocks advance following a rally on Wall Street",
+          "url": "https://www.ajc.com/news/2026/10/us-futures-and-asian-stocks-advance-following-a-rally-on-wall-street/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-10-27"
+        },
+        {
+          "title": "Stock Futures Are Little Changed After Rally to Start the Week",
+          "url": "https://markets.businessinsider.com/news/stocks/stock-futures-are-little-changed-after-rally-to-start-the-week-1036668367",
           "source": "Markets Insider",
-          "date": "2026-10-25"
-        },
-        {
-          "title": "Dow Jones Futures: Microsoft, Google, Amazon Lead Earnings In Doom-And-Bloom Market",
-          "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-microsoft-google-amazon-earnings-what-to-do/",
-          "source": "Investor's Business Daily",
-          "date": "2026-10-23"
-        },
-        {
-          "title": "How major US stock indexes fared Friday 10",
-          "url": "https://wtop.com/national/2026/10/how-major-us-stock-indexes-fared-friday-10-23-2026/",
-          "source": "WTOP",
-          "date": "2026-10-23"
+          "date": "2026-10-26"
         }
       ]
     }
@@ -6156,7 +6156,10 @@
         "2026-10-20",
         "2026-10-21",
         "2026-10-22",
-        "2026-10-23"
+        "2026-10-23",
+        "2026-10-24",
+        "2026-10-25",
+        "2026-10-26"
       ],
       "values": [
         0.06,
@@ -10472,6 +10475,9 @@
         3.88,
         3.88,
         3.88,
+        3.88,
+        3.88,
+        3.88,
         3.88
       ],
       "freq": "monthly"
@@ -13431,7 +13437,8 @@
         "2026-10-20",
         "2026-10-21",
         "2026-10-22",
-        "2026-10-23"
+        "2026-10-23",
+        "2026-10-26"
       ],
       "values": [
         2.12,
@@ -16387,6 +16394,7 @@
         5.12,
         5.13,
         4.96,
+        5.0,
         5.0
       ],
       "freq": "monthly"
@@ -17956,7 +17964,7 @@
         "2026-07-31",
         "2026-08-31",
         "2026-09-30",
-        "2026-10-23"
+        "2026-10-27"
       ],
       "values": [
         2126.15,
@@ -18079,7 +18087,7 @@
         7489.72,
         7686.14,
         7651.54,
-        7623.68
+        7722.6
       ],
       "freq": "monthly"
     },
@@ -18226,7 +18234,7 @@
         "2026-07-31",
         "2026-08-31",
         "2026-09-30",
-        "2026-10-23"
+        "2026-10-26"
       ],
       "values": [
         4635.24,
@@ -18370,7 +18378,7 @@
         25373.85,
         26370.89,
         26861.06,
-        25955.34
+        26169.38
       ],
       "freq": "monthly"
     },
@@ -18496,7 +18504,7 @@
         "2026-07-31",
         "2026-08-31",
         "2026-09-30",
-        "2026-10-26"
+        "2026-10-27"
       ],
       "values": [
         18142.42,
@@ -18619,7 +18627,7 @@
         52485.03,
         53185.9,
         50906.05,
-        52361.58
+        52377.57
       ],
       "freq": "monthly"
     }
