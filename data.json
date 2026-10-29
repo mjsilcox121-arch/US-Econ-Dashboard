@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-28T00:18:30Z",
+  "updated": "2026-10-29T00:39:44Z",
   "metrics": {
     "gdp": {
       "value": 2.2,
@@ -89,7 +89,7 @@
     },
     "ffr": {
       "value": 3.88,
-      "date": "2026-10-26",
+      "date": "2026-10-27",
       "label": "Oct 2026",
       "display": "3.88%",
       "reading": "Oct 2026: 3.88%, unchanged from 3.88% in Oct 2026 \u2014 its highest reading in 12 months.",
@@ -99,33 +99,33 @@
       },
       "news": [
         {
-          "title": "Federal Reserve's monetary policy meeting begins",
-          "url": "https://www.cnbc.com/2026/10/27/treasury-yields-federal-reserve-monetary-policy-meeting.html",
-          "source": "CNBC",
-          "date": "2026-10-27"
+          "title": "Tech sector rally continues with Fed expected to leave interest rate",
+          "url": "https://www.pressdemocrat.com/2026/10/28/tech-sector-financial-markets/",
+          "source": "Santa Rosa Press Democrat",
+          "date": "2026-10-28"
         },
         {
-          "title": "Warsh Tells Traders to Watch the Data. They Still Follow the Fed",
-          "url": "https://news.bloombergtax.com/daily-tax-report/warsh-tells-traders-to-watch-the-data-they-still-follow-the-fed",
-          "source": "Bloomberg Tax News",
-          "date": "2026-10-25"
+          "title": "Tech sector rally continues with Fed expected to leave interest rate",
+          "url": "https://www.bostonherald.com/2026/10/28/tech-sector-financial-markets/",
+          "source": "The Boston Herald",
+          "date": "2026-10-28"
         },
         {
-          "title": "Asian stocks advance following a rally on Wall Street and oil prices fall",
-          "url": "https://www.ajc.com/news/2026/10/asian-stocks-advance-following-a-rally-on-wall-street-and-oil-prices-fall/",
-          "source": "The Atlanta Journal-Constitution",
-          "date": "2026-10-27"
+          "title": "Tech sector rally continues with Fed expected to leave interest rate",
+          "url": "https://www.pilotonline.com/2026/10/28/tech-sector-financial-markets/",
+          "source": "Norfolk Virginian-Pilot",
+          "date": "2026-10-28"
         }
       ]
     },
     "ten": {
-      "value": 5.0,
-      "date": "2026-10-26",
+      "value": 4.99,
+      "date": "2026-10-27",
       "label": "Oct 2026",
-      "display": "5.00%",
-      "reading": "Oct 2026: 5.00%, unchanged from 5.00% in Oct 2026.",
+      "display": "4.99%",
+      "reading": "Oct 2026: 4.99%, down from 5.00% in Oct 2026.",
       "change": {
-        "text": "\u2192 Steady",
+        "text": "\u2193 from 5.00%",
         "sign": "flat"
       }
     },
@@ -193,6 +193,12 @@
       },
       "news": [
         {
+          "title": "US Consumers Are Disillusioned About Economy: Kathryn Edwards",
+          "url": "https://news.bloombergtax.com/daily-tax-report/us-consumers-are-disillusioned-about-economy-kathryn-edwards",
+          "source": "Bloomberg Tax News",
+          "date": "2026-10-28"
+        },
+        {
           "title": "Consumer Sentiment At 5-Month Low",
           "url": "https://seekingalpha.com/article/4957153-consumer-sentiment-at-5-month-low",
           "source": "Seeking Alpha",
@@ -203,105 +209,99 @@
           "url": "https://seekingalpha.com/article/4953187-consumer-sentiment-falls-to-5-month-low",
           "source": "Seeking Alpha",
           "date": "2026-10-10"
-        },
-        {
-          "title": "Americans\u2019 feelings about the economy continue to worsen",
-          "url": "https://abc17news.com/money/cnn-business-consumer/2026/10/09/americans-feelings-about-the-economy-continue-to-worsen/",
-          "source": "ABC17News.com",
-          "date": "2026-10-09"
         }
       ]
     },
     "sp500": {
-      "value": 7722.6,
-      "date": "2026-10-27",
+      "value": 7743.98,
+      "date": "2026-10-28",
       "label": "Oct 2026",
-      "display": "7,723",
-      "reading": "Oct 2026: 7,723, up from 7,652 in Sep 2026 \u2014 its highest reading in 12 months.",
+      "display": "7,744",
+      "reading": "Oct 2026: 7,744, up from 7,652 in Sep 2026 \u2014 its highest reading in 12 months.",
       "change": {
-        "text": "\u2191 12.8% YTD",
+        "text": "\u2191 13.1% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "S&P 500 ex-AI index catches up after tech selloff",
-          "url": "https://www.cnbc.com/2026/10/26/sp-500-ex-ai-index-tech-selloff.html",
-          "source": "CNBC",
-          "date": "2026-10-26"
-        },
-        {
-          "title": "Inflation Beaters: 10 S&P 500 Stocks Charge A Premium",
-          "url": "https://www.investors.com/etfs-and-funds/sectors/inflation-beaters-sp-500-stocks-charge-a-premium/",
-          "source": "Investor's Business Daily",
-          "date": "2026-10-27"
-        },
-        {
-          "title": "Asian stocks advance following a rally on Wall Street and oil prices fall",
-          "url": "https://www.ajc.com/news/2026/10/asian-stocks-advance-following-a-rally-on-wall-street-and-oil-prices-fall/",
+          "title": "Shares in Asia rise after a rally on Wall Street, and oil prices gain more than 1%",
+          "url": "https://www.ajc.com/news/2026/10/asian-stocks-rise-after-a-rally-on-wall-street-while-oil-prices-edge-higher/",
           "source": "The Atlanta Journal-Constitution",
-          "date": "2026-10-27"
+          "date": "2026-10-28"
+        },
+        {
+          "title": "Tech sector rally continues with Fed expected to leave benchmark interest rate alone",
+          "url": "https://www.ajc.com/news/2026/10/global-shares-are-mixed-after-us-stock-rally-and-oil-prices-gain-more-than-1/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-10-28"
+        },
+        {
+          "title": "Global shares are mixed after US stock rally, and oil prices gain more than 1%",
+          "url": "https://www.ajc.com/news/2026/10/shares-in-asia-rise-after-a-rally-on-wall-street-and-oil-prices-gain-more-than-1/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-10-28"
         }
       ]
     },
     "nasdaq": {
-      "value": 26169.38,
-      "date": "2026-10-26",
+      "value": 26477.81,
+      "date": "2026-10-27",
       "label": "Oct 2026",
-      "display": "26,169",
-      "reading": "Oct 2026: 26,169, down from 26,861 in Sep 2026.",
+      "display": "26,478",
+      "reading": "Oct 2026: 26,478, down from 26,861 in Sep 2026.",
       "change": {
-        "text": "\u2191 12.6% YTD",
+        "text": "\u2191 13.9% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "Nasdaq leads Wall Street gains as SpaceX, Super Micro boost AI sentiment",
-          "url": "https://www.reuters.com/legal/transactional/nasdaq-futures-lead-gains-spacex-super-micro-results-lift-ai-trade-2026-10-21/",
-          "source": "Reuters",
-          "date": "2026-10-21"
+          "title": "Tech sector rally continues with Fed expected to leave benchmark interest rate alone",
+          "url": "https://www.ajc.com/news/2026/10/global-shares-are-mixed-after-us-stock-rally-and-oil-prices-gain-more-than-1/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-10-28"
+        },
+        {
+          "title": "Stock Market Midday, Oct. 27: Tech Stocks Drive Momentum and SoFi Surges 15%",
+          "url": "https://www.europesays.com/3335587/",
+          "source": "EUROPE SAYS",
+          "date": "2026-10-27"
         },
         {
           "title": "More swings for Big Tech pull Wall Street lower in early trading",
           "url": "https://www.ajc.com/news/2026/10/more-swings-for-big-tech-pull-wall-street-lower-in-early-trading/",
           "source": "The Atlanta Journal-Constitution",
           "date": "2026-10-23"
-        },
-        {
-          "title": "Asian shares slip as sharp drops for AI stocks overwhelm markets worldwide and oil prices jump",
-          "url": "https://www.ajc.com/news/2026/10/asian-shares-slip-as-sharp-drops-for-ai-stocks-overwhelm-markets-worldwide-and-oil-prices-jump/",
-          "source": "The Atlanta Journal-Constitution",
-          "date": "2026-10-23"
         }
       ]
     },
     "dow": {
-      "value": 52377.57,
-      "date": "2026-10-27",
+      "value": 52475.1,
+      "date": "2026-10-28",
       "label": "Oct 2026",
-      "display": "52,378",
-      "reading": "Oct 2026: 52,378, up from 50,906 in Sep 2026.",
+      "display": "52,475",
+      "reading": "Oct 2026: 52,475, up from 50,906 in Sep 2026.",
       "change": {
-        "text": "\u2191 9.0% YTD",
+        "text": "\u2191 9.2% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "Asian stocks advance following a rally on Wall Street and oil prices fall",
-          "url": "https://www.ajc.com/news/2026/10/asian-stocks-advance-following-a-rally-on-wall-street-and-oil-prices-fall/",
+          "title": "Shares in Asia rise after a rally on Wall Street, and oil prices gain more than 1%",
+          "url": "https://www.ajc.com/news/2026/10/asian-stocks-rise-after-a-rally-on-wall-street-while-oil-prices-edge-higher/",
           "source": "The Atlanta Journal-Constitution",
-          "date": "2026-10-27"
+          "date": "2026-10-28"
         },
         {
-          "title": "US futures and Asian stocks advance following a rally on Wall Street",
-          "url": "https://www.ajc.com/news/2026/10/us-futures-and-asian-stocks-advance-following-a-rally-on-wall-street/",
+          "title": "Tech sector rally continues with Fed expected to leave benchmark interest rate alone",
+          "url": "https://www.ajc.com/news/2026/10/global-shares-are-mixed-after-us-stock-rally-and-oil-prices-gain-more-than-1/",
           "source": "The Atlanta Journal-Constitution",
-          "date": "2026-10-27"
+          "date": "2026-10-28"
         },
         {
-          "title": "Stock Futures Are Little Changed After Rally to Start the Week",
-          "url": "https://markets.businessinsider.com/news/stocks/stock-futures-are-little-changed-after-rally-to-start-the-week-1036668367",
-          "source": "Markets Insider",
-          "date": "2026-10-26"
+          "title": "Global shares are mixed after US stock rally, and oil prices gain more than 1%",
+          "url": "https://www.ajc.com/news/2026/10/shares-in-asia-rise-after-a-rally-on-wall-street-and-oil-prices-gain-more-than-1/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-10-28"
         }
       ]
     }
@@ -6159,7 +6159,8 @@
         "2026-10-23",
         "2026-10-24",
         "2026-10-25",
-        "2026-10-26"
+        "2026-10-26",
+        "2026-10-27"
       ],
       "values": [
         0.06,
@@ -10478,6 +10479,7 @@
         3.88,
         3.88,
         3.88,
+        3.88,
         3.88
       ],
       "freq": "monthly"
@@ -13438,7 +13440,8 @@
         "2026-10-21",
         "2026-10-22",
         "2026-10-23",
-        "2026-10-26"
+        "2026-10-26",
+        "2026-10-27"
       ],
       "values": [
         2.12,
@@ -16395,7 +16398,8 @@
         5.13,
         4.96,
         5.0,
-        5.0
+        5.0,
+        4.99
       ],
       "freq": "monthly"
     },
@@ -17964,7 +17968,7 @@
         "2026-07-31",
         "2026-08-31",
         "2026-09-30",
-        "2026-10-27"
+        "2026-10-28"
       ],
       "values": [
         2126.15,
@@ -18087,7 +18091,7 @@
         7489.72,
         7686.14,
         7651.54,
-        7722.6
+        7743.98
       ],
       "freq": "monthly"
     },
@@ -18234,7 +18238,7 @@
         "2026-07-31",
         "2026-08-31",
         "2026-09-30",
-        "2026-10-26"
+        "2026-10-27"
       ],
       "values": [
         4635.24,
@@ -18378,7 +18382,7 @@
         25373.85,
         26370.89,
         26861.06,
-        26169.38
+        26477.81
       ],
       "freq": "monthly"
     },
@@ -18504,7 +18508,7 @@
         "2026-07-31",
         "2026-08-31",
         "2026-09-30",
-        "2026-10-27"
+        "2026-10-28"
       ],
       "values": [
         18142.42,
@@ -18627,7 +18631,7 @@
         52485.03,
         53185.9,
         50906.05,
-        52377.57
+        52475.1
       ],
       "freq": "monthly"
     }
