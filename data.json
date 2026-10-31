@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T00:40:28Z",
+  "updated": "2026-10-31T00:32:06Z",
   "metrics": {
     "gdp": {
       "value": 3.4,
@@ -10,7 +10,21 @@
       "change": {
         "text": "\u2191 from +2.2%",
         "sign": "pos"
-      }
+      },
+      "news": [
+        {
+          "title": "Preliminary GDP report shows strong 3.4% growth for US economy",
+          "url": "https://foxbaltimore.com/news/nation-world/preliminary-gdp-report-shows-strong-growth-for-us-economy-in-third-quarter-2026",
+          "source": "Baltimore News",
+          "date": "2026-10-29"
+        },
+        {
+          "title": "Preliminary GDP report shows strong 3.4% growth for US economy",
+          "url": "https://wjla.com/news/nation-world/preliminary-gdp-report-shows-strong-growth-for-us-economy-in-third-quarter-2026",
+          "source": "WJLA",
+          "date": "2026-10-29"
+        }
+      ]
     },
     "unemp": {
       "value": 4.2,
@@ -77,6 +91,12 @@
       },
       "news": [
         {
+          "title": "September PCE: Inflation rose further from the Fed's target",
+          "url": "https://www.europesays.com/3339819/",
+          "source": "EUROPE SAYS",
+          "date": "2026-10-29"
+        },
+        {
           "title": "Q3 GDP Revs Up As PCE Inflation Gets Hotter (Live Coverage)",
           "url": "https://www.investors.com/news/gdp-q3-core-pce-inflation-federal-reserve-sp-500/",
           "source": "Investor's Business Daily",
@@ -97,7 +117,7 @@
     },
     "ffr": {
       "value": 3.88,
-      "date": "2026-10-28",
+      "date": "2026-10-29",
       "label": "Oct 2026",
       "display": "3.88%",
       "reading": "Oct 2026: 3.88%, unchanged from 3.88% in Oct 2026 \u2014 its highest reading in 12 months.",
@@ -113,27 +133,27 @@
           "date": "2026-10-28"
         },
         {
-          "title": "Fed leaves interest rates unchanged",
-          "url": "https://www.arkansasonline.com/news/2026/oct/29/fed-leaves-interest-rates-unchanged/",
-          "source": "Arkansas Online",
+          "title": "Warsh shakes up Fed's approach to setting interest rates",
+          "url": "https://foxbaltimore.com/news/nation-world/kevin-warsh-shakes-up-feds-approach-to-setting-interest-rates-federal-reserve-fomc-interest-rates-economy-inflation",
+          "source": "Baltimore News",
           "date": "2026-10-29"
         },
         {
-          "title": "Rate decision live: Interest rates held steady in split vote, Warsh says politics played 'no role' ahead of midterm elections",
-          "url": "https://www.europesays.com/3338197/",
-          "source": "EUROPE SAYS",
-          "date": "2026-10-28"
+          "title": "Warsh shakes up Fed's approach to setting interest rates",
+          "url": "https://wjla.com/news/nation-world/kevin-warsh-shakes-up-feds-approach-to-setting-interest-rates-federal-reserve-fomc-interest-rates-economy-inflation",
+          "source": "WJLA",
+          "date": "2026-10-29"
         }
       ]
     },
     "ten": {
-      "value": 5.05,
-      "date": "2026-10-28",
+      "value": 4.98,
+      "date": "2026-10-29",
       "label": "Oct 2026",
-      "display": "5.05%",
-      "reading": "Oct 2026: 5.05%, up from 4.99% in Oct 2026.",
+      "display": "4.98%",
+      "reading": "Oct 2026: 4.98%, down from 5.05% in Oct 2026.",
       "change": {
-        "text": "\u2191 from 4.99%",
+        "text": "\u2193 from 5.05%",
         "sign": "flat"
       }
     },
@@ -232,84 +252,84 @@
       },
       "news": [
         {
-          "title": "A potentially historic drop for Alphabet's stock drags the US market lower",
-          "url": "https://www.ajc.com/news/2026/10/a-potentially-historic-drop-for-alphabets-stock-drags-the-us-market-lower/",
-          "source": "The Atlanta Journal-Constitution",
+          "title": "Citigroup sees S&P 500 at 8,100 despite AI stock sell-off",
+          "url": "https://www.cnbc.com/2026/10/29/citigroup-sees-sp-500-at-8100-despite-ai-stock-sell-off.html",
+          "source": "CNBC",
           "date": "2026-10-29"
         },
         {
-          "title": "Asian shares and U.S. futures are mixed after Google parent Alphabet's earnings disappoint",
-          "url": "https://www.ajc.com/news/2026/10/asian-shares-and-us-futures-are-mixed-after-google-parent-alphabets-earnings-disappoint/",
-          "source": "The Atlanta Journal-Constitution",
-          "date": "2026-10-29"
+          "title": "10 Stocks Turn $100,000 To $25.3 Million In 10 Months",
+          "url": "https://www.investors.com/etfs-and-funds/sectors/sp500-stocks-turn-100000-to-million-in-10-months-2026/",
+          "source": "Investor's Business Daily",
+          "date": "2026-10-30"
         },
         {
-          "title": "S&P 500 pulls within 1.2% of its all-time high even as majority of its stocks fell",
-          "url": "https://fortune.com/2026/10/28/sp-500-1-2-all-time-high-broadcom-nvidia-ai-stock/",
-          "source": "Fortune",
-          "date": "2026-10-28"
+          "title": "The sell-off for tech stocks deepens and drags Wall Street toward its worst day since June",
+          "url": "https://www.ajc.com/news/2026/10/the-sell-off-for-tech-stocks-deepens-as-the-nasdaq-heads-toward-its-worst-day-since-june/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-10-30"
         }
       ]
     },
     "nasdaq": {
-      "value": 26549.85,
-      "date": "2026-10-28",
+      "value": 26184.72,
+      "date": "2026-10-29",
       "label": "Oct 2026",
-      "display": "26,550",
-      "reading": "Oct 2026: 26,550, down from 26,861 in Sep 2026.",
+      "display": "26,185",
+      "reading": "Oct 2026: 26,185, down from 26,861 in Sep 2026.",
       "change": {
-        "text": "\u2191 14.2% YTD",
+        "text": "\u2191 12.7% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "Stock market today: Nasdaq wavers, S&P 500 and Dow climb ahead of Fed decision, Big Tech earnings",
-          "url": "https://www.europesays.com/3337558/",
-          "source": "EUROPE SAYS",
-          "date": "2026-10-28"
-        },
-        {
-          "title": "Tech sector rally continues with Fed expected to leave benchmark interest rate alone",
-          "url": "https://www.ajc.com/news/2026/10/global-shares-are-mixed-after-us-stock-rally-and-oil-prices-gain-more-than-1/",
+          "title": "The sell-off for tech stocks deepens and drags Wall Street toward its worst day since June",
+          "url": "https://www.ajc.com/news/2026/10/the-sell-off-for-tech-stocks-deepens-as-the-nasdaq-heads-toward-its-worst-day-since-june/",
           "source": "The Atlanta Journal-Constitution",
-          "date": "2026-10-28"
+          "date": "2026-10-30"
         },
         {
-          "title": "Stock Market Midday, Oct. 27: Tech Stocks Drive Momentum and SoFi Surges 15%",
-          "url": "https://www.europesays.com/3335587/",
-          "source": "EUROPE SAYS",
-          "date": "2026-10-27"
+          "title": "The sell-off for tech stocks deepens as the Nasdaq heads toward its worst day since June",
+          "url": "https://www.ajc.com/news/2026/10/the-sell-off-for-tech-stocks-worsens-and-overwhelms-wall-street/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-10-30"
+        },
+        {
+          "title": "The sell-off for tech stocks worsens and drowns out strength elsewhere on Wall Street",
+          "url": "https://www.ajc.com/news/2026/10/the-sell-off-for-tech-stocks-worsens-and-drowns-out-strength-elsewhere-on-wall-street/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-10-30"
         }
       ]
     },
     "dow": {
-      "value": 52342.56,
-      "date": "2026-10-29",
+      "value": 51770.31,
+      "date": "2026-10-30",
       "label": "Oct 2026",
-      "display": "52,343",
-      "reading": "Oct 2026: 52,343, up from 50,906 in Sep 2026.",
+      "display": "51,770",
+      "reading": "Oct 2026: 51,770, up from 50,906 in Sep 2026.",
       "change": {
-        "text": "\u2191 8.9% YTD",
+        "text": "\u2191 7.7% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "A potentially historic drop for Alphabet's stock drags the US market lower",
-          "url": "https://www.ajc.com/news/2026/10/a-potentially-historic-drop-for-alphabets-stock-drags-the-us-market-lower/",
+          "title": "The sell-off for tech stocks deepens and drags Wall Street toward its worst day since June",
+          "url": "https://www.ajc.com/news/2026/10/the-sell-off-for-tech-stocks-deepens-as-the-nasdaq-heads-toward-its-worst-day-since-june/",
           "source": "The Atlanta Journal-Constitution",
-          "date": "2026-10-29"
+          "date": "2026-10-30"
         },
         {
-          "title": "Asian shares and U.S. futures are mixed after Google parent Alphabet's earnings disappoint",
-          "url": "https://www.ajc.com/news/2026/10/asian-shares-and-us-futures-are-mixed-after-google-parent-alphabets-earnings-disappoint/",
+          "title": "The sell-off for tech stocks deepens as the Nasdaq heads toward its worst day since June",
+          "url": "https://www.ajc.com/news/2026/10/the-sell-off-for-tech-stocks-worsens-and-overwhelms-wall-street/",
           "source": "The Atlanta Journal-Constitution",
-          "date": "2026-10-29"
+          "date": "2026-10-30"
         },
         {
-          "title": "Shares in Asia rise after a rally on Wall Street, and oil prices gain more than 1%",
-          "url": "https://www.ajc.com/news/2026/10/asian-stocks-rise-after-a-rally-on-wall-street-while-oil-prices-edge-higher/",
+          "title": "The sell-off for tech stocks worsens and drowns out strength elsewhere on Wall Street",
+          "url": "https://www.ajc.com/news/2026/10/the-sell-off-for-tech-stocks-worsens-and-drowns-out-strength-elsewhere-on-wall-street/",
           "source": "The Atlanta Journal-Constitution",
-          "date": "2026-10-28"
+          "date": "2026-10-30"
         }
       ]
     }
@@ -6175,7 +6195,8 @@
         "2026-10-25",
         "2026-10-26",
         "2026-10-27",
-        "2026-10-28"
+        "2026-10-28",
+        "2026-10-29"
       ],
       "values": [
         0.06,
@@ -10496,6 +10517,7 @@
         3.88,
         3.88,
         3.88,
+        3.88,
         3.88
       ],
       "freq": "monthly"
@@ -13458,7 +13480,8 @@
         "2026-10-23",
         "2026-10-26",
         "2026-10-27",
-        "2026-10-28"
+        "2026-10-28",
+        "2026-10-29"
       ],
       "values": [
         2.12,
@@ -16417,7 +16440,8 @@
         5.0,
         5.0,
         4.99,
-        5.05
+        5.05,
+        4.98
       ],
       "freq": "monthly"
     },
@@ -18256,7 +18280,7 @@
         "2026-07-31",
         "2026-08-31",
         "2026-09-30",
-        "2026-10-28"
+        "2026-10-29"
       ],
       "values": [
         4635.24,
@@ -18400,7 +18424,7 @@
         25373.85,
         26370.89,
         26861.06,
-        26549.85
+        26184.72
       ],
       "freq": "monthly"
     },
@@ -18526,7 +18550,7 @@
         "2026-07-31",
         "2026-08-31",
         "2026-09-30",
-        "2026-10-29"
+        "2026-10-30"
       ],
       "values": [
         18142.42,
@@ -18649,7 +18673,7 @@
         52485.03,
         53185.9,
         50906.05,
-        52342.56
+        51770.31
       ],
       "freq": "monthly"
     }
