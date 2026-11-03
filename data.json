@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31T00:32:06Z",
+  "updated": "2026-11-03T02:48:09Z",
   "metrics": {
     "gdp": {
       "value": 3.4,
@@ -117,7 +117,7 @@
     },
     "ffr": {
       "value": 3.88,
-      "date": "2026-10-29",
+      "date": "2026-10-30",
       "label": "Oct 2026",
       "display": "3.88%",
       "reading": "Oct 2026: 3.88%, unchanged from 3.88% in Oct 2026 \u2014 its highest reading in 12 months.",
@@ -126,6 +126,12 @@
         "sign": "flat"
       },
       "news": [
+        {
+          "title": "Fed Officials Back More Rate Hikes, Gradual Pace of Tightening",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-30/fed-s-logan-sees-two-more-hikes-but-says-pace-can-be-gradual",
+          "source": "Bloomberg",
+          "date": "2026-10-30"
+        },
         {
           "title": "Warsh Says Fed Will Reduce Number of Annual Rate Decisions (1)",
           "url": "https://news.bloombergtax.com/daily-tax-report/warsh-says-fomc-wont-vote-at-one-of-its-meetings-in-2027-1",
@@ -137,23 +143,17 @@
           "url": "https://foxbaltimore.com/news/nation-world/kevin-warsh-shakes-up-feds-approach-to-setting-interest-rates-federal-reserve-fomc-interest-rates-economy-inflation",
           "source": "Baltimore News",
           "date": "2026-10-29"
-        },
-        {
-          "title": "Warsh shakes up Fed's approach to setting interest rates",
-          "url": "https://wjla.com/news/nation-world/kevin-warsh-shakes-up-feds-approach-to-setting-interest-rates-federal-reserve-fomc-interest-rates-economy-inflation",
-          "source": "WJLA",
-          "date": "2026-10-29"
         }
       ]
     },
     "ten": {
-      "value": 4.98,
-      "date": "2026-10-29",
+      "value": 4.94,
+      "date": "2026-10-30",
       "label": "Oct 2026",
-      "display": "4.98%",
-      "reading": "Oct 2026: 4.98%, down from 5.05% in Oct 2026.",
+      "display": "4.94%",
+      "reading": "Oct 2026: 4.94%, down from 4.98% in Oct 2026 \u2014 its lowest reading in 12 months.",
       "change": {
-        "text": "\u2193 from 5.05%",
+        "text": "\u2193 from 4.98%",
         "sign": "flat"
       }
     },
@@ -231,43 +231,37 @@
           "url": "https://seekingalpha.com/article/4957153-consumer-sentiment-at-5-month-low",
           "source": "Seeking Alpha",
           "date": "2026-10-24"
-        },
-        {
-          "title": "Consumer Sentiment Falls To 5-Month Low",
-          "url": "https://seekingalpha.com/article/4953187-consumer-sentiment-falls-to-5-month-low",
-          "source": "Seeking Alpha",
-          "date": "2026-10-10"
         }
       ]
     },
     "sp500": {
-      "value": 7743.98,
-      "date": "2026-10-28",
+      "value": 7580.07,
+      "date": "2026-10-30",
       "label": "Oct 2026",
-      "display": "7,744",
-      "reading": "Oct 2026: 7,744, up from 7,652 in Sep 2026 \u2014 its highest reading in 12 months.",
+      "display": "7,580",
+      "reading": "Oct 2026: 7,580, down from 7,652 in Sep 2026.",
       "change": {
-        "text": "\u2191 13.1% YTD",
+        "text": "\u2191 10.7% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "Citigroup sees S&P 500 at 8,100 despite AI stock sell-off",
-          "url": "https://www.cnbc.com/2026/10/29/citigroup-sees-sp-500-at-8100-despite-ai-stock-sell-off.html",
-          "source": "CNBC",
-          "date": "2026-10-29"
+          "title": "S&P 500 May See 'Outsized Gains' in Coming Weeks Despite AI Sell",
+          "url": "https://www.businessinsider.com/stock-market-outlook-sp500-ai-selloff-breadth-jpm-2026-10",
+          "source": "Business Insider",
+          "date": "2026-11-02"
         },
         {
-          "title": "10 Stocks Turn $100,000 To $25.3 Million In 10 Months",
-          "url": "https://www.investors.com/etfs-and-funds/sectors/sp500-stocks-turn-100000-to-million-in-10-months-2026/",
-          "source": "Investor's Business Daily",
-          "date": "2026-10-30"
-        },
-        {
-          "title": "The sell-off for tech stocks deepens and drags Wall Street toward its worst day since June",
-          "url": "https://www.ajc.com/news/2026/10/the-sell-off-for-tech-stocks-deepens-as-the-nasdaq-heads-toward-its-worst-day-since-june/",
+          "title": "Global shares are mixed and US futures advance, while oil prices fall nearly 4%",
+          "url": "https://www.ajc.com/news/2026/11/asian-shares-are-mixed-and-us-futures-advance-while-oil-prices-retreat/",
           "source": "The Atlanta Journal-Constitution",
-          "date": "2026-10-30"
+          "date": "2026-11-02"
+        },
+        {
+          "title": "Asian shares mostly advance but tech stocks remain volatile, while oil sinks 3.3%",
+          "url": "https://www.ajc.com/news/2026/11/asian-shares-mostly-advance-but-tech-stocks-remain-volatile-while-oil-sinks-33/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-11-02"
         }
       ]
     },
@@ -283,51 +277,51 @@
       },
       "news": [
         {
-          "title": "The sell-off for tech stocks deepens and drags Wall Street toward its worst day since June",
-          "url": "https://www.ajc.com/news/2026/10/the-sell-off-for-tech-stocks-deepens-as-the-nasdaq-heads-toward-its-worst-day-since-june/",
-          "source": "The Atlanta Journal-Constitution",
-          "date": "2026-10-30"
+          "title": "Anthropic's path to the Nasdaq just got a lot bumpier",
+          "url": "https://www.cnbc.com/2026/10/31/anthropic-ipo-ai-spending.html",
+          "source": "CNBC",
+          "date": "2026-10-31"
         },
         {
-          "title": "The sell-off for tech stocks deepens as the Nasdaq heads toward its worst day since June",
-          "url": "https://www.ajc.com/news/2026/10/the-sell-off-for-tech-stocks-worsens-and-overwhelms-wall-street/",
+          "title": "Asian shares mostly advance but tech stocks remain volatile, while oil sinks 3.3%",
+          "url": "https://www.ajc.com/news/2026/11/asian-shares-mostly-advance-but-tech-stocks-remain-volatile-while-oil-sinks-33/",
           "source": "The Atlanta Journal-Constitution",
-          "date": "2026-10-30"
+          "date": "2026-11-02"
         },
         {
-          "title": "The sell-off for tech stocks worsens and drowns out strength elsewhere on Wall Street",
-          "url": "https://www.ajc.com/news/2026/10/the-sell-off-for-tech-stocks-worsens-and-drowns-out-strength-elsewhere-on-wall-street/",
-          "source": "The Atlanta Journal-Constitution",
+          "title": "Wall Street tumbles as tech stocks suffer sharp losses",
+          "url": "https://www.breitbart.com/news/wall-street-tumbles-as-tech-stocks-suffer-sharp-losses/",
+          "source": "Breitbart News Network",
           "date": "2026-10-30"
         }
       ]
     },
     "dow": {
-      "value": 51770.31,
-      "date": "2026-10-30",
-      "label": "Oct 2026",
-      "display": "51,770",
-      "reading": "Oct 2026: 51,770, up from 50,906 in Sep 2026.",
+      "value": 51983.98,
+      "date": "2026-11-02",
+      "label": "Nov 2026",
+      "display": "51,984",
+      "reading": "Nov 2026: 51,984, up from 51,770 in Oct 2026.",
       "change": {
-        "text": "\u2191 7.7% YTD",
+        "text": "\u2191 8.2% YTD",
         "sign": "pos"
       },
       "news": [
         {
+          "title": "Global shares are mixed and US futures advance, while oil prices fall nearly 4%",
+          "url": "https://www.ajc.com/news/2026/11/asian-shares-are-mixed-and-us-futures-advance-while-oil-prices-retreat/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-11-02"
+        },
+        {
+          "title": "Asian shares mostly advance but tech stocks remain volatile, while oil sinks 3.3%",
+          "url": "https://www.ajc.com/news/2026/11/asian-shares-mostly-advance-but-tech-stocks-remain-volatile-while-oil-sinks-33/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-11-02"
+        },
+        {
           "title": "The sell-off for tech stocks deepens and drags Wall Street toward its worst day since June",
           "url": "https://www.ajc.com/news/2026/10/the-sell-off-for-tech-stocks-deepens-as-the-nasdaq-heads-toward-its-worst-day-since-june/",
-          "source": "The Atlanta Journal-Constitution",
-          "date": "2026-10-30"
-        },
-        {
-          "title": "The sell-off for tech stocks deepens as the Nasdaq heads toward its worst day since June",
-          "url": "https://www.ajc.com/news/2026/10/the-sell-off-for-tech-stocks-worsens-and-overwhelms-wall-street/",
-          "source": "The Atlanta Journal-Constitution",
-          "date": "2026-10-30"
-        },
-        {
-          "title": "The sell-off for tech stocks worsens and drowns out strength elsewhere on Wall Street",
-          "url": "https://www.ajc.com/news/2026/10/the-sell-off-for-tech-stocks-worsens-and-drowns-out-strength-elsewhere-on-wall-street/",
           "source": "The Atlanta Journal-Constitution",
           "date": "2026-10-30"
         }
@@ -6196,7 +6190,8 @@
         "2026-10-26",
         "2026-10-27",
         "2026-10-28",
-        "2026-10-29"
+        "2026-10-29",
+        "2026-10-30"
       ],
       "values": [
         0.06,
@@ -10518,6 +10513,7 @@
         3.88,
         3.88,
         3.88,
+        3.88,
         3.88
       ],
       "freq": "monthly"
@@ -13481,7 +13477,8 @@
         "2026-10-26",
         "2026-10-27",
         "2026-10-28",
-        "2026-10-29"
+        "2026-10-29",
+        "2026-10-30"
       ],
       "values": [
         2.12,
@@ -16441,7 +16438,8 @@
         5.0,
         4.99,
         5.05,
-        4.98
+        4.98,
+        4.94
       ],
       "freq": "monthly"
     },
@@ -17890,7 +17888,6 @@
     },
     "sp500": {
       "dates": [
-        "2016-10-31",
         "2016-11-30",
         "2016-12-30",
         "2017-01-31",
@@ -18010,10 +18007,9 @@
         "2026-07-31",
         "2026-08-31",
         "2026-09-30",
-        "2026-10-28"
+        "2026-10-30"
       ],
       "values": [
-        2126.15,
         2198.81,
         2238.83,
         2278.87,
@@ -18133,7 +18129,7 @@
         7489.72,
         7686.14,
         7651.54,
-        7743.98
+        7580.07
       ],
       "freq": "monthly"
     },
@@ -18430,7 +18426,6 @@
     },
     "dow": {
       "dates": [
-        "2016-10-31",
         "2016-11-30",
         "2016-12-30",
         "2017-01-31",
@@ -18550,10 +18545,10 @@
         "2026-07-31",
         "2026-08-31",
         "2026-09-30",
-        "2026-10-30"
+        "2026-10-30",
+        "2026-11-02"
       ],
       "values": [
-        18142.42,
         19123.58,
         19762.6,
         19864.09,
@@ -18673,7 +18668,8 @@
         52485.03,
         53185.9,
         50906.05,
-        51770.31
+        51770.31,
+        51983.98
       ],
       "freq": "monthly"
     }
