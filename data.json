@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-03T02:48:09Z",
+  "updated": "2026-11-04T01:05:53Z",
   "metrics": {
     "gdp": {
       "value": 3.4,
@@ -117,10 +117,10 @@
     },
     "ffr": {
       "value": 3.88,
-      "date": "2026-10-30",
-      "label": "Oct 2026",
+      "date": "2026-11-02",
+      "label": "Nov 2026",
       "display": "3.88%",
-      "reading": "Oct 2026: 3.88%, unchanged from 3.88% in Oct 2026 \u2014 its highest reading in 12 months.",
+      "reading": "Nov 2026: 3.88%, unchanged from 3.88% in Nov 2026 \u2014 its highest reading in 12 months.",
       "change": {
         "text": "\u2192 Steady",
         "sign": "flat"
@@ -147,13 +147,13 @@
       ]
     },
     "ten": {
-      "value": 4.94,
-      "date": "2026-10-30",
-      "label": "Oct 2026",
-      "display": "4.94%",
-      "reading": "Oct 2026: 4.94%, down from 4.98% in Oct 2026 \u2014 its lowest reading in 12 months.",
+      "value": 4.91,
+      "date": "2026-11-02",
+      "label": "Nov 2026",
+      "display": "4.91%",
+      "reading": "Nov 2026: 4.91%, down from 4.94% in Oct 2026 \u2014 its lowest reading in 12 months.",
       "change": {
-        "text": "\u2193 from 4.98%",
+        "text": "\u2193 from 4.94%",
         "sign": "flat"
       }
     },
@@ -235,47 +235,53 @@
       ]
     },
     "sp500": {
-      "value": 7580.07,
-      "date": "2026-10-30",
-      "label": "Oct 2026",
-      "display": "7,580",
-      "reading": "Oct 2026: 7,580, down from 7,652 in Sep 2026.",
+      "value": 7541.4,
+      "date": "2026-11-02",
+      "label": "Nov 2026",
+      "display": "7,541",
+      "reading": "Nov 2026: 7,541, down from 7,580 in Oct 2026.",
       "change": {
-        "text": "\u2191 10.7% YTD",
+        "text": "\u2191 10.2% YTD",
         "sign": "pos"
       },
       "news": [
+        {
+          "title": "What\u2019s likely to move the market",
+          "url": "https://www.cnbc.com/2026/11/02/tuesdays-big-stock-stories-whats-likely-to-move-the-market.html",
+          "source": "CNBC",
+          "date": "2026-11-03"
+        },
+        {
+          "title": "The average stock is having its best relative performance in decades as the AI trade falters",
+          "url": "https://www.cnbc.com/2026/11/02/the-average-stock-is-having-its-best-relative-performance-in-decades-as-the-ai-trade-falters.html",
+          "source": "CNBC",
+          "date": "2026-11-02"
+        },
         {
           "title": "S&P 500 May See 'Outsized Gains' in Coming Weeks Despite AI Sell",
           "url": "https://www.businessinsider.com/stock-market-outlook-sp500-ai-selloff-breadth-jpm-2026-10",
           "source": "Business Insider",
           "date": "2026-11-02"
-        },
-        {
-          "title": "Global shares are mixed and US futures advance, while oil prices fall nearly 4%",
-          "url": "https://www.ajc.com/news/2026/11/asian-shares-are-mixed-and-us-futures-advance-while-oil-prices-retreat/",
-          "source": "The Atlanta Journal-Constitution",
-          "date": "2026-11-02"
-        },
-        {
-          "title": "Asian shares mostly advance but tech stocks remain volatile, while oil sinks 3.3%",
-          "url": "https://www.ajc.com/news/2026/11/asian-shares-mostly-advance-but-tech-stocks-remain-volatile-while-oil-sinks-33/",
-          "source": "The Atlanta Journal-Constitution",
-          "date": "2026-11-02"
         }
       ]
     },
     "nasdaq": {
-      "value": 26184.72,
-      "date": "2026-10-29",
-      "label": "Oct 2026",
-      "display": "26,185",
-      "reading": "Oct 2026: 26,185, down from 26,861 in Sep 2026.",
+      "value": 25164.36,
+      "date": "2026-11-02",
+      "label": "Nov 2026",
+      "display": "25,164",
+      "reading": "Nov 2026: 25,164, down from 25,437 in Oct 2026.",
       "change": {
-        "text": "\u2191 12.7% YTD",
+        "text": "\u2191 8.3% YTD",
         "sign": "pos"
       },
       "news": [
+        {
+          "title": "What\u2019s likely to move the market",
+          "url": "https://www.cnbc.com/2026/11/02/tuesdays-big-stock-stories-whats-likely-to-move-the-market.html",
+          "source": "CNBC",
+          "date": "2026-11-03"
+        },
         {
           "title": "Anthropic's path to the Nasdaq just got a lot bumpier",
           "url": "https://www.cnbc.com/2026/10/31/anthropic-ipo-ai-spending.html",
@@ -283,30 +289,30 @@
           "date": "2026-10-31"
         },
         {
-          "title": "Asian shares mostly advance but tech stocks remain volatile, while oil sinks 3.3%",
-          "url": "https://www.ajc.com/news/2026/11/asian-shares-mostly-advance-but-tech-stocks-remain-volatile-while-oil-sinks-33/",
-          "source": "The Atlanta Journal-Constitution",
-          "date": "2026-11-02"
-        },
-        {
-          "title": "Wall Street tumbles as tech stocks suffer sharp losses",
-          "url": "https://www.breitbart.com/news/wall-street-tumbles-as-tech-stocks-suffer-sharp-losses/",
-          "source": "Breitbart News Network",
-          "date": "2026-10-30"
+          "title": "AI meltdown: $2 Trillion wiped from tech stocks as investors question AI spending",
+          "url": "https://www.naturalnews.com/2026-11-03-2t-wiped-tech-stocks-investors-question-ai-spending.html",
+          "source": "Natural News",
+          "date": "2026-11-03"
         }
       ]
     },
     "dow": {
-      "value": 51983.98,
-      "date": "2026-11-02",
+      "value": 51786.72,
+      "date": "2026-11-03",
       "label": "Nov 2026",
-      "display": "51,984",
-      "reading": "Nov 2026: 51,984, up from 51,770 in Oct 2026.",
+      "display": "51,787",
+      "reading": "Nov 2026: 51,787, up from 51,770 in Oct 2026.",
       "change": {
-        "text": "\u2191 8.2% YTD",
+        "text": "\u2191 7.7% YTD",
         "sign": "pos"
       },
       "news": [
+        {
+          "title": "Asian shares are mixed as tech losses offset broader gains on Wall Street",
+          "url": "https://www.ajc.com/news/2026/11/asian-shares-are-mixed-as-tech-losses-offset-broader-gains-on-wall-street/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-11-03"
+        },
         {
           "title": "Global shares are mixed and US futures advance, while oil prices fall nearly 4%",
           "url": "https://www.ajc.com/news/2026/11/asian-shares-are-mixed-and-us-futures-advance-while-oil-prices-retreat/",
@@ -318,12 +324,6 @@
           "url": "https://www.ajc.com/news/2026/11/asian-shares-mostly-advance-but-tech-stocks-remain-volatile-while-oil-sinks-33/",
           "source": "The Atlanta Journal-Constitution",
           "date": "2026-11-02"
-        },
-        {
-          "title": "The sell-off for tech stocks deepens and drags Wall Street toward its worst day since June",
-          "url": "https://www.ajc.com/news/2026/10/the-sell-off-for-tech-stocks-deepens-as-the-nasdaq-heads-toward-its-worst-day-since-june/",
-          "source": "The Atlanta Journal-Constitution",
-          "date": "2026-10-30"
         }
       ]
     }
@@ -6191,7 +6191,10 @@
         "2026-10-27",
         "2026-10-28",
         "2026-10-29",
-        "2026-10-30"
+        "2026-10-30",
+        "2026-10-31",
+        "2026-11-01",
+        "2026-11-02"
       ],
       "values": [
         0.06,
@@ -10514,6 +10517,9 @@
         3.88,
         3.88,
         3.88,
+        3.88,
+        3.88,
+        3.88,
         3.88
       ],
       "freq": "monthly"
@@ -13478,7 +13484,8 @@
         "2026-10-27",
         "2026-10-28",
         "2026-10-29",
-        "2026-10-30"
+        "2026-10-30",
+        "2026-11-02"
       ],
       "values": [
         2.12,
@@ -16439,7 +16446,8 @@
         4.99,
         5.05,
         4.98,
-        4.94
+        4.94,
+        4.91
       ],
       "freq": "monthly"
     },
@@ -18007,7 +18015,8 @@
         "2026-07-31",
         "2026-08-31",
         "2026-09-30",
-        "2026-10-30"
+        "2026-10-30",
+        "2026-11-02"
       ],
       "values": [
         2198.81,
@@ -18129,7 +18138,8 @@
         7489.72,
         7686.14,
         7651.54,
-        7580.07
+        7580.07,
+        7541.4
       ],
       "freq": "monthly"
     },
@@ -18276,7 +18286,8 @@
         "2026-07-31",
         "2026-08-31",
         "2026-09-30",
-        "2026-10-29"
+        "2026-10-30",
+        "2026-11-02"
       ],
       "values": [
         4635.24,
@@ -18420,7 +18431,8 @@
         25373.85,
         26370.89,
         26861.06,
-        26184.72
+        25437.0,
+        25164.36
       ],
       "freq": "monthly"
     },
@@ -18546,7 +18558,7 @@
         "2026-08-31",
         "2026-09-30",
         "2026-10-30",
-        "2026-11-02"
+        "2026-11-03"
       ],
       "values": [
         19123.58,
@@ -18669,7 +18681,7 @@
         53185.9,
         50906.05,
         51770.31,
-        51983.98
+        51786.72
       ],
       "freq": "monthly"
     }
