@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06T01:25:10Z",
+  "updated": "2026-11-07T00:41:32Z",
   "metrics": {
     "gdp": {
       "value": 3.4,
@@ -27,15 +27,23 @@
       ]
     },
     "unemp": {
-      "value": 4.2,
-      "date": "2026-09-01",
-      "label": "Sep 2026",
-      "display": "4.2%",
-      "reading": "Sep 2026: 4.2%, up from 4.1% in Aug 2026.",
+      "value": 4.1,
+      "date": "2026-10-01",
+      "label": "Oct 2026",
+      "display": "4.1%",
+      "reading": "Oct 2026: 4.1%, down from 4.2% in Sep 2026 \u2014 its lowest reading in 12 months.",
       "change": {
-        "text": "\u2191 from 4.1%",
-        "sign": "neg"
-      }
+        "text": "\u2193 from 4.2%",
+        "sign": "pos"
+      },
+      "news": [
+        {
+          "title": "US employers added a surprising 165,000 jobs in October; unemployment rate dipped to 4.1%",
+          "url": "https://www.ajc.com/news/2026/11/us-employers-added-a-surprising-165000-jobs-in-october-unemployment-rate-dipped-to-41/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-11-06"
+        }
+      ]
     },
     "cpi": {
       "value": 3.7172,
@@ -59,12 +67,6 @@
           "url": "https://www.europesays.com/3319821/",
           "source": "EUROPE SAYS",
           "date": "2026-10-19"
-        },
-        {
-          "title": "Inflation Scorches Americans Before Midterms, Driven by High Fuel Costs",
-          "url": "https://www.naturalnews.com/2026-10-16-inflation-scorches-americans-driven-by-high-fuel-costs.html",
-          "source": "Natural News",
-          "date": "2026-10-16"
         }
       ]
     },
@@ -123,7 +125,7 @@
     },
     "ffr": {
       "value": 3.88,
-      "date": "2026-11-04",
+      "date": "2026-11-05",
       "label": "Nov 2026",
       "display": "3.88%",
       "reading": "Nov 2026: 3.88%, unchanged from 3.88% in Nov 2026 \u2014 its highest reading in 12 months.",
@@ -153,26 +155,34 @@
       ]
     },
     "ten": {
-      "value": 4.9,
-      "date": "2026-11-04",
+      "value": 4.84,
+      "date": "2026-11-05",
       "label": "Nov 2026",
-      "display": "4.90%",
-      "reading": "Nov 2026: 4.90%, down from 4.95% in Nov 2026 \u2014 its lowest reading in 12 months.",
+      "display": "4.84%",
+      "reading": "Nov 2026: 4.84%, down from 4.90% in Nov 2026 \u2014 its lowest reading in 12 months.",
       "change": {
-        "text": "\u2193 from 4.95%",
+        "text": "\u2193 from 4.90%",
         "sign": "flat"
       }
     },
     "nfp": {
-      "value": 29.0,
-      "date": "2026-09-01",
-      "label": "Sep 2026",
-      "display": "+29K",
-      "reading": "Sep 2026: +29K, down from +133K in Aug 2026.",
+      "value": 165.0,
+      "date": "2026-10-01",
+      "label": "Oct 2026",
+      "display": "+165K",
+      "reading": "Oct 2026: +165K, up from +60K in Sep 2026.",
       "change": {
-        "text": "\u2193 from +133K",
-        "sign": "neg"
-      }
+        "text": "\u2191 from +60K",
+        "sign": "pos"
+      },
+      "news": [
+        {
+          "title": "The October jobs report is out Friday. Here's everything to expect",
+          "url": "https://www.cnbc.com/2026/11/05/october-jobs-report-preview.html",
+          "source": "CNBC",
+          "date": "2026-11-05"
+        }
+      ]
     },
     "retail": {
       "value": 0.7708,
@@ -241,94 +251,94 @@
       ]
     },
     "sp500": {
-      "value": 7688.62,
-      "date": "2026-11-04",
+      "value": 7353.73,
+      "date": "2026-11-05",
       "label": "Nov 2026",
-      "display": "7,689",
-      "reading": "Nov 2026: 7,689, up from 7,580 in Oct 2026 \u2014 its highest reading in 12 months.",
+      "display": "7,354",
+      "reading": "Nov 2026: 7,354, down from 7,580 in Oct 2026.",
       "change": {
-        "text": "\u2191 12.3% YTD",
+        "text": "\u2191 7.4% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "12 S&P 500 Stocks Gain The Most From The 'Blue Wave'",
-          "url": "https://www.investors.com/etfs-and-funds/sectors/sp-500-stocks-gain-the-most-from-the-blue-wave/",
-          "source": "Investor's Business Daily",
-          "date": "2026-11-05"
+          "title": "AI stocks suffer their biggest sell-off in months as data centre backlash reaches Washington",
+          "url": "https://thenextweb.com/news/ai-stocks-sell-off-nasdaq-correction",
+          "source": "TNW",
+          "date": "2026-11-06"
         },
         {
-          "title": "A brutal sell-off for AI stocks sends Wall Street reeling, and the S&P 500 tumbles 4.4%",
-          "url": "https://www.ajc.com/news/2026/11/a-brutal-sell-off-for-ai-stocks-sends-wall-street-reeling-and-the-sp-500-tumbles-44/",
+          "title": "AI stocks halt their brutal, worldwide sell-off as Wall Street trims its loss for the week",
+          "url": "https://www.ajc.com/news/2026/11/ai-stocks-halt-their-brutal-worldwide-sell-off-as-wall-street-trims-its-loss-for-the-week/",
           "source": "The Atlanta Journal-Constitution",
-          "date": "2026-11-05"
+          "date": "2026-11-06"
         },
         {
-          "title": "World shares mostly gain after US midterm elections as AI-related stocks sink",
-          "url": "https://www.ajc.com/news/2026/11/asian-shares-are-mixed-after-us-midterm-elections-as-ai-related-stocks-sink-in-japan-and-south-korea/",
+          "title": "The worldwide sell-off for AI stocks halts, but other US stocks are still struggling",
+          "url": "https://www.ajc.com/news/2026/11/the-worldwide-sell-off-for-ai-stocks-halts-but-other-us-stocks-are-still-struggling/",
           "source": "The Atlanta Journal-Constitution",
-          "date": "2026-11-05"
+          "date": "2026-11-06"
         }
       ]
     },
     "nasdaq": {
-      "value": 25736.51,
-      "date": "2026-11-04",
+      "value": 24315.0,
+      "date": "2026-11-05",
       "label": "Nov 2026",
-      "display": "25,737",
-      "reading": "Nov 2026: 25,737, up from 25,437 in Oct 2026.",
+      "display": "24,315",
+      "reading": "Nov 2026: 24,315, down from 25,437 in Oct 2026.",
       "change": {
-        "text": "\u2191 10.7% YTD",
+        "text": "\u2191 4.6% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "What\u2019s likely to move the market",
-          "url": "https://www.cnbc.com/2026/11/02/tuesdays-big-stock-stories-whats-likely-to-move-the-market.html",
-          "source": "CNBC",
-          "date": "2026-11-03"
+          "title": "Nasdaq rebounds as chips stocks recover from steep losses",
+          "url": "https://www.reuters.com/business/nasdaq-futures-rise-after-steep-ai-selloff-chip-stocks-stabilize-2026-11-06/",
+          "source": "Reuters",
+          "date": "2026-11-06"
         },
         {
-          "title": "Anthropic's path to the Nasdaq just got a lot bumpier",
-          "url": "https://www.cnbc.com/2026/10/31/anthropic-ipo-ai-spending.html",
+          "title": "SK Hynix, Samsung, SoftBank",
+          "url": "https://www.cnbc.com/2026/11/06/tech-stocks-sk-hynix-samsung-softbank.html",
           "source": "CNBC",
-          "date": "2026-10-31"
+          "date": "2026-11-06"
         },
         {
-          "title": "Asian shares fall on selling of tech shares as markets watch for results of US midterm elections",
-          "url": "https://www.ajc.com/news/2026/11/asian-shares-fall-on-selling-of-tech-shares-as-markets-watch-for-results-of-us-midterm-elections/",
-          "source": "The Atlanta Journal-Constitution",
-          "date": "2026-11-04"
+          "title": "What sparked Wall Street\u2019s crazy sell-off?",
+          "url": "https://abc17news.com/money/cnn-business-consumer/2026/11/06/what-sparked-wall-streets-crazy-sell-off/",
+          "source": "ABC17News.com",
+          "date": "2026-11-06"
         }
       ]
     },
     "dow": {
-      "value": 51427.0,
+      "value": 51285.73,
       "date": "2026-11-06",
       "label": "Nov 2026",
-      "display": "51,427",
-      "reading": "Nov 2026: 51,427, down from 51,770 in Oct 2026.",
+      "display": "51,286",
+      "reading": "Nov 2026: 51,286, down from 51,770 in Oct 2026.",
       "change": {
-        "text": "\u2191 7.0% YTD",
+        "text": "\u2191 6.7% YTD",
         "sign": "pos"
       },
       "news": [
         {
+          "title": "AI stocks halt their brutal, worldwide sell-off as Wall Street trims its loss for the week",
+          "url": "https://www.ajc.com/news/2026/11/ai-stocks-halt-their-brutal-worldwide-sell-off-as-wall-street-trims-its-loss-for-the-week/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-11-06"
+        },
+        {
+          "title": "The worldwide sell-off for AI stocks halts, but other US stocks are still struggling",
+          "url": "https://www.ajc.com/news/2026/11/the-worldwide-sell-off-for-ai-stocks-halts-but-other-us-stocks-are-still-struggling/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-11-06"
+        },
+        {
           "title": "Asian shares mostly advance following US midterms, though Kospi falls on selling of chipmakers",
           "url": "https://www.breitbart.com/news/asian-shares-mostly-advance-following-us-midterms-though-kospi-falls-on-selling-of-chipmakers/",
           "source": "Breitbart News Network",
-          "date": "2026-11-05"
-        },
-        {
-          "title": "Asian shares mostly advance following US midterms, though Kospi falls on selling of chipmakers",
-          "url": "https://wtop.com/national/2026/11/asian-shares-mostly-advance-following-us-midterms-though-kospi-falls-on-selling-of-chipmakers/",
-          "source": "WTOP",
-          "date": "2026-11-05"
-        },
-        {
-          "title": "A brutal sell-off for AI stocks sends Wall Street reeling, and the S&P 500 tumbles 4.4%",
-          "url": "https://www.ajc.com/news/2026/11/a-brutal-sell-off-for-ai-stocks-sends-wall-street-reeling-and-the-sp-500-tumbles-44/",
-          "source": "The Atlanta Journal-Constitution",
           "date": "2026-11-05"
         }
       ]
@@ -577,7 +587,8 @@
         "2026-06-01",
         "2026-07-01",
         "2026-08-01",
-        "2026-09-01"
+        "2026-09-01",
+        "2026-10-01"
       ],
       "values": [
         5.7,
@@ -719,7 +730,8 @@
         4.2,
         4.1,
         4.1,
-        4.2
+        4.2,
+        4.1
       ],
       "freq": "monthly"
     },
@@ -6202,7 +6214,8 @@
         "2026-11-01",
         "2026-11-02",
         "2026-11-03",
-        "2026-11-04"
+        "2026-11-04",
+        "2026-11-05"
       ],
       "values": [
         0.06,
@@ -10530,6 +10543,7 @@
         3.88,
         3.88,
         3.88,
+        3.88,
         3.88
       ],
       "freq": "monthly"
@@ -13497,7 +13511,8 @@
         "2026-10-30",
         "2026-11-02",
         "2026-11-03",
-        "2026-11-04"
+        "2026-11-04",
+        "2026-11-05"
       ],
       "values": [
         2.12,
@@ -16461,7 +16476,8 @@
         4.94,
         4.91,
         4.95,
-        4.9
+        4.9,
+        4.84
       ],
       "freq": "monthly"
     },
@@ -16607,7 +16623,8 @@
         "2026-06-01",
         "2026-07-01",
         "2026-08-01",
-        "2026-09-01"
+        "2026-09-01",
+        "2026-10-01"
       ],
       "values": [
         204.0,
@@ -16749,8 +16766,9 @@
         63.0,
         31.0,
         -10.0,
-        133.0,
-        29.0
+        186.0,
+        60.0,
+        165.0
       ],
       "freq": "monthly"
     },
@@ -18032,7 +18050,7 @@
         "2026-08-31",
         "2026-09-30",
         "2026-10-30",
-        "2026-11-04"
+        "2026-11-05"
       ],
       "values": [
         2198.81,
@@ -18155,7 +18173,7 @@
         7686.14,
         7651.54,
         7580.07,
-        7688.62
+        7353.73
       ],
       "freq": "monthly"
     },
@@ -18303,7 +18321,7 @@
         "2026-08-31",
         "2026-09-30",
         "2026-10-30",
-        "2026-11-04"
+        "2026-11-05"
       ],
       "values": [
         4635.24,
@@ -18448,7 +18466,7 @@
         26370.89,
         26861.06,
         25437.0,
-        25736.51
+        24315.0
       ],
       "freq": "monthly"
     },
@@ -18697,7 +18715,7 @@
         53185.9,
         50906.05,
         51770.31,
-        51427.0
+        51285.73
       ],
       "freq": "monthly"
     }
