@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T00:41:32Z",
+  "updated": "2026-11-10T03:17:35Z",
   "metrics": {
     "gdp": {
       "value": 3.4,
@@ -38,9 +38,21 @@
       },
       "news": [
         {
-          "title": "US employers added a surprising 165,000 jobs in October; unemployment rate dipped to 4.1%",
-          "url": "https://www.ajc.com/news/2026/11/us-employers-added-a-surprising-165000-jobs-in-october-unemployment-rate-dipped-to-41/",
-          "source": "The Atlanta Journal-Constitution",
+          "title": "US adds 165,000 jobs in October",
+          "url": "https://www.arkansasonline.com/news/2026/nov/07/us-adds-165000-jobs-in-october/",
+          "source": "Arkansas Online",
+          "date": "2026-11-07"
+        },
+        {
+          "title": "Could the \u2018blue tsunami\u2019 jolt the US job market back to life?",
+          "url": "https://abc17news.com/money/cnn-business-consumer/2026/11/06/could-the-blue-tsunami-jolt-the-us-job-market-back-to-life/",
+          "source": "ABC17News.com",
+          "date": "2026-11-06"
+        },
+        {
+          "title": "US adds 165,000 jobs, topping all forecasts in broad advance",
+          "url": "https://www.spokesman.com/stories/2026/nov/06/us-adds-165000-jobs-topping-all-forecasts-in-broad/",
+          "source": "Spokane Spokesman-Review",
           "date": "2026-11-06"
         }
       ]
@@ -61,12 +73,6 @@
           "url": "https://www.europesays.com/3329680/",
           "source": "EUROPE SAYS",
           "date": "2026-10-24"
-        },
-        {
-          "title": "United States: October inflation seen cooling - TD Securities",
-          "url": "https://www.europesays.com/3319821/",
-          "source": "EUROPE SAYS",
-          "date": "2026-10-19"
         }
       ]
     },
@@ -125,7 +131,7 @@
     },
     "ffr": {
       "value": 3.88,
-      "date": "2026-11-05",
+      "date": "2026-11-06",
       "label": "Nov 2026",
       "display": "3.88%",
       "reading": "Nov 2026: 3.88%, unchanged from 3.88% in Nov 2026 \u2014 its highest reading in 12 months.",
@@ -135,33 +141,33 @@
       },
       "news": [
         {
+          "title": "Fed seen sticking to December rate hike after jobs data",
+          "url": "https://www.reuters.com/business/traders-raise-bets-fed-rate-hike-after-jobs-report-2026-11-06/",
+          "source": "Reuters",
+          "date": "2026-11-06"
+        },
+        {
+          "title": "US job growth surges in October; unemployment rate falls to 4.1%",
+          "url": "https://www.reuters.com/business/us-job-growth-beats-expectations-october-unemployment-rate-falls-41-2026-11-06/",
+          "source": "Reuters",
+          "date": "2026-11-06"
+        },
+        {
           "title": "Fed Officials Back More Rate Hikes, Gradual Pace of Tightening",
           "url": "https://www.bloomberg.com/news/articles/2026-10-30/fed-s-logan-sees-two-more-hikes-but-says-pace-can-be-gradual",
           "source": "Bloomberg",
           "date": "2026-10-30"
-        },
-        {
-          "title": "Warsh Says Fed Will Reduce Number of Annual Rate Decisions (1)",
-          "url": "https://news.bloombergtax.com/daily-tax-report/warsh-says-fomc-wont-vote-at-one-of-its-meetings-in-2027-1",
-          "source": "Bloomberg Tax News",
-          "date": "2026-10-28"
-        },
-        {
-          "title": "Warsh shakes up Fed's approach to setting interest rates",
-          "url": "https://foxbaltimore.com/news/nation-world/kevin-warsh-shakes-up-feds-approach-to-setting-interest-rates-federal-reserve-fomc-interest-rates-economy-inflation",
-          "source": "Baltimore News",
-          "date": "2026-10-29"
         }
       ]
     },
     "ten": {
-      "value": 4.84,
-      "date": "2026-11-05",
+      "value": 4.86,
+      "date": "2026-11-06",
       "label": "Nov 2026",
-      "display": "4.84%",
-      "reading": "Nov 2026: 4.84%, down from 4.90% in Nov 2026 \u2014 its lowest reading in 12 months.",
+      "display": "4.86%",
+      "reading": "Nov 2026: 4.86%, up from 4.84% in Nov 2026.",
       "change": {
-        "text": "\u2193 from 4.90%",
+        "text": "\u2191 from 4.84%",
         "sign": "flat"
       }
     },
@@ -176,6 +182,12 @@
         "sign": "pos"
       },
       "news": [
+        {
+          "title": "Jobs report October 2026:",
+          "url": "https://www.cnbc.com/2026/11/06/jobs-report-october-2026.html",
+          "source": "CNBC",
+          "date": "2026-11-06"
+        },
         {
           "title": "The October jobs report is out Friday. Here's everything to expect",
           "url": "https://www.cnbc.com/2026/11/05/october-jobs-report-preview.html",
@@ -223,7 +235,15 @@
       "change": {
         "text": "\u2191 from -$105737B",
         "sign": "pos"
-      }
+      },
+      "news": [
+        {
+          "title": "US trade deficit narrows to $105.0 billion in September as exports outpace imports",
+          "url": "https://sainteur.com/article/us-trade-deficit-narrows-to-105-0-billion-in-september-as-exports-outpace",
+          "source": "Sainteur",
+          "date": "2026-11-05"
+        }
+      ]
     },
     "sent": {
       "value": 48.1,
@@ -241,6 +261,12 @@
           "url": "https://news.bloombergtax.com/daily-tax-report/us-consumers-are-disillusioned-about-economy-kathryn-edwards",
           "source": "Bloomberg Tax News",
           "date": "2026-10-28"
+        },
+        {
+          "title": "Consumer Sentiment Recovers Significantly In November",
+          "url": "https://seekingalpha.com/article/4964460-consumer-sentiment-recovers-significantly-in-november",
+          "source": "Seeking Alpha",
+          "date": "2026-11-07"
         },
         {
           "title": "Consumer Sentiment At 5-Month Low",
@@ -262,33 +288,33 @@
       },
       "news": [
         {
-          "title": "AI stocks suffer their biggest sell-off in months as data centre backlash reaches Washington",
-          "url": "https://thenextweb.com/news/ai-stocks-sell-off-nasdaq-correction",
-          "source": "TNW",
-          "date": "2026-11-06"
+          "title": "11 Stable High-Dividend Payers Are Also Topping The S&P 500",
+          "url": "https://www.investors.com/etfs-and-funds/sectors/sp500-stable-high-dividend-payers-are-also-topping/",
+          "source": "Investor's Business Daily",
+          "date": "2026-11-09"
         },
         {
-          "title": "AI stocks halt their brutal, worldwide sell-off as Wall Street trims its loss for the week",
-          "url": "https://www.ajc.com/news/2026/11/ai-stocks-halt-their-brutal-worldwide-sell-off-as-wall-street-trims-its-loss-for-the-week/",
+          "title": "World markets bounce back after a recovery for AI stocks on Wall Street",
+          "url": "https://www.ajc.com/news/2026/11/world-markets-bounce-back-after-a-recovery-for-ai-stocks-on-wall-street/",
           "source": "The Atlanta Journal-Constitution",
-          "date": "2026-11-06"
+          "date": "2026-11-09"
         },
         {
-          "title": "The worldwide sell-off for AI stocks halts, but other US stocks are still struggling",
-          "url": "https://www.ajc.com/news/2026/11/the-worldwide-sell-off-for-ai-stocks-halts-but-other-us-stocks-are-still-struggling/",
+          "title": "Asian markets bounce back after a recovery for AI stocks on Wall Street",
+          "url": "https://www.ajc.com/news/2026/11/asian-markets-bounce-back-after-a-recovery-for-ai-stocks-on-wall-street/",
           "source": "The Atlanta Journal-Constitution",
-          "date": "2026-11-06"
+          "date": "2026-11-09"
         }
       ]
     },
     "nasdaq": {
-      "value": 24315.0,
-      "date": "2026-11-05",
+      "value": 24579.42,
+      "date": "2026-11-06",
       "label": "Nov 2026",
-      "display": "24,315",
-      "reading": "Nov 2026: 24,315, down from 25,437 in Oct 2026.",
+      "display": "24,579",
+      "reading": "Nov 2026: 24,579, down from 25,437 in Oct 2026.",
       "change": {
-        "text": "\u2191 4.6% YTD",
+        "text": "\u2191 5.8% YTD",
         "sign": "pos"
       },
       "news": [
@@ -305,41 +331,41 @@
           "date": "2026-11-06"
         },
         {
-          "title": "What sparked Wall Street\u2019s crazy sell-off?",
-          "url": "https://abc17news.com/money/cnn-business-consumer/2026/11/06/what-sparked-wall-streets-crazy-sell-off/",
-          "source": "ABC17News.com",
+          "title": "Nasdaq rebounds after worst selloff in 19 months",
+          "url": "https://signalscv.com/2026/11/nasdaq-rebounds-after-worst-selloff-in-19-months/",
+          "source": "Santa Clarita Valley Signal",
           "date": "2026-11-06"
         }
       ]
     },
     "dow": {
-      "value": 51285.73,
-      "date": "2026-11-06",
+      "value": 52389.75,
+      "date": "2026-11-09",
       "label": "Nov 2026",
-      "display": "51,286",
-      "reading": "Nov 2026: 51,286, down from 51,770 in Oct 2026.",
+      "display": "52,390",
+      "reading": "Nov 2026: 52,390, up from 51,770 in Oct 2026.",
       "change": {
-        "text": "\u2191 6.7% YTD",
+        "text": "\u2191 9.0% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "AI stocks halt their brutal, worldwide sell-off as Wall Street trims its loss for the week",
-          "url": "https://www.ajc.com/news/2026/11/ai-stocks-halt-their-brutal-worldwide-sell-off-as-wall-street-trims-its-loss-for-the-week/",
+          "title": "World markets bounce back after a recovery for AI stocks on Wall Street",
+          "url": "https://www.ajc.com/news/2026/11/world-markets-bounce-back-after-a-recovery-for-ai-stocks-on-wall-street/",
           "source": "The Atlanta Journal-Constitution",
-          "date": "2026-11-06"
+          "date": "2026-11-09"
         },
         {
-          "title": "The worldwide sell-off for AI stocks halts, but other US stocks are still struggling",
-          "url": "https://www.ajc.com/news/2026/11/the-worldwide-sell-off-for-ai-stocks-halts-but-other-us-stocks-are-still-struggling/",
+          "title": "US stocks rally and recover more of last week's losses as oil prices swing lower",
+          "url": "https://www.ajc.com/news/2026/11/us-stocks-rally-and-recover-more-of-last-weeks-losses-as-oil-prices-swing-lower/",
           "source": "The Atlanta Journal-Constitution",
-          "date": "2026-11-06"
+          "date": "2026-11-09"
         },
         {
-          "title": "Asian shares mostly advance following US midterms, though Kospi falls on selling of chipmakers",
-          "url": "https://www.breitbart.com/news/asian-shares-mostly-advance-following-us-midterms-though-kospi-falls-on-selling-of-chipmakers/",
-          "source": "Breitbart News Network",
-          "date": "2026-11-05"
+          "title": "Asian markets bounce back after a recovery for AI stocks on Wall Street",
+          "url": "https://www.ajc.com/news/2026/11/asian-markets-bounce-back-after-a-recovery-for-ai-stocks-on-wall-street/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-11-09"
         }
       ]
     }
@@ -6215,7 +6241,8 @@
         "2026-11-02",
         "2026-11-03",
         "2026-11-04",
-        "2026-11-05"
+        "2026-11-05",
+        "2026-11-06"
       ],
       "values": [
         0.06,
@@ -10544,6 +10571,7 @@
         3.88,
         3.88,
         3.88,
+        3.88,
         3.88
       ],
       "freq": "monthly"
@@ -13512,7 +13540,8 @@
         "2026-11-02",
         "2026-11-03",
         "2026-11-04",
-        "2026-11-05"
+        "2026-11-05",
+        "2026-11-06"
       ],
       "values": [
         2.12,
@@ -16477,7 +16506,8 @@
         4.91,
         4.95,
         4.9,
-        4.84
+        4.84,
+        4.86
       ],
       "freq": "monthly"
     },
@@ -18321,7 +18351,7 @@
         "2026-08-31",
         "2026-09-30",
         "2026-10-30",
-        "2026-11-05"
+        "2026-11-06"
       ],
       "values": [
         4635.24,
@@ -18466,7 +18496,7 @@
         26370.89,
         26861.06,
         25437.0,
-        24315.0
+        24579.42
       ],
       "freq": "monthly"
     },
@@ -18592,7 +18622,7 @@
         "2026-08-31",
         "2026-09-30",
         "2026-10-30",
-        "2026-11-06"
+        "2026-11-09"
       ],
       "values": [
         19123.58,
@@ -18715,7 +18745,7 @@
         53185.9,
         50906.05,
         51770.31,
-        51285.73
+        52389.75
       ],
       "freq": "monthly"
     }
