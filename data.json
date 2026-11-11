@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-10T03:17:35Z",
+  "updated": "2026-11-11T01:06:01Z",
   "metrics": {
     "gdp": {
       "value": 3.4,
@@ -69,6 +69,18 @@
       },
       "news": [
         {
+          "title": "Inflation ran hotter than expected last month, underscoring affordability challenges",
+          "url": "https://triblive.com/news/world/inflation-ran-hotter-than-expected-last-month-underscoring-affordability-challenges/",
+          "source": "Pittsburgh Tribune-Review",
+          "date": "2026-11-10"
+        },
+        {
+          "title": "S&P 500 falls after hot CPI ignites inflation concerns: Live updates",
+          "url": "https://www.newsbreak.com/news/4996272289952-s-p-500-falls-after-hot-cpi-ignites-inflation-concerns-live-updates",
+          "source": "NewsBreak",
+          "date": "2026-11-09"
+        },
+        {
           "title": "The Bank of England just got its clearest reason to hike. Here's what it's really watching",
           "url": "https://www.europesays.com/3329680/",
           "source": "EUROPE SAYS",
@@ -131,7 +143,7 @@
     },
     "ffr": {
       "value": 3.88,
-      "date": "2026-11-06",
+      "date": "2026-11-09",
       "label": "Nov 2026",
       "display": "3.88%",
       "reading": "Nov 2026: 3.88%, unchanged from 3.88% in Nov 2026 \u2014 its highest reading in 12 months.",
@@ -141,33 +153,33 @@
       },
       "news": [
         {
+          "title": "Fed\u2019s Waller Backs December Rate Hike, Open to Larger Move (1)",
+          "url": "https://news.bloombergtax.com/daily-tax-report/feds-waller-backs-december-rate-hike-says-open-to-larger-move",
+          "source": "Bloomberg Tax News",
+          "date": "2026-11-10"
+        },
+        {
+          "title": "Bitcoin Price Targets $74,000 After Fed\u2019s Waller Supports December Rate Hike",
+          "url": "https://cointelegraph.com/markets/bitcoin-price-eyes-74k-fed-rate-hike-expected-after-waller-speech",
+          "source": "Cointelegraph",
+          "date": "2026-11-10"
+        },
+        {
           "title": "Fed seen sticking to December rate hike after jobs data",
           "url": "https://www.reuters.com/business/traders-raise-bets-fed-rate-hike-after-jobs-report-2026-11-06/",
           "source": "Reuters",
           "date": "2026-11-06"
-        },
-        {
-          "title": "US job growth surges in October; unemployment rate falls to 4.1%",
-          "url": "https://www.reuters.com/business/us-job-growth-beats-expectations-october-unemployment-rate-falls-41-2026-11-06/",
-          "source": "Reuters",
-          "date": "2026-11-06"
-        },
-        {
-          "title": "Fed Officials Back More Rate Hikes, Gradual Pace of Tightening",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-30/fed-s-logan-sees-two-more-hikes-but-says-pace-can-be-gradual",
-          "source": "Bloomberg",
-          "date": "2026-10-30"
         }
       ]
     },
     "ten": {
-      "value": 4.86,
-      "date": "2026-11-06",
+      "value": 4.88,
+      "date": "2026-11-09",
       "label": "Nov 2026",
-      "display": "4.86%",
-      "reading": "Nov 2026: 4.86%, up from 4.84% in Nov 2026.",
+      "display": "4.88%",
+      "reading": "Nov 2026: 4.88%, up from 4.86% in Nov 2026.",
       "change": {
-        "text": "\u2191 from 4.84%",
+        "text": "\u2191 from 4.86%",
         "sign": "flat"
       }
     },
@@ -216,15 +228,7 @@
       "change": {
         "text": "\u2193 from 1.288M",
         "sign": "neg"
-      },
-      "news": [
-        {
-          "title": "US single-family housing starts plunge; building permits hit 3-1/2-year low",
-          "url": "https://www.reuters.com/world/us/us-single-family-housing-starts-building-permits-tumble-september-2026-10-20/",
-          "source": "Reuters",
-          "date": "2026-10-20"
-        }
-      ]
+      }
     },
     "trade": {
       "value": -105047.0,
@@ -277,44 +281,44 @@
       ]
     },
     "sp500": {
-      "value": 7353.73,
-      "date": "2026-11-05",
+      "value": 7549.94,
+      "date": "2026-11-09",
       "label": "Nov 2026",
-      "display": "7,354",
-      "reading": "Nov 2026: 7,354, down from 7,580 in Oct 2026.",
+      "display": "7,550",
+      "reading": "Nov 2026: 7,550, down from 7,580 in Oct 2026.",
       "change": {
-        "text": "\u2191 7.4% YTD",
+        "text": "\u2191 10.3% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "11 Stable High-Dividend Payers Are Also Topping The S&P 500",
-          "url": "https://www.investors.com/etfs-and-funds/sectors/sp500-stable-high-dividend-payers-are-also-topping/",
+          "title": "S&P 500 Stocks: 20 Biggest Losers On Nov. 5. AMD Leads 3 That Have Recovered Their Losses",
+          "url": "https://www.investors.com/news/sp-500-stocks-20-biggest-losers-amd-recovered-losses/",
           "source": "Investor's Business Daily",
-          "date": "2026-11-09"
+          "date": "2026-11-10"
         },
         {
-          "title": "World markets bounce back after a recovery for AI stocks on Wall Street",
-          "url": "https://www.ajc.com/news/2026/11/world-markets-bounce-back-after-a-recovery-for-ai-stocks-on-wall-street/",
+          "title": "Asian stocks rise after technology shares advance on Wall Street",
+          "url": "https://www.ajc.com/news/2026/11/asian-stocks-rise-after-technology-shares-advance-on-wall-street/",
           "source": "The Atlanta Journal-Constitution",
-          "date": "2026-11-09"
+          "date": "2026-11-10"
         },
         {
-          "title": "Asian markets bounce back after a recovery for AI stocks on Wall Street",
-          "url": "https://www.ajc.com/news/2026/11/asian-markets-bounce-back-after-a-recovery-for-ai-stocks-on-wall-street/",
+          "title": "World shares rise after technology shares advance on Wall Street ahead of US inflation data",
+          "url": "https://www.ajc.com/news/2026/11/asian-stocks-rise-after-technology-shares-advance-on-wall-street-ahead-of-us-inflation-data/",
           "source": "The Atlanta Journal-Constitution",
-          "date": "2026-11-09"
+          "date": "2026-11-10"
         }
       ]
     },
     "nasdaq": {
-      "value": 24579.42,
-      "date": "2026-11-06",
+      "value": 25253.14,
+      "date": "2026-11-09",
       "label": "Nov 2026",
-      "display": "24,579",
-      "reading": "Nov 2026: 24,579, down from 25,437 in Oct 2026.",
+      "display": "25,253",
+      "reading": "Nov 2026: 25,253, down from 25,437 in Oct 2026.",
       "change": {
-        "text": "\u2191 5.8% YTD",
+        "text": "\u2191 8.7% YTD",
         "sign": "pos"
       },
       "news": [
@@ -339,31 +343,31 @@
       ]
     },
     "dow": {
-      "value": 52389.75,
-      "date": "2026-11-09",
+      "value": 52231.89,
+      "date": "2026-11-10",
       "label": "Nov 2026",
-      "display": "52,390",
-      "reading": "Nov 2026: 52,390, up from 51,770 in Oct 2026.",
+      "display": "52,232",
+      "reading": "Nov 2026: 52,232, up from 51,770 in Oct 2026.",
       "change": {
-        "text": "\u2191 9.0% YTD",
+        "text": "\u2191 8.7% YTD",
         "sign": "pos"
       },
       "news": [
         {
+          "title": "Asian stocks rise after technology shares advance on Wall Street",
+          "url": "https://www.ajc.com/news/2026/11/asian-stocks-rise-after-technology-shares-advance-on-wall-street/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-11-10"
+        },
+        {
+          "title": "World shares rise after technology shares advance on Wall Street ahead of US inflation data",
+          "url": "https://www.ajc.com/news/2026/11/asian-stocks-rise-after-technology-shares-advance-on-wall-street-ahead-of-us-inflation-data/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-11-10"
+        },
+        {
           "title": "World markets bounce back after a recovery for AI stocks on Wall Street",
           "url": "https://www.ajc.com/news/2026/11/world-markets-bounce-back-after-a-recovery-for-ai-stocks-on-wall-street/",
-          "source": "The Atlanta Journal-Constitution",
-          "date": "2026-11-09"
-        },
-        {
-          "title": "US stocks rally and recover more of last week's losses as oil prices swing lower",
-          "url": "https://www.ajc.com/news/2026/11/us-stocks-rally-and-recover-more-of-last-weeks-losses-as-oil-prices-swing-lower/",
-          "source": "The Atlanta Journal-Constitution",
-          "date": "2026-11-09"
-        },
-        {
-          "title": "Asian markets bounce back after a recovery for AI stocks on Wall Street",
-          "url": "https://www.ajc.com/news/2026/11/asian-markets-bounce-back-after-a-recovery-for-ai-stocks-on-wall-street/",
           "source": "The Atlanta Journal-Constitution",
           "date": "2026-11-09"
         }
@@ -6242,7 +6246,10 @@
         "2026-11-03",
         "2026-11-04",
         "2026-11-05",
-        "2026-11-06"
+        "2026-11-06",
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-09"
       ],
       "values": [
         0.06,
@@ -10572,6 +10579,9 @@
         3.88,
         3.88,
         3.88,
+        3.88,
+        3.88,
+        3.88,
         3.88
       ],
       "freq": "monthly"
@@ -13541,7 +13551,8 @@
         "2026-11-03",
         "2026-11-04",
         "2026-11-05",
-        "2026-11-06"
+        "2026-11-06",
+        "2026-11-09"
       ],
       "values": [
         2.12,
@@ -16507,7 +16518,8 @@
         4.95,
         4.9,
         4.84,
-        4.86
+        4.86,
+        4.88
       ],
       "freq": "monthly"
     },
@@ -18080,7 +18092,7 @@
         "2026-08-31",
         "2026-09-30",
         "2026-10-30",
-        "2026-11-05"
+        "2026-11-09"
       ],
       "values": [
         2198.81,
@@ -18203,7 +18215,7 @@
         7686.14,
         7651.54,
         7580.07,
-        7353.73
+        7549.94
       ],
       "freq": "monthly"
     },
@@ -18351,7 +18363,7 @@
         "2026-08-31",
         "2026-09-30",
         "2026-10-30",
-        "2026-11-06"
+        "2026-11-09"
       ],
       "values": [
         4635.24,
@@ -18496,7 +18508,7 @@
         26370.89,
         26861.06,
         25437.0,
-        24579.42
+        25253.14
       ],
       "freq": "monthly"
     },
@@ -18622,7 +18634,7 @@
         "2026-08-31",
         "2026-09-30",
         "2026-10-30",
-        "2026-11-09"
+        "2026-11-10"
       ],
       "values": [
         19123.58,
@@ -18745,7 +18757,7 @@
         53185.9,
         50906.05,
         51770.31,
-        52389.75
+        52231.89
       ],
       "freq": "monthly"
     }
