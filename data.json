@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-11T01:06:01Z",
+  "updated": "2026-11-12T02:08:44Z",
   "metrics": {
     "gdp": {
       "value": 3.4,
@@ -69,22 +69,22 @@
       },
       "news": [
         {
-          "title": "Inflation ran hotter than expected last month, underscoring affordability challenges",
-          "url": "https://triblive.com/news/world/inflation-ran-hotter-than-expected-last-month-underscoring-affordability-challenges/",
-          "source": "Pittsburgh Tribune-Review",
+          "title": "Austan Goolsbee calls inflation report 'borderline disturbing' as Fed weighs more hikes",
+          "url": "https://www.cnbc.com/2026/11/11/goolsbee-october-inflation-fed-rates-disturbing-distressing.html",
+          "source": "CNBC",
+          "date": "2026-11-11"
+        },
+        {
+          "title": "Here's the inflation breakdown for October 2026 - in one chart",
+          "url": "https://www.cnbc.com/2026/11/10/october-2026-cpi-inflation-breakdown.html",
+          "source": "CNBC",
           "date": "2026-11-10"
         },
         {
-          "title": "S&P 500 falls after hot CPI ignites inflation concerns: Live updates",
-          "url": "https://www.newsbreak.com/news/4996272289952-s-p-500-falls-after-hot-cpi-ignites-inflation-concerns-live-updates",
-          "source": "NewsBreak",
-          "date": "2026-11-09"
-        },
-        {
-          "title": "The Bank of England just got its clearest reason to hike. Here's what it's really watching",
-          "url": "https://www.europesays.com/3329680/",
-          "source": "EUROPE SAYS",
-          "date": "2026-10-24"
+          "title": "Jim Cramer's top 10 things to watch in the stock market Tuesday",
+          "url": "https://www.cnbc.com/investingclub/2026/11/10/jim-cramers-top-10-things-to-watch-in-the-stock-market-tuesday.html",
+          "source": "CNBC",
+          "date": "2026-11-10"
         }
       ]
     },
@@ -281,44 +281,44 @@
       ]
     },
     "sp500": {
-      "value": 7549.94,
-      "date": "2026-11-09",
+      "value": 7520.93,
+      "date": "2026-11-10",
       "label": "Nov 2026",
-      "display": "7,550",
-      "reading": "Nov 2026: 7,550, down from 7,580 in Oct 2026.",
+      "display": "7,521",
+      "reading": "Nov 2026: 7,521, down from 7,580 in Oct 2026.",
       "change": {
-        "text": "\u2191 10.3% YTD",
+        "text": "\u2191 9.9% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "S&P 500 Stocks: 20 Biggest Losers On Nov. 5. AMD Leads 3 That Have Recovered Their Losses",
-          "url": "https://www.investors.com/news/sp-500-stocks-20-biggest-losers-amd-recovered-losses/",
+          "title": "3 Reasons a Top Stock Strategist Sees a Big Year-End Rally for S&P 500",
+          "url": "https://www.businessinsider.com/stock-market-rally-prediction-sp500-gain-oil-prices-2026-11",
+          "source": "Business Insider",
+          "date": "2026-11-11"
+        },
+        {
+          "title": "10 Stocks Rode Trump Era - What Happens As MAGA 'Disintegrates'?",
+          "url": "https://www.investors.com/etfs-and-funds/sectors/sp500-stocks-rode-trump-era-what-happens-as-maga-disintegrates/",
           "source": "Investor's Business Daily",
-          "date": "2026-11-10"
+          "date": "2026-11-11"
         },
         {
-          "title": "Asian stocks rise after technology shares advance on Wall Street",
-          "url": "https://www.ajc.com/news/2026/11/asian-stocks-rise-after-technology-shares-advance-on-wall-street/",
+          "title": "Global markets broadly rise on AI chip demand despite Wall Street's retreat on inflation data",
+          "url": "https://www.ajc.com/news/2026/11/asian-markets-mostly-gain-on-ai-chip-demand-despite-wall-streets-retreat-on-inflation-data/",
           "source": "The Atlanta Journal-Constitution",
-          "date": "2026-11-10"
-        },
-        {
-          "title": "World shares rise after technology shares advance on Wall Street ahead of US inflation data",
-          "url": "https://www.ajc.com/news/2026/11/asian-stocks-rise-after-technology-shares-advance-on-wall-street-ahead-of-us-inflation-data/",
-          "source": "The Atlanta Journal-Constitution",
-          "date": "2026-11-10"
+          "date": "2026-11-11"
         }
       ]
     },
     "nasdaq": {
-      "value": 25253.14,
-      "date": "2026-11-09",
+      "value": 25065.87,
+      "date": "2026-11-10",
       "label": "Nov 2026",
-      "display": "25,253",
-      "reading": "Nov 2026: 25,253, down from 25,437 in Oct 2026.",
+      "display": "25,066",
+      "reading": "Nov 2026: 25,066, down from 25,437 in Oct 2026.",
       "change": {
-        "text": "\u2191 8.7% YTD",
+        "text": "\u2191 7.8% YTD",
         "sign": "pos"
       },
       "news": [
@@ -343,33 +343,33 @@
       ]
     },
     "dow": {
-      "value": 52231.89,
-      "date": "2026-11-10",
+      "value": 52486.49,
+      "date": "2026-11-11",
       "label": "Nov 2026",
-      "display": "52,232",
-      "reading": "Nov 2026: 52,232, up from 51,770 in Oct 2026.",
+      "display": "52,486",
+      "reading": "Nov 2026: 52,486, up from 51,770 in Oct 2026.",
       "change": {
-        "text": "\u2191 8.7% YTD",
+        "text": "\u2191 9.2% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "Asian stocks rise after technology shares advance on Wall Street",
-          "url": "https://www.ajc.com/news/2026/11/asian-stocks-rise-after-technology-shares-advance-on-wall-street/",
+          "title": "Global markets broadly rise on AI chip demand despite Wall Street's retreat on inflation data",
+          "url": "https://www.ajc.com/news/2026/11/asian-markets-mostly-gain-on-ai-chip-demand-despite-wall-streets-retreat-on-inflation-data/",
           "source": "The Atlanta Journal-Constitution",
-          "date": "2026-11-10"
+          "date": "2026-11-11"
         },
         {
-          "title": "World shares rise after technology shares advance on Wall Street ahead of US inflation data",
-          "url": "https://www.ajc.com/news/2026/11/asian-stocks-rise-after-technology-shares-advance-on-wall-street-ahead-of-us-inflation-data/",
+          "title": "Asian markets mostly gain on AI chip demand despite Wall Street's retreat on inflation data",
+          "url": "https://www.ajc.com/news/2026/11/asian-shares-mostly-rise-on-ai-chip-demand-despite-wall-streets-retreat-on-inflation-data/",
           "source": "The Atlanta Journal-Constitution",
-          "date": "2026-11-10"
+          "date": "2026-11-11"
         },
         {
-          "title": "World markets bounce back after a recovery for AI stocks on Wall Street",
-          "url": "https://www.ajc.com/news/2026/11/world-markets-bounce-back-after-a-recovery-for-ai-stocks-on-wall-street/",
+          "title": "Rebounding AI stocks lift Wall Street",
+          "url": "https://www.ajc.com/news/2026/11/rebounding-ai-stocks-lift-wall-street/",
           "source": "The Atlanta Journal-Constitution",
-          "date": "2026-11-09"
+          "date": "2026-11-11"
         }
       ]
     }
@@ -18092,7 +18092,7 @@
         "2026-08-31",
         "2026-09-30",
         "2026-10-30",
-        "2026-11-09"
+        "2026-11-10"
       ],
       "values": [
         2198.81,
@@ -18215,7 +18215,7 @@
         7686.14,
         7651.54,
         7580.07,
-        7549.94
+        7520.93
       ],
       "freq": "monthly"
     },
@@ -18363,7 +18363,7 @@
         "2026-08-31",
         "2026-09-30",
         "2026-10-30",
-        "2026-11-09"
+        "2026-11-10"
       ],
       "values": [
         4635.24,
@@ -18508,7 +18508,7 @@
         26370.89,
         26861.06,
         25437.0,
-        25253.14
+        25065.87
       ],
       "freq": "monthly"
     },
@@ -18634,7 +18634,7 @@
         "2026-08-31",
         "2026-09-30",
         "2026-10-30",
-        "2026-11-10"
+        "2026-11-11"
       ],
       "values": [
         19123.58,
@@ -18757,7 +18757,7 @@
         53185.9,
         50906.05,
         51770.31,
-        52231.89
+        52486.49
       ],
       "freq": "monthly"
     }
