@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T02:08:44Z",
+  "updated": "2026-11-13T01:43:15Z",
   "metrics": {
     "gdp": {
       "value": 3.4,
@@ -143,7 +143,7 @@
     },
     "ffr": {
       "value": 3.88,
-      "date": "2026-11-09",
+      "date": "2026-11-11",
       "label": "Nov 2026",
       "display": "3.88%",
       "reading": "Nov 2026: 3.88%, unchanged from 3.88% in Nov 2026 \u2014 its highest reading in 12 months.",
@@ -173,13 +173,13 @@
       ]
     },
     "ten": {
-      "value": 4.88,
-      "date": "2026-11-09",
+      "value": 4.98,
+      "date": "2026-11-10",
       "label": "Nov 2026",
-      "display": "4.88%",
-      "reading": "Nov 2026: 4.88%, up from 4.86% in Nov 2026.",
+      "display": "4.98%",
+      "reading": "Nov 2026: 4.98%, up from 4.88% in Nov 2026.",
       "change": {
-        "text": "\u2191 from 4.86%",
+        "text": "\u2191 from 4.88%",
         "sign": "flat"
       }
     },
@@ -281,16 +281,22 @@
       ]
     },
     "sp500": {
-      "value": 7520.93,
-      "date": "2026-11-10",
+      "value": 7619.38,
+      "date": "2026-11-11",
       "label": "Nov 2026",
-      "display": "7,521",
-      "reading": "Nov 2026: 7,521, down from 7,580 in Oct 2026.",
+      "display": "7,619",
+      "reading": "Nov 2026: 7,619, up from 7,580 in Oct 2026.",
       "change": {
-        "text": "\u2191 9.9% YTD",
+        "text": "\u2191 11.3% YTD",
         "sign": "pos"
       },
       "news": [
+        {
+          "title": "Stocks end higher as CoreWeave results ease AI spending worries",
+          "url": "https://www.reuters.com/business/sp-500-nasdaq-futures-rise-after-coreweave-soothes-ai-spending-fears-2026-11-11/",
+          "source": "Reuters",
+          "date": "2026-11-11"
+        },
         {
           "title": "3 Reasons a Top Stock Strategist Sees a Big Year-End Rally for S&P 500",
           "url": "https://www.businessinsider.com/stock-market-rally-prediction-sp500-gain-oil-prices-2026-11",
@@ -298,27 +304,21 @@
           "date": "2026-11-11"
         },
         {
-          "title": "10 Stocks Rode Trump Era - What Happens As MAGA 'Disintegrates'?",
-          "url": "https://www.investors.com/etfs-and-funds/sectors/sp500-stocks-rode-trump-era-what-happens-as-maga-disintegrates/",
-          "source": "Investor's Business Daily",
-          "date": "2026-11-11"
-        },
-        {
-          "title": "Global markets broadly rise on AI chip demand despite Wall Street's retreat on inflation data",
-          "url": "https://www.ajc.com/news/2026/11/asian-markets-mostly-gain-on-ai-chip-demand-despite-wall-streets-retreat-on-inflation-data/",
+          "title": "Wall Street erases its early loss after absorbing big swings for Nvidia's stock and oil prices",
+          "url": "https://www.ajc.com/news/2026/11/wall-street-steadies-after-absorbing-big-swings-for-nvidias-stock-and-oil-prices/",
           "source": "The Atlanta Journal-Constitution",
-          "date": "2026-11-11"
+          "date": "2026-11-12"
         }
       ]
     },
     "nasdaq": {
-      "value": 25065.87,
-      "date": "2026-11-10",
+      "value": 25466.19,
+      "date": "2026-11-11",
       "label": "Nov 2026",
-      "display": "25,066",
-      "reading": "Nov 2026: 25,066, down from 25,437 in Oct 2026.",
+      "display": "25,466",
+      "reading": "Nov 2026: 25,466, up from 25,437 in Oct 2026.",
       "change": {
-        "text": "\u2191 7.8% YTD",
+        "text": "\u2191 9.6% YTD",
         "sign": "pos"
       },
       "news": [
@@ -329,47 +329,47 @@
           "date": "2026-11-06"
         },
         {
-          "title": "SK Hynix, Samsung, SoftBank",
-          "url": "https://www.cnbc.com/2026/11/06/tech-stocks-sk-hynix-samsung-softbank.html",
-          "source": "CNBC",
-          "date": "2026-11-06"
+          "title": "Nasdaq surges as CoreWeave earnings, Anthropic IPO help tech trade bounce back after Nvidia affair drama",
+          "url": "https://nypost.com/2026/11/11/business/nasdaq-surges-as-coreweave-earnings-anthropic-ipo-help-tech-trade-bounce-back-after-nvidia-affair-drama/",
+          "source": "New York Post",
+          "date": "2026-11-11"
         },
         {
-          "title": "Nasdaq rebounds after worst selloff in 19 months",
-          "url": "https://signalscv.com/2026/11/nasdaq-rebounds-after-worst-selloff-in-19-months/",
-          "source": "Santa Clarita Valley Signal",
-          "date": "2026-11-06"
+          "title": "Nasdaq Adds 400 Points as CoreWeave Pops: Stock Market Today",
+          "url": "https://www.kiplinger.com/investing/stocks/nasdaq-adds-400-points-after-coreweave-earnings-stock-market-today",
+          "source": "Kiplinger",
+          "date": "2026-11-11"
         }
       ]
     },
     "dow": {
-      "value": 52486.49,
-      "date": "2026-11-11",
+      "value": 52297.09,
+      "date": "2026-11-12",
       "label": "Nov 2026",
-      "display": "52,486",
-      "reading": "Nov 2026: 52,486, up from 51,770 in Oct 2026.",
+      "display": "52,297",
+      "reading": "Nov 2026: 52,297, up from 51,770 in Oct 2026.",
       "change": {
-        "text": "\u2191 9.2% YTD",
+        "text": "\u2191 8.8% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "Global markets broadly rise on AI chip demand despite Wall Street's retreat on inflation data",
-          "url": "https://www.ajc.com/news/2026/11/asian-markets-mostly-gain-on-ai-chip-demand-despite-wall-streets-retreat-on-inflation-data/",
+          "title": "Wall Street erases its early loss after absorbing big swings for Nvidia's stock and oil prices",
+          "url": "https://www.ajc.com/news/2026/11/wall-street-steadies-after-absorbing-big-swings-for-nvidias-stock-and-oil-prices/",
           "source": "The Atlanta Journal-Constitution",
-          "date": "2026-11-11"
+          "date": "2026-11-12"
         },
         {
-          "title": "Asian markets mostly gain on AI chip demand despite Wall Street's retreat on inflation data",
-          "url": "https://www.ajc.com/news/2026/11/asian-shares-mostly-rise-on-ai-chip-demand-despite-wall-streets-retreat-on-inflation-data/",
+          "title": "A plunge for Nvidia's stock drags Wall Street lower",
+          "url": "https://www.ajc.com/news/2026/11/world-shares-are-mixed-as-nvidias-troubles-weigh-on-ai-stocks/",
           "source": "The Atlanta Journal-Constitution",
-          "date": "2026-11-11"
+          "date": "2026-11-12"
         },
         {
-          "title": "Rebounding AI stocks lift Wall Street",
-          "url": "https://www.ajc.com/news/2026/11/rebounding-ai-stocks-lift-wall-street/",
+          "title": "Wall Street shakes with swings for Nvidia and oil prices but recovers most of its early losses",
+          "url": "https://www.ajc.com/news/2026/11/wall-street-shakes-with-swings-for-nvidia-and-oil-prices-but-recovers-most-of-its-early-losses/",
           "source": "The Atlanta Journal-Constitution",
-          "date": "2026-11-11"
+          "date": "2026-11-12"
         }
       ]
     }
@@ -6249,7 +6249,9 @@
         "2026-11-06",
         "2026-11-07",
         "2026-11-08",
-        "2026-11-09"
+        "2026-11-09",
+        "2026-11-10",
+        "2026-11-11"
       ],
       "values": [
         0.06,
@@ -10582,6 +10584,8 @@
         3.88,
         3.88,
         3.88,
+        3.88,
+        3.88,
         3.88
       ],
       "freq": "monthly"
@@ -13552,7 +13556,8 @@
         "2026-11-04",
         "2026-11-05",
         "2026-11-06",
-        "2026-11-09"
+        "2026-11-09",
+        "2026-11-10"
       ],
       "values": [
         2.12,
@@ -16519,7 +16524,8 @@
         4.9,
         4.84,
         4.86,
-        4.88
+        4.88,
+        4.98
       ],
       "freq": "monthly"
     },
@@ -18092,7 +18098,7 @@
         "2026-08-31",
         "2026-09-30",
         "2026-10-30",
-        "2026-11-10"
+        "2026-11-11"
       ],
       "values": [
         2198.81,
@@ -18215,7 +18221,7 @@
         7686.14,
         7651.54,
         7580.07,
-        7520.93
+        7619.38
       ],
       "freq": "monthly"
     },
@@ -18363,7 +18369,7 @@
         "2026-08-31",
         "2026-09-30",
         "2026-10-30",
-        "2026-11-10"
+        "2026-11-11"
       ],
       "values": [
         4635.24,
@@ -18508,7 +18514,7 @@
         26370.89,
         26861.06,
         25437.0,
-        25065.87
+        25466.19
       ],
       "freq": "monthly"
     },
@@ -18634,7 +18640,7 @@
         "2026-08-31",
         "2026-09-30",
         "2026-10-30",
-        "2026-11-11"
+        "2026-11-12"
       ],
       "values": [
         19123.58,
@@ -18757,7 +18763,7 @@
         53185.9,
         50906.05,
         51770.31,
-        52486.49
+        52297.09
       ],
       "freq": "monthly"
     }
