@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-13T01:43:15Z",
+  "updated": "2026-11-14T01:20:07Z",
   "metrics": {
     "gdp": {
       "value": 3.4,
@@ -143,7 +143,7 @@
     },
     "ffr": {
       "value": 3.88,
-      "date": "2026-11-11",
+      "date": "2026-11-12",
       "label": "Nov 2026",
       "display": "3.88%",
       "reading": "Nov 2026: 3.88%, unchanged from 3.88% in Nov 2026 \u2014 its highest reading in 12 months.",
@@ -153,33 +153,33 @@
       },
       "news": [
         {
-          "title": "Fed\u2019s Waller Backs December Rate Hike, Open to Larger Move (1)",
-          "url": "https://news.bloombergtax.com/daily-tax-report/feds-waller-backs-december-rate-hike-says-open-to-larger-move",
-          "source": "Bloomberg Tax News",
-          "date": "2026-11-10"
-        },
-        {
-          "title": "Bitcoin Price Targets $74,000 After Fed\u2019s Waller Supports December Rate Hike",
-          "url": "https://cointelegraph.com/markets/bitcoin-price-eyes-74k-fed-rate-hike-expected-after-waller-speech",
-          "source": "Cointelegraph",
-          "date": "2026-11-10"
-        },
-        {
-          "title": "Fed seen sticking to December rate hike after jobs data",
-          "url": "https://www.reuters.com/business/traders-raise-bets-fed-rate-hike-after-jobs-report-2026-11-06/",
+          "title": "Fed's Williams says central bank has 'work to do' to get inflation back on target",
+          "url": "https://www.reuters.com/business/feds-williams-says-central-bank-has-work-do-get-inflation-back-target-2026-11-13/",
           "source": "Reuters",
-          "date": "2026-11-06"
+          "date": "2026-11-13"
+        },
+        {
+          "title": "Treasuries Fall as Traders Boost Wagers on Fed Rate Hikes (2)",
+          "url": "https://news.bloombergtax.com/daily-tax-report/treasuries-fall-as-traders-boost-wagers-on-fed-rate-hikes-2",
+          "source": "Bloomberg Tax News",
+          "date": "2026-11-12"
+        },
+        {
+          "title": "Bank of Mexico rate cuts sends wrong message, says deputy governor Heath",
+          "url": "https://www.reuters.com/world/americas/exclusive-bank-mexico-rate-cuts-sends-wrong-message-says-deputy-governor-heath-2026-11-12/",
+          "source": "Reuters",
+          "date": "2026-11-12"
         }
       ]
     },
     "ten": {
-      "value": 4.98,
-      "date": "2026-11-10",
+      "value": 5.1,
+      "date": "2026-11-12",
       "label": "Nov 2026",
-      "display": "4.98%",
-      "reading": "Nov 2026: 4.98%, up from 4.88% in Nov 2026.",
+      "display": "5.10%",
+      "reading": "Nov 2026: 5.10%, up from 4.98% in Nov 2026 \u2014 its highest reading in 12 months.",
       "change": {
-        "text": "\u2191 from 4.88%",
+        "text": "\u2191 from 4.98%",
         "sign": "flat"
       }
     },
@@ -281,13 +281,13 @@
       ]
     },
     "sp500": {
-      "value": 7619.38,
-      "date": "2026-11-11",
+      "value": 7561.67,
+      "date": "2026-11-13",
       "label": "Nov 2026",
-      "display": "7,619",
-      "reading": "Nov 2026: 7,619, up from 7,580 in Oct 2026.",
+      "display": "7,562",
+      "reading": "Nov 2026: 7,562, down from 7,580 in Oct 2026.",
       "change": {
-        "text": "\u2191 11.3% YTD",
+        "text": "\u2191 10.5% YTD",
         "sign": "pos"
       },
       "news": [
@@ -304,21 +304,21 @@
           "date": "2026-11-11"
         },
         {
-          "title": "Wall Street erases its early loss after absorbing big swings for Nvidia's stock and oil prices",
-          "url": "https://www.ajc.com/news/2026/11/wall-street-steadies-after-absorbing-big-swings-for-nvidias-stock-and-oil-prices/",
+          "title": "Stocks sway as Wall Street heads for a winning week after several turbulent days",
+          "url": "https://www.ajc.com/news/2026/11/stocks-sway-as-wall-street-heads-for-a-winning-week-after-several-turbulent-days/",
           "source": "The Atlanta Journal-Constitution",
-          "date": "2026-11-12"
+          "date": "2026-11-13"
         }
       ]
     },
     "nasdaq": {
-      "value": 25466.19,
-      "date": "2026-11-11",
+      "value": 25366.09,
+      "date": "2026-11-12",
       "label": "Nov 2026",
-      "display": "25,466",
-      "reading": "Nov 2026: 25,466, up from 25,437 in Oct 2026.",
+      "display": "25,366",
+      "reading": "Nov 2026: 25,366, down from 25,437 in Oct 2026.",
       "change": {
-        "text": "\u2191 9.6% YTD",
+        "text": "\u2191 9.1% YTD",
         "sign": "pos"
       },
       "news": [
@@ -343,31 +343,31 @@
       ]
     },
     "dow": {
-      "value": 52297.09,
-      "date": "2026-11-12",
+      "value": 52347.55,
+      "date": "2026-11-13",
       "label": "Nov 2026",
-      "display": "52,297",
-      "reading": "Nov 2026: 52,297, up from 51,770 in Oct 2026.",
+      "display": "52,348",
+      "reading": "Nov 2026: 52,348, up from 51,770 in Oct 2026.",
       "change": {
-        "text": "\u2191 8.8% YTD",
+        "text": "\u2191 8.9% YTD",
         "sign": "pos"
       },
       "news": [
         {
+          "title": "Stocks sway as Wall Street heads for a winning week after several turbulent days",
+          "url": "https://www.ajc.com/news/2026/11/stocks-sway-as-wall-street-heads-for-a-winning-week-after-several-turbulent-days/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-11-13"
+        },
+        {
+          "title": "Stocks Fall As Huang Exits Nvidia; These Areas Shine",
+          "url": "https://www.investors.com/market-trend/the-big-picture/stock-market-falls-as-jensen-huang-exits-nvidia-small-caps-dive-but-these-groups-hold-up/",
+          "source": "Investor's Business Daily",
+          "date": "2026-11-12"
+        },
+        {
           "title": "Wall Street erases its early loss after absorbing big swings for Nvidia's stock and oil prices",
           "url": "https://www.ajc.com/news/2026/11/wall-street-steadies-after-absorbing-big-swings-for-nvidias-stock-and-oil-prices/",
-          "source": "The Atlanta Journal-Constitution",
-          "date": "2026-11-12"
-        },
-        {
-          "title": "A plunge for Nvidia's stock drags Wall Street lower",
-          "url": "https://www.ajc.com/news/2026/11/world-shares-are-mixed-as-nvidias-troubles-weigh-on-ai-stocks/",
-          "source": "The Atlanta Journal-Constitution",
-          "date": "2026-11-12"
-        },
-        {
-          "title": "Wall Street shakes with swings for Nvidia and oil prices but recovers most of its early losses",
-          "url": "https://www.ajc.com/news/2026/11/wall-street-shakes-with-swings-for-nvidia-and-oil-prices-but-recovers-most-of-its-early-losses/",
           "source": "The Atlanta Journal-Constitution",
           "date": "2026-11-12"
         }
@@ -6251,7 +6251,8 @@
         "2026-11-08",
         "2026-11-09",
         "2026-11-10",
-        "2026-11-11"
+        "2026-11-11",
+        "2026-11-12"
       ],
       "values": [
         0.06,
@@ -10586,6 +10587,7 @@
         3.88,
         3.88,
         3.88,
+        3.88,
         3.88
       ],
       "freq": "monthly"
@@ -13557,7 +13559,8 @@
         "2026-11-05",
         "2026-11-06",
         "2026-11-09",
-        "2026-11-10"
+        "2026-11-10",
+        "2026-11-12"
       ],
       "values": [
         2.12,
@@ -16525,7 +16528,8 @@
         4.84,
         4.86,
         4.88,
-        4.98
+        4.98,
+        5.1
       ],
       "freq": "monthly"
     },
@@ -18098,7 +18102,7 @@
         "2026-08-31",
         "2026-09-30",
         "2026-10-30",
-        "2026-11-11"
+        "2026-11-13"
       ],
       "values": [
         2198.81,
@@ -18221,7 +18225,7 @@
         7686.14,
         7651.54,
         7580.07,
-        7619.38
+        7561.67
       ],
       "freq": "monthly"
     },
@@ -18369,7 +18373,7 @@
         "2026-08-31",
         "2026-09-30",
         "2026-10-30",
-        "2026-11-11"
+        "2026-11-12"
       ],
       "values": [
         4635.24,
@@ -18514,7 +18518,7 @@
         26370.89,
         26861.06,
         25437.0,
-        25466.19
+        25366.09
       ],
       "freq": "monthly"
     },
@@ -18640,7 +18644,7 @@
         "2026-08-31",
         "2026-09-30",
         "2026-10-30",
-        "2026-11-12"
+        "2026-11-13"
       ],
       "values": [
         19123.58,
@@ -18763,7 +18767,7 @@
         53185.9,
         50906.05,
         51770.31,
-        52297.09
+        52347.55
       ],
       "freq": "monthly"
     }
