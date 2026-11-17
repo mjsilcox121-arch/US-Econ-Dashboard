@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-14T01:20:07Z",
+  "updated": "2026-11-17T03:29:41Z",
   "metrics": {
     "gdp": {
       "value": 3.4,
@@ -143,7 +143,7 @@
     },
     "ffr": {
       "value": 3.88,
-      "date": "2026-11-12",
+      "date": "2026-11-13",
       "label": "Nov 2026",
       "display": "3.88%",
       "reading": "Nov 2026: 3.88%, unchanged from 3.88% in Nov 2026 \u2014 its highest reading in 12 months.",
@@ -173,13 +173,13 @@
       ]
     },
     "ten": {
-      "value": 5.1,
-      "date": "2026-11-12",
+      "value": 5.15,
+      "date": "2026-11-13",
       "label": "Nov 2026",
-      "display": "5.10%",
-      "reading": "Nov 2026: 5.10%, up from 4.98% in Nov 2026 \u2014 its highest reading in 12 months.",
+      "display": "5.15%",
+      "reading": "Nov 2026: 5.15%, up from 5.10% in Nov 2026 \u2014 its highest reading in 12 months.",
       "change": {
-        "text": "\u2191 from 4.98%",
+        "text": "\u2191 from 5.10%",
         "sign": "flat"
       }
     },
@@ -271,88 +271,88 @@
           "url": "https://seekingalpha.com/article/4964460-consumer-sentiment-recovers-significantly-in-november",
           "source": "Seeking Alpha",
           "date": "2026-11-07"
-        },
-        {
-          "title": "Consumer Sentiment At 5-Month Low",
-          "url": "https://seekingalpha.com/article/4957153-consumer-sentiment-at-5-month-low",
-          "source": "Seeking Alpha",
-          "date": "2026-10-24"
         }
       ]
     },
     "sp500": {
-      "value": 7561.67,
-      "date": "2026-11-13",
+      "value": 7399.5,
+      "date": "2026-11-17",
       "label": "Nov 2026",
-      "display": "7,562",
-      "reading": "Nov 2026: 7,562, down from 7,580 in Oct 2026.",
+      "display": "7,400",
+      "reading": "Nov 2026: 7,400, down from 7,580 in Oct 2026.",
       "change": {
-        "text": "\u2191 10.5% YTD",
+        "text": "\u2191 8.1% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "Stocks end higher as CoreWeave results ease AI spending worries",
-          "url": "https://www.reuters.com/business/sp-500-nasdaq-futures-rise-after-coreweave-soothes-ai-spending-fears-2026-11-11/",
-          "source": "Reuters",
-          "date": "2026-11-11"
+          "title": "Canada stocks could gain from U.S. midterm tariff shift",
+          "url": "https://www.cnbc.com/2026/11/14/canada-stocks-us-midterms-tariffs.html",
+          "source": "CNBC",
+          "date": "2026-11-14"
         },
         {
-          "title": "3 Reasons a Top Stock Strategist Sees a Big Year-End Rally for S&P 500",
-          "url": "https://www.businessinsider.com/stock-market-rally-prediction-sp500-gain-oil-prices-2026-11",
-          "source": "Business Insider",
-          "date": "2026-11-11"
-        },
-        {
-          "title": "Stocks sway as Wall Street heads for a winning week after several turbulent days",
-          "url": "https://www.ajc.com/news/2026/11/stocks-sway-as-wall-street-heads-for-a-winning-week-after-several-turbulent-days/",
+          "title": "Stocks decline in Asia as investor concerns over Nvidia fallout extend into another week",
+          "url": "https://www.ajc.com/news/2026/11/stocks-decline-in-asia-as-investor-concerns-over-nvidia-fallout-extend-into-another-week/",
           "source": "The Atlanta Journal-Constitution",
+          "date": "2026-11-16"
+        },
+        {
+          "title": "How major US stock indexes fared Friday 11",
+          "url": "https://wtop.com/national/2026/11/how-major-us-stock-indexes-fared-friday-11-13-2026/",
+          "source": "WTOP",
           "date": "2026-11-13"
         }
       ]
     },
     "nasdaq": {
-      "value": 25366.09,
-      "date": "2026-11-12",
+      "value": 25136.27,
+      "date": "2026-11-13",
       "label": "Nov 2026",
-      "display": "25,366",
-      "reading": "Nov 2026: 25,366, down from 25,437 in Oct 2026.",
+      "display": "25,136",
+      "reading": "Nov 2026: 25,136, down from 25,437 in Oct 2026.",
       "change": {
-        "text": "\u2191 9.1% YTD",
+        "text": "\u2191 8.2% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "Nasdaq rebounds as chips stocks recover from steep losses",
-          "url": "https://www.reuters.com/business/nasdaq-futures-rise-after-steep-ai-selloff-chip-stocks-stabilize-2026-11-06/",
-          "source": "Reuters",
-          "date": "2026-11-06"
+          "title": "Wall Street Slides As Chip Stocks Extend Selloff. Nasdaq Takes Biggest Hit Despite Cooler Inflation.",
+          "url": "https://www.ibtimes.com/wall-street-nvidia-selloff-weekly-rebound-3809754",
+          "source": "International Business Times",
+          "date": "2026-11-13"
+        },
+        {
+          "title": "Nasdaq Drops Friday But Ends the Week Up: Stock Market Today",
+          "url": "https://www.kiplinger.com/investing/stocks/nasdaq-drops-friday-on-nvidia-fallout-but-ends-the-week-up-stock-market-today",
+          "source": "Kiplinger",
+          "date": "2026-11-13"
         },
         {
           "title": "Nasdaq surges as CoreWeave earnings, Anthropic IPO help tech trade bounce back after Nvidia affair drama",
           "url": "https://nypost.com/2026/11/11/business/nasdaq-surges-as-coreweave-earnings-anthropic-ipo-help-tech-trade-bounce-back-after-nvidia-affair-drama/",
           "source": "New York Post",
           "date": "2026-11-11"
-        },
-        {
-          "title": "Nasdaq Adds 400 Points as CoreWeave Pops: Stock Market Today",
-          "url": "https://www.kiplinger.com/investing/stocks/nasdaq-adds-400-points-after-coreweave-earnings-stock-market-today",
-          "source": "Kiplinger",
-          "date": "2026-11-11"
         }
       ]
     },
     "dow": {
-      "value": 52347.55,
-      "date": "2026-11-13",
+      "value": 51608.17,
+      "date": "2026-11-16",
       "label": "Nov 2026",
-      "display": "52,348",
-      "reading": "Nov 2026: 52,348, up from 51,770 in Oct 2026.",
+      "display": "51,608",
+      "reading": "Nov 2026: 51,608, down from 51,770 in Oct 2026.",
       "change": {
-        "text": "\u2191 8.9% YTD",
+        "text": "\u2191 7.4% YTD",
         "sign": "pos"
       },
       "news": [
+        {
+          "title": "Stocks decline in Asia as investor concerns over Nvidia fallout extend into another week",
+          "url": "https://www.ajc.com/news/2026/11/stocks-decline-in-asia-as-investor-concerns-over-nvidia-fallout-extend-into-another-week/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-11-16"
+        },
         {
           "title": "Stocks sway as Wall Street heads for a winning week after several turbulent days",
           "url": "https://www.ajc.com/news/2026/11/stocks-sway-as-wall-street-heads-for-a-winning-week-after-several-turbulent-days/",
@@ -363,12 +363,6 @@
           "title": "Stocks Fall As Huang Exits Nvidia; These Areas Shine",
           "url": "https://www.investors.com/market-trend/the-big-picture/stock-market-falls-as-jensen-huang-exits-nvidia-small-caps-dive-but-these-groups-hold-up/",
           "source": "Investor's Business Daily",
-          "date": "2026-11-12"
-        },
-        {
-          "title": "Wall Street erases its early loss after absorbing big swings for Nvidia's stock and oil prices",
-          "url": "https://www.ajc.com/news/2026/11/wall-street-steadies-after-absorbing-big-swings-for-nvidias-stock-and-oil-prices/",
-          "source": "The Atlanta Journal-Constitution",
           "date": "2026-11-12"
         }
       ]
@@ -6252,7 +6246,8 @@
         "2026-11-09",
         "2026-11-10",
         "2026-11-11",
-        "2026-11-12"
+        "2026-11-12",
+        "2026-11-13"
       ],
       "values": [
         0.06,
@@ -10588,6 +10583,7 @@
         3.88,
         3.88,
         3.88,
+        3.88,
         3.88
       ],
       "freq": "monthly"
@@ -13560,7 +13556,8 @@
         "2026-11-06",
         "2026-11-09",
         "2026-11-10",
-        "2026-11-12"
+        "2026-11-12",
+        "2026-11-13"
       ],
       "values": [
         2.12,
@@ -16529,7 +16526,8 @@
         4.86,
         4.88,
         4.98,
-        5.1
+        5.1,
+        5.15
       ],
       "freq": "monthly"
     },
@@ -17982,114 +17980,6 @@
     },
     "sp500": {
       "dates": [
-        "2016-11-30",
-        "2016-12-30",
-        "2017-01-31",
-        "2017-02-28",
-        "2017-03-31",
-        "2017-04-28",
-        "2017-05-31",
-        "2017-06-30",
-        "2017-07-31",
-        "2017-08-31",
-        "2017-09-29",
-        "2017-10-31",
-        "2017-11-30",
-        "2017-12-29",
-        "2018-01-31",
-        "2018-02-28",
-        "2018-03-29",
-        "2018-04-30",
-        "2018-05-31",
-        "2018-06-29",
-        "2018-07-31",
-        "2018-08-31",
-        "2018-09-28",
-        "2018-10-31",
-        "2018-11-30",
-        "2018-12-31",
-        "2019-01-31",
-        "2019-02-28",
-        "2019-03-29",
-        "2019-04-30",
-        "2019-05-31",
-        "2019-06-28",
-        "2019-07-31",
-        "2019-08-30",
-        "2019-09-30",
-        "2019-10-31",
-        "2019-11-29",
-        "2019-12-31",
-        "2020-01-31",
-        "2020-02-28",
-        "2020-03-31",
-        "2020-04-30",
-        "2020-05-29",
-        "2020-06-30",
-        "2020-07-31",
-        "2020-08-31",
-        "2020-09-30",
-        "2020-10-30",
-        "2020-11-30",
-        "2020-12-31",
-        "2021-01-29",
-        "2021-02-26",
-        "2021-03-31",
-        "2021-04-30",
-        "2021-05-28",
-        "2021-06-30",
-        "2021-07-30",
-        "2021-08-31",
-        "2021-09-30",
-        "2021-10-29",
-        "2021-11-30",
-        "2021-12-31",
-        "2022-01-31",
-        "2022-02-28",
-        "2022-03-31",
-        "2022-04-29",
-        "2022-05-31",
-        "2022-06-30",
-        "2022-07-29",
-        "2022-08-31",
-        "2022-09-30",
-        "2022-10-31",
-        "2022-11-30",
-        "2022-12-30",
-        "2023-01-31",
-        "2023-02-28",
-        "2023-03-31",
-        "2023-04-28",
-        "2023-05-31",
-        "2023-06-30",
-        "2023-07-31",
-        "2023-08-31",
-        "2023-09-29",
-        "2023-10-31",
-        "2023-11-30",
-        "2023-12-29",
-        "2024-01-31",
-        "2024-02-29",
-        "2024-03-28",
-        "2024-04-30",
-        "2024-05-31",
-        "2024-06-28",
-        "2024-07-31",
-        "2024-08-30",
-        "2024-09-30",
-        "2024-10-31",
-        "2024-11-29",
-        "2024-12-31",
-        "2025-01-31",
-        "2025-02-28",
-        "2025-03-31",
-        "2025-04-30",
-        "2025-05-30",
-        "2025-06-30",
-        "2025-07-31",
-        "2025-08-29",
-        "2025-09-30",
-        "2025-10-31",
         "2025-11-28",
         "2025-12-31",
         "2026-01-30",
@@ -18102,117 +17992,9 @@
         "2026-08-31",
         "2026-09-30",
         "2026-10-30",
-        "2026-11-13"
+        "2026-11-17"
       ],
       "values": [
-        2198.81,
-        2238.83,
-        2278.87,
-        2363.64,
-        2362.72,
-        2384.2,
-        2411.8,
-        2423.41,
-        2470.3,
-        2471.65,
-        2519.36,
-        2575.26,
-        2647.58,
-        2673.61,
-        2823.81,
-        2713.83,
-        2640.87,
-        2648.05,
-        2705.27,
-        2718.37,
-        2816.29,
-        2901.52,
-        2913.98,
-        2711.74,
-        2760.17,
-        2506.85,
-        2704.1,
-        2784.49,
-        2834.4,
-        2945.83,
-        2752.06,
-        2941.76,
-        2980.38,
-        2926.46,
-        2976.74,
-        3037.56,
-        3140.98,
-        3230.78,
-        3225.52,
-        2954.22,
-        2584.59,
-        2912.43,
-        3044.31,
-        3100.29,
-        3271.12,
-        3500.31,
-        3363.0,
-        3269.96,
-        3621.63,
-        3756.07,
-        3714.24,
-        3811.15,
-        3972.89,
-        4181.17,
-        4204.11,
-        4297.5,
-        4395.26,
-        4522.68,
-        4307.54,
-        4605.38,
-        4567.0,
-        4766.18,
-        4515.55,
-        4373.94,
-        4530.41,
-        4131.93,
-        4132.15,
-        3785.38,
-        4130.29,
-        3955.0,
-        3585.62,
-        3871.98,
-        4080.11,
-        3839.5,
-        4076.6,
-        3970.15,
-        4109.31,
-        4169.48,
-        4179.83,
-        4450.38,
-        4588.96,
-        4507.66,
-        4288.05,
-        4193.8,
-        4567.8,
-        4769.83,
-        4845.65,
-        5096.27,
-        5254.35,
-        5035.69,
-        5277.51,
-        5460.48,
-        5522.3,
-        5648.4,
-        5762.48,
-        5705.45,
-        6032.38,
-        5881.63,
-        6040.53,
-        5954.5,
-        5611.85,
-        5569.06,
-        5911.69,
-        6204.95,
-        6339.39,
-        6460.26,
-        6688.46,
-        6840.2,
         6849.09,
         6845.5,
         6939.03,
@@ -18225,7 +18007,7 @@
         7686.14,
         7651.54,
         7580.07,
-        7561.67
+        7399.5
       ],
       "freq": "monthly"
     },
@@ -18373,7 +18155,7 @@
         "2026-08-31",
         "2026-09-30",
         "2026-10-30",
-        "2026-11-12"
+        "2026-11-13"
       ],
       "values": [
         4635.24,
@@ -18518,7 +18300,7 @@
         26370.89,
         26861.06,
         25437.0,
-        25366.09
+        25136.27
       ],
       "freq": "monthly"
     },
@@ -18644,7 +18426,7 @@
         "2026-08-31",
         "2026-09-30",
         "2026-10-30",
-        "2026-11-13"
+        "2026-11-16"
       ],
       "values": [
         19123.58,
@@ -18767,7 +18549,7 @@
         53185.9,
         50906.05,
         51770.31,
-        52347.55
+        51608.17
       ],
       "freq": "monthly"
     }
