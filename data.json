@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17T03:29:41Z",
+  "updated": "2026-11-18T02:46:35Z",
   "metrics": {
     "gdp": {
       "value": 3.4,
@@ -143,7 +143,7 @@
     },
     "ffr": {
       "value": 3.88,
-      "date": "2026-11-13",
+      "date": "2026-11-16",
       "label": "Nov 2026",
       "display": "3.88%",
       "reading": "Nov 2026: 3.88%, unchanged from 3.88% in Nov 2026 \u2014 its highest reading in 12 months.",
@@ -173,13 +173,13 @@
       ]
     },
     "ten": {
-      "value": 5.15,
-      "date": "2026-11-13",
+      "value": 5.12,
+      "date": "2026-11-16",
       "label": "Nov 2026",
-      "display": "5.15%",
-      "reading": "Nov 2026: 5.15%, up from 5.10% in Nov 2026 \u2014 its highest reading in 12 months.",
+      "display": "5.12%",
+      "reading": "Nov 2026: 5.12%, down from 5.15% in Nov 2026.",
       "change": {
-        "text": "\u2191 from 5.10%",
+        "text": "\u2193 from 5.15%",
         "sign": "flat"
       }
     },
@@ -209,15 +209,29 @@
       ]
     },
     "retail": {
-      "value": 0.7708,
-      "date": "2026-09-01",
-      "label": "Sep 2026",
-      "display": "+0.8%",
-      "reading": "Sep 2026: +0.8%, down from +1.3% in Aug 2026.",
+      "value": 0.212,
+      "date": "2026-10-01",
+      "label": "Oct 2026",
+      "display": "+0.2%",
+      "reading": "Oct 2026: +0.2%, down from +0.8% in Sep 2026.",
       "change": {
-        "text": "\u2193 from +1.3%",
+        "text": "\u2193 from +0.8%",
         "sign": "neg"
-      }
+      },
+      "news": [
+        {
+          "title": "US Consumer Faces a Stress Test From Retail Sales to Walmart Earnings",
+          "url": "https://www.businessinsider.com/us-consumer-stress-test-retail-sales-walmart-target-lowes-earnings-2026-11",
+          "source": "Business Insider",
+          "date": "2026-11-17"
+        },
+        {
+          "title": "The US consumer is about to get a stress test. Investors are watching these 4 storylines.",
+          "url": "https://www.newsbreak.com/markets-insider-562170/5012010705369-the-us-consumer-is-about-to-get-a-stress-test-investors-are-watching-these-4-storylines",
+          "source": "NewsBreak",
+          "date": "2026-11-17"
+        }
+      ]
     },
     "housing": {
       "value": 1.221,
@@ -275,13 +289,13 @@
       ]
     },
     "sp500": {
-      "value": 7399.5,
-      "date": "2026-11-17",
+      "value": 7416.59,
+      "date": "2026-11-16",
       "label": "Nov 2026",
-      "display": "7,400",
-      "reading": "Nov 2026: 7,400, down from 7,580 in Oct 2026.",
+      "display": "7,417",
+      "reading": "Nov 2026: 7,417, down from 7,580 in Oct 2026.",
       "change": {
-        "text": "\u2191 8.1% YTD",
+        "text": "\u2191 8.3% YTD",
         "sign": "pos"
       },
       "news": [
@@ -292,78 +306,78 @@
           "date": "2026-11-14"
         },
         {
-          "title": "Stocks decline in Asia as investor concerns over Nvidia fallout extend into another week",
-          "url": "https://www.ajc.com/news/2026/11/stocks-decline-in-asia-as-investor-concerns-over-nvidia-fallout-extend-into-another-week/",
-          "source": "The Atlanta Journal-Constitution",
-          "date": "2026-11-16"
+          "title": "Analysts Expect 4 S&P 500 Stocks To Outgrow Nvidia Next Year",
+          "url": "https://www.investors.com/etfs-and-funds/sectors/sp500-analysts-expect-stocks-to-outgrow-nvidia-next-year/",
+          "source": "Investor's Business Daily",
+          "date": "2026-11-17"
         },
         {
-          "title": "How major US stock indexes fared Friday 11",
-          "url": "https://wtop.com/national/2026/11/how-major-us-stock-indexes-fared-friday-11-13-2026/",
-          "source": "WTOP",
-          "date": "2026-11-13"
+          "title": "Asian shares decline following stocks tumbled on Wall Street",
+          "url": "https://www.ajc.com/news/2026/11/asian-shares-decline-following-stocks-tumbled-on-wall-street/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-11-17"
         }
       ]
     },
     "nasdaq": {
-      "value": 25136.27,
-      "date": "2026-11-13",
+      "value": 24509.76,
+      "date": "2026-11-16",
       "label": "Nov 2026",
-      "display": "25,136",
-      "reading": "Nov 2026: 25,136, down from 25,437 in Oct 2026.",
+      "display": "24,510",
+      "reading": "Nov 2026: 24,510, down from 25,437 in Oct 2026.",
       "change": {
-        "text": "\u2191 8.2% YTD",
+        "text": "\u2191 5.5% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "Wall Street Slides As Chip Stocks Extend Selloff. Nasdaq Takes Biggest Hit Despite Cooler Inflation.",
-          "url": "https://www.ibtimes.com/wall-street-nvidia-selloff-weekly-rebound-3809754",
-          "source": "International Business Times",
-          "date": "2026-11-13"
+          "title": "Nvidia and other AI stocks hold steady following their latest sell-off",
+          "url": "https://www.ajc.com/news/2026/11/wall-street-stabilizes-after-another-ai-selloff-ahead-of-nvidia-earnings/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-11-17"
         },
         {
-          "title": "Nasdaq Drops Friday But Ends the Week Up: Stock Market Today",
-          "url": "https://www.kiplinger.com/investing/stocks/nasdaq-drops-friday-on-nvidia-fallout-but-ends-the-week-up-stock-market-today",
-          "source": "Kiplinger",
-          "date": "2026-11-13"
+          "title": "US stocks declined with underperformance in the Nasdaq amid continued tech selling - Newsquawk Daily Asia-Pac Market Open",
+          "url": "https://www.zerohedge.com/markets/us-stocks-declined-underperformance-nasdaq-amid-continued-tech-selling-newsquawk-daily-asia",
+          "source": "ZeroHedge",
+          "date": "2026-11-16"
         },
         {
-          "title": "Nasdaq surges as CoreWeave earnings, Anthropic IPO help tech trade bounce back after Nvidia affair drama",
-          "url": "https://nypost.com/2026/11/11/business/nasdaq-surges-as-coreweave-earnings-anthropic-ipo-help-tech-trade-bounce-back-after-nvidia-affair-drama/",
-          "source": "New York Post",
-          "date": "2026-11-11"
+          "title": "Stocks slide to kick off major week for Wall Street",
+          "url": "https://abc17news.com/money/cnn-business-consumer/2026/11/16/stocks-slide-to-kick-off-major-week-for-wall-street/",
+          "source": "ABC17News.com",
+          "date": "2026-11-16"
         }
       ]
     },
     "dow": {
-      "value": 51608.17,
-      "date": "2026-11-16",
+      "value": 50759.42,
+      "date": "2026-11-17",
       "label": "Nov 2026",
-      "display": "51,608",
-      "reading": "Nov 2026: 51,608, down from 51,770 in Oct 2026.",
+      "display": "50,759",
+      "reading": "Nov 2026: 50,759, down from 51,770 in Oct 2026.",
       "change": {
-        "text": "\u2191 7.4% YTD",
+        "text": "\u2191 5.6% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "Stocks decline in Asia as investor concerns over Nvidia fallout extend into another week",
-          "url": "https://www.ajc.com/news/2026/11/stocks-decline-in-asia-as-investor-concerns-over-nvidia-fallout-extend-into-another-week/",
+          "title": "Wall Street shakes again as Nvidia and other jittery AI stocks swing lower",
+          "url": "https://www.ajc.com/news/2026/11/another-wipeout-hits-wall-street-as-nvidia-and-other-jittery-ai-stocks-swing-lower/",
           "source": "The Atlanta Journal-Constitution",
+          "date": "2026-11-17"
+        },
+        {
+          "title": "Nvidia and other AI stocks hold steady following their latest sell-off",
+          "url": "https://www.ajc.com/news/2026/11/wall-street-stabilizes-after-another-ai-selloff-ahead-of-nvidia-earnings/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-11-17"
+        },
+        {
+          "title": "Stocks slide to kick off major week for Wall Street",
+          "url": "https://abc17news.com/money/cnn-business-consumer/2026/11/16/stocks-slide-to-kick-off-major-week-for-wall-street/",
+          "source": "ABC17News.com",
           "date": "2026-11-16"
-        },
-        {
-          "title": "Stocks sway as Wall Street heads for a winning week after several turbulent days",
-          "url": "https://www.ajc.com/news/2026/11/stocks-sway-as-wall-street-heads-for-a-winning-week-after-several-turbulent-days/",
-          "source": "The Atlanta Journal-Constitution",
-          "date": "2026-11-13"
-        },
-        {
-          "title": "Stocks Fall As Huang Exits Nvidia; These Areas Shine",
-          "url": "https://www.investors.com/market-trend/the-big-picture/stock-market-falls-as-jensen-huang-exits-nvidia-small-caps-dive-but-these-groups-hold-up/",
-          "source": "Investor's Business Daily",
-          "date": "2026-11-12"
         }
       ]
     }
@@ -6247,7 +6261,10 @@
         "2026-11-10",
         "2026-11-11",
         "2026-11-12",
-        "2026-11-13"
+        "2026-11-13",
+        "2026-11-14",
+        "2026-11-15",
+        "2026-11-16"
       ],
       "values": [
         0.06,
@@ -10584,6 +10601,9 @@
         3.88,
         3.88,
         3.88,
+        3.88,
+        3.88,
+        3.88,
         3.88
       ],
       "freq": "monthly"
@@ -13557,7 +13577,8 @@
         "2026-11-09",
         "2026-11-10",
         "2026-11-12",
-        "2026-11-13"
+        "2026-11-13",
+        "2026-11-16"
       ],
       "values": [
         2.12,
@@ -16527,7 +16548,8 @@
         4.88,
         4.98,
         5.1,
-        5.15
+        5.15,
+        5.12
       ],
       "freq": "monthly"
     },
@@ -16964,7 +16986,8 @@
         "2026-06-01",
         "2026-07-01",
         "2026-08-01",
-        "2026-09-01"
+        "2026-09-01",
+        "2026-10-01"
       ],
       "values": [
         -0.4473,
@@ -17095,9 +17118,9 @@
         0.9329,
         0.9246,
         0.3046,
-        0.0772,
-        -0.0225,
-        0.6654,
+        0.0295,
+        -0.0267,
+        0.7176,
         0.115,
         -0.6236,
         0.869,
@@ -17106,8 +17129,9 @@
         1.0352,
         0.2028,
         -0.407,
-        1.2888,
-        0.7708
+        1.4504,
+        0.8285,
+        0.212
       ],
       "freq": "monthly"
     },
@@ -17992,7 +18016,7 @@
         "2026-08-31",
         "2026-09-30",
         "2026-10-30",
-        "2026-11-17"
+        "2026-11-16"
       ],
       "values": [
         6849.09,
@@ -18007,7 +18031,7 @@
         7686.14,
         7651.54,
         7580.07,
-        7399.5
+        7416.59
       ],
       "freq": "monthly"
     },
@@ -18155,7 +18179,7 @@
         "2026-08-31",
         "2026-09-30",
         "2026-10-30",
-        "2026-11-13"
+        "2026-11-16"
       ],
       "values": [
         4635.24,
@@ -18300,7 +18324,7 @@
         26370.89,
         26861.06,
         25437.0,
-        25136.27
+        24509.76
       ],
       "freq": "monthly"
     },
@@ -18426,7 +18450,7 @@
         "2026-08-31",
         "2026-09-30",
         "2026-10-30",
-        "2026-11-16"
+        "2026-11-17"
       ],
       "values": [
         19123.58,
@@ -18549,7 +18573,7 @@
         53185.9,
         50906.05,
         51770.31,
-        51608.17
+        50759.42
       ],
       "freq": "monthly"
     }
