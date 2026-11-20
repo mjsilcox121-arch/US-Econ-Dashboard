@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-19T02:21:46Z",
+  "updated": "2026-11-20T02:05:31Z",
   "metrics": {
     "gdp": {
       "value": 3.4,
@@ -10,21 +10,7 @@
       "change": {
         "text": "\u2191 from +2.2%",
         "sign": "pos"
-      },
-      "news": [
-        {
-          "title": "Preliminary GDP report shows strong 3.4% growth for US economy",
-          "url": "https://foxbaltimore.com/news/nation-world/preliminary-gdp-report-shows-strong-growth-for-us-economy-in-third-quarter-2026",
-          "source": "Baltimore News",
-          "date": "2026-10-29"
-        },
-        {
-          "title": "Preliminary GDP report shows strong 3.4% growth for US economy",
-          "url": "https://wjla.com/news/nation-world/preliminary-gdp-report-shows-strong-growth-for-us-economy-in-third-quarter-2026",
-          "source": "WJLA",
-          "date": "2026-10-29"
-        }
-      ]
+      }
     },
     "unemp": {
       "value": 4.1,
@@ -108,27 +94,7 @@
       "change": {
         "text": "\u2191 from +3.4%",
         "sign": "neg"
-      },
-      "news": [
-        {
-          "title": "Inflation Accelerated in October, PCE Index Shows",
-          "url": "https://www.nytimes.com/2026/10/29/business/economy/pce-inflation-economy.html",
-          "source": "The New York Times",
-          "date": "2026-10-29"
-        },
-        {
-          "title": "September PCE: Inflation rose further from the Fed's target",
-          "url": "https://www.europesays.com/3339819/",
-          "source": "EUROPE SAYS",
-          "date": "2026-10-29"
-        },
-        {
-          "title": "Q3 GDP Revs Up As PCE Inflation Gets Hotter (Live Coverage)",
-          "url": "https://www.investors.com/news/gdp-q3-core-pce-inflation-federal-reserve-sp-500/",
-          "source": "Investor's Business Daily",
-          "date": "2026-10-29"
-        }
-      ]
+      }
     },
     "corepce": {
       "value": 3.1212,
@@ -143,7 +109,7 @@
     },
     "ffr": {
       "value": 3.88,
-      "date": "2026-11-17",
+      "date": "2026-11-18",
       "label": "Nov 2026",
       "display": "3.88%",
       "reading": "Nov 2026: 3.88%, unchanged from 3.88% in Nov 2026 \u2014 its highest reading in 12 months.",
@@ -153,33 +119,33 @@
       },
       "news": [
         {
-          "title": "Fed's Williams says central bank has 'work to do' to get inflation back on target",
-          "url": "https://www.reuters.com/business/feds-williams-says-central-bank-has-work-do-get-inflation-back-target-2026-11-13/",
-          "source": "Reuters",
-          "date": "2026-11-13"
+          "title": "Fed officials expect December rate hike",
+          "url": "https://www.arkansasonline.com/news/2026/nov/19/fed-officials-expect-december-rate-hike/",
+          "source": "Arkansas Online",
+          "date": "2026-11-19"
         },
         {
-          "title": "Treasuries Fall as Traders Boost Wagers on Fed Rate Hikes (2)",
-          "url": "https://news.bloombergtax.com/daily-tax-report/treasuries-fall-as-traders-boost-wagers-on-fed-rate-hikes-2",
-          "source": "Bloomberg Tax News",
-          "date": "2026-11-12"
+          "title": "Federal Reserve Minutes: Officials Weigh 50 BPS Rate Hike Amid Inflation Concerns",
+          "url": "https://www.europesays.com/3385327/",
+          "source": "EUROPE SAYS",
+          "date": "2026-11-19"
         },
         {
-          "title": "Bank of Mexico rate cuts sends wrong message, says deputy governor Heath",
-          "url": "https://www.reuters.com/world/americas/exclusive-bank-mexico-rate-cuts-sends-wrong-message-says-deputy-governor-heath-2026-11-12/",
-          "source": "Reuters",
-          "date": "2026-11-12"
+          "title": "Dow Drops 561 Points. Nvidia Reverses Rally As Fed Signals More Rate Hikes.",
+          "url": "https://www.ibtimes.com/us-stocks-dow-falls-nvidia-earnings-fed-rate-hikes-3809938",
+          "source": "International Business Times",
+          "date": "2026-11-18"
         }
       ]
     },
     "ten": {
-      "value": 5.1,
-      "date": "2026-11-17",
+      "value": 5.07,
+      "date": "2026-11-18",
       "label": "Nov 2026",
-      "display": "5.10%",
-      "reading": "Nov 2026: 5.10%, down from 5.12% in Nov 2026.",
+      "display": "5.07%",
+      "reading": "Nov 2026: 5.07%, down from 5.10% in Nov 2026.",
       "change": {
-        "text": "\u2193 from 5.12%",
+        "text": "\u2193 from 5.10%",
         "sign": "flat"
       }
     },
@@ -242,7 +208,15 @@
       "change": {
         "text": "\u2191 from 1.191M",
         "sign": "pos"
-      }
+      },
+      "news": [
+        {
+          "title": "Housing Starts Rose By More Than Expected in October",
+          "url": "https://www.breitbart.com/economy/2026/11/18/housing-starts-4/",
+          "source": "Breitbart News Network",
+          "date": "2026-11-18"
+        }
+      ]
     },
     "trade": {
       "value": -105047.0,
@@ -294,36 +268,42 @@
       },
       "news": [
         {
-          "title": "How major US stock indexes fared Tuesday 11",
-          "url": "https://wtop.com/national/2026/11/how-major-us-stock-indexes-fared-tuesday-11-17-2026/",
-          "source": "WTOP",
-          "date": "2026-11-17"
+          "title": "Analyst plans stock exit on S&P 500 signal",
+          "url": "https://www.cnbc.com/2026/11/19/anthropic-ipo-ai-bubble-stock-market.html",
+          "source": "CNBC",
+          "date": "2026-11-19"
         },
         {
-          "title": "Analysts Expect 4 S&P 500 Stocks To Outgrow Nvidia Next Year",
-          "url": "https://www.investors.com/etfs-and-funds/sectors/sp500-analysts-expect-stocks-to-outgrow-nvidia-next-year/",
+          "title": "S&P 500: 4 Stocks Paying Plump Dividends Double - Without AI",
+          "url": "https://www.investors.com/etfs-and-funds/etfs/sp-500-stocks-paying-plump-dividends-double-and-dont-need-ai/",
           "source": "Investor's Business Daily",
-          "date": "2026-11-17"
+          "date": "2026-11-19"
         },
         {
-          "title": "Asian shares decline following stocks tumbled on Wall Street",
-          "url": "https://www.ajc.com/news/2026/11/asian-shares-decline-following-stocks-tumbled-on-wall-street/",
+          "title": "Asian stocks are mixed and US futures climb ahead of Anthropic's blockbuster IPO",
+          "url": "https://www.ajc.com/news/2026/11/asian-stocks-are-mixed-and-us-futures-climb-ahead-of-anthropics-blockbuster-ipo/",
           "source": "The Atlanta Journal-Constitution",
-          "date": "2026-11-17"
+          "date": "2026-11-19"
         }
       ]
     },
     "nasdaq": {
-      "value": 24328.38,
-      "date": "2026-11-17",
+      "value": 24429.88,
+      "date": "2026-11-18",
       "label": "Nov 2026",
-      "display": "24,328",
-      "reading": "Nov 2026: 24,328, down from 25,437 in Oct 2026.",
+      "display": "24,430",
+      "reading": "Nov 2026: 24,430, down from 25,437 in Oct 2026.",
       "change": {
-        "text": "\u2191 4.7% YTD",
+        "text": "\u2191 5.1% YTD",
         "sign": "pos"
       },
       "news": [
+        {
+          "title": "Anthropic lifts Nasdaq futures and tech stocks ahead of its record-breaking IPO",
+          "url": "https://www.cnbc.com/2026/11/19/anthropic-lifts-nasdaq-futures-and-tech-stocks-ahead-of-its-record-breaking-ipo.html",
+          "source": "CNBC",
+          "date": "2026-11-19"
+        },
         {
           "title": "Nvidia and other AI stocks hold steady following their latest sell-off",
           "url": "https://www.ajc.com/news/2026/11/wall-street-stabilizes-after-another-ai-selloff-ahead-of-nvidia-earnings/",
@@ -335,43 +315,37 @@
           "url": "https://www.zerohedge.com/markets/us-stocks-declined-underperformance-nasdaq-amid-continued-tech-selling-newsquawk-daily-asia",
           "source": "ZeroHedge",
           "date": "2026-11-16"
-        },
-        {
-          "title": "Stocks slide to kick off major week for Wall Street",
-          "url": "https://abc17news.com/money/cnn-business-consumer/2026/11/16/stocks-slide-to-kick-off-major-week-for-wall-street/",
-          "source": "ABC17News.com",
-          "date": "2026-11-16"
         }
       ]
     },
     "dow": {
-      "value": 50173.0,
+      "value": 49097.06,
       "date": "2026-11-19",
       "label": "Nov 2026",
-      "display": "50,173",
-      "reading": "Nov 2026: 50,173, down from 51,770 in Oct 2026.",
+      "display": "49,097",
+      "reading": "Nov 2026: 49,097, down from 51,770 in Oct 2026.",
       "change": {
-        "text": "\u2191 4.4% YTD",
+        "text": "\u2191 2.2% YTD",
         "sign": "pos"
       },
       "news": [
+        {
+          "title": "Wall Street zigzags as Nvidia and other AI stocks keep swinging",
+          "url": "https://www.ajc.com/news/2026/11/wall-street-zigzags-as-nvidia-and-other-ai-stocks-keep-swinging/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-11-18"
+        },
+        {
+          "title": "Wall Street wobbles as Nvidia and other AI stocks keep swinging sharply",
+          "url": "https://www.ajc.com/news/2026/11/wall-street-wobbles-as-nvidia-and-other-ai-stocks-keep-swinging-sharply/",
+          "source": "The Atlanta Journal-Constitution",
+          "date": "2026-11-18"
+        },
         {
           "title": "Wall Street shakes again as Nvidia and other jittery AI stocks swing lower",
           "url": "https://www.ajc.com/news/2026/11/another-wipeout-hits-wall-street-as-nvidia-and-other-jittery-ai-stocks-swing-lower/",
           "source": "The Atlanta Journal-Constitution",
           "date": "2026-11-17"
-        },
-        {
-          "title": "Nvidia and other AI stocks hold steady following their latest sell-off",
-          "url": "https://www.ajc.com/news/2026/11/wall-street-stabilizes-after-another-ai-selloff-ahead-of-nvidia-earnings/",
-          "source": "The Atlanta Journal-Constitution",
-          "date": "2026-11-17"
-        },
-        {
-          "title": "Stocks slide to kick off major week for Wall Street",
-          "url": "https://abc17news.com/money/cnn-business-consumer/2026/11/16/stocks-slide-to-kick-off-major-week-for-wall-street/",
-          "source": "ABC17News.com",
-          "date": "2026-11-16"
         }
       ]
     }
@@ -6259,7 +6233,8 @@
         "2026-11-14",
         "2026-11-15",
         "2026-11-16",
-        "2026-11-17"
+        "2026-11-17",
+        "2026-11-18"
       ],
       "values": [
         0.06,
@@ -10600,6 +10575,7 @@
         3.88,
         3.88,
         3.88,
+        3.88,
         3.88
       ],
       "freq": "monthly"
@@ -13575,7 +13551,8 @@
         "2026-11-12",
         "2026-11-13",
         "2026-11-16",
-        "2026-11-17"
+        "2026-11-17",
+        "2026-11-18"
       ],
       "values": [
         2.12,
@@ -16547,7 +16524,8 @@
         5.1,
         5.15,
         5.12,
-        5.1
+        5.1,
+        5.07
       ],
       "freq": "monthly"
     },
@@ -18395,7 +18373,7 @@
         "2026-08-31",
         "2026-09-30",
         "2026-10-30",
-        "2026-11-17"
+        "2026-11-18"
       ],
       "values": [
         4635.24,
@@ -18540,7 +18518,7 @@
         26370.89,
         26861.06,
         25437.0,
-        24328.38
+        24429.88
       ],
       "freq": "monthly"
     },
@@ -18789,7 +18767,7 @@
         53185.9,
         50906.05,
         51770.31,
-        50173.0
+        49097.06
       ],
       "freq": "monthly"
     }
