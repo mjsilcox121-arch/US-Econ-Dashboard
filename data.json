@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20T02:05:31Z",
+  "updated": "2026-11-21T02:01:24Z",
   "metrics": {
     "gdp": {
       "value": 3.4,
@@ -109,7 +109,7 @@
     },
     "ffr": {
       "value": 3.88,
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "label": "Nov 2026",
       "display": "3.88%",
       "reading": "Nov 2026: 3.88%, unchanged from 3.88% in Nov 2026 \u2014 its highest reading in 12 months.",
@@ -139,13 +139,13 @@
       ]
     },
     "ten": {
-      "value": 5.07,
-      "date": "2026-11-18",
+      "value": 5.04,
+      "date": "2026-11-19",
       "label": "Nov 2026",
-      "display": "5.07%",
-      "reading": "Nov 2026: 5.07%, down from 5.10% in Nov 2026.",
+      "display": "5.04%",
+      "reading": "Nov 2026: 5.04%, down from 5.07% in Nov 2026.",
       "change": {
-        "text": "\u2193 from 5.10%",
+        "text": "\u2193 from 5.07%",
         "sign": "flat"
       }
     },
@@ -238,13 +238,13 @@
       ]
     },
     "sent": {
-      "value": 48.1,
-      "date": "2026-09-01",
-      "label": "Sep 2026",
-      "display": "48.1",
-      "reading": "Sep 2026: 48.1, down from 51.7 in Aug 2026.",
+      "value": 48.0,
+      "date": "2026-10-01",
+      "label": "Oct 2026",
+      "display": "48.0",
+      "reading": "Oct 2026: 48.0, down from 48.1 in Sep 2026.",
       "change": {
-        "text": "\u2193 from 51.7",
+        "text": "\u2193 from 48.1",
         "sign": "neg"
       },
       "news": [
@@ -257,13 +257,13 @@
       ]
     },
     "sp500": {
-      "value": 7323.63,
-      "date": "2026-11-18",
+      "value": 7175.83,
+      "date": "2026-11-19",
       "label": "Nov 2026",
-      "display": "7,324",
-      "reading": "Nov 2026: 7,324, down from 7,580 in Oct 2026.",
+      "display": "7,176",
+      "reading": "Nov 2026: 7,176, down from 7,580 in Oct 2026.",
       "change": {
-        "text": "\u2191 7.0% YTD",
+        "text": "\u2191 4.8% YTD",
         "sign": "pos"
       },
       "news": [
@@ -274,30 +274,36 @@
           "date": "2026-11-19"
         },
         {
-          "title": "S&P 500: 4 Stocks Paying Plump Dividends Double - Without AI",
-          "url": "https://www.investors.com/etfs-and-funds/etfs/sp-500-stocks-paying-plump-dividends-double-and-dont-need-ai/",
-          "source": "Investor's Business Daily",
-          "date": "2026-11-19"
+          "title": "US stocks tumble, and the S&P 500 drops as sell-off for AI accelerates",
+          "url": "https://www.nydailynews.com/2026/11/20/tech-stocks-us-markets/",
+          "source": "New York Daily News",
+          "date": "2026-11-20"
         },
         {
-          "title": "Asian stocks are mixed and US futures climb ahead of Anthropic's blockbuster IPO",
-          "url": "https://www.ajc.com/news/2026/11/asian-stocks-are-mixed-and-us-futures-climb-ahead-of-anthropics-blockbuster-ipo/",
-          "source": "The Atlanta Journal-Constitution",
+          "title": "Wall Street tumbles to its longest losing streak since 2024 as the Dow drops 1,100 points",
+          "url": "https://www.adn.com/business-economy/2026/11/19/early-rally-for-wall-street-evaporates-as-market-waits-for-anthropics-stock-to-begin-trading/",
+          "source": "Anchorage Daily News",
           "date": "2026-11-19"
         }
       ]
     },
     "nasdaq": {
-      "value": 24429.88,
-      "date": "2026-11-18",
+      "value": 23879.2,
+      "date": "2026-11-19",
       "label": "Nov 2026",
-      "display": "24,430",
-      "reading": "Nov 2026: 24,430, down from 25,437 in Oct 2026.",
+      "display": "23,879",
+      "reading": "Nov 2026: 23,879, down from 25,437 in Oct 2026.",
       "change": {
-        "text": "\u2191 5.1% YTD",
+        "text": "\u2191 2.7% YTD",
         "sign": "pos"
       },
       "news": [
+        {
+          "title": "Tech wreck drags Anthropic into the red on its second day of trading",
+          "url": "https://www.cnbc.com/2026/11/20/tech-wreck-drags-anthropic-into-the-red-on-its-second-day-of-trading.html",
+          "source": "CNBC",
+          "date": "2026-11-20"
+        },
         {
           "title": "Anthropic lifts Nasdaq futures and tech stocks ahead of its record-breaking IPO",
           "url": "https://www.cnbc.com/2026/11/19/anthropic-lifts-nasdaq-futures-and-tech-stocks-ahead-of-its-record-breaking-ipo.html",
@@ -305,30 +311,30 @@
           "date": "2026-11-19"
         },
         {
-          "title": "Nvidia and other AI stocks hold steady following their latest sell-off",
-          "url": "https://www.ajc.com/news/2026/11/wall-street-stabilizes-after-another-ai-selloff-ahead-of-nvidia-earnings/",
-          "source": "The Atlanta Journal-Constitution",
-          "date": "2026-11-17"
-        },
-        {
-          "title": "US stocks declined with underperformance in the Nasdaq amid continued tech selling - Newsquawk Daily Asia-Pac Market Open",
-          "url": "https://www.zerohedge.com/markets/us-stocks-declined-underperformance-nasdaq-amid-continued-tech-selling-newsquawk-daily-asia",
-          "source": "ZeroHedge",
-          "date": "2026-11-16"
+          "title": "Bitcoin Price Slumps Under $62,000, Crashing 25% In A Month",
+          "url": "https://bitcoinmagazine.com/markets/bitcoin-price-slumps-under-62000",
+          "source": "Bitcoin Magazine",
+          "date": "2026-11-19"
         }
       ]
     },
     "dow": {
-      "value": 49097.06,
-      "date": "2026-11-19",
+      "value": 48147.33,
+      "date": "2026-11-20",
       "label": "Nov 2026",
-      "display": "49,097",
-      "reading": "Nov 2026: 49,097, down from 51,770 in Oct 2026.",
+      "display": "48,147",
+      "reading": "Nov 2026: 48,147, down from 51,770 in Oct 2026.",
       "change": {
-        "text": "\u2191 2.2% YTD",
+        "text": "\u2191 0.2% YTD",
         "sign": "pos"
       },
       "news": [
+        {
+          "title": "Dow Crashes Below 50,000 in Bloodbath as Anthropic\u2019s $2 Trillion Debut Sparks Panic Selling",
+          "url": "https://www.naturalnews.com/2026-11-20-dow-crashes-bloodbath-anthropic-debut-panic-selling.html",
+          "source": "Natural News",
+          "date": "2026-11-20"
+        },
         {
           "title": "Wall Street zigzags as Nvidia and other AI stocks keep swinging",
           "url": "https://www.ajc.com/news/2026/11/wall-street-zigzags-as-nvidia-and-other-ai-stocks-keep-swinging/",
@@ -340,12 +346,6 @@
           "url": "https://www.ajc.com/news/2026/11/wall-street-wobbles-as-nvidia-and-other-ai-stocks-keep-swinging-sharply/",
           "source": "The Atlanta Journal-Constitution",
           "date": "2026-11-18"
-        },
-        {
-          "title": "Wall Street shakes again as Nvidia and other jittery AI stocks swing lower",
-          "url": "https://www.ajc.com/news/2026/11/another-wipeout-hits-wall-street-as-nvidia-and-other-jittery-ai-stocks-swing-lower/",
-          "source": "The Atlanta Journal-Constitution",
-          "date": "2026-11-17"
         }
       ]
     }
@@ -6234,7 +6234,8 @@
         "2026-11-15",
         "2026-11-16",
         "2026-11-17",
-        "2026-11-18"
+        "2026-11-18",
+        "2026-11-19"
       ],
       "values": [
         0.06,
@@ -10576,6 +10577,7 @@
         3.88,
         3.88,
         3.88,
+        3.88,
         3.88
       ],
       "freq": "monthly"
@@ -13552,7 +13554,8 @@
         "2026-11-13",
         "2026-11-16",
         "2026-11-17",
-        "2026-11-18"
+        "2026-11-18",
+        "2026-11-19"
       ],
       "values": [
         2.12,
@@ -16525,7 +16528,8 @@
         5.15,
         5.12,
         5.1,
-        5.07
+        5.07,
+        5.04
       ],
       "freq": "monthly"
     },
@@ -17833,7 +17837,8 @@
         "2026-06-01",
         "2026-07-01",
         "2026-08-01",
-        "2026-09-01"
+        "2026-09-01",
+        "2026-10-01"
       ],
       "values": [
         98.1,
@@ -17976,7 +17981,8 @@
         49.5,
         55.2,
         51.7,
-        48.1
+        48.1,
+        48.0
       ],
       "freq": "monthly"
     },
@@ -18102,7 +18108,7 @@
         "2026-08-31",
         "2026-09-30",
         "2026-10-30",
-        "2026-11-18"
+        "2026-11-19"
       ],
       "values": [
         2198.81,
@@ -18225,7 +18231,7 @@
         7686.14,
         7651.54,
         7580.07,
-        7323.63
+        7175.83
       ],
       "freq": "monthly"
     },
@@ -18373,7 +18379,7 @@
         "2026-08-31",
         "2026-09-30",
         "2026-10-30",
-        "2026-11-18"
+        "2026-11-19"
       ],
       "values": [
         4635.24,
@@ -18518,7 +18524,7 @@
         26370.89,
         26861.06,
         25437.0,
-        24429.88
+        23879.2
       ],
       "freq": "monthly"
     },
@@ -18644,7 +18650,7 @@
         "2026-08-31",
         "2026-09-30",
         "2026-10-30",
-        "2026-11-19"
+        "2026-11-20"
       ],
       "values": [
         19123.58,
@@ -18767,7 +18773,7 @@
         53185.9,
         50906.05,
         51770.31,
-        49097.06
+        48147.33
       ],
       "freq": "monthly"
     }
