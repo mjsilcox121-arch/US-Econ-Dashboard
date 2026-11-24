@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-21T02:01:24Z",
+  "updated": "2026-11-24T05:10:13Z",
   "metrics": {
     "gdp": {
       "value": 3.4,
@@ -109,7 +109,7 @@
     },
     "ffr": {
       "value": 3.88,
-      "date": "2026-11-19",
+      "date": "2026-11-20",
       "label": "Nov 2026",
       "display": "3.88%",
       "reading": "Nov 2026: 3.88%, unchanged from 3.88% in Nov 2026 \u2014 its highest reading in 12 months.",
@@ -119,33 +119,33 @@
       },
       "news": [
         {
-          "title": "Fed officials expect December rate hike",
-          "url": "https://www.arkansasonline.com/news/2026/nov/19/fed-officials-expect-december-rate-hike/",
-          "source": "Arkansas Online",
-          "date": "2026-11-19"
+          "title": "Trump vows to work with Democrats to cap interest rates at 10%: Credit cards",
+          "url": "https://www.bostonglobe.com/2026/11/21/business/trump-democrats-credit-cards-interest-rates-10/",
+          "source": "The Boston Globe",
+          "date": "2026-11-22"
         },
         {
-          "title": "Federal Reserve Minutes: Officials Weigh 50 BPS Rate Hike Amid Inflation Concerns",
-          "url": "https://www.europesays.com/3385327/",
-          "source": "EUROPE SAYS",
-          "date": "2026-11-19"
+          "title": "Trump vows to work with Democrats to cap credit card interest rates at 10%",
+          "url": "https://www.pbs.org/newshour/politics/trump-vows-to-work-with-democrats-to-cap-credit-card-interest-rates-at-10",
+          "source": "PBS News",
+          "date": "2026-11-21"
         },
         {
-          "title": "Dow Drops 561 Points. Nvidia Reverses Rally As Fed Signals More Rate Hikes.",
-          "url": "https://www.ibtimes.com/us-stocks-dow-falls-nvidia-earnings-fed-rate-hikes-3809938",
-          "source": "International Business Times",
-          "date": "2026-11-18"
+          "title": "Hearing on Fed governor seems to be nothing more than kangaroo court",
+          "url": "https://www.latimes.com/opinion/letters-to-the-editor/story/2026-11-21/federal-reserve-lisa-cook",
+          "source": "Los Angeles Times",
+          "date": "2026-11-21"
         }
       ]
     },
     "ten": {
-      "value": 5.04,
-      "date": "2026-11-19",
+      "value": 4.92,
+      "date": "2026-11-20",
       "label": "Nov 2026",
-      "display": "5.04%",
-      "reading": "Nov 2026: 5.04%, down from 5.07% in Nov 2026.",
+      "display": "4.92%",
+      "reading": "Nov 2026: 4.92%, down from 5.04% in Nov 2026.",
       "change": {
-        "text": "\u2193 from 5.07%",
+        "text": "\u2193 from 5.04%",
         "sign": "flat"
       }
     },
@@ -250,40 +250,52 @@
       "news": [
         {
           "title": "Consumer Sentiment Recovers Significantly In November",
-          "url": "https://seekingalpha.com/article/4964460-consumer-sentiment-recovers-significantly-in-november",
+          "url": "https://seekingalpha.com/article/4970793-consumer-sentiment-recovers-significantly-in-november",
           "source": "Seeking Alpha",
-          "date": "2026-11-07"
+          "date": "2026-11-21"
+        },
+        {
+          "title": "Consumer mood improves, but is it just a post-election 'sugar high'?",
+          "url": "https://foxbaltimore.com/news/nation-world/consumer-mood-improves-but-is-it-just-a-post-election-sugar-high-university-of-michigan-surveys-of-consumer-sentiment-november-2026-midterm-election",
+          "source": "Baltimore News",
+          "date": "2026-11-20"
+        },
+        {
+          "title": "Consumer mood improves, but is it just a post-election 'sugar high'?",
+          "url": "https://wjla.com/news/nation-world/consumer-mood-improves-but-is-it-just-a-post-election-sugar-high-university-of-michigan-surveys-of-consumer-sentiment-november-2026-midterm-election",
+          "source": "WJLA",
+          "date": "2026-11-20"
         }
       ]
     },
     "sp500": {
-      "value": 7175.83,
-      "date": "2026-11-19",
+      "value": 6910.39,
+      "date": "2026-11-20",
       "label": "Nov 2026",
-      "display": "7,176",
-      "reading": "Nov 2026: 7,176, down from 7,580 in Oct 2026.",
+      "display": "6,910",
+      "reading": "Nov 2026: 6,910, down from 7,580 in Oct 2026.",
       "change": {
-        "text": "\u2191 4.8% YTD",
+        "text": "\u2191 0.9% YTD",
         "sign": "pos"
       },
       "news": [
         {
-          "title": "Analyst plans stock exit on S&P 500 signal",
-          "url": "https://www.cnbc.com/2026/11/19/anthropic-ipo-ai-bubble-stock-market.html",
-          "source": "CNBC",
-          "date": "2026-11-19"
+          "title": "Paul Krugman, Matt Stoller and Dean Baker say the AI bubble has popped. Wall Street bets on spending",
+          "url": "https://fortune.com/2026/11/23/ai-bubble-krugman-stoller-dean-baker-wall-street-recession-wealth-effect/",
+          "source": "Fortune",
+          "date": "2026-11-23"
         },
         {
-          "title": "US stocks tumble, and the S&P 500 drops as sell-off for AI accelerates",
-          "url": "https://www.nydailynews.com/2026/11/20/tech-stocks-us-markets/",
-          "source": "New York Daily News",
-          "date": "2026-11-20"
+          "title": "Stock market today: Nvidia stock soars after company reinstates Jensen Huang as CEO; Dow, S&P 500, Nasdaq surge",
+          "url": "https://www.europesays.com/3395549/",
+          "source": "EUROPE SAYS",
+          "date": "2026-11-23"
         },
         {
-          "title": "Wall Street tumbles to its longest losing streak since 2024 as the Dow drops 1,100 points",
-          "url": "https://www.adn.com/business-economy/2026/11/19/early-rally-for-wall-street-evaporates-as-market-waits-for-anthropics-stock-to-begin-trading/",
-          "source": "Anchorage Daily News",
-          "date": "2026-11-19"
+          "title": "Stocks Surge Higher on Jensen Huang's Return to Nvidia",
+          "url": "https://www.breitbart.com/politics/2026/11/23/stocks-surge-higher-on-jensen-huangs-return-to-nvidia/",
+          "source": "Breitbart News Network",
+          "date": "2026-11-23"
         }
       ]
     },
@@ -305,47 +317,47 @@
           "date": "2026-11-20"
         },
         {
-          "title": "Anthropic lifts Nasdaq futures and tech stocks ahead of its record-breaking IPO",
-          "url": "https://www.cnbc.com/2026/11/19/anthropic-lifts-nasdaq-futures-and-tech-stocks-ahead-of-its-record-breaking-ipo.html",
-          "source": "CNBC",
-          "date": "2026-11-19"
+          "title": "US stocks set to rebound after bruising sell-off",
+          "url": "https://abc17news.com/money/cnn-business-consumer/2026/11/23/us-stocks-set-to-rebound-after-bruising-sell-off/",
+          "source": "ABC17News.com",
+          "date": "2026-11-23"
         },
         {
-          "title": "Bitcoin Price Slumps Under $62,000, Crashing 25% In A Month",
-          "url": "https://bitcoinmagazine.com/markets/bitcoin-price-slumps-under-62000",
-          "source": "Bitcoin Magazine",
-          "date": "2026-11-19"
+          "title": "Bitcoin Falls Below $62,000, Down About 25% in One Month",
+          "url": "https://www.naturalnews.com/2026-11-21-bitcoin-falls-below-62k-down-one-month.html",
+          "source": "Natural News",
+          "date": "2026-11-21"
         }
       ]
     },
     "dow": {
-      "value": 48147.33,
-      "date": "2026-11-20",
+      "value": 49595.31,
+      "date": "2026-11-23",
       "label": "Nov 2026",
-      "display": "48,147",
-      "reading": "Nov 2026: 48,147, down from 51,770 in Oct 2026.",
+      "display": "49,595",
+      "reading": "Nov 2026: 49,595, down from 51,770 in Oct 2026.",
       "change": {
-        "text": "\u2191 0.2% YTD",
+        "text": "\u2191 3.2% YTD",
         "sign": "pos"
       },
       "news": [
+        {
+          "title": "Dow, S&P 500 enter correction as Nasdaq plunges in AI stock sell",
+          "url": "https://www.breitbart.com/news/dow-sp-500-enter-correction-as-nasdaq-plunges-in-ai-stock-sell-off/",
+          "source": "Breitbart News Network",
+          "date": "2026-11-20"
+        },
+        {
+          "title": "Stocks Plunge as AI Selloff Pushes S&P 500 and Dow Into Correction",
+          "url": "https://www.breitbart.com/economy/2026/11/20/stocks-plunge-as-ai-selloff-pushes-sp-500-and-dow-into-correction/",
+          "source": "Breitbart News Network",
+          "date": "2026-11-20"
+        },
         {
           "title": "Dow Crashes Below 50,000 in Bloodbath as Anthropic\u2019s $2 Trillion Debut Sparks Panic Selling",
           "url": "https://www.naturalnews.com/2026-11-20-dow-crashes-bloodbath-anthropic-debut-panic-selling.html",
           "source": "Natural News",
           "date": "2026-11-20"
-        },
-        {
-          "title": "Wall Street zigzags as Nvidia and other AI stocks keep swinging",
-          "url": "https://www.ajc.com/news/2026/11/wall-street-zigzags-as-nvidia-and-other-ai-stocks-keep-swinging/",
-          "source": "The Atlanta Journal-Constitution",
-          "date": "2026-11-18"
-        },
-        {
-          "title": "Wall Street wobbles as Nvidia and other AI stocks keep swinging sharply",
-          "url": "https://www.ajc.com/news/2026/11/wall-street-wobbles-as-nvidia-and-other-ai-stocks-keep-swinging-sharply/",
-          "source": "The Atlanta Journal-Constitution",
-          "date": "2026-11-18"
         }
       ]
     }
@@ -6235,7 +6247,8 @@
         "2026-11-16",
         "2026-11-17",
         "2026-11-18",
-        "2026-11-19"
+        "2026-11-19",
+        "2026-11-20"
       ],
       "values": [
         0.06,
@@ -10578,6 +10591,7 @@
         3.88,
         3.88,
         3.88,
+        3.88,
         3.88
       ],
       "freq": "monthly"
@@ -13555,7 +13569,8 @@
         "2026-11-16",
         "2026-11-17",
         "2026-11-18",
-        "2026-11-19"
+        "2026-11-19",
+        "2026-11-20"
       ],
       "values": [
         2.12,
@@ -16529,7 +16544,8 @@
         5.12,
         5.1,
         5.07,
-        5.04
+        5.04,
+        4.92
       ],
       "freq": "monthly"
     },
@@ -18108,7 +18124,7 @@
         "2026-08-31",
         "2026-09-30",
         "2026-10-30",
-        "2026-11-19"
+        "2026-11-20"
       ],
       "values": [
         2198.81,
@@ -18231,7 +18247,7 @@
         7686.14,
         7651.54,
         7580.07,
-        7175.83
+        6910.39
       ],
       "freq": "monthly"
     },
@@ -18650,7 +18666,7 @@
         "2026-08-31",
         "2026-09-30",
         "2026-10-30",
-        "2026-11-20"
+        "2026-11-23"
       ],
       "values": [
         19123.58,
@@ -18773,7 +18789,7 @@
         53185.9,
         50906.05,
         51770.31,
-        48147.33
+        49595.31
       ],
       "freq": "monthly"
     }
