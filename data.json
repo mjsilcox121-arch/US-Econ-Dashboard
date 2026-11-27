@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26T03:24:27Z",
+  "updated": "2026-11-27T03:32:25Z",
   "metrics": {
     "gdp": {
       "value": 4.3,
@@ -165,12 +165,6 @@
           "url": "https://www.cnbc.com/2026/11/06/jobs-report-october-2026.html",
           "source": "CNBC",
           "date": "2026-11-06"
-        },
-        {
-          "title": "The October jobs report is out Friday. Here's everything to expect",
-          "url": "https://www.cnbc.com/2026/11/05/october-jobs-report-preview.html",
-          "source": "CNBC",
-          "date": "2026-11-05"
         }
       ]
     },
@@ -227,15 +221,7 @@
       "change": {
         "text": "\u2191 from -$105737B",
         "sign": "pos"
-      },
-      "news": [
-        {
-          "title": "US trade deficit narrows to $105.0 billion in September as exports outpace imports",
-          "url": "https://sainteur.com/article/us-trade-deficit-narrows-to-105-0-billion-in-september-as-exports-outpace",
-          "source": "Sainteur",
-          "date": "2026-11-05"
-        }
-      ]
+      }
     },
     "sent": {
       "value": 48.0,
@@ -280,33 +266,33 @@
       },
       "news": [
         {
+          "title": "Nvidia whiplash shows how much investors\u2019 financial futures depend on tech as the AI boom falters",
+          "url": "https://fortune.com/2026/11/25/retirement-investors-tech-stocks-nasdaq-sp500-jensen-huang-ai-trade/",
+          "source": "Fortune",
+          "date": "2026-11-25"
+        },
+        {
+          "title": "How major US stock indexes fared Wednesday 11",
+          "url": "https://wtop.com/national/2026/11/how-major-us-stock-indexes-fared-wednesday-11-25-2026/",
+          "source": "WTOP",
+          "date": "2026-11-25"
+        },
+        {
           "title": "Stock market today: Dow, S&P 500, Nasdaq futures fall on hot inflation, new Trump tariffs",
           "url": "https://www.europesays.com/3400036/",
           "source": "EUROPE SAYS",
           "date": "2026-11-25"
-        },
-        {
-          "title": "How major US stock indexes fared Tuesday 11",
-          "url": "https://wtop.com/national/2026/11/how-major-us-stock-indexes-fared-tuesday-11-24-2026/",
-          "source": "WTOP",
-          "date": "2026-11-24"
-        },
-        {
-          "title": "Stock market today: Dow, S&P 500, Nasdaq futures fall as chip stocks fall, investors test Nvidia",
-          "url": "https://www.europesays.com/3397709/",
-          "source": "EUROPE SAYS",
-          "date": "2026-11-24"
         }
       ]
     },
     "nasdaq": {
-      "value": 23733.54,
-      "date": "2026-11-24",
+      "value": 23585.8,
+      "date": "2026-11-25",
       "label": "Nov 2026",
-      "display": "23,734",
-      "reading": "Nov 2026: 23,734, down from 25,437 in Oct 2026.",
+      "display": "23,586",
+      "reading": "Nov 2026: 23,586, down from 25,437 in Oct 2026.",
       "change": {
-        "text": "\u2191 2.1% YTD",
+        "text": "\u2191 1.5% YTD",
         "sign": "pos"
       },
       "news": [
@@ -317,15 +303,15 @@
           "date": "2026-11-23"
         },
         {
+          "title": "Stocks turn volatile as Jensen Huang rebound rally fades",
+          "url": "https://www.cbsnews.com/news/stocks-jensen-huang-bounce-ai-tariffs/",
+          "source": "CBS News",
+          "date": "2026-11-25"
+        },
+        {
           "title": "Nasdaq surges 6.5% in second-largest one-day gain ever as Nvidia leads tech, AI stocks higher",
           "url": "https://nypost.com/2026/11/23/business/nasdaq-surges-6-5-in-second-largest-one-day-gain-ever-as-nvidia-leads-tech-ai-stocks-higher/",
           "source": "New York Post",
-          "date": "2026-11-23"
-        },
-        {
-          "title": "US stocks set to rebound after bruising sell-off",
-          "url": "https://abc17news.com/money/cnn-business-consumer/2026/11/23/us-stocks-set-to-rebound-after-bruising-sell-off/",
-          "source": "ABC17News.com",
           "date": "2026-11-23"
         }
       ]
@@ -18411,7 +18397,7 @@
         "2026-08-31",
         "2026-09-30",
         "2026-10-30",
-        "2026-11-24"
+        "2026-11-25"
       ],
       "values": [
         4635.24,
@@ -18556,7 +18542,7 @@
         26370.89,
         26861.06,
         25437.0,
-        23733.54
+        23585.8
       ],
       "freq": "monthly"
     },
