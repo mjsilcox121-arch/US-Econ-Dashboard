@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T03:32:25Z",
+  "updated": "2026-11-28T03:09:08Z",
   "metrics": {
     "gdp": {
       "value": 4.3,
@@ -28,18 +28,6 @@
           "url": "https://www.arkansasonline.com/news/2026/nov/07/us-adds-165000-jobs-in-october/",
           "source": "Arkansas Online",
           "date": "2026-11-07"
-        },
-        {
-          "title": "Could the \u2018blue tsunami\u2019 jolt the US job market back to life?",
-          "url": "https://abc17news.com/money/cnn-business-consumer/2026/11/06/could-the-blue-tsunami-jolt-the-us-job-market-back-to-life/",
-          "source": "ABC17News.com",
-          "date": "2026-11-06"
-        },
-        {
-          "title": "US adds 165,000 jobs, topping all forecasts in broad advance",
-          "url": "https://www.spokesman.com/stories/2026/nov/06/us-adds-165000-jobs-topping-all-forecasts-in-broad/",
-          "source": "Spokane Spokesman-Review",
-          "date": "2026-11-06"
         }
       ]
     },
@@ -109,7 +97,7 @@
     },
     "ffr": {
       "value": 3.88,
-      "date": "2026-11-24",
+      "date": "2026-11-26",
       "label": "Nov 2026",
       "display": "3.88%",
       "reading": "Nov 2026: 3.88%, unchanged from 3.88% in Nov 2026 \u2014 its highest reading in 12 months.",
@@ -139,13 +127,13 @@
       ]
     },
     "ten": {
-      "value": 4.91,
-      "date": "2026-11-24",
+      "value": 4.85,
+      "date": "2026-11-25",
       "label": "Nov 2026",
-      "display": "4.91%",
-      "reading": "Nov 2026: 4.91%, down from 4.92% in Nov 2026.",
+      "display": "4.85%",
+      "reading": "Nov 2026: 4.85%, down from 4.91% in Nov 2026 \u2014 its lowest reading in 12 months.",
       "change": {
-        "text": "\u2193 from 4.92%",
+        "text": "\u2193 from 4.91%",
         "sign": "flat"
       }
     },
@@ -158,15 +146,7 @@
       "change": {
         "text": "\u2191 from +60K",
         "sign": "pos"
-      },
-      "news": [
-        {
-          "title": "Jobs report October 2026:",
-          "url": "https://www.cnbc.com/2026/11/06/jobs-report-october-2026.html",
-          "source": "CNBC",
-          "date": "2026-11-06"
-        }
-      ]
+      }
     },
     "retail": {
       "value": 0.212,
@@ -255,16 +235,22 @@
       ]
     },
     "sp500": {
-      "value": 7201.09,
-      "date": "2026-11-24",
+      "value": 7182.78,
+      "date": "2026-11-25",
       "label": "Nov 2026",
-      "display": "7,201",
-      "reading": "Nov 2026: 7,201, down from 7,580 in Oct 2026.",
+      "display": "7,183",
+      "reading": "Nov 2026: 7,183, down from 7,580 in Oct 2026.",
       "change": {
-        "text": "\u2191 5.2% YTD",
+        "text": "\u2191 4.9% YTD",
         "sign": "pos"
       },
       "news": [
+        {
+          "title": "Stocks Could Fall 20% As Huang Fails to Revive AI Boom, Research Firm Warns",
+          "url": "https://www.businessinsider.com/stock-market-drop-sp500-prediction-jensen-huang-ai-bubble-2026-11",
+          "source": "Business Insider",
+          "date": "2026-11-27"
+        },
         {
           "title": "Nvidia whiplash shows how much investors\u2019 financial futures depend on tech as the AI boom falters",
           "url": "https://fortune.com/2026/11/25/retirement-investors-tech-stocks-nasdaq-sp500-jensen-huang-ai-trade/",
@@ -275,12 +261,6 @@
           "title": "How major US stock indexes fared Wednesday 11",
           "url": "https://wtop.com/national/2026/11/how-major-us-stock-indexes-fared-wednesday-11-25-2026/",
           "source": "WTOP",
-          "date": "2026-11-25"
-        },
-        {
-          "title": "Stock market today: Dow, S&P 500, Nasdaq futures fall on hot inflation, new Trump tariffs",
-          "url": "https://www.europesays.com/3400036/",
-          "source": "EUROPE SAYS",
           "date": "2026-11-25"
         }
       ]
@@ -317,13 +297,13 @@
       ]
     },
     "dow": {
-      "value": 50182.95,
-      "date": "2026-11-25",
+      "value": 50774.94,
+      "date": "2026-11-27",
       "label": "Nov 2026",
-      "display": "50,183",
-      "reading": "Nov 2026: 50,183, down from 51,770 in Oct 2026.",
+      "display": "50,775",
+      "reading": "Nov 2026: 50,775, down from 51,770 in Oct 2026.",
       "change": {
-        "text": "\u2191 4.4% YTD",
+        "text": "\u2191 5.6% YTD",
         "sign": "pos"
       },
       "news": [
@@ -6242,7 +6222,9 @@
         "2026-11-21",
         "2026-11-22",
         "2026-11-23",
-        "2026-11-24"
+        "2026-11-24",
+        "2026-11-25",
+        "2026-11-26"
       ],
       "values": [
         0.06,
@@ -10590,6 +10572,8 @@
         3.88,
         3.88,
         3.88,
+        3.88,
+        3.88,
         3.88
       ],
       "freq": "monthly"
@@ -13570,7 +13554,8 @@
         "2026-11-19",
         "2026-11-20",
         "2026-11-23",
-        "2026-11-24"
+        "2026-11-24",
+        "2026-11-25"
       ],
       "values": [
         2.12,
@@ -16547,7 +16532,8 @@
         5.04,
         4.92,
         4.92,
-        4.91
+        4.91,
+        4.85
       ],
       "freq": "monthly"
     },
@@ -18126,7 +18112,7 @@
         "2026-08-31",
         "2026-09-30",
         "2026-10-30",
-        "2026-11-24"
+        "2026-11-25"
       ],
       "values": [
         2198.81,
@@ -18249,7 +18235,7 @@
         7686.14,
         7651.54,
         7580.07,
-        7201.09
+        7182.78
       ],
       "freq": "monthly"
     },
@@ -18668,7 +18654,7 @@
         "2026-08-31",
         "2026-09-30",
         "2026-10-30",
-        "2026-11-25"
+        "2026-11-27"
       ],
       "values": [
         19123.58,
@@ -18791,7 +18777,7 @@
         53185.9,
         50906.05,
         51770.31,
-        50182.95
+        50774.94
       ],
       "freq": "monthly"
     }
